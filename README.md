@@ -1,6 +1,8 @@
-# European Portuguese A2 Vocabulary Trainer
+# European Portuguese A1 + A2 Vocabulary Trainer
 
-Browser-based vocabulary practice app for beginner European Portuguese, organized by `modulo`.
+Browser-based vocabulary practice app for beginner European Portuguese, organized by `Módulo`.
+
+The app uses the reviewed extracted vocabulary in `src/data/vocabulary.ts`. The original workbook PDF is not required to run, test, or deploy the app.
 
 ## Run
 
@@ -18,14 +20,13 @@ npm run build
 npm run e2e
 ```
 
-## PDF extraction
+## Vocabulary data
 
-The current workspace contains an iCloud placeholder named `.Caderno de Formação_A2.pdf.icloud`, not the real PDF. Download the full PDF into this directory first, then run:
+Curated source fragments live in `src/data/fragments/`. To regenerate the app dataset after editing those fragments, run:
 
 ```bash
-npm run extract:vocab -- "Caderno de Formação_A2.pdf" extracted-vocabulary-draft.json
+npm run merge:vocab
+npm run validate:data
 ```
 
-Review the extracted Portuguese terms, add English translations, and then replace `src/data/vocabulary.ts` with reviewed entries marked as `source: "pdf"`.
-
-The seed entries currently in the app are only for development and testing.
+PDF files and raw extraction drafts are intentionally ignored because the reviewed vocabulary has already been extracted into the repository.

@@ -6,3 +6,4 @@ playwright-report/
 coverage/
 *.tsbuildinfo
 extracted-vocabulary-draft.json
+*.pdf
