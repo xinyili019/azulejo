@@ -1,9 +1,11 @@
 :root {
-  color: #0b2d4d;
+  color: #082f5f;
   background:
-    radial-gradient(circle at 16px 16px, rgba(33, 106, 166, 0.08) 0 2px, transparent 3px),
-    linear-gradient(135deg, #f8fbff 0%, #e7f0f8 48%, #fffaf0 100%);
-  background-size: 32px 32px, auto;
+    linear-gradient(90deg, rgba(14, 78, 146, 0.055) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(14, 78, 146, 0.055) 1px, transparent 1px),
+    radial-gradient(circle at 18% 14%, rgba(70, 140, 205, 0.12), transparent 26%),
+    linear-gradient(135deg, #f9fbff 0%, #eef5fb 48%, #f7fbff 100%);
+  background-size: 38px 38px, 38px 38px, auto, auto;
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-synthesis: none;
@@ -34,10 +36,10 @@ select {
 
 .workspace,
 .dashboard {
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid #b9d1e6;
+  background: rgba(255, 253, 245, 0.9);
+  border: 1px solid #b7cce5;
   border-radius: 8px;
-  box-shadow: 0 22px 60px rgba(13, 57, 96, 0.14);
+  box-shadow: 0 22px 60px rgba(5, 43, 92, 0.14);
 }
 
 .workspace {
@@ -56,7 +58,7 @@ select {
 
 .eyebrow {
   margin: 0 0 6px;
-  color: #0f5c9d;
+  color: #0f55a2;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0;
@@ -92,9 +94,9 @@ h1 {
 
 .icon-button {
   width: 44px;
-  background: #e2eff8;
-  color: #0b4f86;
-  border: 1px solid #a8c7df;
+  background: #eef5fb;
+  color: #083f82;
+  border: 1px solid #a8c2df;
 }
 
 .icon-button input {
@@ -103,17 +105,17 @@ h1 {
 
 .primary {
   padding: 0 18px;
-  background: #0b5f9d;
-  color: white;
-  box-shadow: 0 10px 24px rgba(11, 95, 157, 0.24);
+  background: rgba(8, 63, 130, 0.92);
+  color: #fffdf5;
+  box-shadow: 0 10px 24px rgba(8, 63, 130, 0.28);
 }
 
 .secondary {
   padding: 0 18px;
-  background: #fff8e7;
-  color: #8f5b00;
-  border: 1px solid #e3bd68;
-  box-shadow: 0 10px 24px rgba(143, 91, 0, 0.14);
+  background: rgba(190, 137, 31, 0.9);
+  color: #fffaf0;
+  border: 1px solid rgba(255, 240, 190, 0.42);
+  box-shadow: 0 10px 24px rgba(117, 77, 10, 0.2);
 }
 
 .primary:disabled,
@@ -131,7 +133,7 @@ h1 {
 }
 
 .controls label {
-  color: #285b7f;
+  color: #244f7b;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -141,10 +143,10 @@ h1 {
 
 select {
   min-height: 42px;
-  border: 1px solid #a8c7df;
+  border: 1px solid #a8c2df;
   border-radius: 6px;
-  background: #fbfdff;
-  color: #0b2d4d;
+  background: #fffdf7;
+  color: #082f5f;
   padding: 0 12px;
 }
 
@@ -195,38 +197,42 @@ select {
   inset: 0;
   height: var(--tile-height);
   min-height: var(--tile-height);
-  border: 1px solid #6aa1ca;
+  border: 1px solid #356fac;
   border-radius: 8px;
-  padding: 32px;
+  padding: 34px;
   display: grid;
-  grid-template-rows: auto 1fr;
-  gap: 24px;
+  place-items: center;
   text-align: center;
   backface-visibility: hidden;
   overflow: hidden;
   box-shadow:
-    inset 0 0 0 10px rgba(255, 255, 255, 0.72),
-    inset 0 0 0 13px rgba(22, 93, 151, 0.68),
-    0 24px 70px rgba(13, 57, 96, 0.2);
+    inset 0 0 0 9px rgba(255, 253, 245, 0.9),
+    inset 0 0 0 12px rgba(8, 63, 130, 0.72),
+    inset 0 0 0 16px rgba(89, 146, 198, 0.45),
+    0 24px 70px rgba(5, 43, 92, 0.22);
 }
 
 .tile-face::before {
   content: "";
   position: absolute;
-  inset: 14px;
+  inset: 18px;
   background:
-    radial-gradient(circle at 0 0, transparent 0 22px, rgba(12, 90, 154, 0.46) 23px 25px, transparent 26px),
-    radial-gradient(circle at 28px 28px, transparent 0 15px, rgba(12, 90, 154, 0.38) 16px 18px, transparent 19px),
-    conic-gradient(from 180deg at 58px 58px, transparent 0 22deg, rgba(12, 90, 154, 0.34) 23deg 35deg, transparent 36deg 54deg, rgba(12, 90, 154, 0.34) 55deg 68deg, transparent 69deg),
-    radial-gradient(circle at 100% 0, transparent 0 22px, rgba(12, 90, 154, 0.46) 23px 25px, transparent 26px),
-    radial-gradient(circle at calc(100% - 28px) 28px, transparent 0 15px, rgba(12, 90, 154, 0.38) 16px 18px, transparent 19px),
-    conic-gradient(from 270deg at calc(100% - 58px) 58px, transparent 0 22deg, rgba(12, 90, 154, 0.34) 23deg 35deg, transparent 36deg 54deg, rgba(12, 90, 154, 0.34) 55deg 68deg, transparent 69deg),
-    radial-gradient(circle at 0 100%, transparent 0 22px, rgba(12, 90, 154, 0.46) 23px 25px, transparent 26px),
-    radial-gradient(circle at 28px calc(100% - 28px), transparent 0 15px, rgba(12, 90, 154, 0.38) 16px 18px, transparent 19px),
-    conic-gradient(from 90deg at 58px calc(100% - 58px), transparent 0 22deg, rgba(12, 90, 154, 0.34) 23deg 35deg, transparent 36deg 54deg, rgba(12, 90, 154, 0.34) 55deg 68deg, transparent 69deg),
-    radial-gradient(circle at 100% 100%, transparent 0 22px, rgba(12, 90, 154, 0.46) 23px 25px, transparent 26px),
-    radial-gradient(circle at calc(100% - 28px) calc(100% - 28px), transparent 0 15px, rgba(12, 90, 154, 0.38) 16px 18px, transparent 19px),
-    conic-gradient(from 0deg at calc(100% - 58px) calc(100% - 58px), transparent 0 22deg, rgba(12, 90, 154, 0.34) 23deg 35deg, transparent 36deg 54deg, rgba(12, 90, 154, 0.34) 55deg 68deg, transparent 69deg);
+    radial-gradient(circle at 0 0, transparent 0 18px, rgba(8, 63, 130, 0.78) 19px 22px, transparent 23px),
+    radial-gradient(circle at 18px 18px, transparent 0 14px, rgba(96, 154, 208, 0.72) 15px 17px, transparent 18px),
+    radial-gradient(circle at 48px 48px, transparent 0 22px, rgba(8, 63, 130, 0.52) 23px 26px, transparent 27px),
+    conic-gradient(from 180deg at 74px 74px, transparent 0 13deg, rgba(8, 63, 130, 0.68) 14deg 24deg, transparent 25deg 37deg, rgba(96, 154, 208, 0.58) 38deg 48deg, transparent 49deg 62deg, rgba(8, 63, 130, 0.62) 63deg 74deg, transparent 75deg),
+    radial-gradient(circle at 100% 0, transparent 0 18px, rgba(8, 63, 130, 0.78) 19px 22px, transparent 23px),
+    radial-gradient(circle at calc(100% - 18px) 18px, transparent 0 14px, rgba(96, 154, 208, 0.72) 15px 17px, transparent 18px),
+    radial-gradient(circle at calc(100% - 48px) 48px, transparent 0 22px, rgba(8, 63, 130, 0.52) 23px 26px, transparent 27px),
+    conic-gradient(from 270deg at calc(100% - 74px) 74px, transparent 0 13deg, rgba(8, 63, 130, 0.68) 14deg 24deg, transparent 25deg 37deg, rgba(96, 154, 208, 0.58) 38deg 48deg, transparent 49deg 62deg, rgba(8, 63, 130, 0.62) 63deg 74deg, transparent 75deg),
+    radial-gradient(circle at 0 100%, transparent 0 18px, rgba(8, 63, 130, 0.78) 19px 22px, transparent 23px),
+    radial-gradient(circle at 18px calc(100% - 18px), transparent 0 14px, rgba(96, 154, 208, 0.72) 15px 17px, transparent 18px),
+    radial-gradient(circle at 48px calc(100% - 48px), transparent 0 22px, rgba(8, 63, 130, 0.52) 23px 26px, transparent 27px),
+    conic-gradient(from 90deg at 74px calc(100% - 74px), transparent 0 13deg, rgba(8, 63, 130, 0.68) 14deg 24deg, transparent 25deg 37deg, rgba(96, 154, 208, 0.58) 38deg 48deg, transparent 49deg 62deg, rgba(8, 63, 130, 0.62) 63deg 74deg, transparent 75deg),
+    radial-gradient(circle at 100% 100%, transparent 0 18px, rgba(8, 63, 130, 0.78) 19px 22px, transparent 23px),
+    radial-gradient(circle at calc(100% - 18px) calc(100% - 18px), transparent 0 14px, rgba(96, 154, 208, 0.72) 15px 17px, transparent 18px),
+    radial-gradient(circle at calc(100% - 48px) calc(100% - 48px), transparent 0 22px, rgba(8, 63, 130, 0.52) 23px 26px, transparent 27px),
+    conic-gradient(from 0deg at calc(100% - 74px) calc(100% - 74px), transparent 0 13deg, rgba(8, 63, 130, 0.68) 14deg 24deg, transparent 25deg 37deg, rgba(96, 154, 208, 0.58) 38deg 48deg, transparent 49deg 62deg, rgba(8, 63, 130, 0.62) 63deg 74deg, transparent 75deg);
   pointer-events: none;
 }
 
@@ -235,39 +241,17 @@ select {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.7), transparent 28%, rgba(6, 64, 118, 0.08) 72%, rgba(255, 255, 255, 0.45));
+    linear-gradient(135deg, rgba(255, 255, 255, 0.64), transparent 28%, rgba(6, 64, 118, 0.055) 72%, rgba(255, 255, 255, 0.42));
   pointer-events: none;
 }
 
 .tile-front,
 .tile-back {
-  background:
-    radial-gradient(circle at 20% 18%, rgba(40, 130, 190, 0.12), transparent 28%),
-    radial-gradient(circle at 80% 82%, rgba(240, 177, 49, 0.14), transparent 30%),
-    linear-gradient(180deg, #fffdf7 0%, #f0f7fc 100%);
+  background: linear-gradient(180deg, #fbfdff 0%, #f3f8fb 100%);
 }
 
 .tile-back {
   transform: rotateY(180deg);
-}
-
-.card-meta {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  position: relative;
-  z-index: 1;
-}
-
-.card-meta span {
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(22, 93, 151, 0.22);
-  border-radius: 999px;
-  color: #0b4f86;
-  padding: 6px 10px;
-  font-size: 0.8rem;
-  font-weight: 700;
 }
 
 .prompt {
@@ -277,17 +261,16 @@ select {
   overflow-wrap: anywhere;
   position: relative;
   z-index: 1;
-  color: #083b68;
+  color: #083f82;
   text-shadow: 0 1px 0 #ffffff;
 }
 
 .tile-content {
-  align-self: center;
-  justify-self: stretch;
   display: grid;
   place-items: center;
   gap: 12px;
-  padding: 18px 24px 48px;
+  width: min(760px, 100%);
+  padding: 42px 24px 54px;
   position: relative;
   z-index: 1;
 }
@@ -305,7 +288,7 @@ select {
   overflow-wrap: anywhere;
   position: relative;
   z-index: 1;
-  color: #083b68;
+  color: #083f82;
   text-shadow: 0 1px 0 #ffffff;
 }
 
@@ -313,6 +296,8 @@ select {
 .note {
   margin: 0;
   color: #285b7f;
+  font-size: 1.08rem;
+  line-height: 1.55;
   position: relative;
   z-index: 1;
   max-width: 760px;
@@ -324,7 +309,7 @@ select {
 }
 
 .note {
-  border-left: 3px solid #d19a24;
+  border-left: 3px solid #356fac;
   padding-left: 10px;
 }
 

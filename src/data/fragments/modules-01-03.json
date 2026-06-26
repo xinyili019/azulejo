@@ -164,8 +164,8 @@
     "examplePt": "Ele é viúvo. Ela é viúva.",
     "note": "",
     "source": "pdf",
-    "zhHans": "寡",
-    "zhHant": "寡"
+    "zhHans": "鳏寡/丧偶",
+    "zhHant": "鰥寡/喪偶"
   },
   {
     "id": "m1-morada",
@@ -620,8 +620,8 @@
     "examplePt": "A data é em março.",
     "note": "",
     "source": "pdf",
-    "zhHans": "行进",
-    "zhHant": "行進"
+    "zhHans": "三月",
+    "zhHant": "三月"
   },
   {
     "id": "m1-abril",
@@ -644,8 +644,8 @@
     "examplePt": "A data é em maio.",
     "note": "",
     "source": "pdf",
-    "zhHans": "可能",
-    "zhHant": "可能"
+    "zhHans": "五月",
+    "zhHant": "五月"
   },
   {
     "id": "m1-junho",
@@ -764,8 +764,8 @@
     "examplePt": "O meu filho estuda. A minha filha estuda.",
     "note": "",
     "source": "pdf",
-    "zhHans": "孩子;儿子或女儿",
-    "zhHant": "孩子;兒子或女兒"
+    "zhHans": "孩子/子女",
+    "zhHant": "孩子/子女"
   },
   {
     "id": "m1-mulher",
@@ -860,8 +860,8 @@
     "examplePt": "Boa noite!",
     "note": "",
     "source": "pdf",
-    "zhHans": "晚上好;晚安",
-    "zhHant": "晚上好;晚安"
+    "zhHans": "晚上好/晚安",
+    "zhHant": "晚上好/晚安"
   },
   {
     "id": "m1-tudo-bem",
@@ -956,8 +956,8 @@
     "examplePt": "Moro no segundo andar.",
     "note": "",
     "source": "pdf",
-    "zhHans": "楼层/走路",
-    "zhHant": "樓層/走路"
+    "zhHans": "楼层",
+    "zhHant": "樓層"
   },
   {
     "id": "m1-quarto",
@@ -1040,8 +1040,8 @@
     "examplePt": "O valor da renda é 200 euros.",
     "note": "",
     "source": "pdf",
-    "zhHans": "房租/收入",
-    "zhHant": "房租/收入"
+    "zhHans": "房租",
+    "zhHant": "租金/房租"
   },
   {
     "id": "m1-ser",
@@ -1052,8 +1052,8 @@
     "examplePt": "Eu sou o Ahmed.",
     "note": "",
     "source": "pdf",
-    "zhHans": "成为",
-    "zhHant": "成為"
+    "zhHans": "是",
+    "zhHant": "是"
   },
   {
     "id": "m1-estar",
@@ -1064,8 +1064,8 @@
     "examplePt": "Eu estou em Lisboa.",
     "note": "",
     "source": "pdf",
-    "zhHans": "成为；位于",
-    "zhHant": "成為；位於"
+    "zhHans": "是/在",
+    "zhHant": "是/在"
   },
   {
     "id": "m1-ter",
@@ -1088,8 +1088,8 @@
     "examplePt": "Moro em Odivelas.",
     "note": "",
     "source": "pdf",
-    "zhHans": "生活",
-    "zhHant": "生活"
+    "zhHans": "居住",
+    "zhHant": "居住"
   },
   {
     "id": "m1-trabalhar",
@@ -1100,8 +1100,8 @@
     "examplePt": "Ela trabalha no supermercado.",
     "note": "",
     "source": "pdf",
-    "zhHans": "去工作",
-    "zhHant": "去工作"
+    "zhHans": "工作",
+    "zhHant": "工作"
   },
   {
     "id": "m1-quem",
@@ -1112,8 +1112,8 @@
     "examplePt": "Quem é o Ahmed?",
     "note": "",
     "source": "pdf",
-    "zhHans": "WHO",
-    "zhHant": "世界衛生組織"
+    "zhHans": "谁",
+    "zhHant": "誰"
   },
   {
     "id": "m1-qual",
@@ -1124,8 +1124,8 @@
     "examplePt": "Qual é a sua morada?",
     "note": "",
     "source": "pdf",
-    "zhHans": "哪个;什么",
-    "zhHant": "哪個;什麼"
+    "zhHans": "哪一个/什么",
+    "zhHant": "哪一個/什麼"
   },
   {
     "id": "m1-onde",
@@ -1160,8 +1160,8 @@
     "examplePt": "Que trabalho faz?",
     "note": "",
     "source": "pdf",
-    "zhHans": "什么",
-    "zhHant": "什麼"
+    "zhHans": "那/哪个/谁",
+    "zhHant": "那/哪個/誰"
   },
   {
     "id": "m1-quantos",
@@ -1292,8 +1292,8 @@
     "examplePt": "Olá, que horas são?",
     "note": "",
     "source": "pdf",
-    "zhHans": "现在是几奌？",
-    "zhHant": "現在是幾奌？"
+    "zhHans": "现在几点？",
+    "zhHant": "現在幾點？"
   },
   {
     "id": "m2-meio-dia",
@@ -1568,8 +1568,8 @@
     "examplePt": "Saio de casa cedo.",
     "note": "",
     "source": "pdf",
-    "zhHans": "离开；出去",
-    "zhHant": "離開；出去"
+    "zhHans": "离开/出去",
+    "zhHant": "離開/出去"
   },
   {
     "id": "m2-ha",
@@ -1580,8 +1580,8 @@
     "examplePt": "Há muito trânsito.",
     "note": "",
     "source": "pdf",
-    "zhHans": "有;有;前",
-    "zhHant": "有;有;前"
+    "zhHans": "有/已经过去",
+    "zhHant": "有/已經過去"
   },
   {
     "id": "m2-transito",
@@ -1652,8 +1652,8 @@
     "examplePt": "Queria uma bica.",
     "note": "",
     "source": "pdf",
-    "zhHans": "咖啡;咖啡店",
-    "zhHant": "咖啡;咖啡店"
+    "zhHans": "咖啡/咖啡馆",
+    "zhHant": "咖啡/咖啡館"
   },
   {
     "id": "m3-agua",
@@ -1904,8 +1904,8 @@
     "examplePt": "Compro carne no talho.",
     "note": "",
     "source": "pdf",
-    "zhHans": "屠夫的",
-    "zhHant": "屠夫的"
+    "zhHans": "肉店",
+    "zhHant": "肉店"
   },
   {
     "id": "m3-peixaria",
@@ -2012,8 +2012,8 @@
     "examplePt": "Vou pedir a conta.",
     "note": "",
     "source": "pdf",
-    "zhHans": "要求；订购",
-    "zhHant": "要求；訂購"
+    "zhHans": "请求/点餐",
+    "zhHant": "請求/點餐"
   },
   {
     "id": "m3-querer",
@@ -2036,8 +2036,8 @@
     "examplePt": "Posso pagar com multibanco?",
     "note": "",
     "source": "pdf",
-    "zhHans": "能;能够",
-    "zhHant": "能;能夠"
+    "zhHans": "能/能够",
+    "zhHant": "能/能夠"
   },
   {
     "id": "m3-caro",

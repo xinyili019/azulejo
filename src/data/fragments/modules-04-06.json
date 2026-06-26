@@ -272,8 +272,8 @@
     "examplePt": "O tempo está fresco. A noite está fresca.",
     "note": "",
     "source": "pdf",
-    "zhHans": "凉爽的;新鲜的",
-    "zhHant": "涼爽的;新鮮的"
+    "zhHans": "凉爽/新鲜",
+    "zhHant": "涼爽/新鮮"
   },
   {
     "id": "m4-frio",
@@ -572,8 +572,8 @@
     "examplePt": "Levo a roupa à lavandaria.",
     "note": "",
     "source": "pdf",
-    "zhHans": "自助洗衣店",
-    "zhHant": "自助洗衣店"
+    "zhHans": "洗衣店/自助洗衣店",
+    "zhHant": "洗衣店/自助洗衣店"
   },
   {
     "id": "m5-oculista",
@@ -632,8 +632,8 @@
     "examplePt": "Vire à esquerda.",
     "note": "",
     "source": "pdf",
-    "zhHans": "向左转",
-    "zhHant": "向左轉"
+    "zhHans": "左边/向左",
+    "zhHant": "左邊/向左"
   },
   {
     "id": "m5-a-direita",
@@ -680,8 +680,8 @@
     "examplePt": "O autocarro passa pelo Areeiro.",
     "note": "",
     "source": "pdf",
-    "zhHans": "通过",
-    "zhHant": "透過"
+    "zhHans": "经过/通过",
+    "zhHant": "經過/通過"
   },
   {
     "id": "m5-subir",
@@ -764,8 +764,8 @@
     "examplePt": "Preencha este impresso.",
     "note": "",
     "source": "pdf",
-    "zhHans": "形式",
-    "zhHant": "形式"
+    "zhHans": "表格",
+    "zhHant": "表格"
   },
   {
     "id": "m5-fatura",
@@ -788,8 +788,8 @@
     "examplePt": "Queria renovar a autorização de residência.",
     "note": "",
     "source": "pdf",
-    "zhHans": "更新",
-    "zhHant": "更新"
+    "zhHans": "续签/更新",
+    "zhHant": "續簽/更新"
   },
   {
     "id": "m5-autorizacao-de-residencia",
@@ -932,8 +932,8 @@
     "examplePt": "Quero poupar no supermercado.",
     "note": "",
     "source": "pdf",
-    "zhHans": "为了省钱",
-    "zhHant": "為了省錢"
+    "zhHans": "存钱/省钱",
+    "zhHant": "存錢/省錢"
   },
   {
     "id": "m5-supermercado",
@@ -944,8 +944,8 @@
     "examplePt": "Vou ao supermercado.",
     "note": "",
     "source": "pdf",
-    "zhHans": "超级市场",
-    "zhHant": "超市場"
+    "zhHans": "超市",
+    "zhHant": "超級市場"
   },
   {
     "id": "m5-daqui",
@@ -980,8 +980,8 @@
     "examplePt": "Vá a pé até ao ACM.",
     "note": "",
     "source": "pdf",
-    "zhHans": "步行",
-    "zhHant": "行人徒步區"
+    "zhHans": "步行/走路去",
+    "zhHant": "步行/走路去"
   },
   {
     "id": "m5-demorar",
@@ -1004,8 +1004,8 @@
     "examplePt": "Sabe onde ficam os Correios?",
     "note": "",
     "source": "pdf",
-    "zhHans": "知道",
-    "zhHant": "知道"
+    "zhHans": "知道/会",
+    "zhHant": "知道/會"
   },
   {
     "id": "m5-motorista",
@@ -1040,8 +1040,8 @@
     "examplePt": "Não atenda o telemóvel.",
     "note": "",
     "source": "pdf",
-    "zhHans": "回答",
-    "zhHant": "回答"
+    "zhHans": "接电话",
+    "zhHant": "接電話"
   },
   {
     "id": "m5-desligar",
@@ -1076,8 +1076,8 @@
     "examplePt": "Contorne a rotunda.",
     "note": "",
     "source": "pdf",
-    "zhHans": "迂回",
-    "zhHant": "迂迴"
+    "zhHans": "环岛",
+    "zhHant": "圓環/環形交叉路口"
   },
   {
     "id": "m5-semaforo",
@@ -1112,8 +1112,8 @@
     "examplePt": "Ele dá-me o troco.",
     "note": "",
     "source": "pdf",
-    "zhHans": "改变",
-    "zhHant": "改變"
+    "zhHans": "找零",
+    "zhHant": "找零"
   },
   {
     "id": "m5-imobiliaria",
@@ -1136,8 +1136,8 @@
     "examplePt": "Vou mostrar-vos o novo apartamento.",
     "note": "",
     "source": "pdf",
-    "zhHans": "平坦的",
-    "zhHant": "平坦的"
+    "zhHans": "公寓",
+    "zhHant": "公寓"
   },
   {
     "id": "m5-por",
@@ -1148,8 +1148,8 @@
     "examplePt": "Siga em frente por esta rua.",
     "note": "",
     "source": "pdf",
-    "zhHans": "通过/通过/沿着",
-    "zhHant": "通過/通過/沿著"
+    "zhHans": "由/通过/沿着",
+    "zhHant": "由/通過/沿著"
   },
   {
     "id": "m5-pelo",
@@ -1160,8 +1160,8 @@
     "examplePt": "Passe pelo banco. Passe pela farmácia.",
     "note": "",
     "source": "pdf",
-    "zhHans": "经过;通过;沿着",
-    "zhHant": "經過;通過;沿著"
+    "zhHans": "由/通过/沿着",
+    "zhHant": "由/通過/沿著"
   },
   {
     "id": "m5-avenida",
@@ -1544,8 +1544,8 @@
     "examplePt": "Tenho de fazer uma radiografia.",
     "note": "",
     "source": "pdf",
-    "zhHans": "进行 X 光检查",
-    "zhHant": "進行 X 光檢查"
+    "zhHans": "照X光",
+    "zhHant": "照X光"
   },
   {
     "id": "m6-fazer-analises",
@@ -1556,8 +1556,8 @@
     "examplePt": "Deve fazer análises.",
     "note": "",
     "source": "pdf",
-    "zhHans": "进行测试",
-    "zhHant": "進行測試"
+    "zhHans": "做化验/做检查",
+    "zhHant": "做化驗/做檢查"
   },
   {
     "id": "m6-doer-a-cabeca",
@@ -1748,8 +1748,8 @@
     "examplePt": "Use máscara durante o trabalho.",
     "note": "",
     "source": "pdf",
-    "zhHans": "面具",
-    "zhHant": "面具"
+    "zhHans": "口罩",
+    "zhHant": "口罩/防護口罩"
   },
   {
     "id": "m6-alergia",
@@ -1820,8 +1820,8 @@
     "examplePt": "Dê-me o seu cartão de utente.",
     "note": "",
     "source": "pdf",
-    "zhHans": "健康用户卡",
-    "zhHant": "健康用戶卡"
+    "zhHans": "医疗用户卡/就诊卡",
+    "zhHant": "醫療用戶卡/就診卡"
   },
   {
     "id": "m6-ha-quanto-tempo",
@@ -1916,8 +1916,8 @@
     "examplePt": "SNS significa Serviço Nacional de Saúde.",
     "note": "",
     "source": "pdf",
-    "zhHans": "国民医疗服务",
-    "zhHant": "國民醫療服務"
+    "zhHans": "国家卫生服务体系",
+    "zhHant": "國家衛生服務體系"
   },
   {
     "id": "m6-incendio",
@@ -1964,8 +1964,8 @@
     "examplePt": "Podem aceder a cuidados de saúde.",
     "note": "",
     "source": "pdf",
-    "zhHans": "访问",
-    "zhHant": "訪問"
+    "zhHans": "获得/使用",
+    "zhHant": "取得/使用"
   },
   {
     "id": "m6-legalmente",
@@ -2024,8 +2024,8 @@
     "examplePt": "A consulta de urgência é no hospital.",
     "note": "",
     "source": "pdf",
-    "zhHans": "紧急咨询",
-    "zhHant": "緊急諮詢"
+    "zhHans": "急诊",
+    "zhHant": "急診"
   },
   {
     "id": "m6-aviar-uma-receita",
@@ -2072,8 +2072,8 @@
     "examplePt": "O medicamento diminui a febre.",
     "note": "",
     "source": "pdf",
-    "zhHans": "减少发烧",
-    "zhHant": "減少發燒"
+    "zhHans": "退烧/降烧",
+    "zhHant": "退燒/降燒"
   },
   {
     "id": "m6-dose-recomendada",
@@ -2144,8 +2144,8 @@
     "examplePt": "Dói-me a barriga.",
     "note": "",
     "source": "pdf",
-    "zhHans": "伤害",
-    "zhHant": "傷害"
+    "zhHans": "疼/痛",
+    "zhHant": "疼痛"
   },
   {
     "id": "m6-doi-me",
@@ -2156,8 +2156,8 @@
     "examplePt": "Dói-me o peito.",
     "note": "",
     "source": "pdf",
-    "zhHans": "这让我很受伤",
-    "zhHant": "這讓我很受傷"
+    "zhHans": "我疼/我痛",
+    "zhHant": "我痛/我……痛"
   },
   {
     "id": "m6-peito",

@@ -4,6 +4,7 @@ import { Flashcard } from "./components/Flashcard";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { vocabulary } from "./data/vocabulary";
 import { filterEntries, getModulos } from "./lib/filtering";
+import { getUiCopy } from "./lib/i18n";
 import { loadProgress, recordReview, saveProgress } from "./lib/progress";
 import type { Direction, ProgressState } from "./types";
 import "./styles.css";
@@ -26,6 +27,7 @@ export default function App() {
     [modulo, onlyDue, progress]
   );
   const activeEntry = filteredEntries[cardIndex % Math.max(filteredEntries.length, 1)];
+  const ui = getUiCopy(direction);
 
   useEffect(() => {
     setCardIndex(0);
@@ -62,7 +64,7 @@ export default function App() {
         const nextProgress = JSON.parse(String(reader.result)) as ProgressState;
         setProgress(nextProgress);
       } catch {
-        window.alert("Could not import that progress file.");
+        window.alert(ui.importError);
       }
     };
     reader.readAsText(file);
@@ -77,30 +79,30 @@ export default function App() {
             <h1>Azulejo - build your Portuguese vocabulary</h1>
           </div>
           <div className="header-actions">
-            <button className="icon-button" type="button" onClick={exportProgress} aria-label="Export progress">
+            <button className="icon-button" type="button" onClick={exportProgress} aria-label={ui.exportProgress}>
               <Download size={18} aria-hidden="true" />
             </button>
-            <label className="icon-button" aria-label="Import progress">
+            <label className="icon-button" aria-label={ui.importProgress}>
               <Upload size={18} aria-hidden="true" />
               <input type="file" accept="application/json" onChange={importProgress} />
             </label>
           </div>
         </header>
 
-        <section className="controls" aria-label="Study controls">
+        <section className="controls" aria-label={ui.studyControls}>
           <label>
-            Module
+            {ui.module}
             <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
-              <option value="all">All modules</option>
+              <option value="all">{ui.allModules}</option>
               {modulos.map((item) => (
                 <option key={item} value={item}>
-                  {item}
+                  {ui.moduloLabel(item)}
                 </option>
               ))}
             </select>
           </label>
           <label>
-            Mode
+            {ui.mode}
             <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
               <option value="pt-en">Portuguese to English</option>
               <option value="en-pt">English to Portuguese</option>
@@ -112,7 +114,7 @@ export default function App() {
           </label>
           <label className="toggle">
             <input type="checkbox" checked={onlyDue} onChange={(event) => setOnlyDue(event.target.checked)} />
-            Review only unknown
+            {ui.reviewOnlyUnknown}
           </label>
         </section>
 
@@ -121,19 +123,20 @@ export default function App() {
             entry={activeEntry}
             direction={direction}
             revealed={revealed}
+            ui={ui}
             onToggleReveal={() => setRevealed((current) => !current)}
             onAgain={() => handleReview("again")}
             onKnown={() => handleReview("known")}
           />
         ) : (
           <section className="empty-state">
-            <h2>No cards match these filters</h2>
-            <p>Include known cards or choose another module to continue reviewing.</p>
+            <h2>{ui.noCardsTitle}</h2>
+            <p>{ui.noCardsBody}</p>
           </section>
         )}
       </section>
 
-      <ProgressDashboard entries={vocabulary} progress={progress} />
+      <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} />
     </main>
   );
 }

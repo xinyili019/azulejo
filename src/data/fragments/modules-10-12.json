@@ -104,8 +104,8 @@
     "examplePt": "Nós passeávamos muito a pé.",
     "note": "",
     "source": "pdf",
-    "zhHans": "徒步",
-    "zhHant": "健行"
+    "zhHans": "步行",
+    "zhHant": "步行"
   },
   {
     "id": "m10-de-carro",
@@ -332,8 +332,8 @@
     "examplePt": "Têm sentido falta do calor.",
     "note": "",
     "source": "pdf",
-    "zhHans": "错过",
-    "zhHant": "錯過"
+    "zhHans": "想念/怀念",
+    "zhHant": "想念/懷念"
   },
   {
     "id": "m10-agencia-de-viagens",
@@ -380,8 +380,8 @@
     "examplePt": "Têm saudades do peixe fresco.",
     "note": "",
     "source": "pdf",
-    "zhHans": "渴望;想念某人",
-    "zhHant": "渴望;想念某人"
+    "zhHans": "思念/想念",
+    "zhHant": "思念/想念"
   },
   {
     "id": "m10-mercearia",
@@ -440,8 +440,8 @@
     "examplePt": "Leia a notícia no jornal.",
     "note": "",
     "source": "pdf",
-    "zhHans": "新闻项目",
-    "zhHant": "新聞項目"
+    "zhHans": "新闻/消息",
+    "zhHant": "新聞/消息"
   },
   {
     "id": "m11-mensagem",
@@ -560,8 +560,8 @@
     "examplePt": "A receção da encomenda foi rápida.",
     "note": "",
     "source": "pdf",
-    "zhHans": "收据;接待",
-    "zhHant": "收據;接待"
+    "zhHans": "接待处/接待",
+    "zhHant": "接待處/接待"
   },
   {
     "id": "m11-muito-atenciosamente",
@@ -596,8 +596,8 @@
     "examplePt": "Enviei a carta ao diretor.",
     "note": "",
     "source": "pdf",
-    "zhHans": "导演",
-    "zhHant": "導演"
+    "zhHans": "主管/主任",
+    "zhHant": "主任/主管"
   },
   {
     "id": "m11-recursos-humanos",
@@ -632,8 +632,8 @@
     "examplePt": "Desenvolvi competências na minha formação.",
     "note": "",
     "source": "pdf",
-    "zhHans": "技能;权限",
-    "zhHant": "技能;權限"
+    "zhHans": "能力/技能",
+    "zhHant": "能力/技能"
   },
   {
     "id": "m11-entrevista",
@@ -656,8 +656,8 @@
     "examplePt": "Anexo: Currículo.",
     "note": "",
     "source": "pdf",
-    "zhHans": "依恋;外壳",
-    "zhHant": "依戀;外殼"
+    "zhHans": "附件/附录",
+    "zhHant": "附件/附錄"
   },
   {
     "id": "m11-curriculo",
@@ -668,8 +668,8 @@
     "examplePt": "Enviei o meu currículo por e-mail.",
     "note": "",
     "source": "pdf",
-    "zhHans": "简历;恢复",
-    "zhHant": "履歷;恢復"
+    "zhHans": "简历/履历",
+    "zhHant": "履歷/簡歷"
   },
   {
     "id": "m11-assunto",
@@ -704,8 +704,8 @@
     "examplePt": "Entreguei o fato na lavandaria.",
     "note": "",
     "source": "pdf",
-    "zhHans": "自助洗衣店；洗衣店",
-    "zhHant": "自助洗衣店；洗衣店"
+    "zhHans": "洗衣店/自助洗衣店",
+    "zhHant": "洗衣店/自助洗衣店"
   },
   {
     "id": "m11-estabelecimento",
@@ -716,8 +716,8 @@
     "examplePt": "Entreguei a roupa no vosso estabelecimento.",
     "note": "",
     "source": "pdf",
-    "zhHans": "设立；店铺",
-    "zhHant": "設立；店鋪"
+    "zhHans": "机构/商店",
+    "zhHant": "機構/商店"
   },
   {
     "id": "m11-fato",
@@ -824,8 +824,8 @@
     "examplePt": "Vou recorrer a todos os meios legais.",
     "note": "",
     "source": "pdf",
-    "zhHans": "去度假村；上诉",
-    "zhHant": "去度假村；上訴"
+    "zhHans": "求助于/上诉",
+    "zhHant": "求助於/上訴"
   },
   {
     "id": "m11-meios-legais",
@@ -920,8 +920,8 @@
     "examplePt": "Saiu o resultado das candidaturas.",
     "note": "",
     "source": "pdf",
-    "zhHans": "应用",
-    "zhHant": "應用"
+    "zhHans": "申请",
+    "zhHant": "申請/求職申請"
   },
   {
     "id": "m11-vaga",
@@ -956,8 +956,8 @@
     "examplePt": "Pode ser contactado por telefone. Pode ser contactada por telefone.",
     "note": "",
     "source": "pdf",
-    "zhHans": "待联系",
-    "zhHant": "待聯繫"
+    "zhHans": "被联系/有人联系",
+    "zhHant": "被聯繫/有人聯繫"
   },
   {
     "id": "m11-pastel-de-bacalhau",
@@ -980,8 +980,8 @@
     "examplePt": "A especialidade são os bolinhos de bacalhau.",
     "note": "",
     "source": "pdf",
-    "zhHans": "专业",
-    "zhHant": "專業"
+    "zhHans": "特色菜/专长",
+    "zhHant": "特色菜"
   },
   {
     "id": "m11-ferramenta",
@@ -1064,8 +1064,8 @@
     "examplePt": "Começou a queixar-se de fortes dores.",
     "note": "",
     "source": "pdf",
-    "zhHans": "抱怨",
-    "zhHant": "抱怨"
+    "zhHans": "诉说……症状/说……痛",
+    "zhHant": "訴說……症狀/說……痛"
   },
   {
     "id": "m11-ombro",
@@ -1088,8 +1088,8 @@
     "examplePt": "Ele tinha uma fratura muito grave.",
     "note": "",
     "source": "pdf",
-    "zhHans": "断裂",
-    "zhHant": "斷裂"
+    "zhHans": "骨折",
+    "zhHant": "骨折"
   },
   {
     "id": "m11-grave",
@@ -1100,8 +1100,8 @@
     "examplePt": "O problema era grave.",
     "note": "",
     "source": "pdf",
-    "zhHans": "严肃的",
-    "zhHant": "嚴肅的"
+    "zhHans": "严重的",
+    "zhHant": "嚴重的"
   },
   {
     "id": "m11-preferencia",
@@ -1124,8 +1124,8 @@
     "examplePt": "Os empregados que nos serviram eram simpáticos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "那;哪个; WHO",
-    "zhHant": "那;哪一個; WHO"
+    "zhHans": "那/哪个/谁",
+    "zhHant": "那/哪個/誰"
   },
   {
     "id": "m11-quem",
@@ -1136,8 +1136,8 @@
     "examplePt": "O dono com quem falámos deu-nos este cartão.",
     "note": "",
     "source": "pdf",
-    "zhHans": "WHO;谁",
-    "zhHant": "WHO;誰"
+    "zhHans": "谁",
+    "zhHant": "誰"
   },
   {
     "id": "m11-onde",
@@ -1160,8 +1160,8 @@
     "examplePt": "Passe pelo banco. Passe pela farmácia.",
     "note": "",
     "source": "pdf",
-    "zhHans": "经过;通过;沿着",
-    "zhHant": "經過;通過;沿著"
+    "zhHans": "由/通过/沿着",
+    "zhHant": "由/通過/沿著"
   },
   {
     "id": "m11-assaltar",
@@ -1256,8 +1256,8 @@
     "examplePt": "Cidadania é a qualidade ou direito do cidadão.",
     "note": "",
     "source": "pdf",
-    "zhHans": "国籍",
-    "zhHant": "國籍"
+    "zhHans": "公民身份/公民权",
+    "zhHant": "公民身分/公民權"
   },
   {
     "id": "m12-cidadao",
@@ -1269,7 +1269,7 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公民",
-    "zhHant": "國民"
+    "zhHant": "公民"
   },
   {
     "id": "m12-direitos-civis",
@@ -1292,8 +1292,8 @@
     "examplePt": "O serviço apoia a integração dos imigrantes.",
     "note": "",
     "source": "pdf",
-    "zhHans": "一体化",
-    "zhHant": "一體化"
+    "zhHans": "融入/融合",
+    "zhHant": "融入/融合"
   },
   {
     "id": "m12-imigrante",
@@ -1328,8 +1328,8 @@
     "examplePt": "A nacionalidade é um vínculo jurídico.",
     "note": "",
     "source": "pdf",
-    "zhHans": "法律保证",
-    "zhHant": "法律保證"
+    "zhHans": "法律联系/法律关系",
+    "zhHant": "法律聯繫/法律關係"
   },
   {
     "id": "m12-regularizacao",
@@ -1340,8 +1340,8 @@
     "examplePt": "O serviço apoia a regularização da situação legal.",
     "note": "",
     "source": "pdf",
-    "zhHans": "正则化",
-    "zhHant": "正規化"
+    "zhHans": "身份合法化/手续正规化",
+    "zhHant": "身分合法化/手續正規化"
   },
   {
     "id": "m12-situacao-legal",
@@ -1376,8 +1376,8 @@
     "examplePt": "O serviço informa sobre retorno voluntário.",
     "note": "",
     "source": "pdf",
-    "zhHans": "自愿返回",
-    "zhHant": "自願返回"
+    "zhHans": "自愿返国/自愿返回",
+    "zhHant": "自願返國/自願返回"
   },
   {
     "id": "m12-seguranca-social",
@@ -1460,8 +1460,8 @@
     "examplePt": "Existem gabinetes de apoio ao cidadão imigrante.",
     "note": "",
     "source": "pdf",
-    "zhHans": "支持办公室",
-    "zhHant": "支援辦公室"
+    "zhHans": "援助办公室/咨询处",
+    "zhHant": "援助辦公室/諮詢處"
   },
   {
     "id": "m12-imigracao",
@@ -1532,8 +1532,8 @@
     "examplePt": "Ajudam-te a tratar de tudo.",
     "note": "",
     "source": "pdf",
-    "zhHans": "照顾",
-    "zhHant": "照顧"
+    "zhHans": "办理/处理",
+    "zhHant": "辦理/處理"
   },
   {
     "id": "m12-comunidade",
@@ -1544,8 +1544,8 @@
     "examplePt": "Participa na vida da comunidade.",
     "note": "",
     "source": "pdf",
-    "zhHans": "社区",
-    "zhHant": "社群"
+    "zhHans": "社区/共同体",
+    "zhHant": "社區/共同體"
   },
   {
     "id": "m12-democracia",
@@ -1688,8 +1688,8 @@
     "examplePt": "Acabou por fixar-se em Alfambras.",
     "note": "",
     "source": "pdf",
-    "zhHans": "解决",
-    "zhHant": "解決"
+    "zhHans": "定居/安顿",
+    "zhHant": "定居/安頓"
   },
   {
     "id": "m12-camara-municipal",
@@ -1724,8 +1724,8 @@
     "examplePt": "Tenta informar-se sobre os candidatos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "获得通知",
-    "zhHant": "獲得通知"
+    "zhHans": "了解信息/查询信息",
+    "zhHant": "了解資訊/查詢資訊"
   },
   {
     "id": "m12-renda-elevada",
@@ -1772,8 +1772,8 @@
     "examplePt": "É importante legalizar a sua situação.",
     "note": "",
     "source": "pdf",
-    "zhHans": "使合法化",
-    "zhHant": "使合法化"
+    "zhHans": "办理合法化/使合法",
+    "zhHant": "辦理合法化/使合法"
   },
   {
     "id": "m12-pontual",
@@ -1796,8 +1796,8 @@
     "examplePt": "Conseguiram poupar e fazer uma viagem.",
     "note": "",
     "source": "pdf",
-    "zhHans": "为了省钱",
-    "zhHant": "為了省錢"
+    "zhHans": "存钱/省钱",
+    "zhHant": "存錢/省錢"
   },
   {
     "id": "m12-registo-criminal",

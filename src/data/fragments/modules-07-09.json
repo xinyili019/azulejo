@@ -32,8 +32,8 @@
     "examplePt": "Ela trabalha num café.",
     "note": "",
     "source": "pdf",
-    "zhHans": "咖啡店",
-    "zhHant": "咖啡店"
+    "zhHans": "咖啡/咖啡馆",
+    "zhHant": "咖啡/咖啡館"
   },
   {
     "id": "m7-pano",
@@ -56,8 +56,8 @@
     "examplePt": "Ela sabe servir à mesa.",
     "note": "",
     "source": "pdf",
-    "zhHans": "等桌子",
-    "zhHant": "等桌子"
+    "zhHans": "餐桌服务/当服务员",
+    "zhHant": "端菜服務/餐桌服務"
   },
   {
     "id": "m7-por-mesa",
@@ -380,8 +380,8 @@
     "examplePt": "Ela aspira o chão.",
     "note": "",
     "source": "pdf",
-    "zhHans": "抽真空",
-    "zhHant": "抽真空"
+    "zhHans": "吸尘",
+    "zhHant": "吸塵"
   },
   {
     "id": "m7-lavar-chao",
@@ -608,8 +608,8 @@
     "examplePt": "A lixívia está no armário.",
     "note": "",
     "source": "pdf",
-    "zhHans": "漂白",
-    "zhHant": "漂白"
+    "zhHans": "漂白剂",
+    "zhHant": "漂白水"
   },
   {
     "id": "m7-capacete",
@@ -680,8 +680,8 @@
     "examplePt": "Recebi as horas extraordinárias.",
     "note": "",
     "source": "pdf",
-    "zhHans": "随着时间的推移",
-    "zhHant": "隨著時間的推移"
+    "zhHans": "加班时间",
+    "zhHant": "加班/加班時間"
   },
   {
     "id": "m7-salario-bruto",
@@ -716,8 +716,8 @@
     "examplePt": "Recebeu um subsídio.",
     "note": "",
     "source": "pdf",
-    "zhHans": "益处",
-    "zhHant": "益處"
+    "zhHans": "补贴/津贴",
+    "zhHant": "津貼/補助"
   },
   {
     "id": "m7-entidade-patronal",
@@ -740,8 +740,8 @@
     "examplePt": "Ele carrega produtos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "加载",
-    "zhHant": "載入"
+    "zhHans": "搬运/装载",
+    "zhHant": "搬運/裝載"
   },
   {
     "id": "m7-descarregar",
@@ -752,8 +752,8 @@
     "examplePt": "Ela descarrega produtos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "卸载",
-    "zhHant": "解除安裝"
+    "zhHans": "卸货",
+    "zhHant": "卸貨/卸下"
   },
   {
     "id": "m7-armazenar",
@@ -920,8 +920,8 @@
     "examplePt": "Enviei o meu currículo para a empresa.",
     "note": "",
     "source": "pdf",
-    "zhHans": "恢复",
-    "zhHant": "恢復"
+    "zhHans": "简历/履历",
+    "zhHant": "履歷/簡歷"
   },
   {
     "id": "m8-cv",
@@ -1028,8 +1028,8 @@
     "examplePt": "Tem o perfil adequado a esta função.",
     "note": "",
     "source": "pdf",
-    "zhHans": "合适的轮廓",
-    "zhHant": "合適的輪廓"
+    "zhHans": "合适的条件/合适的个人背景",
+    "zhHant": "合適的條件/符合職位要求"
   },
   {
     "id": "m8-funcao",
@@ -1076,8 +1076,8 @@
     "examplePt": "Tenho disponibilidade para entrada imediata.",
     "note": "",
     "source": "pdf",
-    "zhHans": "可用性",
-    "zhHant": "可用性"
+    "zhHans": "可上班时间/可工作时间",
+    "zhHant": "可上班時間/可工作時間"
   },
   {
     "id": "m8-entrada-imediata",
@@ -1148,8 +1148,8 @@
     "examplePt": "Procuro trabalho no meu ramo.",
     "note": "",
     "source": "pdf",
-    "zhHans": "场地",
-    "zhHant": "場地"
+    "zhHans": "行业/领域",
+    "zhHant": "行業/領域"
   },
   {
     "id": "m8-responsavel",
@@ -1220,8 +1220,8 @@
     "examplePt": "O vencimento é de 580 euros.",
     "note": "",
     "source": "pdf",
-    "zhHans": "支付",
-    "zhHant": "支付"
+    "zhHans": "薪资/工资",
+    "zhHant": "薪資/工資"
   },
   {
     "id": "m8-iliquidos",
@@ -1232,8 +1232,8 @@
     "examplePt": "São 580 euros ilíquidos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "总的",
-    "zhHant": "總的"
+    "zhHans": "税前的/未扣税的",
+    "zhHant": "稅前的/未扣稅的"
   },
   {
     "id": "m8-impostos",
@@ -1280,8 +1280,8 @@
     "examplePt": "A remuneração é compatível com as funções.",
     "note": "",
     "source": "pdf",
-    "zhHans": "支付",
-    "zhHant": "支付"
+    "zhHans": "薪酬/报酬",
+    "zhHant": "薪酬/報酬"
   },
   {
     "id": "m8-cargo",
@@ -1292,8 +1292,8 @@
     "examplePt": "Ele tem um cargo na associação.",
     "note": "",
     "source": "pdf",
-    "zhHans": "位置",
-    "zhHant": "位置"
+    "zhHans": "职位",
+    "zhHant": "職位"
   },
   {
     "id": "m8-desde",
@@ -1316,8 +1316,8 @@
     "examplePt": "Trabalho nesse restaurante há sete anos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "为/前",
-    "zhHant": "為/前"
+    "zhHans": "有/已经过去",
+    "zhHant": "有/已經過去"
   },
   {
     "id": "m8-despedir-se",
@@ -1328,8 +1328,8 @@
     "examplePt": "Quando foi a última vez que se despediu de um emprego?",
     "note": "",
     "source": "pdf",
-    "zhHans": "戒烟",
-    "zhHant": "戒菸"
+    "zhHans": "辞职",
+    "zhHant": "辭職"
   },
   {
     "id": "m8-aumento-salario",
@@ -1352,8 +1352,8 @@
     "examplePt": "Trabalhou a recibos verdes.",
     "note": "",
     "source": "pdf",
-    "zhHans": "自由职业者的税收收入",
-    "zhHant": "自由工作者的稅收收入"
+    "zhHans": "绿色收据/自由职业发票",
+    "zhHant": "綠色收據/自由職業收據"
   },
   {
     "id": "m8-subsidio-desemprego",
@@ -1376,8 +1376,8 @@
     "examplePt": "Ela sabe falar inglês.",
     "note": "",
     "source": "pdf",
-    "zhHans": "知道如何",
-    "zhHant": "知道如何"
+    "zhHans": "知道/会",
+    "zhHant": "知道/會"
   },
   {
     "id": "m8-conhecer",
@@ -1400,8 +1400,8 @@
     "examplePt": "Posso entrar?",
     "note": "",
     "source": "pdf",
-    "zhHans": "能够/能够",
-    "zhHant": "能夠/能夠"
+    "zhHans": "能/能够",
+    "zhHant": "能/能夠"
   },
   {
     "id": "m8-conseguir",
@@ -1412,8 +1412,8 @@
     "examplePt": "Ela conseguiu ficar com o emprego.",
     "note": "",
     "source": "pdf",
-    "zhHans": "管理",
-    "zhHant": "管理"
+    "zhHans": "能够/成功做到",
+    "zhHant": "能夠/成功做到"
   },
   {
     "id": "m8-e-proibido",
