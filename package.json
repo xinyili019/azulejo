@@ -10,6 +10,7 @@
     "test:watch": "vitest",
     "e2e": "playwright test",
     "extract:vocab": "node scripts/extract-vocabulary.mjs",
+    "translate:zh": "node scripts/add-chinese-translations.mjs",
     "merge:vocab": "node scripts/merge-vocabulary-fragments.mjs",
     "validate:data": "node scripts/validate-vocabulary.mjs"
   },

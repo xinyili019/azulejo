@@ -25,9 +25,15 @@ export function filterEntries(
 }
 
 export function getPrompt(entry: VocabularyEntry, direction: Direction) {
-  return direction === "pt-en" ? entry.portuguese : entry.english;
+  if (direction.startsWith("pt-")) return entry.portuguese;
+  if (direction === "en-pt") return entry.english;
+  if (direction === "zh-hans-pt") return entry.zhHans;
+  return entry.zhHant;
 }
 
 export function getAnswer(entry: VocabularyEntry, direction: Direction) {
-  return direction === "pt-en" ? entry.english : entry.portuguese;
+  if (direction === "pt-en") return entry.english;
+  if (direction === "pt-zh-hans") return entry.zhHans;
+  if (direction === "pt-zh-hant") return entry.zhHant;
+  return entry.portuguese;
 }

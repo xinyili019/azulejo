@@ -7,7 +7,9 @@
     "english": "first name",
     "examplePt": "O meu primeiro nome é Ahmed.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "名",
+    "zhHant": "名"
   },
   {
     "id": "m1-apelido",
@@ -17,7 +19,9 @@
     "english": "surname",
     "examplePt": "Qual é o seu apelido?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "姓",
+    "zhHant": "姓"
   },
   {
     "id": "m1-nome-completo",
@@ -27,7 +31,9 @@
     "english": "full name",
     "examplePt": "Escreva o seu nome completo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "姓名",
+    "zhHant": "姓名"
   },
   {
     "id": "m1-nacionalidade",
@@ -37,7 +43,9 @@
     "english": "nationality",
     "examplePt": "Qual é a sua nacionalidade?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "国籍",
+    "zhHant": "國籍"
   },
   {
     "id": "m1-local-nascimento",
@@ -47,7 +55,9 @@
     "english": "place of birth",
     "examplePt": "O local de nascimento é Islamabad.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "出生地",
+    "zhHant": "出生地"
   },
   {
     "id": "m1-data-nascimento",
@@ -57,7 +67,9 @@
     "english": "date of birth",
     "examplePt": "Qual é a sua data de nascimento?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "出生日期",
+    "zhHant": "出生日期"
   },
   {
     "id": "m1-sexo",
@@ -67,7 +79,9 @@
     "english": "sex",
     "examplePt": "O sexo é masculino.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "性别",
+    "zhHant": "性別"
   },
   {
     "id": "m1-estado-civil",
@@ -77,7 +91,9 @@
     "english": "marital status",
     "examplePt": "Qual é o seu estado civil?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "婚姻状况",
+    "zhHant": "婚姻狀況"
   },
   {
     "id": "m1-masculino",
@@ -87,7 +103,9 @@
     "english": "male",
     "examplePt": "O Ahmed é do sexo masculino.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "男性",
+    "zhHant": "男性"
   },
   {
     "id": "m1-feminino",
@@ -97,7 +115,9 @@
     "english": "female",
     "examplePt": "A Olga é do sexo feminino.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "女性",
+    "zhHant": "女性"
   },
   {
     "id": "m1-solteiro",
@@ -107,7 +127,9 @@
     "english": "single",
     "examplePt": "O Ahmed é solteiro. A Olga é solteira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "单身的",
+    "zhHant": "單身的"
   },
   {
     "id": "m1-casado",
@@ -117,7 +139,9 @@
     "english": "married",
     "examplePt": "O Ahmed é casado. A Olga é casada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "已婚",
+    "zhHant": "已婚"
   },
   {
     "id": "m1-divorciado",
@@ -127,7 +151,9 @@
     "english": "divorced",
     "examplePt": "Ele é divorciado. Ela é divorciada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "离婚的",
+    "zhHant": "離婚的"
   },
   {
     "id": "m1-viuvo",
@@ -137,7 +163,9 @@
     "english": "widowed",
     "examplePt": "Ele é viúvo. Ela é viúva.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "寡",
+    "zhHant": "寡"
   },
   {
     "id": "m1-morada",
@@ -147,7 +175,9 @@
     "english": "address",
     "examplePt": "Qual é a sua morada?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "地址/住址",
+    "zhHant": "地址/住址"
   },
   {
     "id": "m1-localidade",
@@ -157,7 +187,9 @@
     "english": "locality",
     "examplePt": "A localidade é Porto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "地区/所在地",
+    "zhHant": "地區/所在地"
   },
   {
     "id": "m1-codigo-postal",
@@ -167,7 +199,9 @@
     "english": "postal code",
     "examplePt": "Qual é o seu código postal?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "邮政编码",
+    "zhHant": "郵遞區號"
   },
   {
     "id": "m1-telefone",
@@ -177,7 +211,9 @@
     "english": "telephone",
     "examplePt": "Qual é o seu número de telefone?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "电话",
+    "zhHant": "電話"
   },
   {
     "id": "m1-telemovel",
@@ -187,7 +223,9 @@
     "english": "mobile phone",
     "examplePt": "O meu telemóvel é novo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "手机/移动电话",
+    "zhHant": "手機/行動電話"
   },
   {
     "id": "m1-cidade",
@@ -197,7 +235,9 @@
     "english": "city",
     "examplePt": "Lisboa é uma cidade.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "城市",
+    "zhHant": "城市"
   },
   {
     "id": "m1-rua",
@@ -207,7 +247,9 @@
     "english": "street",
     "examplePt": "A rua tem um supermercado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "街道",
+    "zhHant": "街道"
   },
   {
     "id": "m1-pais",
@@ -217,7 +259,9 @@
     "english": "country",
     "examplePt": "Portugal é um país.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "国家",
+    "zhHant": "國家"
   },
   {
     "id": "m1-empregado-limpeza",
@@ -227,7 +271,9 @@
     "english": "cleaner",
     "examplePt": "Ele é empregado de limpeza.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "清洁工",
+    "zhHant": "清潔工"
   },
   {
     "id": "m1-motorista",
@@ -237,7 +283,9 @@
     "english": "driver",
     "examplePt": "O motorista conduz o autocarro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "司机",
+    "zhHant": "司機"
   },
   {
     "id": "m1-professor",
@@ -247,7 +295,9 @@
     "english": "teacher",
     "examplePt": "O professor ensina Português. A professora ensina Português.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "老师",
+    "zhHant": "老師"
   },
   {
     "id": "m1-medico",
@@ -257,7 +307,9 @@
     "english": "doctor",
     "examplePt": "O médico trabalha no centro de saúde. A médica também.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "医生",
+    "zhHant": "醫生"
   },
   {
     "id": "m1-um",
@@ -267,7 +319,9 @@
     "english": "one",
     "examplePt": "Tenho um filho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一",
+    "zhHant": "一"
   },
   {
     "id": "m1-dois",
@@ -277,7 +331,9 @@
     "english": "two",
     "examplePt": "Tenho dois filhos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "二",
+    "zhHant": "二"
   },
   {
     "id": "m1-tres",
@@ -287,7 +343,9 @@
     "english": "three",
     "examplePt": "Tenho três documentos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "三",
+    "zhHant": "三"
   },
   {
     "id": "m1-quatro",
@@ -297,7 +355,9 @@
     "english": "four",
     "examplePt": "Tenho quatro aulas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "四",
+    "zhHant": "四"
   },
   {
     "id": "m1-cinco",
@@ -307,7 +367,9 @@
     "english": "five",
     "examplePt": "São cinco euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "五",
+    "zhHant": "五"
   },
   {
     "id": "m1-seis",
@@ -317,7 +379,9 @@
     "english": "six",
     "examplePt": "Acordo às seis.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "六",
+    "zhHant": "六"
   },
   {
     "id": "m1-sete",
@@ -327,7 +391,9 @@
     "english": "seven",
     "examplePt": "São sete horas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "七",
+    "zhHant": "七"
   },
   {
     "id": "m1-oito",
@@ -337,7 +403,9 @@
     "english": "eight",
     "examplePt": "Entro às oito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "八",
+    "zhHant": "八"
   },
   {
     "id": "m1-nove",
@@ -347,7 +415,9 @@
     "english": "nine",
     "examplePt": "São nove horas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "九",
+    "zhHant": "九"
   },
   {
     "id": "m1-dez",
@@ -357,7 +427,9 @@
     "english": "ten",
     "examplePt": "Tenho dez euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "十",
+    "zhHant": "十"
   },
   {
     "id": "m1-vinte",
@@ -367,7 +439,9 @@
     "english": "twenty",
     "examplePt": "São vinte euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "二十",
+    "zhHant": "二十"
   },
   {
     "id": "m1-trinta",
@@ -377,7 +451,9 @@
     "english": "thirty",
     "examplePt": "Tenho trinta anos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "三十",
+    "zhHant": "三十"
   },
   {
     "id": "m1-quarenta",
@@ -387,7 +463,9 @@
     "english": "forty",
     "examplePt": "Tenho quarenta anos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "四十",
+    "zhHant": "四十"
   },
   {
     "id": "m1-cinquenta",
@@ -397,7 +475,9 @@
     "english": "fifty",
     "examplePt": "São cinquenta euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "五十",
+    "zhHant": "五十"
   },
   {
     "id": "m1-cem",
@@ -407,7 +487,9 @@
     "english": "one hundred",
     "examplePt": "Cem é um número.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一百",
+    "zhHant": "一百"
   },
   {
     "id": "m1-mil",
@@ -417,7 +499,9 @@
     "english": "one thousand",
     "examplePt": "Mil é um número.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一千",
+    "zhHant": "一千"
   },
   {
     "id": "m1-segunda-feira",
@@ -427,7 +511,9 @@
     "english": "Monday",
     "examplePt": "Hoje é segunda-feira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "周一",
+    "zhHant": "週一"
   },
   {
     "id": "m1-terca-feira",
@@ -437,7 +523,9 @@
     "english": "Tuesday",
     "examplePt": "Hoje é terça-feira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "周二",
+    "zhHant": "週二"
   },
   {
     "id": "m1-quarta-feira",
@@ -447,7 +535,9 @@
     "english": "Wednesday",
     "examplePt": "Hoje é quarta-feira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "周三",
+    "zhHant": "週三"
   },
   {
     "id": "m1-quinta-feira",
@@ -457,7 +547,9 @@
     "english": "Thursday",
     "examplePt": "Hoje é quinta-feira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "周四",
+    "zhHant": "週四"
   },
   {
     "id": "m1-sexta-feira",
@@ -467,7 +559,9 @@
     "english": "Friday",
     "examplePt": "Hoje é sexta-feira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "星期五",
+    "zhHant": "星期五"
   },
   {
     "id": "m1-sabado",
@@ -477,7 +571,9 @@
     "english": "Saturday",
     "examplePt": "Hoje é sábado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "周六",
+    "zhHant": "週六"
   },
   {
     "id": "m1-domingo",
@@ -487,7 +583,9 @@
     "english": "Sunday",
     "examplePt": "Hoje é domingo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "星期日",
+    "zhHant": "星期日"
   },
   {
     "id": "m1-janeiro",
@@ -497,7 +595,9 @@
     "english": "January",
     "examplePt": "A data é em janeiro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一月",
+    "zhHant": "一月"
   },
   {
     "id": "m1-fevereiro",
@@ -507,7 +607,9 @@
     "english": "February",
     "examplePt": "A data é em fevereiro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "二月",
+    "zhHant": "二月"
   },
   {
     "id": "m1-marco",
@@ -517,7 +619,9 @@
     "english": "March",
     "examplePt": "A data é em março.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "行进",
+    "zhHant": "行進"
   },
   {
     "id": "m1-abril",
@@ -527,7 +631,9 @@
     "english": "April",
     "examplePt": "A data de nascimento é em abril.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "四月",
+    "zhHant": "四月"
   },
   {
     "id": "m1-maio",
@@ -537,7 +643,9 @@
     "english": "May",
     "examplePt": "A data é em maio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "可能",
+    "zhHant": "可能"
   },
   {
     "id": "m1-junho",
@@ -547,7 +655,9 @@
     "english": "June",
     "examplePt": "A data é em junho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "六月",
+    "zhHant": "六月"
   },
   {
     "id": "m1-julho",
@@ -557,7 +667,9 @@
     "english": "July",
     "examplePt": "A data é em julho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "七月",
+    "zhHant": "七月"
   },
   {
     "id": "m1-agosto",
@@ -567,7 +679,9 @@
     "english": "August",
     "examplePt": "A data é em agosto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "八月",
+    "zhHant": "八月"
   },
   {
     "id": "m1-setembro",
@@ -577,7 +691,9 @@
     "english": "September",
     "examplePt": "A data é em setembro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "九月",
+    "zhHant": "九月"
   },
   {
     "id": "m1-outubro",
@@ -587,7 +703,9 @@
     "english": "October",
     "examplePt": "A data é em outubro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "十月",
+    "zhHant": "十月"
   },
   {
     "id": "m1-novembro",
@@ -597,7 +715,9 @@
     "english": "November",
     "examplePt": "A data é em novembro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "十一月",
+    "zhHant": "十一月"
   },
   {
     "id": "m1-dezembro",
@@ -607,7 +727,9 @@
     "english": "December",
     "examplePt": "A data é em dezembro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "十二月",
+    "zhHant": "十二月"
   },
   {
     "id": "m1-familia",
@@ -617,7 +739,9 @@
     "english": "family",
     "examplePt": "A minha família mora em Portugal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "家庭",
+    "zhHant": "家庭"
   },
   {
     "id": "m1-irmao",
@@ -627,7 +751,9 @@
     "english": "brother",
     "examplePt": "O meu irmão chama-se José.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "兄弟",
+    "zhHant": "兄弟"
   },
   {
     "id": "m1-filho",
@@ -637,7 +763,9 @@
     "english": "child; son or daughter",
     "examplePt": "O meu filho estuda. A minha filha estuda.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "孩子;儿子或女儿",
+    "zhHant": "孩子;兒子或女兒"
   },
   {
     "id": "m1-mulher",
@@ -647,7 +775,9 @@
     "english": "wife or woman",
     "examplePt": "A minha mulher mora em Portugal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "妻子或女人",
+    "zhHant": "妻子或女人"
   },
   {
     "id": "m1-mae",
@@ -657,7 +787,9 @@
     "english": "mother",
     "examplePt": "A minha mãe está bem.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "母亲",
+    "zhHant": "母親"
   },
   {
     "id": "m1-marido",
@@ -667,7 +799,9 @@
     "english": "husband",
     "examplePt": "O meu marido trabalha hoje.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "丈夫",
+    "zhHant": "丈夫"
   },
   {
     "id": "m1-pai",
@@ -677,7 +811,9 @@
     "english": "father",
     "examplePt": "O meu pai chama-se António.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "父亲",
+    "zhHant": "父親"
   },
   {
     "id": "m1-ola",
@@ -687,7 +823,9 @@
     "english": "hello",
     "examplePt": "Olá, Joana!",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "你好",
+    "zhHant": "你好"
   },
   {
     "id": "m1-bom-dia",
@@ -697,7 +835,9 @@
     "english": "good morning",
     "examplePt": "Bom dia, Sr. Santos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "早上好",
+    "zhHant": "早安"
   },
   {
     "id": "m1-boa-tarde",
@@ -707,7 +847,9 @@
     "english": "good afternoon",
     "examplePt": "Boa tarde!",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "下午好",
+    "zhHant": "午安"
   },
   {
     "id": "m1-boa-noite",
@@ -717,7 +859,9 @@
     "english": "good evening; good night",
     "examplePt": "Boa noite!",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "晚上好;晚安",
+    "zhHant": "晚上好;晚安"
   },
   {
     "id": "m1-tudo-bem",
@@ -727,7 +871,9 @@
     "english": "all good?",
     "examplePt": "Olá, tudo bem?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "都好吗？",
+    "zhHant": "都好嗎？"
   },
   {
     "id": "m1-como-esta",
@@ -737,7 +883,9 @@
     "english": "how are you?",
     "examplePt": "Como está, D. Marina?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "你好吗？",
+    "zhHant": "你好嗎？"
   },
   {
     "id": "m1-ate-logo",
@@ -747,7 +895,9 @@
     "english": "see you later",
     "examplePt": "Até logo!",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "稍后见",
+    "zhHant": "稍後見"
   },
   {
     "id": "m1-ate-amanha",
@@ -757,7 +907,9 @@
     "english": "see you tomorrow",
     "examplePt": "Até amanhã!",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "明天见",
+    "zhHant": "明天見"
   },
   {
     "id": "m1-adeus",
@@ -767,7 +919,9 @@
     "english": "goodbye",
     "examplePt": "Adeus!",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "再见",
+    "zhHant": "再見"
   },
   {
     "id": "m1-muito-prazer",
@@ -777,7 +931,9 @@
     "english": "pleased to meet you",
     "examplePt": "Olá Iona, muito prazer.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "很高兴认识你",
+    "zhHant": "很高興認識你"
   },
   {
     "id": "m1-casa",
@@ -787,7 +943,9 @@
     "english": "house; home",
     "examplePt": "A minha casa fica perto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "房子/家",
+    "zhHant": "房子/家"
   },
   {
     "id": "m1-andar",
@@ -797,7 +955,9 @@
     "english": "floor",
     "examplePt": "Moro no segundo andar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "楼层/走路",
+    "zhHant": "樓層/走路"
   },
   {
     "id": "m1-quarto",
@@ -807,7 +967,9 @@
     "english": "bedroom; room",
     "examplePt": "A cozinha fica entre a sala e o quarto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "房间/卧室",
+    "zhHant": "房間/臥室"
   },
   {
     "id": "m1-casa-banho",
@@ -817,7 +979,9 @@
     "english": "bathroom",
     "examplePt": "A casa de banho fica perto do quarto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "浴室",
+    "zhHant": "浴室"
   },
   {
     "id": "m1-cozinha",
@@ -827,7 +991,9 @@
     "english": "kitchen",
     "examplePt": "Tomo o pequeno-almoço na cozinha.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "厨房",
+    "zhHant": "廚房"
   },
   {
     "id": "m1-apartamento",
@@ -837,7 +1003,9 @@
     "english": "apartment",
     "examplePt": "Eles moram num apartamento pequeno.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "公寓",
+    "zhHant": "公寓"
   },
   {
     "id": "m1-predio",
@@ -847,7 +1015,9 @@
     "english": "building",
     "examplePt": "Ele mora num prédio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "建筑",
+    "zhHant": "大樓"
   },
   {
     "id": "m1-aluga-se",
@@ -857,7 +1027,9 @@
     "english": "for rent",
     "examplePt": "Aluga-se apartamento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "出租",
+    "zhHant": "出租"
   },
   {
     "id": "m1-renda",
@@ -867,7 +1039,9 @@
     "english": "rent",
     "examplePt": "O valor da renda é 200 euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "房租/收入",
+    "zhHant": "房租/收入"
   },
   {
     "id": "m1-ser",
@@ -877,7 +1051,9 @@
     "english": "to be",
     "examplePt": "Eu sou o Ahmed.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "成为",
+    "zhHant": "成為"
   },
   {
     "id": "m1-estar",
@@ -887,7 +1063,9 @@
     "english": "to be; to be located",
     "examplePt": "Eu estou em Lisboa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "成为；位于",
+    "zhHant": "成為；位於"
   },
   {
     "id": "m1-ter",
@@ -897,7 +1075,9 @@
     "english": "to have",
     "examplePt": "Tenho 32 anos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "拥有",
+    "zhHant": "擁有"
   },
   {
     "id": "m1-morar",
@@ -907,7 +1087,9 @@
     "english": "to live",
     "examplePt": "Moro em Odivelas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "生活",
+    "zhHant": "生活"
   },
   {
     "id": "m1-trabalhar",
@@ -917,7 +1099,9 @@
     "english": "to work",
     "examplePt": "Ela trabalha no supermercado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去工作",
+    "zhHant": "去工作"
   },
   {
     "id": "m1-quem",
@@ -927,7 +1111,9 @@
     "english": "who",
     "examplePt": "Quem é o Ahmed?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "WHO",
+    "zhHant": "世界衛生組織"
   },
   {
     "id": "m1-qual",
@@ -937,7 +1123,9 @@
     "english": "which; what",
     "examplePt": "Qual é a sua morada?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "哪个;什么",
+    "zhHant": "哪個;什麼"
   },
   {
     "id": "m1-onde",
@@ -947,7 +1135,9 @@
     "english": "where",
     "examplePt": "Onde mora?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "在哪里",
+    "zhHant": "在哪裡"
   },
   {
     "id": "m1-como",
@@ -957,7 +1147,9 @@
     "english": "how",
     "examplePt": "Como está?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "如何",
+    "zhHant": "如何"
   },
   {
     "id": "m1-que",
@@ -967,7 +1159,9 @@
     "english": "what",
     "examplePt": "Que trabalho faz?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "什么",
+    "zhHant": "什麼"
   },
   {
     "id": "m1-quantos",
@@ -977,7 +1171,9 @@
     "english": "how many",
     "examplePt": "Quantos filhos tem?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "多少",
+    "zhHant": "多少"
   },
   {
     "id": "m2-apanhar-metro",
@@ -987,7 +1183,9 @@
     "english": "to take the metro",
     "examplePt": "Vou apanhar o metro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "乘坐地铁",
+    "zhHant": "搭乘地鐵"
   },
   {
     "id": "m2-almocar",
@@ -997,7 +1195,9 @@
     "english": "to have lunch",
     "examplePt": "Almoço entre o meio-dia e a uma.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "吃午饭",
+    "zhHant": "吃午餐"
   },
   {
     "id": "m2-acordar",
@@ -1007,7 +1207,9 @@
     "english": "to wake up",
     "examplePt": "Eu acordo às seis e meia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "醒来",
+    "zhHant": "醒來"
   },
   {
     "id": "m2-tomar-pequeno-almoco",
@@ -1017,7 +1219,9 @@
     "english": "to have breakfast",
     "examplePt": "Tomo o pequeno-almoço na cozinha.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "吃早餐",
+    "zhHant": "吃早餐"
   },
   {
     "id": "m2-ir-trabalho",
@@ -1027,7 +1231,9 @@
     "english": "to go to work",
     "examplePt": "Vou para o trabalho às oito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去上班",
+    "zhHant": "去上班"
   },
   {
     "id": "m2-voltar-casa",
@@ -1037,7 +1243,9 @@
     "english": "to return home",
     "examplePt": "Volto para casa às oito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "回家",
+    "zhHant": "回家"
   },
   {
     "id": "m2-pequeno-almoco",
@@ -1047,7 +1255,9 @@
     "english": "breakfast",
     "examplePt": "Tomo o pequeno-almoço em casa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "早餐",
+    "zhHant": "早餐"
   },
   {
     "id": "m2-almoco",
@@ -1057,7 +1267,9 @@
     "english": "lunch",
     "examplePt": "Levo o almoço de casa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "午餐",
+    "zhHant": "午餐"
   },
   {
     "id": "m2-jantar",
@@ -1067,7 +1279,9 @@
     "english": "dinner",
     "examplePt": "Depois das aulas, jantamos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "晚餐",
+    "zhHant": "晚餐"
   },
   {
     "id": "m2-horas",
@@ -1077,7 +1291,9 @@
     "english": "what time is it?",
     "examplePt": "Olá, que horas são?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "现在是几奌？",
+    "zhHant": "現在是幾奌？"
   },
   {
     "id": "m2-meio-dia",
@@ -1087,7 +1303,9 @@
     "english": "noon",
     "examplePt": "Almoço ao meio-dia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "中午",
+    "zhHant": "中午"
   },
   {
     "id": "m2-taxi",
@@ -1097,7 +1315,9 @@
     "english": "taxi",
     "examplePt": "A paragem de táxis fica ali.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "出租车",
+    "zhHant": "計程車"
   },
   {
     "id": "m2-comboio",
@@ -1107,7 +1327,9 @@
     "english": "train",
     "examplePt": "Apanho o comboio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "火车",
+    "zhHant": "火車"
   },
   {
     "id": "m2-autocarro",
@@ -1117,7 +1339,9 @@
     "english": "bus",
     "examplePt": "Apanho o autocarro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "公共汽车",
+    "zhHant": "公車"
   },
   {
     "id": "m2-metro",
@@ -1127,7 +1351,9 @@
     "english": "metro",
     "examplePt": "Uso o metro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "地铁",
+    "zhHant": "捷運"
   },
   {
     "id": "m2-aviao",
@@ -1137,7 +1363,9 @@
     "english": "plane",
     "examplePt": "O meu avião parte às oito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "飞机",
+    "zhHant": "飛機"
   },
   {
     "id": "m2-passe",
@@ -1147,7 +1375,9 @@
     "english": "travel pass",
     "examplePt": "Tenho de comprar o passe.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "交通月票/通行证",
+    "zhHant": "交通月票/通行證"
   },
   {
     "id": "m2-bilhete-simples",
@@ -1157,7 +1387,9 @@
     "english": "single ticket",
     "examplePt": "Queria um bilhete simples.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "单程票",
+    "zhHant": "單程票"
   },
   {
     "id": "m2-paragem-autocarro",
@@ -1167,7 +1399,9 @@
     "english": "bus stop",
     "examplePt": "Estou na paragem de autocarro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "巴士站",
+    "zhHant": "巴士站"
   },
   {
     "id": "m2-estacao-comboios",
@@ -1177,7 +1411,9 @@
     "english": "train station",
     "examplePt": "O metro passa pela estação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "火车站",
+    "zhHant": "火車站"
   },
   {
     "id": "m2-dinheiro",
@@ -1187,7 +1423,9 @@
     "english": "money",
     "examplePt": "Preciso de transferir dinheiro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "钱",
+    "zhHant": "錢"
   },
   {
     "id": "m2-centimo",
@@ -1197,7 +1435,9 @@
     "english": "cent",
     "examplePt": "São vinte cêntimos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "分",
+    "zhHant": "分"
   },
   {
     "id": "m2-euro",
@@ -1207,7 +1447,9 @@
     "english": "euro",
     "examplePt": "São dois euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "欧元",
+    "zhHant": "歐元"
   },
   {
     "id": "m2-levantar-se",
@@ -1217,7 +1459,9 @@
     "english": "to get up",
     "examplePt": "Levanto-me às cinco da manhã.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "起床",
+    "zhHant": "起床"
   },
   {
     "id": "m2-lavar-dentes",
@@ -1227,7 +1471,9 @@
     "english": "to brush one's teeth",
     "examplePt": "A seguir, lavo os dentes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "刷牙",
+    "zhHant": "刷牙"
   },
   {
     "id": "m2-tomar-duche",
@@ -1237,7 +1483,9 @@
     "english": "to take a shower",
     "examplePt": "Tomo um duche quente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "洗澡",
+    "zhHant": "洗澡"
   },
   {
     "id": "m2-autorizacao-residencia",
@@ -1247,7 +1495,9 @@
     "english": "residence permit",
     "examplePt": "Preciso da renovação da autorização de residência.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "居留证",
+    "zhHant": "居留證"
   },
   {
     "id": "m2-transportes-publicos",
@@ -1257,7 +1507,9 @@
     "english": "public transport",
     "examplePt": "Usa transportes públicos?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "公共交通",
+    "zhHant": "大眾運輸"
   },
   {
     "id": "m2-precisar",
@@ -1267,7 +1519,9 @@
     "english": "to need",
     "examplePt": "Preciso de falar português.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "需要",
+    "zhHant": "需要"
   },
   {
     "id": "m2-usar",
@@ -1277,7 +1531,9 @@
     "english": "to use",
     "examplePt": "Uso o metro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "使用",
+    "zhHant": "使用"
   },
   {
     "id": "m2-abrir",
@@ -1287,7 +1543,9 @@
     "english": "to open",
     "examplePt": "A bilheteira abre às oito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "打开",
+    "zhHant": "打開"
   },
   {
     "id": "m2-ir",
@@ -1297,7 +1555,9 @@
     "english": "to go",
     "examplePt": "Eu vou para o trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去",
+    "zhHant": "去"
   },
   {
     "id": "m2-sair",
@@ -1307,7 +1567,9 @@
     "english": "to leave; to go out",
     "examplePt": "Saio de casa cedo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "离开；出去",
+    "zhHant": "離開；出去"
   },
   {
     "id": "m2-ha",
@@ -1317,7 +1579,9 @@
     "english": "there is; there are; ago",
     "examplePt": "Há muito trânsito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "有;有;前",
+    "zhHant": "有;有;前"
   },
   {
     "id": "m2-transito",
@@ -1327,7 +1591,9 @@
     "english": "traffic",
     "examplePt": "Há muito trânsito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "交通",
+    "zhHant": "交通"
   },
   {
     "id": "m2-sempre",
@@ -1337,7 +1603,9 @@
     "english": "always",
     "examplePt": "Levanto-me sempre cedo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "总是",
+    "zhHant": "總是"
   },
   {
     "id": "m2-nunca",
@@ -1347,7 +1615,9 @@
     "english": "never",
     "examplePt": "Nunca chego tarde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "绝不",
+    "zhHant": "絕不"
   },
   {
     "id": "m2-ir-compras",
@@ -1357,7 +1627,9 @@
     "english": "to go shopping",
     "examplePt": "Vou às compras ao sábado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去购物",
+    "zhHant": "去購物"
   },
   {
     "id": "m2-transferir-dinheiro",
@@ -1367,7 +1639,9 @@
     "english": "to transfer money",
     "examplePt": "Preciso de transferir dinheiro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "转账",
+    "zhHant": "轉帳"
   },
   {
     "id": "m3-cafe",
@@ -1377,7 +1651,9 @@
     "english": "coffee; cafe",
     "examplePt": "Queria uma bica.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "咖啡;咖啡店",
+    "zhHant": "咖啡;咖啡店"
   },
   {
     "id": "m3-agua",
@@ -1387,7 +1663,9 @@
     "english": "water",
     "examplePt": "Ponha água na panela.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "水",
+    "zhHant": "水"
   },
   {
     "id": "m3-acucar",
@@ -1397,7 +1675,9 @@
     "english": "sugar",
     "examplePt": "Preciso de um pacote de açúcar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "糖",
+    "zhHant": "糖"
   },
   {
     "id": "m3-arroz",
@@ -1407,7 +1687,9 @@
     "english": "rice",
     "examplePt": "Queria dois quilos de arroz.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "米",
+    "zhHant": "白飯"
   },
   {
     "id": "m3-azeite",
@@ -1417,7 +1699,9 @@
     "english": "olive oil",
     "examplePt": "Queria uma garrafa de azeite.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "橄榄油",
+    "zhHant": "橄欖油"
   },
   {
     "id": "m3-leite",
@@ -1427,7 +1711,9 @@
     "english": "milk",
     "examplePt": "Compro quatro pacotes de leite.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "牛奶",
+    "zhHant": "牛奶"
   },
   {
     "id": "m3-pao-forma",
@@ -1437,7 +1723,9 @@
     "english": "sliced bread",
     "examplePt": "Compro pão de forma.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "切片面包",
+    "zhHant": "切片麵包"
   },
   {
     "id": "m3-cebola",
@@ -1447,7 +1735,9 @@
     "english": "onion",
     "examplePt": "As cebolas são baratas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "洋葱",
+    "zhHant": "洋蔥"
   },
   {
     "id": "m3-alho",
@@ -1457,7 +1747,9 @@
     "english": "garlic",
     "examplePt": "Compro alhos no mercado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "蒜",
+    "zhHant": "蒜"
   },
   {
     "id": "m3-tomate",
@@ -1467,7 +1759,9 @@
     "english": "tomato",
     "examplePt": "Queria duas latas de tomate pelado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "番茄",
+    "zhHant": "番茄"
   },
   {
     "id": "m3-maca",
@@ -1477,7 +1771,9 @@
     "english": "apple",
     "examplePt": "A maçã é melhor do que as limas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "苹果",
+    "zhHant": "蘋果"
   },
   {
     "id": "m3-banana",
@@ -1487,7 +1783,9 @@
     "english": "banana",
     "examplePt": "Compro bananas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "香蕉",
+    "zhHant": "香蕉"
   },
   {
     "id": "m3-queijo",
@@ -1497,7 +1795,9 @@
     "english": "cheese",
     "examplePt": "Quero um queijo fresco.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "奶酪",
+    "zhHant": "起司"
   },
   {
     "id": "m3-carne-vaca",
@@ -1507,7 +1807,9 @@
     "english": "beef",
     "examplePt": "A carne de vaca está no talho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "牛肉",
+    "zhHant": "牛肉"
   },
   {
     "id": "m3-frango",
@@ -1517,7 +1819,9 @@
     "english": "chicken",
     "examplePt": "Quero frango assado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "鸡",
+    "zhHant": "雞"
   },
   {
     "id": "m3-sandes",
@@ -1527,7 +1831,9 @@
     "english": "sandwich",
     "examplePt": "Como uma sandes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "三明治",
+    "zhHant": "三明治"
   },
   {
     "id": "m3-maquina-lavar-roupa",
@@ -1537,7 +1843,9 @@
     "english": "washing machine",
     "examplePt": "A máquina de lavar roupa está na cozinha.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "洗衣机",
+    "zhHant": "洗衣機"
   },
   {
     "id": "m3-frigorifico",
@@ -1547,7 +1855,9 @@
     "english": "fridge",
     "examplePt": "O frigorífico está cheio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "冰箱",
+    "zhHant": "冰箱"
   },
   {
     "id": "m3-cartao-multibanco",
@@ -1557,7 +1867,9 @@
     "english": "debit card",
     "examplePt": "Posso pagar com o multibanco?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "借记卡",
+    "zhHant": "金融卡"
   },
   {
     "id": "m3-mercearia",
@@ -1567,7 +1879,9 @@
     "english": "grocery shop",
     "examplePt": "Vou à mercearia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "杂货店",
+    "zhHant": "雜貨店"
   },
   {
     "id": "m3-padaria",
@@ -1577,7 +1891,9 @@
     "english": "bakery",
     "examplePt": "Compro pão na padaria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "面包店",
+    "zhHant": "麵包店"
   },
   {
     "id": "m3-talho",
@@ -1587,7 +1903,9 @@
     "english": "butcher's",
     "examplePt": "Compro carne no talho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "屠夫的",
+    "zhHant": "屠夫的"
   },
   {
     "id": "m3-peixaria",
@@ -1597,7 +1915,9 @@
     "english": "fish shop",
     "examplePt": "Compro peixe na peixaria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "鱼店",
+    "zhHant": "魚店"
   },
   {
     "id": "m3-restaurante",
@@ -1607,7 +1927,9 @@
     "english": "restaurant",
     "examplePt": "Vamos jantar num restaurante português.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "餐厅",
+    "zhHant": "餐廳"
   },
   {
     "id": "m3-conta",
@@ -1617,7 +1939,9 @@
     "english": "bill",
     "examplePt": "Era a conta, se faz favor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "账单",
+    "zhHant": "帳單"
   },
   {
     "id": "m3-talao",
@@ -1627,7 +1951,9 @@
     "english": "receipt",
     "examplePt": "Aqui tem o talão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "收据",
+    "zhHant": "收據"
   },
   {
     "id": "m3-fatura",
@@ -1637,7 +1963,9 @@
     "english": "invoice",
     "examplePt": "Pode dar-me uma fatura?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "发票",
+    "zhHant": "發票"
   },
   {
     "id": "m3-contribuinte",
@@ -1647,7 +1975,9 @@
     "english": "tax number",
     "examplePt": "O meu número de contribuinte é 243 333 218.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "税号",
+    "zhHant": "稅號"
   },
   {
     "id": "m3-ementa",
@@ -1657,7 +1987,9 @@
     "english": "menu",
     "examplePt": "Pode trazer a ementa?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "菜单",
+    "zhHant": "選單"
   },
   {
     "id": "m3-prazo-validade",
@@ -1667,7 +1999,9 @@
     "english": "expiry date",
     "examplePt": "Qual é o prazo de validade?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "到期日",
+    "zhHant": "到期日"
   },
   {
     "id": "m3-pedir",
@@ -1677,7 +2011,9 @@
     "english": "to ask for; to order",
     "examplePt": "Vou pedir a conta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "要求；订购",
+    "zhHant": "要求；訂購"
   },
   {
     "id": "m3-querer",
@@ -1687,7 +2023,9 @@
     "english": "to want",
     "examplePt": "Queria jantar num restaurante.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "想要",
+    "zhHant": "想要"
   },
   {
     "id": "m3-poder",
@@ -1697,7 +2035,9 @@
     "english": "can; to be able to",
     "examplePt": "Posso pagar com multibanco?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "能;能够",
+    "zhHant": "能;能夠"
   },
   {
     "id": "m3-caro",
@@ -1707,7 +2047,9 @@
     "english": "expensive",
     "examplePt": "Este produto é caro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "昂贵的",
+    "zhHant": "昂貴的"
   },
   {
     "id": "m3-barato",
@@ -1717,7 +2059,9 @@
     "english": "cheap",
     "examplePt": "As peras são menos caras.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "便宜的",
+    "zhHant": "便宜的"
   },
   {
     "id": "m3-saudavel",
@@ -1727,6 +2071,8 @@
     "english": "healthy",
     "examplePt": "Esta comida é saudável.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康",
+    "zhHant": "健康"
   }
 ]

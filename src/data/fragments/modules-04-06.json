@@ -7,7 +7,9 @@
     "english": "to listen to music",
     "examplePt": "Gosto de ouvir música em casa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "听音乐",
+    "zhHant": "聽音樂"
   },
   {
     "id": "m4-passear",
@@ -17,7 +19,9 @@
     "english": "to go for a walk",
     "examplePt": "Costumo passear no parque.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去散步",
+    "zhHant": "去散步"
   },
   {
     "id": "m4-ler",
@@ -27,7 +31,9 @@
     "english": "to read",
     "examplePt": "No fim de semana gosto de ler.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "阅读",
+    "zhHant": "閱讀"
   },
   {
     "id": "m4-ir-as-compras",
@@ -37,7 +43,9 @@
     "english": "to go shopping",
     "examplePt": "Vou às compras ao sábado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去购物",
+    "zhHant": "去購物"
   },
   {
     "id": "m4-ver-televisao",
@@ -47,7 +55,9 @@
     "english": "to watch television",
     "examplePt": "À noite vejo televisão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "看电视",
+    "zhHant": "看電視"
   },
   {
     "id": "m4-conversar",
@@ -57,7 +67,9 @@
     "english": "to talk",
     "examplePt": "Gosto de conversar com amigos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "说话",
+    "zhHant": "說話"
   },
   {
     "id": "m4-ir-ao-ginasio",
@@ -67,7 +79,9 @@
     "english": "to go to the gym",
     "examplePt": "Vou ao ginásio depois do trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去健身房",
+    "zhHant": "去健身房"
   },
   {
     "id": "m4-ir-ao-cinema",
@@ -77,7 +91,9 @@
     "english": "to go to the cinema",
     "examplePt": "Queres ir ao cinema amanhã?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去电影院",
+    "zhHant": "去電影院"
   },
   {
     "id": "m4-ir-a-um-bar",
@@ -87,7 +103,9 @@
     "english": "to go to a bar",
     "examplePt": "Depois do cinema vamos a um bar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去酒吧",
+    "zhHant": "去酒吧"
   },
   {
     "id": "m4-ir-a-praia",
@@ -97,7 +115,9 @@
     "english": "to go to the beach",
     "examplePt": "No verão gosto de ir à praia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去海滩",
+    "zhHant": "去海灘"
   },
   {
     "id": "m4-viajar",
@@ -107,7 +127,9 @@
     "english": "to travel",
     "examplePt": "Gosto de viajar nas férias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去旅行",
+    "zhHant": "去旅行"
   },
   {
     "id": "m4-filme",
@@ -117,7 +139,9 @@
     "english": "film",
     "examplePt": "Qual é o filme?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "电影",
+    "zhHant": "電影"
   },
   {
     "id": "m4-futebol",
@@ -127,7 +151,9 @@
     "english": "football",
     "examplePt": "Ele joga futebol ao domingo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "足球",
+    "zhHant": "足球"
   },
   {
     "id": "m4-chuva",
@@ -137,7 +163,9 @@
     "english": "rain",
     "examplePt": "Hoje há chuva.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "雨",
+    "zhHant": "雨"
   },
   {
     "id": "m4-vento",
@@ -147,7 +175,9 @@
     "english": "wind",
     "examplePt": "Está muito vento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "风",
+    "zhHant": "風"
   },
   {
     "id": "m4-sol",
@@ -157,7 +187,9 @@
     "english": "sun",
     "examplePt": "Gosto de apanhar sol.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "太阳",
+    "zhHant": "太陽"
   },
   {
     "id": "m4-outono",
@@ -167,7 +199,9 @@
     "english": "autumn",
     "examplePt": "No outono as folhas secam.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "秋天",
+    "zhHant": "秋天"
   },
   {
     "id": "m4-primavera",
@@ -177,7 +211,9 @@
     "english": "spring",
     "examplePt": "Na primavera há muitas flores.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "春天",
+    "zhHant": "春天"
   },
   {
     "id": "m4-inverno",
@@ -187,7 +223,9 @@
     "english": "winter",
     "examplePt": "No inverno faz frio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "冬天",
+    "zhHant": "冬天"
   },
   {
     "id": "m4-verao",
@@ -197,7 +235,9 @@
     "english": "summer",
     "examplePt": "No verão vou à praia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "夏天",
+    "zhHant": "夏天"
   },
   {
     "id": "m4-bilheteira",
@@ -207,7 +247,9 @@
     "english": "ticket office",
     "examplePt": "Encontramo-nos na bilheteira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "售票处",
+    "zhHant": "售票處"
   },
   {
     "id": "m4-fim-de-semana",
@@ -217,7 +259,9 @@
     "english": "weekend",
     "examplePt": "No fim de semana podemos ir a Sintra.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "周末",
+    "zhHant": "週末"
   },
   {
     "id": "m4-fresco",
@@ -227,7 +271,9 @@
     "english": "cool; fresh",
     "examplePt": "O tempo está fresco. A noite está fresca.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "凉爽的;新鲜的",
+    "zhHant": "涼爽的;新鮮的"
   },
   {
     "id": "m4-frio",
@@ -237,7 +283,9 @@
     "english": "cold",
     "examplePt": "O dia está frio. A noite está fria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "寒冷的",
+    "zhHant": "寒冷的"
   },
   {
     "id": "m4-pastelaria",
@@ -247,7 +295,9 @@
     "english": "pastry shop",
     "examplePt": "Lanchamos na pastelaria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "糕点店",
+    "zhHant": "糕點店"
   },
   {
     "id": "m4-dar-uma-volta",
@@ -257,7 +307,9 @@
     "english": "to go for a stroll",
     "examplePt": "Vamos dar uma volta ao centro comercial.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去散步",
+    "zhHant": "去散步"
   },
   {
     "id": "m4-centro-comercial",
@@ -267,7 +319,9 @@
     "english": "shopping centre",
     "examplePt": "Vou ao centro comercial.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "购物中心",
+    "zhHant": "購物中心"
   },
   {
     "id": "m4-dizer",
@@ -277,7 +331,9 @@
     "english": "to say",
     "examplePt": "Eles dizem que o desporto é saudável.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "说",
+    "zhHant": "說"
   },
   {
     "id": "m4-amanha",
@@ -287,7 +343,9 @@
     "english": "tomorrow",
     "examplePt": "Amanhã vou trabalhar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "明天",
+    "zhHant": "明天"
   },
   {
     "id": "m4-depois-de-amanha",
@@ -297,7 +355,9 @@
     "english": "the day after tomorrow",
     "examplePt": "Depois de amanhã é sábado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "后天",
+    "zhHant": "後天"
   },
   {
     "id": "m4-na-proxima-semana",
@@ -307,7 +367,9 @@
     "english": "next week",
     "examplePt": "Na próxima semana vou ao dentista.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "下周",
+    "zhHant": "下週"
   },
   {
     "id": "m4-daqui-a-uma-semana",
@@ -317,7 +379,9 @@
     "english": "in a week",
     "examplePt": "Daqui a uma semana vou viajar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一周内",
+    "zhHant": "一週內"
   },
   {
     "id": "m4-natal",
@@ -327,7 +391,9 @@
     "english": "Christmas",
     "examplePt": "No Natal as pessoas reúnem-se.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "圣诞节",
+    "zhHant": "聖誕節"
   },
   {
     "id": "m4-pascoa",
@@ -337,7 +403,9 @@
     "english": "Easter",
     "examplePt": "Na Páscoa comem-se folares.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "复活节",
+    "zhHant": "復活節"
   },
   {
     "id": "m4-costumar",
@@ -347,7 +415,9 @@
     "english": "to usually do",
     "examplePt": "Costumo passar o fim de semana fora.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "通常做",
+    "zhHant": "通常做"
   },
   {
     "id": "m4-andar-de-bicicleta",
@@ -357,7 +427,9 @@
     "english": "to ride a bicycle",
     "examplePt": "Eles costumam andar de bicicleta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "骑自行车",
+    "zhHant": "騎自行車"
   },
   {
     "id": "m4-divertir-se",
@@ -367,7 +439,9 @@
     "english": "to have fun",
     "examplePt": "Nós divertimo-nos muito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "玩得开心",
+    "zhHant": "玩得開心"
   },
   {
     "id": "m4-comigo",
@@ -377,7 +451,9 @@
     "english": "with me",
     "examplePt": "Podes contar comigo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "与我一起",
+    "zhHant": "與我一起"
   },
   {
     "id": "m4-contigo",
@@ -387,7 +463,9 @@
     "english": "with you",
     "examplePt": "Vou contigo ao cinema.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "与你",
+    "zhHant": "與你"
   },
   {
     "id": "m4-consigo",
@@ -397,7 +475,9 @@
     "english": "with you",
     "examplePt": "Posso ir consigo?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "与你",
+    "zhHant": "與你"
   },
   {
     "id": "m5-oficina",
@@ -407,7 +487,9 @@
     "english": "repair shop",
     "examplePt": "O carro está na oficina.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "修理店",
+    "zhHant": "修理店"
   },
   {
     "id": "m5-bomba-de-gasolina",
@@ -417,7 +499,9 @@
     "english": "petrol station",
     "examplePt": "A bomba de gasolina fica perto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "加油站",
+    "zhHant": "加油站"
   },
   {
     "id": "m5-correios",
@@ -427,7 +511,9 @@
     "english": "post office",
     "examplePt": "Vou aos Correios enviar uma carta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "邮局",
+    "zhHant": "郵局"
   },
   {
     "id": "m5-banco",
@@ -437,7 +523,9 @@
     "english": "bank",
     "examplePt": "O banco fica atrás dos Correios.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "银行",
+    "zhHant": "銀行"
   },
   {
     "id": "m5-servico-de-estrangeiros-e-fronteiras",
@@ -447,7 +535,9 @@
     "english": "foreigners and borders service",
     "examplePt": "Tenho marcação no Serviço de Estrangeiros e Fronteiras.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "外国人和边境服务局",
+    "zhHant": "外國人和邊境服務局"
   },
   {
     "id": "m5-loja-de-roupa",
@@ -457,7 +547,9 @@
     "english": "clothes shop",
     "examplePt": "A loja de roupa está aberta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "服装店",
+    "zhHant": "服飾店"
   },
   {
     "id": "m5-servico",
@@ -467,7 +559,9 @@
     "english": "service",
     "examplePt": "Este serviço ajuda os utentes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "服务",
+    "zhHant": "服務"
   },
   {
     "id": "m5-lavandaria",
@@ -477,7 +571,9 @@
     "english": "launderette",
     "examplePt": "Levo a roupa à lavandaria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自助洗衣店",
+    "zhHant": "自助洗衣店"
   },
   {
     "id": "m5-oculista",
@@ -487,7 +583,9 @@
     "english": "optician",
     "examplePt": "Vou ao oculista.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "配镜师",
+    "zhHant": "配鏡師"
   },
   {
     "id": "m5-proibido-fumar",
@@ -497,7 +595,9 @@
     "english": "No smoking",
     "examplePt": "O aviso diz: Proibido fumar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "禁止抽烟",
+    "zhHant": "禁止抽煙"
   },
   {
     "id": "m5-fechado-para-ferias",
@@ -507,7 +607,9 @@
     "english": "Closed for holidays",
     "examplePt": "A loja está fechada para férias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "节假日休息",
+    "zhHant": "假日休息"
   },
   {
     "id": "m5-encomenda",
@@ -517,7 +619,9 @@
     "english": "parcel",
     "examplePt": "Tenho uma encomenda nos Correios.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "包裹",
+    "zhHant": "包裹"
   },
   {
     "id": "m5-a-esquerda",
@@ -527,7 +631,9 @@
     "english": "to the left",
     "examplePt": "Vire à esquerda.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "向左转",
+    "zhHant": "向左轉"
   },
   {
     "id": "m5-a-direita",
@@ -537,7 +643,9 @@
     "english": "to the right",
     "examplePt": "Vire à direita.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "向右",
+    "zhHant": "向右"
   },
   {
     "id": "m5-seguir-em-frente",
@@ -547,7 +655,9 @@
     "english": "to go straight ahead",
     "examplePt": "Siga em frente até ao banco.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "直走",
+    "zhHant": "直走"
   },
   {
     "id": "m5-atravessar",
@@ -557,7 +667,9 @@
     "english": "to cross",
     "examplePt": "Atravesse o cruzamento com cuidado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "穿越",
+    "zhHant": "穿越"
   },
   {
     "id": "m5-passar",
@@ -567,7 +679,9 @@
     "english": "to pass",
     "examplePt": "O autocarro passa pelo Areeiro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "通过",
+    "zhHant": "透過"
   },
   {
     "id": "m5-subir",
@@ -577,7 +691,9 @@
     "english": "to go up",
     "examplePt": "Suba a Rua do Sol.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "上去",
+    "zhHant": "上去"
   },
   {
     "id": "m5-descer",
@@ -587,7 +703,9 @@
     "english": "to go down",
     "examplePt": "Desça a rua.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "下去",
+    "zhHant": "下去"
   },
   {
     "id": "m5-enviar-uma-carta",
@@ -597,7 +715,9 @@
     "english": "to send a letter",
     "examplePt": "Queria enviar esta carta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "寄信",
+    "zhHant": "寄信"
   },
   {
     "id": "m5-pagar-a-conta",
@@ -607,7 +727,9 @@
     "english": "to pay the bill",
     "examplePt": "Queria pagar a conta da água.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "支付账单",
+    "zhHant": "支付帳單"
   },
   {
     "id": "m5-senha",
@@ -617,7 +739,9 @@
     "english": "ticket number",
     "examplePt": "Pode dar-me a sua senha?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "票号",
+    "zhHant": "票號"
   },
   {
     "id": "m5-carta-registada",
@@ -627,7 +751,9 @@
     "english": "registered letter",
     "examplePt": "A carta é registada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "挂号信",
+    "zhHant": "掛號信"
   },
   {
     "id": "m5-impresso",
@@ -637,7 +763,9 @@
     "english": "form",
     "examplePt": "Preencha este impresso.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "形式",
+    "zhHant": "形式"
   },
   {
     "id": "m5-fatura",
@@ -647,7 +775,9 @@
     "english": "invoice",
     "examplePt": "Aqui está a fatura.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "发票",
+    "zhHant": "發票"
   },
   {
     "id": "m5-renovar",
@@ -657,7 +787,9 @@
     "english": "to renew",
     "examplePt": "Queria renovar a autorização de residência.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "更新",
+    "zhHant": "更新"
   },
   {
     "id": "m5-autorizacao-de-residencia",
@@ -667,7 +799,9 @@
     "english": "residence permit",
     "examplePt": "Tenho autorização de residência permanente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "居留证",
+    "zhHant": "居留證"
   },
   {
     "id": "m5-documentos-necessarios",
@@ -677,7 +811,9 @@
     "english": "required documents",
     "examplePt": "Que documentos necessários devo trazer?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "所需文件",
+    "zhHant": "所需文件"
   },
   {
     "id": "m5-requerente",
@@ -687,7 +823,9 @@
     "english": "applicant",
     "examplePt": "O requerente assina o pedido.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "申请人",
+    "zhHant": "申請人"
   },
   {
     "id": "m5-fotografia-tipo-passe",
@@ -697,7 +835,9 @@
     "english": "passport photo",
     "examplePt": "Preciso de duas fotografias tipo passe.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "护照照片",
+    "zhHant": "護照照片"
   },
   {
     "id": "m5-passaporte",
@@ -707,7 +847,9 @@
     "english": "passport",
     "examplePt": "Deve levar o passaporte.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "护照",
+    "zhHant": "護照"
   },
   {
     "id": "m5-registo-criminal",
@@ -717,7 +859,9 @@
     "english": "criminal record",
     "examplePt": "Preciso de autorização para consulta do registo criminal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "犯罪记录",
+    "zhHant": "犯罪記錄"
   },
   {
     "id": "m5-pessoalmente",
@@ -727,7 +871,9 @@
     "english": "in person",
     "examplePt": "Tem de vir cá pessoalmente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "亲自",
+    "zhHant": "親自"
   },
   {
     "id": "m5-pneu-furado",
@@ -737,7 +883,9 @@
     "english": "flat tyre",
     "examplePt": "Tenho de trocar um pneu furado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "轮胎漏气",
+    "zhHant": "輪胎漏氣"
   },
   {
     "id": "m5-veiculo",
@@ -747,7 +895,9 @@
     "english": "vehicle",
     "examplePt": "Leve luvas no seu veículo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "车辆",
+    "zhHant": "車輛"
   },
   {
     "id": "m5-estrada",
@@ -757,7 +907,9 @@
     "english": "road",
     "examplePt": "O triângulo está na estrada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "路",
+    "zhHant": "路"
   },
   {
     "id": "m5-estacao-de-servico",
@@ -767,7 +919,9 @@
     "english": "service station",
     "examplePt": "Pare na estação de serviço.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "服务站",
+    "zhHant": "服務站"
   },
   {
     "id": "m5-poupar",
@@ -777,7 +931,9 @@
     "english": "to save money",
     "examplePt": "Quero poupar no supermercado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "为了省钱",
+    "zhHant": "為了省錢"
   },
   {
     "id": "m5-supermercado",
@@ -787,7 +943,9 @@
     "english": "supermarket",
     "examplePt": "Vou ao supermercado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "超级市场",
+    "zhHant": "超市場"
   },
   {
     "id": "m5-daqui",
@@ -797,7 +955,9 @@
     "english": "from here",
     "examplePt": "Como vou daqui para o ACM?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "从这里",
+    "zhHant": "從這裡"
   },
   {
     "id": "m5-virar-a-direita",
@@ -807,7 +967,9 @@
     "english": "to turn right",
     "examplePt": "Vire à direita na igreja.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "右转",
+    "zhHant": "右轉"
   },
   {
     "id": "m5-ir-a-pe",
@@ -817,7 +979,9 @@
     "english": "to go on foot",
     "examplePt": "Vá a pé até ao ACM.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "步行",
+    "zhHant": "行人徒步區"
   },
   {
     "id": "m5-demorar",
@@ -827,7 +991,9 @@
     "english": "to take time",
     "examplePt": "Demora cerca de dez minutos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "需要时间",
+    "zhHant": "需要時間"
   },
   {
     "id": "m5-saber",
@@ -837,7 +1003,9 @@
     "english": "to know",
     "examplePt": "Sabe onde ficam os Correios?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "知道",
+    "zhHant": "知道"
   },
   {
     "id": "m5-motorista",
@@ -847,7 +1015,9 @@
     "english": "driver",
     "examplePt": "O Sami é motorista.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "司机",
+    "zhHant": "司機"
   },
   {
     "id": "m5-guiar",
@@ -857,7 +1027,9 @@
     "english": "to drive",
     "examplePt": "Não fale ao telemóvel quando está a guiar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "开车",
+    "zhHant": "開車"
   },
   {
     "id": "m5-atender",
@@ -867,7 +1039,9 @@
     "english": "to answer",
     "examplePt": "Não atenda o telemóvel.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "回答",
+    "zhHant": "回答"
   },
   {
     "id": "m5-desligar",
@@ -877,7 +1051,9 @@
     "english": "to turn off",
     "examplePt": "Desligue o telemóvel.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "关闭",
+    "zhHant": "關閉"
   },
   {
     "id": "m5-esquecer-se",
@@ -887,7 +1063,9 @@
     "english": "to forget",
     "examplePt": "Não se esqueça dos documentos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "忘记",
+    "zhHant": "忘記"
   },
   {
     "id": "m5-rotunda",
@@ -897,7 +1075,9 @@
     "english": "roundabout",
     "examplePt": "Contorne a rotunda.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "迂回",
+    "zhHant": "迂迴"
   },
   {
     "id": "m5-semaforo",
@@ -907,7 +1087,9 @@
     "english": "traffic light",
     "examplePt": "O semáforo está avariado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "红绿灯",
+    "zhHant": "紅綠燈"
   },
   {
     "id": "m5-cruzamento",
@@ -917,7 +1099,9 @@
     "english": "crossroads",
     "examplePt": "Atravesse o cruzamento com cuidado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "十字路口",
+    "zhHant": "十字路口"
   },
   {
     "id": "m5-troco",
@@ -927,7 +1111,9 @@
     "english": "change",
     "examplePt": "Ele dá-me o troco.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "改变",
+    "zhHant": "改變"
   },
   {
     "id": "m5-imobiliaria",
@@ -937,7 +1123,9 @@
     "english": "estate agency",
     "examplePt": "A imobiliária mostra casas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "地产代理",
+    "zhHant": "地產代理"
   },
   {
     "id": "m5-apartamento",
@@ -947,7 +1135,9 @@
     "english": "flat",
     "examplePt": "Vou mostrar-vos o novo apartamento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "平坦的",
+    "zhHant": "平坦的"
   },
   {
     "id": "m5-por",
@@ -957,7 +1147,9 @@
     "english": "through / by / along",
     "examplePt": "Siga em frente por esta rua.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "通过/通过/沿着",
+    "zhHant": "通過/通過/沿著"
   },
   {
     "id": "m5-pelo",
@@ -967,7 +1159,9 @@
     "english": "by; through; along",
     "examplePt": "Passe pelo banco. Passe pela farmácia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "经过;通过;沿着",
+    "zhHant": "經過;通過;沿著"
   },
   {
     "id": "m5-avenida",
@@ -977,7 +1171,9 @@
     "english": "avenue",
     "examplePt": "Siga em frente por esta avenida.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "大街",
+    "zhHant": "大街"
   },
   {
     "id": "m5-ter-de",
@@ -987,7 +1183,9 @@
     "english": "to have to",
     "examplePt": "Tenho de levar o passaporte.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "必须",
+    "zhHant": "必須"
   },
   {
     "id": "m5-precisar-de",
@@ -997,7 +1195,9 @@
     "english": "to need to",
     "examplePt": "Preciso de trazer documentos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "需要",
+    "zhHant": "需要"
   },
   {
     "id": "m5-dever",
@@ -1007,7 +1207,9 @@
     "english": "should",
     "examplePt": "Deve fazer exercício físico.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "应该",
+    "zhHant": "應該"
   },
   {
     "id": "m5-cartao-de-residencia",
@@ -1017,7 +1219,9 @@
     "english": "residence card",
     "examplePt": "Preciso do cartão de residência.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "居留卡",
+    "zhHant": "居留卡"
   },
   {
     "id": "m5-abrir-uma-conta",
@@ -1027,7 +1231,9 @@
     "english": "to open an account",
     "examplePt": "Ela quer abrir uma conta no banco.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "开立账户",
+    "zhHant": "開立帳戶"
   },
   {
     "id": "m5-exercicio-fisico",
@@ -1037,7 +1243,9 @@
     "english": "physical exercise",
     "examplePt": "Deve fazer exercício físico.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "体育锻炼",
+    "zhHant": "體育鍛鍊"
   },
   {
     "id": "m6-bombeiros",
@@ -1047,7 +1255,9 @@
     "english": "firefighters",
     "examplePt": "Os bombeiros ajudam nas emergências.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "消防员",
+    "zhHant": "消防員"
   },
   {
     "id": "m6-inem",
@@ -1057,7 +1267,9 @@
     "english": "emergency medical service",
     "examplePt": "O INEM presta socorro médico.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "紧急医疗服务",
+    "zhHant": "緊急醫療服務"
   },
   {
     "id": "m6-cabeca",
@@ -1067,7 +1279,9 @@
     "english": "head",
     "examplePt": "Dói-me a cabeça.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "头",
+    "zhHant": "頭"
   },
   {
     "id": "m6-olhos",
@@ -1077,7 +1291,9 @@
     "english": "eyes",
     "examplePt": "Tenho os olhos vermelhos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "眼睛",
+    "zhHant": "眼睛"
   },
   {
     "id": "m6-nariz",
@@ -1087,7 +1303,9 @@
     "english": "nose",
     "examplePt": "Dói-me o nariz.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "鼻子",
+    "zhHant": "鼻子"
   },
   {
     "id": "m6-boca",
@@ -1097,7 +1315,9 @@
     "english": "mouth",
     "examplePt": "Abra a boca, por favor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "嘴",
+    "zhHant": "嘴"
   },
   {
     "id": "m6-pescoco",
@@ -1107,7 +1327,9 @@
     "english": "neck",
     "examplePt": "Não me dói o pescoço.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "脖子",
+    "zhHant": "脖子"
   },
   {
     "id": "m6-braco",
@@ -1117,7 +1339,9 @@
     "english": "arm",
     "examplePt": "Dói-me o braço.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "手臂",
+    "zhHant": "手臂"
   },
   {
     "id": "m6-barriga",
@@ -1127,7 +1351,9 @@
     "english": "belly",
     "examplePt": "Dói-me a barriga.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "腹部",
+    "zhHant": "腹部"
   },
   {
     "id": "m6-mao",
@@ -1137,7 +1363,9 @@
     "english": "hand",
     "examplePt": "Lave as mãos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "手",
+    "zhHant": "手"
   },
   {
     "id": "m6-perna",
@@ -1147,7 +1375,9 @@
     "english": "leg",
     "examplePt": "Doem-me as pernas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "腿",
+    "zhHant": "腿"
   },
   {
     "id": "m6-joelho",
@@ -1157,7 +1387,9 @@
     "english": "knee",
     "examplePt": "Doem-me os joelhos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "膝盖",
+    "zhHant": "膝蓋"
   },
   {
     "id": "m6-pe",
@@ -1167,7 +1399,9 @@
     "english": "foot",
     "examplePt": "Doem-me os pés.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "脚",
+    "zhHant": "腳"
   },
   {
     "id": "m6-hospital",
@@ -1177,7 +1411,9 @@
     "english": "hospital",
     "examplePt": "Vou ao hospital.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "医院",
+    "zhHant": "醫院"
   },
   {
     "id": "m6-centro-de-saude",
@@ -1187,7 +1423,9 @@
     "english": "health centre",
     "examplePt": "Vou ao Centro de Saúde da minha área.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康中心/社区诊所",
+    "zhHant": "健康中心/社區診所"
   },
   {
     "id": "m6-usf",
@@ -1197,7 +1435,9 @@
     "english": "family health unit",
     "examplePt": "A USF é uma Unidade de Saúde Familiar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "家庭保健单位",
+    "zhHant": "家庭健康單位"
   },
   {
     "id": "m6-linha-de-emergencia",
@@ -1207,7 +1447,9 @@
     "english": "emergency line",
     "examplePt": "Ligue para a linha de emergência.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "紧急热线",
+    "zhHant": "緊急熱線"
   },
   {
     "id": "m6-fazer-exercicio",
@@ -1217,7 +1459,9 @@
     "english": "to exercise",
     "examplePt": "Deve fazer exercício.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "锻炼身体",
+    "zhHant": "鍛鍊身體"
   },
   {
     "id": "m6-ter-uma-alimentacao-saudavel",
@@ -1227,7 +1471,9 @@
     "english": "to have a healthy diet",
     "examplePt": "É importante ter uma alimentação saudável.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康饮食",
+    "zhHant": "健康飲食"
   },
   {
     "id": "m6-dentista",
@@ -1237,7 +1483,9 @@
     "english": "dentist",
     "examplePt": "Tenho consulta no dentista.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "牙医",
+    "zhHant": "牙醫"
   },
   {
     "id": "m6-pediatra",
@@ -1247,7 +1495,9 @@
     "english": "paediatrician",
     "examplePt": "A criança vai ao pediatra.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "儿科医生",
+    "zhHant": "兒科醫生"
   },
   {
     "id": "m6-medico-de-familia",
@@ -1257,7 +1507,9 @@
     "english": "family doctor",
     "examplePt": "Marco consulta com o médico de família.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "家庭医生",
+    "zhHant": "家庭醫生"
   },
   {
     "id": "m6-oftalmologista",
@@ -1267,7 +1519,9 @@
     "english": "ophthalmologist",
     "examplePt": "Vou ao oftalmologista por causa dos olhos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "眼科医生",
+    "zhHant": "眼科醫生"
   },
   {
     "id": "m6-medir-a-tensao",
@@ -1277,7 +1531,9 @@
     "english": "to measure blood pressure",
     "examplePt": "A enfermeira vai medir a tensão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "测量血压",
+    "zhHant": "測量血壓"
   },
   {
     "id": "m6-fazer-uma-radiografia",
@@ -1287,7 +1543,9 @@
     "english": "to have an X-ray",
     "examplePt": "Tenho de fazer uma radiografia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "进行 X 光检查",
+    "zhHant": "進行 X 光檢查"
   },
   {
     "id": "m6-fazer-analises",
@@ -1297,7 +1555,9 @@
     "english": "to have tests",
     "examplePt": "Deve fazer análises.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "进行测试",
+    "zhHant": "進行測試"
   },
   {
     "id": "m6-doer-a-cabeca",
@@ -1307,7 +1567,9 @@
     "english": "to have a headache",
     "examplePt": "Dói-me a cabeça.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "头痛",
+    "zhHant": "頭痛"
   },
   {
     "id": "m6-doer-a-garganta",
@@ -1317,7 +1579,9 @@
     "english": "to have a sore throat",
     "examplePt": "Dói-me a garganta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "喉咙痛",
+    "zhHant": "喉嚨痛"
   },
   {
     "id": "m6-estar-constipado",
@@ -1327,7 +1591,9 @@
     "english": "to have a cold",
     "examplePt": "Ele está constipado. Ela está constipada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "感冒了",
+    "zhHant": "感冒了"
   },
   {
     "id": "m6-ter-febre",
@@ -1337,7 +1603,9 @@
     "english": "to have a fever",
     "examplePt": "O menino tem febre.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "发烧",
+    "zhHant": "發燒"
   },
   {
     "id": "m6-ter-tosse",
@@ -1347,7 +1615,9 @@
     "english": "to have a cough",
     "examplePt": "Está com tosse?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "咳嗽",
+    "zhHant": "咳嗽"
   },
   {
     "id": "m6-ter-uma-intoxicacao",
@@ -1357,7 +1627,9 @@
     "english": "to have poisoning",
     "examplePt": "Ele tem uma intoxicação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "中毒",
+    "zhHant": "中毒"
   },
   {
     "id": "m6-doer-a-barriga",
@@ -1367,7 +1639,9 @@
     "english": "to have a stomach ache",
     "examplePt": "Dói-me a barriga.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "胃痛",
+    "zhHant": "胃痛"
   },
   {
     "id": "m6-ser-alergico-a",
@@ -1377,7 +1651,9 @@
     "english": "to be allergic to",
     "examplePt": "Sou alérgico a este medicamento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "过敏",
+    "zhHant": "過敏"
   },
   {
     "id": "m6-ser-alergica-a",
@@ -1387,7 +1663,9 @@
     "english": "to be allergic to",
     "examplePt": "Sou alérgica a este medicamento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "过敏",
+    "zhHant": "過敏"
   },
   {
     "id": "m6-estar-enjoado",
@@ -1397,7 +1675,9 @@
     "english": "to feel nauseous",
     "examplePt": "Ele está enjoado. Ela está enjoada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "感到恶心",
+    "zhHant": "感到噁心"
   },
   {
     "id": "m6-sentar-se",
@@ -1407,7 +1687,9 @@
     "english": "to sit down",
     "examplePt": "Faça o favor de se sentar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "坐下来",
+    "zhHant": "坐下來"
   },
   {
     "id": "m6-comichao",
@@ -1417,7 +1699,9 @@
     "english": "itching",
     "examplePt": "Tenho muita comichão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "瘙痒",
+    "zhHant": "癢感"
   },
   {
     "id": "m6-espirrar",
@@ -1427,7 +1711,9 @@
     "english": "to sneeze",
     "examplePt": "Espirro muitas vezes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "打喷嚏",
+    "zhHant": "打噴嚏"
   },
   {
     "id": "m6-sentir-se-cansado",
@@ -1437,7 +1723,9 @@
     "english": "to feel tired",
     "examplePt": "Ele sente-se cansado. Ela sente-se cansada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "感到疲倦",
+    "zhHant": "感到疲倦"
   },
   {
     "id": "m6-sem-forcas",
@@ -1447,7 +1735,9 @@
     "english": "weak",
     "examplePt": "Estou sem forças.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "虚弱的",
+    "zhHant": "虛弱的"
   },
   {
     "id": "m6-mascara",
@@ -1457,7 +1747,9 @@
     "english": "mask",
     "examplePt": "Use máscara durante o trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "面具",
+    "zhHant": "面具"
   },
   {
     "id": "m6-alergia",
@@ -1467,7 +1759,9 @@
     "english": "allergy",
     "examplePt": "O senhor está com uma alergia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "过敏",
+    "zhHant": "過敏"
   },
   {
     "id": "m6-receita",
@@ -1477,7 +1771,9 @@
     "english": "prescription",
     "examplePt": "Aqui está a receita.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "处方",
+    "zhHant": "處方"
   },
   {
     "id": "m6-farmacia",
@@ -1487,7 +1783,9 @@
     "english": "pharmacy",
     "examplePt": "Vou à farmácia comprar medicamentos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "药店",
+    "zhHant": "藥局"
   },
   {
     "id": "m6-consultorio-medico",
@@ -1497,7 +1795,9 @@
     "english": "doctor's office",
     "examplePt": "Estou no consultório médico.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "医生办公室",
+    "zhHant": "醫生辦公室"
   },
   {
     "id": "m6-farmaceutica",
@@ -1507,7 +1807,9 @@
     "english": "pharmacist",
     "examplePt": "A farmacêutica pede o cartão de utente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "药剂师",
+    "zhHant": "藥師"
   },
   {
     "id": "m6-cartao-de-utente",
@@ -1517,7 +1819,9 @@
     "english": "health user card",
     "examplePt": "Dê-me o seu cartão de utente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康用户卡",
+    "zhHant": "健康用戶卡"
   },
   {
     "id": "m6-ha-quanto-tempo",
@@ -1527,7 +1831,9 @@
     "english": "for how long?",
     "examplePt": "Há quanto tempo está assim?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "多长时间？",
+    "zhHant": "多長時間？"
   },
   {
     "id": "m6-injecao",
@@ -1537,7 +1843,9 @@
     "english": "injection",
     "examplePt": "Tenho de levar uma injeção.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "注射",
+    "zhHant": "注射"
   },
   {
     "id": "m6-comprimido",
@@ -1547,7 +1855,9 @@
     "english": "tablet",
     "examplePt": "Tome estes comprimidos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "药片",
+    "zhHant": "藥片"
   },
   {
     "id": "m6-de-oito-em-oito-horas",
@@ -1557,7 +1867,9 @@
     "english": "every eight hours",
     "examplePt": "Tome um comprimido de oito em oito horas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "每八小时一次",
+    "zhHant": "每八小時一次"
   },
   {
     "id": "m6-numero-europeu-de-emergencia",
@@ -1567,7 +1879,9 @@
     "english": "European emergency number",
     "examplePt": "O 112 é o Número Europeu de Emergência.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "欧洲紧急电话号码",
+    "zhHant": "歐洲緊急電話號碼"
   },
   {
     "id": "m6-saude-24",
@@ -1577,7 +1891,9 @@
     "english": "health helpline",
     "examplePt": "Pode ligar para a Saúde 24.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康求助热线",
+    "zhHant": "健康求助專線"
   },
   {
     "id": "m6-utente",
@@ -1587,7 +1903,9 @@
     "english": "health service user",
     "examplePt": "O serviço é para todos os utentes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康服务使用者",
+    "zhHant": "健康服務使用者"
   },
   {
     "id": "m6-sns",
@@ -1597,7 +1915,9 @@
     "english": "National Health Service",
     "examplePt": "SNS significa Serviço Nacional de Saúde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "国民医疗服务",
+    "zhHant": "國民醫療服務"
   },
   {
     "id": "m6-incendio",
@@ -1607,7 +1927,9 @@
     "english": "fire",
     "examplePt": "O 112 atende situações de incêndio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "火",
+    "zhHant": "火"
   },
   {
     "id": "m6-assalto",
@@ -1617,7 +1939,9 @@
     "english": "robbery",
     "examplePt": "O 112 atende situações de assalto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "抢劫",
+    "zhHant": "搶劫"
   },
   {
     "id": "m6-cuidados-de-saude",
@@ -1627,7 +1951,9 @@
     "english": "health care",
     "examplePt": "Os estrangeiros podem aceder a cuidados de saúde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "卫生保健",
+    "zhHant": "衛生保健"
   },
   {
     "id": "m6-aceder",
@@ -1637,7 +1963,9 @@
     "english": "to access",
     "examplePt": "Podem aceder a cuidados de saúde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "访问",
+    "zhHant": "訪問"
   },
   {
     "id": "m6-legalmente",
@@ -1647,7 +1975,9 @@
     "english": "legally",
     "examplePt": "Residimos legalmente em Portugal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "合法地",
+    "zhHant": "合法地"
   },
   {
     "id": "m6-direitos-e-deveres",
@@ -1657,7 +1987,9 @@
     "english": "rights and duties",
     "examplePt": "Têm os mesmos direitos e deveres.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "权利和义务",
+    "zhHant": "權利和義務"
   },
   {
     "id": "m6-situacao-legalizada",
@@ -1667,7 +1999,9 @@
     "english": "legalized status",
     "examplePt": "Ainda não têm a situação legalizada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "合法化地位",
+    "zhHant": "合法化地位"
   },
   {
     "id": "m6-inscricao",
@@ -1677,7 +2011,9 @@
     "english": "registration",
     "examplePt": "Fazem a inscrição na consulta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "登记",
+    "zhHant": "登記"
   },
   {
     "id": "m6-consulta-de-urgencia",
@@ -1687,7 +2023,9 @@
     "english": "emergency consultation",
     "examplePt": "A consulta de urgência é no hospital.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "紧急咨询",
+    "zhHant": "緊急諮詢"
   },
   {
     "id": "m6-aviar-uma-receita",
@@ -1697,7 +2035,9 @@
     "english": "to fill a prescription",
     "examplePt": "O senhor aviou esta receita na farmácia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "配药",
+    "zhHant": "配藥"
   },
   {
     "id": "m6-medicamento",
@@ -1707,7 +2047,9 @@
     "english": "medicine",
     "examplePt": "Não tome este medicamento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "药品",
+    "zhHant": "藥物"
   },
   {
     "id": "m6-aliviar-a-dor",
@@ -1717,7 +2059,9 @@
     "english": "to relieve pain",
     "examplePt": "O medicamento alivia a dor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "缓解疼痛",
+    "zhHant": "緩解疼痛"
   },
   {
     "id": "m6-diminuir-a-febre",
@@ -1727,7 +2071,9 @@
     "english": "to reduce fever",
     "examplePt": "O medicamento diminui a febre.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "减少发烧",
+    "zhHant": "減少發燒"
   },
   {
     "id": "m6-dose-recomendada",
@@ -1737,7 +2083,9 @@
     "english": "recommended dose",
     "examplePt": "A dose recomendada é um comprimido por dia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "推荐剂量",
+    "zhHant": "建議劑量"
   },
   {
     "id": "m6-apos-as-refeicoes",
@@ -1747,7 +2095,9 @@
     "english": "after meals",
     "examplePt": "Tome o comprimido após as refeições.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "饭后",
+    "zhHant": "飯後"
   },
   {
     "id": "m6-oculos",
@@ -1757,7 +2107,9 @@
     "english": "glasses",
     "examplePt": "Preciso de óculos para ler.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "眼镜",
+    "zhHant": "眼鏡"
   },
   {
     "id": "m6-dores-de-dentes",
@@ -1767,7 +2119,9 @@
     "english": "toothache",
     "examplePt": "Estou com dores de dentes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "牙疼",
+    "zhHant": "牙痛"
   },
   {
     "id": "m6-marcar-uma-consulta",
@@ -1777,7 +2131,9 @@
     "english": "to book an appointment",
     "examplePt": "Vou marcar uma consulta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "预约",
+    "zhHant": "預約"
   },
   {
     "id": "m6-doer",
@@ -1787,7 +2143,9 @@
     "english": "to hurt",
     "examplePt": "Dói-me a barriga.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "伤害",
+    "zhHant": "傷害"
   },
   {
     "id": "m6-doi-me",
@@ -1797,7 +2155,9 @@
     "english": "it hurts me",
     "examplePt": "Dói-me o peito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "这让我很受伤",
+    "zhHant": "這讓我很受傷"
   },
   {
     "id": "m6-peito",
@@ -1807,7 +2167,9 @@
     "english": "chest",
     "examplePt": "Dói-te o peito?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "胸部",
+    "zhHant": "胸部"
   },
   {
     "id": "m6-ouvidos",
@@ -1817,7 +2179,9 @@
     "english": "ears",
     "examplePt": "Doem-me os ouvidos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "耳朵",
+    "zhHant": "耳朵"
   },
   {
     "id": "m6-estomago",
@@ -1827,7 +2191,9 @@
     "english": "stomach",
     "examplePt": "Dói-me o estômago.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "胃",
+    "zhHant": "胃"
   },
   {
     "id": "m6-ter-cuidado",
@@ -1837,7 +2203,9 @@
     "english": "to be careful",
     "examplePt": "Tenha cuidado com a sua saúde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "要小心",
+    "zhHant": "要小心"
   },
   {
     "id": "m6-consultar-o-medico",
@@ -1847,7 +2215,9 @@
     "english": "to consult the doctor",
     "examplePt": "Não dê medicamentos sem consultar o médico.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "咨询医生",
+    "zhHant": "諮詢醫生"
   },
   {
     "id": "m6-tonto",
@@ -1857,7 +2227,9 @@
     "english": "dizzy",
     "examplePt": "Sinto-me tonto. Sinto-me tonta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "晕眩的",
+    "zhHant": "暈眩的"
   },
   {
     "id": "m6-antibiotico",
@@ -1867,7 +2239,9 @@
     "english": "antibiotic",
     "examplePt": "Deve tomar o antibiótico de 12 em 12 horas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "抗生素",
+    "zhHant": "抗生素"
   },
   {
     "id": "m6-de-doze-em-doze-horas",
@@ -1877,6 +2251,8 @@
     "english": "every 12 hours",
     "examplePt": "Tome o antibiótico de 12 em 12 horas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "每12小时一次",
+    "zhHant": "每12小時一次"
   }
 ]

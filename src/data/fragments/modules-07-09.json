@@ -7,7 +7,9 @@
     "english": "waiter",
     "examplePt": "O empregado de mesa serve à mesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "服务员",
+    "zhHant": "服務生"
   },
   {
     "id": "m7-restaurante",
@@ -17,7 +19,9 @@
     "english": "restaurant",
     "examplePt": "Ele trabalha num restaurante.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "餐厅",
+    "zhHant": "餐廳"
   },
   {
     "id": "m7-cafe",
@@ -27,7 +31,9 @@
     "english": "café",
     "examplePt": "Ela trabalha num café.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "咖啡店",
+    "zhHant": "咖啡店"
   },
   {
     "id": "m7-pano",
@@ -37,7 +43,9 @@
     "english": "cloth",
     "examplePt": "Uso um pano para limpar a mesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "布",
+    "zhHant": "布"
   },
   {
     "id": "m7-servir-mesa",
@@ -47,7 +55,9 @@
     "english": "to wait tables",
     "examplePt": "Ela sabe servir à mesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "等桌子",
+    "zhHant": "等桌子"
   },
   {
     "id": "m7-por-mesa",
@@ -57,7 +67,9 @@
     "english": "to set the table",
     "examplePt": "Vou pôr a mesa antes do jantar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "摆桌子",
+    "zhHant": "擺桌"
   },
   {
     "id": "m7-levantar-mesa",
@@ -67,7 +79,9 @@
     "english": "to clear the table",
     "examplePt": "Depois do almoço, ele levanta a mesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "清理桌子",
+    "zhHant": "清理桌子"
   },
   {
     "id": "m7-cozinheiro",
@@ -77,7 +91,9 @@
     "english": "cook",
     "examplePt": "O cozinheiro trabalha na cozinha.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "厨师",
+    "zhHant": "廚師"
   },
   {
     "id": "m7-cozinha",
@@ -87,7 +103,9 @@
     "english": "kitchen",
     "examplePt": "A cozinha está limpa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "厨房",
+    "zhHant": "廚房"
   },
   {
     "id": "m7-luvas",
@@ -97,7 +115,9 @@
     "english": "gloves",
     "examplePt": "Use luvas no trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "手套",
+    "zhHant": "手套"
   },
   {
     "id": "m7-avental",
@@ -107,7 +127,9 @@
     "english": "apron",
     "examplePt": "Ela põe o avental na cozinha.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "围裙",
+    "zhHant": "圍裙"
   },
   {
     "id": "m7-preparar-alimentos",
@@ -117,7 +139,9 @@
     "english": "to prepare food",
     "examplePt": "O cozinheiro prepara os alimentos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "准备食物",
+    "zhHant": "準備食物"
   },
   {
     "id": "m7-cozinhar",
@@ -127,7 +151,9 @@
     "english": "to cook",
     "examplePt": "Gosto de cozinhar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "做饭",
+    "zhHant": "煮飯"
   },
   {
     "id": "m7-pedreiro",
@@ -137,7 +163,9 @@
     "english": "bricklayer",
     "examplePt": "O pedreiro trabalha nas obras.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "瓦工",
+    "zhHant": "瓦工"
   },
   {
     "id": "m7-obras",
@@ -147,7 +175,9 @@
     "english": "building site",
     "examplePt": "Ele trabalha nas obras.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "建筑工地",
+    "zhHant": "建築工地"
   },
   {
     "id": "m7-cimento",
@@ -157,7 +187,9 @@
     "english": "cement",
     "examplePt": "Precisamos de dois sacos de cimento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "水泥",
+    "zhHant": "水泥"
   },
   {
     "id": "m7-cabeleireira",
@@ -167,7 +199,9 @@
     "english": "hairdresser",
     "examplePt": "A cabeleireira corta o cabelo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "理发师",
+    "zhHant": "理髮師"
   },
   {
     "id": "m7-salao-cabeleireiro",
@@ -177,7 +211,9 @@
     "english": "hair salon",
     "examplePt": "Ela trabalha num salão de cabeleireiro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "美发沙龙",
+    "zhHant": "美髮沙龍"
   },
   {
     "id": "m7-escova",
@@ -187,7 +223,9 @@
     "english": "brush",
     "examplePt": "A escova está na mesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "刷子",
+    "zhHant": "刷子"
   },
   {
     "id": "m7-secador",
@@ -197,7 +235,9 @@
     "english": "hair dryer",
     "examplePt": "Uso o secador para secar o cabelo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "电吹风",
+    "zhHant": "吹風機"
   },
   {
     "id": "m7-tesoura",
@@ -207,7 +247,9 @@
     "english": "scissors",
     "examplePt": "A tesoura corta o cabelo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "剪刀",
+    "zhHant": "剪刀"
   },
   {
     "id": "m7-lavar-cabeca",
@@ -217,7 +259,9 @@
     "english": "to wash hair",
     "examplePt": "A cabeleireira lava a cabeça da cliente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "洗头发",
+    "zhHant": "洗頭髮"
   },
   {
     "id": "m7-cortar-cabelo",
@@ -227,7 +271,9 @@
     "english": "to cut hair",
     "examplePt": "Vou cortar o cabelo amanhã.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "剪头发",
+    "zhHant": "剪頭髮"
   },
   {
     "id": "m7-pentear",
@@ -237,7 +283,9 @@
     "english": "to comb",
     "examplePt": "Ela penteia o cabelo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "梳理",
+    "zhHant": "梳理"
   },
   {
     "id": "m7-empregada-limpeza",
@@ -247,7 +295,9 @@
     "english": "cleaner",
     "examplePt": "A empregada de limpeza trabalha em casas particulares.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "清洁工",
+    "zhHant": "清潔工"
   },
   {
     "id": "m7-casas-particulares",
@@ -257,7 +307,9 @@
     "english": "private homes",
     "examplePt": "Ela limpa casas particulares.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "私人住宅",
+    "zhHant": "私人住宅"
   },
   {
     "id": "m7-empresas",
@@ -267,7 +319,9 @@
     "english": "companies",
     "examplePt": "Muitas pessoas trabalham em empresas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "公司",
+    "zhHant": "公司"
   },
   {
     "id": "m7-esfregona",
@@ -277,7 +331,9 @@
     "english": "mop",
     "examplePt": "Uso a esfregona para lavar o chão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "拖把",
+    "zhHant": "拖把"
   },
   {
     "id": "m7-vassoura",
@@ -287,7 +343,9 @@
     "english": "broom",
     "examplePt": "A vassoura está atrás da porta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "扫帚",
+    "zhHant": "掃帚"
   },
   {
     "id": "m7-aspirador",
@@ -297,7 +355,9 @@
     "english": "vacuum cleaner",
     "examplePt": "O aspirador faz barulho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "吸尘器",
+    "zhHant": "吸塵器"
   },
   {
     "id": "m7-limpar-po",
@@ -307,7 +367,9 @@
     "english": "to dust",
     "examplePt": "Vou limpar o pó da secretária.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去灰尘",
+    "zhHant": "去灰塵"
   },
   {
     "id": "m7-aspirar",
@@ -317,7 +379,9 @@
     "english": "to vacuum",
     "examplePt": "Ela aspira o chão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "抽真空",
+    "zhHant": "抽真空"
   },
   {
     "id": "m7-lavar-chao",
@@ -327,7 +391,9 @@
     "english": "to mop the floor",
     "examplePt": "Ele lava o chão da cozinha.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "拖地",
+    "zhHant": "拖地"
   },
   {
     "id": "m7-agricultor",
@@ -337,7 +403,9 @@
     "english": "farmer",
     "examplePt": "O agricultor trabalha no campo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "农民",
+    "zhHant": "農民"
   },
   {
     "id": "m7-secretaria",
@@ -347,7 +415,9 @@
     "english": "secretary",
     "examplePt": "A secretária atende o telefone.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "秘书",
+    "zhHant": "秘書"
   },
   {
     "id": "m7-escritorios",
@@ -357,7 +427,9 @@
     "english": "offices",
     "examplePt": "Os escritórios abrem às nove.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "办公室",
+    "zhHant": "辦公室"
   },
   {
     "id": "m7-computador",
@@ -367,7 +439,9 @@
     "english": "computer",
     "examplePt": "Uso o computador no escritório.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "电脑",
+    "zhHant": "電腦"
   },
   {
     "id": "m7-telefone",
@@ -377,7 +451,9 @@
     "english": "telephone",
     "examplePt": "Ela fala ao telefone.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "电话",
+    "zhHant": "電話"
   },
   {
     "id": "m7-papel",
@@ -387,7 +463,9 @@
     "english": "paper",
     "examplePt": "Preciso de papel para imprimir.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "纸",
+    "zhHant": "紙"
   },
   {
     "id": "m7-marcar-reuniao",
@@ -397,7 +475,9 @@
     "english": "to schedule a meeting",
     "examplePt": "Ela marcou uma reunião.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "安排会议",
+    "zhHant": "安排會議"
   },
   {
     "id": "m7-medico",
@@ -407,7 +487,9 @@
     "english": "doctor",
     "examplePt": "O médico observa o doente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "医生",
+    "zhHant": "醫生"
   },
   {
     "id": "m7-hospital",
@@ -417,7 +499,9 @@
     "english": "hospital",
     "examplePt": "O médico trabalha no hospital.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "医院",
+    "zhHant": "醫院"
   },
   {
     "id": "m7-centro-saude",
@@ -427,7 +511,9 @@
     "english": "health centre",
     "examplePt": "Vou ao centro de saúde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康中心/社区诊所",
+    "zhHant": "健康中心/社區診所"
   },
   {
     "id": "m7-observar-doente",
@@ -437,7 +523,9 @@
     "english": "to examine the patient",
     "examplePt": "O médico observa o doente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "检查病人",
+    "zhHant": "檢查病人"
   },
   {
     "id": "m7-fazer-exames",
@@ -447,7 +535,9 @@
     "english": "to do tests",
     "examplePt": "Tenho de fazer exames.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "做测试",
+    "zhHant": "做測試"
   },
   {
     "id": "m7-passar-receitas",
@@ -457,7 +547,9 @@
     "english": "to prescribe",
     "examplePt": "O médico passa receitas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "开处方",
+    "zhHant": "開處方"
   },
   {
     "id": "m7-professora",
@@ -467,7 +559,9 @@
     "english": "teacher",
     "examplePt": "A professora trabalha na escola.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "老师",
+    "zhHant": "老師"
   },
   {
     "id": "m7-escola",
@@ -477,7 +571,9 @@
     "english": "school",
     "examplePt": "As crianças entraram na escola.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "学校",
+    "zhHant": "學校"
   },
   {
     "id": "m7-ensinar",
@@ -487,7 +583,9 @@
     "english": "to teach",
     "examplePt": "A professora ensina português.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "教导",
+    "zhHant": "教導"
   },
   {
     "id": "m7-detergentes",
@@ -497,7 +595,9 @@
     "english": "cleaning products",
     "examplePt": "Vou buscar os detergentes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "清洁产品",
+    "zhHant": "清潔產品"
   },
   {
     "id": "m7-lixivia",
@@ -507,7 +607,9 @@
     "english": "bleach",
     "examplePt": "A lixívia está no armário.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "漂白",
+    "zhHant": "漂白"
   },
   {
     "id": "m7-capacete",
@@ -517,7 +619,9 @@
     "english": "helmet",
     "examplePt": "Usa o capacete nas obras.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "头盔",
+    "zhHant": "頭盔"
   },
   {
     "id": "m7-direitos-laborais",
@@ -527,7 +631,9 @@
     "english": "labour rights",
     "examplePt": "Os trabalhadores imigrantes têm direitos laborais.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "劳工权利",
+    "zhHant": "勞工權利"
   },
   {
     "id": "m7-contrato-trabalho",
@@ -537,7 +643,9 @@
     "english": "employment contract",
     "examplePt": "É importante ler o contrato de trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "雇佣合同",
+    "zhHant": "僱傭合約"
   },
   {
     "id": "m7-trabalho-conta-propria",
@@ -547,7 +655,9 @@
     "english": "self-employment",
     "examplePt": "Ela tem trabalho por conta própria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自营职业",
+    "zhHant": "自營職業"
   },
   {
     "id": "m7-rescisao-contrato",
@@ -557,7 +667,9 @@
     "english": "contract termination",
     "examplePt": "A rescisão de contrato foi ontem.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "合同终止",
+    "zhHant": "合約終止"
   },
   {
     "id": "m7-horas-extraordinarias",
@@ -567,7 +679,9 @@
     "english": "overtime",
     "examplePt": "Recebi as horas extraordinárias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "随着时间的推移",
+    "zhHant": "隨著時間的推移"
   },
   {
     "id": "m7-salario-bruto",
@@ -577,7 +691,9 @@
     "english": "gross salary",
     "examplePt": "O salário bruto não tem descontos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "工资总额",
+    "zhHant": "薪資總額"
   },
   {
     "id": "m7-salario-liquido",
@@ -587,7 +703,9 @@
     "english": "net salary",
     "examplePt": "O salário líquido já tem descontos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "净工资",
+    "zhHant": "淨工資"
   },
   {
     "id": "m7-subsidio",
@@ -597,7 +715,9 @@
     "english": "benefit",
     "examplePt": "Recebeu um subsídio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "益处",
+    "zhHant": "益處"
   },
   {
     "id": "m7-entidade-patronal",
@@ -607,7 +727,9 @@
     "english": "employer",
     "examplePt": "A entidade patronal assinou o contrato.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "雇主",
+    "zhHant": "雇主"
   },
   {
     "id": "m7-carregar",
@@ -617,7 +739,9 @@
     "english": "to load",
     "examplePt": "Ele carrega produtos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "加载",
+    "zhHant": "載入"
   },
   {
     "id": "m7-descarregar",
@@ -627,7 +751,9 @@
     "english": "to unload",
     "examplePt": "Ela descarrega produtos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "卸载",
+    "zhHant": "解除安裝"
   },
   {
     "id": "m7-armazenar",
@@ -637,7 +763,9 @@
     "english": "to store",
     "examplePt": "O trabalhador armazena produtos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "储存",
+    "zhHant": "儲存"
   },
   {
     "id": "m7-ontem",
@@ -647,7 +775,9 @@
     "english": "yesterday",
     "examplePt": "Ontem assinei o contrato.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "昨天",
+    "zhHant": "昨天"
   },
   {
     "id": "m7-anteontem",
@@ -657,7 +787,9 @@
     "english": "the day before yesterday",
     "examplePt": "Anteontem trabalhei muito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "前天",
+    "zhHant": "前天"
   },
   {
     "id": "m7-ha-bocado",
@@ -667,7 +799,9 @@
     "english": "a short while ago",
     "examplePt": "Ele saiu há bocado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "不久前",
+    "zhHant": "不久前"
   },
   {
     "id": "m7-chegar-a",
@@ -677,7 +811,9 @@
     "english": "to arrive at",
     "examplePt": "Ela chegou à meta.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "到达",
+    "zhHant": "到達"
   },
   {
     "id": "m7-sair-de",
@@ -687,7 +823,9 @@
     "english": "to leave from",
     "examplePt": "Ela saiu do aeroporto.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "离开",
+    "zhHant": "離開"
   },
   {
     "id": "m7-entrar-em",
@@ -697,7 +835,9 @@
     "english": "to enter",
     "examplePt": "As crianças entraram na escola.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "进入",
+    "zhHant": "進入"
   },
   {
     "id": "m8-anuncio-trabalho",
@@ -707,7 +847,9 @@
     "english": "job ad",
     "examplePt": "Li um anúncio de trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "招聘广告",
+    "zhHant": "徵才廣告"
   },
   {
     "id": "m8-carta-apresentacao",
@@ -717,7 +859,9 @@
     "english": "cover letter",
     "examplePt": "Envio uma carta de apresentação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "求职信",
+    "zhHant": "求職信"
   },
   {
     "id": "m8-candidatura-espontanea",
@@ -727,7 +871,9 @@
     "english": "unsolicited application",
     "examplePt": "Escrevi uma carta de candidatura espontânea.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "主动申请",
+    "zhHant": "主動申請"
   },
   {
     "id": "m8-resposta-anuncio",
@@ -737,7 +883,9 @@
     "english": "reply to an ad",
     "examplePt": "A carta é uma resposta ao anúncio.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "回复广告",
+    "zhHant": "回覆廣告"
   },
   {
     "id": "m8-candidatar-se",
@@ -747,7 +895,9 @@
     "english": "to apply",
     "examplePt": "Vou candidatar-me a esta vaga.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "申请",
+    "zhHant": "申請"
   },
   {
     "id": "m8-vaga",
@@ -757,7 +907,9 @@
     "english": "vacancy",
     "examplePt": "Há uma vaga de tradutor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "空缺",
+    "zhHant": "空缺"
   },
   {
     "id": "m8-curriculo",
@@ -767,7 +919,9 @@
     "english": "resume",
     "examplePt": "Enviei o meu currículo para a empresa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "恢复",
+    "zhHant": "恢復"
   },
   {
     "id": "m8-cv",
@@ -777,7 +931,9 @@
     "english": "CV",
     "examplePt": "Enviei o meu CV para a empresa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "简历",
+    "zhHant": "履歷"
   },
   {
     "id": "m8-dados-identificacao",
@@ -787,7 +943,9 @@
     "english": "personal details",
     "examplePt": "O currículo tem dados de identificação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "个人资料",
+    "zhHant": "個人資料"
   },
   {
     "id": "m8-experiencia-profissional",
@@ -797,7 +955,9 @@
     "english": "work experience",
     "examplePt": "Tenho experiência profissional em pastelaria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "工作经验",
+    "zhHant": "工作經驗"
   },
   {
     "id": "m8-formacao-academica",
@@ -807,7 +967,9 @@
     "english": "education",
     "examplePt": "A formação académica está no CV.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "教育",
+    "zhHant": "教育"
   },
   {
     "id": "m8-competencias-linguisticas",
@@ -817,7 +979,9 @@
     "english": "language skills",
     "examplePt": "As competências linguísticas são importantes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "语言能力",
+    "zhHant": "語言能力"
   },
   {
     "id": "m8-entrevista-trabalho",
@@ -827,7 +991,9 @@
     "english": "job interview",
     "examplePt": "Fui a uma entrevista de trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "工作面试",
+    "zhHant": "工作面試"
   },
   {
     "id": "m8-oportunidade-trabalho",
@@ -837,7 +1003,9 @@
     "english": "job opportunity",
     "examplePt": "Parece uma boa oportunidade de trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "工作机会",
+    "zhHant": "工作機會"
   },
   {
     "id": "m8-adquirir-nacionalidade",
@@ -847,7 +1015,9 @@
     "english": "to acquire nationality",
     "examplePt": "Ele quer adquirir a nacionalidade portuguesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "获得国籍",
+    "zhHant": "獲得國籍"
   },
   {
     "id": "m8-perfil-adequado",
@@ -857,7 +1027,9 @@
     "english": "suitable profile",
     "examplePt": "Tem o perfil adequado a esta função.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "合适的轮廓",
+    "zhHant": "合適的輪廓"
   },
   {
     "id": "m8-funcao",
@@ -867,7 +1039,9 @@
     "english": "role",
     "examplePt": "Apresento a minha candidatura para esta função.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "角色",
+    "zhHant": "角色"
   },
   {
     "id": "m8-empregada-domestica",
@@ -877,7 +1051,9 @@
     "english": "domestic worker",
     "examplePt": "A senhora procura uma empregada doméstica.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "家政工人",
+    "zhHant": "家事勞工"
   },
   {
     "id": "m8-ordenado",
@@ -887,7 +1063,9 @@
     "english": "salary",
     "examplePt": "O ordenado é compatível com as funções.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "工资/薪水",
+    "zhHant": "工資/薪水"
   },
   {
     "id": "m8-disponibilidade",
@@ -897,7 +1075,9 @@
     "english": "availability",
     "examplePt": "Tenho disponibilidade para entrada imediata.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "可用性",
+    "zhHant": "可用性"
   },
   {
     "id": "m8-entrada-imediata",
@@ -907,7 +1087,9 @@
     "english": "immediate start",
     "examplePt": "O anúncio pede entrada imediata.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "立即开始",
+    "zhHant": "立即開始"
   },
   {
     "id": "m8-oferece-se",
@@ -917,7 +1099,9 @@
     "english": "available for work",
     "examplePt": "No anúncio, lê-se: oferece-se cozinheira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "可以工作",
+    "zhHant": "可以工作"
   },
   {
     "id": "m8-procuro-trabalho",
@@ -927,7 +1111,9 @@
     "english": "I am looking for work",
     "examplePt": "Procuro trabalho no meu ramo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "我正在找工作",
+    "zhHant": "我正在找工作"
   },
   {
     "id": "m8-desempregado",
@@ -937,7 +1123,9 @@
     "english": "unemployed",
     "examplePt": "O jovem está desempregado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "失业的",
+    "zhHant": "失業的"
   },
   {
     "id": "m8-jardinagem",
@@ -947,7 +1135,9 @@
     "english": "gardening",
     "examplePt": "Ele tem experiência em jardinagem.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "园艺",
+    "zhHant": "園藝"
   },
   {
     "id": "m8-ramo",
@@ -957,7 +1147,9 @@
     "english": "field",
     "examplePt": "Procuro trabalho no meu ramo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "场地",
+    "zhHant": "場地"
   },
   {
     "id": "m8-responsavel",
@@ -967,7 +1159,9 @@
     "english": "responsible",
     "examplePt": "Ela é responsável e pontual.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "负责任的",
+    "zhHant": "負責任的"
   },
   {
     "id": "m8-pontual",
@@ -977,7 +1171,9 @@
     "english": "punctual",
     "examplePt": "O trabalhador é pontual.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "准时",
+    "zhHant": "準時"
   },
   {
     "id": "m8-carta-conducao",
@@ -987,7 +1183,9 @@
     "english": "driving licence",
     "examplePt": "Tenho carta de condução.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "驾驶执照",
+    "zhHant": "駕駛執照"
   },
   {
     "id": "m8-flexibilidade-horario",
@@ -997,7 +1195,9 @@
     "english": "schedule flexibility",
     "examplePt": "O emprego pede flexibilidade de horário.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "日程安排的灵活性",
+    "zhHant": "日程安排的彈性"
   },
   {
     "id": "m8-pratos",
@@ -1007,7 +1207,9 @@
     "english": "dishes",
     "examplePt": "Ela prepara sopas, pratos e sobremesas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "菜肴",
+    "zhHant": "菜餚"
   },
   {
     "id": "m8-vencimento",
@@ -1017,7 +1219,9 @@
     "english": "pay",
     "examplePt": "O vencimento é de 580 euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "支付",
+    "zhHant": "支付"
   },
   {
     "id": "m8-iliquidos",
@@ -1027,7 +1231,9 @@
     "english": "gross",
     "examplePt": "São 580 euros ilíquidos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "总的",
+    "zhHant": "總的"
   },
   {
     "id": "m8-impostos",
@@ -1037,7 +1243,9 @@
     "english": "taxes",
     "examplePt": "O vencimento está sujeito a impostos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "税收",
+    "zhHant": "稅收"
   },
   {
     "id": "m8-requisitos",
@@ -1047,7 +1255,9 @@
     "english": "requirements",
     "examplePt": "O anúncio tem vários requisitos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "要求",
+    "zhHant": "要求"
   },
   {
     "id": "m8-assiduidade",
@@ -1057,7 +1267,9 @@
     "english": "attendance",
     "examplePt": "A assiduidade é importante no trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "出席率",
+    "zhHant": "出席率"
   },
   {
     "id": "m8-remuneracao",
@@ -1067,7 +1279,9 @@
     "english": "pay",
     "examplePt": "A remuneração é compatível com as funções.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "支付",
+    "zhHant": "支付"
   },
   {
     "id": "m8-cargo",
@@ -1077,7 +1291,9 @@
     "english": "position",
     "examplePt": "Ele tem um cargo na associação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "位置",
+    "zhHant": "位置"
   },
   {
     "id": "m8-desde",
@@ -1087,7 +1303,9 @@
     "english": "since",
     "examplePt": "Trabalho nesse restaurante desde 2006.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自从",
+    "zhHant": "自從"
   },
   {
     "id": "m8-ha",
@@ -1097,7 +1315,9 @@
     "english": "for / ago",
     "examplePt": "Trabalho nesse restaurante há sete anos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "为/前",
+    "zhHant": "為/前"
   },
   {
     "id": "m8-despedir-se",
@@ -1107,7 +1327,9 @@
     "english": "to quit",
     "examplePt": "Quando foi a última vez que se despediu de um emprego?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "戒烟",
+    "zhHant": "戒菸"
   },
   {
     "id": "m8-aumento-salario",
@@ -1117,7 +1339,9 @@
     "english": "pay rise",
     "examplePt": "Recebeu um aumento no salário.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "加薪",
+    "zhHant": "加薪"
   },
   {
     "id": "m8-recibos-verdes",
@@ -1127,7 +1351,9 @@
     "english": "freelance tax receipts",
     "examplePt": "Trabalhou a recibos verdes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自由职业者的税收收入",
+    "zhHant": "自由工作者的稅收收入"
   },
   {
     "id": "m8-subsidio-desemprego",
@@ -1137,7 +1363,9 @@
     "english": "unemployment benefit",
     "examplePt": "Recebeu um subsídio de desemprego.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "失业救济金",
+    "zhHant": "失業救濟金"
   },
   {
     "id": "m8-saber",
@@ -1147,7 +1375,9 @@
     "english": "to know how",
     "examplePt": "Ela sabe falar inglês.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "知道如何",
+    "zhHant": "知道如何"
   },
   {
     "id": "m8-conhecer",
@@ -1157,7 +1387,9 @@
     "english": "to know / meet",
     "examplePt": "Ela conheceu as condições de trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "认识/相遇",
+    "zhHant": "認識/相遇"
   },
   {
     "id": "m8-poder",
@@ -1167,7 +1399,9 @@
     "english": "can / to be able to",
     "examplePt": "Posso entrar?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "能够/能够",
+    "zhHant": "能夠/能夠"
   },
   {
     "id": "m8-conseguir",
@@ -1177,7 +1411,9 @@
     "english": "to manage",
     "examplePt": "Ela conseguiu ficar com o emprego.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "管理",
+    "zhHant": "管理"
   },
   {
     "id": "m8-e-proibido",
@@ -1187,7 +1423,9 @@
     "english": "it is forbidden",
     "examplePt": "É proibido usar o telemóvel.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "这是禁止的",
+    "zhHant": "這是禁止的"
   },
   {
     "id": "m8-e-permitido",
@@ -1197,7 +1435,9 @@
     "english": "it is allowed",
     "examplePt": "É permitida a venda de bilhetes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "这是允许的",
+    "zhHant": "這是允許的"
   },
   {
     "id": "m8-local-trabalho",
@@ -1207,7 +1447,9 @@
     "english": "workplace",
     "examplePt": "Não se pode fumar no local de trabalho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "工作场所",
+    "zhHant": "工作場所"
   },
   {
     "id": "m9-agora",
@@ -1217,7 +1459,9 @@
     "english": "now",
     "examplePt": "Agora vivo em Lisboa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "现在",
+    "zhHant": "現在"
   },
   {
     "id": "m9-antigamente",
@@ -1227,7 +1471,9 @@
     "english": "in the past",
     "examplePt": "Antigamente as pessoas andavam de carroça.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "在过去",
+    "zhHant": "在過去"
   },
   {
     "id": "m9-dantes",
@@ -1237,7 +1483,9 @@
     "english": "in the past",
     "examplePt": "Dantes, as pessoas andavam de carroça.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "在过去",
+    "zhHant": "在過去"
   },
   {
     "id": "m9-magro",
@@ -1247,7 +1495,9 @@
     "english": "thin",
     "examplePt": "Ele era magro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "薄的",
+    "zhHant": "薄的"
   },
   {
     "id": "m9-calcas-ganga",
@@ -1257,7 +1507,9 @@
     "english": "jeans",
     "examplePt": "Ele usava calças de ganga.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "牛仔裤",
+    "zhHant": "牛仔褲"
   },
   {
     "id": "m9-oculos",
@@ -1267,7 +1519,9 @@
     "english": "glasses",
     "examplePt": "Ele usava óculos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "眼镜",
+    "zhHant": "眼鏡"
   },
   {
     "id": "m9-barulhento",
@@ -1277,7 +1531,9 @@
     "english": "noisy",
     "examplePt": "O Rossio é muito barulhento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "嘈杂",
+    "zhHant": "吵雜"
   },
   {
     "id": "m9-antigo",
@@ -1287,7 +1543,9 @@
     "english": "old",
     "examplePt": "O edifício é antigo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "老的",
+    "zhHant": "老的"
   },
   {
     "id": "m9-movimentado",
@@ -1297,7 +1555,9 @@
     "english": "busy",
     "examplePt": "O Rossio é muito movimentado.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "忙碌的",
+    "zhHant": "忙碌的"
   },
   {
     "id": "m9-calmo",
@@ -1307,7 +1567,9 @@
     "english": "calm",
     "examplePt": "O Rossio era muito calmo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "冷静的",
+    "zhHant": "冷靜的"
   },
   {
     "id": "m9-moderno",
@@ -1317,7 +1579,9 @@
     "english": "modern",
     "examplePt": "O bairro é moderno.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "现代的",
+    "zhHant": "現代的"
   },
   {
     "id": "m9-poluido",
@@ -1327,7 +1591,9 @@
     "english": "polluted",
     "examplePt": "O lugar está poluído.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "被污染的",
+    "zhHant": "被污染的"
   },
   {
     "id": "m9-pouco-transito",
@@ -1337,7 +1603,9 @@
     "english": "little traffic",
     "examplePt": "O Rossio tinha pouco trânsito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "交通很少",
+    "zhHant": "交通很少"
   },
   {
     "id": "m9-muito-transito",
@@ -1347,7 +1615,9 @@
     "english": "a lot of traffic",
     "examplePt": "O Rossio tem muito trânsito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "大量流量",
+    "zhHant": "大量流量"
   },
   {
     "id": "m9-agua-corrente",
@@ -1357,7 +1627,9 @@
     "english": "running water",
     "examplePt": "As pessoas usam água corrente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自来水",
+    "zhHant": "自來水"
   },
   {
     "id": "m9-falar-telemovel",
@@ -1367,7 +1639,9 @@
     "english": "to talk on the mobile phone",
     "examplePt": "As pessoas falam ao telemóvel.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "用手机通话",
+    "zhHant": "用手機通話"
   },
   {
     "id": "m9-andar-carro",
@@ -1377,7 +1651,9 @@
     "english": "to go by car",
     "examplePt": "Hoje anda-se de carro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "开车去",
+    "zhHant": "開車去"
   },
   {
     "id": "m9-matricular",
@@ -1387,7 +1663,9 @@
     "english": "to enrol",
     "examplePt": "Queria matricular o meu filho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "报名",
+    "zhHant": "報名"
   },
   {
     "id": "m9-cedula",
@@ -1397,7 +1675,9 @@
     "english": "birth certificate",
     "examplePt": "A escola pede a cédula da criança.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "出生证明",
+    "zhHant": "出生證明"
   },
   {
     "id": "m9-boletim-matricula",
@@ -1407,7 +1687,9 @@
     "english": "enrolment form",
     "examplePt": "Preenchi o boletim de matrícula.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "报名表",
+    "zhHant": "報名表"
   },
   {
     "id": "m9-boletim-vacinas",
@@ -1417,7 +1699,9 @@
     "english": "vaccination record",
     "examplePt": "A escola pede o boletim de vacinas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "疫苗接种记录",
+    "zhHant": "疫苗接種記錄"
   },
   {
     "id": "m9-problemas-visuais-auditivos",
@@ -1427,7 +1711,9 @@
     "english": "vision and hearing problems",
     "examplePt": "A ficha permite detetar problemas visuais e auditivos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "视力和听力问题",
+    "zhHant": "視力和聽力問題"
   },
   {
     "id": "m9-procura-vida-melhor",
@@ -1437,7 +1723,9 @@
     "english": "looking for a better life",
     "examplePt": "Foram para fora do país à procura de uma vida melhor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "寻找更好的生活",
+    "zhHant": "尋找更好的生活"
   },
   {
     "id": "m9-condicoes-higiene-seguranca",
@@ -1447,7 +1735,9 @@
     "english": "hygiene and safety conditions",
     "examplePt": "As casas não tinham condições de higiene e segurança.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "卫生和安全条件",
+    "zhHant": "衛生和安全條件"
   },
   {
     "id": "m9-emigrar",
@@ -1457,7 +1747,9 @@
     "english": "to emigrate",
     "examplePt": "Muitos portugueses emigraram.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "移民",
+    "zhHant": "移民"
   },
   {
     "id": "m9-vizinhos",
@@ -1467,7 +1759,9 @@
     "english": "neighbours",
     "examplePt": "Os vizinhos são portugueses.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "邻居",
+    "zhHant": "鄰居"
   },
   {
     "id": "m9-naquela-epoca",
@@ -1477,7 +1771,9 @@
     "english": "at that time",
     "examplePt": "Naquela época, eles viviam no campo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "当时",
+    "zhHant": "當時"
   },
   {
     "id": "m9-naquele-tempo",
@@ -1487,7 +1783,9 @@
     "english": "in those days",
     "examplePt": "Naquele tempo, acordávamos muito cedo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "当年",
+    "zhHant": "當年"
   },
   {
     "id": "m9-costumar-infinitivo",
@@ -1497,7 +1795,9 @@
     "english": "to usually do",
     "examplePt": "Eu costumava almoçar em casa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "通常做",
+    "zhHant": "通常做"
   },
   {
     "id": "m9-mais-caro",
@@ -1507,7 +1807,9 @@
     "english": "the most expensive",
     "examplePt": "O produto mais caro é a televisão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "最贵的",
+    "zhHant": "最貴的"
   },
   {
     "id": "m9-mais-barato",
@@ -1517,7 +1819,9 @@
     "english": "the cheapest",
     "examplePt": "O produto mais barato é a consola.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "最便宜的",
+    "zhHant": "最便宜的"
   },
   {
     "id": "m9-otimo",
@@ -1527,7 +1831,9 @@
     "english": "excellent",
     "examplePt": "Este concerto é ótimo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "出色的",
+    "zhHant": "出色的"
   },
   {
     "id": "m9-pessimo",
@@ -1537,6 +1843,8 @@
     "english": "terrible",
     "examplePt": "Esta comida está péssima.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "糟糕的",
+    "zhHant": "糟糕的"
   }
 ]

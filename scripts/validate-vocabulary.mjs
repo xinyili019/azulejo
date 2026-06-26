@@ -21,8 +21,8 @@ const termsByModule = new Set();
 const modulos = new Set();
 
 for (const entry of entries) {
-  const { id, modulo, portuguese, english } = entry;
-  if (!id || !modulo || !portuguese || !english) {
+  const { id, modulo, portuguese, english, zhHans, zhHant } = entry;
+  if (!id || !modulo || !portuguese || !english || !zhHans || !zhHant) {
     errors.push(`Missing required field near id: ${id || "(unknown)"}`);
     continue;
   }

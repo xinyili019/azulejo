@@ -1,4 +1,4 @@
-export type Direction = "pt-en" | "en-pt";
+export type Direction = "pt-en" | "en-pt" | "pt-zh-hans" | "zh-hans-pt" | "pt-zh-hant" | "zh-hant-pt";
 export type CardStatus = "new" | "again" | "known";
 
 export interface VocabularyEntry {
@@ -7,6 +7,8 @@ export interface VocabularyEntry {
   theme: string;
   portuguese: string;
   english: string;
+  zhHans: string;
+  zhHant: string;
   examplePt?: string;
   exampleEn?: string;
   note?: string;

@@ -7,6 +7,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Casa",
     "portuguese": "a casa",
     "english": "house; home",
+    "zhHans": "房子/家",
+    "zhHant": "房子/家",
     "examplePt": "A minha casa fica perto.",
     "source": "pdf"
   },
@@ -16,6 +18,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Casa",
     "portuguese": "a casa de banho",
     "english": "bathroom",
+    "zhHans": "浴室",
+    "zhHant": "浴室",
     "examplePt": "A casa de banho fica perto do quarto.",
     "source": "pdf"
   },
@@ -25,6 +29,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Casa",
     "portuguese": "a cozinha",
     "english": "kitchen",
+    "zhHans": "厨房",
+    "zhHant": "廚房",
     "examplePt": "Tomo o pequeno-almoço na cozinha.",
     "source": "pdf"
   },
@@ -34,6 +40,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Casa",
     "portuguese": "o andar",
     "english": "floor",
+    "zhHans": "楼层/走路",
+    "zhHant": "樓層/走路",
     "examplePt": "Moro no segundo andar.",
     "source": "pdf"
   },
@@ -43,6 +51,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Casa",
     "portuguese": "o quarto",
     "english": "bedroom; room",
+    "zhHans": "房间/卧室",
+    "zhHant": "房間/臥室",
     "examplePt": "A cozinha fica entre a sala e o quarto.",
     "source": "pdf"
   },
@@ -52,6 +62,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Contactos",
     "portuguese": "o telefone",
     "english": "telephone",
+    "zhHans": "电话",
+    "zhHant": "電話",
     "examplePt": "Qual é o seu número de telefone?",
     "source": "pdf"
   },
@@ -61,6 +73,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Contactos",
     "portuguese": "o telemóvel",
     "english": "mobile phone",
+    "zhHans": "手机/移动电话",
+    "zhHant": "手機/行動電話",
     "examplePt": "O meu telemóvel é novo.",
     "source": "pdf"
   },
@@ -70,6 +84,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado civil",
     "portuguese": "casado(a)",
     "english": "married",
+    "zhHans": "已婚",
+    "zhHant": "已婚",
     "examplePt": "O Ahmed é casado. A Olga é casada.",
     "source": "pdf"
   },
@@ -79,6 +95,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado civil",
     "portuguese": "divorciado(a)",
     "english": "divorced",
+    "zhHans": "离婚的",
+    "zhHant": "離婚的",
     "examplePt": "Ele é divorciado. Ela é divorciada.",
     "source": "pdf"
   },
@@ -88,6 +106,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado civil",
     "portuguese": "solteiro(a)",
     "english": "single",
+    "zhHans": "单身的",
+    "zhHant": "單身的",
     "examplePt": "O Ahmed é solteiro. A Olga é solteira.",
     "source": "pdf"
   },
@@ -97,6 +117,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado civil",
     "portuguese": "viúvo(a)",
     "english": "widowed",
+    "zhHans": "寡",
+    "zhHant": "寡",
     "examplePt": "Ele é viúvo. Ela é viúva.",
     "source": "pdf"
   },
@@ -106,6 +128,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "a família",
     "english": "family",
+    "zhHans": "家庭",
+    "zhHant": "家庭",
     "examplePt": "A minha família mora em Portugal.",
     "source": "pdf"
   },
@@ -115,6 +139,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "a mãe",
     "english": "mother",
+    "zhHans": "母亲",
+    "zhHant": "母親",
     "examplePt": "A minha mãe está bem.",
     "source": "pdf"
   },
@@ -124,6 +150,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "a mulher",
     "english": "wife or woman",
+    "zhHans": "妻子或女人",
+    "zhHant": "妻子或女人",
     "examplePt": "A minha mulher mora em Portugal.",
     "source": "pdf"
   },
@@ -133,6 +161,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "filho(a)",
     "english": "child; son or daughter",
+    "zhHans": "孩子;儿子或女儿",
+    "zhHant": "孩子;兒子或女兒",
     "examplePt": "O meu filho estuda. A minha filha estuda.",
     "source": "pdf"
   },
@@ -142,6 +172,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "o irmão",
     "english": "brother",
+    "zhHans": "兄弟",
+    "zhHant": "兄弟",
     "examplePt": "O meu irmão chama-se José.",
     "source": "pdf"
   },
@@ -151,6 +183,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "o marido",
     "english": "husband",
+    "zhHans": "丈夫",
+    "zhHant": "丈夫",
     "examplePt": "O meu marido trabalha hoje.",
     "source": "pdf"
   },
@@ -160,6 +194,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "o pai",
     "english": "father",
+    "zhHans": "父亲",
+    "zhHant": "父親",
     "examplePt": "O meu pai chama-se António.",
     "source": "pdf"
   },
@@ -169,6 +205,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "como",
     "english": "how",
+    "zhHans": "如何",
+    "zhHant": "如何",
     "examplePt": "Como está?",
     "source": "pdf"
   },
@@ -178,6 +216,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "estar",
     "english": "to be; to be located",
+    "zhHans": "成为；位于",
+    "zhHant": "成為；位於",
     "examplePt": "Eu estou em Lisboa.",
     "source": "pdf"
   },
@@ -187,6 +227,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "morar",
     "english": "to live",
+    "zhHans": "生活",
+    "zhHant": "生活",
     "examplePt": "Moro em Odivelas.",
     "source": "pdf"
   },
@@ -196,6 +238,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "onde",
     "english": "where",
+    "zhHans": "在哪里",
+    "zhHant": "在哪裡",
     "examplePt": "Onde mora?",
     "source": "pdf"
   },
@@ -205,6 +249,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "qual",
     "english": "which; what",
+    "zhHans": "哪个;什么",
+    "zhHant": "哪個;什麼",
     "examplePt": "Qual é a sua morada?",
     "source": "pdf"
   },
@@ -214,6 +260,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "quantos",
     "english": "how many",
+    "zhHans": "多少",
+    "zhHant": "多少",
     "examplePt": "Quantos filhos tem?",
     "source": "pdf"
   },
@@ -223,6 +271,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "que",
     "english": "what",
+    "zhHans": "什么",
+    "zhHant": "什麼",
     "examplePt": "Que trabalho faz?",
     "source": "pdf"
   },
@@ -232,6 +282,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "quem",
     "english": "who",
+    "zhHans": "WHO",
+    "zhHant": "世界衛生組織",
     "examplePt": "Quem é o Ahmed?",
     "source": "pdf"
   },
@@ -241,6 +293,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "ser",
     "english": "to be",
+    "zhHans": "成为",
+    "zhHant": "成為",
     "examplePt": "Eu sou o Ahmed.",
     "source": "pdf"
   },
@@ -250,6 +304,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "ter",
     "english": "to have",
+    "zhHans": "拥有",
+    "zhHant": "擁有",
     "examplePt": "Tenho 32 anos.",
     "source": "pdf"
   },
@@ -259,6 +315,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "trabalhar",
     "english": "to work",
+    "zhHans": "去工作",
+    "zhHant": "去工作",
     "examplePt": "Ela trabalha no supermercado.",
     "source": "pdf"
   },
@@ -268,6 +326,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "a data de nascimento",
     "english": "date of birth",
+    "zhHans": "出生日期",
+    "zhHant": "出生日期",
     "examplePt": "Qual é a sua data de nascimento?",
     "source": "pdf"
   },
@@ -277,6 +337,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "a nacionalidade",
     "english": "nationality",
+    "zhHans": "国籍",
+    "zhHant": "國籍",
     "examplePt": "Qual é a sua nacionalidade?",
     "source": "pdf"
   },
@@ -286,6 +348,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "feminino",
     "english": "female",
+    "zhHans": "女性",
+    "zhHant": "女性",
     "examplePt": "A Olga é do sexo feminino.",
     "source": "pdf"
   },
@@ -295,6 +359,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "masculino",
     "english": "male",
+    "zhHans": "男性",
+    "zhHant": "男性",
     "examplePt": "O Ahmed é do sexo masculino.",
     "source": "pdf"
   },
@@ -304,6 +370,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "o apelido",
     "english": "surname",
+    "zhHans": "姓",
+    "zhHant": "姓",
     "examplePt": "Qual é o seu apelido?",
     "source": "pdf"
   },
@@ -313,6 +381,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "o estado civil",
     "english": "marital status",
+    "zhHans": "婚姻状况",
+    "zhHant": "婚姻狀況",
     "examplePt": "Qual é o seu estado civil?",
     "source": "pdf"
   },
@@ -322,6 +392,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "o local de nascimento",
     "english": "place of birth",
+    "zhHans": "出生地",
+    "zhHant": "出生地",
     "examplePt": "O local de nascimento é Islamabad.",
     "source": "pdf"
   },
@@ -331,6 +403,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "o nome completo",
     "english": "full name",
+    "zhHans": "姓名",
+    "zhHant": "姓名",
     "examplePt": "Escreva o seu nome completo.",
     "source": "pdf"
   },
@@ -340,6 +414,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "o primeiro nome",
     "english": "first name",
+    "zhHans": "名",
+    "zhHant": "名",
     "examplePt": "O meu primeiro nome é Ahmed.",
     "source": "pdf"
   },
@@ -349,6 +425,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação pessoal",
     "portuguese": "o sexo",
     "english": "sex",
+    "zhHans": "性别",
+    "zhHant": "性別",
     "examplePt": "O sexo é masculino.",
     "source": "pdf"
   },
@@ -358,6 +436,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Morada",
     "portuguese": "a cidade",
     "english": "city",
+    "zhHans": "城市",
+    "zhHant": "城市",
     "examplePt": "Lisboa é uma cidade.",
     "source": "pdf"
   },
@@ -367,6 +447,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Morada",
     "portuguese": "a localidade",
     "english": "locality",
+    "zhHans": "地区/所在地",
+    "zhHant": "地區/所在地",
     "examplePt": "A localidade é Porto.",
     "source": "pdf"
   },
@@ -376,6 +458,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Morada",
     "portuguese": "a morada",
     "english": "address",
+    "zhHans": "地址/住址",
+    "zhHant": "地址/住址",
     "examplePt": "Qual é a sua morada?",
     "source": "pdf"
   },
@@ -385,6 +469,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Morada",
     "portuguese": "a rua",
     "english": "street",
+    "zhHans": "街道",
+    "zhHant": "街道",
     "examplePt": "A rua tem um supermercado.",
     "source": "pdf"
   },
@@ -394,6 +480,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Morada",
     "portuguese": "o código postal",
     "english": "postal code",
+    "zhHans": "邮政编码",
+    "zhHant": "郵遞區號",
     "examplePt": "Qual é o seu código postal?",
     "source": "pdf"
   },
@@ -403,6 +491,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "cem",
     "english": "one hundred",
+    "zhHans": "一百",
+    "zhHant": "一百",
     "examplePt": "Cem é um número.",
     "source": "pdf"
   },
@@ -412,6 +502,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "cinco",
     "english": "five",
+    "zhHans": "五",
+    "zhHant": "五",
     "examplePt": "São cinco euros.",
     "source": "pdf"
   },
@@ -421,6 +513,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "cinquenta",
     "english": "fifty",
+    "zhHans": "五十",
+    "zhHant": "五十",
     "examplePt": "São cinquenta euros.",
     "source": "pdf"
   },
@@ -430,6 +524,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "dez",
     "english": "ten",
+    "zhHans": "十",
+    "zhHant": "十",
     "examplePt": "Tenho dez euros.",
     "source": "pdf"
   },
@@ -439,6 +535,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "dois",
     "english": "two",
+    "zhHans": "二",
+    "zhHant": "二",
     "examplePt": "Tenho dois filhos.",
     "source": "pdf"
   },
@@ -448,6 +546,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "mil",
     "english": "one thousand",
+    "zhHans": "一千",
+    "zhHant": "一千",
     "examplePt": "Mil é um número.",
     "source": "pdf"
   },
@@ -457,6 +557,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "nove",
     "english": "nine",
+    "zhHans": "九",
+    "zhHant": "九",
     "examplePt": "São nove horas.",
     "source": "pdf"
   },
@@ -466,6 +568,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "oito",
     "english": "eight",
+    "zhHans": "八",
+    "zhHant": "八",
     "examplePt": "Entro às oito.",
     "source": "pdf"
   },
@@ -475,6 +579,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "quarenta",
     "english": "forty",
+    "zhHans": "四十",
+    "zhHant": "四十",
     "examplePt": "Tenho quarenta anos.",
     "source": "pdf"
   },
@@ -484,6 +590,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "quatro",
     "english": "four",
+    "zhHans": "四",
+    "zhHant": "四",
     "examplePt": "Tenho quatro aulas.",
     "source": "pdf"
   },
@@ -493,6 +601,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "seis",
     "english": "six",
+    "zhHans": "六",
+    "zhHant": "六",
     "examplePt": "Acordo às seis.",
     "source": "pdf"
   },
@@ -502,6 +612,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "sete",
     "english": "seven",
+    "zhHans": "七",
+    "zhHant": "七",
     "examplePt": "São sete horas.",
     "source": "pdf"
   },
@@ -511,6 +623,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "três",
     "english": "three",
+    "zhHans": "三",
+    "zhHant": "三",
     "examplePt": "Tenho três documentos.",
     "source": "pdf"
   },
@@ -520,6 +634,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "trinta",
     "english": "thirty",
+    "zhHans": "三十",
+    "zhHant": "三十",
     "examplePt": "Tenho trinta anos.",
     "source": "pdf"
   },
@@ -529,6 +645,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "um",
     "english": "one",
+    "zhHans": "一",
+    "zhHant": "一",
     "examplePt": "Tenho um filho.",
     "source": "pdf"
   },
@@ -538,6 +656,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Números",
     "portuguese": "vinte",
     "english": "twenty",
+    "zhHans": "二十",
+    "zhHant": "二十",
     "examplePt": "São vinte euros.",
     "source": "pdf"
   },
@@ -547,6 +667,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Países e línguas",
     "portuguese": "o país",
     "english": "country",
+    "zhHans": "国家",
+    "zhHant": "國家",
     "examplePt": "Portugal é um país.",
     "source": "pdf"
   },
@@ -556,6 +678,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "médico(a)",
     "english": "doctor",
+    "zhHans": "医生",
+    "zhHant": "醫生",
     "examplePt": "O médico trabalha no centro de saúde. A médica também.",
     "source": "pdf"
   },
@@ -565,6 +689,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o empregado de limpeza",
     "english": "cleaner",
+    "zhHans": "清洁工",
+    "zhHant": "清潔工",
     "examplePt": "Ele é empregado de limpeza.",
     "source": "pdf"
   },
@@ -574,6 +700,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o motorista",
     "english": "driver",
+    "zhHans": "司机",
+    "zhHant": "司機",
     "examplePt": "O motorista conduz o autocarro.",
     "source": "pdf"
   },
@@ -583,6 +711,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "professor(a)",
     "english": "teacher",
+    "zhHans": "老师",
+    "zhHant": "老師",
     "examplePt": "O professor ensina Português. A professora ensina Português.",
     "source": "pdf"
   },
@@ -592,6 +722,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "adeus",
     "english": "goodbye",
+    "zhHans": "再见",
+    "zhHant": "再見",
     "examplePt": "Adeus!",
     "source": "pdf"
   },
@@ -601,6 +733,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "até amanhã",
     "english": "see you tomorrow",
+    "zhHans": "明天见",
+    "zhHant": "明天見",
     "examplePt": "Até amanhã!",
     "source": "pdf"
   },
@@ -610,6 +744,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "até logo",
     "english": "see you later",
+    "zhHans": "稍后见",
+    "zhHant": "稍後見",
     "examplePt": "Até logo!",
     "source": "pdf"
   },
@@ -619,6 +755,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "boa noite",
     "english": "good evening; good night",
+    "zhHans": "晚上好;晚安",
+    "zhHant": "晚上好;晚安",
     "examplePt": "Boa noite!",
     "source": "pdf"
   },
@@ -628,6 +766,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "boa tarde",
     "english": "good afternoon",
+    "zhHans": "下午好",
+    "zhHant": "午安",
     "examplePt": "Boa tarde!",
     "source": "pdf"
   },
@@ -637,6 +777,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "bom dia",
     "english": "good morning",
+    "zhHans": "早上好",
+    "zhHant": "早安",
     "examplePt": "Bom dia, Sr. Santos.",
     "source": "pdf"
   },
@@ -646,6 +788,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "como está?",
     "english": "how are you?",
+    "zhHans": "你好吗？",
+    "zhHant": "你好嗎？",
     "examplePt": "Como está, D. Marina?",
     "source": "pdf"
   },
@@ -655,6 +799,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "muito prazer",
     "english": "pleased to meet you",
+    "zhHans": "很高兴认识你",
+    "zhHant": "很高興認識你",
     "examplePt": "Olá Iona, muito prazer.",
     "source": "pdf"
   },
@@ -664,6 +810,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "olá",
     "english": "hello",
+    "zhHans": "你好",
+    "zhHant": "你好",
     "examplePt": "Olá, Joana!",
     "source": "pdf"
   },
@@ -673,6 +821,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "tudo bem?",
     "english": "all good?",
+    "zhHans": "都好吗？",
+    "zhHant": "都好嗎？",
     "examplePt": "Olá, tudo bem?",
     "source": "pdf"
   },
@@ -682,6 +832,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "abril",
     "english": "April",
+    "zhHans": "四月",
+    "zhHant": "四月",
     "examplePt": "A data de nascimento é em abril.",
     "source": "pdf"
   },
@@ -691,6 +843,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "agosto",
     "english": "August",
+    "zhHans": "八月",
+    "zhHant": "八月",
     "examplePt": "A data é em agosto.",
     "source": "pdf"
   },
@@ -700,6 +854,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "dezembro",
     "english": "December",
+    "zhHans": "十二月",
+    "zhHant": "十二月",
     "examplePt": "A data é em dezembro.",
     "source": "pdf"
   },
@@ -709,6 +865,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "domingo",
     "english": "Sunday",
+    "zhHans": "星期日",
+    "zhHant": "星期日",
     "examplePt": "Hoje é domingo.",
     "source": "pdf"
   },
@@ -718,6 +876,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "fevereiro",
     "english": "February",
+    "zhHans": "二月",
+    "zhHant": "二月",
     "examplePt": "A data é em fevereiro.",
     "source": "pdf"
   },
@@ -727,6 +887,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "janeiro",
     "english": "January",
+    "zhHans": "一月",
+    "zhHant": "一月",
     "examplePt": "A data é em janeiro.",
     "source": "pdf"
   },
@@ -736,6 +898,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "julho",
     "english": "July",
+    "zhHans": "七月",
+    "zhHant": "七月",
     "examplePt": "A data é em julho.",
     "source": "pdf"
   },
@@ -745,6 +909,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "junho",
     "english": "June",
+    "zhHans": "六月",
+    "zhHant": "六月",
     "examplePt": "A data é em junho.",
     "source": "pdf"
   },
@@ -754,6 +920,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "maio",
     "english": "May",
+    "zhHans": "可能",
+    "zhHant": "可能",
     "examplePt": "A data é em maio.",
     "source": "pdf"
   },
@@ -763,6 +931,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "março",
     "english": "March",
+    "zhHans": "行进",
+    "zhHant": "行進",
     "examplePt": "A data é em março.",
     "source": "pdf"
   },
@@ -772,6 +942,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "novembro",
     "english": "November",
+    "zhHans": "十一月",
+    "zhHant": "十一月",
     "examplePt": "A data é em novembro.",
     "source": "pdf"
   },
@@ -781,6 +953,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "outubro",
     "english": "October",
+    "zhHans": "十月",
+    "zhHant": "十月",
     "examplePt": "A data é em outubro.",
     "source": "pdf"
   },
@@ -790,6 +964,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "quarta-feira",
     "english": "Wednesday",
+    "zhHans": "周三",
+    "zhHant": "週三",
     "examplePt": "Hoje é quarta-feira.",
     "source": "pdf"
   },
@@ -799,6 +975,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "quinta-feira",
     "english": "Thursday",
+    "zhHans": "周四",
+    "zhHant": "週四",
     "examplePt": "Hoje é quinta-feira.",
     "source": "pdf"
   },
@@ -808,6 +986,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "sábado",
     "english": "Saturday",
+    "zhHans": "周六",
+    "zhHant": "週六",
     "examplePt": "Hoje é sábado.",
     "source": "pdf"
   },
@@ -817,6 +997,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "segunda-feira",
     "english": "Monday",
+    "zhHans": "周一",
+    "zhHant": "週一",
     "examplePt": "Hoje é segunda-feira.",
     "source": "pdf"
   },
@@ -826,6 +1008,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "setembro",
     "english": "September",
+    "zhHans": "九月",
+    "zhHant": "九月",
     "examplePt": "A data é em setembro.",
     "source": "pdf"
   },
@@ -835,6 +1019,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "sexta-feira",
     "english": "Friday",
+    "zhHans": "星期五",
+    "zhHant": "星期五",
     "examplePt": "Hoje é sexta-feira.",
     "source": "pdf"
   },
@@ -844,6 +1030,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "terça-feira",
     "english": "Tuesday",
+    "zhHans": "周二",
+    "zhHant": "週二",
     "examplePt": "Hoje é terça-feira.",
     "source": "pdf"
   },
@@ -853,6 +1041,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a renda",
     "english": "rent",
+    "zhHans": "房租/收入",
+    "zhHant": "房租/收入",
     "examplePt": "O valor da renda é 200 euros.",
     "source": "pdf"
   },
@@ -862,6 +1052,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "aluga-se",
     "english": "for rent",
+    "zhHans": "出租",
+    "zhHant": "出租",
     "examplePt": "Aluga-se apartamento.",
     "source": "pdf"
   },
@@ -871,6 +1063,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "o apartamento",
     "english": "apartment",
+    "zhHans": "公寓",
+    "zhHant": "公寓",
     "examplePt": "Eles moram num apartamento pequeno.",
     "source": "pdf"
   },
@@ -880,6 +1074,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "o prédio",
     "english": "building",
+    "zhHans": "建筑",
+    "zhHant": "大樓",
     "examplePt": "Ele mora num prédio.",
     "source": "pdf"
   },
@@ -889,6 +1085,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Atividades do dia a dia",
     "portuguese": "acordar",
     "english": "to wake up",
+    "zhHans": "醒来",
+    "zhHant": "醒來",
     "examplePt": "Eu acordo às seis e meia.",
     "source": "pdf"
   },
@@ -898,6 +1096,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Atividades do dia a dia",
     "portuguese": "almoçar",
     "english": "to have lunch",
+    "zhHans": "吃午饭",
+    "zhHant": "吃午餐",
     "examplePt": "Almoço entre o meio-dia e a uma.",
     "source": "pdf"
   },
@@ -907,6 +1107,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Atividades do dia a dia",
     "portuguese": "apanhar o metro",
     "english": "to take the metro",
+    "zhHans": "乘坐地铁",
+    "zhHant": "搭乘地鐵",
     "examplePt": "Vou apanhar o metro.",
     "source": "pdf"
   },
@@ -916,6 +1118,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Atividades do dia a dia",
     "portuguese": "ir para o trabalho",
     "english": "to go to work",
+    "zhHans": "去上班",
+    "zhHant": "去上班",
     "examplePt": "Vou para o trabalho às oito.",
     "source": "pdf"
   },
@@ -925,6 +1129,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Atividades do dia a dia",
     "portuguese": "tomar o pequeno-almoço",
     "english": "to have breakfast",
+    "zhHans": "吃早餐",
+    "zhHant": "吃早餐",
     "examplePt": "Tomo o pequeno-almoço na cozinha.",
     "source": "pdf"
   },
@@ -934,6 +1140,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Atividades do dia a dia",
     "portuguese": "voltar para casa",
     "english": "to return home",
+    "zhHans": "回家",
+    "zhHant": "回家",
     "examplePt": "Volto para casa às oito.",
     "source": "pdf"
   },
@@ -943,6 +1151,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Dinheiro",
     "portuguese": "o cêntimo",
     "english": "cent",
+    "zhHans": "分",
+    "zhHant": "分",
     "examplePt": "São vinte cêntimos.",
     "source": "pdf"
   },
@@ -952,6 +1162,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Dinheiro",
     "portuguese": "o dinheiro",
     "english": "money",
+    "zhHans": "钱",
+    "zhHant": "錢",
     "examplePt": "Preciso de transferir dinheiro.",
     "source": "pdf"
   },
@@ -961,6 +1173,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Dinheiro",
     "portuguese": "o euro",
     "english": "euro",
+    "zhHans": "欧元",
+    "zhHant": "歐元",
     "examplePt": "São dois euros.",
     "source": "pdf"
   },
@@ -970,6 +1184,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "abrir",
     "english": "to open",
+    "zhHans": "打开",
+    "zhHant": "打開",
     "examplePt": "A bilheteira abre às oito.",
     "source": "pdf"
   },
@@ -979,6 +1195,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "há",
     "english": "there is; there are; ago",
+    "zhHans": "有;有;前",
+    "zhHant": "有;有;前",
     "examplePt": "Há muito trânsito.",
     "source": "pdf"
   },
@@ -988,6 +1206,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "ir",
     "english": "to go",
+    "zhHans": "去",
+    "zhHant": "去",
     "examplePt": "Eu vou para o trabalho.",
     "source": "pdf"
   },
@@ -997,6 +1217,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "ir às compras",
     "english": "to go shopping",
+    "zhHans": "去购物",
+    "zhHant": "去購物",
     "examplePt": "Vou às compras ao sábado.",
     "source": "pdf"
   },
@@ -1006,6 +1228,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "nunca",
     "english": "never",
+    "zhHans": "绝不",
+    "zhHant": "絕不",
     "examplePt": "Nunca chego tarde.",
     "source": "pdf"
   },
@@ -1015,6 +1239,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "o trânsito",
     "english": "traffic",
+    "zhHans": "交通",
+    "zhHant": "交通",
     "examplePt": "Há muito trânsito.",
     "source": "pdf"
   },
@@ -1024,6 +1250,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "sair",
     "english": "to leave; to go out",
+    "zhHans": "离开；出去",
+    "zhHant": "離開；出去",
     "examplePt": "Saio de casa cedo.",
     "source": "pdf"
   },
@@ -1033,6 +1261,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "sempre",
     "english": "always",
+    "zhHans": "总是",
+    "zhHant": "總是",
     "examplePt": "Levanto-me sempre cedo.",
     "source": "pdf"
   },
@@ -1042,6 +1272,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "transferir dinheiro",
     "english": "to transfer money",
+    "zhHans": "转账",
+    "zhHant": "轉帳",
     "examplePt": "Preciso de transferir dinheiro.",
     "source": "pdf"
   },
@@ -1051,6 +1283,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Horas",
     "portuguese": "meio-dia",
     "english": "noon",
+    "zhHans": "中午",
+    "zhHant": "中午",
     "examplePt": "Almoço ao meio-dia.",
     "source": "pdf"
   },
@@ -1060,6 +1294,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Horas",
     "portuguese": "que horas são?",
     "english": "what time is it?",
+    "zhHans": "现在是几奌？",
+    "zhHant": "現在是幾奌？",
     "examplePt": "Olá, que horas são?",
     "source": "pdf"
   },
@@ -1069,6 +1305,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Meios de transporte",
     "portuguese": "o autocarro",
     "english": "bus",
+    "zhHans": "公共汽车",
+    "zhHant": "公車",
     "examplePt": "Apanho o autocarro.",
     "source": "pdf"
   },
@@ -1078,6 +1316,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Meios de transporte",
     "portuguese": "o avião",
     "english": "plane",
+    "zhHans": "飞机",
+    "zhHant": "飛機",
     "examplePt": "O meu avião parte às oito.",
     "source": "pdf"
   },
@@ -1087,6 +1327,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Meios de transporte",
     "portuguese": "o comboio",
     "english": "train",
+    "zhHans": "火车",
+    "zhHant": "火車",
     "examplePt": "Apanho o comboio.",
     "source": "pdf"
   },
@@ -1096,6 +1338,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Meios de transporte",
     "portuguese": "o metro",
     "english": "metro",
+    "zhHans": "地铁",
+    "zhHant": "捷運",
     "examplePt": "Uso o metro.",
     "source": "pdf"
   },
@@ -1105,6 +1349,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Meios de transporte",
     "portuguese": "o táxi",
     "english": "taxi",
+    "zhHans": "出租车",
+    "zhHant": "計程車",
     "examplePt": "A paragem de táxis fica ali.",
     "source": "pdf"
   },
@@ -1114,6 +1360,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Passe e bilhetes",
     "portuguese": "o bilhete simples",
     "english": "single ticket",
+    "zhHans": "单程票",
+    "zhHant": "單程票",
     "examplePt": "Queria um bilhete simples.",
     "source": "pdf"
   },
@@ -1123,6 +1371,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Passe e bilhetes",
     "portuguese": "o passe",
     "english": "travel pass",
+    "zhHans": "交通月票/通行证",
+    "zhHant": "交通月票/通行證",
     "examplePt": "Tenho de comprar o passe.",
     "source": "pdf"
   },
@@ -1132,6 +1382,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Refeições",
     "portuguese": "o almoço",
     "english": "lunch",
+    "zhHans": "午餐",
+    "zhHant": "午餐",
     "examplePt": "Levo o almoço de casa.",
     "source": "pdf"
   },
@@ -1141,6 +1393,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Refeições",
     "portuguese": "o jantar",
     "english": "dinner",
+    "zhHans": "晚餐",
+    "zhHant": "晚餐",
     "examplePt": "Depois das aulas, jantamos.",
     "source": "pdf"
   },
@@ -1150,6 +1404,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Refeições",
     "portuguese": "o pequeno-almoço",
     "english": "breakfast",
+    "zhHans": "早餐",
+    "zhHant": "早餐",
     "examplePt": "Tomo o pequeno-almoço em casa.",
     "source": "pdf"
   },
@@ -1159,6 +1415,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Símbolos de transportes",
     "portuguese": "a estação de comboios",
     "english": "train station",
+    "zhHans": "火车站",
+    "zhHant": "火車站",
     "examplePt": "O metro passa pela estação.",
     "source": "pdf"
   },
@@ -1168,6 +1426,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Símbolos de transportes",
     "portuguese": "a paragem de autocarro",
     "english": "bus stop",
+    "zhHans": "巴士站",
+    "zhHant": "巴士站",
     "examplePt": "Estou na paragem de autocarro.",
     "source": "pdf"
   },
@@ -1177,6 +1437,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a autorização de residência",
     "english": "residence permit",
+    "zhHans": "居留证",
+    "zhHant": "居留證",
     "examplePt": "Preciso da renovação da autorização de residência.",
     "source": "pdf"
   },
@@ -1186,6 +1448,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "lavar os dentes",
     "english": "to brush one's teeth",
+    "zhHans": "刷牙",
+    "zhHant": "刷牙",
     "examplePt": "A seguir, lavo os dentes.",
     "source": "pdf"
   },
@@ -1195,6 +1459,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "levantar-se",
     "english": "to get up",
+    "zhHans": "起床",
+    "zhHant": "起床",
     "examplePt": "Levanto-me às cinco da manhã.",
     "source": "pdf"
   },
@@ -1204,6 +1470,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "os transportes públicos",
     "english": "public transport",
+    "zhHans": "公共交通",
+    "zhHant": "大眾運輸",
     "examplePt": "Usa transportes públicos?",
     "source": "pdf"
   },
@@ -1213,6 +1481,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "precisar",
     "english": "to need",
+    "zhHans": "需要",
+    "zhHant": "需要",
     "examplePt": "Preciso de falar português.",
     "source": "pdf"
   },
@@ -1222,6 +1492,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "tomar um duche",
     "english": "to take a shower",
+    "zhHans": "洗澡",
+    "zhHant": "洗澡",
     "examplePt": "Tomo um duche quente.",
     "source": "pdf"
   },
@@ -1231,6 +1503,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "usar",
     "english": "to use",
+    "zhHans": "使用",
+    "zhHant": "使用",
     "examplePt": "Uso o metro.",
     "source": "pdf"
   },
@@ -1240,6 +1514,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Bebidas",
     "portuguese": "a água",
     "english": "water",
+    "zhHans": "水",
+    "zhHant": "水",
     "examplePt": "Ponha água na panela.",
     "source": "pdf"
   },
@@ -1249,6 +1525,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Bebidas",
     "portuguese": "o café",
     "english": "coffee; cafe",
+    "zhHans": "咖啡;咖啡店",
+    "zhHant": "咖啡;咖啡店",
     "examplePt": "Queria uma bica.",
     "source": "pdf"
   },
@@ -1258,6 +1536,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Charcutaria",
     "portuguese": "o queijo",
     "english": "cheese",
+    "zhHans": "奶酪",
+    "zhHant": "起司",
     "examplePt": "Quero um queijo fresco.",
     "source": "pdf"
   },
@@ -1267,6 +1547,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Equipamentos",
     "portuguese": "a máquina de lavar roupa",
     "english": "washing machine",
+    "zhHans": "洗衣机",
+    "zhHant": "洗衣機",
     "examplePt": "A máquina de lavar roupa está na cozinha.",
     "source": "pdf"
   },
@@ -1276,6 +1558,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Equipamentos",
     "portuguese": "o frigorífico",
     "english": "fridge",
+    "zhHans": "冰箱",
+    "zhHant": "冰箱",
     "examplePt": "O frigorífico está cheio.",
     "source": "pdf"
   },
@@ -1285,6 +1569,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Formas de pagamento",
     "portuguese": "o cartão multibanco",
     "english": "debit card",
+    "zhHans": "借记卡",
+    "zhHant": "金融卡",
     "examplePt": "Posso pagar com o multibanco?",
     "source": "pdf"
   },
@@ -1294,6 +1580,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Frutas",
     "portuguese": "a banana",
     "english": "banana",
+    "zhHans": "香蕉",
+    "zhHant": "香蕉",
     "examplePt": "Compro bananas.",
     "source": "pdf"
   },
@@ -1303,6 +1591,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Frutas",
     "portuguese": "a maçã",
     "english": "apple",
+    "zhHans": "苹果",
+    "zhHant": "蘋果",
     "examplePt": "A maçã é melhor do que as limas.",
     "source": "pdf"
   },
@@ -1312,6 +1602,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "barato",
     "english": "cheap",
+    "zhHans": "便宜的",
+    "zhHant": "便宜的",
     "examplePt": "As peras são menos caras.",
     "source": "pdf"
   },
@@ -1321,6 +1613,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "caro",
     "english": "expensive",
+    "zhHans": "昂贵的",
+    "zhHant": "昂貴的",
     "examplePt": "Este produto é caro.",
     "source": "pdf"
   },
@@ -1330,6 +1624,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "pedir",
     "english": "to ask for; to order",
+    "zhHans": "要求；订购",
+    "zhHant": "要求；訂購",
     "examplePt": "Vou pedir a conta.",
     "source": "pdf"
   },
@@ -1339,6 +1635,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "poder",
     "english": "can; to be able to",
+    "zhHans": "能;能够",
+    "zhHant": "能;能夠",
     "examplePt": "Posso pagar com multibanco?",
     "source": "pdf"
   },
@@ -1348,6 +1646,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "querer",
     "english": "to want",
+    "zhHans": "想要",
+    "zhHant": "想要",
     "examplePt": "Queria jantar num restaurante.",
     "source": "pdf"
   },
@@ -1357,6 +1657,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "saudável",
     "english": "healthy",
+    "zhHans": "健康",
+    "zhHant": "健康",
     "examplePt": "Esta comida é saudável.",
     "source": "pdf"
   },
@@ -1366,6 +1668,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Laticínios",
     "portuguese": "o leite",
     "english": "milk",
+    "zhHans": "牛奶",
+    "zhHant": "牛奶",
     "examplePt": "Compro quatro pacotes de leite.",
     "source": "pdf"
   },
@@ -1375,6 +1679,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Legumes",
     "portuguese": "a cebola",
     "english": "onion",
+    "zhHans": "洋葱",
+    "zhHant": "洋蔥",
     "examplePt": "As cebolas são baratas.",
     "source": "pdf"
   },
@@ -1384,6 +1690,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Legumes",
     "portuguese": "o alho",
     "english": "garlic",
+    "zhHans": "蒜",
+    "zhHant": "蒜",
     "examplePt": "Compro alhos no mercado.",
     "source": "pdf"
   },
@@ -1393,6 +1701,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Legumes",
     "portuguese": "o tomate",
     "english": "tomato",
+    "zhHans": "番茄",
+    "zhHant": "番茄",
     "examplePt": "Queria duas latas de tomate pelado.",
     "source": "pdf"
   },
@@ -1402,6 +1712,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Mercearia",
     "portuguese": "o açúcar",
     "english": "sugar",
+    "zhHans": "糖",
+    "zhHant": "糖",
     "examplePt": "Preciso de um pacote de açúcar.",
     "source": "pdf"
   },
@@ -1411,6 +1723,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Mercearia",
     "portuguese": "o arroz",
     "english": "rice",
+    "zhHans": "米",
+    "zhHant": "白飯",
     "examplePt": "Queria dois quilos de arroz.",
     "source": "pdf"
   },
@@ -1420,6 +1734,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Mercearia",
     "portuguese": "o azeite",
     "english": "olive oil",
+    "zhHans": "橄榄油",
+    "zhHant": "橄欖油",
     "examplePt": "Queria uma garrafa de azeite.",
     "source": "pdf"
   },
@@ -1429,6 +1745,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Nomes específicos",
     "portuguese": "a sandes",
     "english": "sandwich",
+    "zhHans": "三明治",
+    "zhHant": "三明治",
     "examplePt": "Como uma sandes.",
     "source": "pdf"
   },
@@ -1438,6 +1756,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Padaria",
     "portuguese": "o pão de forma",
     "english": "sliced bread",
+    "zhHans": "切片面包",
+    "zhHant": "切片麵包",
     "examplePt": "Compro pão de forma.",
     "source": "pdf"
   },
@@ -1447,6 +1767,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Talho",
     "portuguese": "a carne de vaca",
     "english": "beef",
+    "zhHans": "牛肉",
+    "zhHant": "牛肉",
     "examplePt": "A carne de vaca está no talho.",
     "source": "pdf"
   },
@@ -1456,6 +1778,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Talho",
     "portuguese": "o frango",
     "english": "chicken",
+    "zhHans": "鸡",
+    "zhHant": "雞",
     "examplePt": "Quero frango assado.",
     "source": "pdf"
   },
@@ -1465,6 +1789,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a conta",
     "english": "bill",
+    "zhHans": "账单",
+    "zhHant": "帳單",
     "examplePt": "Era a conta, se faz favor.",
     "source": "pdf"
   },
@@ -1474,6 +1800,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a ementa",
     "english": "menu",
+    "zhHans": "菜单",
+    "zhHant": "選單",
     "examplePt": "Pode trazer a ementa?",
     "source": "pdf"
   },
@@ -1483,6 +1811,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a fatura",
     "english": "invoice",
+    "zhHans": "发票",
+    "zhHant": "發票",
     "examplePt": "Pode dar-me uma fatura?",
     "source": "pdf"
   },
@@ -1492,6 +1822,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a mercearia",
     "english": "grocery shop",
+    "zhHans": "杂货店",
+    "zhHant": "雜貨店",
     "examplePt": "Vou à mercearia.",
     "source": "pdf"
   },
@@ -1501,6 +1833,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a padaria",
     "english": "bakery",
+    "zhHans": "面包店",
+    "zhHant": "麵包店",
     "examplePt": "Compro pão na padaria.",
     "source": "pdf"
   },
@@ -1510,6 +1844,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "a peixaria",
     "english": "fish shop",
+    "zhHans": "鱼店",
+    "zhHant": "魚店",
     "examplePt": "Compro peixe na peixaria.",
     "source": "pdf"
   },
@@ -1519,6 +1855,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "o número de contribuinte",
     "english": "tax number",
+    "zhHans": "税号",
+    "zhHant": "稅號",
     "examplePt": "O meu número de contribuinte é 243 333 218.",
     "source": "pdf"
   },
@@ -1528,6 +1866,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "o prazo de validade",
     "english": "expiry date",
+    "zhHans": "到期日",
+    "zhHant": "到期日",
     "examplePt": "Qual é o prazo de validade?",
     "source": "pdf"
   },
@@ -1537,6 +1877,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "o restaurante",
     "english": "restaurant",
+    "zhHans": "餐厅",
+    "zhHant": "餐廳",
     "examplePt": "Vamos jantar num restaurante português.",
     "source": "pdf"
   },
@@ -1546,6 +1888,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "o talão",
     "english": "receipt",
+    "zhHans": "收据",
+    "zhHant": "收據",
     "examplePt": "Aqui tem o talão.",
     "source": "pdf"
   },
@@ -1555,6 +1899,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Textos",
     "portuguese": "o talho",
     "english": "butcher's",
+    "zhHans": "屠夫的",
+    "zhHant": "屠夫的",
     "examplePt": "Compro carne no talho.",
     "source": "pdf"
   },
@@ -1564,6 +1910,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Acontecimentos culturais",
     "portuguese": "o filme",
     "english": "film",
+    "zhHans": "电影",
+    "zhHant": "電影",
     "examplePt": "Qual é o filme?",
     "source": "pdf"
   },
@@ -1573,6 +1921,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cinema",
     "portuguese": "a bilheteira",
     "english": "ticket office",
+    "zhHans": "售票处",
+    "zhHant": "售票處",
     "examplePt": "Encontramo-nos na bilheteira.",
     "source": "pdf"
   },
@@ -1582,6 +1932,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Desportos",
     "portuguese": "o futebol",
     "english": "football",
+    "zhHans": "足球",
+    "zhHant": "足球",
     "examplePt": "Ele joga futebol ao domingo.",
     "source": "pdf"
   },
@@ -1591,6 +1943,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Divertimentos",
     "portuguese": "ir à praia",
     "english": "to go to the beach",
+    "zhHans": "去海滩",
+    "zhHant": "去海灘",
     "examplePt": "No verão gosto de ir à praia.",
     "source": "pdf"
   },
@@ -1600,6 +1954,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Divertimentos",
     "portuguese": "ir a um bar",
     "english": "to go to a bar",
+    "zhHans": "去酒吧",
+    "zhHant": "去酒吧",
     "examplePt": "Depois do cinema vamos a um bar.",
     "source": "pdf"
   },
@@ -1609,6 +1965,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Divertimentos",
     "portuguese": "ir ao cinema",
     "english": "to go to the cinema",
+    "zhHans": "去电影院",
+    "zhHant": "去電影院",
     "examplePt": "Queres ir ao cinema amanhã?",
     "source": "pdf"
   },
@@ -1618,6 +1976,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Divertimentos",
     "portuguese": "viajar",
     "english": "to travel",
+    "zhHans": "去旅行",
+    "zhHant": "去旅行",
     "examplePt": "Gosto de viajar nas férias.",
     "source": "pdf"
   },
@@ -1627,6 +1987,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Épocas festivas",
     "portuguese": "a Páscoa",
     "english": "Easter",
+    "zhHans": "复活节",
+    "zhHant": "復活節",
     "examplePt": "Na Páscoa comem-se folares.",
     "source": "pdf"
   },
@@ -1636,6 +1998,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Épocas festivas",
     "portuguese": "o Natal",
     "english": "Christmas",
+    "zhHans": "圣诞节",
+    "zhHant": "聖誕節",
     "examplePt": "No Natal as pessoas reúnem-se.",
     "source": "pdf"
   },
@@ -1645,6 +2009,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estações do ano",
     "portuguese": "a primavera",
     "english": "spring",
+    "zhHans": "春天",
+    "zhHant": "春天",
     "examplePt": "Na primavera há muitas flores.",
     "source": "pdf"
   },
@@ -1654,6 +2020,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estações do ano",
     "portuguese": "o inverno",
     "english": "winter",
+    "zhHans": "冬天",
+    "zhHant": "冬天",
     "examplePt": "No inverno faz frio.",
     "source": "pdf"
   },
@@ -1663,6 +2031,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estações do ano",
     "portuguese": "o outono",
     "english": "autumn",
+    "zhHans": "秋天",
+    "zhHant": "秋天",
     "examplePt": "No outono as folhas secam.",
     "source": "pdf"
   },
@@ -1672,6 +2042,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estações do ano",
     "portuguese": "o verão",
     "english": "summer",
+    "zhHans": "夏天",
+    "zhHant": "夏天",
     "examplePt": "No verão vou à praia.",
     "source": "pdf"
   },
@@ -1681,6 +2053,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado do tempo",
     "portuguese": "a chuva",
     "english": "rain",
+    "zhHans": "雨",
+    "zhHant": "雨",
     "examplePt": "Hoje há chuva.",
     "source": "pdf"
   },
@@ -1690,6 +2064,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado do tempo",
     "portuguese": "fresco(a)",
     "english": "cool; fresh",
+    "zhHans": "凉爽的;新鲜的",
+    "zhHant": "涼爽的;新鮮的",
     "examplePt": "O tempo está fresco. A noite está fresca.",
     "source": "pdf"
   },
@@ -1699,6 +2075,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado do tempo",
     "portuguese": "frio(a)",
     "english": "cold",
+    "zhHans": "寒冷的",
+    "zhHant": "寒冷的",
     "examplePt": "O dia está frio. A noite está fria.",
     "source": "pdf"
   },
@@ -1708,6 +2086,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado do tempo",
     "portuguese": "o sol",
     "english": "sun",
+    "zhHans": "太阳",
+    "zhHant": "太陽",
     "examplePt": "Gosto de apanhar sol.",
     "source": "pdf"
   },
@@ -1717,6 +2097,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado do tempo",
     "portuguese": "o vento",
     "english": "wind",
+    "zhHans": "风",
+    "zhHant": "風",
     "examplePt": "Está muito vento.",
     "source": "pdf"
   },
@@ -1726,6 +2108,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lugares",
     "portuguese": "a pastelaria",
     "english": "pastry shop",
+    "zhHans": "糕点店",
+    "zhHant": "糕點店",
     "examplePt": "Lanchamos na pastelaria.",
     "source": "pdf"
   },
@@ -1735,6 +2119,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lugares",
     "portuguese": "o centro comercial",
     "english": "shopping centre",
+    "zhHans": "购物中心",
+    "zhHant": "購物中心",
     "examplePt": "Vou ao centro comercial.",
     "source": "pdf"
   },
@@ -1744,6 +2130,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Pronomes",
     "portuguese": "comigo",
     "english": "with me",
+    "zhHans": "与我一起",
+    "zhHant": "與我一起",
     "examplePt": "Podes contar comigo.",
     "source": "pdf"
   },
@@ -1753,6 +2141,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Pronomes",
     "portuguese": "consigo",
     "english": "with you",
+    "zhHans": "与你",
+    "zhHant": "與你",
     "examplePt": "Posso ir consigo?",
     "source": "pdf"
   },
@@ -1762,6 +2152,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Pronomes",
     "portuguese": "contigo",
     "english": "with you",
+    "zhHans": "与你",
+    "zhHant": "與你",
     "examplePt": "Vou contigo ao cinema.",
     "source": "pdf"
   },
@@ -1771,6 +2163,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "amanhã",
     "english": "tomorrow",
+    "zhHans": "明天",
+    "zhHant": "明天",
     "examplePt": "Amanhã vou trabalhar.",
     "source": "pdf"
   },
@@ -1780,6 +2174,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "daqui a uma semana",
     "english": "in a week",
+    "zhHans": "一周内",
+    "zhHant": "一週內",
     "examplePt": "Daqui a uma semana vou viajar.",
     "source": "pdf"
   },
@@ -1789,6 +2185,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "depois de amanhã",
     "english": "the day after tomorrow",
+    "zhHans": "后天",
+    "zhHant": "後天",
     "examplePt": "Depois de amanhã é sábado.",
     "source": "pdf"
   },
@@ -1798,6 +2196,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "na próxima semana",
     "english": "next week",
+    "zhHans": "下周",
+    "zhHant": "下週",
     "examplePt": "Na próxima semana vou ao dentista.",
     "source": "pdf"
   },
@@ -1807,6 +2207,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "o fim de semana",
     "english": "weekend",
+    "zhHans": "周末",
+    "zhHant": "週末",
     "examplePt": "No fim de semana podemos ir a Sintra.",
     "source": "pdf"
   },
@@ -1816,6 +2218,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "andar de bicicleta",
     "english": "to ride a bicycle",
+    "zhHans": "骑自行车",
+    "zhHant": "騎自行車",
     "examplePt": "Eles costumam andar de bicicleta.",
     "source": "pdf"
   },
@@ -1825,6 +2229,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "conversar",
     "english": "to talk",
+    "zhHans": "说话",
+    "zhHant": "說話",
     "examplePt": "Gosto de conversar com amigos.",
     "source": "pdf"
   },
@@ -1834,6 +2240,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "ir ao ginásio",
     "english": "to go to the gym",
+    "zhHans": "去健身房",
+    "zhHant": "去健身房",
     "examplePt": "Vou ao ginásio depois do trabalho.",
     "source": "pdf"
   },
@@ -1843,6 +2251,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "ir às compras",
     "english": "to go shopping",
+    "zhHans": "去购物",
+    "zhHant": "去購物",
     "examplePt": "Vou às compras ao sábado.",
     "source": "pdf"
   },
@@ -1852,6 +2262,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "ir dar uma volta",
     "english": "to go for a stroll",
+    "zhHans": "去散步",
+    "zhHant": "去散步",
     "examplePt": "Vamos dar uma volta ao centro comercial.",
     "source": "pdf"
   },
@@ -1861,6 +2273,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "ler",
     "english": "to read",
+    "zhHans": "阅读",
+    "zhHant": "閱讀",
     "examplePt": "No fim de semana gosto de ler.",
     "source": "pdf"
   },
@@ -1870,6 +2284,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "ouvir música",
     "english": "to listen to music",
+    "zhHans": "听音乐",
+    "zhHant": "聽音樂",
     "examplePt": "Gosto de ouvir música em casa.",
     "source": "pdf"
   },
@@ -1879,6 +2295,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "passear",
     "english": "to go for a walk",
+    "zhHans": "去散步",
+    "zhHant": "去散步",
     "examplePt": "Costumo passear no parque.",
     "source": "pdf"
   },
@@ -1888,6 +2306,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "ver televisão",
     "english": "to watch television",
+    "zhHans": "看电视",
+    "zhHant": "看電視",
     "examplePt": "À noite vejo televisão.",
     "source": "pdf"
   },
@@ -1897,6 +2317,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Verbos",
     "portuguese": "costumar",
     "english": "to usually do",
+    "zhHans": "通常做",
+    "zhHant": "通常做",
     "examplePt": "Costumo passar o fim de semana fora.",
     "source": "pdf"
   },
@@ -1906,6 +2328,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Verbos",
     "portuguese": "divertir-se",
     "english": "to have fun",
+    "zhHans": "玩得开心",
+    "zhHant": "玩得開心",
     "examplePt": "Nós divertimo-nos muito.",
     "source": "pdf"
   },
@@ -1915,6 +2339,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Verbos",
     "portuguese": "dizer",
     "english": "to say",
+    "zhHans": "说",
+    "zhHant": "說",
     "examplePt": "Eles dizem que o desporto é saudável.",
     "source": "pdf"
   },
@@ -1924,6 +2350,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Avisos",
     "portuguese": "Fechado para férias",
     "english": "Closed for holidays",
+    "zhHans": "节假日休息",
+    "zhHant": "假日休息",
     "examplePt": "A loja está fechada para férias.",
     "source": "pdf"
   },
@@ -1933,6 +2361,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Avisos",
     "portuguese": "Proibido fumar",
     "english": "No smoking",
+    "zhHans": "禁止抽烟",
+    "zhHant": "禁止抽煙",
     "examplePt": "O aviso diz: Proibido fumar.",
     "source": "pdf"
   },
@@ -1942,6 +2372,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Banco",
     "portuguese": "abrir uma conta",
     "english": "to open an account",
+    "zhHans": "开立账户",
+    "zhHant": "開立帳戶",
     "examplePt": "Ela quer abrir uma conta no banco.",
     "source": "pdf"
   },
@@ -1951,6 +2383,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Carro",
     "portuguese": "a estação de serviço",
     "english": "service station",
+    "zhHans": "服务站",
+    "zhHant": "服務站",
     "examplePt": "Pare na estação de serviço.",
     "source": "pdf"
   },
@@ -1960,6 +2394,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Carro",
     "portuguese": "a estrada",
     "english": "road",
+    "zhHans": "路",
+    "zhHant": "路",
     "examplePt": "O triângulo está na estrada.",
     "source": "pdf"
   },
@@ -1969,6 +2405,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Carro",
     "portuguese": "guiar",
     "english": "to drive",
+    "zhHans": "开车",
+    "zhHant": "開車",
     "examplePt": "Não fale ao telemóvel quando está a guiar.",
     "source": "pdf"
   },
@@ -1978,6 +2416,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Carro",
     "portuguese": "o pneu furado",
     "english": "flat tyre",
+    "zhHans": "轮胎漏气",
+    "zhHant": "輪胎漏氣",
     "examplePt": "Tenho de trocar um pneu furado.",
     "source": "pdf"
   },
@@ -1987,6 +2427,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Carro",
     "portuguese": "o veículo",
     "english": "vehicle",
+    "zhHans": "车辆",
+    "zhHant": "車輛",
     "examplePt": "Leve luvas no seu veículo.",
     "source": "pdf"
   },
@@ -1996,6 +2438,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Compras",
     "portuguese": "o supermercado",
     "english": "supermarket",
+    "zhHans": "超级市场",
+    "zhHant": "超市場",
     "examplePt": "Vou ao supermercado.",
     "source": "pdf"
   },
@@ -2005,6 +2449,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Compras",
     "portuguese": "poupar",
     "english": "to save money",
+    "zhHans": "为了省钱",
+    "zhHant": "為了省錢",
     "examplePt": "Quero poupar no supermercado.",
     "source": "pdf"
   },
@@ -2014,6 +2460,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correios",
     "portuguese": "a carta registada",
     "english": "registered letter",
+    "zhHans": "挂号信",
+    "zhHant": "掛號信",
     "examplePt": "A carta é registada.",
     "source": "pdf"
   },
@@ -2023,6 +2471,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correios",
     "portuguese": "a encomenda",
     "english": "parcel",
+    "zhHans": "包裹",
+    "zhHant": "包裹",
     "examplePt": "Tenho uma encomenda nos Correios.",
     "source": "pdf"
   },
@@ -2032,6 +2482,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correios",
     "portuguese": "enviar uma carta",
     "english": "to send a letter",
+    "zhHans": "寄信",
+    "zhHant": "寄信",
     "examplePt": "Queria enviar esta carta.",
     "source": "pdf"
   },
@@ -2041,6 +2493,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "a avenida",
     "english": "avenue",
+    "zhHans": "大街",
+    "zhHant": "大街",
     "examplePt": "Siga em frente por esta avenida.",
     "source": "pdf"
   },
@@ -2050,6 +2504,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "à direita",
     "english": "to the right",
+    "zhHans": "向右",
+    "zhHant": "向右",
     "examplePt": "Vire à direita.",
     "source": "pdf"
   },
@@ -2059,6 +2515,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "à esquerda",
     "english": "to the left",
+    "zhHans": "向左转",
+    "zhHant": "向左轉",
     "examplePt": "Vire à esquerda.",
     "source": "pdf"
   },
@@ -2068,6 +2526,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "a rotunda",
     "english": "roundabout",
+    "zhHans": "迂回",
+    "zhHant": "迂迴",
     "examplePt": "Contorne a rotunda.",
     "source": "pdf"
   },
@@ -2077,6 +2537,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "atravessar",
     "english": "to cross",
+    "zhHans": "穿越",
+    "zhHant": "穿越",
     "examplePt": "Atravesse o cruzamento com cuidado.",
     "source": "pdf"
   },
@@ -2086,6 +2548,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "daqui",
     "english": "from here",
+    "zhHans": "从这里",
+    "zhHant": "從這裡",
     "examplePt": "Como vou daqui para o ACM?",
     "source": "pdf"
   },
@@ -2095,6 +2559,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "demorar",
     "english": "to take time",
+    "zhHans": "需要时间",
+    "zhHant": "需要時間",
     "examplePt": "Demora cerca de dez minutos.",
     "source": "pdf"
   },
@@ -2104,6 +2570,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "descer",
     "english": "to go down",
+    "zhHans": "下去",
+    "zhHant": "下去",
     "examplePt": "Desça a rua.",
     "source": "pdf"
   },
@@ -2113,6 +2581,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "ir a pé",
     "english": "to go on foot",
+    "zhHans": "步行",
+    "zhHant": "行人徒步區",
     "examplePt": "Vá a pé até ao ACM.",
     "source": "pdf"
   },
@@ -2122,6 +2592,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "o cruzamento",
     "english": "crossroads",
+    "zhHans": "十字路口",
+    "zhHant": "十字路口",
     "examplePt": "Atravesse o cruzamento com cuidado.",
     "source": "pdf"
   },
@@ -2131,6 +2603,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "o semáforo",
     "english": "traffic light",
+    "zhHans": "红绿灯",
+    "zhHant": "紅綠燈",
     "examplePt": "O semáforo está avariado.",
     "source": "pdf"
   },
@@ -2140,6 +2614,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "passar",
     "english": "to pass",
+    "zhHans": "通过",
+    "zhHant": "透過",
     "examplePt": "O autocarro passa pelo Areeiro.",
     "source": "pdf"
   },
@@ -2149,6 +2625,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "por",
     "english": "through / by / along",
+    "zhHans": "通过/通过/沿着",
+    "zhHant": "通過/通過/沿著",
     "examplePt": "Siga em frente por esta rua.",
     "source": "pdf"
   },
@@ -2158,6 +2636,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "por + artigo",
     "english": "by; through; along",
+    "zhHans": "经过;通过;沿着",
+    "zhHant": "經過;通過;沿著",
     "examplePt": "Passe pelo banco. Passe pela farmácia.",
     "source": "pdf"
   },
@@ -2167,6 +2647,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "seguir em frente",
     "english": "to go straight ahead",
+    "zhHans": "直走",
+    "zhHant": "直走",
     "examplePt": "Siga em frente até ao banco.",
     "source": "pdf"
   },
@@ -2176,6 +2658,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "subir",
     "english": "to go up",
+    "zhHans": "上去",
+    "zhHant": "上去",
     "examplePt": "Suba a Rua do Sol.",
     "source": "pdf"
   },
@@ -2185,6 +2669,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direções",
     "portuguese": "virar à direita",
     "english": "to turn right",
+    "zhHans": "右转",
+    "zhHant": "右轉",
     "examplePt": "Vire à direita na igreja.",
     "source": "pdf"
   },
@@ -2194,6 +2680,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "a autorização de residência",
     "english": "residence permit",
+    "zhHans": "居留证",
+    "zhHant": "居留證",
     "examplePt": "Tenho autorização de residência permanente.",
     "source": "pdf"
   },
@@ -2203,6 +2691,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "a fotografia tipo passe",
     "english": "passport photo",
+    "zhHans": "护照照片",
+    "zhHant": "護照照片",
     "examplePt": "Preciso de duas fotografias tipo passe.",
     "source": "pdf"
   },
@@ -2212,6 +2702,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o cartão de residência",
     "english": "residence card",
+    "zhHans": "居留卡",
+    "zhHant": "居留卡",
     "examplePt": "Preciso do cartão de residência.",
     "source": "pdf"
   },
@@ -2221,6 +2713,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o impresso",
     "english": "form",
+    "zhHans": "形式",
+    "zhHant": "形式",
     "examplePt": "Preencha este impresso.",
     "source": "pdf"
   },
@@ -2230,6 +2724,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o passaporte",
     "english": "passport",
+    "zhHans": "护照",
+    "zhHant": "護照",
     "examplePt": "Deve levar o passaporte.",
     "source": "pdf"
   },
@@ -2239,6 +2735,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o registo criminal",
     "english": "criminal record",
+    "zhHans": "犯罪记录",
+    "zhHant": "犯罪記錄",
     "examplePt": "Preciso de autorização para consulta do registo criminal.",
     "source": "pdf"
   },
@@ -2248,6 +2746,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o requerente",
     "english": "applicant",
+    "zhHans": "申请人",
+    "zhHant": "申請人",
     "examplePt": "O requerente assina o pedido.",
     "source": "pdf"
   },
@@ -2257,6 +2757,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "os documentos necessários",
     "english": "required documents",
+    "zhHans": "所需文件",
+    "zhHant": "所需文件",
     "examplePt": "Que documentos necessários devo trazer?",
     "source": "pdf"
   },
@@ -2266,6 +2768,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "renovar",
     "english": "to renew",
+    "zhHans": "更新",
+    "zhHant": "更新",
     "examplePt": "Queria renovar a autorização de residência.",
     "source": "pdf"
   },
@@ -2275,6 +2779,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Habitação",
     "portuguese": "a imobiliária",
     "english": "estate agency",
+    "zhHans": "地产代理",
+    "zhHant": "地產代理",
     "examplePt": "A imobiliária mostra casas.",
     "source": "pdf"
   },
@@ -2284,6 +2790,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Habitação",
     "portuguese": "o apartamento",
     "english": "flat",
+    "zhHans": "平坦的",
+    "zhHant": "平坦的",
     "examplePt": "Vou mostrar-vos o novo apartamento.",
     "source": "pdf"
   },
@@ -2293,6 +2801,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lojas",
     "portuguese": "a lavandaria",
     "english": "launderette",
+    "zhHans": "自助洗衣店",
+    "zhHant": "自助洗衣店",
     "examplePt": "Levo a roupa à lavandaria.",
     "source": "pdf"
   },
@@ -2302,6 +2812,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lojas",
     "portuguese": "a loja de roupa",
     "english": "clothes shop",
+    "zhHans": "服装店",
+    "zhHant": "服飾店",
     "examplePt": "A loja de roupa está aberta.",
     "source": "pdf"
   },
@@ -2311,6 +2823,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lojas",
     "portuguese": "o oculista",
     "english": "optician",
+    "zhHans": "配镜师",
+    "zhHant": "配鏡師",
     "examplePt": "Vou ao oculista.",
     "source": "pdf"
   },
@@ -2320,6 +2834,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Obrigação",
     "portuguese": "dever",
     "english": "should",
+    "zhHans": "应该",
+    "zhHant": "應該",
     "examplePt": "Deve fazer exercício físico.",
     "source": "pdf"
   },
@@ -2329,6 +2845,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Obrigação",
     "portuguese": "precisar de",
     "english": "to need to",
+    "zhHans": "需要",
+    "zhHant": "需要",
     "examplePt": "Preciso de trazer documentos.",
     "source": "pdf"
   },
@@ -2338,6 +2856,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Obrigação",
     "portuguese": "ter de",
     "english": "to have to",
+    "zhHans": "必须",
+    "zhHant": "必須",
     "examplePt": "Tenho de levar o passaporte.",
     "source": "pdf"
   },
@@ -2347,6 +2867,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Pagamentos",
     "portuguese": "a fatura",
     "english": "invoice",
+    "zhHans": "发票",
+    "zhHant": "發票",
     "examplePt": "Aqui está a fatura.",
     "source": "pdf"
   },
@@ -2356,6 +2878,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Pagamentos",
     "portuguese": "o troco",
     "english": "change",
+    "zhHans": "改变",
+    "zhHant": "改變",
     "examplePt": "Ele dá-me o troco.",
     "source": "pdf"
   },
@@ -2365,6 +2889,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "o exercício físico",
     "english": "physical exercise",
+    "zhHans": "体育锻炼",
+    "zhHant": "體育鍛鍊",
     "examplePt": "Deve fazer exercício físico.",
     "source": "pdf"
   },
@@ -2374,6 +2900,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "a senha",
     "english": "ticket number",
+    "zhHans": "票号",
+    "zhHant": "票號",
     "examplePt": "Pode dar-me a sua senha?",
     "source": "pdf"
   },
@@ -2383,6 +2911,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "pagar a conta",
     "english": "to pay the bill",
+    "zhHans": "支付账单",
+    "zhHant": "支付帳單",
     "examplePt": "Queria pagar a conta da água.",
     "source": "pdf"
   },
@@ -2392,6 +2922,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "pessoalmente",
     "english": "in person",
+    "zhHans": "亲自",
+    "zhHant": "親自",
     "examplePt": "Tem de vir cá pessoalmente.",
     "source": "pdf"
   },
@@ -2401,6 +2933,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços e comércio",
     "portuguese": "a bomba de gasolina",
     "english": "petrol station",
+    "zhHans": "加油站",
+    "zhHant": "加油站",
     "examplePt": "A bomba de gasolina fica perto.",
     "source": "pdf"
   },
@@ -2410,6 +2944,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços e comércio",
     "portuguese": "a oficina",
     "english": "repair shop",
+    "zhHans": "修理店",
+    "zhHant": "修理店",
     "examplePt": "O carro está na oficina.",
     "source": "pdf"
   },
@@ -2419,6 +2955,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços e comércio",
     "portuguese": "o banco",
     "english": "bank",
+    "zhHans": "银行",
+    "zhHant": "銀行",
     "examplePt": "O banco fica atrás dos Correios.",
     "source": "pdf"
   },
@@ -2428,6 +2966,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços e comércio",
     "portuguese": "o serviço",
     "english": "service",
+    "zhHans": "服务",
+    "zhHant": "服務",
     "examplePt": "Este serviço ajuda os utentes.",
     "source": "pdf"
   },
@@ -2437,6 +2977,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços e comércio",
     "portuguese": "o Serviço de Estrangeiros e Fronteiras",
     "english": "foreigners and borders service",
+    "zhHans": "外国人和边境服务局",
+    "zhHant": "外國人和邊境服務局",
     "examplePt": "Tenho marcação no Serviço de Estrangeiros e Fronteiras.",
     "source": "pdf"
   },
@@ -2446,6 +2988,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços e comércio",
     "portuguese": "os Correios",
     "english": "post office",
+    "zhHans": "邮局",
+    "zhHant": "郵局",
     "examplePt": "Vou aos Correios enviar uma carta.",
     "source": "pdf"
   },
@@ -2455,6 +2999,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Telefone",
     "portuguese": "atender",
     "english": "to answer",
+    "zhHans": "回答",
+    "zhHant": "回答",
     "examplePt": "Não atenda o telemóvel.",
     "source": "pdf"
   },
@@ -2464,6 +3010,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Telefone",
     "portuguese": "desligar",
     "english": "to turn off",
+    "zhHans": "关闭",
+    "zhHant": "關閉",
     "examplePt": "Desligue o telemóvel.",
     "source": "pdf"
   },
@@ -2473,6 +3021,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Trabalho",
     "portuguese": "o motorista",
     "english": "driver",
+    "zhHans": "司机",
+    "zhHant": "司機",
     "examplePt": "O Sami é motorista.",
     "source": "pdf"
   },
@@ -2482,6 +3032,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Verbos",
     "portuguese": "esquecer-se",
     "english": "to forget",
+    "zhHans": "忘记",
+    "zhHant": "忘記",
     "examplePt": "Não se esqueça dos documentos.",
     "source": "pdf"
   },
@@ -2491,6 +3043,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Verbos",
     "portuguese": "saber",
     "english": "to know",
+    "zhHans": "知道",
+    "zhHant": "知道",
     "examplePt": "Sabe onde ficam os Correios?",
     "source": "pdf"
   },
@@ -2500,6 +3054,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "os direitos e deveres",
     "english": "rights and duties",
+    "zhHans": "权利和义务",
+    "zhHant": "權利和義務",
     "examplePt": "Têm os mesmos direitos e deveres.",
     "source": "pdf"
   },
@@ -2509,6 +3065,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Conselhos de saúde",
     "portuguese": "consultar o médico",
     "english": "to consult the doctor",
+    "zhHans": "咨询医生",
+    "zhHant": "諮詢醫生",
     "examplePt": "Não dê medicamentos sem consultar o médico.",
     "source": "pdf"
   },
@@ -2518,6 +3076,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Conselhos de saúde",
     "portuguese": "ter cuidado",
     "english": "to be careful",
+    "zhHans": "要小心",
+    "zhHant": "要小心",
     "examplePt": "Tenha cuidado com a sua saúde.",
     "source": "pdf"
   },
@@ -2527,6 +3087,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Consulta médica",
     "portuguese": "há quanto tempo?",
     "english": "for how long?",
+    "zhHans": "多长时间？",
+    "zhHant": "多長時間？",
     "examplePt": "Há quanto tempo está assim?",
     "source": "pdf"
   },
@@ -2536,6 +3098,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Consulta médica",
     "portuguese": "marcar uma consulta",
     "english": "to book an appointment",
+    "zhHans": "预约",
+    "zhHant": "預約",
     "examplePt": "Vou marcar uma consulta.",
     "source": "pdf"
   },
@@ -2545,6 +3109,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Consulta médica",
     "portuguese": "o consultório médico",
     "english": "doctor's office",
+    "zhHans": "医生办公室",
+    "zhHant": "醫生辦公室",
     "examplePt": "Estou no consultório médico.",
     "source": "pdf"
   },
@@ -2554,6 +3120,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Consulta médica",
     "portuguese": "sentar-se",
     "english": "to sit down",
+    "zhHans": "坐下来",
+    "zhHant": "坐下來",
     "examplePt": "Faça o favor de se sentar.",
     "source": "pdf"
   },
@@ -2563,6 +3131,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "a barriga",
     "english": "belly",
+    "zhHans": "腹部",
+    "zhHant": "腹部",
     "examplePt": "Dói-me a barriga.",
     "source": "pdf"
   },
@@ -2572,6 +3142,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "a boca",
     "english": "mouth",
+    "zhHans": "嘴",
+    "zhHant": "嘴",
     "examplePt": "Abra a boca, por favor.",
     "source": "pdf"
   },
@@ -2581,6 +3153,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "a cabeça",
     "english": "head",
+    "zhHans": "头",
+    "zhHant": "頭",
     "examplePt": "Dói-me a cabeça.",
     "source": "pdf"
   },
@@ -2590,6 +3164,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "a mão",
     "english": "hand",
+    "zhHans": "手",
+    "zhHant": "手",
     "examplePt": "Lave as mãos.",
     "source": "pdf"
   },
@@ -2599,6 +3175,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "a perna",
     "english": "leg",
+    "zhHans": "腿",
+    "zhHant": "腿",
     "examplePt": "Doem-me as pernas.",
     "source": "pdf"
   },
@@ -2608,6 +3186,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o braço",
     "english": "arm",
+    "zhHans": "手臂",
+    "zhHant": "手臂",
     "examplePt": "Dói-me o braço.",
     "source": "pdf"
   },
@@ -2617,6 +3197,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o estômago",
     "english": "stomach",
+    "zhHans": "胃",
+    "zhHant": "胃",
     "examplePt": "Dói-me o estômago.",
     "source": "pdf"
   },
@@ -2626,6 +3208,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o joelho",
     "english": "knee",
+    "zhHans": "膝盖",
+    "zhHant": "膝蓋",
     "examplePt": "Doem-me os joelhos.",
     "source": "pdf"
   },
@@ -2635,6 +3219,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o nariz",
     "english": "nose",
+    "zhHans": "鼻子",
+    "zhHant": "鼻子",
     "examplePt": "Dói-me o nariz.",
     "source": "pdf"
   },
@@ -2644,6 +3230,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o pé",
     "english": "foot",
+    "zhHans": "脚",
+    "zhHant": "腳",
     "examplePt": "Doem-me os pés.",
     "source": "pdf"
   },
@@ -2653,6 +3241,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o peito",
     "english": "chest",
+    "zhHans": "胸部",
+    "zhHant": "胸部",
     "examplePt": "Dói-te o peito?",
     "source": "pdf"
   },
@@ -2662,6 +3252,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o pescoço",
     "english": "neck",
+    "zhHans": "脖子",
+    "zhHant": "脖子",
     "examplePt": "Não me dói o pescoço.",
     "source": "pdf"
   },
@@ -2671,6 +3263,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "os olhos",
     "english": "eyes",
+    "zhHans": "眼睛",
+    "zhHant": "眼睛",
     "examplePt": "Tenho os olhos vermelhos.",
     "source": "pdf"
   },
@@ -2680,6 +3274,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "os ouvidos",
     "english": "ears",
+    "zhHans": "耳朵",
+    "zhHant": "耳朵",
     "examplePt": "Doem-me os ouvidos.",
     "source": "pdf"
   },
@@ -2689,6 +3285,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cuidados de saúde",
     "portuguese": "fazer exercício",
     "english": "to exercise",
+    "zhHans": "锻炼身体",
+    "zhHant": "鍛鍊身體",
     "examplePt": "Deve fazer exercício.",
     "source": "pdf"
   },
@@ -2698,6 +3296,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cuidados de saúde",
     "portuguese": "ter uma alimentação saudável",
     "english": "to have a healthy diet",
+    "zhHans": "健康饮食",
+    "zhHant": "健康飲食",
     "examplePt": "É importante ter uma alimentação saudável.",
     "source": "pdf"
   },
@@ -2707,6 +3307,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "a situação legalizada",
     "english": "legalized status",
+    "zhHans": "合法化地位",
+    "zhHant": "合法化地位",
     "examplePt": "Ainda não têm a situação legalizada.",
     "source": "pdf"
   },
@@ -2716,6 +3318,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "legalmente",
     "english": "legally",
+    "zhHans": "合法地",
+    "zhHant": "合法地",
     "examplePt": "Residimos legalmente em Portugal.",
     "source": "pdf"
   },
@@ -2725,6 +3329,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "o assalto",
     "english": "robbery",
+    "zhHans": "抢劫",
+    "zhHant": "搶劫",
     "examplePt": "O 112 atende situações de assalto.",
     "source": "pdf"
   },
@@ -2734,6 +3340,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "o incêndio",
     "english": "fire",
+    "zhHans": "火",
+    "zhHant": "火",
     "examplePt": "O 112 atende situações de incêndio.",
     "source": "pdf"
   },
@@ -2743,6 +3351,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "o INEM",
     "english": "emergency medical service",
+    "zhHans": "紧急医疗服务",
+    "zhHant": "緊急醫療服務",
     "examplePt": "O INEM presta socorro médico.",
     "source": "pdf"
   },
@@ -2752,6 +3362,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "o Número Europeu de Emergência",
     "english": "European emergency number",
+    "zhHans": "欧洲紧急电话号码",
+    "zhHant": "歐洲緊急電話號碼",
     "examplePt": "O 112 é o Número Europeu de Emergência.",
     "source": "pdf"
   },
@@ -2761,6 +3373,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "os bombeiros",
     "english": "firefighters",
+    "zhHans": "消防员",
+    "zhHant": "消防員",
     "examplePt": "Os bombeiros ajudam nas emergências.",
     "source": "pdf"
   },
@@ -2770,6 +3384,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "Saúde 24",
     "english": "health helpline",
+    "zhHans": "健康求助热线",
+    "zhHant": "健康求助專線",
     "examplePt": "Pode ligar para a Saúde 24.",
     "source": "pdf"
   },
@@ -2779,6 +3395,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Especialidades médicas",
     "portuguese": "o dentista",
     "english": "dentist",
+    "zhHans": "牙医",
+    "zhHant": "牙醫",
     "examplePt": "Tenho consulta no dentista.",
     "source": "pdf"
   },
@@ -2788,6 +3406,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Especialidades médicas",
     "portuguese": "o médico de família",
     "english": "family doctor",
+    "zhHans": "家庭医生",
+    "zhHant": "家庭醫生",
     "examplePt": "Marco consulta com o médico de família.",
     "source": "pdf"
   },
@@ -2797,6 +3417,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Especialidades médicas",
     "portuguese": "o oftalmologista",
     "english": "ophthalmologist",
+    "zhHans": "眼科医生",
+    "zhHant": "眼科醫生",
     "examplePt": "Vou ao oftalmologista por causa dos olhos.",
     "source": "pdf"
   },
@@ -2806,6 +3428,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Especialidades médicas",
     "portuguese": "o pediatra",
     "english": "paediatrician",
+    "zhHans": "儿科医生",
+    "zhHant": "兒科醫生",
     "examplePt": "A criança vai ao pediatra.",
     "source": "pdf"
   },
@@ -2815,6 +3439,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Exames médicos",
     "portuguese": "fazer análises",
     "english": "to have tests",
+    "zhHans": "进行测试",
+    "zhHant": "進行測試",
     "examplePt": "Deve fazer análises.",
     "source": "pdf"
   },
@@ -2824,6 +3450,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Exames médicos",
     "portuguese": "fazer uma radiografia",
     "english": "to have an X-ray",
+    "zhHans": "进行 X 光检查",
+    "zhHant": "進行 X 光檢查",
     "examplePt": "Tenho de fazer uma radiografia.",
     "source": "pdf"
   },
@@ -2833,6 +3461,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Exames médicos",
     "portuguese": "medir a tensão",
     "english": "to measure blood pressure",
+    "zhHans": "测量血压",
+    "zhHant": "測量血壓",
     "examplePt": "A enfermeira vai medir a tensão.",
     "source": "pdf"
   },
@@ -2842,6 +3472,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Farmácia",
     "portuguese": "a farmacêutica",
     "english": "pharmacist",
+    "zhHans": "药剂师",
+    "zhHant": "藥師",
     "examplePt": "A farmacêutica pede o cartão de utente.",
     "source": "pdf"
   },
@@ -2851,6 +3483,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Farmácia",
     "portuguese": "a farmácia",
     "english": "pharmacy",
+    "zhHans": "药店",
+    "zhHant": "藥局",
     "examplePt": "Vou à farmácia comprar medicamentos.",
     "source": "pdf"
   },
@@ -2860,6 +3494,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Farmácia",
     "portuguese": "a receita",
     "english": "prescription",
+    "zhHans": "处方",
+    "zhHant": "處方",
     "examplePt": "Aqui está a receita.",
     "source": "pdf"
   },
@@ -2869,6 +3505,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Farmácia",
     "portuguese": "aviar uma receita",
     "english": "to fill a prescription",
+    "zhHans": "配药",
+    "zhHant": "配藥",
     "examplePt": "O senhor aviou esta receita na farmácia.",
     "source": "pdf"
   },
@@ -2878,6 +3516,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "a dose recomendada",
     "english": "recommended dose",
+    "zhHans": "推荐剂量",
+    "zhHant": "建議劑量",
     "examplePt": "A dose recomendada é um comprimido por dia.",
     "source": "pdf"
   },
@@ -2887,6 +3527,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "aliviar a dor",
     "english": "to relieve pain",
+    "zhHans": "缓解疼痛",
+    "zhHant": "緩解疼痛",
     "examplePt": "O medicamento alivia a dor.",
     "source": "pdf"
   },
@@ -2896,6 +3538,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "após as refeições",
     "english": "after meals",
+    "zhHans": "饭后",
+    "zhHant": "飯後",
     "examplePt": "Tome o comprimido após as refeições.",
     "source": "pdf"
   },
@@ -2905,6 +3549,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "de 12 em 12 horas",
     "english": "every 12 hours",
+    "zhHans": "每12小时一次",
+    "zhHant": "每12小時一次",
     "examplePt": "Tome o antibiótico de 12 em 12 horas.",
     "source": "pdf"
   },
@@ -2914,6 +3560,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "de oito em oito horas",
     "english": "every eight hours",
+    "zhHans": "每八小时一次",
+    "zhHant": "每八小時一次",
     "examplePt": "Tome um comprimido de oito em oito horas.",
     "source": "pdf"
   },
@@ -2923,6 +3571,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "diminuir a febre",
     "english": "to reduce fever",
+    "zhHans": "减少发烧",
+    "zhHant": "減少發燒",
     "examplePt": "O medicamento diminui a febre.",
     "source": "pdf"
   },
@@ -2932,6 +3582,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "o antibiótico",
     "english": "antibiotic",
+    "zhHans": "抗生素",
+    "zhHant": "抗生素",
     "examplePt": "Deve tomar o antibiótico de 12 em 12 horas.",
     "source": "pdf"
   },
@@ -2941,6 +3593,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "o comprimido",
     "english": "tablet",
+    "zhHans": "药片",
+    "zhHant": "藥片",
     "examplePt": "Tome estes comprimidos.",
     "source": "pdf"
   },
@@ -2950,6 +3604,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Medicamentos",
     "portuguese": "o medicamento",
     "english": "medicine",
+    "zhHans": "药品",
+    "zhHant": "藥物",
     "examplePt": "Não tome este medicamento.",
     "source": "pdf"
   },
@@ -2959,6 +3615,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "a consulta de urgência",
     "english": "emergency consultation",
+    "zhHans": "紧急咨询",
+    "zhHant": "緊急諮詢",
     "examplePt": "A consulta de urgência é no hospital.",
     "source": "pdf"
   },
@@ -2968,6 +3626,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "a inscrição",
     "english": "registration",
+    "zhHans": "登记",
+    "zhHant": "登記",
     "examplePt": "Fazem a inscrição na consulta.",
     "source": "pdf"
   },
@@ -2977,6 +3637,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "aceder",
     "english": "to access",
+    "zhHans": "访问",
+    "zhHant": "訪問",
     "examplePt": "Podem aceder a cuidados de saúde.",
     "source": "pdf"
   },
@@ -2986,6 +3648,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "o cartão de utente",
     "english": "health user card",
+    "zhHans": "健康用户卡",
+    "zhHant": "健康用戶卡",
     "examplePt": "Dê-me o seu cartão de utente.",
     "source": "pdf"
   },
@@ -2995,6 +3659,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "o SNS",
     "english": "National Health Service",
+    "zhHans": "国民医疗服务",
+    "zhHant": "國民醫療服務",
     "examplePt": "SNS significa Serviço Nacional de Saúde.",
     "source": "pdf"
   },
@@ -3004,6 +3670,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "o utente",
     "english": "health service user",
+    "zhHans": "健康服务使用者",
+    "zhHant": "健康服務使用者",
     "examplePt": "O serviço é para todos os utentes.",
     "source": "pdf"
   },
@@ -3013,6 +3681,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "os cuidados de saúde",
     "english": "health care",
+    "zhHans": "卫生保健",
+    "zhHant": "衛生保健",
     "examplePt": "Os estrangeiros podem aceder a cuidados de saúde.",
     "source": "pdf"
   },
@@ -3022,6 +3692,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "os óculos",
     "english": "glasses",
+    "zhHans": "眼镜",
+    "zhHant": "眼鏡",
     "examplePt": "Preciso de óculos para ler.",
     "source": "pdf"
   },
@@ -3031,6 +3703,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde no trabalho",
     "portuguese": "a máscara",
     "english": "mask",
+    "zhHans": "面具",
+    "zhHant": "面具",
     "examplePt": "Use máscara durante o trabalho.",
     "source": "pdf"
   },
@@ -3040,6 +3714,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços de saúde",
     "portuguese": "a linha de emergência",
     "english": "emergency line",
+    "zhHans": "紧急热线",
+    "zhHant": "緊急熱線",
     "examplePt": "Ligue para a linha de emergência.",
     "source": "pdf"
   },
@@ -3049,6 +3725,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços de saúde",
     "portuguese": "a USF",
     "english": "family health unit",
+    "zhHans": "家庭保健单位",
+    "zhHant": "家庭健康單位",
     "examplePt": "A USF é uma Unidade de Saúde Familiar.",
     "source": "pdf"
   },
@@ -3058,6 +3736,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços de saúde",
     "portuguese": "o Centro de Saúde",
     "english": "health centre",
+    "zhHans": "健康中心/社区诊所",
+    "zhHant": "健康中心/社區診所",
     "examplePt": "Vou ao Centro de Saúde da minha área.",
     "source": "pdf"
   },
@@ -3067,6 +3747,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços de saúde",
     "portuguese": "o hospital",
     "english": "hospital",
+    "zhHans": "医院",
+    "zhHant": "醫院",
     "examplePt": "Vou ao hospital.",
     "source": "pdf"
   },
@@ -3076,6 +3758,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "a alergia",
     "english": "allergy",
+    "zhHans": "过敏",
+    "zhHant": "過敏",
     "examplePt": "O senhor está com uma alergia.",
     "source": "pdf"
   },
@@ -3085,6 +3769,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "a comichão",
     "english": "itching",
+    "zhHans": "瘙痒",
+    "zhHant": "癢感",
     "examplePt": "Tenho muita comichão.",
     "source": "pdf"
   },
@@ -3094,6 +3780,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "as dores de dentes",
     "english": "toothache",
+    "zhHans": "牙疼",
+    "zhHant": "牙痛",
     "examplePt": "Estou com dores de dentes.",
     "source": "pdf"
   },
@@ -3103,6 +3791,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "doer a barriga",
     "english": "to have a stomach ache",
+    "zhHans": "胃痛",
+    "zhHant": "胃痛",
     "examplePt": "Dói-me a barriga.",
     "source": "pdf"
   },
@@ -3112,6 +3802,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "doer a cabeça",
     "english": "to have a headache",
+    "zhHans": "头痛",
+    "zhHant": "頭痛",
     "examplePt": "Dói-me a cabeça.",
     "source": "pdf"
   },
@@ -3121,6 +3813,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "doer a garganta",
     "english": "to have a sore throat",
+    "zhHans": "喉咙痛",
+    "zhHant": "喉嚨痛",
     "examplePt": "Dói-me a garganta.",
     "source": "pdf"
   },
@@ -3130,6 +3824,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "dói-me",
     "english": "it hurts me",
+    "zhHans": "这让我很受伤",
+    "zhHant": "這讓我很受傷",
     "examplePt": "Dói-me o peito.",
     "source": "pdf"
   },
@@ -3139,6 +3835,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "espirrar",
     "english": "to sneeze",
+    "zhHans": "打喷嚏",
+    "zhHant": "打噴嚏",
     "examplePt": "Espirro muitas vezes.",
     "source": "pdf"
   },
@@ -3148,6 +3846,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "estar constipado(a)",
     "english": "to have a cold",
+    "zhHans": "感冒了",
+    "zhHant": "感冒了",
     "examplePt": "Ele está constipado. Ela está constipada.",
     "source": "pdf"
   },
@@ -3157,6 +3857,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "estar enjoado(a)",
     "english": "to feel nauseous",
+    "zhHans": "感到恶心",
+    "zhHant": "感到噁心",
     "examplePt": "Ele está enjoado. Ela está enjoada.",
     "source": "pdf"
   },
@@ -3166,6 +3868,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "sem forças",
     "english": "weak",
+    "zhHans": "虚弱的",
+    "zhHant": "虛弱的",
     "examplePt": "Estou sem forças.",
     "source": "pdf"
   },
@@ -3175,6 +3879,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "sentir-se cansado(a)",
     "english": "to feel tired",
+    "zhHans": "感到疲倦",
+    "zhHant": "感到疲倦",
     "examplePt": "Ele sente-se cansado. Ela sente-se cansada.",
     "source": "pdf"
   },
@@ -3184,6 +3890,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "ser alérgica a",
     "english": "to be allergic to",
+    "zhHans": "过敏",
+    "zhHant": "過敏",
     "examplePt": "Sou alérgica a este medicamento.",
     "source": "pdf"
   },
@@ -3193,6 +3901,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "ser alérgico a",
     "english": "to be allergic to",
+    "zhHans": "过敏",
+    "zhHant": "過敏",
     "examplePt": "Sou alérgico a este medicamento.",
     "source": "pdf"
   },
@@ -3202,6 +3912,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "ter febre",
     "english": "to have a fever",
+    "zhHans": "发烧",
+    "zhHant": "發燒",
     "examplePt": "O menino tem febre.",
     "source": "pdf"
   },
@@ -3211,6 +3923,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "ter tosse",
     "english": "to have a cough",
+    "zhHans": "咳嗽",
+    "zhHant": "咳嗽",
     "examplePt": "Está com tosse?",
     "source": "pdf"
   },
@@ -3220,6 +3934,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "ter uma intoxicação",
     "english": "to have poisoning",
+    "zhHans": "中毒",
+    "zhHant": "中毒",
     "examplePt": "Ele tem uma intoxicação.",
     "source": "pdf"
   },
@@ -3229,6 +3945,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sintomas",
     "portuguese": "tonto(a)",
     "english": "dizzy",
+    "zhHans": "晕眩的",
+    "zhHant": "暈眩的",
     "examplePt": "Sinto-me tonto. Sinto-me tonta.",
     "source": "pdf"
   },
@@ -3238,6 +3956,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tratamentos",
     "portuguese": "a injeção",
     "english": "injection",
+    "zhHans": "注射",
+    "zhHant": "注射",
     "examplePt": "Tenho de levar uma injeção.",
     "source": "pdf"
   },
@@ -3247,6 +3967,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Verbos",
     "portuguese": "doer",
     "english": "to hurt",
+    "zhHans": "伤害",
+    "zhHant": "傷害",
     "examplePt": "Dói-me a barriga.",
     "source": "pdf"
   },
@@ -3256,6 +3978,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "a entidade patronal",
     "english": "employer",
+    "zhHans": "雇主",
+    "zhHant": "雇主",
     "examplePt": "A entidade patronal assinou o contrato.",
     "source": "pdf"
   },
@@ -3265,6 +3989,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "a rescisão de contrato",
     "english": "contract termination",
+    "zhHans": "合同终止",
+    "zhHant": "合約終止",
     "examplePt": "A rescisão de contrato foi ontem.",
     "source": "pdf"
   },
@@ -3274,6 +4000,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "as horas extraordinárias",
     "english": "overtime",
+    "zhHans": "随着时间的推移",
+    "zhHant": "隨著時間的推移",
     "examplePt": "Recebi as horas extraordinárias.",
     "source": "pdf"
   },
@@ -3283,6 +4011,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "o contrato de trabalho",
     "english": "employment contract",
+    "zhHans": "雇佣合同",
+    "zhHant": "僱傭合約",
     "examplePt": "É importante ler o contrato de trabalho.",
     "source": "pdf"
   },
@@ -3292,6 +4022,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "o salário bruto",
     "english": "gross salary",
+    "zhHans": "工资总额",
+    "zhHant": "薪資總額",
     "examplePt": "O salário bruto não tem descontos.",
     "source": "pdf"
   },
@@ -3301,6 +4033,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "o salário líquido",
     "english": "net salary",
+    "zhHans": "净工资",
+    "zhHant": "淨工資",
     "examplePt": "O salário líquido já tem descontos.",
     "source": "pdf"
   },
@@ -3310,6 +4044,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "o subsídio",
     "english": "benefit",
+    "zhHans": "益处",
+    "zhHant": "益處",
     "examplePt": "Recebeu um subsídio.",
     "source": "pdf"
   },
@@ -3319,6 +4055,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "o trabalho por conta própria",
     "english": "self-employment",
+    "zhHans": "自营职业",
+    "zhHant": "自營職業",
     "examplePt": "Ela tem trabalho por conta própria.",
     "source": "pdf"
   },
@@ -3328,6 +4066,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Direitos e deveres",
     "portuguese": "os direitos laborais",
     "english": "labour rights",
+    "zhHans": "劳工权利",
+    "zhHant": "勞工權利",
     "examplePt": "Os trabalhadores imigrantes têm direitos laborais.",
     "source": "pdf"
   },
@@ -3337,6 +4077,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "a escova",
     "english": "brush",
+    "zhHans": "刷子",
+    "zhHant": "刷子",
     "examplePt": "A escova está na mesa.",
     "source": "pdf"
   },
@@ -3346,6 +4088,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "a esfregona",
     "english": "mop",
+    "zhHans": "拖把",
+    "zhHant": "拖把",
     "examplePt": "Uso a esfregona para lavar o chão.",
     "source": "pdf"
   },
@@ -3355,6 +4099,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "a tesoura",
     "english": "scissors",
+    "zhHans": "剪刀",
+    "zhHant": "剪刀",
     "examplePt": "A tesoura corta o cabelo.",
     "source": "pdf"
   },
@@ -3364,6 +4110,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "a vassoura",
     "english": "broom",
+    "zhHans": "扫帚",
+    "zhHant": "掃帚",
     "examplePt": "A vassoura está atrás da porta.",
     "source": "pdf"
   },
@@ -3373,6 +4121,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "as luvas",
     "english": "gloves",
+    "zhHans": "手套",
+    "zhHant": "手套",
     "examplePt": "Use luvas no trabalho.",
     "source": "pdf"
   },
@@ -3382,6 +4132,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "o aspirador",
     "english": "vacuum cleaner",
+    "zhHans": "吸尘器",
+    "zhHant": "吸塵器",
     "examplePt": "O aspirador faz barulho.",
     "source": "pdf"
   },
@@ -3391,6 +4143,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "o avental",
     "english": "apron",
+    "zhHans": "围裙",
+    "zhHant": "圍裙",
     "examplePt": "Ela põe o avental na cozinha.",
     "source": "pdf"
   },
@@ -3400,6 +4154,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "o computador",
     "english": "computer",
+    "zhHans": "电脑",
+    "zhHant": "電腦",
     "examplePt": "Uso o computador no escritório.",
     "source": "pdf"
   },
@@ -3409,6 +4165,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "o pano",
     "english": "cloth",
+    "zhHans": "布",
+    "zhHant": "布",
     "examplePt": "Uso um pano para limpar a mesa.",
     "source": "pdf"
   },
@@ -3418,6 +4176,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "o papel",
     "english": "paper",
+    "zhHans": "纸",
+    "zhHant": "紙",
     "examplePt": "Preciso de papel para imprimir.",
     "source": "pdf"
   },
@@ -3427,6 +4187,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "o secador",
     "english": "hair dryer",
+    "zhHans": "电吹风",
+    "zhHant": "吹風機",
     "examplePt": "Uso o secador para secar o cabelo.",
     "source": "pdf"
   },
@@ -3436,6 +4198,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instrumentos de trabalho",
     "portuguese": "o telefone",
     "english": "telephone",
+    "zhHans": "电话",
+    "zhHant": "電話",
     "examplePt": "Ela fala ao telefone.",
     "source": "pdf"
   },
@@ -3445,6 +4209,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Limpeza",
     "portuguese": "a lixívia",
     "english": "bleach",
+    "zhHans": "漂白",
+    "zhHant": "漂白",
     "examplePt": "A lixívia está no armário.",
     "source": "pdf"
   },
@@ -3454,6 +4220,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Limpeza",
     "portuguese": "os detergentes",
     "english": "cleaning products",
+    "zhHans": "清洁产品",
+    "zhHant": "清潔產品",
     "examplePt": "Vou buscar os detergentes.",
     "source": "pdf"
   },
@@ -3463,6 +4231,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "a cozinha",
     "english": "kitchen",
+    "zhHans": "厨房",
+    "zhHant": "廚房",
     "examplePt": "A cozinha está limpa.",
     "source": "pdf"
   },
@@ -3472,6 +4242,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "a escola",
     "english": "school",
+    "zhHans": "学校",
+    "zhHant": "學校",
     "examplePt": "As crianças entraram na escola.",
     "source": "pdf"
   },
@@ -3481,6 +4253,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "as casas particulares",
     "english": "private homes",
+    "zhHans": "私人住宅",
+    "zhHant": "私人住宅",
     "examplePt": "Ela limpa casas particulares.",
     "source": "pdf"
   },
@@ -3490,6 +4264,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "as empresas",
     "english": "companies",
+    "zhHans": "公司",
+    "zhHant": "公司",
     "examplePt": "Muitas pessoas trabalham em empresas.",
     "source": "pdf"
   },
@@ -3499,6 +4275,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "as obras",
     "english": "building site",
+    "zhHans": "建筑工地",
+    "zhHant": "建築工地",
     "examplePt": "Ele trabalha nas obras.",
     "source": "pdf"
   },
@@ -3508,6 +4286,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "o café",
     "english": "café",
+    "zhHans": "咖啡店",
+    "zhHant": "咖啡店",
     "examplePt": "Ela trabalha num café.",
     "source": "pdf"
   },
@@ -3517,6 +4297,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "o centro de saúde",
     "english": "health centre",
+    "zhHans": "健康中心/社区诊所",
+    "zhHant": "健康中心/社區診所",
     "examplePt": "Vou ao centro de saúde.",
     "source": "pdf"
   },
@@ -3526,6 +4308,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "o hospital",
     "english": "hospital",
+    "zhHans": "医院",
+    "zhHant": "醫院",
     "examplePt": "O médico trabalha no hospital.",
     "source": "pdf"
   },
@@ -3535,6 +4319,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "o restaurante",
     "english": "restaurant",
+    "zhHans": "餐厅",
+    "zhHant": "餐廳",
     "examplePt": "Ele trabalha num restaurante.",
     "source": "pdf"
   },
@@ -3544,6 +4330,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "o salão de cabeleireiro",
     "english": "hair salon",
+    "zhHans": "美发沙龙",
+    "zhHant": "美髮沙龍",
     "examplePt": "Ela trabalha num salão de cabeleireiro.",
     "source": "pdf"
   },
@@ -3553,6 +4341,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Locais de trabalho",
     "portuguese": "os escritórios",
     "english": "offices",
+    "zhHans": "办公室",
+    "zhHant": "辦公室",
     "examplePt": "Os escritórios abrem às nove.",
     "source": "pdf"
   },
@@ -3562,6 +4352,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Materiais",
     "portuguese": "o cimento",
     "english": "cement",
+    "zhHans": "水泥",
+    "zhHant": "水泥",
     "examplePt": "Precisamos de dois sacos de cimento.",
     "source": "pdf"
   },
@@ -3571,6 +4363,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "a cabeleireira",
     "english": "hairdresser",
+    "zhHans": "理发师",
+    "zhHant": "理髮師",
     "examplePt": "A cabeleireira corta o cabelo.",
     "source": "pdf"
   },
@@ -3580,6 +4374,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "a empregada de limpeza",
     "english": "cleaner",
+    "zhHans": "清洁工",
+    "zhHant": "清潔工",
     "examplePt": "A empregada de limpeza trabalha em casas particulares.",
     "source": "pdf"
   },
@@ -3589,6 +4385,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "a professora",
     "english": "teacher",
+    "zhHans": "老师",
+    "zhHant": "老師",
     "examplePt": "A professora trabalha na escola.",
     "source": "pdf"
   },
@@ -3598,6 +4396,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "a secretária",
     "english": "secretary",
+    "zhHans": "秘书",
+    "zhHant": "秘書",
     "examplePt": "A secretária atende o telefone.",
     "source": "pdf"
   },
@@ -3607,6 +4407,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o agricultor",
     "english": "farmer",
+    "zhHans": "农民",
+    "zhHant": "農民",
     "examplePt": "O agricultor trabalha no campo.",
     "source": "pdf"
   },
@@ -3616,6 +4418,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o cozinheiro",
     "english": "cook",
+    "zhHans": "厨师",
+    "zhHant": "廚師",
     "examplePt": "O cozinheiro trabalha na cozinha.",
     "source": "pdf"
   },
@@ -3625,6 +4429,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o empregado de mesa",
     "english": "waiter",
+    "zhHans": "服务员",
+    "zhHant": "服務生",
     "examplePt": "O empregado de mesa serve à mesa.",
     "source": "pdf"
   },
@@ -3634,6 +4440,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o médico",
     "english": "doctor",
+    "zhHans": "医生",
+    "zhHant": "醫生",
     "examplePt": "O médico observa o doente.",
     "source": "pdf"
   },
@@ -3643,6 +4451,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o pedreiro",
     "english": "bricklayer",
+    "zhHans": "瓦工",
+    "zhHant": "瓦工",
     "examplePt": "O pedreiro trabalha nas obras.",
     "source": "pdf"
   },
@@ -3652,6 +4462,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Regência verbal",
     "portuguese": "chegar a",
     "english": "to arrive at",
+    "zhHans": "到达",
+    "zhHant": "到達",
     "examplePt": "Ela chegou à meta.",
     "source": "pdf"
   },
@@ -3661,6 +4473,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Regência verbal",
     "portuguese": "entrar em",
     "english": "to enter",
+    "zhHans": "进入",
+    "zhHant": "進入",
     "examplePt": "As crianças entraram na escola.",
     "source": "pdf"
   },
@@ -3670,6 +4484,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Regência verbal",
     "portuguese": "sair de",
     "english": "to leave from",
+    "zhHans": "离开",
+    "zhHant": "離開",
     "examplePt": "Ela saiu do aeroporto.",
     "source": "pdf"
   },
@@ -3679,6 +4495,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Segurança no trabalho",
     "portuguese": "o capacete",
     "english": "helmet",
+    "zhHans": "头盔",
+    "zhHant": "頭盔",
     "examplePt": "Usa o capacete nas obras.",
     "source": "pdf"
   },
@@ -3688,6 +4506,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "armazenar",
     "english": "to store",
+    "zhHans": "储存",
+    "zhHant": "儲存",
     "examplePt": "O trabalhador armazena produtos.",
     "source": "pdf"
   },
@@ -3697,6 +4517,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "aspirar",
     "english": "to vacuum",
+    "zhHans": "抽真空",
+    "zhHant": "抽真空",
     "examplePt": "Ela aspira o chão.",
     "source": "pdf"
   },
@@ -3706,6 +4528,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "carregar",
     "english": "to load",
+    "zhHans": "加载",
+    "zhHant": "載入",
     "examplePt": "Ele carrega produtos.",
     "source": "pdf"
   },
@@ -3715,6 +4539,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "cortar o cabelo",
     "english": "to cut hair",
+    "zhHans": "剪头发",
+    "zhHant": "剪頭髮",
     "examplePt": "Vou cortar o cabelo amanhã.",
     "source": "pdf"
   },
@@ -3724,6 +4550,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "cozinhar",
     "english": "to cook",
+    "zhHans": "做饭",
+    "zhHant": "煮飯",
     "examplePt": "Gosto de cozinhar.",
     "source": "pdf"
   },
@@ -3733,6 +4561,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "descarregar",
     "english": "to unload",
+    "zhHans": "卸载",
+    "zhHant": "解除安裝",
     "examplePt": "Ela descarrega produtos.",
     "source": "pdf"
   },
@@ -3742,6 +4572,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "ensinar",
     "english": "to teach",
+    "zhHans": "教导",
+    "zhHant": "教導",
     "examplePt": "A professora ensina português.",
     "source": "pdf"
   },
@@ -3751,6 +4583,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "fazer exames",
     "english": "to do tests",
+    "zhHans": "做测试",
+    "zhHant": "做測試",
     "examplePt": "Tenho de fazer exames.",
     "source": "pdf"
   },
@@ -3760,6 +4594,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "lavar a cabeça",
     "english": "to wash hair",
+    "zhHans": "洗头发",
+    "zhHant": "洗頭髮",
     "examplePt": "A cabeleireira lava a cabeça da cliente.",
     "source": "pdf"
   },
@@ -3769,6 +4605,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "lavar o chão",
     "english": "to mop the floor",
+    "zhHans": "拖地",
+    "zhHant": "拖地",
     "examplePt": "Ele lava o chão da cozinha.",
     "source": "pdf"
   },
@@ -3778,6 +4616,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "levantar a mesa",
     "english": "to clear the table",
+    "zhHans": "清理桌子",
+    "zhHant": "清理桌子",
     "examplePt": "Depois do almoço, ele levanta a mesa.",
     "source": "pdf"
   },
@@ -3787,6 +4627,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "limpar o pó",
     "english": "to dust",
+    "zhHans": "去灰尘",
+    "zhHant": "去灰塵",
     "examplePt": "Vou limpar o pó da secretária.",
     "source": "pdf"
   },
@@ -3796,6 +4638,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "marcar uma reunião",
     "english": "to schedule a meeting",
+    "zhHans": "安排会议",
+    "zhHant": "安排會議",
     "examplePt": "Ela marcou uma reunião.",
     "source": "pdf"
   },
@@ -3805,6 +4649,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "observar o doente",
     "english": "to examine the patient",
+    "zhHans": "检查病人",
+    "zhHant": "檢查病人",
     "examplePt": "O médico observa o doente.",
     "source": "pdf"
   },
@@ -3814,6 +4660,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "passar receitas",
     "english": "to prescribe",
+    "zhHans": "开处方",
+    "zhHant": "開處方",
     "examplePt": "O médico passa receitas.",
     "source": "pdf"
   },
@@ -3823,6 +4671,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "pentear",
     "english": "to comb",
+    "zhHans": "梳理",
+    "zhHant": "梳理",
     "examplePt": "Ela penteia o cabelo.",
     "source": "pdf"
   },
@@ -3832,6 +4682,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "pôr a mesa",
     "english": "to set the table",
+    "zhHans": "摆桌子",
+    "zhHant": "擺桌",
     "examplePt": "Vou pôr a mesa antes do jantar.",
     "source": "pdf"
   },
@@ -3841,6 +4693,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "preparar os alimentos",
     "english": "to prepare food",
+    "zhHans": "准备食物",
+    "zhHant": "準備食物",
     "examplePt": "O cozinheiro prepara os alimentos.",
     "source": "pdf"
   },
@@ -3850,6 +4704,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "servir à mesa",
     "english": "to wait tables",
+    "zhHans": "等桌子",
+    "zhHant": "等桌子",
     "examplePt": "Ela sabe servir à mesa.",
     "source": "pdf"
   },
@@ -3859,6 +4715,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "anteontem",
     "english": "the day before yesterday",
+    "zhHans": "前天",
+    "zhHant": "前天",
     "examplePt": "Anteontem trabalhei muito.",
     "source": "pdf"
   },
@@ -3868,6 +4726,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "há bocado",
     "english": "a short while ago",
+    "zhHans": "不久前",
+    "zhHant": "不久前",
     "examplePt": "Ele saiu há bocado.",
     "source": "pdf"
   },
@@ -3877,6 +4737,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "ontem",
     "english": "yesterday",
+    "zhHans": "昨天",
+    "zhHant": "昨天",
     "examplePt": "Ontem assinei o contrato.",
     "source": "pdf"
   },
@@ -3886,6 +4748,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Anúncios",
     "portuguese": "oferece-se",
     "english": "available for work",
+    "zhHans": "可以工作",
+    "zhHant": "可以工作",
     "examplePt": "No anúncio, lê-se: oferece-se cozinheira.",
     "source": "pdf"
   },
@@ -3895,6 +4759,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Anúncios",
     "portuguese": "os requisitos",
     "english": "requirements",
+    "zhHans": "要求",
+    "zhHant": "要求",
     "examplePt": "O anúncio tem vários requisitos.",
     "source": "pdf"
   },
@@ -3904,6 +4770,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Anúncios",
     "portuguese": "procuro trabalho",
     "english": "I am looking for work",
+    "zhHans": "我正在找工作",
+    "zhHant": "我正在找工作",
     "examplePt": "Procuro trabalho no meu ramo.",
     "source": "pdf"
   },
@@ -3913,6 +4781,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Capacidade",
     "portuguese": "conhecer",
     "english": "to know / meet",
+    "zhHans": "认识/相遇",
+    "zhHant": "認識/相遇",
     "examplePt": "Ela conheceu as condições de trabalho.",
     "source": "pdf"
   },
@@ -3922,6 +4792,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Capacidade",
     "portuguese": "conseguir",
     "english": "to manage",
+    "zhHans": "管理",
+    "zhHant": "管理",
     "examplePt": "Ela conseguiu ficar com o emprego.",
     "source": "pdf"
   },
@@ -3931,6 +4803,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Capacidade",
     "portuguese": "poder",
     "english": "can / to be able to",
+    "zhHans": "能够/能够",
+    "zhHant": "能夠/能夠",
     "examplePt": "Posso entrar?",
     "source": "pdf"
   },
@@ -3940,6 +4814,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Capacidade",
     "portuguese": "saber",
     "english": "to know how",
+    "zhHans": "知道如何",
+    "zhHant": "知道如何",
     "examplePt": "Ela sabe falar inglês.",
     "source": "pdf"
   },
@@ -3949,6 +4825,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "adquirir a nacionalidade",
     "english": "to acquire nationality",
+    "zhHans": "获得国籍",
+    "zhHant": "獲得國籍",
     "examplePt": "Ele quer adquirir a nacionalidade portuguesa.",
     "source": "pdf"
   },
@@ -3958,6 +4836,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cozinha",
     "portuguese": "os pratos",
     "english": "dishes",
+    "zhHans": "菜肴",
+    "zhHant": "菜餚",
     "examplePt": "Ela prepara sopas, pratos e sobremesas.",
     "source": "pdf"
   },
@@ -3967,6 +4847,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Currículo",
     "portuguese": "a experiência profissional",
     "english": "work experience",
+    "zhHans": "工作经验",
+    "zhHant": "工作經驗",
     "examplePt": "Tenho experiência profissional em pastelaria.",
     "source": "pdf"
   },
@@ -3976,6 +4858,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Currículo",
     "portuguese": "a formação académica",
     "english": "education",
+    "zhHans": "教育",
+    "zhHant": "教育",
     "examplePt": "A formação académica está no CV.",
     "source": "pdf"
   },
@@ -3985,6 +4869,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Currículo",
     "portuguese": "as competências linguísticas",
     "english": "language skills",
+    "zhHans": "语言能力",
+    "zhHant": "語言能力",
     "examplePt": "As competências linguísticas são importantes.",
     "source": "pdf"
   },
@@ -3994,6 +4880,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Currículo",
     "portuguese": "os dados de identificação",
     "english": "personal details",
+    "zhHans": "个人资料",
+    "zhHant": "個人資料",
     "examplePt": "O currículo tem dados de identificação.",
     "source": "pdf"
   },
@@ -4003,6 +4891,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a candidatura espontânea",
     "english": "unsolicited application",
+    "zhHans": "主动申请",
+    "zhHant": "主動申請",
     "examplePt": "Escrevi uma carta de candidatura espontânea.",
     "source": "pdf"
   },
@@ -4012,6 +4902,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a carta de apresentação",
     "english": "cover letter",
+    "zhHans": "求职信",
+    "zhHant": "求職信",
     "examplePt": "Envio uma carta de apresentação.",
     "source": "pdf"
   },
@@ -4021,6 +4913,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a carta de condução",
     "english": "driving licence",
+    "zhHans": "驾驶执照",
+    "zhHant": "駕駛執照",
     "examplePt": "Tenho carta de condução.",
     "source": "pdf"
   },
@@ -4030,6 +4924,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a disponibilidade",
     "english": "availability",
+    "zhHans": "可用性",
+    "zhHant": "可用性",
     "examplePt": "Tenho disponibilidade para entrada imediata.",
     "source": "pdf"
   },
@@ -4039,6 +4935,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a entrada imediata",
     "english": "immediate start",
+    "zhHans": "立即开始",
+    "zhHant": "立即開始",
     "examplePt": "O anúncio pede entrada imediata.",
     "source": "pdf"
   },
@@ -4048,6 +4946,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a entrevista de trabalho",
     "english": "job interview",
+    "zhHans": "工作面试",
+    "zhHant": "工作面試",
     "examplePt": "Fui a uma entrevista de trabalho.",
     "source": "pdf"
   },
@@ -4057,6 +4957,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a flexibilidade de horário",
     "english": "schedule flexibility",
+    "zhHans": "日程安排的灵活性",
+    "zhHant": "日程安排的彈性",
     "examplePt": "O emprego pede flexibilidade de horário.",
     "source": "pdf"
   },
@@ -4066,6 +4968,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a função",
     "english": "role",
+    "zhHans": "角色",
+    "zhHant": "角色",
     "examplePt": "Apresento a minha candidatura para esta função.",
     "source": "pdf"
   },
@@ -4075,6 +4979,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a oportunidade de trabalho",
     "english": "job opportunity",
+    "zhHans": "工作机会",
+    "zhHant": "工作機會",
     "examplePt": "Parece uma boa oportunidade de trabalho.",
     "source": "pdf"
   },
@@ -4084,6 +4990,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a remuneração",
     "english": "pay",
+    "zhHans": "支付",
+    "zhHant": "支付",
     "examplePt": "A remuneração é compatível com as funções.",
     "source": "pdf"
   },
@@ -4093,6 +5001,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a resposta ao anúncio",
     "english": "reply to an ad",
+    "zhHans": "回复广告",
+    "zhHant": "回覆廣告",
     "examplePt": "A carta é uma resposta ao anúncio.",
     "source": "pdf"
   },
@@ -4102,6 +5012,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a vaga",
     "english": "vacancy",
+    "zhHans": "空缺",
+    "zhHant": "空缺",
     "examplePt": "Há uma vaga de tradutor.",
     "source": "pdf"
   },
@@ -4111,6 +5023,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "candidatar-se",
     "english": "to apply",
+    "zhHans": "申请",
+    "zhHant": "申請",
     "examplePt": "Vou candidatar-me a esta vaga.",
     "source": "pdf"
   },
@@ -4120,6 +5034,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "desempregado",
     "english": "unemployed",
+    "zhHans": "失业的",
+    "zhHant": "失業的",
     "examplePt": "O jovem está desempregado.",
     "source": "pdf"
   },
@@ -4129,6 +5045,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "despedir-se",
     "english": "to quit",
+    "zhHans": "戒烟",
+    "zhHant": "戒菸",
     "examplePt": "Quando foi a última vez que se despediu de um emprego?",
     "source": "pdf"
   },
@@ -4138,6 +5056,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "ilíquidos",
     "english": "gross",
+    "zhHans": "总的",
+    "zhHant": "總的",
     "examplePt": "São 580 euros ilíquidos.",
     "source": "pdf"
   },
@@ -4147,6 +5067,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o anúncio de trabalho",
     "english": "job ad",
+    "zhHans": "招聘广告",
+    "zhHant": "徵才廣告",
     "examplePt": "Li um anúncio de trabalho.",
     "source": "pdf"
   },
@@ -4156,6 +5078,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o aumento no salário",
     "english": "pay rise",
+    "zhHans": "加薪",
+    "zhHant": "加薪",
     "examplePt": "Recebeu um aumento no salário.",
     "source": "pdf"
   },
@@ -4165,6 +5089,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o cargo",
     "english": "position",
+    "zhHans": "位置",
+    "zhHant": "位置",
     "examplePt": "Ele tem um cargo na associação.",
     "source": "pdf"
   },
@@ -4174,6 +5100,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o currículo",
     "english": "resume",
+    "zhHans": "恢复",
+    "zhHant": "恢復",
     "examplePt": "Enviei o meu currículo para a empresa.",
     "source": "pdf"
   },
@@ -4183,6 +5111,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o CV",
     "english": "CV",
+    "zhHans": "简历",
+    "zhHant": "履歷",
     "examplePt": "Enviei o meu CV para a empresa.",
     "source": "pdf"
   },
@@ -4192,6 +5122,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o ordenado",
     "english": "salary",
+    "zhHans": "工资/薪水",
+    "zhHant": "工資/薪水",
     "examplePt": "O ordenado é compatível com as funções.",
     "source": "pdf"
   },
@@ -4201,6 +5133,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o perfil adequado",
     "english": "suitable profile",
+    "zhHans": "合适的轮廓",
+    "zhHant": "合適的輪廓",
     "examplePt": "Tem o perfil adequado a esta função.",
     "source": "pdf"
   },
@@ -4210,6 +5144,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o ramo",
     "english": "field",
+    "zhHans": "场地",
+    "zhHant": "場地",
     "examplePt": "Procuro trabalho no meu ramo.",
     "source": "pdf"
   },
@@ -4219,6 +5155,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o subsídio de desemprego",
     "english": "unemployment benefit",
+    "zhHans": "失业救济金",
+    "zhHant": "失業救濟金",
     "examplePt": "Recebeu um subsídio de desemprego.",
     "source": "pdf"
   },
@@ -4228,6 +5166,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o vencimento",
     "english": "pay",
+    "zhHans": "支付",
+    "zhHant": "支付",
     "examplePt": "O vencimento é de 580 euros.",
     "source": "pdf"
   },
@@ -4237,6 +5177,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "os impostos",
     "english": "taxes",
+    "zhHans": "税收",
+    "zhHant": "稅收",
     "examplePt": "O vencimento está sujeito a impostos.",
     "source": "pdf"
   },
@@ -4246,6 +5188,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "os recibos verdes",
     "english": "freelance tax receipts",
+    "zhHans": "自由职业者的税收收入",
+    "zhHant": "自由工作者的稅收收入",
     "examplePt": "Trabalhou a recibos verdes.",
     "source": "pdf"
   },
@@ -4255,6 +5199,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "a empregada doméstica",
     "english": "domestic worker",
+    "zhHans": "家政工人",
+    "zhHant": "家事勞工",
     "examplePt": "A senhora procura uma empregada doméstica.",
     "source": "pdf"
   },
@@ -4264,6 +5210,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "a jardinagem",
     "english": "gardening",
+    "zhHans": "园艺",
+    "zhHant": "園藝",
     "examplePt": "Ele tem experiência em jardinagem.",
     "source": "pdf"
   },
@@ -4273,6 +5221,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Qualidades",
     "portuguese": "a assiduidade",
     "english": "attendance",
+    "zhHans": "出席率",
+    "zhHant": "出席率",
     "examplePt": "A assiduidade é importante no trabalho.",
     "source": "pdf"
   },
@@ -4282,6 +5232,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Qualidades",
     "portuguese": "pontual",
     "english": "punctual",
+    "zhHans": "准时",
+    "zhHant": "準時",
     "examplePt": "O trabalhador é pontual.",
     "source": "pdf"
   },
@@ -4291,6 +5243,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Qualidades",
     "portuguese": "responsável",
     "english": "responsible",
+    "zhHans": "负责任的",
+    "zhHant": "負責任的",
     "examplePt": "Ela é responsável e pontual.",
     "source": "pdf"
   },
@@ -4300,6 +5254,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Regras",
     "portuguese": "é permitido",
     "english": "it is allowed",
+    "zhHans": "这是允许的",
+    "zhHant": "這是允許的",
     "examplePt": "É permitida a venda de bilhetes.",
     "source": "pdf"
   },
@@ -4309,6 +5265,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Regras",
     "portuguese": "é proibido",
     "english": "it is forbidden",
+    "zhHans": "这是禁止的",
+    "zhHant": "這是禁止的",
     "examplePt": "É proibido usar o telemóvel.",
     "source": "pdf"
   },
@@ -4318,6 +5276,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Regras",
     "portuguese": "o local de trabalho",
     "english": "workplace",
+    "zhHans": "工作场所",
+    "zhHant": "工作場所",
     "examplePt": "Não se pode fumar no local de trabalho.",
     "source": "pdf"
   },
@@ -4327,6 +5287,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "desde",
     "english": "since",
+    "zhHans": "自从",
+    "zhHant": "自從",
     "examplePt": "Trabalho nesse restaurante desde 2006.",
     "source": "pdf"
   },
@@ -4336,6 +5298,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "há",
     "english": "for / ago",
+    "zhHans": "为/前",
+    "zhHant": "為/前",
     "examplePt": "Trabalho nesse restaurante há sete anos.",
     "source": "pdf"
   },
@@ -4345,6 +5309,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Compras",
     "portuguese": "o mais barato",
     "english": "the cheapest",
+    "zhHans": "最便宜的",
+    "zhHant": "最便宜的",
     "examplePt": "O produto mais barato é a consola.",
     "source": "pdf"
   },
@@ -4354,6 +5320,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Compras",
     "portuguese": "o mais caro",
     "english": "the most expensive",
+    "zhHans": "最贵的",
+    "zhHant": "最貴的",
     "examplePt": "O produto mais caro é a televisão.",
     "source": "pdf"
   },
@@ -4363,6 +5331,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição",
     "portuguese": "ótimo",
     "english": "excellent",
+    "zhHans": "出色的",
+    "zhHant": "出色的",
     "examplePt": "Este concerto é ótimo.",
     "source": "pdf"
   },
@@ -4372,6 +5342,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição",
     "portuguese": "péssimo",
     "english": "terrible",
+    "zhHans": "糟糕的",
+    "zhHant": "糟糕的",
     "examplePt": "Esta comida está péssima.",
     "source": "pdf"
   },
@@ -4381,6 +5353,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "antigo",
     "english": "old",
+    "zhHans": "老的",
+    "zhHant": "老的",
     "examplePt": "O edifício é antigo.",
     "source": "pdf"
   },
@@ -4390,6 +5364,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "barulhento",
     "english": "noisy",
+    "zhHans": "嘈杂",
+    "zhHant": "吵雜",
     "examplePt": "O Rossio é muito barulhento.",
     "source": "pdf"
   },
@@ -4399,6 +5375,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "calmo",
     "english": "calm",
+    "zhHans": "冷静的",
+    "zhHant": "冷靜的",
     "examplePt": "O Rossio era muito calmo.",
     "source": "pdf"
   },
@@ -4408,6 +5386,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "moderno",
     "english": "modern",
+    "zhHans": "现代的",
+    "zhHant": "現代的",
     "examplePt": "O bairro é moderno.",
     "source": "pdf"
   },
@@ -4417,6 +5397,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "movimentado",
     "english": "busy",
+    "zhHans": "忙碌的",
+    "zhHant": "忙碌的",
     "examplePt": "O Rossio é muito movimentado.",
     "source": "pdf"
   },
@@ -4426,6 +5408,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "muito trânsito",
     "english": "a lot of traffic",
+    "zhHans": "大量流量",
+    "zhHant": "大量流量",
     "examplePt": "O Rossio tem muito trânsito.",
     "source": "pdf"
   },
@@ -4435,6 +5419,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "poluído",
     "english": "polluted",
+    "zhHans": "被污染的",
+    "zhHant": "被污染的",
     "examplePt": "O lugar está poluído.",
     "source": "pdf"
   },
@@ -4444,6 +5430,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "pouco trânsito",
     "english": "little traffic",
+    "zhHans": "交通很少",
+    "zhHant": "交通很少",
     "examplePt": "O Rossio tinha pouco trânsito.",
     "source": "pdf"
   },
@@ -4453,6 +5441,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de pessoas",
     "portuguese": "magro",
     "english": "thin",
+    "zhHans": "薄的",
+    "zhHant": "薄的",
     "examplePt": "Ele era magro.",
     "source": "pdf"
   },
@@ -4462,6 +5452,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Escola",
     "portuguese": "a cédula",
     "english": "birth certificate",
+    "zhHans": "出生证明",
+    "zhHant": "出生證明",
     "examplePt": "A escola pede a cédula da criança.",
     "source": "pdf"
   },
@@ -4471,6 +5463,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Escola",
     "portuguese": "matricular",
     "english": "to enrol",
+    "zhHans": "报名",
+    "zhHant": "報名",
     "examplePt": "Queria matricular o meu filho.",
     "source": "pdf"
   },
@@ -4480,6 +5474,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Escola",
     "portuguese": "o boletim de matrícula",
     "english": "enrolment form",
+    "zhHans": "报名表",
+    "zhHant": "報名表",
     "examplePt": "Preenchi o boletim de matrícula.",
     "source": "pdf"
   },
@@ -4489,6 +5485,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "costumar + infinitivo",
     "english": "to usually do",
+    "zhHans": "通常做",
+    "zhHant": "通常做",
     "examplePt": "Eu costumava almoçar em casa.",
     "source": "pdf"
   },
@@ -4498,6 +5496,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Hábitos",
     "portuguese": "a água corrente",
     "english": "running water",
+    "zhHans": "自来水",
+    "zhHant": "自來水",
     "examplePt": "As pessoas usam água corrente.",
     "source": "pdf"
   },
@@ -4507,6 +5507,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Hábitos",
     "portuguese": "falar ao telemóvel",
     "english": "to talk on the mobile phone",
+    "zhHans": "用手机通话",
+    "zhHant": "用手機通話",
     "examplePt": "As pessoas falam ao telemóvel.",
     "source": "pdf"
   },
@@ -4516,6 +5518,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "à procura de uma vida melhor",
     "english": "looking for a better life",
+    "zhHans": "寻找更好的生活",
+    "zhHant": "尋找更好的生活",
     "examplePt": "Foram para fora do país à procura de uma vida melhor.",
     "source": "pdf"
   },
@@ -4525,6 +5529,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "emigrar",
     "english": "to emigrate",
+    "zhHans": "移民",
+    "zhHant": "移民",
     "examplePt": "Muitos portugueses emigraram.",
     "source": "pdf"
   },
@@ -4534,6 +5540,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Passado / Presente",
     "portuguese": "agora",
     "english": "now",
+    "zhHans": "现在",
+    "zhHant": "現在",
     "examplePt": "Agora vivo em Lisboa.",
     "source": "pdf"
   },
@@ -4543,6 +5551,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Passado / Presente",
     "portuguese": "antigamente",
     "english": "in the past",
+    "zhHans": "在过去",
+    "zhHant": "在過去",
     "examplePt": "Antigamente as pessoas andavam de carroça.",
     "source": "pdf"
   },
@@ -4552,6 +5562,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Passado / Presente",
     "portuguese": "dantes",
     "english": "in the past",
+    "zhHans": "在过去",
+    "zhHant": "在過去",
     "examplePt": "Dantes, as pessoas andavam de carroça.",
     "source": "pdf"
   },
@@ -4561,6 +5573,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Pessoas",
     "portuguese": "os vizinhos",
     "english": "neighbours",
+    "zhHans": "邻居",
+    "zhHant": "鄰居",
     "examplePt": "Os vizinhos são portugueses.",
     "source": "pdf"
   },
@@ -4570,6 +5584,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Roupa e acessórios",
     "portuguese": "as calças de ganga",
     "english": "jeans",
+    "zhHans": "牛仔裤",
+    "zhHant": "牛仔褲",
     "examplePt": "Ele usava calças de ganga.",
     "source": "pdf"
   },
@@ -4579,6 +5595,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Roupa e acessórios",
     "portuguese": "os óculos",
     "english": "glasses",
+    "zhHans": "眼镜",
+    "zhHant": "眼鏡",
     "examplePt": "Ele usava óculos.",
     "source": "pdf"
   },
@@ -4588,6 +5606,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "o boletim de vacinas",
     "english": "vaccination record",
+    "zhHans": "疫苗接种记录",
+    "zhHant": "疫苗接種記錄",
     "examplePt": "A escola pede o boletim de vacinas.",
     "source": "pdf"
   },
@@ -4597,6 +5617,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "os problemas visuais e auditivos",
     "english": "vision and hearing problems",
+    "zhHans": "视力和听力问题",
+    "zhHant": "視力和聽力問題",
     "examplePt": "A ficha permite detetar problemas visuais e auditivos.",
     "source": "pdf"
   },
@@ -4606,6 +5628,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sociedade",
     "portuguese": "as condições de higiene e segurança",
     "english": "hygiene and safety conditions",
+    "zhHans": "卫生和安全条件",
+    "zhHant": "衛生和安全條件",
     "examplePt": "As casas não tinham condições de higiene e segurança.",
     "source": "pdf"
   },
@@ -4615,6 +5639,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "naquela época",
     "english": "at that time",
+    "zhHans": "当时",
+    "zhHant": "當時",
     "examplePt": "Naquela época, eles viviam no campo.",
     "source": "pdf"
   },
@@ -4624,6 +5650,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "naquele tempo",
     "english": "in those days",
+    "zhHans": "当年",
+    "zhHant": "當年",
     "examplePt": "Naquele tempo, acordávamos muito cedo.",
     "source": "pdf"
   },
@@ -4633,6 +5661,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Transportes",
     "portuguese": "andar de carro",
     "english": "to go by car",
+    "zhHans": "开车去",
+    "zhHant": "開車去",
     "examplePt": "Hoje anda-se de carro.",
     "source": "pdf"
   },
@@ -4642,6 +5672,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Alimentação",
     "portuguese": "a alimentação saudável",
     "english": "healthy diet",
+    "zhHans": "健康饮食",
+    "zhHant": "健康飲食",
     "examplePt": "Tem tido uma alimentação saudável?",
     "source": "pdf"
   },
@@ -4651,6 +5683,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Alimentação",
     "portuguese": "a refeição",
     "english": "meal",
+    "zhHans": "一顿饭",
+    "zhHant": "一頓飯",
     "examplePt": "Come as refeições a horas?",
     "source": "pdf"
   },
@@ -4660,6 +5694,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a construção civil",
     "english": "construction work",
+    "zhHans": "建筑工程",
+    "zhHant": "建築工程",
     "examplePt": "Ultimamente eles têm trabalhado na construção civil.",
     "source": "pdf"
   },
@@ -4669,6 +5705,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "perder o emprego",
     "english": "to lose one's job",
+    "zhHans": "失去工作",
+    "zhHant": "失去工作",
     "examplePt": "O Santiago perdeu o emprego.",
     "source": "pdf"
   },
@@ -4678,6 +5716,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "procurar emprego",
     "english": "to look for work",
+    "zhHans": "找工作",
+    "zhHant": "找工作",
     "examplePt": "O Vladimir tem procurado emprego desde que chegou a Lisboa.",
     "source": "pdf"
   },
@@ -4687,6 +5727,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Estado",
     "portuguese": "estar ocupado(a)",
     "english": "to be busy",
+    "zhHans": "很忙",
+    "zhHant": "很忙",
     "examplePt": "Ele está ocupado. Ela está ocupada.",
     "source": "pdf"
   },
@@ -4696,6 +5738,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Família",
     "portuguese": "depender de",
     "english": "to depend on",
+    "zhHans": "依赖",
+    "zhHant": "依賴",
     "examplePt": "Lá em casa dependem de mim.",
     "source": "pdf"
   },
@@ -4705,6 +5749,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Hábitos",
     "portuguese": "costumar",
     "english": "to usually do",
+    "zhHans": "通常做",
+    "zhHant": "通常做",
     "examplePt": "Eu costumava ler.",
     "source": "pdf"
   },
@@ -4714,6 +5760,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Hábitos",
     "portuguese": "navegar na net",
     "english": "to browse the internet",
+    "zhHans": "浏览互联网",
+    "zhHant": "瀏覽網路",
     "examplePt": "Eu tenho navegado na net.",
     "source": "pdf"
   },
@@ -4723,6 +5771,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lazer",
     "portuguese": "descansar",
     "english": "to rest",
+    "zhHans": "休息",
+    "zhHant": "休息",
     "examplePt": "Tenho aproveitado para descansar.",
     "source": "pdf"
   },
@@ -4732,6 +5782,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lazer",
     "portuguese": "tirar férias",
     "english": "to take holidays",
+    "zhHans": "去度假",
+    "zhHant": "去度假",
     "examplePt": "Tirei uns dias de férias.",
     "source": "pdf"
   },
@@ -4741,6 +5793,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Lojas",
     "portuguese": "a mercearia",
     "english": "grocery shop",
+    "zhHans": "杂货店",
+    "zhHant": "雜貨店",
     "examplePt": "Entramos na mercearia do Largo do Terreirinho.",
     "source": "pdf"
   },
@@ -4750,6 +5804,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "emigrar",
     "english": "to emigrate",
+    "zhHans": "移民",
+    "zhHant": "移民",
     "examplePt": "Foi a primeira da família a emigrar.",
     "source": "pdf"
   },
@@ -4759,6 +5815,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "a doença",
     "english": "illness",
+    "zhHans": "疾病",
+    "zhHant": "身體不適",
     "examplePt": "Sofre de alguma doença?",
     "source": "pdf"
   },
@@ -4768,6 +5826,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "a dor de cabeça",
     "english": "headache",
+    "zhHans": "头痛",
+    "zhHant": "頭痛",
     "examplePt": "Tenho tido muitas dores de cabeça.",
     "source": "pdf"
   },
@@ -4777,6 +5837,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "o consultório",
     "english": "doctor's office",
+    "zhHans": "医生办公室",
+    "zhHant": "醫生辦公室",
     "examplePt": "O Manuel está no consultório.",
     "source": "pdf"
   },
@@ -4786,6 +5848,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "o stress",
     "english": "stress",
+    "zhHans": "压力",
+    "zhHant": "壓力",
     "examplePt": "Tem de ter uma vida mais moderada.",
     "source": "pdf"
   },
@@ -4795,6 +5859,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "sentir-se bem",
     "english": "to feel well",
+    "zhHans": "感觉良好",
+    "zhHant": "感覺良好",
     "examplePt": "Ultimamente não me tenho sentido bem.",
     "source": "pdf"
   },
@@ -4804,6 +5870,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sentimentos",
     "portuguese": "as saudades",
     "english": "longing; missing someone",
+    "zhHans": "渴望;想念某人",
+    "zhHant": "渴望;想念某人",
     "examplePt": "Têm saudades do peixe fresco.",
     "source": "pdf"
   },
@@ -4813,6 +5881,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sentimentos",
     "portuguese": "sentir falta de",
     "english": "to miss",
+    "zhHans": "错过",
+    "zhHant": "錯過",
     "examplePt": "Têm sentido falta do calor.",
     "source": "pdf"
   },
@@ -4822,6 +5892,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "a agência de viagens",
     "english": "travel agency",
+    "zhHans": "旅行社",
+    "zhHant": "旅行社",
     "examplePt": "Ela trabalha numa agência de viagens.",
     "source": "pdf"
   },
@@ -4831,6 +5903,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "antigamente",
     "english": "in the past",
+    "zhHans": "在过去",
+    "zhHant": "在過去",
     "examplePt": "Antigamente as pessoas andavam mais a pé.",
     "source": "pdf"
   },
@@ -4840,6 +5914,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "até agora",
     "english": "until now",
+    "zhHans": "到目前为止",
+    "zhHant": "到目前為止",
     "examplePt": "Até agora tenho gostado de viver em Portugal.",
     "source": "pdf"
   },
@@ -4849,6 +5925,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "cedo",
     "english": "early",
+    "zhHans": "早期的",
+    "zhHant": "早期的",
     "examplePt": "Ela acordava cedo.",
     "source": "pdf"
   },
@@ -4858,6 +5936,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "desde que",
     "english": "since",
+    "zhHans": "自从",
+    "zhHant": "自從",
     "examplePt": "Desde que chegaram, ele tem saído com eles.",
     "source": "pdf"
   },
@@ -4867,6 +5947,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "há dois dias",
     "english": "two days ago",
+    "zhHans": "两天前",
+    "zhHant": "兩天前",
     "examplePt": "Há dois dias a Manu encontrou a Padma.",
     "source": "pdf"
   },
@@ -4876,6 +5958,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "há um mês",
     "english": "a month ago",
+    "zhHans": "一个月前",
+    "zhHant": "一個月前",
     "examplePt": "Há um mês nós estivemos com os nossos tios.",
     "source": "pdf"
   },
@@ -4885,6 +5969,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "no mês passado",
     "english": "last month",
+    "zhHans": "上个月",
+    "zhHant": "上個月",
     "examplePt": "No mês passado não choveu.",
     "source": "pdf"
   },
@@ -4894,6 +5980,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "ontem",
     "english": "yesterday",
+    "zhHans": "昨天",
+    "zhHant": "昨天",
     "examplePt": "Ontem fui ao cinema.",
     "source": "pdf"
   },
@@ -4903,6 +5991,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "recente",
     "english": "recent",
+    "zhHans": "最近的",
+    "zhHant": "最近的",
     "examplePt": "São acontecimentos recentes.",
     "source": "pdf"
   },
@@ -4912,6 +6002,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "tarde",
     "english": "late",
+    "zhHans": "晚的",
+    "zhHant": "晚的",
     "examplePt": "Ela tem acordado tarde.",
     "source": "pdf"
   },
@@ -4921,6 +6013,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "ultimamente",
     "english": "lately",
+    "zhHans": "最近",
+    "zhHant": "最近",
     "examplePt": "Ultimamente tem chovido muito.",
     "source": "pdf"
   },
@@ -4930,6 +6024,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempos livres",
     "portuguese": "ir ao cinema",
     "english": "to go to the cinema",
+    "zhHans": "去电影院",
+    "zhHant": "去電影院",
     "examplePt": "Ontem fui ao cinema.",
     "source": "pdf"
   },
@@ -4939,6 +6035,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Transportes",
     "portuguese": "a pé",
     "english": "on foot",
+    "zhHans": "徒步",
+    "zhHant": "健行",
     "examplePt": "Nós passeávamos muito a pé.",
     "source": "pdf"
   },
@@ -4948,6 +6046,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Transportes",
     "portuguese": "de carro",
     "english": "by car",
+    "zhHans": "开车",
+    "zhHant": "開車",
     "examplePt": "Nós temos passeado de carro.",
     "source": "pdf"
   },
@@ -4957,6 +6057,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Viagens",
     "portuguese": "o bilhete de avião",
     "english": "plane ticket",
+    "zhHans": "机票",
+    "zhHant": "機票",
     "examplePt": "Vendemos bilhetes de avião.",
     "source": "pdf"
   },
@@ -4966,6 +6068,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Alimentação",
     "portuguese": "a especialidade",
     "english": "specialty",
+    "zhHans": "专业",
+    "zhHant": "專業",
     "examplePt": "A especialidade são os bolinhos de bacalhau.",
     "source": "pdf"
   },
@@ -4975,6 +6079,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Alimentação",
     "portuguese": "o pastel de bacalhau",
     "english": "codfish cake",
+    "zhHans": "鳕鱼饼",
+    "zhHant": "鱈魚餅",
     "examplePt": "Tens de explicar como se fazem os pastéis de bacalhau.",
     "source": "pdf"
   },
@@ -4984,6 +6090,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Casa",
     "portuguese": "o frigorífico",
     "english": "refrigerator",
+    "zhHans": "冰箱",
+    "zhHant": "冰箱",
     "examplePt": "Leve ao frigorífico durante quatro horas.",
     "source": "pdf"
   },
@@ -4993,6 +6101,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Compras",
     "portuguese": "a marca",
     "english": "brand",
+    "zhHans": "品牌",
+    "zhHant": "品牌",
     "examplePt": "O telemóvel é da marca Vodafone.",
     "source": "pdf"
   },
@@ -5002,6 +6112,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Compras",
     "portuguese": "o recibo",
     "english": "receipt",
+    "zhHans": "收据/付款凭证",
+    "zhHant": "收據/付款憑證",
     "examplePt": "Junto cópia do recibo de compra.",
     "source": "pdf"
   },
@@ -5011,6 +6123,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Compras",
     "portuguese": "o talão",
     "english": "receipt slip",
+    "zhHans": "收据单",
+    "zhHant": "收據單",
     "examplePt": "Junto cópia do talão.",
     "source": "pdf"
   },
@@ -5020,6 +6134,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Comunicação",
     "portuguese": "a ferramenta",
     "english": "tool",
+    "zhHans": "工具",
+    "zhHant": "工具",
     "examplePt": "Esta ferramenta tem regras próprias.",
     "source": "pdf"
   },
@@ -5029,6 +6145,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Corpo humano",
     "portuguese": "o ombro",
     "english": "shoulder",
+    "zhHans": "肩膀",
+    "zhHant": "肩膀",
     "examplePt": "Tinha dores no ombro direito.",
     "source": "pdf"
   },
@@ -5038,6 +6156,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "a receção",
     "english": "receipt; reception",
+    "zhHans": "收据;接待",
+    "zhHant": "收據;接待",
     "examplePt": "A receção da encomenda foi rápida.",
     "source": "pdf"
   },
@@ -5047,6 +6167,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "a urgência",
     "english": "urgency",
+    "zhHans": "紧迫性",
+    "zhHant": "緊迫性",
     "examplePt": "Tenho muita urgência na receção do mesmo.",
     "source": "pdf"
   },
@@ -5056,6 +6178,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "dar notícias",
     "english": "to keep in touch",
+    "zhHans": "保持联系",
+    "zhHant": "保持聯繫",
     "examplePt": "Dá notícias.",
     "source": "pdf"
   },
@@ -5065,6 +6189,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "Ex.mo Senhor",
     "english": "Dear Sir",
+    "zhHans": "尊敬的先生",
+    "zhHant": "尊敬的先生",
     "examplePt": "Ex.mo Senhor, solicito uma informação.",
     "source": "pdf"
   },
@@ -5074,6 +6200,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "muito atenciosamente",
     "english": "yours faithfully",
+    "zhHans": "此致",
+    "zhHant": "此致",
     "examplePt": "De V.ª Ex.ª, muito atenciosamente.",
     "source": "pdf"
   },
@@ -5083,6 +6211,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "o anexo",
     "english": "attachment; enclosure",
+    "zhHans": "依恋;外壳",
+    "zhHant": "依戀;外殼",
     "examplePt": "Anexo: Currículo.",
     "source": "pdf"
   },
@@ -5092,6 +6222,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "o assunto",
     "english": "subject",
+    "zhHans": "主题",
+    "zhHant": "主題",
     "examplePt": "Assunto: Reclamação por roupa estragada.",
     "source": "pdf"
   },
@@ -5101,6 +6233,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Correspondência",
     "portuguese": "o destinatário",
     "english": "recipient",
+    "zhHans": "接受者",
+    "zhHant": "接受者",
     "examplePt": "Não conhecemos o destinatário.",
     "source": "pdf"
   },
@@ -5110,6 +6244,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Dinheiro",
     "portuguese": "a nota de 10 euros",
     "english": "10-euro banknote",
+    "zhHans": "10欧元纸币",
+    "zhHant": "10歐元紙幣",
     "examplePt": "A nova nota de 10 euros é apresentada segunda-feira.",
     "source": "pdf"
   },
@@ -5119,6 +6255,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Dinheiro",
     "portuguese": "o montante",
     "english": "amount",
+    "zhHans": "数量",
+    "zhHant": "數量",
     "examplePt": "O montante é igual ao seu valor.",
     "source": "pdf"
   },
@@ -5128,6 +6266,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Educação",
     "portuguese": "o diploma",
     "english": "diploma",
+    "zhHans": "文凭",
+    "zhHant": "文憑",
     "examplePt": "Recebi o meu diploma de Informática.",
     "source": "pdf"
   },
@@ -5137,6 +6277,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a candidatura",
     "english": "application",
+    "zhHans": "应用",
+    "zhHant": "應用",
     "examplePt": "Saiu o resultado das candidaturas.",
     "source": "pdf"
   },
@@ -5146,6 +6288,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a competência",
     "english": "skill; competence",
+    "zhHans": "技能;权限",
+    "zhHant": "技能;權限",
     "examplePt": "Desenvolvi competências na minha formação.",
     "source": "pdf"
   },
@@ -5155,6 +6299,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a entrevista",
     "english": "interview",
+    "zhHans": "面试",
+    "zhHant": "面試",
     "examplePt": "Gostaria de uma entrevista pessoal.",
     "source": "pdf"
   },
@@ -5164,6 +6310,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a vaga",
     "english": "vacancy",
+    "zhHans": "空缺",
+    "zhHant": "空缺",
     "examplePt": "Candidatei-me à vaga de tradutor.",
     "source": "pdf"
   },
@@ -5173,6 +6321,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o currículo",
     "english": "CV; resume",
+    "zhHans": "简历;恢复",
+    "zhHant": "履歷;恢復",
     "examplePt": "Enviei o meu currículo por e-mail.",
     "source": "pdf"
   },
@@ -5182,6 +6332,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o diretor",
     "english": "director",
+    "zhHans": "导演",
+    "zhHant": "導演",
     "examplePt": "Enviei a carta ao diretor.",
     "source": "pdf"
   },
@@ -5191,6 +6343,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "os recursos humanos",
     "english": "human resources",
+    "zhHans": "人力资源",
+    "zhHant": "人力資源",
     "examplePt": "Falei com os Recursos Humanos.",
     "source": "pdf"
   },
@@ -5200,6 +6354,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "ser contactado(a)",
     "english": "to be contacted",
+    "zhHans": "待联系",
+    "zhHant": "待聯繫",
     "examplePt": "Pode ser contactado por telefone. Pode ser contactada por telefone.",
     "source": "pdf"
   },
@@ -5209,6 +6365,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "alguém",
     "english": "someone",
+    "zhHans": "某人",
+    "zhHant": "某人",
     "examplePt": "Alguém sabe onde fica o ACM?",
     "source": "pdf"
   },
@@ -5218,6 +6376,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "nada",
     "english": "nothing",
+    "zhHans": "没有什么",
+    "zhHant": "沒有什麼",
     "examplePt": "Não quero comprar nada.",
     "source": "pdf"
   },
@@ -5227,6 +6387,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "ninguém",
     "english": "no one",
+    "zhHans": "没有人",
+    "zhHant": "沒有人",
     "examplePt": "Ninguém deve estar ilegal.",
     "source": "pdf"
   },
@@ -5236,6 +6398,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "onde",
     "english": "where",
+    "zhHans": "在哪里",
+    "zhHant": "在哪裡",
     "examplePt": "O restaurante onde almoçámos era excelente.",
     "source": "pdf"
   },
@@ -5245,6 +6409,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "por + artigo",
     "english": "by; through; along",
+    "zhHans": "经过;通过;沿着",
+    "zhHant": "經過;通過;沿著",
     "examplePt": "Passe pelo banco. Passe pela farmácia.",
     "source": "pdf"
   },
@@ -5254,6 +6420,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "que",
     "english": "that; which; who",
+    "zhHans": "那;哪个; WHO",
+    "zhHant": "那;哪一個; WHO",
     "examplePt": "Os empregados que nos serviram eram simpáticos.",
     "source": "pdf"
   },
@@ -5263,6 +6431,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "quem",
     "english": "who; whom",
+    "zhHans": "WHO;谁",
+    "zhHant": "WHO;誰",
     "examplePt": "O dono com quem falámos deu-nos este cartão.",
     "source": "pdf"
   },
@@ -5272,6 +6442,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "tudo",
     "english": "everything",
+    "zhHans": "一切",
+    "zhHant": "一切",
     "examplePt": "Tenho tudo preparado para partir.",
     "source": "pdf"
   },
@@ -5281,6 +6453,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "várias",
     "english": "several (feminine plural)",
+    "zhHans": "几个（阴性复数）",
+    "zhHant": "幾（陰性複數）",
     "examplePt": "Tenho várias perguntas.",
     "source": "pdf"
   },
@@ -5290,6 +6464,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "vários",
     "english": "several (masculine plural)",
+    "zhHans": "几个（阳性复数）",
+    "zhHant": "幾個（陽性複數）",
     "examplePt": "Tenho vários documentos.",
     "source": "pdf"
   },
@@ -5299,6 +6475,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Identificação",
     "portuguese": "residente",
     "english": "resident",
+    "zhHans": "居民",
+    "zhHant": "居民",
     "examplePt": "Olga Ivanova é residente em Lisboa.",
     "source": "pdf"
   },
@@ -5308,6 +6486,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Opiniões",
     "portuguese": "a preferência",
     "english": "preference",
+    "zhHans": "偏爱",
+    "zhHant": "偏愛",
     "examplePt": "O futebol está em primeiro lugar na preferência.",
     "source": "pdf"
   },
@@ -5317,6 +6497,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Profissões",
     "portuguese": "o tradutor",
     "english": "translator",
+    "zhHans": "翻译者",
+    "zhHant": "翻譯者",
     "examplePt": "Há uma vaga de tradutor.",
     "source": "pdf"
   },
@@ -5326,6 +6508,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Receitas",
     "portuguese": "a chávena",
     "english": "cup",
+    "zhHans": "杯子",
+    "zhHant": "杯子",
     "examplePt": "Use uma chávena de açúcar.",
     "source": "pdf"
   },
@@ -5335,6 +6519,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Receitas",
     "portuguese": "o ingrediente",
     "english": "ingredient",
+    "zhHans": "成分",
+    "zhHant": "成分",
     "examplePt": "Misture os ingredientes.",
     "source": "pdf"
   },
@@ -5344,6 +6530,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "a indemnização",
     "english": "compensation",
+    "zhHans": "赔偿",
+    "zhHant": "賠償",
     "examplePt": "Exijo uma indemnização de 150 euros.",
     "source": "pdf"
   },
@@ -5353,6 +6541,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "a negligência",
     "english": "negligence",
+    "zhHans": "疏忽",
+    "zhHant": "疏忽",
     "examplePt": "Assunto: Negligência dos serviços do Centro de Saúde.",
     "source": "pdf"
   },
@@ -5362,6 +6552,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "a queixa",
     "english": "complaint",
+    "zhHans": "抱怨",
+    "zhHant": "抱怨",
     "examplePt": "A DECO tem recebido queixas de consumidores.",
     "source": "pdf"
   },
@@ -5371,6 +6563,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "a roupa estragada",
     "english": "damaged clothing",
+    "zhHans": "损坏的衣服",
+    "zhHant": "損壞的衣服",
     "examplePt": "A reclamação é por roupa estragada.",
     "source": "pdf"
   },
@@ -5380,6 +6574,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "exigir",
     "english": "to demand",
+    "zhHans": "要求",
+    "zhHant": "要求",
     "examplePt": "Exijo uma indemnização.",
     "source": "pdf"
   },
@@ -5389,6 +6585,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "o consumidor",
     "english": "consumer",
+    "zhHans": "消费者",
+    "zhHant": "消費者",
     "examplePt": "Os consumidores fizeram queixas.",
     "source": "pdf"
   },
@@ -5398,6 +6596,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "o estrago",
     "english": "damage",
+    "zhHans": "损害",
+    "zhHant": "損害",
     "examplePt": "A empresa é responsável pelos estragos.",
     "source": "pdf"
   },
@@ -5407,6 +6607,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "os meios legais",
     "english": "legal means",
+    "zhHans": "合法手段",
+    "zhHant": "合法手段",
     "examplePt": "Vou recorrer a todos os meios legais.",
     "source": "pdf"
   },
@@ -5416,6 +6618,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "reclamar",
     "english": "to complain",
+    "zhHans": "抱怨",
+    "zhHant": "抱怨",
     "examplePt": "Temos de reclamar.",
     "source": "pdf"
   },
@@ -5425,6 +6629,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "recorrer",
     "english": "to resort; appeal",
+    "zhHans": "去度假村；上诉",
+    "zhHant": "去度假村；上訴",
     "examplePt": "Vou recorrer a todos os meios legais.",
     "source": "pdf"
   },
@@ -5434,6 +6640,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Roupa",
     "portuguese": "o fato",
     "english": "suit",
+    "zhHans": "套装",
+    "zhHant": "套裝",
     "examplePt": "Entreguei um fato cinzento escuro.",
     "source": "pdf"
   },
@@ -5443,6 +6651,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "a fratura",
     "english": "fracture",
+    "zhHans": "断裂",
+    "zhHant": "斷裂",
     "examplePt": "Ele tinha uma fratura muito grave.",
     "source": "pdf"
   },
@@ -5452,6 +6662,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "grave",
     "english": "serious",
+    "zhHans": "严肃的",
+    "zhHant": "嚴肅的",
     "examplePt": "O problema era grave.",
     "source": "pdf"
   },
@@ -5461,6 +6673,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "queixar-se de",
     "english": "to complain of",
+    "zhHans": "抱怨",
+    "zhHant": "抱怨",
     "examplePt": "Começou a queixar-se de fortes dores.",
     "source": "pdf"
   },
@@ -5470,6 +6684,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Segurança",
     "portuguese": "assaltar",
     "english": "to rob",
+    "zhHans": "抢劫",
+    "zhHant": "搶劫",
     "examplePt": "O banco foi assaltado ontem de manhã.",
     "source": "pdf"
   },
@@ -5479,6 +6695,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "a lavandaria",
     "english": "launderette; laundry",
+    "zhHans": "自助洗衣店；洗衣店",
+    "zhHant": "自助洗衣店；洗衣店",
     "examplePt": "Entreguei o fato na lavandaria.",
     "source": "pdf"
   },
@@ -5488,6 +6706,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "o estabelecimento",
     "english": "establishment; shop",
+    "zhHans": "设立；店铺",
+    "zhHant": "設立；店鋪",
     "examplePt": "Entreguei a roupa no vosso estabelecimento.",
     "source": "pdf"
   },
@@ -5497,6 +6717,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tecnologia",
     "portuguese": "o telemóvel",
     "english": "mobile phone",
+    "zhHans": "手机/移动电话",
+    "zhHant": "手機/行動電話",
     "examplePt": "Comprei um telemóvel novo.",
     "source": "pdf"
   },
@@ -5506,6 +6728,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "o prazo",
     "english": "deadline",
+    "zhHans": "最后期限",
+    "zhHant": "最後期限",
     "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
     "source": "pdf"
   },
@@ -5515,6 +6739,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tipos de texto",
     "portuguese": "a carta de apresentação",
     "english": "cover letter",
+    "zhHans": "求职信",
+    "zhHant": "求職信",
     "examplePt": "Enviei a minha carta de apresentação.",
     "source": "pdf"
   },
@@ -5524,6 +6750,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tipos de texto",
     "portuguese": "a carta de reclamação",
     "english": "complaint letter",
+    "zhHans": "投诉信",
+    "zhHant": "投訴信",
     "examplePt": "Devemos escrever uma carta de reclamação.",
     "source": "pdf"
   },
@@ -5533,6 +6761,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tipos de texto",
     "portuguese": "a carta formal",
     "english": "formal letter",
+    "zhHans": "正式信函",
+    "zhHant": "正式信函",
     "examplePt": "Escrevi uma carta formal.",
     "source": "pdf"
   },
@@ -5542,6 +6772,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tipos de texto",
     "portuguese": "a mensagem",
     "english": "message",
+    "zhHans": "信息",
+    "zhHant": "訊息",
     "examplePt": "Mandei uma mensagem.",
     "source": "pdf"
   },
@@ -5551,6 +6783,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tipos de texto",
     "portuguese": "a notícia",
     "english": "news item",
+    "zhHans": "新闻项目",
+    "zhHant": "新聞項目",
     "examplePt": "Leia a notícia no jornal.",
     "source": "pdf"
   },
@@ -5560,6 +6794,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tipos de texto",
     "portuguese": "o e-mail",
     "english": "email",
+    "zhHans": "电子邮件",
+    "zhHant": "電子郵件",
     "examplePt": "Enviei o currículo por e-mail.",
     "source": "pdf"
   },
@@ -5569,6 +6805,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Vida diária",
     "portuguese": "o quotidiano",
     "english": "daily life",
+    "zhHans": "日常生活",
+    "zhHant": "日常生活",
     "examplePt": "O e-mail faz parte do nosso quotidiano.",
     "source": "pdf"
   },
@@ -5578,6 +6816,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Ações",
     "portuguese": "informar-se",
     "english": "to get informed",
+    "zhHans": "获得通知",
+    "zhHant": "獲得通知",
     "examplePt": "Tenta informar-se sobre os candidatos.",
     "source": "pdf"
   },
@@ -5587,6 +6827,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Ações",
     "portuguese": "proteger",
     "english": "to protect",
+    "zhHans": "保护",
+    "zhHant": "保護",
     "examplePt": "A associação protege os direitos dos imigrantes.",
     "source": "pdf"
   },
@@ -5596,6 +6838,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "a cidadania",
     "english": "citizenship",
+    "zhHans": "国籍",
+    "zhHant": "國籍",
     "examplePt": "Cidadania é a qualidade ou direito do cidadão.",
     "source": "pdf"
   },
@@ -5605,6 +6849,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "a democracia",
     "english": "democracy",
+    "zhHans": "民主",
+    "zhHant": "民主",
     "examplePt": "Vivemos em democracias.",
     "source": "pdf"
   },
@@ -5614,6 +6860,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "a discriminação",
     "english": "discrimination",
+    "zhHans": "歧视",
+    "zhHant": "歧視",
     "examplePt": "Devemos combater a discriminação.",
     "source": "pdf"
   },
@@ -5623,6 +6871,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "a eleição",
     "english": "election",
+    "zhHans": "选举",
+    "zhHant": "選舉",
     "examplePt": "Pode votar em eleições europeias.",
     "source": "pdf"
   },
@@ -5632,6 +6882,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "a nacionalidade",
     "english": "nationality",
+    "zhHans": "国籍",
+    "zhHant": "國籍",
     "examplePt": "Quero adquirir a nacionalidade portuguesa.",
     "source": "pdf"
   },
@@ -5641,6 +6893,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "a petição",
     "english": "petition",
+    "zhHans": "请愿",
+    "zhHant": "請願",
     "examplePt": "Pode apresentar petições.",
     "source": "pdf"
   },
@@ -5650,6 +6904,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "a sugestão",
     "english": "suggestion",
+    "zhHans": "建议",
+    "zhHant": "建議",
     "examplePt": "Pode apresentar sugestões.",
     "source": "pdf"
   },
@@ -5659,6 +6915,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "adquirir",
     "english": "to acquire",
+    "zhHans": "获得",
+    "zhHant": "獲得",
     "examplePt": "Quero adquirir a nacionalidade portuguesa.",
     "source": "pdf"
   },
@@ -5668,6 +6926,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "o cidadão",
     "english": "citizen",
+    "zhHans": "公民",
+    "zhHant": "國民",
     "examplePt": "Ser cidadão significa envolver-se na comunidade.",
     "source": "pdf"
   },
@@ -5677,6 +6937,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "o cidadão europeu",
     "english": "European citizen",
+    "zhHans": "欧洲公民",
+    "zhHant": "歐洲公民",
     "examplePt": "Ser cidadão europeu permite viajar e trabalhar.",
     "source": "pdf"
   },
@@ -5686,6 +6948,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "o vínculo jurídico",
     "english": "legal bond",
+    "zhHans": "法律保证",
+    "zhHant": "法律保證",
     "examplePt": "A nacionalidade é um vínculo jurídico.",
     "source": "pdf"
   },
@@ -5695,6 +6959,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "os direitos civis",
     "english": "civil rights",
+    "zhHans": "公民权利",
+    "zhHant": "公民權利",
     "examplePt": "O cidadão tem direitos civis.",
     "source": "pdf"
   },
@@ -5704,6 +6970,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "os direitos humanos",
     "english": "human rights",
+    "zhHans": "人权",
+    "zhHant": "人權",
     "examplePt": "As democracias respeitam os direitos humanos.",
     "source": "pdf"
   },
@@ -5713,6 +6981,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "voluntário(a)",
     "english": "volunteer",
+    "zhHans": "志愿者",
+    "zhHant": "志工",
     "examplePt": "O voluntário ajuda. A voluntária ajuda.",
     "source": "pdf"
   },
@@ -5722,6 +6992,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cidadania",
     "portuguese": "votar",
     "english": "to vote",
+    "zhHans": "投票",
+    "zhHant": "投票",
     "examplePt": "O cidadão pode votar.",
     "source": "pdf"
   },
@@ -5731,6 +7003,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Dinheiro",
     "portuguese": "poupar",
     "english": "to save money",
+    "zhHans": "为了省钱",
+    "zhHant": "為了省錢",
     "examplePt": "Conseguiram poupar e fazer uma viagem.",
     "source": "pdf"
   },
@@ -5740,6 +7014,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o certificado",
     "english": "certificate",
+    "zhHans": "证书",
+    "zhHant": "證書",
     "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
     "source": "pdf"
   },
@@ -5749,6 +7025,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o registo criminal",
     "english": "criminal record",
+    "zhHans": "犯罪记录",
+    "zhHant": "犯罪記錄",
     "examplePt": "É preciso ter o registo criminal.",
     "source": "pdf"
   },
@@ -5758,6 +7036,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "o requerimento",
     "english": "application form",
+    "zhHans": "申请表",
+    "zhHant": "申請表",
     "examplePt": "Deve juntar documentos ao requerimento.",
     "source": "pdf"
   },
@@ -5767,6 +7047,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "preencher",
     "english": "to fill in",
+    "zhHans": "填写",
+    "zhHant": "填寫",
     "examplePt": "Basta preencher o requerimento.",
     "source": "pdf"
   },
@@ -5776,6 +7058,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Documentos",
     "portuguese": "tratar de",
     "english": "to take care of",
+    "zhHans": "照顾",
+    "zhHant": "照顧",
     "examplePt": "Ajudam-te a tratar de tudo.",
     "source": "pdf"
   },
@@ -5785,6 +7069,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "o empregador",
     "english": "employer",
+    "zhHans": "雇主",
+    "zhHant": "雇主",
     "examplePt": "Alguns empregadores não observam os direitos dos trabalhadores.",
     "source": "pdf"
   },
@@ -5794,6 +7080,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "os direitos e deveres laborais",
     "english": "labour rights and duties",
+    "zhHans": "劳工权利和义务",
+    "zhHant": "勞工權利和義務",
     "examplePt": "Devemos informar-nos sobre os direitos e deveres laborais.",
     "source": "pdf"
   },
@@ -5803,6 +7091,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Habitação",
     "portuguese": "a renda elevada",
     "english": "high rent",
+    "zhHans": "高租金",
+    "zhHant": "高租金",
     "examplePt": "Há dificuldades devido às rendas elevadas.",
     "source": "pdf"
   },
@@ -5812,6 +7102,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Habitação",
     "portuguese": "fixar-se",
     "english": "to settle",
+    "zhHans": "解决",
+    "zhHant": "解決",
     "examplePt": "Acabou por fixar-se em Alfambras.",
     "source": "pdf"
   },
@@ -5821,6 +7113,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Habitação",
     "portuguese": "residir",
     "english": "to reside",
+    "zhHans": "居住",
+    "zhHant": "居住",
     "examplePt": "Pode residir no espaço europeu.",
     "source": "pdf"
   },
@@ -5830,6 +7124,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instituições",
     "portuguese": "a associação de imigrantes",
     "english": "immigrant association",
+    "zhHans": "移民协会",
+    "zhHant": "移民協會",
     "examplePt": "A associação de imigrantes protege direitos.",
     "source": "pdf"
   },
@@ -5839,6 +7135,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instituições",
     "portuguese": "a Câmara Municipal",
     "english": "city council",
+    "zhHans": "市议会",
+    "zhHant": "市議會",
     "examplePt": "É candidato à presidência da Câmara Municipal.",
     "source": "pdf"
   },
@@ -5848,6 +7146,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instituições",
     "portuguese": "a instituição",
     "english": "institution",
+    "zhHans": "机构",
+    "zhHant": "機構",
     "examplePt": "O CNAI reúne diferentes instituições.",
     "source": "pdf"
   },
@@ -5857,6 +7157,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instituições",
     "portuguese": "a segurança social",
     "english": "social security",
+    "zhHans": "社会保障/社保",
+    "zhHant": "社會保障/社保",
     "examplePt": "O serviço apoia questões de segurança social.",
     "source": "pdf"
   },
@@ -5866,6 +7168,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Instituições",
     "portuguese": "o gabinete de apoio",
     "english": "support office",
+    "zhHans": "支持办公室",
+    "zhHant": "支援辦公室",
     "examplePt": "Existem gabinetes de apoio ao cidadão imigrante.",
     "source": "pdf"
   },
@@ -5875,6 +7179,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "a imigração",
     "english": "immigration",
+    "zhHans": "移民",
+    "zhHant": "移民",
     "examplePt": "O tema é a imigração.",
     "source": "pdf"
   },
@@ -5884,6 +7190,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "a regularização",
     "english": "regularisation",
+    "zhHans": "正则化",
+    "zhHant": "正規化",
     "examplePt": "O serviço apoia a regularização da situação legal.",
     "source": "pdf"
   },
@@ -5893,6 +7201,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "a situação legal",
     "english": "legal status",
+    "zhHans": "法律地位",
+    "zhHant": "法律地位",
     "examplePt": "É importante legalizar a sua situação.",
     "source": "pdf"
   },
@@ -5902,6 +7212,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "imigrante",
     "english": "immigrant",
+    "zhHans": "移民",
+    "zhHant": "移民",
     "examplePt": "O imigrante pediu informações. A imigrante pediu informações.",
     "source": "pdf"
   },
@@ -5911,6 +7223,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "legalizar",
     "english": "to legalise",
+    "zhHans": "使合法化",
+    "zhHant": "使合法化",
     "examplePt": "É importante legalizar a sua situação.",
     "source": "pdf"
   },
@@ -5920,6 +7234,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "o reagrupamento familiar",
     "english": "family reunification",
+    "zhHans": "家庭团聚",
+    "zhHant": "家庭團聚",
     "examplePt": "O CLAII apoia o reagrupamento familiar.",
     "source": "pdf"
   },
@@ -5929,6 +7245,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "o retorno voluntário",
     "english": "voluntary return",
+    "zhHans": "自愿返回",
+    "zhHant": "自願返回",
     "examplePt": "O serviço informa sobre retorno voluntário.",
     "source": "pdf"
   },
@@ -5938,6 +7256,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "os cuidados médicos",
     "english": "medical care",
+    "zhHans": "医疗保健",
+    "zhHant": "醫療保健",
     "examplePt": "Pode receber cuidados médicos.",
     "source": "pdf"
   },
@@ -5947,6 +7267,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "confidencial",
     "english": "confidential",
+    "zhHans": "机密的",
+    "zhHant": "機密的",
     "examplePt": "O serviço é confidencial e gratuito.",
     "source": "pdf"
   },
@@ -5956,6 +7278,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "gratuito(a)",
     "english": "free of charge",
+    "zhHans": "免费",
+    "zhHant": "免費",
     "examplePt": "O serviço é gratuito. A consulta é gratuita.",
     "source": "pdf"
   },
@@ -5965,6 +7289,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Serviços",
     "portuguese": "o balcão",
     "english": "counter",
+    "zhHans": "柜台/服务台",
+    "zhHant": "櫃台/服務台",
     "examplePt": "Falou do outro lado do balcão.",
     "source": "pdf"
   },
@@ -5974,6 +7300,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sociedade",
     "portuguese": "a comunidade",
     "english": "community",
+    "zhHans": "社区",
+    "zhHant": "社群",
     "examplePt": "Participa na vida da comunidade.",
     "source": "pdf"
   },
@@ -5983,6 +7311,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Sociedade",
     "portuguese": "a integração",
     "english": "integration",
+    "zhHans": "一体化",
+    "zhHant": "一體化",
     "examplePt": "O serviço apoia a integração dos imigrantes.",
     "source": "pdf"
   },
@@ -5992,6 +7322,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Trabalho",
     "portuguese": "pontual",
     "english": "punctual",
+    "zhHans": "准时",
+    "zhHant": "準時",
     "examplePt": "É importante ser pontual.",
     "source": "pdf"
   }

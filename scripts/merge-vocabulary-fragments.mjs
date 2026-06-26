@@ -41,6 +41,8 @@ for (const entry of entries) {
     theme: entry.theme.trim(),
     portuguese: entry.portuguese.trim(),
     english: entry.english.trim(),
+    zhHans: entry.zhHans.trim(),
+    zhHant: entry.zhHant.trim(),
     examplePt: entry.examplePt?.trim() || undefined,
     source: "pdf"
   });
@@ -57,7 +59,7 @@ writeFileSync("src/data/vocabulary.ts", output);
 console.log(`Merged ${entries.length} fragment entries into ${deduped.length} deduped vocabulary entries.`);
 
 function validateEntry(entry) {
-  for (const field of ["id", "modulo", "theme", "portuguese", "english", "source"]) {
+  for (const field of ["id", "modulo", "theme", "portuguese", "english", "zhHans", "zhHant", "source"]) {
     if (typeof entry[field] !== "string" || entry[field].trim() === "") {
       throw new Error(`Invalid or missing ${field}: ${JSON.stringify(entry)}`);
     }

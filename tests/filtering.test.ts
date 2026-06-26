@@ -3,8 +3,26 @@ import { filterEntries, getAnswer, getPrompt } from "../src/lib/filtering";
 import type { VocabularyEntry } from "../src/types";
 
 const entries: VocabularyEntry[] = [
-  { id: "one", modulo: "Modulo 1", theme: "Saude", portuguese: "a farmacia", english: "pharmacy", source: "seed" },
-  { id: "two", modulo: "Modulo 2", theme: "Compras", portuguese: "o recibo", english: "receipt", source: "seed" }
+  {
+    id: "one",
+    modulo: "Modulo 1",
+    theme: "Saude",
+    portuguese: "a farmacia",
+    english: "pharmacy",
+    zhHans: "药房",
+    zhHant: "藥房",
+    source: "seed"
+  },
+  {
+    id: "two",
+    modulo: "Modulo 2",
+    theme: "Compras",
+    portuguese: "o recibo",
+    english: "receipt",
+    zhHans: "收据",
+    zhHant: "收據",
+    source: "seed"
+  }
 ];
 
 describe("filtering", () => {
@@ -28,5 +46,8 @@ describe("filtering", () => {
   it("switches prompt and answer by direction", () => {
     expect(getPrompt(entries[0], "pt-en")).toBe("a farmacia");
     expect(getAnswer(entries[0], "en-pt")).toBe("a farmacia");
+    expect(getAnswer(entries[0], "pt-zh-hans")).toBe("药房");
+    expect(getPrompt(entries[0], "zh-hant-pt")).toBe("藥房");
+    expect(getAnswer(entries[0], "zh-hant-pt")).toBe("a farmacia");
   });
 });

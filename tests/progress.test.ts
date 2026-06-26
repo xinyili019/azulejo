@@ -3,8 +3,8 @@ import { recordReview, summarizeProgress } from "../src/lib/progress";
 import type { VocabularyEntry } from "../src/types";
 
 const entries: VocabularyEntry[] = [
-  { id: "one", modulo: "Modulo 1", theme: "A", portuguese: "ola", english: "hello", source: "seed" },
-  { id: "two", modulo: "Modulo 1", theme: "A", portuguese: "tchau", english: "bye", source: "seed" }
+  { id: "one", modulo: "Modulo 1", theme: "A", portuguese: "ola", english: "hello", zhHans: "你好", zhHant: "你好", source: "seed" },
+  { id: "two", modulo: "Modulo 1", theme: "A", portuguese: "tchau", english: "bye", zhHans: "再见", zhHant: "再見", source: "seed" }
 ];
 
 describe("progress", () => {

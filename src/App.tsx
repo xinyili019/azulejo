@@ -74,7 +74,7 @@ export default function App() {
         <header className="app-header">
           <div>
             <p className="eyebrow">European Portuguese A1 + A2</p>
-            <h1>Vocabulary trainer</h1>
+            <h1>Azulejo - build your Portuguese vocabulary</h1>
           </div>
           <div className="header-actions">
             <button className="icon-button" type="button" onClick={exportProgress} aria-label="Export progress">
@@ -104,6 +104,10 @@ export default function App() {
             <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
               <option value="pt-en">Portuguese to English</option>
               <option value="en-pt">English to Portuguese</option>
+              <option value="pt-zh-hans">葡萄牙语 → 简体中文</option>
+              <option value="zh-hans-pt">简体中文 → 葡萄牙语</option>
+              <option value="pt-zh-hant">葡萄牙語 → 繁體中文</option>
+              <option value="zh-hant-pt">繁體中文 → 葡萄牙語</option>
             </select>
           </label>
           <label className="toggle">

@@ -7,7 +7,9 @@
     "english": "yesterday",
     "examplePt": "Ontem fui ao cinema.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "昨天",
+    "zhHant": "昨天"
   },
   {
     "id": "m10-ir-ao-cinema",
@@ -17,7 +19,9 @@
     "english": "to go to the cinema",
     "examplePt": "Ontem fui ao cinema.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去电影院",
+    "zhHant": "去電影院"
   },
   {
     "id": "m10-recente",
@@ -27,7 +31,9 @@
     "english": "recent",
     "examplePt": "São acontecimentos recentes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "最近的",
+    "zhHant": "最近的"
   },
   {
     "id": "m10-ha-um-mes",
@@ -37,7 +43,9 @@
     "english": "a month ago",
     "examplePt": "Há um mês nós estivemos com os nossos tios.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一个月前",
+    "zhHant": "一個月前"
   },
   {
     "id": "m10-ha-dois-dias",
@@ -47,7 +55,9 @@
     "english": "two days ago",
     "examplePt": "Há dois dias a Manu encontrou a Padma.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "两天前",
+    "zhHant": "兩天前"
   },
   {
     "id": "m10-ultimamente",
@@ -57,7 +67,9 @@
     "english": "lately",
     "examplePt": "Ultimamente tem chovido muito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "最近",
+    "zhHant": "最近"
   },
   {
     "id": "m10-no-mes-passado",
@@ -67,7 +79,9 @@
     "english": "last month",
     "examplePt": "No mês passado não choveu.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "上个月",
+    "zhHant": "上個月"
   },
   {
     "id": "m10-antigamente",
@@ -77,7 +91,9 @@
     "english": "in the past",
     "examplePt": "Antigamente as pessoas andavam mais a pé.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "在过去",
+    "zhHant": "在過去"
   },
   {
     "id": "m10-a-pe",
@@ -87,7 +103,9 @@
     "english": "on foot",
     "examplePt": "Nós passeávamos muito a pé.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "徒步",
+    "zhHant": "健行"
   },
   {
     "id": "m10-de-carro",
@@ -97,7 +115,9 @@
     "english": "by car",
     "examplePt": "Nós temos passeado de carro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "开车",
+    "zhHant": "開車"
   },
   {
     "id": "m10-costumar",
@@ -107,7 +127,9 @@
     "english": "to usually do",
     "examplePt": "Eu costumava ler.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "通常做",
+    "zhHant": "通常做"
   },
   {
     "id": "m10-navegar-na-net",
@@ -117,7 +139,9 @@
     "english": "to browse the internet",
     "examplePt": "Eu tenho navegado na net.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "浏览互联网",
+    "zhHant": "瀏覽網路"
   },
   {
     "id": "m10-cedo",
@@ -127,7 +151,9 @@
     "english": "early",
     "examplePt": "Ela acordava cedo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "早期的",
+    "zhHant": "早期的"
   },
   {
     "id": "m10-tarde",
@@ -137,7 +163,9 @@
     "english": "late",
     "examplePt": "Ela tem acordado tarde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "晚的",
+    "zhHant": "晚的"
   },
   {
     "id": "m10-perder-o-emprego",
@@ -147,7 +175,9 @@
     "english": "to lose one's job",
     "examplePt": "O Santiago perdeu o emprego.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "失去工作",
+    "zhHant": "失去工作"
   },
   {
     "id": "m10-procurar-emprego",
@@ -157,7 +187,9 @@
     "english": "to look for work",
     "examplePt": "O Vladimir tem procurado emprego desde que chegou a Lisboa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "找工作",
+    "zhHant": "找工作"
   },
   {
     "id": "m10-estar-ocupado",
@@ -167,7 +199,9 @@
     "english": "to be busy",
     "examplePt": "Ele está ocupado. Ela está ocupada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "很忙",
+    "zhHant": "很忙"
   },
   {
     "id": "m10-tirar-ferias",
@@ -177,7 +211,9 @@
     "english": "to take holidays",
     "examplePt": "Tirei uns dias de férias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去度假",
+    "zhHant": "去度假"
   },
   {
     "id": "m10-descansar",
@@ -187,7 +223,9 @@
     "english": "to rest",
     "examplePt": "Tenho aproveitado para descansar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "休息",
+    "zhHant": "休息"
   },
   {
     "id": "m10-consultorio",
@@ -197,7 +235,9 @@
     "english": "doctor's office",
     "examplePt": "O Manuel está no consultório.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "医生办公室",
+    "zhHant": "醫生辦公室"
   },
   {
     "id": "m10-sentir-se-bem",
@@ -207,7 +247,9 @@
     "english": "to feel well",
     "examplePt": "Ultimamente não me tenho sentido bem.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "感觉良好",
+    "zhHant": "感覺良好"
   },
   {
     "id": "m10-dor-de-cabeca",
@@ -217,7 +259,9 @@
     "english": "headache",
     "examplePt": "Tenho tido muitas dores de cabeça.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "头痛",
+    "zhHant": "頭痛"
   },
   {
     "id": "m10-doenca",
@@ -227,7 +271,9 @@
     "english": "illness",
     "examplePt": "Sofre de alguma doença?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "疾病",
+    "zhHant": "身體不適"
   },
   {
     "id": "m10-depender-de",
@@ -237,7 +283,9 @@
     "english": "to depend on",
     "examplePt": "Lá em casa dependem de mim.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "依赖",
+    "zhHant": "依賴"
   },
   {
     "id": "m10-refeicao",
@@ -247,7 +295,9 @@
     "english": "meal",
     "examplePt": "Come as refeições a horas?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一顿饭",
+    "zhHant": "一頓飯"
   },
   {
     "id": "m10-alimentacao-saudavel",
@@ -257,7 +307,9 @@
     "english": "healthy diet",
     "examplePt": "Tem tido uma alimentação saudável?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "健康饮食",
+    "zhHant": "健康飲食"
   },
   {
     "id": "m10-stress",
@@ -267,7 +319,9 @@
     "english": "stress",
     "examplePt": "Tem de ter uma vida mais moderada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "压力",
+    "zhHant": "壓力"
   },
   {
     "id": "m10-sentir-falta-de",
@@ -277,7 +331,9 @@
     "english": "to miss",
     "examplePt": "Têm sentido falta do calor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "错过",
+    "zhHant": "錯過"
   },
   {
     "id": "m10-agencia-de-viagens",
@@ -287,7 +343,9 @@
     "english": "travel agency",
     "examplePt": "Ela trabalha numa agência de viagens.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "旅行社",
+    "zhHant": "旅行社"
   },
   {
     "id": "m10-bilhete-de-aviao",
@@ -297,7 +355,9 @@
     "english": "plane ticket",
     "examplePt": "Vendemos bilhetes de avião.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "机票",
+    "zhHant": "機票"
   },
   {
     "id": "m10-emigrar",
@@ -307,7 +367,9 @@
     "english": "to emigrate",
     "examplePt": "Foi a primeira da família a emigrar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "移民",
+    "zhHant": "移民"
   },
   {
     "id": "m10-saudades",
@@ -317,7 +379,9 @@
     "english": "longing; missing someone",
     "examplePt": "Têm saudades do peixe fresco.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "渴望;想念某人",
+    "zhHant": "渴望;想念某人"
   },
   {
     "id": "m10-mercearia",
@@ -327,7 +391,9 @@
     "english": "grocery shop",
     "examplePt": "Entramos na mercearia do Largo do Terreirinho.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "杂货店",
+    "zhHant": "雜貨店"
   },
   {
     "id": "m10-ate-agora",
@@ -337,7 +403,9 @@
     "english": "until now",
     "examplePt": "Até agora tenho gostado de viver em Portugal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "到目前为止",
+    "zhHant": "到目前為止"
   },
   {
     "id": "m10-desde-que",
@@ -347,7 +415,9 @@
     "english": "since",
     "examplePt": "Desde que chegaram, ele tem saído com eles.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自从",
+    "zhHant": "自從"
   },
   {
     "id": "m10-construcao-civil",
@@ -357,7 +427,9 @@
     "english": "construction work",
     "examplePt": "Ultimamente eles têm trabalhado na construção civil.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "建筑工程",
+    "zhHant": "建築工程"
   },
   {
     "id": "m11-noticia",
@@ -367,7 +439,9 @@
     "english": "news item",
     "examplePt": "Leia a notícia no jornal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "新闻项目",
+    "zhHant": "新聞項目"
   },
   {
     "id": "m11-mensagem",
@@ -377,7 +451,9 @@
     "english": "message",
     "examplePt": "Mandei uma mensagem.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "信息",
+    "zhHant": "訊息"
   },
   {
     "id": "m11-carta-formal",
@@ -387,7 +463,9 @@
     "english": "formal letter",
     "examplePt": "Escrevi uma carta formal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "正式信函",
+    "zhHant": "正式信函"
   },
   {
     "id": "m11-carta-de-apresentacao",
@@ -397,7 +475,9 @@
     "english": "cover letter",
     "examplePt": "Enviei a minha carta de apresentação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "求职信",
+    "zhHant": "求職信"
   },
   {
     "id": "m11-carta-de-reclamacao",
@@ -407,7 +487,9 @@
     "english": "complaint letter",
     "examplePt": "Devemos escrever uma carta de reclamação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "投诉信",
+    "zhHant": "投訴信"
   },
   {
     "id": "m11-email",
@@ -417,7 +499,9 @@
     "english": "email",
     "examplePt": "Enviei o currículo por e-mail.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "电子邮件",
+    "zhHant": "電子郵件"
   },
   {
     "id": "m11-exmo-senhor",
@@ -427,7 +511,9 @@
     "english": "Dear Sir",
     "examplePt": "Ex.mo Senhor, solicito uma informação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "尊敬的先生",
+    "zhHant": "尊敬的先生"
   },
   {
     "id": "m11-telemovel",
@@ -437,7 +523,9 @@
     "english": "mobile phone",
     "examplePt": "Comprei um telemóvel novo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "手机/移动电话",
+    "zhHant": "手機/行動電話"
   },
   {
     "id": "m11-marca",
@@ -447,7 +535,9 @@
     "english": "brand",
     "examplePt": "O telemóvel é da marca Vodafone.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "品牌",
+    "zhHant": "品牌"
   },
   {
     "id": "m11-urgencia",
@@ -457,7 +547,9 @@
     "english": "urgency",
     "examplePt": "Tenho muita urgência na receção do mesmo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "紧迫性",
+    "zhHant": "緊迫性"
   },
   {
     "id": "m11-rececao",
@@ -467,7 +559,9 @@
     "english": "receipt; reception",
     "examplePt": "A receção da encomenda foi rápida.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "收据;接待",
+    "zhHant": "收據;接待"
   },
   {
     "id": "m11-muito-atenciosamente",
@@ -477,7 +571,9 @@
     "english": "yours faithfully",
     "examplePt": "De V.ª Ex.ª, muito atenciosamente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "此致",
+    "zhHant": "此致"
   },
   {
     "id": "m11-dar-noticias",
@@ -487,7 +583,9 @@
     "english": "to keep in touch",
     "examplePt": "Dá notícias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "保持联系",
+    "zhHant": "保持聯繫"
   },
   {
     "id": "m11-diretor",
@@ -497,7 +595,9 @@
     "english": "director",
     "examplePt": "Enviei a carta ao diretor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "导演",
+    "zhHant": "導演"
   },
   {
     "id": "m11-recursos-humanos",
@@ -507,7 +607,9 @@
     "english": "human resources",
     "examplePt": "Falei com os Recursos Humanos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "人力资源",
+    "zhHant": "人力資源"
   },
   {
     "id": "m11-diploma",
@@ -517,7 +619,9 @@
     "english": "diploma",
     "examplePt": "Recebi o meu diploma de Informática.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "文凭",
+    "zhHant": "文憑"
   },
   {
     "id": "m11-competencia",
@@ -527,7 +631,9 @@
     "english": "skill; competence",
     "examplePt": "Desenvolvi competências na minha formação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "技能;权限",
+    "zhHant": "技能;權限"
   },
   {
     "id": "m11-entrevista",
@@ -537,7 +643,9 @@
     "english": "interview",
     "examplePt": "Gostaria de uma entrevista pessoal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "面试",
+    "zhHant": "面試"
   },
   {
     "id": "m11-anexo",
@@ -547,7 +655,9 @@
     "english": "attachment; enclosure",
     "examplePt": "Anexo: Currículo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "依恋;外壳",
+    "zhHant": "依戀;外殼"
   },
   {
     "id": "m11-curriculo",
@@ -557,7 +667,9 @@
     "english": "CV; resume",
     "examplePt": "Enviei o meu currículo por e-mail.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "简历;恢复",
+    "zhHant": "履歷;恢復"
   },
   {
     "id": "m11-assunto",
@@ -567,7 +679,9 @@
     "english": "subject",
     "examplePt": "Assunto: Reclamação por roupa estragada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "主题",
+    "zhHant": "主題"
   },
   {
     "id": "m11-roupa-estragada",
@@ -577,7 +691,9 @@
     "english": "damaged clothing",
     "examplePt": "A reclamação é por roupa estragada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "损坏的衣服",
+    "zhHant": "損壞的衣服"
   },
   {
     "id": "m11-lavandaria",
@@ -587,7 +703,9 @@
     "english": "launderette; laundry",
     "examplePt": "Entreguei o fato na lavandaria.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自助洗衣店；洗衣店",
+    "zhHant": "自助洗衣店；洗衣店"
   },
   {
     "id": "m11-estabelecimento",
@@ -597,7 +715,9 @@
     "english": "establishment; shop",
     "examplePt": "Entreguei a roupa no vosso estabelecimento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "设立；店铺",
+    "zhHant": "設立；店鋪"
   },
   {
     "id": "m11-fato",
@@ -607,7 +727,9 @@
     "english": "suit",
     "examplePt": "Entreguei um fato cinzento escuro.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "套装",
+    "zhHant": "套裝"
   },
   {
     "id": "m11-talao",
@@ -617,7 +739,9 @@
     "english": "receipt slip",
     "examplePt": "Junto cópia do talão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "收据单",
+    "zhHant": "收據單"
   },
   {
     "id": "m11-estrago",
@@ -627,7 +751,9 @@
     "english": "damage",
     "examplePt": "A empresa é responsável pelos estragos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "损害",
+    "zhHant": "損害"
   },
   {
     "id": "m11-exigir",
@@ -637,7 +763,9 @@
     "english": "to demand",
     "examplePt": "Exijo uma indemnização.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "要求",
+    "zhHant": "要求"
   },
   {
     "id": "m11-indemnizacao",
@@ -647,7 +775,9 @@
     "english": "compensation",
     "examplePt": "Exijo uma indemnização de 150 euros.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "赔偿",
+    "zhHant": "賠償"
   },
   {
     "id": "m11-montante",
@@ -657,7 +787,9 @@
     "english": "amount",
     "examplePt": "O montante é igual ao seu valor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "数量",
+    "zhHant": "數量"
   },
   {
     "id": "m11-recibo",
@@ -667,7 +799,9 @@
     "english": "receipt",
     "examplePt": "Junto cópia do recibo de compra.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "收据/付款凭证",
+    "zhHant": "收據/付款憑證"
   },
   {
     "id": "m11-prazo",
@@ -677,7 +811,9 @@
     "english": "deadline",
     "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "最后期限",
+    "zhHant": "最後期限"
   },
   {
     "id": "m11-recorrer",
@@ -687,7 +823,9 @@
     "english": "to resort; appeal",
     "examplePt": "Vou recorrer a todos os meios legais.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "去度假村；上诉",
+    "zhHant": "去度假村；上訴"
   },
   {
     "id": "m11-meios-legais",
@@ -697,7 +835,9 @@
     "english": "legal means",
     "examplePt": "Vou recorrer a todos os meios legais.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "合法手段",
+    "zhHant": "合法手段"
   },
   {
     "id": "m11-ingrediente",
@@ -707,7 +847,9 @@
     "english": "ingredient",
     "examplePt": "Misture os ingredientes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "成分",
+    "zhHant": "成分"
   },
   {
     "id": "m11-chavena",
@@ -717,7 +859,9 @@
     "english": "cup",
     "examplePt": "Use uma chávena de açúcar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "杯子",
+    "zhHant": "杯子"
   },
   {
     "id": "m11-frigorifico",
@@ -727,7 +871,9 @@
     "english": "refrigerator",
     "examplePt": "Leve ao frigorífico durante quatro horas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "冰箱",
+    "zhHant": "冰箱"
   },
   {
     "id": "m11-reclamar",
@@ -737,7 +883,9 @@
     "english": "to complain",
     "examplePt": "Temos de reclamar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "抱怨",
+    "zhHant": "抱怨"
   },
   {
     "id": "m11-queixa",
@@ -747,7 +895,9 @@
     "english": "complaint",
     "examplePt": "A DECO tem recebido queixas de consumidores.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "抱怨",
+    "zhHant": "抱怨"
   },
   {
     "id": "m11-consumidor",
@@ -757,7 +907,9 @@
     "english": "consumer",
     "examplePt": "Os consumidores fizeram queixas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "消费者",
+    "zhHant": "消費者"
   },
   {
     "id": "m11-candidatura",
@@ -767,7 +919,9 @@
     "english": "application",
     "examplePt": "Saiu o resultado das candidaturas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "应用",
+    "zhHant": "應用"
   },
   {
     "id": "m11-vaga",
@@ -777,7 +931,9 @@
     "english": "vacancy",
     "examplePt": "Candidatei-me à vaga de tradutor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "空缺",
+    "zhHant": "空缺"
   },
   {
     "id": "m11-tradutor",
@@ -787,7 +943,9 @@
     "english": "translator",
     "examplePt": "Há uma vaga de tradutor.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "翻译者",
+    "zhHant": "翻譯者"
   },
   {
     "id": "m11-ser-contactado",
@@ -797,7 +955,9 @@
     "english": "to be contacted",
     "examplePt": "Pode ser contactado por telefone. Pode ser contactada por telefone.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "待联系",
+    "zhHant": "待聯繫"
   },
   {
     "id": "m11-pastel-de-bacalhau",
@@ -807,7 +967,9 @@
     "english": "codfish cake",
     "examplePt": "Tens de explicar como se fazem os pastéis de bacalhau.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "鳕鱼饼",
+    "zhHant": "鱈魚餅"
   },
   {
     "id": "m11-especialidade",
@@ -817,7 +979,9 @@
     "english": "specialty",
     "examplePt": "A especialidade são os bolinhos de bacalhau.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "专业",
+    "zhHant": "專業"
   },
   {
     "id": "m11-ferramenta",
@@ -827,7 +991,9 @@
     "english": "tool",
     "examplePt": "Esta ferramenta tem regras próprias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "工具",
+    "zhHant": "工具"
   },
   {
     "id": "m11-destinatario",
@@ -837,7 +1003,9 @@
     "english": "recipient",
     "examplePt": "Não conhecemos o destinatário.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "接受者",
+    "zhHant": "接受者"
   },
   {
     "id": "m11-quotidiano",
@@ -847,7 +1015,9 @@
     "english": "daily life",
     "examplePt": "O e-mail faz parte do nosso quotidiano.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "日常生活",
+    "zhHant": "日常生活"
   },
   {
     "id": "m11-nota-de-dez-euros",
@@ -857,7 +1027,9 @@
     "english": "10-euro banknote",
     "examplePt": "A nova nota de 10 euros é apresentada segunda-feira.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "10欧元纸币",
+    "zhHant": "10歐元紙幣"
   },
   {
     "id": "m11-negligencia",
@@ -867,7 +1039,9 @@
     "english": "negligence",
     "examplePt": "Assunto: Negligência dos serviços do Centro de Saúde.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "疏忽",
+    "zhHant": "疏忽"
   },
   {
     "id": "m11-residente",
@@ -877,7 +1051,9 @@
     "english": "resident",
     "examplePt": "Olga Ivanova é residente em Lisboa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "居民",
+    "zhHant": "居民"
   },
   {
     "id": "m11-queixar-se",
@@ -887,7 +1063,9 @@
     "english": "to complain of",
     "examplePt": "Começou a queixar-se de fortes dores.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "抱怨",
+    "zhHant": "抱怨"
   },
   {
     "id": "m11-ombro",
@@ -897,7 +1075,9 @@
     "english": "shoulder",
     "examplePt": "Tinha dores no ombro direito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "肩膀",
+    "zhHant": "肩膀"
   },
   {
     "id": "m11-fratura",
@@ -907,7 +1087,9 @@
     "english": "fracture",
     "examplePt": "Ele tinha uma fratura muito grave.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "断裂",
+    "zhHant": "斷裂"
   },
   {
     "id": "m11-grave",
@@ -917,7 +1099,9 @@
     "english": "serious",
     "examplePt": "O problema era grave.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "严肃的",
+    "zhHant": "嚴肅的"
   },
   {
     "id": "m11-preferencia",
@@ -927,7 +1111,9 @@
     "english": "preference",
     "examplePt": "O futebol está em primeiro lugar na preferência.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "偏爱",
+    "zhHant": "偏愛"
   },
   {
     "id": "m11-que",
@@ -937,7 +1123,9 @@
     "english": "that; which; who",
     "examplePt": "Os empregados que nos serviram eram simpáticos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "那;哪个; WHO",
+    "zhHant": "那;哪一個; WHO"
   },
   {
     "id": "m11-quem",
@@ -947,7 +1135,9 @@
     "english": "who; whom",
     "examplePt": "O dono com quem falámos deu-nos este cartão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "WHO;谁",
+    "zhHant": "WHO;誰"
   },
   {
     "id": "m11-onde",
@@ -957,7 +1147,9 @@
     "english": "where",
     "examplePt": "O restaurante onde almoçámos era excelente.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "在哪里",
+    "zhHant": "在哪裡"
   },
   {
     "id": "m11-pelo",
@@ -967,7 +1159,9 @@
     "english": "by; through; along",
     "examplePt": "Passe pelo banco. Passe pela farmácia.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "经过;通过;沿着",
+    "zhHant": "經過;通過;沿著"
   },
   {
     "id": "m11-assaltar",
@@ -977,7 +1171,9 @@
     "english": "to rob",
     "examplePt": "O banco foi assaltado ontem de manhã.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "抢劫",
+    "zhHant": "搶劫"
   },
   {
     "id": "m11-alguem",
@@ -987,7 +1183,9 @@
     "english": "someone",
     "examplePt": "Alguém sabe onde fica o ACM?",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "某人",
+    "zhHant": "某人"
   },
   {
     "id": "m11-ninguem",
@@ -997,7 +1195,9 @@
     "english": "no one",
     "examplePt": "Ninguém deve estar ilegal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "没有人",
+    "zhHant": "沒有人"
   },
   {
     "id": "m11-tudo",
@@ -1007,7 +1207,9 @@
     "english": "everything",
     "examplePt": "Tenho tudo preparado para partir.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一切",
+    "zhHant": "一切"
   },
   {
     "id": "m11-nada",
@@ -1017,7 +1219,9 @@
     "english": "nothing",
     "examplePt": "Não quero comprar nada.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "没有什么",
+    "zhHant": "沒有什麼"
   },
   {
     "id": "m11-varios",
@@ -1027,7 +1231,9 @@
     "english": "several (masculine plural)",
     "examplePt": "Tenho vários documentos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "几个（阳性复数）",
+    "zhHant": "幾個（陽性複數）"
   },
   {
     "id": "m11-varias",
@@ -1037,7 +1243,9 @@
     "english": "several (feminine plural)",
     "examplePt": "Tenho várias perguntas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "几个（阴性复数）",
+    "zhHant": "幾（陰性複數）"
   },
   {
     "id": "m12-cidadania",
@@ -1047,7 +1255,9 @@
     "english": "citizenship",
     "examplePt": "Cidadania é a qualidade ou direito do cidadão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "国籍",
+    "zhHant": "國籍"
   },
   {
     "id": "m12-cidadao",
@@ -1057,7 +1267,9 @@
     "english": "citizen",
     "examplePt": "Ser cidadão significa envolver-se na comunidade.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "公民",
+    "zhHant": "國民"
   },
   {
     "id": "m12-direitos-civis",
@@ -1067,7 +1279,9 @@
     "english": "civil rights",
     "examplePt": "O cidadão tem direitos civis.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "公民权利",
+    "zhHant": "公民權利"
   },
   {
     "id": "m12-integracao",
@@ -1077,7 +1291,9 @@
     "english": "integration",
     "examplePt": "O serviço apoia a integração dos imigrantes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "一体化",
+    "zhHant": "一體化"
   },
   {
     "id": "m12-imigrante",
@@ -1087,7 +1303,9 @@
     "english": "immigrant",
     "examplePt": "O imigrante pediu informações. A imigrante pediu informações.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "移民",
+    "zhHant": "移民"
   },
   {
     "id": "m12-nacionalidade",
@@ -1097,7 +1315,9 @@
     "english": "nationality",
     "examplePt": "Quero adquirir a nacionalidade portuguesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "国籍",
+    "zhHant": "國籍"
   },
   {
     "id": "m12-vinculo-juridico",
@@ -1107,7 +1327,9 @@
     "english": "legal bond",
     "examplePt": "A nacionalidade é um vínculo jurídico.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "法律保证",
+    "zhHant": "法律保證"
   },
   {
     "id": "m12-regularizacao",
@@ -1117,7 +1339,9 @@
     "english": "regularisation",
     "examplePt": "O serviço apoia a regularização da situação legal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "正则化",
+    "zhHant": "正規化"
   },
   {
     "id": "m12-situacao-legal",
@@ -1127,7 +1351,9 @@
     "english": "legal status",
     "examplePt": "É importante legalizar a sua situação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "法律地位",
+    "zhHant": "法律地位"
   },
   {
     "id": "m12-reagrupamento-familiar",
@@ -1137,7 +1363,9 @@
     "english": "family reunification",
     "examplePt": "O CLAII apoia o reagrupamento familiar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "家庭团聚",
+    "zhHant": "家庭團聚"
   },
   {
     "id": "m12-retorno-voluntario",
@@ -1147,7 +1375,9 @@
     "english": "voluntary return",
     "examplePt": "O serviço informa sobre retorno voluntário.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "自愿返回",
+    "zhHant": "自願返回"
   },
   {
     "id": "m12-seguranca-social",
@@ -1157,7 +1387,9 @@
     "english": "social security",
     "examplePt": "O serviço apoia questões de segurança social.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "社会保障/社保",
+    "zhHant": "社會保障/社保"
   },
   {
     "id": "m12-confidencial",
@@ -1167,7 +1399,9 @@
     "english": "confidential",
     "examplePt": "O serviço é confidencial e gratuito.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "机密的",
+    "zhHant": "機密的"
   },
   {
     "id": "m12-gratuito",
@@ -1177,7 +1411,9 @@
     "english": "free of charge",
     "examplePt": "O serviço é gratuito. A consulta é gratuita.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "免费",
+    "zhHant": "免費"
   },
   {
     "id": "m12-associacao-de-imigrantes",
@@ -1187,7 +1423,9 @@
     "english": "immigrant association",
     "examplePt": "A associação de imigrantes protege direitos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "移民协会",
+    "zhHant": "移民協會"
   },
   {
     "id": "m12-proteger",
@@ -1197,7 +1435,9 @@
     "english": "to protect",
     "examplePt": "A associação protege os direitos dos imigrantes.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "保护",
+    "zhHant": "保護"
   },
   {
     "id": "m12-instituicao",
@@ -1207,7 +1447,9 @@
     "english": "institution",
     "examplePt": "O CNAI reúne diferentes instituições.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "机构",
+    "zhHant": "機構"
   },
   {
     "id": "m12-gabinete-de-apoio",
@@ -1217,7 +1459,9 @@
     "english": "support office",
     "examplePt": "Existem gabinetes de apoio ao cidadão imigrante.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "支持办公室",
+    "zhHant": "支援辦公室"
   },
   {
     "id": "m12-imigracao",
@@ -1227,7 +1471,9 @@
     "english": "immigration",
     "examplePt": "O tema é a imigração.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "移民",
+    "zhHant": "移民"
   },
   {
     "id": "m12-adquirir",
@@ -1237,7 +1483,9 @@
     "english": "to acquire",
     "examplePt": "Quero adquirir a nacionalidade portuguesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "获得",
+    "zhHant": "獲得"
   },
   {
     "id": "m12-requerimento",
@@ -1247,7 +1495,9 @@
     "english": "application form",
     "examplePt": "Deve juntar documentos ao requerimento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "申请表",
+    "zhHant": "申請表"
   },
   {
     "id": "m12-certificado",
@@ -1257,7 +1507,9 @@
     "english": "certificate",
     "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "证书",
+    "zhHant": "證書"
   },
   {
     "id": "m12-preencher",
@@ -1267,7 +1519,9 @@
     "english": "to fill in",
     "examplePt": "Basta preencher o requerimento.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "填写",
+    "zhHant": "填寫"
   },
   {
     "id": "m12-tratar-de",
@@ -1277,7 +1531,9 @@
     "english": "to take care of",
     "examplePt": "Ajudam-te a tratar de tudo.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "照顾",
+    "zhHant": "照顧"
   },
   {
     "id": "m12-comunidade",
@@ -1287,7 +1543,9 @@
     "english": "community",
     "examplePt": "Participa na vida da comunidade.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "社区",
+    "zhHant": "社群"
   },
   {
     "id": "m12-democracia",
@@ -1297,7 +1555,9 @@
     "english": "democracy",
     "examplePt": "Vivemos em democracias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "民主",
+    "zhHant": "民主"
   },
   {
     "id": "m12-direitos-humanos",
@@ -1307,7 +1567,9 @@
     "english": "human rights",
     "examplePt": "As democracias respeitam os direitos humanos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "人权",
+    "zhHant": "人權"
   },
   {
     "id": "m12-discriminacao",
@@ -1317,7 +1579,9 @@
     "english": "discrimination",
     "examplePt": "Devemos combater a discriminação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "歧视",
+    "zhHant": "歧視"
   },
   {
     "id": "m12-cidadao-europeu",
@@ -1327,7 +1591,9 @@
     "english": "European citizen",
     "examplePt": "Ser cidadão europeu permite viajar e trabalhar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "欧洲公民",
+    "zhHant": "歐洲公民"
   },
   {
     "id": "m12-residir",
@@ -1337,7 +1603,9 @@
     "english": "to reside",
     "examplePt": "Pode residir no espaço europeu.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "居住",
+    "zhHant": "居住"
   },
   {
     "id": "m12-cuidados-medicos",
@@ -1347,7 +1615,9 @@
     "english": "medical care",
     "examplePt": "Pode receber cuidados médicos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "医疗保健",
+    "zhHant": "醫療保健"
   },
   {
     "id": "m12-voluntario",
@@ -1357,7 +1627,9 @@
     "english": "volunteer",
     "examplePt": "O voluntário ajuda. A voluntária ajuda.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "志愿者",
+    "zhHant": "志工"
   },
   {
     "id": "m12-votar",
@@ -1367,7 +1639,9 @@
     "english": "to vote",
     "examplePt": "O cidadão pode votar.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "投票",
+    "zhHant": "投票"
   },
   {
     "id": "m12-eleicao",
@@ -1377,7 +1651,9 @@
     "english": "election",
     "examplePt": "Pode votar em eleições europeias.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "选举",
+    "zhHant": "選舉"
   },
   {
     "id": "m12-peticao",
@@ -1387,7 +1663,9 @@
     "english": "petition",
     "examplePt": "Pode apresentar petições.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "请愿",
+    "zhHant": "請願"
   },
   {
     "id": "m12-sugestao",
@@ -1397,7 +1675,9 @@
     "english": "suggestion",
     "examplePt": "Pode apresentar sugestões.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "建议",
+    "zhHant": "建議"
   },
   {
     "id": "m12-fixar-se",
@@ -1407,7 +1687,9 @@
     "english": "to settle",
     "examplePt": "Acabou por fixar-se em Alfambras.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "解决",
+    "zhHant": "解決"
   },
   {
     "id": "m12-camara-municipal",
@@ -1417,7 +1699,9 @@
     "english": "city council",
     "examplePt": "É candidato à presidência da Câmara Municipal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "市议会",
+    "zhHant": "市議會"
   },
   {
     "id": "m12-balcao",
@@ -1427,7 +1711,9 @@
     "english": "counter",
     "examplePt": "Falou do outro lado do balcão.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "柜台/服务台",
+    "zhHant": "櫃台/服務台"
   },
   {
     "id": "m12-informar-se",
@@ -1437,7 +1723,9 @@
     "english": "to get informed",
     "examplePt": "Tenta informar-se sobre os candidatos.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "获得通知",
+    "zhHant": "獲得通知"
   },
   {
     "id": "m12-renda-elevada",
@@ -1447,7 +1735,9 @@
     "english": "high rent",
     "examplePt": "Há dificuldades devido às rendas elevadas.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "高租金",
+    "zhHant": "高租金"
   },
   {
     "id": "m12-empregador",
@@ -1457,7 +1747,9 @@
     "english": "employer",
     "examplePt": "Alguns empregadores não observam os direitos dos trabalhadores.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "雇主",
+    "zhHant": "雇主"
   },
   {
     "id": "m12-direitos-e-deveres-laborais",
@@ -1467,7 +1759,9 @@
     "english": "labour rights and duties",
     "examplePt": "Devemos informar-nos sobre os direitos e deveres laborais.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "劳工权利和义务",
+    "zhHant": "勞工權利和義務"
   },
   {
     "id": "m12-legalizar",
@@ -1477,7 +1771,9 @@
     "english": "to legalise",
     "examplePt": "É importante legalizar a sua situação.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "使合法化",
+    "zhHant": "使合法化"
   },
   {
     "id": "m12-pontual",
@@ -1487,7 +1783,9 @@
     "english": "punctual",
     "examplePt": "É importante ser pontual.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "准时",
+    "zhHant": "準時"
   },
   {
     "id": "m12-poupar",
@@ -1497,7 +1795,9 @@
     "english": "to save money",
     "examplePt": "Conseguiram poupar e fazer uma viagem.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "为了省钱",
+    "zhHant": "為了省錢"
   },
   {
     "id": "m12-registo-criminal",
@@ -1507,6 +1807,8 @@
     "english": "criminal record",
     "examplePt": "É preciso ter o registo criminal.",
     "note": "",
-    "source": "pdf"
+    "source": "pdf",
+    "zhHans": "犯罪记录",
+    "zhHant": "犯罪記錄"
   }
 ]
