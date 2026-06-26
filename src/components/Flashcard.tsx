@@ -1,4 +1,4 @@
-import { ThumbsDown, ThumbsUp } from "lucide-react";
+import { ThumbsDown, ThumbsUp, Volume2 } from "lucide-react";
 import type { Direction, VocabularyEntry } from "../types";
 import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
@@ -14,6 +14,43 @@ interface FlashcardProps {
 }
 
 export function Flashcard({ entry, direction, revealed, ui, onToggleReveal, onAgain, onKnown }: FlashcardProps) {
+  function handlePronunciation() {
+    if (
+      typeof window === "undefined" ||
+      !("speechSynthesis" in window) ||
+      !("SpeechSynthesisUtterance" in window)
+    ) {
+      return;
+    }
+
+    const utterance = new window.SpeechSynthesisUtterance(entry.portuguese);
+    const voices = window.speechSynthesis.getVoices();
+    const voice =
+      voices.find((candidate) => candidate.lang.toLowerCase() === "pt-pt") ??
+      voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt-pt")) ??
+      voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt"));
+
+    utterance.lang = voice?.lang ?? "pt-PT";
+    utterance.voice = voice ?? null;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function renderPronunciationButton(className: string) {
+    return (
+      <button
+        className={className}
+        type="button"
+        onClick={handlePronunciation}
+        aria-label={ui.listen}
+        title={ui.listen}
+      >
+        <Volume2 size={18} aria-hidden="true" />
+        {ui.listen}
+      </button>
+    );
+  }
+
   return (
     <section className="flashcard" aria-label={ui.flashcard}>
       <button
@@ -36,7 +73,9 @@ export function Flashcard({ entry, direction, revealed, ui, onToggleReveal, onAg
           </span>
         </span>
       </button>
+      {!revealed && renderPronunciationButton("pronunciation-control pronunciation-control-front")}
       <div className={`card-actions ${revealed ? "is-visible" : ""}`} aria-hidden={!revealed}>
+        {revealed && renderPronunciationButton("pronunciation-control pronunciation-control-back")}
         <button className="secondary" type="button" onClick={onAgain} disabled={!revealed}>
           <ThumbsDown size={18} aria-hidden="true" />
           {ui.again}

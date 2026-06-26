@@ -14,6 +14,7 @@ export interface UiCopy {
   studyControls: string;
   revealAnswer: string;
   hideAnswer: string;
+  listen: string;
   again: string;
   known: string;
   flashcard: string;
@@ -40,6 +41,7 @@ const copy: Record<UiLocale, UiCopy> = {
     studyControls: "Study controls",
     revealAnswer: "Reveal answer",
     hideAnswer: "Hide answer",
+    listen: "Ouvir",
     again: "Again",
     known: "Known",
     flashcard: "Flashcard",
@@ -64,6 +66,7 @@ const copy: Record<UiLocale, UiCopy> = {
     studyControls: "学习控制",
     revealAnswer: "显示答案",
     hideAnswer: "隐藏答案",
+    listen: "听发音",
     again: "再练习",
     known: "已掌握",
     flashcard: "单词卡",
@@ -88,6 +91,7 @@ const copy: Record<UiLocale, UiCopy> = {
     studyControls: "學習控制",
     revealAnswer: "顯示答案",
     hideAnswer: "隱藏答案",
+    listen: "聽發音",
     again: "再練習",
     known: "已掌握",
     flashcard: "單字卡",

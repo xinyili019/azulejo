@@ -76,7 +76,8 @@ export default function App() {
         <header className="app-header">
           <div>
             <p className="eyebrow">European Portuguese A1 + A2</p>
-            <h1>Azulejo - build your Portuguese vocabulary</h1>
+            <h1>Azulejo</h1>
+            <p className="app-subtitle">build your Portuguese vocabulary</p>
           </div>
           <div className="header-actions">
             <button className="icon-button" type="button" onClick={exportProgress} aria-label={ui.exportProgress}>
