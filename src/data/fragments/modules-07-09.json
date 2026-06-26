@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "m7-empregado-mesa",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "o empregado de mesa",
+    "english": "waiter",
+    "examplePt": "O empregado de mesa serve à mesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-restaurante",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "o restaurante",
+    "english": "restaurant",
+    "examplePt": "Ele trabalha num restaurante.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-cafe",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "o café",
+    "english": "café",
+    "examplePt": "Ela trabalha num café.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-pano",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "o pano",
+    "english": "cloth",
+    "examplePt": "Uso um pano para limpar a mesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-servir-mesa",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "servir à mesa",
+    "english": "to wait tables",
+    "examplePt": "Ela sabe servir à mesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-por-mesa",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "pôr a mesa",
+    "english": "to set the table",
+    "examplePt": "Vou pôr a mesa antes do jantar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-levantar-mesa",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "levantar a mesa",
+    "english": "to clear the table",
+    "examplePt": "Depois do almoço, ele levanta a mesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-cozinheiro",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "o cozinheiro",
+    "english": "cook",
+    "examplePt": "O cozinheiro trabalha na cozinha.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-cozinha",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "a cozinha",
+    "english": "kitchen",
+    "examplePt": "A cozinha está limpa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-luvas",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "as luvas",
+    "english": "gloves",
+    "examplePt": "Use luvas no trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-avental",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "o avental",
+    "english": "apron",
+    "examplePt": "Ela põe o avental na cozinha.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-preparar-alimentos",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "preparar os alimentos",
+    "english": "to prepare food",
+    "examplePt": "O cozinheiro prepara os alimentos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-cozinhar",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "cozinhar",
+    "english": "to cook",
+    "examplePt": "Gosto de cozinhar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-pedreiro",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "o pedreiro",
+    "english": "bricklayer",
+    "examplePt": "O pedreiro trabalha nas obras.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-obras",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "as obras",
+    "english": "building site",
+    "examplePt": "Ele trabalha nas obras.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-cimento",
+    "modulo": "Módulo 7",
+    "theme": "Materiais",
+    "portuguese": "o cimento",
+    "english": "cement",
+    "examplePt": "Precisamos de dois sacos de cimento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-cabeleireira",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "a cabeleireira",
+    "english": "hairdresser",
+    "examplePt": "A cabeleireira corta o cabelo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-salao-cabeleireiro",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "o salão de cabeleireiro",
+    "english": "hair salon",
+    "examplePt": "Ela trabalha num salão de cabeleireiro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-escova",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "a escova",
+    "english": "brush",
+    "examplePt": "A escova está na mesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-secador",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "o secador",
+    "english": "hair dryer",
+    "examplePt": "Uso o secador para secar o cabelo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-tesoura",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "a tesoura",
+    "english": "scissors",
+    "examplePt": "A tesoura corta o cabelo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-lavar-cabeca",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "lavar a cabeça",
+    "english": "to wash hair",
+    "examplePt": "A cabeleireira lava a cabeça da cliente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-cortar-cabelo",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "cortar o cabelo",
+    "english": "to cut hair",
+    "examplePt": "Vou cortar o cabelo amanhã.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-pentear",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "pentear",
+    "english": "to comb",
+    "examplePt": "Ela penteia o cabelo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-empregada-limpeza",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "a empregada de limpeza",
+    "english": "cleaner",
+    "examplePt": "A empregada de limpeza trabalha em casas particulares.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-casas-particulares",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "as casas particulares",
+    "english": "private homes",
+    "examplePt": "Ela limpa casas particulares.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-empresas",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "as empresas",
+    "english": "companies",
+    "examplePt": "Muitas pessoas trabalham em empresas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-esfregona",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "a esfregona",
+    "english": "mop",
+    "examplePt": "Uso a esfregona para lavar o chão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-vassoura",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "a vassoura",
+    "english": "broom",
+    "examplePt": "A vassoura está atrás da porta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-aspirador",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "o aspirador",
+    "english": "vacuum cleaner",
+    "examplePt": "O aspirador faz barulho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-limpar-po",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "limpar o pó",
+    "english": "to dust",
+    "examplePt": "Vou limpar o pó da secretária.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-aspirar",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "aspirar",
+    "english": "to vacuum",
+    "examplePt": "Ela aspira o chão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-lavar-chao",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "lavar o chão",
+    "english": "to mop the floor",
+    "examplePt": "Ele lava o chão da cozinha.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-agricultor",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "o agricultor",
+    "english": "farmer",
+    "examplePt": "O agricultor trabalha no campo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-secretaria",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "a secretária",
+    "english": "secretary",
+    "examplePt": "A secretária atende o telefone.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-escritorios",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "os escritórios",
+    "english": "offices",
+    "examplePt": "Os escritórios abrem às nove.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-computador",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "o computador",
+    "english": "computer",
+    "examplePt": "Uso o computador no escritório.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-telefone",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "o telefone",
+    "english": "telephone",
+    "examplePt": "Ela fala ao telefone.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-papel",
+    "modulo": "Módulo 7",
+    "theme": "Instrumentos de trabalho",
+    "portuguese": "o papel",
+    "english": "paper",
+    "examplePt": "Preciso de papel para imprimir.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-marcar-reuniao",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "marcar uma reunião",
+    "english": "to schedule a meeting",
+    "examplePt": "Ela marcou uma reunião.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-medico",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "o médico",
+    "english": "doctor",
+    "examplePt": "O médico observa o doente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-hospital",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "o hospital",
+    "english": "hospital",
+    "examplePt": "O médico trabalha no hospital.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-centro-saude",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "o centro de saúde",
+    "english": "health centre",
+    "examplePt": "Vou ao centro de saúde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-observar-doente",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "observar o doente",
+    "english": "to examine the patient",
+    "examplePt": "O médico observa o doente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-fazer-exames",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "fazer exames",
+    "english": "to do tests",
+    "examplePt": "Tenho de fazer exames.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-passar-receitas",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "passar receitas",
+    "english": "to prescribe",
+    "examplePt": "O médico passa receitas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-professora",
+    "modulo": "Módulo 7",
+    "theme": "Profissões",
+    "portuguese": "a professora",
+    "english": "teacher",
+    "examplePt": "A professora trabalha na escola.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-escola",
+    "modulo": "Módulo 7",
+    "theme": "Locais de trabalho",
+    "portuguese": "a escola",
+    "english": "school",
+    "examplePt": "As crianças entraram na escola.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-ensinar",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "ensinar",
+    "english": "to teach",
+    "examplePt": "A professora ensina português.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-detergentes",
+    "modulo": "Módulo 7",
+    "theme": "Limpeza",
+    "portuguese": "os detergentes",
+    "english": "cleaning products",
+    "examplePt": "Vou buscar os detergentes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-lixivia",
+    "modulo": "Módulo 7",
+    "theme": "Limpeza",
+    "portuguese": "a lixívia",
+    "english": "bleach",
+    "examplePt": "A lixívia está no armário.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-capacete",
+    "modulo": "Módulo 7",
+    "theme": "Segurança no trabalho",
+    "portuguese": "o capacete",
+    "english": "helmet",
+    "examplePt": "Usa o capacete nas obras.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-direitos-laborais",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "os direitos laborais",
+    "english": "labour rights",
+    "examplePt": "Os trabalhadores imigrantes têm direitos laborais.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-contrato-trabalho",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o contrato de trabalho",
+    "english": "employment contract",
+    "examplePt": "É importante ler o contrato de trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-trabalho-conta-propria",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o trabalho por conta própria",
+    "english": "self-employment",
+    "examplePt": "Ela tem trabalho por conta própria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-rescisao-contrato",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "a rescisão de contrato",
+    "english": "contract termination",
+    "examplePt": "A rescisão de contrato foi ontem.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-horas-extraordinarias",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "as horas extraordinárias",
+    "english": "overtime",
+    "examplePt": "Recebi as horas extraordinárias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-salario-bruto",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o salário bruto",
+    "english": "gross salary",
+    "examplePt": "O salário bruto não tem descontos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-salario-liquido",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o salário líquido",
+    "english": "net salary",
+    "examplePt": "O salário líquido já tem descontos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-subsidio",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o subsídio",
+    "english": "benefit",
+    "examplePt": "Recebeu um subsídio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-entidade-patronal",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "a entidade patronal",
+    "english": "employer",
+    "examplePt": "A entidade patronal assinou o contrato.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-carregar",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "carregar",
+    "english": "to load",
+    "examplePt": "Ele carrega produtos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-descarregar",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "descarregar",
+    "english": "to unload",
+    "examplePt": "Ela descarrega produtos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-armazenar",
+    "modulo": "Módulo 7",
+    "theme": "Tarefas",
+    "portuguese": "armazenar",
+    "english": "to store",
+    "examplePt": "O trabalhador armazena produtos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-ontem",
+    "modulo": "Módulo 7",
+    "theme": "Tempo",
+    "portuguese": "ontem",
+    "english": "yesterday",
+    "examplePt": "Ontem assinei o contrato.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-anteontem",
+    "modulo": "Módulo 7",
+    "theme": "Tempo",
+    "portuguese": "anteontem",
+    "english": "the day before yesterday",
+    "examplePt": "Anteontem trabalhei muito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-ha-bocado",
+    "modulo": "Módulo 7",
+    "theme": "Tempo",
+    "portuguese": "há bocado",
+    "english": "a short while ago",
+    "examplePt": "Ele saiu há bocado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-chegar-a",
+    "modulo": "Módulo 7",
+    "theme": "Regência verbal",
+    "portuguese": "chegar a",
+    "english": "to arrive at",
+    "examplePt": "Ela chegou à meta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-sair-de",
+    "modulo": "Módulo 7",
+    "theme": "Regência verbal",
+    "portuguese": "sair de",
+    "english": "to leave from",
+    "examplePt": "Ela saiu do aeroporto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-entrar-em",
+    "modulo": "Módulo 7",
+    "theme": "Regência verbal",
+    "portuguese": "entrar em",
+    "english": "to enter",
+    "examplePt": "As crianças entraram na escola.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-anuncio-trabalho",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o anúncio de trabalho",
+    "english": "job ad",
+    "examplePt": "Li um anúncio de trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-carta-apresentacao",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a carta de apresentação",
+    "english": "cover letter",
+    "examplePt": "Envio uma carta de apresentação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-candidatura-espontanea",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a candidatura espontânea",
+    "english": "unsolicited application",
+    "examplePt": "Escrevi uma carta de candidatura espontânea.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-resposta-anuncio",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a resposta ao anúncio",
+    "english": "reply to an ad",
+    "examplePt": "A carta é uma resposta ao anúncio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-candidatar-se",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "candidatar-se",
+    "english": "to apply",
+    "examplePt": "Vou candidatar-me a esta vaga.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-vaga",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a vaga",
+    "english": "vacancy",
+    "examplePt": "Há uma vaga de tradutor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-curriculo",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o currículo",
+    "english": "resume",
+    "examplePt": "Enviei o meu currículo para a empresa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-cv",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o CV",
+    "english": "CV",
+    "examplePt": "Enviei o meu CV para a empresa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-dados-identificacao",
+    "modulo": "Módulo 8",
+    "theme": "Currículo",
+    "portuguese": "os dados de identificação",
+    "english": "personal details",
+    "examplePt": "O currículo tem dados de identificação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-experiencia-profissional",
+    "modulo": "Módulo 8",
+    "theme": "Currículo",
+    "portuguese": "a experiência profissional",
+    "english": "work experience",
+    "examplePt": "Tenho experiência profissional em pastelaria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-formacao-academica",
+    "modulo": "Módulo 8",
+    "theme": "Currículo",
+    "portuguese": "a formação académica",
+    "english": "education",
+    "examplePt": "A formação académica está no CV.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-competencias-linguisticas",
+    "modulo": "Módulo 8",
+    "theme": "Currículo",
+    "portuguese": "as competências linguísticas",
+    "english": "language skills",
+    "examplePt": "As competências linguísticas são importantes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-entrevista-trabalho",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a entrevista de trabalho",
+    "english": "job interview",
+    "examplePt": "Fui a uma entrevista de trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-oportunidade-trabalho",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a oportunidade de trabalho",
+    "english": "job opportunity",
+    "examplePt": "Parece uma boa oportunidade de trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-adquirir-nacionalidade",
+    "modulo": "Módulo 8",
+    "theme": "Cidadania",
+    "portuguese": "adquirir a nacionalidade",
+    "english": "to acquire nationality",
+    "examplePt": "Ele quer adquirir a nacionalidade portuguesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-perfil-adequado",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o perfil adequado",
+    "english": "suitable profile",
+    "examplePt": "Tem o perfil adequado a esta função.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-funcao",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a função",
+    "english": "role",
+    "examplePt": "Apresento a minha candidatura para esta função.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-empregada-domestica",
+    "modulo": "Módulo 8",
+    "theme": "Profissões",
+    "portuguese": "a empregada doméstica",
+    "english": "domestic worker",
+    "examplePt": "A senhora procura uma empregada doméstica.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-ordenado",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o ordenado",
+    "english": "salary",
+    "examplePt": "O ordenado é compatível com as funções.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-disponibilidade",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a disponibilidade",
+    "english": "availability",
+    "examplePt": "Tenho disponibilidade para entrada imediata.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-entrada-imediata",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a entrada imediata",
+    "english": "immediate start",
+    "examplePt": "O anúncio pede entrada imediata.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-oferece-se",
+    "modulo": "Módulo 8",
+    "theme": "Anúncios",
+    "portuguese": "oferece-se",
+    "english": "available for work",
+    "examplePt": "No anúncio, lê-se: oferece-se cozinheira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-procuro-trabalho",
+    "modulo": "Módulo 8",
+    "theme": "Anúncios",
+    "portuguese": "procuro trabalho",
+    "english": "I am looking for work",
+    "examplePt": "Procuro trabalho no meu ramo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-desempregado",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "desempregado",
+    "english": "unemployed",
+    "examplePt": "O jovem está desempregado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-jardinagem",
+    "modulo": "Módulo 8",
+    "theme": "Profissões",
+    "portuguese": "a jardinagem",
+    "english": "gardening",
+    "examplePt": "Ele tem experiência em jardinagem.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-ramo",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o ramo",
+    "english": "field",
+    "examplePt": "Procuro trabalho no meu ramo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-responsavel",
+    "modulo": "Módulo 8",
+    "theme": "Qualidades",
+    "portuguese": "responsável",
+    "english": "responsible",
+    "examplePt": "Ela é responsável e pontual.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-pontual",
+    "modulo": "Módulo 8",
+    "theme": "Qualidades",
+    "portuguese": "pontual",
+    "english": "punctual",
+    "examplePt": "O trabalhador é pontual.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-carta-conducao",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a carta de condução",
+    "english": "driving licence",
+    "examplePt": "Tenho carta de condução.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-flexibilidade-horario",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a flexibilidade de horário",
+    "english": "schedule flexibility",
+    "examplePt": "O emprego pede flexibilidade de horário.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-pratos",
+    "modulo": "Módulo 8",
+    "theme": "Cozinha",
+    "portuguese": "os pratos",
+    "english": "dishes",
+    "examplePt": "Ela prepara sopas, pratos e sobremesas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-vencimento",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o vencimento",
+    "english": "pay",
+    "examplePt": "O vencimento é de 580 euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-iliquidos",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "ilíquidos",
+    "english": "gross",
+    "examplePt": "São 580 euros ilíquidos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-impostos",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "os impostos",
+    "english": "taxes",
+    "examplePt": "O vencimento está sujeito a impostos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-requisitos",
+    "modulo": "Módulo 8",
+    "theme": "Anúncios",
+    "portuguese": "os requisitos",
+    "english": "requirements",
+    "examplePt": "O anúncio tem vários requisitos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-assiduidade",
+    "modulo": "Módulo 8",
+    "theme": "Qualidades",
+    "portuguese": "a assiduidade",
+    "english": "attendance",
+    "examplePt": "A assiduidade é importante no trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-remuneracao",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a remuneração",
+    "english": "pay",
+    "examplePt": "A remuneração é compatível com as funções.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-cargo",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o cargo",
+    "english": "position",
+    "examplePt": "Ele tem um cargo na associação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-desde",
+    "modulo": "Módulo 8",
+    "theme": "Tempo",
+    "portuguese": "desde",
+    "english": "since",
+    "examplePt": "Trabalho nesse restaurante desde 2006.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-ha",
+    "modulo": "Módulo 8",
+    "theme": "Tempo",
+    "portuguese": "há",
+    "english": "for / ago",
+    "examplePt": "Trabalho nesse restaurante há sete anos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-despedir-se",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "despedir-se",
+    "english": "to quit",
+    "examplePt": "Quando foi a última vez que se despediu de um emprego?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-aumento-salario",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o aumento no salário",
+    "english": "pay rise",
+    "examplePt": "Recebeu um aumento no salário.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-recibos-verdes",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "os recibos verdes",
+    "english": "freelance tax receipts",
+    "examplePt": "Trabalhou a recibos verdes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-subsidio-desemprego",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "o subsídio de desemprego",
+    "english": "unemployment benefit",
+    "examplePt": "Recebeu um subsídio de desemprego.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-saber",
+    "modulo": "Módulo 8",
+    "theme": "Capacidade",
+    "portuguese": "saber",
+    "english": "to know how",
+    "examplePt": "Ela sabe falar inglês.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-conhecer",
+    "modulo": "Módulo 8",
+    "theme": "Capacidade",
+    "portuguese": "conhecer",
+    "english": "to know / meet",
+    "examplePt": "Ela conheceu as condições de trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-poder",
+    "modulo": "Módulo 8",
+    "theme": "Capacidade",
+    "portuguese": "poder",
+    "english": "can / to be able to",
+    "examplePt": "Posso entrar?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-conseguir",
+    "modulo": "Módulo 8",
+    "theme": "Capacidade",
+    "portuguese": "conseguir",
+    "english": "to manage",
+    "examplePt": "Ela conseguiu ficar com o emprego.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-e-proibido",
+    "modulo": "Módulo 8",
+    "theme": "Regras",
+    "portuguese": "é proibido",
+    "english": "it is forbidden",
+    "examplePt": "É proibido usar o telemóvel.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-e-permitido",
+    "modulo": "Módulo 8",
+    "theme": "Regras",
+    "portuguese": "é permitido",
+    "english": "it is allowed",
+    "examplePt": "É permitida a venda de bilhetes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-local-trabalho",
+    "modulo": "Módulo 8",
+    "theme": "Regras",
+    "portuguese": "o local de trabalho",
+    "english": "workplace",
+    "examplePt": "Não se pode fumar no local de trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-agora",
+    "modulo": "Módulo 9",
+    "theme": "Passado / Presente",
+    "portuguese": "agora",
+    "english": "now",
+    "examplePt": "Agora vivo em Lisboa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-antigamente",
+    "modulo": "Módulo 9",
+    "theme": "Passado / Presente",
+    "portuguese": "antigamente",
+    "english": "in the past",
+    "examplePt": "Antigamente as pessoas andavam de carroça.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-dantes",
+    "modulo": "Módulo 9",
+    "theme": "Passado / Presente",
+    "portuguese": "dantes",
+    "english": "in the past",
+    "examplePt": "Dantes, as pessoas andavam de carroça.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-magro",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de pessoas",
+    "portuguese": "magro",
+    "english": "thin",
+    "examplePt": "Ele era magro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-calcas-ganga",
+    "modulo": "Módulo 9",
+    "theme": "Roupa e acessórios",
+    "portuguese": "as calças de ganga",
+    "english": "jeans",
+    "examplePt": "Ele usava calças de ganga.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-oculos",
+    "modulo": "Módulo 9",
+    "theme": "Roupa e acessórios",
+    "portuguese": "os óculos",
+    "english": "glasses",
+    "examplePt": "Ele usava óculos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-barulhento",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "barulhento",
+    "english": "noisy",
+    "examplePt": "O Rossio é muito barulhento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-antigo",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "antigo",
+    "english": "old",
+    "examplePt": "O edifício é antigo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-movimentado",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "movimentado",
+    "english": "busy",
+    "examplePt": "O Rossio é muito movimentado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-calmo",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "calmo",
+    "english": "calm",
+    "examplePt": "O Rossio era muito calmo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-moderno",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "moderno",
+    "english": "modern",
+    "examplePt": "O bairro é moderno.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-poluido",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "poluído",
+    "english": "polluted",
+    "examplePt": "O lugar está poluído.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-pouco-transito",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "pouco trânsito",
+    "english": "little traffic",
+    "examplePt": "O Rossio tinha pouco trânsito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-muito-transito",
+    "modulo": "Módulo 9",
+    "theme": "Descrição de lugares",
+    "portuguese": "muito trânsito",
+    "english": "a lot of traffic",
+    "examplePt": "O Rossio tem muito trânsito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-agua-corrente",
+    "modulo": "Módulo 9",
+    "theme": "Hábitos",
+    "portuguese": "a água corrente",
+    "english": "running water",
+    "examplePt": "As pessoas usam água corrente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-falar-telemovel",
+    "modulo": "Módulo 9",
+    "theme": "Hábitos",
+    "portuguese": "falar ao telemóvel",
+    "english": "to talk on the mobile phone",
+    "examplePt": "As pessoas falam ao telemóvel.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-andar-carro",
+    "modulo": "Módulo 9",
+    "theme": "Transportes",
+    "portuguese": "andar de carro",
+    "english": "to go by car",
+    "examplePt": "Hoje anda-se de carro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-matricular",
+    "modulo": "Módulo 9",
+    "theme": "Escola",
+    "portuguese": "matricular",
+    "english": "to enrol",
+    "examplePt": "Queria matricular o meu filho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-cedula",
+    "modulo": "Módulo 9",
+    "theme": "Escola",
+    "portuguese": "a cédula",
+    "english": "birth certificate",
+    "examplePt": "A escola pede a cédula da criança.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-boletim-matricula",
+    "modulo": "Módulo 9",
+    "theme": "Escola",
+    "portuguese": "o boletim de matrícula",
+    "english": "enrolment form",
+    "examplePt": "Preenchi o boletim de matrícula.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-boletim-vacinas",
+    "modulo": "Módulo 9",
+    "theme": "Saúde",
+    "portuguese": "o boletim de vacinas",
+    "english": "vaccination record",
+    "examplePt": "A escola pede o boletim de vacinas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-problemas-visuais-auditivos",
+    "modulo": "Módulo 9",
+    "theme": "Saúde",
+    "portuguese": "os problemas visuais e auditivos",
+    "english": "vision and hearing problems",
+    "examplePt": "A ficha permite detetar problemas visuais e auditivos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-procura-vida-melhor",
+    "modulo": "Módulo 9",
+    "theme": "Migração",
+    "portuguese": "à procura de uma vida melhor",
+    "english": "looking for a better life",
+    "examplePt": "Foram para fora do país à procura de uma vida melhor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-condicoes-higiene-seguranca",
+    "modulo": "Módulo 9",
+    "theme": "Sociedade",
+    "portuguese": "as condições de higiene e segurança",
+    "english": "hygiene and safety conditions",
+    "examplePt": "As casas não tinham condições de higiene e segurança.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-emigrar",
+    "modulo": "Módulo 9",
+    "theme": "Migração",
+    "portuguese": "emigrar",
+    "english": "to emigrate",
+    "examplePt": "Muitos portugueses emigraram.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-vizinhos",
+    "modulo": "Módulo 9",
+    "theme": "Pessoas",
+    "portuguese": "os vizinhos",
+    "english": "neighbours",
+    "examplePt": "Os vizinhos são portugueses.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-naquela-epoca",
+    "modulo": "Módulo 9",
+    "theme": "Tempo",
+    "portuguese": "naquela época",
+    "english": "at that time",
+    "examplePt": "Naquela época, eles viviam no campo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-naquele-tempo",
+    "modulo": "Módulo 9",
+    "theme": "Tempo",
+    "portuguese": "naquele tempo",
+    "english": "in those days",
+    "examplePt": "Naquele tempo, acordávamos muito cedo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-costumar-infinitivo",
+    "modulo": "Módulo 9",
+    "theme": "Gramática",
+    "portuguese": "costumar + infinitivo",
+    "english": "to usually do",
+    "examplePt": "Eu costumava almoçar em casa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-mais-caro",
+    "modulo": "Módulo 9",
+    "theme": "Compras",
+    "portuguese": "o mais caro",
+    "english": "the most expensive",
+    "examplePt": "O produto mais caro é a televisão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-mais-barato",
+    "modulo": "Módulo 9",
+    "theme": "Compras",
+    "portuguese": "o mais barato",
+    "english": "the cheapest",
+    "examplePt": "O produto mais barato é a consola.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-otimo",
+    "modulo": "Módulo 9",
+    "theme": "Descrição",
+    "portuguese": "ótimo",
+    "english": "excellent",
+    "examplePt": "Este concerto é ótimo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m9-pessimo",
+    "modulo": "Módulo 9",
+    "theme": "Descrição",
+    "portuguese": "péssimo",
+    "english": "terrible",
+    "examplePt": "Esta comida está péssima.",
+    "note": "",
+    "source": "pdf"
+  }
+]

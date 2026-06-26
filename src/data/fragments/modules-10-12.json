@@ -1,0 +1,1512 @@
+[
+  {
+    "id": "m10-ontem",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "ontem",
+    "english": "yesterday",
+    "examplePt": "Ontem fui ao cinema.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-ir-ao-cinema",
+    "modulo": "Módulo 10",
+    "theme": "Tempos livres",
+    "portuguese": "ir ao cinema",
+    "english": "to go to the cinema",
+    "examplePt": "Ontem fui ao cinema.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-recente",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "recente",
+    "english": "recent",
+    "examplePt": "São acontecimentos recentes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-ha-um-mes",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "há um mês",
+    "english": "a month ago",
+    "examplePt": "Há um mês nós estivemos com os nossos tios.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-ha-dois-dias",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "há dois dias",
+    "english": "two days ago",
+    "examplePt": "Há dois dias a Manu encontrou a Padma.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-ultimamente",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "ultimamente",
+    "english": "lately",
+    "examplePt": "Ultimamente tem chovido muito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-no-mes-passado",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "no mês passado",
+    "english": "last month",
+    "examplePt": "No mês passado não choveu.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-antigamente",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "antigamente",
+    "english": "in the past",
+    "examplePt": "Antigamente as pessoas andavam mais a pé.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-a-pe",
+    "modulo": "Módulo 10",
+    "theme": "Transportes",
+    "portuguese": "a pé",
+    "english": "on foot",
+    "examplePt": "Nós passeávamos muito a pé.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-de-carro",
+    "modulo": "Módulo 10",
+    "theme": "Transportes",
+    "portuguese": "de carro",
+    "english": "by car",
+    "examplePt": "Nós temos passeado de carro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-costumar",
+    "modulo": "Módulo 10",
+    "theme": "Hábitos",
+    "portuguese": "costumar",
+    "english": "to usually do",
+    "examplePt": "Eu costumava ler.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-navegar-na-net",
+    "modulo": "Módulo 10",
+    "theme": "Hábitos",
+    "portuguese": "navegar na net",
+    "english": "to browse the internet",
+    "examplePt": "Eu tenho navegado na net.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-cedo",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "cedo",
+    "english": "early",
+    "examplePt": "Ela acordava cedo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-tarde",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "tarde",
+    "english": "late",
+    "examplePt": "Ela tem acordado tarde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-perder-o-emprego",
+    "modulo": "Módulo 10",
+    "theme": "Emprego",
+    "portuguese": "perder o emprego",
+    "english": "to lose one's job",
+    "examplePt": "O Santiago perdeu o emprego.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-procurar-emprego",
+    "modulo": "Módulo 10",
+    "theme": "Emprego",
+    "portuguese": "procurar emprego",
+    "english": "to look for work",
+    "examplePt": "O Vladimir tem procurado emprego desde que chegou a Lisboa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-estar-ocupado",
+    "modulo": "Módulo 10",
+    "theme": "Estado",
+    "portuguese": "estar ocupado(a)",
+    "english": "to be busy",
+    "examplePt": "Ele está ocupado. Ela está ocupada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-tirar-ferias",
+    "modulo": "Módulo 10",
+    "theme": "Lazer",
+    "portuguese": "tirar férias",
+    "english": "to take holidays",
+    "examplePt": "Tirei uns dias de férias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-descansar",
+    "modulo": "Módulo 10",
+    "theme": "Lazer",
+    "portuguese": "descansar",
+    "english": "to rest",
+    "examplePt": "Tenho aproveitado para descansar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-consultorio",
+    "modulo": "Módulo 10",
+    "theme": "Saúde",
+    "portuguese": "o consultório",
+    "english": "doctor's office",
+    "examplePt": "O Manuel está no consultório.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-sentir-se-bem",
+    "modulo": "Módulo 10",
+    "theme": "Saúde",
+    "portuguese": "sentir-se bem",
+    "english": "to feel well",
+    "examplePt": "Ultimamente não me tenho sentido bem.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-dor-de-cabeca",
+    "modulo": "Módulo 10",
+    "theme": "Saúde",
+    "portuguese": "a dor de cabeça",
+    "english": "headache",
+    "examplePt": "Tenho tido muitas dores de cabeça.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-doenca",
+    "modulo": "Módulo 10",
+    "theme": "Saúde",
+    "portuguese": "a doença",
+    "english": "illness",
+    "examplePt": "Sofre de alguma doença?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-depender-de",
+    "modulo": "Módulo 10",
+    "theme": "Família",
+    "portuguese": "depender de",
+    "english": "to depend on",
+    "examplePt": "Lá em casa dependem de mim.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-refeicao",
+    "modulo": "Módulo 10",
+    "theme": "Alimentação",
+    "portuguese": "a refeição",
+    "english": "meal",
+    "examplePt": "Come as refeições a horas?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-alimentacao-saudavel",
+    "modulo": "Módulo 10",
+    "theme": "Alimentação",
+    "portuguese": "a alimentação saudável",
+    "english": "healthy diet",
+    "examplePt": "Tem tido uma alimentação saudável?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-stress",
+    "modulo": "Módulo 10",
+    "theme": "Saúde",
+    "portuguese": "o stress",
+    "english": "stress",
+    "examplePt": "Tem de ter uma vida mais moderada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-sentir-falta-de",
+    "modulo": "Módulo 10",
+    "theme": "Sentimentos",
+    "portuguese": "sentir falta de",
+    "english": "to miss",
+    "examplePt": "Têm sentido falta do calor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-agencia-de-viagens",
+    "modulo": "Módulo 10",
+    "theme": "Serviços",
+    "portuguese": "a agência de viagens",
+    "english": "travel agency",
+    "examplePt": "Ela trabalha numa agência de viagens.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-bilhete-de-aviao",
+    "modulo": "Módulo 10",
+    "theme": "Viagens",
+    "portuguese": "o bilhete de avião",
+    "english": "plane ticket",
+    "examplePt": "Vendemos bilhetes de avião.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-emigrar",
+    "modulo": "Módulo 10",
+    "theme": "Migração",
+    "portuguese": "emigrar",
+    "english": "to emigrate",
+    "examplePt": "Foi a primeira da família a emigrar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-saudades",
+    "modulo": "Módulo 10",
+    "theme": "Sentimentos",
+    "portuguese": "as saudades",
+    "english": "longing; missing someone",
+    "examplePt": "Têm saudades do peixe fresco.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-mercearia",
+    "modulo": "Módulo 10",
+    "theme": "Lojas",
+    "portuguese": "a mercearia",
+    "english": "grocery shop",
+    "examplePt": "Entramos na mercearia do Largo do Terreirinho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-ate-agora",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "até agora",
+    "english": "until now",
+    "examplePt": "Até agora tenho gostado de viver em Portugal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-desde-que",
+    "modulo": "Módulo 10",
+    "theme": "Tempo",
+    "portuguese": "desde que",
+    "english": "since",
+    "examplePt": "Desde que chegaram, ele tem saído com eles.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m10-construcao-civil",
+    "modulo": "Módulo 10",
+    "theme": "Emprego",
+    "portuguese": "a construção civil",
+    "english": "construction work",
+    "examplePt": "Ultimamente eles têm trabalhado na construção civil.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-noticia",
+    "modulo": "Módulo 11",
+    "theme": "Tipos de texto",
+    "portuguese": "a notícia",
+    "english": "news item",
+    "examplePt": "Leia a notícia no jornal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-mensagem",
+    "modulo": "Módulo 11",
+    "theme": "Tipos de texto",
+    "portuguese": "a mensagem",
+    "english": "message",
+    "examplePt": "Mandei uma mensagem.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-carta-formal",
+    "modulo": "Módulo 11",
+    "theme": "Tipos de texto",
+    "portuguese": "a carta formal",
+    "english": "formal letter",
+    "examplePt": "Escrevi uma carta formal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-carta-de-apresentacao",
+    "modulo": "Módulo 11",
+    "theme": "Tipos de texto",
+    "portuguese": "a carta de apresentação",
+    "english": "cover letter",
+    "examplePt": "Enviei a minha carta de apresentação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-carta-de-reclamacao",
+    "modulo": "Módulo 11",
+    "theme": "Tipos de texto",
+    "portuguese": "a carta de reclamação",
+    "english": "complaint letter",
+    "examplePt": "Devemos escrever uma carta de reclamação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-email",
+    "modulo": "Módulo 11",
+    "theme": "Tipos de texto",
+    "portuguese": "o e-mail",
+    "english": "email",
+    "examplePt": "Enviei o currículo por e-mail.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-exmo-senhor",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "Ex.mo Senhor",
+    "english": "Dear Sir",
+    "examplePt": "Ex.mo Senhor, solicito uma informação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-telemovel",
+    "modulo": "Módulo 11",
+    "theme": "Tecnologia",
+    "portuguese": "o telemóvel",
+    "english": "mobile phone",
+    "examplePt": "Comprei um telemóvel novo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-marca",
+    "modulo": "Módulo 11",
+    "theme": "Compras",
+    "portuguese": "a marca",
+    "english": "brand",
+    "examplePt": "O telemóvel é da marca Vodafone.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-urgencia",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "a urgência",
+    "english": "urgency",
+    "examplePt": "Tenho muita urgência na receção do mesmo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-rececao",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "a receção",
+    "english": "receipt; reception",
+    "examplePt": "A receção da encomenda foi rápida.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-muito-atenciosamente",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "muito atenciosamente",
+    "english": "yours faithfully",
+    "examplePt": "De V.ª Ex.ª, muito atenciosamente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-dar-noticias",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "dar notícias",
+    "english": "to keep in touch",
+    "examplePt": "Dá notícias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-diretor",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "o diretor",
+    "english": "director",
+    "examplePt": "Enviei a carta ao diretor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-recursos-humanos",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "os recursos humanos",
+    "english": "human resources",
+    "examplePt": "Falei com os Recursos Humanos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-diploma",
+    "modulo": "Módulo 11",
+    "theme": "Educação",
+    "portuguese": "o diploma",
+    "english": "diploma",
+    "examplePt": "Recebi o meu diploma de Informática.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-competencia",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "a competência",
+    "english": "skill; competence",
+    "examplePt": "Desenvolvi competências na minha formação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-entrevista",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "a entrevista",
+    "english": "interview",
+    "examplePt": "Gostaria de uma entrevista pessoal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-anexo",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "o anexo",
+    "english": "attachment; enclosure",
+    "examplePt": "Anexo: Currículo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-curriculo",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "o currículo",
+    "english": "CV; resume",
+    "examplePt": "Enviei o meu currículo por e-mail.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-assunto",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "o assunto",
+    "english": "subject",
+    "examplePt": "Assunto: Reclamação por roupa estragada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-roupa-estragada",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "a roupa estragada",
+    "english": "damaged clothing",
+    "examplePt": "A reclamação é por roupa estragada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-lavandaria",
+    "modulo": "Módulo 11",
+    "theme": "Serviços",
+    "portuguese": "a lavandaria",
+    "english": "launderette; laundry",
+    "examplePt": "Entreguei o fato na lavandaria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-estabelecimento",
+    "modulo": "Módulo 11",
+    "theme": "Serviços",
+    "portuguese": "o estabelecimento",
+    "english": "establishment; shop",
+    "examplePt": "Entreguei a roupa no vosso estabelecimento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-fato",
+    "modulo": "Módulo 11",
+    "theme": "Roupa",
+    "portuguese": "o fato",
+    "english": "suit",
+    "examplePt": "Entreguei um fato cinzento escuro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-talao",
+    "modulo": "Módulo 11",
+    "theme": "Compras",
+    "portuguese": "o talão",
+    "english": "receipt slip",
+    "examplePt": "Junto cópia do talão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-estrago",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "o estrago",
+    "english": "damage",
+    "examplePt": "A empresa é responsável pelos estragos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-exigir",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "exigir",
+    "english": "to demand",
+    "examplePt": "Exijo uma indemnização.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-indemnizacao",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "a indemnização",
+    "english": "compensation",
+    "examplePt": "Exijo uma indemnização de 150 euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-montante",
+    "modulo": "Módulo 11",
+    "theme": "Dinheiro",
+    "portuguese": "o montante",
+    "english": "amount",
+    "examplePt": "O montante é igual ao seu valor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-recibo",
+    "modulo": "Módulo 11",
+    "theme": "Compras",
+    "portuguese": "o recibo",
+    "english": "receipt",
+    "examplePt": "Junto cópia do recibo de compra.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-prazo",
+    "modulo": "Módulo 11",
+    "theme": "Tempo",
+    "portuguese": "o prazo",
+    "english": "deadline",
+    "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-recorrer",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "recorrer",
+    "english": "to resort; appeal",
+    "examplePt": "Vou recorrer a todos os meios legais.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-meios-legais",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "os meios legais",
+    "english": "legal means",
+    "examplePt": "Vou recorrer a todos os meios legais.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-ingrediente",
+    "modulo": "Módulo 11",
+    "theme": "Receitas",
+    "portuguese": "o ingrediente",
+    "english": "ingredient",
+    "examplePt": "Misture os ingredientes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-chavena",
+    "modulo": "Módulo 11",
+    "theme": "Receitas",
+    "portuguese": "a chávena",
+    "english": "cup",
+    "examplePt": "Use uma chávena de açúcar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-frigorifico",
+    "modulo": "Módulo 11",
+    "theme": "Casa",
+    "portuguese": "o frigorífico",
+    "english": "refrigerator",
+    "examplePt": "Leve ao frigorífico durante quatro horas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-reclamar",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "reclamar",
+    "english": "to complain",
+    "examplePt": "Temos de reclamar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-queixa",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "a queixa",
+    "english": "complaint",
+    "examplePt": "A DECO tem recebido queixas de consumidores.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-consumidor",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "o consumidor",
+    "english": "consumer",
+    "examplePt": "Os consumidores fizeram queixas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-candidatura",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "a candidatura",
+    "english": "application",
+    "examplePt": "Saiu o resultado das candidaturas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-vaga",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "a vaga",
+    "english": "vacancy",
+    "examplePt": "Candidatei-me à vaga de tradutor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-tradutor",
+    "modulo": "Módulo 11",
+    "theme": "Profissões",
+    "portuguese": "o tradutor",
+    "english": "translator",
+    "examplePt": "Há uma vaga de tradutor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-ser-contactado",
+    "modulo": "Módulo 11",
+    "theme": "Emprego",
+    "portuguese": "ser contactado(a)",
+    "english": "to be contacted",
+    "examplePt": "Pode ser contactado por telefone. Pode ser contactada por telefone.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-pastel-de-bacalhau",
+    "modulo": "Módulo 11",
+    "theme": "Alimentação",
+    "portuguese": "o pastel de bacalhau",
+    "english": "codfish cake",
+    "examplePt": "Tens de explicar como se fazem os pastéis de bacalhau.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-especialidade",
+    "modulo": "Módulo 11",
+    "theme": "Alimentação",
+    "portuguese": "a especialidade",
+    "english": "specialty",
+    "examplePt": "A especialidade são os bolinhos de bacalhau.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-ferramenta",
+    "modulo": "Módulo 11",
+    "theme": "Comunicação",
+    "portuguese": "a ferramenta",
+    "english": "tool",
+    "examplePt": "Esta ferramenta tem regras próprias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-destinatario",
+    "modulo": "Módulo 11",
+    "theme": "Correspondência",
+    "portuguese": "o destinatário",
+    "english": "recipient",
+    "examplePt": "Não conhecemos o destinatário.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-quotidiano",
+    "modulo": "Módulo 11",
+    "theme": "Vida diária",
+    "portuguese": "o quotidiano",
+    "english": "daily life",
+    "examplePt": "O e-mail faz parte do nosso quotidiano.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-nota-de-dez-euros",
+    "modulo": "Módulo 11",
+    "theme": "Dinheiro",
+    "portuguese": "a nota de 10 euros",
+    "english": "10-euro banknote",
+    "examplePt": "A nova nota de 10 euros é apresentada segunda-feira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-negligencia",
+    "modulo": "Módulo 11",
+    "theme": "Reclamações",
+    "portuguese": "a negligência",
+    "english": "negligence",
+    "examplePt": "Assunto: Negligência dos serviços do Centro de Saúde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-residente",
+    "modulo": "Módulo 11",
+    "theme": "Identificação",
+    "portuguese": "residente",
+    "english": "resident",
+    "examplePt": "Olga Ivanova é residente em Lisboa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-queixar-se",
+    "modulo": "Módulo 11",
+    "theme": "Saúde",
+    "portuguese": "queixar-se de",
+    "english": "to complain of",
+    "examplePt": "Começou a queixar-se de fortes dores.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-ombro",
+    "modulo": "Módulo 11",
+    "theme": "Corpo humano",
+    "portuguese": "o ombro",
+    "english": "shoulder",
+    "examplePt": "Tinha dores no ombro direito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-fratura",
+    "modulo": "Módulo 11",
+    "theme": "Saúde",
+    "portuguese": "a fratura",
+    "english": "fracture",
+    "examplePt": "Ele tinha uma fratura muito grave.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-grave",
+    "modulo": "Módulo 11",
+    "theme": "Saúde",
+    "portuguese": "grave",
+    "english": "serious",
+    "examplePt": "O problema era grave.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-preferencia",
+    "modulo": "Módulo 11",
+    "theme": "Opiniões",
+    "portuguese": "a preferência",
+    "english": "preference",
+    "examplePt": "O futebol está em primeiro lugar na preferência.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-que",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "que",
+    "english": "that; which; who",
+    "examplePt": "Os empregados que nos serviram eram simpáticos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-quem",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "quem",
+    "english": "who; whom",
+    "examplePt": "O dono com quem falámos deu-nos este cartão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-onde",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "onde",
+    "english": "where",
+    "examplePt": "O restaurante onde almoçámos era excelente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-pelo",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "por + artigo",
+    "english": "by; through; along",
+    "examplePt": "Passe pelo banco. Passe pela farmácia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-assaltar",
+    "modulo": "Módulo 11",
+    "theme": "Segurança",
+    "portuguese": "assaltar",
+    "english": "to rob",
+    "examplePt": "O banco foi assaltado ontem de manhã.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-alguem",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "alguém",
+    "english": "someone",
+    "examplePt": "Alguém sabe onde fica o ACM?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-ninguem",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "ninguém",
+    "english": "no one",
+    "examplePt": "Ninguém deve estar ilegal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-tudo",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "tudo",
+    "english": "everything",
+    "examplePt": "Tenho tudo preparado para partir.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-nada",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "nada",
+    "english": "nothing",
+    "examplePt": "Não quero comprar nada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-varios",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "vários",
+    "english": "several (masculine plural)",
+    "examplePt": "Tenho vários documentos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m11-varias",
+    "modulo": "Módulo 11",
+    "theme": "Gramática",
+    "portuguese": "várias",
+    "english": "several (feminine plural)",
+    "examplePt": "Tenho várias perguntas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-cidadania",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "a cidadania",
+    "english": "citizenship",
+    "examplePt": "Cidadania é a qualidade ou direito do cidadão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-cidadao",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "o cidadão",
+    "english": "citizen",
+    "examplePt": "Ser cidadão significa envolver-se na comunidade.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-direitos-civis",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "os direitos civis",
+    "english": "civil rights",
+    "examplePt": "O cidadão tem direitos civis.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-integracao",
+    "modulo": "Módulo 12",
+    "theme": "Sociedade",
+    "portuguese": "a integração",
+    "english": "integration",
+    "examplePt": "O serviço apoia a integração dos imigrantes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-imigrante",
+    "modulo": "Módulo 12",
+    "theme": "Migração",
+    "portuguese": "imigrante",
+    "english": "immigrant",
+    "examplePt": "O imigrante pediu informações. A imigrante pediu informações.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-nacionalidade",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "a nacionalidade",
+    "english": "nationality",
+    "examplePt": "Quero adquirir a nacionalidade portuguesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-vinculo-juridico",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "o vínculo jurídico",
+    "english": "legal bond",
+    "examplePt": "A nacionalidade é um vínculo jurídico.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-regularizacao",
+    "modulo": "Módulo 12",
+    "theme": "Migração",
+    "portuguese": "a regularização",
+    "english": "regularisation",
+    "examplePt": "O serviço apoia a regularização da situação legal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-situacao-legal",
+    "modulo": "Módulo 12",
+    "theme": "Migração",
+    "portuguese": "a situação legal",
+    "english": "legal status",
+    "examplePt": "É importante legalizar a sua situação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-reagrupamento-familiar",
+    "modulo": "Módulo 12",
+    "theme": "Migração",
+    "portuguese": "o reagrupamento familiar",
+    "english": "family reunification",
+    "examplePt": "O CLAII apoia o reagrupamento familiar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-retorno-voluntario",
+    "modulo": "Módulo 12",
+    "theme": "Migração",
+    "portuguese": "o retorno voluntário",
+    "english": "voluntary return",
+    "examplePt": "O serviço informa sobre retorno voluntário.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-seguranca-social",
+    "modulo": "Módulo 12",
+    "theme": "Instituições",
+    "portuguese": "a segurança social",
+    "english": "social security",
+    "examplePt": "O serviço apoia questões de segurança social.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-confidencial",
+    "modulo": "Módulo 12",
+    "theme": "Serviços",
+    "portuguese": "confidencial",
+    "english": "confidential",
+    "examplePt": "O serviço é confidencial e gratuito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-gratuito",
+    "modulo": "Módulo 12",
+    "theme": "Serviços",
+    "portuguese": "gratuito(a)",
+    "english": "free of charge",
+    "examplePt": "O serviço é gratuito. A consulta é gratuita.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-associacao-de-imigrantes",
+    "modulo": "Módulo 12",
+    "theme": "Instituições",
+    "portuguese": "a associação de imigrantes",
+    "english": "immigrant association",
+    "examplePt": "A associação de imigrantes protege direitos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-proteger",
+    "modulo": "Módulo 12",
+    "theme": "Ações",
+    "portuguese": "proteger",
+    "english": "to protect",
+    "examplePt": "A associação protege os direitos dos imigrantes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-instituicao",
+    "modulo": "Módulo 12",
+    "theme": "Instituições",
+    "portuguese": "a instituição",
+    "english": "institution",
+    "examplePt": "O CNAI reúne diferentes instituições.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-gabinete-de-apoio",
+    "modulo": "Módulo 12",
+    "theme": "Instituições",
+    "portuguese": "o gabinete de apoio",
+    "english": "support office",
+    "examplePt": "Existem gabinetes de apoio ao cidadão imigrante.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-imigracao",
+    "modulo": "Módulo 12",
+    "theme": "Migração",
+    "portuguese": "a imigração",
+    "english": "immigration",
+    "examplePt": "O tema é a imigração.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-adquirir",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "adquirir",
+    "english": "to acquire",
+    "examplePt": "Quero adquirir a nacionalidade portuguesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-requerimento",
+    "modulo": "Módulo 12",
+    "theme": "Documentos",
+    "portuguese": "o requerimento",
+    "english": "application form",
+    "examplePt": "Deve juntar documentos ao requerimento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-certificado",
+    "modulo": "Módulo 12",
+    "theme": "Documentos",
+    "portuguese": "o certificado",
+    "english": "certificate",
+    "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-preencher",
+    "modulo": "Módulo 12",
+    "theme": "Documentos",
+    "portuguese": "preencher",
+    "english": "to fill in",
+    "examplePt": "Basta preencher o requerimento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-tratar-de",
+    "modulo": "Módulo 12",
+    "theme": "Documentos",
+    "portuguese": "tratar de",
+    "english": "to take care of",
+    "examplePt": "Ajudam-te a tratar de tudo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-comunidade",
+    "modulo": "Módulo 12",
+    "theme": "Sociedade",
+    "portuguese": "a comunidade",
+    "english": "community",
+    "examplePt": "Participa na vida da comunidade.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-democracia",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "a democracia",
+    "english": "democracy",
+    "examplePt": "Vivemos em democracias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-direitos-humanos",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "os direitos humanos",
+    "english": "human rights",
+    "examplePt": "As democracias respeitam os direitos humanos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-discriminacao",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "a discriminação",
+    "english": "discrimination",
+    "examplePt": "Devemos combater a discriminação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-cidadao-europeu",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "o cidadão europeu",
+    "english": "European citizen",
+    "examplePt": "Ser cidadão europeu permite viajar e trabalhar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-residir",
+    "modulo": "Módulo 12",
+    "theme": "Habitação",
+    "portuguese": "residir",
+    "english": "to reside",
+    "examplePt": "Pode residir no espaço europeu.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-cuidados-medicos",
+    "modulo": "Módulo 12",
+    "theme": "Saúde",
+    "portuguese": "os cuidados médicos",
+    "english": "medical care",
+    "examplePt": "Pode receber cuidados médicos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-voluntario",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "voluntário(a)",
+    "english": "volunteer",
+    "examplePt": "O voluntário ajuda. A voluntária ajuda.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-votar",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "votar",
+    "english": "to vote",
+    "examplePt": "O cidadão pode votar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-eleicao",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "a eleição",
+    "english": "election",
+    "examplePt": "Pode votar em eleições europeias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-peticao",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "a petição",
+    "english": "petition",
+    "examplePt": "Pode apresentar petições.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-sugestao",
+    "modulo": "Módulo 12",
+    "theme": "Cidadania",
+    "portuguese": "a sugestão",
+    "english": "suggestion",
+    "examplePt": "Pode apresentar sugestões.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-fixar-se",
+    "modulo": "Módulo 12",
+    "theme": "Habitação",
+    "portuguese": "fixar-se",
+    "english": "to settle",
+    "examplePt": "Acabou por fixar-se em Alfambras.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-camara-municipal",
+    "modulo": "Módulo 12",
+    "theme": "Instituições",
+    "portuguese": "a Câmara Municipal",
+    "english": "city council",
+    "examplePt": "É candidato à presidência da Câmara Municipal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-balcao",
+    "modulo": "Módulo 12",
+    "theme": "Serviços",
+    "portuguese": "o balcão",
+    "english": "counter",
+    "examplePt": "Falou do outro lado do balcão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-informar-se",
+    "modulo": "Módulo 12",
+    "theme": "Ações",
+    "portuguese": "informar-se",
+    "english": "to get informed",
+    "examplePt": "Tenta informar-se sobre os candidatos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-renda-elevada",
+    "modulo": "Módulo 12",
+    "theme": "Habitação",
+    "portuguese": "a renda elevada",
+    "english": "high rent",
+    "examplePt": "Há dificuldades devido às rendas elevadas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-empregador",
+    "modulo": "Módulo 12",
+    "theme": "Emprego",
+    "portuguese": "o empregador",
+    "english": "employer",
+    "examplePt": "Alguns empregadores não observam os direitos dos trabalhadores.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-direitos-e-deveres-laborais",
+    "modulo": "Módulo 12",
+    "theme": "Emprego",
+    "portuguese": "os direitos e deveres laborais",
+    "english": "labour rights and duties",
+    "examplePt": "Devemos informar-nos sobre os direitos e deveres laborais.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-legalizar",
+    "modulo": "Módulo 12",
+    "theme": "Migração",
+    "portuguese": "legalizar",
+    "english": "to legalise",
+    "examplePt": "É importante legalizar a sua situação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-pontual",
+    "modulo": "Módulo 12",
+    "theme": "Trabalho",
+    "portuguese": "pontual",
+    "english": "punctual",
+    "examplePt": "É importante ser pontual.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-poupar",
+    "modulo": "Módulo 12",
+    "theme": "Dinheiro",
+    "portuguese": "poupar",
+    "english": "to save money",
+    "examplePt": "Conseguiram poupar e fazer uma viagem.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m12-registo-criminal",
+    "modulo": "Módulo 12",
+    "theme": "Documentos",
+    "portuguese": "o registo criminal",
+    "english": "criminal record",
+    "examplePt": "É preciso ter o registo criminal.",
+    "note": "",
+    "source": "pdf"
+  }
+]

@@ -1,0 +1,1882 @@
+[
+  {
+    "id": "m4-ouvir-musica",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "ouvir música",
+    "english": "to listen to music",
+    "examplePt": "Gosto de ouvir música em casa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-passear",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "passear",
+    "english": "to go for a walk",
+    "examplePt": "Costumo passear no parque.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-ler",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "ler",
+    "english": "to read",
+    "examplePt": "No fim de semana gosto de ler.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-ir-as-compras",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "ir às compras",
+    "english": "to go shopping",
+    "examplePt": "Vou às compras ao sábado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-ver-televisao",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "ver televisão",
+    "english": "to watch television",
+    "examplePt": "À noite vejo televisão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-conversar",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "conversar",
+    "english": "to talk",
+    "examplePt": "Gosto de conversar com amigos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-ir-ao-ginasio",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "ir ao ginásio",
+    "english": "to go to the gym",
+    "examplePt": "Vou ao ginásio depois do trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-ir-ao-cinema",
+    "modulo": "Módulo 4",
+    "theme": "Divertimentos",
+    "portuguese": "ir ao cinema",
+    "english": "to go to the cinema",
+    "examplePt": "Queres ir ao cinema amanhã?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-ir-a-um-bar",
+    "modulo": "Módulo 4",
+    "theme": "Divertimentos",
+    "portuguese": "ir a um bar",
+    "english": "to go to a bar",
+    "examplePt": "Depois do cinema vamos a um bar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-ir-a-praia",
+    "modulo": "Módulo 4",
+    "theme": "Divertimentos",
+    "portuguese": "ir à praia",
+    "english": "to go to the beach",
+    "examplePt": "No verão gosto de ir à praia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-viajar",
+    "modulo": "Módulo 4",
+    "theme": "Divertimentos",
+    "portuguese": "viajar",
+    "english": "to travel",
+    "examplePt": "Gosto de viajar nas férias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-filme",
+    "modulo": "Módulo 4",
+    "theme": "Acontecimentos culturais",
+    "portuguese": "o filme",
+    "english": "film",
+    "examplePt": "Qual é o filme?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-futebol",
+    "modulo": "Módulo 4",
+    "theme": "Desportos",
+    "portuguese": "o futebol",
+    "english": "football",
+    "examplePt": "Ele joga futebol ao domingo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-chuva",
+    "modulo": "Módulo 4",
+    "theme": "Estado do tempo",
+    "portuguese": "a chuva",
+    "english": "rain",
+    "examplePt": "Hoje há chuva.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-vento",
+    "modulo": "Módulo 4",
+    "theme": "Estado do tempo",
+    "portuguese": "o vento",
+    "english": "wind",
+    "examplePt": "Está muito vento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-sol",
+    "modulo": "Módulo 4",
+    "theme": "Estado do tempo",
+    "portuguese": "o sol",
+    "english": "sun",
+    "examplePt": "Gosto de apanhar sol.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-outono",
+    "modulo": "Módulo 4",
+    "theme": "Estações do ano",
+    "portuguese": "o outono",
+    "english": "autumn",
+    "examplePt": "No outono as folhas secam.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-primavera",
+    "modulo": "Módulo 4",
+    "theme": "Estações do ano",
+    "portuguese": "a primavera",
+    "english": "spring",
+    "examplePt": "Na primavera há muitas flores.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-inverno",
+    "modulo": "Módulo 4",
+    "theme": "Estações do ano",
+    "portuguese": "o inverno",
+    "english": "winter",
+    "examplePt": "No inverno faz frio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-verao",
+    "modulo": "Módulo 4",
+    "theme": "Estações do ano",
+    "portuguese": "o verão",
+    "english": "summer",
+    "examplePt": "No verão vou à praia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-bilheteira",
+    "modulo": "Módulo 4",
+    "theme": "Cinema",
+    "portuguese": "a bilheteira",
+    "english": "ticket office",
+    "examplePt": "Encontramo-nos na bilheteira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-fim-de-semana",
+    "modulo": "Módulo 4",
+    "theme": "Tempo",
+    "portuguese": "o fim de semana",
+    "english": "weekend",
+    "examplePt": "No fim de semana podemos ir a Sintra.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-fresco",
+    "modulo": "Módulo 4",
+    "theme": "Estado do tempo",
+    "portuguese": "fresco(a)",
+    "english": "cool; fresh",
+    "examplePt": "O tempo está fresco. A noite está fresca.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-frio",
+    "modulo": "Módulo 4",
+    "theme": "Estado do tempo",
+    "portuguese": "frio(a)",
+    "english": "cold",
+    "examplePt": "O dia está frio. A noite está fria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-pastelaria",
+    "modulo": "Módulo 4",
+    "theme": "Lugares",
+    "portuguese": "a pastelaria",
+    "english": "pastry shop",
+    "examplePt": "Lanchamos na pastelaria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-dar-uma-volta",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "ir dar uma volta",
+    "english": "to go for a stroll",
+    "examplePt": "Vamos dar uma volta ao centro comercial.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-centro-comercial",
+    "modulo": "Módulo 4",
+    "theme": "Lugares",
+    "portuguese": "o centro comercial",
+    "english": "shopping centre",
+    "examplePt": "Vou ao centro comercial.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-dizer",
+    "modulo": "Módulo 4",
+    "theme": "Verbos",
+    "portuguese": "dizer",
+    "english": "to say",
+    "examplePt": "Eles dizem que o desporto é saudável.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-amanha",
+    "modulo": "Módulo 4",
+    "theme": "Tempo",
+    "portuguese": "amanhã",
+    "english": "tomorrow",
+    "examplePt": "Amanhã vou trabalhar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-depois-de-amanha",
+    "modulo": "Módulo 4",
+    "theme": "Tempo",
+    "portuguese": "depois de amanhã",
+    "english": "the day after tomorrow",
+    "examplePt": "Depois de amanhã é sábado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-na-proxima-semana",
+    "modulo": "Módulo 4",
+    "theme": "Tempo",
+    "portuguese": "na próxima semana",
+    "english": "next week",
+    "examplePt": "Na próxima semana vou ao dentista.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-daqui-a-uma-semana",
+    "modulo": "Módulo 4",
+    "theme": "Tempo",
+    "portuguese": "daqui a uma semana",
+    "english": "in a week",
+    "examplePt": "Daqui a uma semana vou viajar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-natal",
+    "modulo": "Módulo 4",
+    "theme": "Épocas festivas",
+    "portuguese": "o Natal",
+    "english": "Christmas",
+    "examplePt": "No Natal as pessoas reúnem-se.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-pascoa",
+    "modulo": "Módulo 4",
+    "theme": "Épocas festivas",
+    "portuguese": "a Páscoa",
+    "english": "Easter",
+    "examplePt": "Na Páscoa comem-se folares.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-costumar",
+    "modulo": "Módulo 4",
+    "theme": "Verbos",
+    "portuguese": "costumar",
+    "english": "to usually do",
+    "examplePt": "Costumo passar o fim de semana fora.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-andar-de-bicicleta",
+    "modulo": "Módulo 4",
+    "theme": "Tempos livres",
+    "portuguese": "andar de bicicleta",
+    "english": "to ride a bicycle",
+    "examplePt": "Eles costumam andar de bicicleta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-divertir-se",
+    "modulo": "Módulo 4",
+    "theme": "Verbos",
+    "portuguese": "divertir-se",
+    "english": "to have fun",
+    "examplePt": "Nós divertimo-nos muito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-comigo",
+    "modulo": "Módulo 4",
+    "theme": "Pronomes",
+    "portuguese": "comigo",
+    "english": "with me",
+    "examplePt": "Podes contar comigo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-contigo",
+    "modulo": "Módulo 4",
+    "theme": "Pronomes",
+    "portuguese": "contigo",
+    "english": "with you",
+    "examplePt": "Vou contigo ao cinema.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m4-consigo",
+    "modulo": "Módulo 4",
+    "theme": "Pronomes",
+    "portuguese": "consigo",
+    "english": "with you",
+    "examplePt": "Posso ir consigo?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-oficina",
+    "modulo": "Módulo 5",
+    "theme": "Serviços e comércio",
+    "portuguese": "a oficina",
+    "english": "repair shop",
+    "examplePt": "O carro está na oficina.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-bomba-de-gasolina",
+    "modulo": "Módulo 5",
+    "theme": "Serviços e comércio",
+    "portuguese": "a bomba de gasolina",
+    "english": "petrol station",
+    "examplePt": "A bomba de gasolina fica perto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-correios",
+    "modulo": "Módulo 5",
+    "theme": "Serviços e comércio",
+    "portuguese": "os Correios",
+    "english": "post office",
+    "examplePt": "Vou aos Correios enviar uma carta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-banco",
+    "modulo": "Módulo 5",
+    "theme": "Serviços e comércio",
+    "portuguese": "o banco",
+    "english": "bank",
+    "examplePt": "O banco fica atrás dos Correios.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-servico-de-estrangeiros-e-fronteiras",
+    "modulo": "Módulo 5",
+    "theme": "Serviços e comércio",
+    "portuguese": "o Serviço de Estrangeiros e Fronteiras",
+    "english": "foreigners and borders service",
+    "examplePt": "Tenho marcação no Serviço de Estrangeiros e Fronteiras.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-loja-de-roupa",
+    "modulo": "Módulo 5",
+    "theme": "Lojas",
+    "portuguese": "a loja de roupa",
+    "english": "clothes shop",
+    "examplePt": "A loja de roupa está aberta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-servico",
+    "modulo": "Módulo 5",
+    "theme": "Serviços e comércio",
+    "portuguese": "o serviço",
+    "english": "service",
+    "examplePt": "Este serviço ajuda os utentes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-lavandaria",
+    "modulo": "Módulo 5",
+    "theme": "Lojas",
+    "portuguese": "a lavandaria",
+    "english": "launderette",
+    "examplePt": "Levo a roupa à lavandaria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-oculista",
+    "modulo": "Módulo 5",
+    "theme": "Lojas",
+    "portuguese": "o oculista",
+    "english": "optician",
+    "examplePt": "Vou ao oculista.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-proibido-fumar",
+    "modulo": "Módulo 5",
+    "theme": "Avisos",
+    "portuguese": "Proibido fumar",
+    "english": "No smoking",
+    "examplePt": "O aviso diz: Proibido fumar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-fechado-para-ferias",
+    "modulo": "Módulo 5",
+    "theme": "Avisos",
+    "portuguese": "Fechado para férias",
+    "english": "Closed for holidays",
+    "examplePt": "A loja está fechada para férias.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-encomenda",
+    "modulo": "Módulo 5",
+    "theme": "Correios",
+    "portuguese": "a encomenda",
+    "english": "parcel",
+    "examplePt": "Tenho uma encomenda nos Correios.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-a-esquerda",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "à esquerda",
+    "english": "to the left",
+    "examplePt": "Vire à esquerda.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-a-direita",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "à direita",
+    "english": "to the right",
+    "examplePt": "Vire à direita.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-seguir-em-frente",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "seguir em frente",
+    "english": "to go straight ahead",
+    "examplePt": "Siga em frente até ao banco.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-atravessar",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "atravessar",
+    "english": "to cross",
+    "examplePt": "Atravesse o cruzamento com cuidado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-passar",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "passar",
+    "english": "to pass",
+    "examplePt": "O autocarro passa pelo Areeiro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-subir",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "subir",
+    "english": "to go up",
+    "examplePt": "Suba a Rua do Sol.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-descer",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "descer",
+    "english": "to go down",
+    "examplePt": "Desça a rua.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-enviar-uma-carta",
+    "modulo": "Módulo 5",
+    "theme": "Correios",
+    "portuguese": "enviar uma carta",
+    "english": "to send a letter",
+    "examplePt": "Queria enviar esta carta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-pagar-a-conta",
+    "modulo": "Módulo 5",
+    "theme": "Serviços",
+    "portuguese": "pagar a conta",
+    "english": "to pay the bill",
+    "examplePt": "Queria pagar a conta da água.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-senha",
+    "modulo": "Módulo 5",
+    "theme": "Serviços",
+    "portuguese": "a senha",
+    "english": "ticket number",
+    "examplePt": "Pode dar-me a sua senha?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-carta-registada",
+    "modulo": "Módulo 5",
+    "theme": "Correios",
+    "portuguese": "a carta registada",
+    "english": "registered letter",
+    "examplePt": "A carta é registada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-impresso",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "o impresso",
+    "english": "form",
+    "examplePt": "Preencha este impresso.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-fatura",
+    "modulo": "Módulo 5",
+    "theme": "Pagamentos",
+    "portuguese": "a fatura",
+    "english": "invoice",
+    "examplePt": "Aqui está a fatura.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-renovar",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "renovar",
+    "english": "to renew",
+    "examplePt": "Queria renovar a autorização de residência.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-autorizacao-de-residencia",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "a autorização de residência",
+    "english": "residence permit",
+    "examplePt": "Tenho autorização de residência permanente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-documentos-necessarios",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "os documentos necessários",
+    "english": "required documents",
+    "examplePt": "Que documentos necessários devo trazer?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-requerente",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "o requerente",
+    "english": "applicant",
+    "examplePt": "O requerente assina o pedido.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-fotografia-tipo-passe",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "a fotografia tipo passe",
+    "english": "passport photo",
+    "examplePt": "Preciso de duas fotografias tipo passe.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-passaporte",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "o passaporte",
+    "english": "passport",
+    "examplePt": "Deve levar o passaporte.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-registo-criminal",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "o registo criminal",
+    "english": "criminal record",
+    "examplePt": "Preciso de autorização para consulta do registo criminal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-pessoalmente",
+    "modulo": "Módulo 5",
+    "theme": "Serviços",
+    "portuguese": "pessoalmente",
+    "english": "in person",
+    "examplePt": "Tem de vir cá pessoalmente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-pneu-furado",
+    "modulo": "Módulo 5",
+    "theme": "Carro",
+    "portuguese": "o pneu furado",
+    "english": "flat tyre",
+    "examplePt": "Tenho de trocar um pneu furado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-veiculo",
+    "modulo": "Módulo 5",
+    "theme": "Carro",
+    "portuguese": "o veículo",
+    "english": "vehicle",
+    "examplePt": "Leve luvas no seu veículo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-estrada",
+    "modulo": "Módulo 5",
+    "theme": "Carro",
+    "portuguese": "a estrada",
+    "english": "road",
+    "examplePt": "O triângulo está na estrada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-estacao-de-servico",
+    "modulo": "Módulo 5",
+    "theme": "Carro",
+    "portuguese": "a estação de serviço",
+    "english": "service station",
+    "examplePt": "Pare na estação de serviço.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-poupar",
+    "modulo": "Módulo 5",
+    "theme": "Compras",
+    "portuguese": "poupar",
+    "english": "to save money",
+    "examplePt": "Quero poupar no supermercado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-supermercado",
+    "modulo": "Módulo 5",
+    "theme": "Compras",
+    "portuguese": "o supermercado",
+    "english": "supermarket",
+    "examplePt": "Vou ao supermercado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-daqui",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "daqui",
+    "english": "from here",
+    "examplePt": "Como vou daqui para o ACM?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-virar-a-direita",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "virar à direita",
+    "english": "to turn right",
+    "examplePt": "Vire à direita na igreja.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-ir-a-pe",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "ir a pé",
+    "english": "to go on foot",
+    "examplePt": "Vá a pé até ao ACM.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-demorar",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "demorar",
+    "english": "to take time",
+    "examplePt": "Demora cerca de dez minutos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-saber",
+    "modulo": "Módulo 5",
+    "theme": "Verbos",
+    "portuguese": "saber",
+    "english": "to know",
+    "examplePt": "Sabe onde ficam os Correios?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-motorista",
+    "modulo": "Módulo 5",
+    "theme": "Trabalho",
+    "portuguese": "o motorista",
+    "english": "driver",
+    "examplePt": "O Sami é motorista.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-guiar",
+    "modulo": "Módulo 5",
+    "theme": "Carro",
+    "portuguese": "guiar",
+    "english": "to drive",
+    "examplePt": "Não fale ao telemóvel quando está a guiar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-atender",
+    "modulo": "Módulo 5",
+    "theme": "Telefone",
+    "portuguese": "atender",
+    "english": "to answer",
+    "examplePt": "Não atenda o telemóvel.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-desligar",
+    "modulo": "Módulo 5",
+    "theme": "Telefone",
+    "portuguese": "desligar",
+    "english": "to turn off",
+    "examplePt": "Desligue o telemóvel.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-esquecer-se",
+    "modulo": "Módulo 5",
+    "theme": "Verbos",
+    "portuguese": "esquecer-se",
+    "english": "to forget",
+    "examplePt": "Não se esqueça dos documentos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-rotunda",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "a rotunda",
+    "english": "roundabout",
+    "examplePt": "Contorne a rotunda.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-semaforo",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "o semáforo",
+    "english": "traffic light",
+    "examplePt": "O semáforo está avariado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-cruzamento",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "o cruzamento",
+    "english": "crossroads",
+    "examplePt": "Atravesse o cruzamento com cuidado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-troco",
+    "modulo": "Módulo 5",
+    "theme": "Pagamentos",
+    "portuguese": "o troco",
+    "english": "change",
+    "examplePt": "Ele dá-me o troco.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-imobiliaria",
+    "modulo": "Módulo 5",
+    "theme": "Habitação",
+    "portuguese": "a imobiliária",
+    "english": "estate agency",
+    "examplePt": "A imobiliária mostra casas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-apartamento",
+    "modulo": "Módulo 5",
+    "theme": "Habitação",
+    "portuguese": "o apartamento",
+    "english": "flat",
+    "examplePt": "Vou mostrar-vos o novo apartamento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-por",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "por",
+    "english": "through / by / along",
+    "examplePt": "Siga em frente por esta rua.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-pelo",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "por + artigo",
+    "english": "by; through; along",
+    "examplePt": "Passe pelo banco. Passe pela farmácia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-avenida",
+    "modulo": "Módulo 5",
+    "theme": "Direções",
+    "portuguese": "a avenida",
+    "english": "avenue",
+    "examplePt": "Siga em frente por esta avenida.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-ter-de",
+    "modulo": "Módulo 5",
+    "theme": "Obrigação",
+    "portuguese": "ter de",
+    "english": "to have to",
+    "examplePt": "Tenho de levar o passaporte.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-precisar-de",
+    "modulo": "Módulo 5",
+    "theme": "Obrigação",
+    "portuguese": "precisar de",
+    "english": "to need to",
+    "examplePt": "Preciso de trazer documentos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-dever",
+    "modulo": "Módulo 5",
+    "theme": "Obrigação",
+    "portuguese": "dever",
+    "english": "should",
+    "examplePt": "Deve fazer exercício físico.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-cartao-de-residencia",
+    "modulo": "Módulo 5",
+    "theme": "Documentos",
+    "portuguese": "o cartão de residência",
+    "english": "residence card",
+    "examplePt": "Preciso do cartão de residência.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-abrir-uma-conta",
+    "modulo": "Módulo 5",
+    "theme": "Banco",
+    "portuguese": "abrir uma conta",
+    "english": "to open an account",
+    "examplePt": "Ela quer abrir uma conta no banco.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m5-exercicio-fisico",
+    "modulo": "Módulo 5",
+    "theme": "Saúde",
+    "portuguese": "o exercício físico",
+    "english": "physical exercise",
+    "examplePt": "Deve fazer exercício físico.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-bombeiros",
+    "modulo": "Módulo 6",
+    "theme": "Emergência",
+    "portuguese": "os bombeiros",
+    "english": "firefighters",
+    "examplePt": "Os bombeiros ajudam nas emergências.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-inem",
+    "modulo": "Módulo 6",
+    "theme": "Emergência",
+    "portuguese": "o INEM",
+    "english": "emergency medical service",
+    "examplePt": "O INEM presta socorro médico.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-cabeca",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "a cabeça",
+    "english": "head",
+    "examplePt": "Dói-me a cabeça.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-olhos",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "os olhos",
+    "english": "eyes",
+    "examplePt": "Tenho os olhos vermelhos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-nariz",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "o nariz",
+    "english": "nose",
+    "examplePt": "Dói-me o nariz.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-boca",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "a boca",
+    "english": "mouth",
+    "examplePt": "Abra a boca, por favor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-pescoco",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "o pescoço",
+    "english": "neck",
+    "examplePt": "Não me dói o pescoço.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-braco",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "o braço",
+    "english": "arm",
+    "examplePt": "Dói-me o braço.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-barriga",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "a barriga",
+    "english": "belly",
+    "examplePt": "Dói-me a barriga.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-mao",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "a mão",
+    "english": "hand",
+    "examplePt": "Lave as mãos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-perna",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "a perna",
+    "english": "leg",
+    "examplePt": "Doem-me as pernas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-joelho",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "o joelho",
+    "english": "knee",
+    "examplePt": "Doem-me os joelhos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-pe",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "o pé",
+    "english": "foot",
+    "examplePt": "Doem-me os pés.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-hospital",
+    "modulo": "Módulo 6",
+    "theme": "Serviços de saúde",
+    "portuguese": "o hospital",
+    "english": "hospital",
+    "examplePt": "Vou ao hospital.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-centro-de-saude",
+    "modulo": "Módulo 6",
+    "theme": "Serviços de saúde",
+    "portuguese": "o Centro de Saúde",
+    "english": "health centre",
+    "examplePt": "Vou ao Centro de Saúde da minha área.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-usf",
+    "modulo": "Módulo 6",
+    "theme": "Serviços de saúde",
+    "portuguese": "a USF",
+    "english": "family health unit",
+    "examplePt": "A USF é uma Unidade de Saúde Familiar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-linha-de-emergencia",
+    "modulo": "Módulo 6",
+    "theme": "Serviços de saúde",
+    "portuguese": "a linha de emergência",
+    "english": "emergency line",
+    "examplePt": "Ligue para a linha de emergência.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-fazer-exercicio",
+    "modulo": "Módulo 6",
+    "theme": "Cuidados de saúde",
+    "portuguese": "fazer exercício",
+    "english": "to exercise",
+    "examplePt": "Deve fazer exercício.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ter-uma-alimentacao-saudavel",
+    "modulo": "Módulo 6",
+    "theme": "Cuidados de saúde",
+    "portuguese": "ter uma alimentação saudável",
+    "english": "to have a healthy diet",
+    "examplePt": "É importante ter uma alimentação saudável.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-dentista",
+    "modulo": "Módulo 6",
+    "theme": "Especialidades médicas",
+    "portuguese": "o dentista",
+    "english": "dentist",
+    "examplePt": "Tenho consulta no dentista.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-pediatra",
+    "modulo": "Módulo 6",
+    "theme": "Especialidades médicas",
+    "portuguese": "o pediatra",
+    "english": "paediatrician",
+    "examplePt": "A criança vai ao pediatra.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-medico-de-familia",
+    "modulo": "Módulo 6",
+    "theme": "Especialidades médicas",
+    "portuguese": "o médico de família",
+    "english": "family doctor",
+    "examplePt": "Marco consulta com o médico de família.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-oftalmologista",
+    "modulo": "Módulo 6",
+    "theme": "Especialidades médicas",
+    "portuguese": "o oftalmologista",
+    "english": "ophthalmologist",
+    "examplePt": "Vou ao oftalmologista por causa dos olhos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-medir-a-tensao",
+    "modulo": "Módulo 6",
+    "theme": "Exames médicos",
+    "portuguese": "medir a tensão",
+    "english": "to measure blood pressure",
+    "examplePt": "A enfermeira vai medir a tensão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-fazer-uma-radiografia",
+    "modulo": "Módulo 6",
+    "theme": "Exames médicos",
+    "portuguese": "fazer uma radiografia",
+    "english": "to have an X-ray",
+    "examplePt": "Tenho de fazer uma radiografia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-fazer-analises",
+    "modulo": "Módulo 6",
+    "theme": "Exames médicos",
+    "portuguese": "fazer análises",
+    "english": "to have tests",
+    "examplePt": "Deve fazer análises.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-doer-a-cabeca",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "doer a cabeça",
+    "english": "to have a headache",
+    "examplePt": "Dói-me a cabeça.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-doer-a-garganta",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "doer a garganta",
+    "english": "to have a sore throat",
+    "examplePt": "Dói-me a garganta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-estar-constipado",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "estar constipado(a)",
+    "english": "to have a cold",
+    "examplePt": "Ele está constipado. Ela está constipada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ter-febre",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "ter febre",
+    "english": "to have a fever",
+    "examplePt": "O menino tem febre.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ter-tosse",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "ter tosse",
+    "english": "to have a cough",
+    "examplePt": "Está com tosse?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ter-uma-intoxicacao",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "ter uma intoxicação",
+    "english": "to have poisoning",
+    "examplePt": "Ele tem uma intoxicação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-doer-a-barriga",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "doer a barriga",
+    "english": "to have a stomach ache",
+    "examplePt": "Dói-me a barriga.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ser-alergico-a",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "ser alérgico a",
+    "english": "to be allergic to",
+    "examplePt": "Sou alérgico a este medicamento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ser-alergica-a",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "ser alérgica a",
+    "english": "to be allergic to",
+    "examplePt": "Sou alérgica a este medicamento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-estar-enjoado",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "estar enjoado(a)",
+    "english": "to feel nauseous",
+    "examplePt": "Ele está enjoado. Ela está enjoada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-sentar-se",
+    "modulo": "Módulo 6",
+    "theme": "Consulta médica",
+    "portuguese": "sentar-se",
+    "english": "to sit down",
+    "examplePt": "Faça o favor de se sentar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-comichao",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "a comichão",
+    "english": "itching",
+    "examplePt": "Tenho muita comichão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-espirrar",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "espirrar",
+    "english": "to sneeze",
+    "examplePt": "Espirro muitas vezes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-sentir-se-cansado",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "sentir-se cansado(a)",
+    "english": "to feel tired",
+    "examplePt": "Ele sente-se cansado. Ela sente-se cansada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-sem-forcas",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "sem forças",
+    "english": "weak",
+    "examplePt": "Estou sem forças.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-mascara",
+    "modulo": "Módulo 6",
+    "theme": "Saúde no trabalho",
+    "portuguese": "a máscara",
+    "english": "mask",
+    "examplePt": "Use máscara durante o trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-alergia",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "a alergia",
+    "english": "allergy",
+    "examplePt": "O senhor está com uma alergia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-receita",
+    "modulo": "Módulo 6",
+    "theme": "Farmácia",
+    "portuguese": "a receita",
+    "english": "prescription",
+    "examplePt": "Aqui está a receita.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-farmacia",
+    "modulo": "Módulo 6",
+    "theme": "Farmácia",
+    "portuguese": "a farmácia",
+    "english": "pharmacy",
+    "examplePt": "Vou à farmácia comprar medicamentos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-consultorio-medico",
+    "modulo": "Módulo 6",
+    "theme": "Consulta médica",
+    "portuguese": "o consultório médico",
+    "english": "doctor's office",
+    "examplePt": "Estou no consultório médico.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-farmaceutica",
+    "modulo": "Módulo 6",
+    "theme": "Farmácia",
+    "portuguese": "a farmacêutica",
+    "english": "pharmacist",
+    "examplePt": "A farmacêutica pede o cartão de utente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-cartao-de-utente",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "o cartão de utente",
+    "english": "health user card",
+    "examplePt": "Dê-me o seu cartão de utente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ha-quanto-tempo",
+    "modulo": "Módulo 6",
+    "theme": "Consulta médica",
+    "portuguese": "há quanto tempo?",
+    "english": "for how long?",
+    "examplePt": "Há quanto tempo está assim?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-injecao",
+    "modulo": "Módulo 6",
+    "theme": "Tratamentos",
+    "portuguese": "a injeção",
+    "english": "injection",
+    "examplePt": "Tenho de levar uma injeção.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-comprimido",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "o comprimido",
+    "english": "tablet",
+    "examplePt": "Tome estes comprimidos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-de-oito-em-oito-horas",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "de oito em oito horas",
+    "english": "every eight hours",
+    "examplePt": "Tome um comprimido de oito em oito horas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-numero-europeu-de-emergencia",
+    "modulo": "Módulo 6",
+    "theme": "Emergência",
+    "portuguese": "o Número Europeu de Emergência",
+    "english": "European emergency number",
+    "examplePt": "O 112 é o Número Europeu de Emergência.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-saude-24",
+    "modulo": "Módulo 6",
+    "theme": "Emergência",
+    "portuguese": "Saúde 24",
+    "english": "health helpline",
+    "examplePt": "Pode ligar para a Saúde 24.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-utente",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "o utente",
+    "english": "health service user",
+    "examplePt": "O serviço é para todos os utentes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-sns",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "o SNS",
+    "english": "National Health Service",
+    "examplePt": "SNS significa Serviço Nacional de Saúde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-incendio",
+    "modulo": "Módulo 6",
+    "theme": "Emergência",
+    "portuguese": "o incêndio",
+    "english": "fire",
+    "examplePt": "O 112 atende situações de incêndio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-assalto",
+    "modulo": "Módulo 6",
+    "theme": "Emergência",
+    "portuguese": "o assalto",
+    "english": "robbery",
+    "examplePt": "O 112 atende situações de assalto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-cuidados-de-saude",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "os cuidados de saúde",
+    "english": "health care",
+    "examplePt": "Os estrangeiros podem aceder a cuidados de saúde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-aceder",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "aceder",
+    "english": "to access",
+    "examplePt": "Podem aceder a cuidados de saúde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-legalmente",
+    "modulo": "Módulo 6",
+    "theme": "Documentos",
+    "portuguese": "legalmente",
+    "english": "legally",
+    "examplePt": "Residimos legalmente em Portugal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-direitos-e-deveres",
+    "modulo": "Módulo 6",
+    "theme": "Cidadania",
+    "portuguese": "os direitos e deveres",
+    "english": "rights and duties",
+    "examplePt": "Têm os mesmos direitos e deveres.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-situacao-legalizada",
+    "modulo": "Módulo 6",
+    "theme": "Documentos",
+    "portuguese": "a situação legalizada",
+    "english": "legalized status",
+    "examplePt": "Ainda não têm a situação legalizada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-inscricao",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "a inscrição",
+    "english": "registration",
+    "examplePt": "Fazem a inscrição na consulta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-consulta-de-urgencia",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "a consulta de urgência",
+    "english": "emergency consultation",
+    "examplePt": "A consulta de urgência é no hospital.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-aviar-uma-receita",
+    "modulo": "Módulo 6",
+    "theme": "Farmácia",
+    "portuguese": "aviar uma receita",
+    "english": "to fill a prescription",
+    "examplePt": "O senhor aviou esta receita na farmácia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-medicamento",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "o medicamento",
+    "english": "medicine",
+    "examplePt": "Não tome este medicamento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-aliviar-a-dor",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "aliviar a dor",
+    "english": "to relieve pain",
+    "examplePt": "O medicamento alivia a dor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-diminuir-a-febre",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "diminuir a febre",
+    "english": "to reduce fever",
+    "examplePt": "O medicamento diminui a febre.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-dose-recomendada",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "a dose recomendada",
+    "english": "recommended dose",
+    "examplePt": "A dose recomendada é um comprimido por dia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-apos-as-refeicoes",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "após as refeições",
+    "english": "after meals",
+    "examplePt": "Tome o comprimido após as refeições.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-oculos",
+    "modulo": "Módulo 6",
+    "theme": "Saúde",
+    "portuguese": "os óculos",
+    "english": "glasses",
+    "examplePt": "Preciso de óculos para ler.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-dores-de-dentes",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "as dores de dentes",
+    "english": "toothache",
+    "examplePt": "Estou com dores de dentes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-marcar-uma-consulta",
+    "modulo": "Módulo 6",
+    "theme": "Consulta médica",
+    "portuguese": "marcar uma consulta",
+    "english": "to book an appointment",
+    "examplePt": "Vou marcar uma consulta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-doer",
+    "modulo": "Módulo 6",
+    "theme": "Verbos",
+    "portuguese": "doer",
+    "english": "to hurt",
+    "examplePt": "Dói-me a barriga.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-doi-me",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "dói-me",
+    "english": "it hurts me",
+    "examplePt": "Dói-me o peito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-peito",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "o peito",
+    "english": "chest",
+    "examplePt": "Dói-te o peito?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ouvidos",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "os ouvidos",
+    "english": "ears",
+    "examplePt": "Doem-me os ouvidos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-estomago",
+    "modulo": "Módulo 6",
+    "theme": "Corpo humano",
+    "portuguese": "o estômago",
+    "english": "stomach",
+    "examplePt": "Dói-me o estômago.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-ter-cuidado",
+    "modulo": "Módulo 6",
+    "theme": "Conselhos de saúde",
+    "portuguese": "ter cuidado",
+    "english": "to be careful",
+    "examplePt": "Tenha cuidado com a sua saúde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-consultar-o-medico",
+    "modulo": "Módulo 6",
+    "theme": "Conselhos de saúde",
+    "portuguese": "consultar o médico",
+    "english": "to consult the doctor",
+    "examplePt": "Não dê medicamentos sem consultar o médico.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-tonto",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "tonto(a)",
+    "english": "dizzy",
+    "examplePt": "Sinto-me tonto. Sinto-me tonta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-antibiotico",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "o antibiótico",
+    "english": "antibiotic",
+    "examplePt": "Deve tomar o antibiótico de 12 em 12 horas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m6-de-doze-em-doze-horas",
+    "modulo": "Módulo 6",
+    "theme": "Medicamentos",
+    "portuguese": "de 12 em 12 horas",
+    "english": "every 12 hours",
+    "examplePt": "Tome o antibiótico de 12 em 12 horas.",
+    "note": "",
+    "source": "pdf"
+  }
+]

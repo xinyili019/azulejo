@@ -1,0 +1,1732 @@
+[
+  {
+    "id": "m1-primeiro-nome",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "o primeiro nome",
+    "english": "first name",
+    "examplePt": "O meu primeiro nome é Ahmed.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-apelido",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "o apelido",
+    "english": "surname",
+    "examplePt": "Qual é o seu apelido?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-nome-completo",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "o nome completo",
+    "english": "full name",
+    "examplePt": "Escreva o seu nome completo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-nacionalidade",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "a nacionalidade",
+    "english": "nationality",
+    "examplePt": "Qual é a sua nacionalidade?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-local-nascimento",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "o local de nascimento",
+    "english": "place of birth",
+    "examplePt": "O local de nascimento é Islamabad.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-data-nascimento",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "a data de nascimento",
+    "english": "date of birth",
+    "examplePt": "Qual é a sua data de nascimento?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-sexo",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "o sexo",
+    "english": "sex",
+    "examplePt": "O sexo é masculino.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-estado-civil",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "o estado civil",
+    "english": "marital status",
+    "examplePt": "Qual é o seu estado civil?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-masculino",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "masculino",
+    "english": "male",
+    "examplePt": "O Ahmed é do sexo masculino.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-feminino",
+    "modulo": "Módulo 1",
+    "theme": "Identificação pessoal",
+    "portuguese": "feminino",
+    "english": "female",
+    "examplePt": "A Olga é do sexo feminino.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-solteiro",
+    "modulo": "Módulo 1",
+    "theme": "Estado civil",
+    "portuguese": "solteiro(a)",
+    "english": "single",
+    "examplePt": "O Ahmed é solteiro. A Olga é solteira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-casado",
+    "modulo": "Módulo 1",
+    "theme": "Estado civil",
+    "portuguese": "casado(a)",
+    "english": "married",
+    "examplePt": "O Ahmed é casado. A Olga é casada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-divorciado",
+    "modulo": "Módulo 1",
+    "theme": "Estado civil",
+    "portuguese": "divorciado(a)",
+    "english": "divorced",
+    "examplePt": "Ele é divorciado. Ela é divorciada.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-viuvo",
+    "modulo": "Módulo 1",
+    "theme": "Estado civil",
+    "portuguese": "viúvo(a)",
+    "english": "widowed",
+    "examplePt": "Ele é viúvo. Ela é viúva.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-morada",
+    "modulo": "Módulo 1",
+    "theme": "Morada",
+    "portuguese": "a morada",
+    "english": "address",
+    "examplePt": "Qual é a sua morada?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-localidade",
+    "modulo": "Módulo 1",
+    "theme": "Morada",
+    "portuguese": "a localidade",
+    "english": "locality",
+    "examplePt": "A localidade é Porto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-codigo-postal",
+    "modulo": "Módulo 1",
+    "theme": "Morada",
+    "portuguese": "o código postal",
+    "english": "postal code",
+    "examplePt": "Qual é o seu código postal?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-telefone",
+    "modulo": "Módulo 1",
+    "theme": "Contactos",
+    "portuguese": "o telefone",
+    "english": "telephone",
+    "examplePt": "Qual é o seu número de telefone?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-telemovel",
+    "modulo": "Módulo 1",
+    "theme": "Contactos",
+    "portuguese": "o telemóvel",
+    "english": "mobile phone",
+    "examplePt": "O meu telemóvel é novo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-cidade",
+    "modulo": "Módulo 1",
+    "theme": "Morada",
+    "portuguese": "a cidade",
+    "english": "city",
+    "examplePt": "Lisboa é uma cidade.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-rua",
+    "modulo": "Módulo 1",
+    "theme": "Morada",
+    "portuguese": "a rua",
+    "english": "street",
+    "examplePt": "A rua tem um supermercado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-pais",
+    "modulo": "Módulo 1",
+    "theme": "Países e línguas",
+    "portuguese": "o país",
+    "english": "country",
+    "examplePt": "Portugal é um país.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-empregado-limpeza",
+    "modulo": "Módulo 1",
+    "theme": "Profissões",
+    "portuguese": "o empregado de limpeza",
+    "english": "cleaner",
+    "examplePt": "Ele é empregado de limpeza.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-motorista",
+    "modulo": "Módulo 1",
+    "theme": "Profissões",
+    "portuguese": "o motorista",
+    "english": "driver",
+    "examplePt": "O motorista conduz o autocarro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-professor",
+    "modulo": "Módulo 1",
+    "theme": "Profissões",
+    "portuguese": "professor(a)",
+    "english": "teacher",
+    "examplePt": "O professor ensina Português. A professora ensina Português.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-medico",
+    "modulo": "Módulo 1",
+    "theme": "Profissões",
+    "portuguese": "médico(a)",
+    "english": "doctor",
+    "examplePt": "O médico trabalha no centro de saúde. A médica também.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-um",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "um",
+    "english": "one",
+    "examplePt": "Tenho um filho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-dois",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "dois",
+    "english": "two",
+    "examplePt": "Tenho dois filhos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-tres",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "três",
+    "english": "three",
+    "examplePt": "Tenho três documentos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-quatro",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "quatro",
+    "english": "four",
+    "examplePt": "Tenho quatro aulas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-cinco",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "cinco",
+    "english": "five",
+    "examplePt": "São cinco euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-seis",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "seis",
+    "english": "six",
+    "examplePt": "Acordo às seis.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-sete",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "sete",
+    "english": "seven",
+    "examplePt": "São sete horas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-oito",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "oito",
+    "english": "eight",
+    "examplePt": "Entro às oito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-nove",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "nove",
+    "english": "nine",
+    "examplePt": "São nove horas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-dez",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "dez",
+    "english": "ten",
+    "examplePt": "Tenho dez euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-vinte",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "vinte",
+    "english": "twenty",
+    "examplePt": "São vinte euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-trinta",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "trinta",
+    "english": "thirty",
+    "examplePt": "Tenho trinta anos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-quarenta",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "quarenta",
+    "english": "forty",
+    "examplePt": "Tenho quarenta anos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-cinquenta",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "cinquenta",
+    "english": "fifty",
+    "examplePt": "São cinquenta euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-cem",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "cem",
+    "english": "one hundred",
+    "examplePt": "Cem é um número.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-mil",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "mil",
+    "english": "one thousand",
+    "examplePt": "Mil é um número.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-segunda-feira",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "segunda-feira",
+    "english": "Monday",
+    "examplePt": "Hoje é segunda-feira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-terca-feira",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "terça-feira",
+    "english": "Tuesday",
+    "examplePt": "Hoje é terça-feira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-quarta-feira",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "quarta-feira",
+    "english": "Wednesday",
+    "examplePt": "Hoje é quarta-feira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-quinta-feira",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "quinta-feira",
+    "english": "Thursday",
+    "examplePt": "Hoje é quinta-feira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-sexta-feira",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "sexta-feira",
+    "english": "Friday",
+    "examplePt": "Hoje é sexta-feira.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-sabado",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "sábado",
+    "english": "Saturday",
+    "examplePt": "Hoje é sábado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-domingo",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "domingo",
+    "english": "Sunday",
+    "examplePt": "Hoje é domingo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-janeiro",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "janeiro",
+    "english": "January",
+    "examplePt": "A data é em janeiro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-fevereiro",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "fevereiro",
+    "english": "February",
+    "examplePt": "A data é em fevereiro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-marco",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "março",
+    "english": "March",
+    "examplePt": "A data é em março.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-abril",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "abril",
+    "english": "April",
+    "examplePt": "A data de nascimento é em abril.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-maio",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "maio",
+    "english": "May",
+    "examplePt": "A data é em maio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-junho",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "junho",
+    "english": "June",
+    "examplePt": "A data é em junho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-julho",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "julho",
+    "english": "July",
+    "examplePt": "A data é em julho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-agosto",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "agosto",
+    "english": "August",
+    "examplePt": "A data é em agosto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-setembro",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "setembro",
+    "english": "September",
+    "examplePt": "A data é em setembro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-outubro",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "outubro",
+    "english": "October",
+    "examplePt": "A data é em outubro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-novembro",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "novembro",
+    "english": "November",
+    "examplePt": "A data é em novembro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-dezembro",
+    "modulo": "Módulo 1",
+    "theme": "Tempo",
+    "portuguese": "dezembro",
+    "english": "December",
+    "examplePt": "A data é em dezembro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-familia",
+    "modulo": "Módulo 1",
+    "theme": "Família",
+    "portuguese": "a família",
+    "english": "family",
+    "examplePt": "A minha família mora em Portugal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-irmao",
+    "modulo": "Módulo 1",
+    "theme": "Família",
+    "portuguese": "o irmão",
+    "english": "brother",
+    "examplePt": "O meu irmão chama-se José.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-filho",
+    "modulo": "Módulo 1",
+    "theme": "Família",
+    "portuguese": "filho(a)",
+    "english": "child; son or daughter",
+    "examplePt": "O meu filho estuda. A minha filha estuda.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-mulher",
+    "modulo": "Módulo 1",
+    "theme": "Família",
+    "portuguese": "a mulher",
+    "english": "wife or woman",
+    "examplePt": "A minha mulher mora em Portugal.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-mae",
+    "modulo": "Módulo 1",
+    "theme": "Família",
+    "portuguese": "a mãe",
+    "english": "mother",
+    "examplePt": "A minha mãe está bem.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-marido",
+    "modulo": "Módulo 1",
+    "theme": "Família",
+    "portuguese": "o marido",
+    "english": "husband",
+    "examplePt": "O meu marido trabalha hoje.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-pai",
+    "modulo": "Módulo 1",
+    "theme": "Família",
+    "portuguese": "o pai",
+    "english": "father",
+    "examplePt": "O meu pai chama-se António.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-ola",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "olá",
+    "english": "hello",
+    "examplePt": "Olá, Joana!",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-bom-dia",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "bom dia",
+    "english": "good morning",
+    "examplePt": "Bom dia, Sr. Santos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-boa-tarde",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "boa tarde",
+    "english": "good afternoon",
+    "examplePt": "Boa tarde!",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-boa-noite",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "boa noite",
+    "english": "good evening; good night",
+    "examplePt": "Boa noite!",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-tudo-bem",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "tudo bem?",
+    "english": "all good?",
+    "examplePt": "Olá, tudo bem?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-como-esta",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "como está?",
+    "english": "how are you?",
+    "examplePt": "Como está, D. Marina?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-ate-logo",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "até logo",
+    "english": "see you later",
+    "examplePt": "Até logo!",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-ate-amanha",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "até amanhã",
+    "english": "see you tomorrow",
+    "examplePt": "Até amanhã!",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-adeus",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "adeus",
+    "english": "goodbye",
+    "examplePt": "Adeus!",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-muito-prazer",
+    "modulo": "Módulo 1",
+    "theme": "Saudações",
+    "portuguese": "muito prazer",
+    "english": "pleased to meet you",
+    "examplePt": "Olá Iona, muito prazer.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-casa",
+    "modulo": "Módulo 1",
+    "theme": "Casa",
+    "portuguese": "a casa",
+    "english": "house; home",
+    "examplePt": "A minha casa fica perto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-andar",
+    "modulo": "Módulo 1",
+    "theme": "Casa",
+    "portuguese": "o andar",
+    "english": "floor",
+    "examplePt": "Moro no segundo andar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-quarto",
+    "modulo": "Módulo 1",
+    "theme": "Casa",
+    "portuguese": "o quarto",
+    "english": "bedroom; room",
+    "examplePt": "A cozinha fica entre a sala e o quarto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-casa-banho",
+    "modulo": "Módulo 1",
+    "theme": "Casa",
+    "portuguese": "a casa de banho",
+    "english": "bathroom",
+    "examplePt": "A casa de banho fica perto do quarto.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-cozinha",
+    "modulo": "Módulo 1",
+    "theme": "Casa",
+    "portuguese": "a cozinha",
+    "english": "kitchen",
+    "examplePt": "Tomo o pequeno-almoço na cozinha.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-apartamento",
+    "modulo": "Módulo 1",
+    "theme": "Textos",
+    "portuguese": "o apartamento",
+    "english": "apartment",
+    "examplePt": "Eles moram num apartamento pequeno.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-predio",
+    "modulo": "Módulo 1",
+    "theme": "Textos",
+    "portuguese": "o prédio",
+    "english": "building",
+    "examplePt": "Ele mora num prédio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-aluga-se",
+    "modulo": "Módulo 1",
+    "theme": "Textos",
+    "portuguese": "aluga-se",
+    "english": "for rent",
+    "examplePt": "Aluga-se apartamento.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-renda",
+    "modulo": "Módulo 1",
+    "theme": "Textos",
+    "portuguese": "a renda",
+    "english": "rent",
+    "examplePt": "O valor da renda é 200 euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-ser",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "ser",
+    "english": "to be",
+    "examplePt": "Eu sou o Ahmed.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-estar",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "estar",
+    "english": "to be; to be located",
+    "examplePt": "Eu estou em Lisboa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-ter",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "ter",
+    "english": "to have",
+    "examplePt": "Tenho 32 anos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-morar",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "morar",
+    "english": "to live",
+    "examplePt": "Moro em Odivelas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-trabalhar",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "trabalhar",
+    "english": "to work",
+    "examplePt": "Ela trabalha no supermercado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-quem",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "quem",
+    "english": "who",
+    "examplePt": "Quem é o Ahmed?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-qual",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "qual",
+    "english": "which; what",
+    "examplePt": "Qual é a sua morada?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-onde",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "onde",
+    "english": "where",
+    "examplePt": "Onde mora?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-como",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "como",
+    "english": "how",
+    "examplePt": "Como está?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-que",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "que",
+    "english": "what",
+    "examplePt": "Que trabalho faz?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-quantos",
+    "modulo": "Módulo 1",
+    "theme": "Gramática",
+    "portuguese": "quantos",
+    "english": "how many",
+    "examplePt": "Quantos filhos tem?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-apanhar-metro",
+    "modulo": "Módulo 2",
+    "theme": "Atividades do dia a dia",
+    "portuguese": "apanhar o metro",
+    "english": "to take the metro",
+    "examplePt": "Vou apanhar o metro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-almocar",
+    "modulo": "Módulo 2",
+    "theme": "Atividades do dia a dia",
+    "portuguese": "almoçar",
+    "english": "to have lunch",
+    "examplePt": "Almoço entre o meio-dia e a uma.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-acordar",
+    "modulo": "Módulo 2",
+    "theme": "Atividades do dia a dia",
+    "portuguese": "acordar",
+    "english": "to wake up",
+    "examplePt": "Eu acordo às seis e meia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-tomar-pequeno-almoco",
+    "modulo": "Módulo 2",
+    "theme": "Atividades do dia a dia",
+    "portuguese": "tomar o pequeno-almoço",
+    "english": "to have breakfast",
+    "examplePt": "Tomo o pequeno-almoço na cozinha.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-ir-trabalho",
+    "modulo": "Módulo 2",
+    "theme": "Atividades do dia a dia",
+    "portuguese": "ir para o trabalho",
+    "english": "to go to work",
+    "examplePt": "Vou para o trabalho às oito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-voltar-casa",
+    "modulo": "Módulo 2",
+    "theme": "Atividades do dia a dia",
+    "portuguese": "voltar para casa",
+    "english": "to return home",
+    "examplePt": "Volto para casa às oito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-pequeno-almoco",
+    "modulo": "Módulo 2",
+    "theme": "Refeições",
+    "portuguese": "o pequeno-almoço",
+    "english": "breakfast",
+    "examplePt": "Tomo o pequeno-almoço em casa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-almoco",
+    "modulo": "Módulo 2",
+    "theme": "Refeições",
+    "portuguese": "o almoço",
+    "english": "lunch",
+    "examplePt": "Levo o almoço de casa.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-jantar",
+    "modulo": "Módulo 2",
+    "theme": "Refeições",
+    "portuguese": "o jantar",
+    "english": "dinner",
+    "examplePt": "Depois das aulas, jantamos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-horas",
+    "modulo": "Módulo 2",
+    "theme": "Horas",
+    "portuguese": "que horas são?",
+    "english": "what time is it?",
+    "examplePt": "Olá, que horas são?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-meio-dia",
+    "modulo": "Módulo 2",
+    "theme": "Horas",
+    "portuguese": "meio-dia",
+    "english": "noon",
+    "examplePt": "Almoço ao meio-dia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-taxi",
+    "modulo": "Módulo 2",
+    "theme": "Meios de transporte",
+    "portuguese": "o táxi",
+    "english": "taxi",
+    "examplePt": "A paragem de táxis fica ali.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-comboio",
+    "modulo": "Módulo 2",
+    "theme": "Meios de transporte",
+    "portuguese": "o comboio",
+    "english": "train",
+    "examplePt": "Apanho o comboio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-autocarro",
+    "modulo": "Módulo 2",
+    "theme": "Meios de transporte",
+    "portuguese": "o autocarro",
+    "english": "bus",
+    "examplePt": "Apanho o autocarro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-metro",
+    "modulo": "Módulo 2",
+    "theme": "Meios de transporte",
+    "portuguese": "o metro",
+    "english": "metro",
+    "examplePt": "Uso o metro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-aviao",
+    "modulo": "Módulo 2",
+    "theme": "Meios de transporte",
+    "portuguese": "o avião",
+    "english": "plane",
+    "examplePt": "O meu avião parte às oito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-passe",
+    "modulo": "Módulo 2",
+    "theme": "Passe e bilhetes",
+    "portuguese": "o passe",
+    "english": "travel pass",
+    "examplePt": "Tenho de comprar o passe.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-bilhete-simples",
+    "modulo": "Módulo 2",
+    "theme": "Passe e bilhetes",
+    "portuguese": "o bilhete simples",
+    "english": "single ticket",
+    "examplePt": "Queria um bilhete simples.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-paragem-autocarro",
+    "modulo": "Módulo 2",
+    "theme": "Símbolos de transportes",
+    "portuguese": "a paragem de autocarro",
+    "english": "bus stop",
+    "examplePt": "Estou na paragem de autocarro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-estacao-comboios",
+    "modulo": "Módulo 2",
+    "theme": "Símbolos de transportes",
+    "portuguese": "a estação de comboios",
+    "english": "train station",
+    "examplePt": "O metro passa pela estação.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-dinheiro",
+    "modulo": "Módulo 2",
+    "theme": "Dinheiro",
+    "portuguese": "o dinheiro",
+    "english": "money",
+    "examplePt": "Preciso de transferir dinheiro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-centimo",
+    "modulo": "Módulo 2",
+    "theme": "Dinheiro",
+    "portuguese": "o cêntimo",
+    "english": "cent",
+    "examplePt": "São vinte cêntimos.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-euro",
+    "modulo": "Módulo 2",
+    "theme": "Dinheiro",
+    "portuguese": "o euro",
+    "english": "euro",
+    "examplePt": "São dois euros.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-levantar-se",
+    "modulo": "Módulo 2",
+    "theme": "Textos",
+    "portuguese": "levantar-se",
+    "english": "to get up",
+    "examplePt": "Levanto-me às cinco da manhã.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-lavar-dentes",
+    "modulo": "Módulo 2",
+    "theme": "Textos",
+    "portuguese": "lavar os dentes",
+    "english": "to brush one's teeth",
+    "examplePt": "A seguir, lavo os dentes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-tomar-duche",
+    "modulo": "Módulo 2",
+    "theme": "Textos",
+    "portuguese": "tomar um duche",
+    "english": "to take a shower",
+    "examplePt": "Tomo um duche quente.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-autorizacao-residencia",
+    "modulo": "Módulo 2",
+    "theme": "Textos",
+    "portuguese": "a autorização de residência",
+    "english": "residence permit",
+    "examplePt": "Preciso da renovação da autorização de residência.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-transportes-publicos",
+    "modulo": "Módulo 2",
+    "theme": "Textos",
+    "portuguese": "os transportes públicos",
+    "english": "public transport",
+    "examplePt": "Usa transportes públicos?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-precisar",
+    "modulo": "Módulo 2",
+    "theme": "Textos",
+    "portuguese": "precisar",
+    "english": "to need",
+    "examplePt": "Preciso de falar português.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-usar",
+    "modulo": "Módulo 2",
+    "theme": "Textos",
+    "portuguese": "usar",
+    "english": "to use",
+    "examplePt": "Uso o metro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-abrir",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "abrir",
+    "english": "to open",
+    "examplePt": "A bilheteira abre às oito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-ir",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "ir",
+    "english": "to go",
+    "examplePt": "Eu vou para o trabalho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-sair",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "sair",
+    "english": "to leave; to go out",
+    "examplePt": "Saio de casa cedo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-ha",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "há",
+    "english": "there is; there are; ago",
+    "examplePt": "Há muito trânsito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-transito",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "o trânsito",
+    "english": "traffic",
+    "examplePt": "Há muito trânsito.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-sempre",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "sempre",
+    "english": "always",
+    "examplePt": "Levanto-me sempre cedo.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-nunca",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "nunca",
+    "english": "never",
+    "examplePt": "Nunca chego tarde.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-ir-compras",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "ir às compras",
+    "english": "to go shopping",
+    "examplePt": "Vou às compras ao sábado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m2-transferir-dinheiro",
+    "modulo": "Módulo 2",
+    "theme": "Gramática",
+    "portuguese": "transferir dinheiro",
+    "english": "to transfer money",
+    "examplePt": "Preciso de transferir dinheiro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-cafe",
+    "modulo": "Módulo 3",
+    "theme": "Bebidas",
+    "portuguese": "o café",
+    "english": "coffee; cafe",
+    "examplePt": "Queria uma bica.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-agua",
+    "modulo": "Módulo 3",
+    "theme": "Bebidas",
+    "portuguese": "a água",
+    "english": "water",
+    "examplePt": "Ponha água na panela.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-acucar",
+    "modulo": "Módulo 3",
+    "theme": "Mercearia",
+    "portuguese": "o açúcar",
+    "english": "sugar",
+    "examplePt": "Preciso de um pacote de açúcar.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-arroz",
+    "modulo": "Módulo 3",
+    "theme": "Mercearia",
+    "portuguese": "o arroz",
+    "english": "rice",
+    "examplePt": "Queria dois quilos de arroz.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-azeite",
+    "modulo": "Módulo 3",
+    "theme": "Mercearia",
+    "portuguese": "o azeite",
+    "english": "olive oil",
+    "examplePt": "Queria uma garrafa de azeite.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-leite",
+    "modulo": "Módulo 3",
+    "theme": "Laticínios",
+    "portuguese": "o leite",
+    "english": "milk",
+    "examplePt": "Compro quatro pacotes de leite.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-pao-forma",
+    "modulo": "Módulo 3",
+    "theme": "Padaria",
+    "portuguese": "o pão de forma",
+    "english": "sliced bread",
+    "examplePt": "Compro pão de forma.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-cebola",
+    "modulo": "Módulo 3",
+    "theme": "Legumes",
+    "portuguese": "a cebola",
+    "english": "onion",
+    "examplePt": "As cebolas são baratas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-alho",
+    "modulo": "Módulo 3",
+    "theme": "Legumes",
+    "portuguese": "o alho",
+    "english": "garlic",
+    "examplePt": "Compro alhos no mercado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-tomate",
+    "modulo": "Módulo 3",
+    "theme": "Legumes",
+    "portuguese": "o tomate",
+    "english": "tomato",
+    "examplePt": "Queria duas latas de tomate pelado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-maca",
+    "modulo": "Módulo 3",
+    "theme": "Frutas",
+    "portuguese": "a maçã",
+    "english": "apple",
+    "examplePt": "A maçã é melhor do que as limas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-banana",
+    "modulo": "Módulo 3",
+    "theme": "Frutas",
+    "portuguese": "a banana",
+    "english": "banana",
+    "examplePt": "Compro bananas.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-queijo",
+    "modulo": "Módulo 3",
+    "theme": "Charcutaria",
+    "portuguese": "o queijo",
+    "english": "cheese",
+    "examplePt": "Quero um queijo fresco.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-carne-vaca",
+    "modulo": "Módulo 3",
+    "theme": "Talho",
+    "portuguese": "a carne de vaca",
+    "english": "beef",
+    "examplePt": "A carne de vaca está no talho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-frango",
+    "modulo": "Módulo 3",
+    "theme": "Talho",
+    "portuguese": "o frango",
+    "english": "chicken",
+    "examplePt": "Quero frango assado.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-sandes",
+    "modulo": "Módulo 3",
+    "theme": "Nomes específicos",
+    "portuguese": "a sandes",
+    "english": "sandwich",
+    "examplePt": "Como uma sandes.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-maquina-lavar-roupa",
+    "modulo": "Módulo 3",
+    "theme": "Equipamentos",
+    "portuguese": "a máquina de lavar roupa",
+    "english": "washing machine",
+    "examplePt": "A máquina de lavar roupa está na cozinha.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-frigorifico",
+    "modulo": "Módulo 3",
+    "theme": "Equipamentos",
+    "portuguese": "o frigorífico",
+    "english": "fridge",
+    "examplePt": "O frigorífico está cheio.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-cartao-multibanco",
+    "modulo": "Módulo 3",
+    "theme": "Formas de pagamento",
+    "portuguese": "o cartão multibanco",
+    "english": "debit card",
+    "examplePt": "Posso pagar com o multibanco?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-mercearia",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "a mercearia",
+    "english": "grocery shop",
+    "examplePt": "Vou à mercearia.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-padaria",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "a padaria",
+    "english": "bakery",
+    "examplePt": "Compro pão na padaria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-talho",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "o talho",
+    "english": "butcher's",
+    "examplePt": "Compro carne no talho.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-peixaria",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "a peixaria",
+    "english": "fish shop",
+    "examplePt": "Compro peixe na peixaria.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-restaurante",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "o restaurante",
+    "english": "restaurant",
+    "examplePt": "Vamos jantar num restaurante português.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-conta",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "a conta",
+    "english": "bill",
+    "examplePt": "Era a conta, se faz favor.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-talao",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "o talão",
+    "english": "receipt",
+    "examplePt": "Aqui tem o talão.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-fatura",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "a fatura",
+    "english": "invoice",
+    "examplePt": "Pode dar-me uma fatura?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-contribuinte",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "o número de contribuinte",
+    "english": "tax number",
+    "examplePt": "O meu número de contribuinte é 243 333 218.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-ementa",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "a ementa",
+    "english": "menu",
+    "examplePt": "Pode trazer a ementa?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-prazo-validade",
+    "modulo": "Módulo 3",
+    "theme": "Textos",
+    "portuguese": "o prazo de validade",
+    "english": "expiry date",
+    "examplePt": "Qual é o prazo de validade?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-pedir",
+    "modulo": "Módulo 3",
+    "theme": "Gramática",
+    "portuguese": "pedir",
+    "english": "to ask for; to order",
+    "examplePt": "Vou pedir a conta.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-querer",
+    "modulo": "Módulo 3",
+    "theme": "Gramática",
+    "portuguese": "querer",
+    "english": "to want",
+    "examplePt": "Queria jantar num restaurante.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-poder",
+    "modulo": "Módulo 3",
+    "theme": "Gramática",
+    "portuguese": "poder",
+    "english": "can; to be able to",
+    "examplePt": "Posso pagar com multibanco?",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-caro",
+    "modulo": "Módulo 3",
+    "theme": "Gramática",
+    "portuguese": "caro",
+    "english": "expensive",
+    "examplePt": "Este produto é caro.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-barato",
+    "modulo": "Módulo 3",
+    "theme": "Gramática",
+    "portuguese": "barato",
+    "english": "cheap",
+    "examplePt": "As peras são menos caras.",
+    "note": "",
+    "source": "pdf"
+  },
+  {
+    "id": "m3-saudavel",
+    "modulo": "Módulo 3",
+    "theme": "Gramática",
+    "portuguese": "saudável",
+    "english": "healthy",
+    "examplePt": "Esta comida é saudável.",
+    "note": "",
+    "source": "pdf"
+  }
+]
