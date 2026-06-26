@@ -251,26 +251,30 @@ select {
   position: absolute;
   inset: 12px;
   background:
-    radial-gradient(ellipse 25px 58px at 92px 42px, rgba(117, 177, 222, 0.62) 0 42%, transparent 44%),
-    radial-gradient(ellipse 58px 25px at 42px 92px, rgba(31, 95, 166, 0.55) 0 42%, transparent 44%),
-    radial-gradient(circle at 58px 58px, transparent 0 43px, rgba(18, 58, 102, 0.72) 44px 48px, transparent 49px),
-    radial-gradient(circle at 0 0, transparent 0 45px, rgba(31, 95, 166, 0.74) 46px 51px, transparent 52px),
-    conic-gradient(from 218deg at 78px 78px, transparent 0 15deg, rgba(14, 44, 79, 0.64) 16deg 31deg, transparent 32deg 47deg, rgba(117, 177, 222, 0.58) 48deg 62deg, transparent 63deg 78deg, rgba(31, 95, 166, 0.42) 79deg 91deg, transparent 92deg),
-    radial-gradient(ellipse 25px 58px at calc(100% - 92px) 42px, rgba(117, 177, 222, 0.62) 0 42%, transparent 44%),
-    radial-gradient(ellipse 58px 25px at calc(100% - 42px) 92px, rgba(31, 95, 166, 0.55) 0 42%, transparent 44%),
-    radial-gradient(circle at calc(100% - 58px) 58px, transparent 0 43px, rgba(18, 58, 102, 0.72) 44px 48px, transparent 49px),
-    radial-gradient(circle at 100% 0, transparent 0 45px, rgba(31, 95, 166, 0.74) 46px 51px, transparent 52px),
-    conic-gradient(from 322deg at calc(100% - 78px) 78px, transparent 0 15deg, rgba(14, 44, 79, 0.64) 16deg 31deg, transparent 32deg 47deg, rgba(117, 177, 222, 0.58) 48deg 62deg, transparent 63deg 78deg, rgba(31, 95, 166, 0.42) 79deg 91deg, transparent 92deg),
-    radial-gradient(ellipse 25px 58px at 92px calc(100% - 42px), rgba(117, 177, 222, 0.62) 0 42%, transparent 44%),
-    radial-gradient(ellipse 58px 25px at 42px calc(100% - 92px), rgba(31, 95, 166, 0.55) 0 42%, transparent 44%),
-    radial-gradient(circle at 58px calc(100% - 58px), transparent 0 43px, rgba(18, 58, 102, 0.72) 44px 48px, transparent 49px),
-    radial-gradient(circle at 0 100%, transparent 0 45px, rgba(31, 95, 166, 0.74) 46px 51px, transparent 52px),
-    conic-gradient(from 142deg at 78px calc(100% - 78px), transparent 0 15deg, rgba(14, 44, 79, 0.64) 16deg 31deg, transparent 32deg 47deg, rgba(117, 177, 222, 0.58) 48deg 62deg, transparent 63deg 78deg, rgba(31, 95, 166, 0.42) 79deg 91deg, transparent 92deg),
-    radial-gradient(ellipse 25px 58px at calc(100% - 92px) calc(100% - 42px), rgba(117, 177, 222, 0.62) 0 42%, transparent 44%),
-    radial-gradient(ellipse 58px 25px at calc(100% - 42px) calc(100% - 92px), rgba(31, 95, 166, 0.55) 0 42%, transparent 44%),
-    radial-gradient(circle at calc(100% - 58px) calc(100% - 58px), transparent 0 43px, rgba(18, 58, 102, 0.72) 44px 48px, transparent 49px),
-    radial-gradient(circle at 100% 100%, transparent 0 45px, rgba(31, 95, 166, 0.74) 46px 51px, transparent 52px),
-    conic-gradient(from 38deg at calc(100% - 78px) calc(100% - 78px), transparent 0 15deg, rgba(14, 44, 79, 0.64) 16deg 31deg, transparent 32deg 47deg, rgba(117, 177, 222, 0.58) 48deg 62deg, transparent 63deg 78deg, rgba(31, 95, 166, 0.42) 79deg 91deg, transparent 92deg);
+    radial-gradient(ellipse 34px 86px at 118px 42px, rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+    radial-gradient(ellipse 86px 34px at 42px 118px, rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+    radial-gradient(ellipse 34px 96px at 78px 82px, transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+    radial-gradient(ellipse 96px 34px at 82px 78px, transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+    radial-gradient(circle at 0 0, transparent 0 54px, rgba(31, 95, 166, 0.7) 55px 61px, transparent 62px),
+    conic-gradient(from 214deg at 96px 96px, transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg),
+    radial-gradient(ellipse 34px 86px at calc(100% - 118px) 42px, rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+    radial-gradient(ellipse 86px 34px at calc(100% - 42px) 118px, rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+    radial-gradient(ellipse 34px 96px at calc(100% - 78px) 82px, transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+    radial-gradient(ellipse 96px 34px at calc(100% - 82px) 78px, transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+    radial-gradient(circle at 100% 0, transparent 0 54px, rgba(31, 95, 166, 0.7) 55px 61px, transparent 62px),
+    conic-gradient(from 326deg at calc(100% - 96px) 96px, transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg),
+    radial-gradient(ellipse 34px 86px at 118px calc(100% - 42px), rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+    radial-gradient(ellipse 86px 34px at 42px calc(100% - 118px), rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+    radial-gradient(ellipse 34px 96px at 78px calc(100% - 82px), transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+    radial-gradient(ellipse 96px 34px at 82px calc(100% - 78px), transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+    radial-gradient(circle at 0 100%, transparent 0 54px, rgba(31, 95, 166, 0.7) 55px 61px, transparent 62px),
+    conic-gradient(from 146deg at 96px calc(100% - 96px), transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg),
+    radial-gradient(ellipse 34px 86px at calc(100% - 118px) calc(100% - 42px), rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+    radial-gradient(ellipse 86px 34px at calc(100% - 42px) calc(100% - 118px), rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+    radial-gradient(ellipse 34px 96px at calc(100% - 78px) calc(100% - 82px), transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+    radial-gradient(ellipse 96px 34px at calc(100% - 82px) calc(100% - 78px), transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+    radial-gradient(circle at 100% 100%, transparent 0 54px, rgba(31, 95, 166, 0.7) 55px 61px, transparent 62px),
+    conic-gradient(from 34deg at calc(100% - 96px) calc(100% - 96px), transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg);
   pointer-events: none;
 }
 
@@ -285,9 +289,7 @@ select {
 
 .tile-front,
 .tile-back {
-  background:
-    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8) 0 33%, transparent 34%),
-    linear-gradient(180deg, #fbfdff 0%, #eef6fc 100%);
+  background: linear-gradient(180deg, #fbfdff 0%, #eef6fc 100%);
 }
 
 .tile-back {
