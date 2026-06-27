@@ -76,11 +76,11 @@ export function Flashcard({ entry, direction, revealed, ui, onToggleReveal, onAg
       {!revealed && renderPronunciationButton("pronunciation-control pronunciation-control-front")}
       <div className={`card-actions ${revealed ? "is-visible" : ""}`} aria-hidden={!revealed}>
         {revealed && renderPronunciationButton("pronunciation-control pronunciation-control-back")}
-        <button className="secondary" type="button" onClick={onAgain} disabled={!revealed}>
+        <button className="secondary review-again" type="button" onClick={onAgain} disabled={!revealed}>
           <ThumbsDown size={18} aria-hidden="true" />
           {ui.again}
         </button>
-        <button className="primary" type="button" onClick={onKnown} disabled={!revealed}>
+        <button className="primary review-known" type="button" onClick={onKnown} disabled={!revealed}>
           <ThumbsUp size={18} aria-hidden="true" />
           {ui.known}
         </button>

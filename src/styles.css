@@ -141,6 +141,20 @@ h1 {
   border: 1px solid #b9d2e9;
 }
 
+.review-known {
+  background: #2f7a57;
+  color: #fff;
+  border: 1px solid rgba(47, 122, 87, 0.42);
+  box-shadow: 0 10px 24px rgba(47, 122, 87, 0.24);
+}
+
+.review-again {
+  background: #b14a32;
+  color: #fff;
+  border: 1px solid rgba(177, 74, 50, 0.42);
+  box-shadow: 0 10px 24px rgba(177, 74, 50, 0.22);
+}
+
 .primary:disabled,
 .secondary:disabled {
   cursor: default;
@@ -354,17 +368,20 @@ select {
   padding-left: 10px;
 }
 
+.pronunciation-control {
+  padding: 0 16px;
+  background: rgba(18, 58, 102, 0.9);
+  color: #fff;
+  border: 1px solid rgba(248, 252, 255, 0.36);
+  box-shadow: 0 12px 28px rgba(14, 44, 79, 0.18);
+}
+
 .pronunciation-control-front {
   position: absolute;
   left: 50%;
   bottom: 34px;
   transform: translateX(-50%);
   z-index: 4;
-  padding: 0 16px;
-  background: rgba(248, 252, 255, 0.86);
-  color: #123a66;
-  border: 1px solid rgba(18, 58, 102, 0.24);
-  box-shadow: 0 12px 28px rgba(14, 44, 79, 0.16);
 }
 
 .card-actions {
@@ -393,10 +410,6 @@ select {
   opacity: 1;
   transform: translate(-50%, 0);
   pointer-events: auto;
-}
-
-.pronunciation-control-back {
-  padding: 0 16px;
 }
 
 .dashboard {
