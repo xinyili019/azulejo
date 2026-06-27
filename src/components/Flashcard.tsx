@@ -5,6 +5,7 @@ import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
 
 let activeAudio: HTMLAudioElement | null = null;
+const AUTO_PLAY_DELAY_MS = 400;
 
 interface FlashcardProps {
   entry: VocabularyEntry;
@@ -78,7 +79,12 @@ export function Flashcard({
 
   useEffect(() => {
     if (!autoPlayPronunciation) return;
-    handlePronunciation();
+
+    const timeoutId = window.setTimeout(() => {
+      handlePronunciation();
+    }, AUTO_PLAY_DELAY_MS);
+
+    return () => window.clearTimeout(timeoutId);
   }, [entry.id, autoPlayPronunciation]);
 
   function renderPronunciationButton(className: string) {
