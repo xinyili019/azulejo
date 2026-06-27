@@ -3,6 +3,8 @@ import type { Direction, VocabularyEntry } from "../types";
 import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
 
+let activeAudio: HTMLAudioElement | null = null;
+
 interface FlashcardProps {
   entry: VocabularyEntry;
   direction: Direction;
@@ -14,7 +16,7 @@ interface FlashcardProps {
 }
 
 export function Flashcard({ entry, direction, revealed, ui, onToggleReveal, onAgain, onKnown }: FlashcardProps) {
-  function handlePronunciation() {
+  function speakWithBrowserVoice() {
     if (
       typeof window === "undefined" ||
       !("speechSynthesis" in window) ||
@@ -34,6 +36,28 @@ export function Flashcard({ entry, direction, revealed, ui, onToggleReveal, onAg
     utterance.voice = voice ?? null;
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
+  }
+
+  function handlePronunciation() {
+    if (typeof window === "undefined" || !("Audio" in window)) {
+      speakWithBrowserVoice();
+      return;
+    }
+
+    activeAudio?.pause();
+    activeAudio = new Audio(`${import.meta.env.BASE_URL}audio/pt/${entry.id}.m4a`);
+    activeAudio.preload = "auto";
+    let usedFallback = false;
+
+    const fallbackToBrowserVoice = () => {
+      if (usedFallback) return;
+      usedFallback = true;
+      activeAudio?.pause();
+      speakWithBrowserVoice();
+    };
+
+    activeAudio.addEventListener("error", fallbackToBrowserVoice, { once: true });
+    activeAudio.play().catch(fallbackToBrowserVoice);
   }
 
   function renderPronunciationButton(className: string) {
