@@ -552,6 +552,8 @@ progress::-moz-progress-bar {
 
   .flashcard {
     --tile-height: 360px;
+    display: grid;
+    gap: 14px;
   }
 
   .flip-tile,
@@ -568,8 +570,29 @@ progress::-moz-progress-bar {
     inset: 8px;
   }
 
+  .pronunciation-control-front {
+    position: static;
+    justify-self: center;
+    transform: none;
+  }
+
   .card-actions {
+    position: static;
+    display: none;
+    justify-self: center;
     gap: 8px;
-    width: calc(100% - 32px);
+    width: min(100%, 360px);
+    transform: none;
+  }
+
+  .card-actions.is-visible {
+    display: flex;
+    transform: none;
+  }
+
+  .card-actions > button {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0 10px;
   }
 }
