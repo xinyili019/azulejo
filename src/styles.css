@@ -568,6 +568,31 @@ progress::-moz-progress-bar {
 
   .tile-face::before {
     inset: 8px;
+    background:
+      radial-gradient(ellipse 25.5px 64.5px at 88.5px 31.5px, rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+      radial-gradient(ellipse 64.5px 25.5px at 31.5px 88.5px, rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+      radial-gradient(ellipse 25.5px 72px at 58.5px 61.5px, transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+      radial-gradient(ellipse 72px 25.5px at 61.5px 58.5px, transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+      radial-gradient(circle at 0 0, transparent 0 40.5px, rgba(31, 95, 166, 0.7) 41.25px 45.75px, transparent 46.5px),
+      conic-gradient(from 214deg at 72px 72px, transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg),
+      radial-gradient(ellipse 25.5px 64.5px at calc(100% - 88.5px) 31.5px, rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+      radial-gradient(ellipse 64.5px 25.5px at calc(100% - 31.5px) 88.5px, rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+      radial-gradient(ellipse 25.5px 72px at calc(100% - 58.5px) 61.5px, transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+      radial-gradient(ellipse 72px 25.5px at calc(100% - 61.5px) 58.5px, transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+      radial-gradient(circle at 100% 0, transparent 0 40.5px, rgba(31, 95, 166, 0.7) 41.25px 45.75px, transparent 46.5px),
+      conic-gradient(from 326deg at calc(100% - 72px) 72px, transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg),
+      radial-gradient(ellipse 25.5px 64.5px at 88.5px calc(100% - 31.5px), rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+      radial-gradient(ellipse 64.5px 25.5px at 31.5px calc(100% - 88.5px), rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+      radial-gradient(ellipse 25.5px 72px at 58.5px calc(100% - 61.5px), transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+      radial-gradient(ellipse 72px 25.5px at 61.5px calc(100% - 58.5px), transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+      radial-gradient(circle at 0 100%, transparent 0 40.5px, rgba(31, 95, 166, 0.7) 41.25px 45.75px, transparent 46.5px),
+      conic-gradient(from 146deg at 72px calc(100% - 72px), transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg),
+      radial-gradient(ellipse 25.5px 64.5px at calc(100% - 88.5px) calc(100% - 31.5px), rgba(117, 177, 222, 0.58) 0 43%, transparent 45%),
+      radial-gradient(ellipse 64.5px 25.5px at calc(100% - 31.5px) calc(100% - 88.5px), rgba(117, 177, 222, 0.52) 0 43%, transparent 45%),
+      radial-gradient(ellipse 25.5px 72px at calc(100% - 58.5px) calc(100% - 61.5px), transparent 0 48%, rgba(31, 95, 166, 0.68) 49% 54%, transparent 55%),
+      radial-gradient(ellipse 72px 25.5px at calc(100% - 61.5px) calc(100% - 58.5px), transparent 0 48%, rgba(18, 58, 102, 0.64) 49% 54%, transparent 55%),
+      radial-gradient(circle at 100% 100%, transparent 0 40.5px, rgba(31, 95, 166, 0.7) 41.25px 45.75px, transparent 46.5px),
+      conic-gradient(from 34deg at calc(100% - 72px) calc(100% - 72px), transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg);
   }
 
   .pronunciation-control-front {
