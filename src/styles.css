@@ -568,7 +568,6 @@ progress::-moz-progress-bar {
 
   .tile-face::before {
     inset: 8px;
-    transform: scale(0.75);
   }
 
   .pronunciation-control-front {
