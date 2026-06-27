@@ -13,6 +13,7 @@ export default function App() {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
   const [modulo, setModulo] = useState("all");
   const [onlyDue, setOnlyDue] = useState(false);
+  const [autoPlayPronunciation, setAutoPlayPronunciation] = useState(true);
   const [direction, setDirection] = useState<Direction>("pt-en");
   const [cardIndex, setCardIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -117,6 +118,14 @@ export default function App() {
             <input type="checkbox" checked={onlyDue} onChange={(event) => setOnlyDue(event.target.checked)} />
             {ui.reviewOnlyUnknown}
           </label>
+          <label className="toggle">
+            <input
+              type="checkbox"
+              checked={autoPlayPronunciation}
+              onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
+            />
+            {ui.autoPlayPronunciation}
+          </label>
         </section>
 
         {activeEntry ? (
@@ -124,6 +133,7 @@ export default function App() {
             entry={activeEntry}
             direction={direction}
             revealed={revealed}
+            autoPlayPronunciation={autoPlayPronunciation}
             ui={ui}
             onToggleReveal={() => setRevealed((current) => !current)}
             onAgain={() => handleReview("again")}

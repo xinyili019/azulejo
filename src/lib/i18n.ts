@@ -15,6 +15,7 @@ export interface UiCopy {
   revealAnswer: string;
   hideAnswer: string;
   listen: string;
+  autoPlayPronunciation: string;
   again: string;
   known: string;
   flashcard: string;
@@ -42,6 +43,7 @@ const copy: Record<UiLocale, UiCopy> = {
     revealAnswer: "Reveal answer",
     hideAnswer: "Hide answer",
     listen: "Ouvir",
+    autoPlayPronunciation: "Play pronunciation automatically",
     again: "Again",
     known: "Known",
     flashcard: "Flashcard",
@@ -67,6 +69,7 @@ const copy: Record<UiLocale, UiCopy> = {
     revealAnswer: "显示答案",
     hideAnswer: "隐藏答案",
     listen: "听发音",
+    autoPlayPronunciation: "自动播放发音",
     again: "再练习",
     known: "已掌握",
     flashcard: "单词卡",
@@ -92,6 +95,7 @@ const copy: Record<UiLocale, UiCopy> = {
     revealAnswer: "顯示答案",
     hideAnswer: "隱藏答案",
     listen: "聽發音",
+    autoPlayPronunciation: "自動播放發音",
     again: "再練習",
     known: "已掌握",
     flashcard: "單字卡",

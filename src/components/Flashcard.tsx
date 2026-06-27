@@ -1,4 +1,5 @@
 import { ThumbsDown, ThumbsUp, Volume2 } from "lucide-react";
+import { useEffect } from "react";
 import type { Direction, VocabularyEntry } from "../types";
 import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
@@ -9,13 +10,23 @@ interface FlashcardProps {
   entry: VocabularyEntry;
   direction: Direction;
   revealed: boolean;
+  autoPlayPronunciation: boolean;
   ui: UiCopy;
   onToggleReveal: () => void;
   onAgain: () => void;
   onKnown: () => void;
 }
 
-export function Flashcard({ entry, direction, revealed, ui, onToggleReveal, onAgain, onKnown }: FlashcardProps) {
+export function Flashcard({
+  entry,
+  direction,
+  revealed,
+  autoPlayPronunciation,
+  ui,
+  onToggleReveal,
+  onAgain,
+  onKnown
+}: FlashcardProps) {
   function speakWithBrowserVoice() {
     if (
       typeof window === "undefined" ||
@@ -57,8 +68,18 @@ export function Flashcard({ entry, direction, revealed, ui, onToggleReveal, onAg
     };
 
     activeAudio.addEventListener("error", fallbackToBrowserVoice, { once: true });
-    activeAudio.play().catch(fallbackToBrowserVoice);
+    try {
+      const playPromise = activeAudio.play();
+      playPromise?.catch(fallbackToBrowserVoice);
+    } catch {
+      fallbackToBrowserVoice();
+    }
   }
+
+  useEffect(() => {
+    if (!autoPlayPronunciation) return;
+    handlePronunciation();
+  }, [entry.id, autoPlayPronunciation]);
 
   function renderPronunciationButton(className: string) {
     return (

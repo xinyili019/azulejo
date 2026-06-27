@@ -23,4 +23,15 @@ describe("App", () => {
 
     expect(screen.queryByPlaceholderText(/term, theme, example/i)).not.toBeInTheDocument();
   });
+
+  it("lets users turn off automatic pronunciation while keeping manual playback", () => {
+    render(<App />);
+
+    const autoPlayToggle = screen.getByRole("checkbox", { name: /play pronunciation automatically/i });
+    expect(autoPlayToggle).toBeChecked();
+
+    fireEvent.click(autoPlayToggle);
+    expect(autoPlayToggle).not.toBeChecked();
+    expect(screen.getByRole("button", { name: /ouvir/i })).toBeInTheDocument();
+  });
 });
