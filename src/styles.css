@@ -420,7 +420,7 @@ select {
 }
 
 .stat-main span {
-  color: #123a66;
+  color: #d8ac55;
   font-size: 3.4rem;
   font-weight: 600;
 }
@@ -451,7 +451,7 @@ select {
 }
 
 .stats-row strong {
-  color: #e0a12e;
+  color: #d8ac55;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -498,12 +498,12 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background: linear-gradient(90deg, #1f5fa6 0%, #65a6de 100%);
+  background: linear-gradient(90deg, #1f5fa6 0%, #65a6de 86%, #d8ac55 100%);
   border-radius: 999px;
 }
 
 progress::-moz-progress-bar {
-  background: linear-gradient(90deg, #1f5fa6 0%, #65a6de 100%);
+  background: linear-gradient(90deg, #1f5fa6 0%, #65a6de 86%, #d8ac55 100%);
   border-radius: 999px;
 }
 
