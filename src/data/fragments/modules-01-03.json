@@ -932,8 +932,8 @@
     "examplePt": "Olá Iona, muito prazer.",
     "note": "",
     "source": "pdf",
-    "zhHans": "很高兴认识你",
-    "zhHant": "很高興認識你"
+    "zhHans": "幸会",
+    "zhHant": "幸會"
   },
   {
     "id": "m1-casa",
@@ -1616,8 +1616,8 @@
     "examplePt": "Nunca chego tarde.",
     "note": "",
     "source": "pdf",
-    "zhHans": "绝不",
-    "zhHant": "絕不"
+    "zhHans": "绝不/从未",
+    "zhHant": "絕不/從未"
   },
   {
     "id": "m2-ir-compras",
@@ -1820,8 +1820,8 @@
     "examplePt": "Quero frango assado.",
     "note": "",
     "source": "pdf",
-    "zhHans": "鸡",
-    "zhHant": "雞"
+    "zhHans": "鸡肉",
+    "zhHant": "雞肉"
   },
   {
     "id": "m3-sandes",
@@ -2036,8 +2036,8 @@
     "examplePt": "Posso pagar com multibanco?",
     "note": "",
     "source": "pdf",
-    "zhHans": "能/能够",
-    "zhHant": "能/能夠"
+    "zhHans": "能",
+    "zhHant": "能"
   },
   {
     "id": "m3-caro",
@@ -2072,7 +2072,7 @@
     "examplePt": "Esta comida é saudável.",
     "note": "",
     "source": "pdf",
-    "zhHans": "健康",
-    "zhHant": "健康"
+    "zhHans": "健康的",
+    "zhHant": "健康的"
   }
 ]

@@ -1,29 +1,5 @@
 [
   {
-    "id": "m10-ontem",
-    "modulo": "Módulo 10",
-    "theme": "Tempo",
-    "portuguese": "ontem",
-    "english": "yesterday",
-    "examplePt": "Ontem fui ao cinema.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "昨天",
-    "zhHant": "昨天"
-  },
-  {
-    "id": "m10-ir-ao-cinema",
-    "modulo": "Módulo 10",
-    "theme": "Tempos livres",
-    "portuguese": "ir ao cinema",
-    "english": "to go to the cinema",
-    "examplePt": "Ontem fui ao cinema.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "去电影院",
-    "zhHant": "去電影院"
-  },
-  {
     "id": "m10-recente",
     "modulo": "Módulo 10",
     "theme": "Tempo",
@@ -84,18 +60,6 @@
     "zhHant": "上個月"
   },
   {
-    "id": "m10-antigamente",
-    "modulo": "Módulo 10",
-    "theme": "Tempo",
-    "portuguese": "antigamente",
-    "english": "in the past",
-    "examplePt": "Antigamente as pessoas andavam mais a pé.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "在过去",
-    "zhHant": "在過去"
-  },
-  {
     "id": "m10-a-pe",
     "modulo": "Módulo 10",
     "theme": "Transportes",
@@ -118,18 +82,6 @@
     "source": "pdf",
     "zhHans": "开车",
     "zhHant": "開車"
-  },
-  {
-    "id": "m10-costumar",
-    "modulo": "Módulo 10",
-    "theme": "Hábitos",
-    "portuguese": "costumar",
-    "english": "to usually do",
-    "examplePt": "Eu costumava ler.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "通常做",
-    "zhHant": "通常做"
   },
   {
     "id": "m10-navegar-na-net",
@@ -273,7 +225,7 @@
     "note": "",
     "source": "pdf",
     "zhHans": "疾病",
-    "zhHant": "身體不適"
+    "zhHant": "疾病"
   },
   {
     "id": "m10-depender-de",
@@ -308,8 +260,8 @@
     "examplePt": "Tem tido uma alimentação saudável?",
     "note": "",
     "source": "pdf",
-    "zhHans": "健康饮食",
-    "zhHant": "健康飲食"
+    "zhHans": "健康的饮食",
+    "zhHant": "健康的飲食"
   },
   {
     "id": "m10-stress",
@@ -360,18 +312,6 @@
     "zhHant": "機票"
   },
   {
-    "id": "m10-emigrar",
-    "modulo": "Módulo 10",
-    "theme": "Migração",
-    "portuguese": "emigrar",
-    "english": "to emigrate",
-    "examplePt": "Foi a primeira da família a emigrar.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "移民",
-    "zhHant": "移民"
-  },
-  {
     "id": "m10-saudades",
     "modulo": "Módulo 10",
     "theme": "Sentimentos",
@@ -382,18 +322,6 @@
     "source": "pdf",
     "zhHans": "思念/想念",
     "zhHant": "思念/想念"
-  },
-  {
-    "id": "m10-mercearia",
-    "modulo": "Módulo 10",
-    "theme": "Lojas",
-    "portuguese": "a mercearia",
-    "english": "grocery shop",
-    "examplePt": "Entramos na mercearia do Largo do Terreirinho.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "杂货店",
-    "zhHant": "雜貨店"
   },
   {
     "id": "m10-ate-agora",
@@ -468,18 +396,6 @@
     "zhHant": "正式信函"
   },
   {
-    "id": "m11-carta-de-apresentacao",
-    "modulo": "Módulo 11",
-    "theme": "Tipos de texto",
-    "portuguese": "a carta de apresentação",
-    "english": "cover letter",
-    "examplePt": "Enviei a minha carta de apresentação.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "求职信",
-    "zhHant": "求職信"
-  },
-  {
     "id": "m11-carta-de-reclamacao",
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
@@ -514,18 +430,6 @@
     "source": "pdf",
     "zhHans": "尊敬的先生",
     "zhHant": "尊敬的先生"
-  },
-  {
-    "id": "m11-telemovel",
-    "modulo": "Módulo 11",
-    "theme": "Tecnologia",
-    "portuguese": "o telemóvel",
-    "english": "mobile phone",
-    "examplePt": "Comprei um telemóvel novo.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "手机/移动电话",
-    "zhHant": "手機/行動電話"
   },
   {
     "id": "m11-marca",
@@ -644,8 +548,8 @@
     "examplePt": "Gostaria de uma entrevista pessoal.",
     "note": "",
     "source": "pdf",
-    "zhHans": "面试",
-    "zhHant": "面試"
+    "zhHans": "面试/采访",
+    "zhHant": "面試/採訪"
   },
   {
     "id": "m11-anexo",
@@ -658,18 +562,6 @@
     "source": "pdf",
     "zhHans": "附件/附录",
     "zhHant": "附件/附錄"
-  },
-  {
-    "id": "m11-curriculo",
-    "modulo": "Módulo 11",
-    "theme": "Emprego",
-    "portuguese": "o currículo",
-    "english": "CV; resume",
-    "examplePt": "Enviei o meu currículo por e-mail.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "简历/履历",
-    "zhHant": "履歷/簡歷"
   },
   {
     "id": "m11-assunto",
@@ -696,18 +588,6 @@
     "zhHant": "損壞的衣服"
   },
   {
-    "id": "m11-lavandaria",
-    "modulo": "Módulo 11",
-    "theme": "Serviços",
-    "portuguese": "a lavandaria",
-    "english": "launderette; laundry",
-    "examplePt": "Entreguei o fato na lavandaria.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "洗衣店/自助洗衣店",
-    "zhHant": "洗衣店/自助洗衣店"
-  },
-  {
     "id": "m11-estabelecimento",
     "modulo": "Módulo 11",
     "theme": "Serviços",
@@ -730,18 +610,6 @@
     "source": "pdf",
     "zhHans": "套装",
     "zhHant": "套裝"
-  },
-  {
-    "id": "m11-talao",
-    "modulo": "Módulo 11",
-    "theme": "Compras",
-    "portuguese": "o talão",
-    "english": "receipt slip",
-    "examplePt": "Junto cópia do talão.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "收据单",
-    "zhHant": "收據單"
   },
   {
     "id": "m11-estrago",
@@ -864,18 +732,6 @@
     "zhHant": "杯子"
   },
   {
-    "id": "m11-frigorifico",
-    "modulo": "Módulo 11",
-    "theme": "Casa",
-    "portuguese": "o frigorífico",
-    "english": "refrigerator",
-    "examplePt": "Leve ao frigorífico durante quatro horas.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "冰箱",
-    "zhHant": "冰箱"
-  },
-  {
     "id": "m11-reclamar",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
@@ -884,8 +740,8 @@
     "examplePt": "Temos de reclamar.",
     "note": "",
     "source": "pdf",
-    "zhHans": "抱怨",
-    "zhHant": "抱怨"
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴"
   },
   {
     "id": "m11-queixa",
@@ -896,8 +752,8 @@
     "examplePt": "A DECO tem recebido queixas de consumidores.",
     "note": "",
     "source": "pdf",
-    "zhHans": "抱怨",
-    "zhHant": "抱怨"
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴"
   },
   {
     "id": "m11-consumidor",
@@ -922,18 +778,6 @@
     "source": "pdf",
     "zhHans": "申请",
     "zhHant": "申請/求職申請"
-  },
-  {
-    "id": "m11-vaga",
-    "modulo": "Módulo 11",
-    "theme": "Emprego",
-    "portuguese": "a vaga",
-    "english": "vacancy",
-    "examplePt": "Candidatei-me à vaga de tradutor.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "空缺",
-    "zhHant": "空缺"
   },
   {
     "id": "m11-tradutor",
@@ -1116,54 +960,6 @@
     "zhHant": "偏愛"
   },
   {
-    "id": "m11-que",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "que",
-    "english": "that; which; who",
-    "examplePt": "Os empregados que nos serviram eram simpáticos.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "那/哪个/谁",
-    "zhHant": "那/哪個/誰"
-  },
-  {
-    "id": "m11-quem",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "quem",
-    "english": "who; whom",
-    "examplePt": "O dono com quem falámos deu-nos este cartão.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "谁",
-    "zhHant": "誰"
-  },
-  {
-    "id": "m11-onde",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "onde",
-    "english": "where",
-    "examplePt": "O restaurante onde almoçámos era excelente.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "在哪里",
-    "zhHant": "在哪裡"
-  },
-  {
-    "id": "m11-pelo",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "por + artigo",
-    "english": "by; through; along",
-    "examplePt": "Passe pelo banco. Passe pela farmácia.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "由/通过/沿着",
-    "zhHant": "由/通過/沿著"
-  },
-  {
     "id": "m11-assaltar",
     "modulo": "Módulo 11",
     "theme": "Segurança",
@@ -1306,18 +1102,6 @@
     "source": "pdf",
     "zhHans": "移民",
     "zhHant": "移民"
-  },
-  {
-    "id": "m12-nacionalidade",
-    "modulo": "Módulo 12",
-    "theme": "Cidadania",
-    "portuguese": "a nacionalidade",
-    "english": "nationality",
-    "examplePt": "Quero adquirir a nacionalidade portuguesa.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "国籍",
-    "zhHant": "國籍"
   },
   {
     "id": "m12-vinculo-juridico",
@@ -1472,8 +1256,8 @@
     "examplePt": "O tema é a imigração.",
     "note": "",
     "source": "pdf",
-    "zhHans": "移民",
-    "zhHant": "移民"
+    "zhHans": "移（入）民",
+    "zhHant": "移（入）民"
   },
   {
     "id": "m12-adquirir",
@@ -1724,8 +1508,8 @@
     "examplePt": "Tenta informar-se sobre os candidatos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "了解信息/查询信息",
-    "zhHant": "了解資訊/查詢資訊"
+    "zhHans": "了解情况",
+    "zhHant": "了解情況"
   },
   {
     "id": "m12-renda-elevada",
@@ -1774,41 +1558,5 @@
     "source": "pdf",
     "zhHans": "办理合法化/使合法",
     "zhHant": "辦理合法化/使合法"
-  },
-  {
-    "id": "m12-pontual",
-    "modulo": "Módulo 12",
-    "theme": "Trabalho",
-    "portuguese": "pontual",
-    "english": "punctual",
-    "examplePt": "É importante ser pontual.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "准时",
-    "zhHant": "準時"
-  },
-  {
-    "id": "m12-poupar",
-    "modulo": "Módulo 12",
-    "theme": "Dinheiro",
-    "portuguese": "poupar",
-    "english": "to save money",
-    "examplePt": "Conseguiram poupar e fazer uma viagem.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "存钱/省钱",
-    "zhHant": "存錢/省錢"
-  },
-  {
-    "id": "m12-registo-criminal",
-    "modulo": "Módulo 12",
-    "theme": "Documentos",
-    "portuguese": "o registo criminal",
-    "english": "criminal record",
-    "examplePt": "É preciso ter o registo criminal.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "犯罪记录",
-    "zhHant": "犯罪記錄"
   }
 ]

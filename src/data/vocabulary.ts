@@ -799,8 +799,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saudações",
     "portuguese": "muito prazer",
     "english": "pleased to meet you",
-    "zhHans": "很高兴认识你",
-    "zhHant": "很高興認識你",
+    "zhHans": "幸会",
+    "zhHant": "幸會",
     "examplePt": "Olá Iona, muito prazer.",
     "source": "pdf"
   },
@@ -1228,8 +1228,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "nunca",
     "english": "never",
-    "zhHans": "绝不",
-    "zhHant": "絕不",
+    "zhHans": "绝不/从未",
+    "zhHant": "絕不/從未",
     "examplePt": "Nunca chego tarde.",
     "source": "pdf"
   },
@@ -1635,8 +1635,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "poder",
     "english": "can; to be able to",
-    "zhHans": "能/能够",
-    "zhHant": "能/能夠",
+    "zhHans": "能",
+    "zhHant": "能",
     "examplePt": "Posso pagar com multibanco?",
     "source": "pdf"
   },
@@ -1657,8 +1657,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "saudável",
     "english": "healthy",
-    "zhHans": "健康",
-    "zhHant": "健康",
+    "zhHans": "健康的",
+    "zhHant": "健康的",
     "examplePt": "Esta comida é saudável.",
     "source": "pdf"
   },
@@ -1778,8 +1778,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Talho",
     "portuguese": "o frango",
     "english": "chicken",
-    "zhHans": "鸡",
-    "zhHant": "雞",
+    "zhHans": "鸡肉",
+    "zhHant": "雞肉",
     "examplePt": "Quero frango assado.",
     "source": "pdf"
   },
@@ -2141,8 +2141,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Pronomes",
     "portuguese": "consigo",
     "english": "with you",
-    "zhHans": "与你",
-    "zhHant": "與你",
+    "zhHans": "与您",
+    "zhHant": "與您",
     "examplePt": "Posso ir consigo?",
     "source": "pdf"
   },
@@ -2174,8 +2174,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tempo",
     "portuguese": "daqui a uma semana",
     "english": "in a week",
-    "zhHans": "一周内",
-    "zhHant": "一週內",
+    "zhHans": "一周后",
+    "zhHant": "一週後",
     "examplePt": "Daqui a uma semana vou viajar.",
     "source": "pdf"
   },
@@ -2243,17 +2243,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去健身房",
     "zhHant": "去健身房",
     "examplePt": "Vou ao ginásio depois do trabalho.",
-    "source": "pdf"
-  },
-  {
-    "id": "m4-ir-as-compras",
-    "modulo": "Módulo 4",
-    "theme": "Tempos livres",
-    "portuguese": "ir às compras",
-    "english": "to go shopping",
-    "zhHans": "去购物",
-    "zhHant": "去購物",
-    "examplePt": "Vou às compras ao sábado.",
     "source": "pdf"
   },
   {
@@ -2675,17 +2664,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-autorizacao-de-residencia",
-    "modulo": "Módulo 5",
-    "theme": "Documentos",
-    "portuguese": "a autorização de residência",
-    "english": "residence permit",
-    "zhHans": "居留证",
-    "zhHant": "居留證",
-    "examplePt": "Tenho autorização de residência permanente.",
-    "source": "pdf"
-  },
-  {
     "id": "m5-fotografia-tipo-passe",
     "modulo": "Módulo 5",
     "theme": "Documentos",
@@ -2785,17 +2763,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-apartamento",
-    "modulo": "Módulo 5",
-    "theme": "Habitação",
-    "portuguese": "o apartamento",
-    "english": "flat",
-    "zhHans": "公寓",
-    "zhHant": "公寓",
-    "examplePt": "Vou mostrar-vos o novo apartamento.",
-    "source": "pdf"
-  },
-  {
     "id": "m5-lavandaria",
     "modulo": "Módulo 5",
     "theme": "Lojas",
@@ -2859,17 +2826,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "必须",
     "zhHant": "必須",
     "examplePt": "Tenho de levar o passaporte.",
-    "source": "pdf"
-  },
-  {
-    "id": "m5-fatura",
-    "modulo": "Módulo 5",
-    "theme": "Pagamentos",
-    "portuguese": "a fatura",
-    "english": "invoice",
-    "zhHans": "发票",
-    "zhHant": "發票",
-    "examplePt": "Aqui está a fatura.",
     "source": "pdf"
   },
   {
@@ -3013,17 +2969,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "关闭",
     "zhHant": "關閉",
     "examplePt": "Desligue o telemóvel.",
-    "source": "pdf"
-  },
-  {
-    "id": "m5-motorista",
-    "modulo": "Módulo 5",
-    "theme": "Trabalho",
-    "portuguese": "o motorista",
-    "english": "driver",
-    "zhHans": "司机",
-    "zhHant": "司機",
-    "examplePt": "O Sami é motorista.",
     "source": "pdf"
   },
   {
@@ -3296,8 +3241,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Cuidados de saúde",
     "portuguese": "ter uma alimentação saudável",
     "english": "to have a healthy diet",
-    "zhHans": "健康饮食",
-    "zhHant": "健康飲食",
+    "zhHans": "保持健康的饮食",
+    "zhHant": "保持健康的飲食",
     "examplePt": "É importante ter uma alimentação saudável.",
     "source": "pdf"
   },
@@ -3340,8 +3285,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "o incêndio",
     "english": "fire",
-    "zhHans": "火",
-    "zhHant": "火",
+    "zhHans": "火灾",
+    "zhHant": "火災",
     "examplePt": "O 112 atende situações de incêndio.",
     "source": "pdf"
   },
@@ -3384,8 +3329,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emergência",
     "portuguese": "Saúde 24",
     "english": "health helpline",
-    "zhHans": "健康求助热线",
-    "zhHant": "健康求助專線",
+    "zhHans": "SNS24",
+    "zhHant": "SNS24",
     "examplePt": "Pode ligar para a Saúde 24.",
     "source": "pdf"
   },
@@ -3626,8 +3571,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "a inscrição",
     "english": "registration",
-    "zhHans": "登记",
-    "zhHant": "登記",
+    "zhHans": "登记/注册",
+    "zhHant": "登記/註冊",
     "examplePt": "Fazem a inscrição na consulta.",
     "source": "pdf"
   },
@@ -3637,8 +3582,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Saúde",
     "portuguese": "aceder",
     "english": "to access",
-    "zhHans": "获得/使用",
-    "zhHant": "取得/使用",
+    "zhHans": "取得/登录",
+    "zhHant": "取得/登入",
     "examplePt": "Podem aceder a cuidados de saúde.",
     "source": "pdf"
   },
@@ -3704,7 +3649,7 @@ export const vocabulary: VocabularyEntry[] = [
     "portuguese": "a máscara",
     "english": "mask",
     "zhHans": "口罩",
-    "zhHant": "口罩/防護口罩",
+    "zhHant": "口罩",
     "examplePt": "Use máscara durante o trabalho.",
     "source": "pdf"
   },
@@ -3899,10 +3844,10 @@ export const vocabulary: VocabularyEntry[] = [
     "id": "m6-ser-alergico-a",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
-    "portuguese": "ser alérgico a",
+    "portuguese": "ser alérgico/a a",
     "english": "to be allergic to",
-    "zhHans": "过敏",
-    "zhHant": "過敏",
+    "zhHans": "对...过敏",
+    "zhHant": "對...過敏",
     "examplePt": "Sou alérgico a este medicamento.",
     "source": "pdf"
   },
@@ -4193,17 +4138,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-telefone",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o telefone",
-    "english": "telephone",
-    "zhHans": "电话",
-    "zhHant": "電話",
-    "examplePt": "Ela fala ao telefone.",
-    "source": "pdf"
-  },
-  {
     "id": "m7-lixivia",
     "modulo": "Módulo 7",
     "theme": "Limpeza",
@@ -4223,17 +4157,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "清洁产品",
     "zhHant": "清潔產品",
     "examplePt": "Vou buscar os detergentes.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-cozinha",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "a cozinha",
-    "english": "kitchen",
-    "zhHans": "厨房",
-    "zhHant": "廚房",
-    "examplePt": "A cozinha está limpa.",
     "source": "pdf"
   },
   {
@@ -4278,50 +4201,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "建筑工地",
     "zhHant": "建築工地",
     "examplePt": "Ele trabalha nas obras.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-cafe",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o café",
-    "english": "café",
-    "zhHans": "咖啡/咖啡馆",
-    "zhHant": "咖啡/咖啡館",
-    "examplePt": "Ela trabalha num café.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-centro-saude",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o centro de saúde",
-    "english": "health centre",
-    "zhHans": "健康中心/社区诊所",
-    "zhHant": "健康中心/社區診所",
-    "examplePt": "Vou ao centro de saúde.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-hospital",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o hospital",
-    "english": "hospital",
-    "zhHans": "医院",
-    "zhHant": "醫院",
-    "examplePt": "O médico trabalha no hospital.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-restaurante",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o restaurante",
-    "english": "restaurant",
-    "zhHans": "餐厅",
-    "zhHant": "餐廳",
-    "examplePt": "Ele trabalha num restaurante.",
     "source": "pdf"
   },
   {
@@ -4561,8 +4440,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Tarefas",
     "portuguese": "descarregar",
     "english": "to unload",
-    "zhHans": "卸货",
-    "zhHant": "卸貨/卸下",
+    "zhHans": "卸货/下载",
+    "zhHant": "卸貨/下載",
     "examplePt": "Ela descarrega produtos.",
     "source": "pdf"
   },
@@ -4748,8 +4627,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Anúncios",
     "portuguese": "oferece-se",
     "english": "available for work",
-    "zhHans": "可以工作",
-    "zhHant": "可以工作",
+    "zhHans": "求职/可应聘",
+    "zhHant": "求職/可應聘",
     "examplePt": "No anúncio, lê-se: oferece-se cozinheira.",
     "source": "pdf"
   },
@@ -4795,28 +4674,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "能够/成功做到",
     "zhHant": "能夠/成功做到",
     "examplePt": "Ela conseguiu ficar com o emprego.",
-    "source": "pdf"
-  },
-  {
-    "id": "m8-poder",
-    "modulo": "Módulo 8",
-    "theme": "Capacidade",
-    "portuguese": "poder",
-    "english": "can / to be able to",
-    "zhHans": "能/能够",
-    "zhHant": "能/能夠",
-    "examplePt": "Posso entrar?",
-    "source": "pdf"
-  },
-  {
-    "id": "m8-saber",
-    "modulo": "Módulo 8",
-    "theme": "Capacidade",
-    "portuguese": "saber",
-    "english": "to know how",
-    "zhHans": "知道/会",
-    "zhHant": "知道/會",
-    "examplePt": "Ela sabe falar inglês.",
     "source": "pdf"
   },
   {
@@ -4924,8 +4781,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a disponibilidade",
     "english": "availability",
-    "zhHans": "可上班时间/可工作时间",
-    "zhHant": "可上班時間/可工作時間",
+    "zhHans": "可上班时间",
+    "zhHant": "可上班時間",
     "examplePt": "Tenho disponibilidade para entrada imediata.",
     "source": "pdf"
   },
@@ -4968,8 +4825,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a função",
     "english": "role",
-    "zhHans": "角色",
-    "zhHant": "角色",
+    "zhHans": "角色/功能",
+    "zhHant": "角色/功能",
     "examplePt": "Apresento a minha candidatura para esta função.",
     "source": "pdf"
   },
@@ -5293,17 +5150,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-ha",
-    "modulo": "Módulo 8",
-    "theme": "Tempo",
-    "portuguese": "há",
-    "english": "for / ago",
-    "zhHans": "有/已经过去",
-    "zhHant": "有/已經過去",
-    "examplePt": "Trabalho nesse restaurante há sete anos.",
-    "source": "pdf"
-  },
-  {
     "id": "m9-mais-barato",
     "modulo": "Módulo 9",
     "theme": "Compras",
@@ -5408,8 +5254,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "muito trânsito",
     "english": "a lot of traffic",
-    "zhHans": "大量流量",
-    "zhHant": "大量流量",
+    "zhHans": "交通繁忙",
+    "zhHant": "交通繁忙",
     "examplePt": "O Rossio tem muito trânsito.",
     "source": "pdf"
   },
@@ -5529,8 +5375,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "emigrar",
     "english": "to emigrate",
-    "zhHans": "移民",
-    "zhHant": "移民",
+    "zhHans": "移民海外",
+    "zhHant": "移民海外",
     "examplePt": "Muitos portugueses emigraram.",
     "source": "pdf"
   },
@@ -5587,17 +5433,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "牛仔裤",
     "zhHant": "牛仔褲",
     "examplePt": "Ele usava calças de ganga.",
-    "source": "pdf"
-  },
-  {
-    "id": "m9-oculos",
-    "modulo": "Módulo 9",
-    "theme": "Roupa e acessórios",
-    "portuguese": "os óculos",
-    "english": "glasses",
-    "zhHans": "眼镜",
-    "zhHant": "眼鏡",
-    "examplePt": "Ele usava óculos.",
     "source": "pdf"
   },
   {
@@ -5672,8 +5507,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Alimentação",
     "portuguese": "a alimentação saudável",
     "english": "healthy diet",
-    "zhHans": "健康饮食",
-    "zhHant": "健康飲食",
+    "zhHans": "健康的饮食",
+    "zhHant": "健康的飲食",
     "examplePt": "Tem tido uma alimentação saudável?",
     "source": "pdf"
   },
@@ -5744,17 +5579,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-costumar",
-    "modulo": "Módulo 10",
-    "theme": "Hábitos",
-    "portuguese": "costumar",
-    "english": "to usually do",
-    "zhHans": "通常做",
-    "zhHant": "通常做",
-    "examplePt": "Eu costumava ler.",
-    "source": "pdf"
-  },
-  {
     "id": "m10-navegar-na-net",
     "modulo": "Módulo 10",
     "theme": "Hábitos",
@@ -5788,35 +5612,13 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-mercearia",
-    "modulo": "Módulo 10",
-    "theme": "Lojas",
-    "portuguese": "a mercearia",
-    "english": "grocery shop",
-    "zhHans": "杂货店",
-    "zhHant": "雜貨店",
-    "examplePt": "Entramos na mercearia do Largo do Terreirinho.",
-    "source": "pdf"
-  },
-  {
-    "id": "m10-emigrar",
-    "modulo": "Módulo 10",
-    "theme": "Migração",
-    "portuguese": "emigrar",
-    "english": "to emigrate",
-    "zhHans": "移民",
-    "zhHant": "移民",
-    "examplePt": "Foi a primeira da família a emigrar.",
-    "source": "pdf"
-  },
-  {
     "id": "m10-doenca",
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "a doença",
     "english": "illness",
     "zhHans": "疾病",
-    "zhHant": "身體不適",
+    "zhHant": "疾病",
     "examplePt": "Sofre de alguma doença?",
     "source": "pdf"
   },
@@ -5898,17 +5700,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-antigamente",
-    "modulo": "Módulo 10",
-    "theme": "Tempo",
-    "portuguese": "antigamente",
-    "english": "in the past",
-    "zhHans": "在过去",
-    "zhHant": "在過去",
-    "examplePt": "Antigamente as pessoas andavam mais a pé.",
-    "source": "pdf"
-  },
-  {
     "id": "m10-ate-agora",
     "modulo": "Módulo 10",
     "theme": "Tempo",
@@ -5975,17 +5766,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-ontem",
-    "modulo": "Módulo 10",
-    "theme": "Tempo",
-    "portuguese": "ontem",
-    "english": "yesterday",
-    "zhHans": "昨天",
-    "zhHant": "昨天",
-    "examplePt": "Ontem fui ao cinema.",
-    "source": "pdf"
-  },
-  {
     "id": "m10-recente",
     "modulo": "Módulo 10",
     "theme": "Tempo",
@@ -6016,17 +5796,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "最近",
     "zhHant": "最近",
     "examplePt": "Ultimamente tem chovido muito.",
-    "source": "pdf"
-  },
-  {
-    "id": "m10-ir-ao-cinema",
-    "modulo": "Módulo 10",
-    "theme": "Tempos livres",
-    "portuguese": "ir ao cinema",
-    "english": "to go to the cinema",
-    "zhHans": "去电影院",
-    "zhHant": "去電影院",
-    "examplePt": "Ontem fui ao cinema.",
     "source": "pdf"
   },
   {
@@ -6085,17 +5854,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-frigorifico",
-    "modulo": "Módulo 11",
-    "theme": "Casa",
-    "portuguese": "o frigorífico",
-    "english": "refrigerator",
-    "zhHans": "冰箱",
-    "zhHant": "冰箱",
-    "examplePt": "Leve ao frigorífico durante quatro horas.",
-    "source": "pdf"
-  },
-  {
     "id": "m11-marca",
     "modulo": "Módulo 11",
     "theme": "Compras",
@@ -6115,17 +5873,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "收据/付款凭证",
     "zhHant": "收據/付款憑證",
     "examplePt": "Junto cópia do recibo de compra.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-talao",
-    "modulo": "Módulo 11",
-    "theme": "Compras",
-    "portuguese": "o talão",
-    "english": "receipt slip",
-    "zhHans": "收据单",
-    "zhHant": "收據單",
-    "examplePt": "Junto cópia do talão.",
     "source": "pdf"
   },
   {
@@ -6299,31 +6046,9 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Emprego",
     "portuguese": "a entrevista",
     "english": "interview",
-    "zhHans": "面试",
-    "zhHant": "面試",
+    "zhHans": "面试/采访",
+    "zhHant": "面試/採訪",
     "examplePt": "Gostaria de uma entrevista pessoal.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-vaga",
-    "modulo": "Módulo 11",
-    "theme": "Emprego",
-    "portuguese": "a vaga",
-    "english": "vacancy",
-    "zhHans": "空缺",
-    "zhHant": "空缺",
-    "examplePt": "Candidatei-me à vaga de tradutor.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-curriculo",
-    "modulo": "Módulo 11",
-    "theme": "Emprego",
-    "portuguese": "o currículo",
-    "english": "CV; resume",
-    "zhHans": "简历/履历",
-    "zhHant": "履歷/簡歷",
-    "examplePt": "Enviei o meu currículo por e-mail.",
     "source": "pdf"
   },
   {
@@ -6390,50 +6115,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "没有人",
     "zhHant": "沒有人",
     "examplePt": "Ninguém deve estar ilegal.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-onde",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "onde",
-    "english": "where",
-    "zhHans": "在哪里",
-    "zhHant": "在哪裡",
-    "examplePt": "O restaurante onde almoçámos era excelente.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-pelo",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "por + artigo",
-    "english": "by; through; along",
-    "zhHans": "由/通过/沿着",
-    "zhHant": "由/通過/沿著",
-    "examplePt": "Passe pelo banco. Passe pela farmácia.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-que",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "que",
-    "english": "that; which; who",
-    "zhHans": "那/哪个/谁",
-    "zhHant": "那/哪個/誰",
-    "examplePt": "Os empregados que nos serviram eram simpáticos.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-quem",
-    "modulo": "Módulo 11",
-    "theme": "Gramática",
-    "portuguese": "quem",
-    "english": "who; whom",
-    "zhHans": "谁",
-    "zhHant": "誰",
-    "examplePt": "O dono com quem falámos deu-nos este cartão.",
     "source": "pdf"
   },
   {
@@ -6552,8 +6233,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "a queixa",
     "english": "complaint",
-    "zhHans": "抱怨",
-    "zhHant": "抱怨",
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴",
     "examplePt": "A DECO tem recebido queixas de consumidores.",
     "source": "pdf"
   },
@@ -6618,8 +6299,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Reclamações",
     "portuguese": "reclamar",
     "english": "to complain",
-    "zhHans": "抱怨",
-    "zhHant": "抱怨",
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴",
     "examplePt": "Temos de reclamar.",
     "source": "pdf"
   },
@@ -6690,17 +6371,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-lavandaria",
-    "modulo": "Módulo 11",
-    "theme": "Serviços",
-    "portuguese": "a lavandaria",
-    "english": "launderette; laundry",
-    "zhHans": "洗衣店/自助洗衣店",
-    "zhHant": "洗衣店/自助洗衣店",
-    "examplePt": "Entreguei o fato na lavandaria.",
-    "source": "pdf"
-  },
-  {
     "id": "m11-estabelecimento",
     "modulo": "Módulo 11",
     "theme": "Serviços",
@@ -6712,17 +6382,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-telemovel",
-    "modulo": "Módulo 11",
-    "theme": "Tecnologia",
-    "portuguese": "o telemóvel",
-    "english": "mobile phone",
-    "zhHans": "手机/移动电话",
-    "zhHant": "手機/行動電話",
-    "examplePt": "Comprei um telemóvel novo.",
-    "source": "pdf"
-  },
-  {
     "id": "m11-prazo",
     "modulo": "Módulo 11",
     "theme": "Tempo",
@@ -6731,17 +6390,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "最后期限",
     "zhHant": "最後期限",
     "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-carta-de-apresentacao",
-    "modulo": "Módulo 11",
-    "theme": "Tipos de texto",
-    "portuguese": "a carta de apresentação",
-    "english": "cover letter",
-    "zhHans": "求职信",
-    "zhHant": "求職信",
-    "examplePt": "Enviei a minha carta de apresentação.",
     "source": "pdf"
   },
   {
@@ -6816,8 +6464,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Ações",
     "portuguese": "informar-se",
     "english": "to get informed",
-    "zhHans": "了解信息/查询信息",
-    "zhHant": "了解資訊/查詢資訊",
+    "zhHans": "了解情况",
+    "zhHant": "了解情況",
     "examplePt": "Tenta informar-se sobre os candidatos.",
     "source": "pdf"
   },
@@ -6874,17 +6522,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "选举",
     "zhHant": "選舉",
     "examplePt": "Pode votar em eleições europeias.",
-    "source": "pdf"
-  },
-  {
-    "id": "m12-nacionalidade",
-    "modulo": "Módulo 12",
-    "theme": "Cidadania",
-    "portuguese": "a nacionalidade",
-    "english": "nationality",
-    "zhHans": "国籍",
-    "zhHant": "國籍",
-    "examplePt": "Quero adquirir a nacionalidade portuguesa.",
     "source": "pdf"
   },
   {
@@ -6998,17 +6635,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-poupar",
-    "modulo": "Módulo 12",
-    "theme": "Dinheiro",
-    "portuguese": "poupar",
-    "english": "to save money",
-    "zhHans": "存钱/省钱",
-    "zhHant": "存錢/省錢",
-    "examplePt": "Conseguiram poupar e fazer uma viagem.",
-    "source": "pdf"
-  },
-  {
     "id": "m12-certificado",
     "modulo": "Módulo 12",
     "theme": "Documentos",
@@ -7017,17 +6643,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "证书",
     "zhHant": "證書",
     "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
-    "source": "pdf"
-  },
-  {
-    "id": "m12-registo-criminal",
-    "modulo": "Módulo 12",
-    "theme": "Documentos",
-    "portuguese": "o registo criminal",
-    "english": "criminal record",
-    "zhHans": "犯罪记录",
-    "zhHant": "犯罪記錄",
-    "examplePt": "É preciso ter o registo criminal.",
     "source": "pdf"
   },
   {
@@ -7179,8 +6794,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Migração",
     "portuguese": "a imigração",
     "english": "immigration",
-    "zhHans": "移民",
-    "zhHant": "移民",
+    "zhHans": "移（入）民",
+    "zhHant": "移（入）民",
     "examplePt": "O tema é a imigração.",
     "source": "pdf"
   },
@@ -7314,17 +6929,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "融入/融合",
     "zhHant": "融入/融合",
     "examplePt": "O serviço apoia a integração dos imigrantes.",
-    "source": "pdf"
-  },
-  {
-    "id": "m12-pontual",
-    "modulo": "Módulo 12",
-    "theme": "Trabalho",
-    "portuguese": "pontual",
-    "english": "punctual",
-    "zhHans": "准时",
-    "zhHant": "準時",
-    "examplePt": "É importante ser pontual.",
     "source": "pdf"
   }
 ] satisfies VocabularyEntry[];

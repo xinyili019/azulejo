@@ -36,18 +36,6 @@
     "zhHant": "閱讀"
   },
   {
-    "id": "m4-ir-as-compras",
-    "modulo": "Módulo 4",
-    "theme": "Tempos livres",
-    "portuguese": "ir às compras",
-    "english": "to go shopping",
-    "examplePt": "Vou às compras ao sábado.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "去购物",
-    "zhHant": "去購物"
-  },
-  {
     "id": "m4-ver-televisao",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
@@ -380,8 +368,8 @@
     "examplePt": "Daqui a uma semana vou viajar.",
     "note": "",
     "source": "pdf",
-    "zhHans": "一周内",
-    "zhHant": "一週內"
+    "zhHans": "一周后",
+    "zhHant": "一週後"
   },
   {
     "id": "m4-natal",
@@ -476,8 +464,8 @@
     "examplePt": "Posso ir consigo?",
     "note": "",
     "source": "pdf",
-    "zhHans": "与你",
-    "zhHant": "與你"
+    "zhHans": "与您",
+    "zhHant": "與您"
   },
   {
     "id": "m5-oficina",
@@ -768,18 +756,6 @@
     "zhHant": "表格"
   },
   {
-    "id": "m5-fatura",
-    "modulo": "Módulo 5",
-    "theme": "Pagamentos",
-    "portuguese": "a fatura",
-    "english": "invoice",
-    "examplePt": "Aqui está a fatura.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "发票",
-    "zhHant": "發票"
-  },
-  {
     "id": "m5-renovar",
     "modulo": "Módulo 5",
     "theme": "Documentos",
@@ -790,18 +766,6 @@
     "source": "pdf",
     "zhHans": "续签/更新",
     "zhHant": "續簽/更新"
-  },
-  {
-    "id": "m5-autorizacao-de-residencia",
-    "modulo": "Módulo 5",
-    "theme": "Documentos",
-    "portuguese": "a autorização de residência",
-    "english": "residence permit",
-    "examplePt": "Tenho autorização de residência permanente.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "居留证",
-    "zhHant": "居留證"
   },
   {
     "id": "m5-documentos-necessarios",
@@ -1008,18 +972,6 @@
     "zhHant": "知道/會"
   },
   {
-    "id": "m5-motorista",
-    "modulo": "Módulo 5",
-    "theme": "Trabalho",
-    "portuguese": "o motorista",
-    "english": "driver",
-    "examplePt": "O Sami é motorista.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "司机",
-    "zhHant": "司機"
-  },
-  {
     "id": "m5-guiar",
     "modulo": "Módulo 5",
     "theme": "Carro",
@@ -1126,18 +1078,6 @@
     "source": "pdf",
     "zhHans": "地产代理",
     "zhHant": "地產代理"
-  },
-  {
-    "id": "m5-apartamento",
-    "modulo": "Módulo 5",
-    "theme": "Habitação",
-    "portuguese": "o apartamento",
-    "english": "flat",
-    "examplePt": "Vou mostrar-vos o novo apartamento.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "公寓",
-    "zhHant": "公寓"
   },
   {
     "id": "m5-por",
@@ -1472,8 +1412,8 @@
     "examplePt": "É importante ter uma alimentação saudável.",
     "note": "",
     "source": "pdf",
-    "zhHans": "健康饮食",
-    "zhHant": "健康飲食"
+    "zhHans": "保持健康的饮食",
+    "zhHant": "保持健康的飲食"
   },
   {
     "id": "m6-dentista",
@@ -1647,13 +1587,13 @@
     "id": "m6-ser-alergico-a",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
-    "portuguese": "ser alérgico a",
+    "portuguese": "ser alérgico/a a",
     "english": "to be allergic to",
     "examplePt": "Sou alérgico a este medicamento.",
     "note": "",
     "source": "pdf",
-    "zhHans": "过敏",
-    "zhHant": "過敏"
+    "zhHans": "对...过敏",
+    "zhHant": "對...過敏"
   },
   {
     "id": "m6-ser-alergica-a",
@@ -1749,7 +1689,7 @@
     "note": "",
     "source": "pdf",
     "zhHans": "口罩",
-    "zhHant": "口罩/防護口罩"
+    "zhHant": "口罩"
   },
   {
     "id": "m6-alergia",
@@ -1892,8 +1832,8 @@
     "examplePt": "Pode ligar para a Saúde 24.",
     "note": "",
     "source": "pdf",
-    "zhHans": "健康求助热线",
-    "zhHant": "健康求助專線"
+    "zhHans": "SNS24",
+    "zhHant": "SNS24"
   },
   {
     "id": "m6-utente",
@@ -1928,8 +1868,8 @@
     "examplePt": "O 112 atende situações de incêndio.",
     "note": "",
     "source": "pdf",
-    "zhHans": "火",
-    "zhHant": "火"
+    "zhHans": "火灾",
+    "zhHant": "火災"
   },
   {
     "id": "m6-assalto",
@@ -1964,8 +1904,8 @@
     "examplePt": "Podem aceder a cuidados de saúde.",
     "note": "",
     "source": "pdf",
-    "zhHans": "获得/使用",
-    "zhHant": "取得/使用"
+    "zhHans": "取得/登录",
+    "zhHant": "取得/登入"
   },
   {
     "id": "m6-legalmente",
@@ -2012,8 +1952,8 @@
     "examplePt": "Fazem a inscrição na consulta.",
     "note": "",
     "source": "pdf",
-    "zhHans": "登记",
-    "zhHant": "登記"
+    "zhHans": "登记/注册",
+    "zhHant": "登記/註冊"
   },
   {
     "id": "m6-consulta-de-urgencia",

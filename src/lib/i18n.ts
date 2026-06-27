@@ -49,8 +49,8 @@ const copy: Record<UiLocale, UiCopy> = {
     knownVocabulary: "known vocabulary",
     reviewed: "reviewed",
     remaining: "remaining",
-    noCardsTitle: "No cards match these filters",
-    noCardsBody: "Include known cards or choose another module to continue reviewing.",
+    noCardsTitle: "Congratulations! You have mastered all vocabulary.",
+    noCardsBody: "Choose a module to review.",
     moduleProgress: (modulo) => `${modulo} progress`,
     moduloLabel: (modulo) => modulo
   },
@@ -74,8 +74,8 @@ const copy: Record<UiLocale, UiCopy> = {
     knownVocabulary: "已掌握词汇",
     reviewed: "已复习",
     remaining: "待复习",
-    noCardsTitle: "没有符合条件的卡片",
-    noCardsBody: "请显示已掌握卡片，或选择另一个模块继续复习。",
+    noCardsTitle: "恭喜你！你已经掌握全部词汇！",
+    noCardsBody: "请选择一个模块复习吧！",
     moduleProgress: (modulo) => `${toChineseModulo(modulo, "模块")}进度`,
     moduloLabel: (modulo) => toChineseModulo(modulo, "模块")
   },
@@ -99,8 +99,8 @@ const copy: Record<UiLocale, UiCopy> = {
     knownVocabulary: "已掌握詞彙",
     reviewed: "已複習",
     remaining: "待複習",
-    noCardsTitle: "沒有符合條件的卡片",
-    noCardsBody: "請顯示已掌握卡片，或選擇另一個模組繼續複習。",
+    noCardsTitle: "恭喜你！你已經掌握全部詞彙！",
+    noCardsBody: "請選擇一個模組複習吧！",
     moduleProgress: (modulo) => `${toChineseModulo(modulo, "模組")}進度`,
     moduloLabel: (modulo) => toChineseModulo(modulo, "模組")
   }

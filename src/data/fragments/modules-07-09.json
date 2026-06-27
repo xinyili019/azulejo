@@ -12,30 +12,6 @@
     "zhHant": "服務生"
   },
   {
-    "id": "m7-restaurante",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o restaurante",
-    "english": "restaurant",
-    "examplePt": "Ele trabalha num restaurante.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "餐厅",
-    "zhHant": "餐廳"
-  },
-  {
-    "id": "m7-cafe",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o café",
-    "english": "café",
-    "examplePt": "Ela trabalha num café.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "咖啡/咖啡馆",
-    "zhHant": "咖啡/咖啡館"
-  },
-  {
     "id": "m7-pano",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
@@ -94,18 +70,6 @@
     "source": "pdf",
     "zhHans": "厨师",
     "zhHant": "廚師"
-  },
-  {
-    "id": "m7-cozinha",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "a cozinha",
-    "english": "kitchen",
-    "examplePt": "A cozinha está limpa.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "厨房",
-    "zhHant": "廚房"
   },
   {
     "id": "m7-luvas",
@@ -444,18 +408,6 @@
     "zhHant": "電腦"
   },
   {
-    "id": "m7-telefone",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o telefone",
-    "english": "telephone",
-    "examplePt": "Ela fala ao telefone.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "电话",
-    "zhHant": "電話"
-  },
-  {
     "id": "m7-papel",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
@@ -490,30 +442,6 @@
     "source": "pdf",
     "zhHans": "医生",
     "zhHant": "醫生"
-  },
-  {
-    "id": "m7-hospital",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o hospital",
-    "english": "hospital",
-    "examplePt": "O médico trabalha no hospital.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "医院",
-    "zhHant": "醫院"
-  },
-  {
-    "id": "m7-centro-saude",
-    "modulo": "Módulo 7",
-    "theme": "Locais de trabalho",
-    "portuguese": "o centro de saúde",
-    "english": "health centre",
-    "examplePt": "Vou ao centro de saúde.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "健康中心/社区诊所",
-    "zhHant": "健康中心/社區診所"
   },
   {
     "id": "m7-observar-doente",
@@ -752,8 +680,8 @@
     "examplePt": "Ela descarrega produtos.",
     "note": "",
     "source": "pdf",
-    "zhHans": "卸货",
-    "zhHant": "卸貨/卸下"
+    "zhHans": "卸货/下载",
+    "zhHant": "卸貨/下載"
   },
   {
     "id": "m7-armazenar",
@@ -1040,8 +968,8 @@
     "examplePt": "Apresento a minha candidatura para esta função.",
     "note": "",
     "source": "pdf",
-    "zhHans": "角色",
-    "zhHant": "角色"
+    "zhHans": "角色/功能",
+    "zhHant": "角色/功能"
   },
   {
     "id": "m8-empregada-domestica",
@@ -1076,8 +1004,8 @@
     "examplePt": "Tenho disponibilidade para entrada imediata.",
     "note": "",
     "source": "pdf",
-    "zhHans": "可上班时间/可工作时间",
-    "zhHant": "可上班時間/可工作時間"
+    "zhHans": "可上班时间",
+    "zhHant": "可上班時間"
   },
   {
     "id": "m8-entrada-imediata",
@@ -1100,8 +1028,8 @@
     "examplePt": "No anúncio, lê-se: oferece-se cozinheira.",
     "note": "",
     "source": "pdf",
-    "zhHans": "可以工作",
-    "zhHant": "可以工作"
+    "zhHans": "求职/可应聘",
+    "zhHant": "求職/可應聘"
   },
   {
     "id": "m8-procuro-trabalho",
@@ -1308,18 +1236,6 @@
     "zhHant": "自從"
   },
   {
-    "id": "m8-ha",
-    "modulo": "Módulo 8",
-    "theme": "Tempo",
-    "portuguese": "há",
-    "english": "for / ago",
-    "examplePt": "Trabalho nesse restaurante há sete anos.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "有/已经过去",
-    "zhHant": "有/已經過去"
-  },
-  {
     "id": "m8-despedir-se",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -1368,18 +1284,6 @@
     "zhHant": "失業救濟金"
   },
   {
-    "id": "m8-saber",
-    "modulo": "Módulo 8",
-    "theme": "Capacidade",
-    "portuguese": "saber",
-    "english": "to know how",
-    "examplePt": "Ela sabe falar inglês.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "知道/会",
-    "zhHant": "知道/會"
-  },
-  {
     "id": "m8-conhecer",
     "modulo": "Módulo 8",
     "theme": "Capacidade",
@@ -1390,18 +1294,6 @@
     "source": "pdf",
     "zhHans": "认识/相遇",
     "zhHant": "認識/相遇"
-  },
-  {
-    "id": "m8-poder",
-    "modulo": "Módulo 8",
-    "theme": "Capacidade",
-    "portuguese": "poder",
-    "english": "can / to be able to",
-    "examplePt": "Posso entrar?",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "能/能够",
-    "zhHant": "能/能夠"
   },
   {
     "id": "m8-conseguir",
@@ -1512,18 +1404,6 @@
     "zhHant": "牛仔褲"
   },
   {
-    "id": "m9-oculos",
-    "modulo": "Módulo 9",
-    "theme": "Roupa e acessórios",
-    "portuguese": "os óculos",
-    "english": "glasses",
-    "examplePt": "Ele usava óculos.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "眼镜",
-    "zhHant": "眼鏡"
-  },
-  {
     "id": "m9-barulhento",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
@@ -1616,8 +1496,8 @@
     "examplePt": "O Rossio tem muito trânsito.",
     "note": "",
     "source": "pdf",
-    "zhHans": "大量流量",
-    "zhHant": "大量流量"
+    "zhHans": "交通繁忙",
+    "zhHant": "交通繁忙"
   },
   {
     "id": "m9-agua-corrente",
@@ -1748,8 +1628,8 @@
     "examplePt": "Muitos portugueses emigraram.",
     "note": "",
     "source": "pdf",
-    "zhHans": "移民",
-    "zhHant": "移民"
+    "zhHans": "移民海外",
+    "zhHant": "移民海外"
   },
   {
     "id": "m9-vizinhos",
