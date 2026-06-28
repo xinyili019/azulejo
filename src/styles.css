@@ -654,6 +654,25 @@ progress::-moz-progress-bar {
     padding: 20px;
   }
 
+  .tile-content {
+    padding: 34px 20px 42px;
+  }
+
+  .tile-content-back {
+    grid-template-rows: minmax(0, 0.9fr) auto minmax(104px, 1fr);
+  }
+
+  .example-stack {
+    gap: 8px;
+    margin-top: 14px;
+    max-width: min(100%, 280px);
+  }
+
+  .example {
+    font-size: 1rem;
+    line-height: 1.42;
+  }
+
   .tile-face::before {
     inset: 8px;
     background:
