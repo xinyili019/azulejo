@@ -45,7 +45,7 @@ const copy: Record<UiLocale, UiCopy> = {
     revealAnswer: "Reveal answer",
     hideAnswer: "Hide answer",
     cardInstruction: "Know this word? Tap the tile to check!",
-    listen: "Ouvir",
+    listen: "Listen",
     autoPlayPronunciation: "Play pronunciation automatically",
     previousWord: "Previous word",
     again: "Again",

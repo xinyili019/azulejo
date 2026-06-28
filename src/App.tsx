@@ -1,5 +1,4 @@
-import { Download, Upload } from "lucide-react";
-import { ChangeEvent, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Flashcard } from "./components/Flashcard";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { vocabulary } from "./data/vocabulary";
@@ -51,31 +50,6 @@ export default function App() {
     if (!activeEntry) return;
     setProgress((current) => recordReview(current, activeEntry.id, status));
     moveNext();
-  }
-
-  function exportProgress() {
-    const blob = new Blob([JSON.stringify(progress, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = "pt-a2-vocab-progress.json";
-    anchor.click();
-    URL.revokeObjectURL(url);
-  }
-
-  function importProgress(event: ChangeEvent<HTMLInputElement>) {
-    const file = event.target.files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      try {
-        const nextProgress = JSON.parse(String(reader.result)) as ProgressState;
-        setProgress(nextProgress);
-      } catch {
-        window.alert(ui.importError);
-      }
-    };
-    reader.readAsText(file);
   }
 
   return (
@@ -152,15 +126,6 @@ export default function App() {
       </section>
 
       <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} />
-      <footer className="utility-actions" aria-label={ui.studyControls}>
-        <button className="icon-button" type="button" onClick={exportProgress} aria-label={ui.exportProgress}>
-          <Download size={16} aria-hidden="true" />
-        </button>
-        <label className="icon-button" aria-label={ui.importProgress}>
-          <Upload size={16} aria-hidden="true" />
-          <input type="file" accept="application/json" onChange={importProgress} />
-        </label>
-      </footer>
     </main>
   );
 }

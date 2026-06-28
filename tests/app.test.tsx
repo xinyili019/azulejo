@@ -61,9 +61,9 @@ describe("App", () => {
     const controls = screen
       .getAllByRole("button")
       .map((button) => button.textContent?.trim())
-      .filter((text) => text === "Ouvir" || text === "Again" || text === "Known" || text === "Previous word");
+      .filter((text) => text === "Listen" || text === "Again" || text === "Known" || text === "Previous word");
 
-    expect(controls).toEqual(["Ouvir", "Again", "Known", "Previous word"]);
+    expect(controls).toEqual(["Listen", "Again", "Known", "Previous word"]);
   });
 
   it("lets users turn off automatic pronunciation while keeping manual playback", () => {
@@ -76,7 +76,7 @@ describe("App", () => {
     fireEvent.click(autoPlayToggle);
     expect(autoPlayToggle).not.toBeChecked();
 
-    fireEvent.click(screen.getByRole("button", { name: /ouvir/i }));
+    fireEvent.click(screen.getByRole("button", { name: /listen/i }));
     expect(play).toHaveBeenCalledTimes(1);
   });
 
