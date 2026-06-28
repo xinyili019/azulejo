@@ -70,6 +70,7 @@ const manualTranslations = new Map(
     ["a máscara", ["口罩", "口罩/防護口罩"]],
     ["máscara", ["口罩", "口罩/防護口罩"]],
     ["dói-me", ["我疼/我痛", "我疼/我痛"]],
+    ["doem-me", ["我……疼/我……痛（复数）", "我……疼/我……痛（複數）"]],
     ["doer", ["疼/痛", "疼/痛"]],
     ["as horas extraordinárias", ["加班时间", "加班/加班時間"]],
     ["horas extraordinárias", ["加班时间", "加班/加班時間"]],

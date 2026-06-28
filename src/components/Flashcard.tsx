@@ -131,11 +131,10 @@ export function Flashcard({
             </span>
           </span>
         </button>
+        {!revealed && renderPronunciationButton("pronunciation-control pronunciation-control-front")}
       </div>
       <div className="flashcard-controls">
-        {!revealed ? (
-          renderPronunciationButton("pronunciation-control pronunciation-control-front")
-        ) : (
+        {revealed && (
           <div className="card-actions is-visible">
             {renderPronunciationButton("pronunciation-control pronunciation-control-back")}
             <button className="secondary review-again" type="button" onClick={onAgain}>

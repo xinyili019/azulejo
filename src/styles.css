@@ -245,6 +245,7 @@ select {
   min-height: var(--tile-height);
   perspective: 1600px;
   -webkit-perspective: 1600px;
+  position: relative;
 }
 
 .flip-tile {
@@ -410,7 +411,11 @@ select {
 }
 
 .pronunciation-control-front {
-  justify-self: center;
+  position: absolute;
+  left: 50%;
+  bottom: clamp(36px, 10%, 56px);
+  z-index: 3;
+  transform: translateX(-50%);
 }
 
 .card-previous {

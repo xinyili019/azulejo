@@ -271,8 +271,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Gramática",
     "portuguese": "que",
     "english": "what",
-    "zhHans": "那/哪个/谁",
-    "zhHant": "那/哪個/誰",
+    "zhHans": "什么/哪一个",
+    "zhHant": "什麼/哪一個",
     "examplePt": "Que trabalho faz?",
     "source": "pdf"
   },
@@ -3324,17 +3324,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-saude-24",
-    "modulo": "Módulo 6",
-    "theme": "Emergência",
-    "portuguese": "Saúde 24",
-    "english": "health helpline",
-    "zhHans": "SNS24",
-    "zhHant": "SNS24",
-    "examplePt": "Pode ligar para a Saúde 24.",
-    "source": "pdf"
-  },
-  {
     "id": "m6-dentista",
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
@@ -3731,36 +3720,14 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-doer-a-barriga",
+    "id": "m6-doem-me",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
-    "portuguese": "doer a barriga",
-    "english": "to have a stomach ache",
-    "zhHans": "胃痛",
-    "zhHant": "胃痛",
-    "examplePt": "Dói-me a barriga.",
-    "source": "pdf"
-  },
-  {
-    "id": "m6-doer-a-cabeca",
-    "modulo": "Módulo 6",
-    "theme": "Sintomas",
-    "portuguese": "doer a cabeça",
-    "english": "to have a headache",
-    "zhHans": "头痛",
-    "zhHant": "頭痛",
-    "examplePt": "Dói-me a cabeça.",
-    "source": "pdf"
-  },
-  {
-    "id": "m6-doer-a-garganta",
-    "modulo": "Módulo 6",
-    "theme": "Sintomas",
-    "portuguese": "doer a garganta",
-    "english": "to have a sore throat",
-    "zhHans": "喉咙痛",
-    "zhHant": "喉嚨痛",
-    "examplePt": "Dói-me a garganta.",
+    "portuguese": "doem-me",
+    "english": "they hurt me",
+    "zhHans": "我……疼/我……痛（复数）",
+    "zhHant": "我……疼/我……痛（複數）",
+    "examplePt": "Doem-me os pés.",
     "source": "pdf"
   },
   {
@@ -3771,7 +3738,7 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "it hurts me",
     "zhHans": "我疼/我痛",
     "zhHant": "我痛/我……痛",
-    "examplePt": "Dói-me o peito.",
+    "examplePt": "Dói-me a cabeça.",
     "source": "pdf"
   },
   {

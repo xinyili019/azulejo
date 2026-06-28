@@ -1500,30 +1500,6 @@
     "zhHant": "做化驗/做檢查"
   },
   {
-    "id": "m6-doer-a-cabeca",
-    "modulo": "Módulo 6",
-    "theme": "Sintomas",
-    "portuguese": "doer a cabeça",
-    "english": "to have a headache",
-    "examplePt": "Dói-me a cabeça.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "头痛",
-    "zhHant": "頭痛"
-  },
-  {
-    "id": "m6-doer-a-garganta",
-    "modulo": "Módulo 6",
-    "theme": "Sintomas",
-    "portuguese": "doer a garganta",
-    "english": "to have a sore throat",
-    "examplePt": "Dói-me a garganta.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "喉咙痛",
-    "zhHant": "喉嚨痛"
-  },
-  {
     "id": "m6-estar-constipado",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
@@ -1570,18 +1546,6 @@
     "source": "pdf",
     "zhHans": "中毒",
     "zhHant": "中毒"
-  },
-  {
-    "id": "m6-doer-a-barriga",
-    "modulo": "Módulo 6",
-    "theme": "Sintomas",
-    "portuguese": "doer a barriga",
-    "english": "to have a stomach ache",
-    "examplePt": "Dói-me a barriga.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "胃痛",
-    "zhHant": "胃痛"
   },
   {
     "id": "m6-ser-alergico-a",
@@ -1822,18 +1786,6 @@
     "source": "pdf",
     "zhHans": "欧洲紧急电话号码",
     "zhHant": "歐洲緊急電話號碼"
-  },
-  {
-    "id": "m6-saude-24",
-    "modulo": "Módulo 6",
-    "theme": "Emergência",
-    "portuguese": "Saúde 24",
-    "english": "health helpline",
-    "examplePt": "Pode ligar para a Saúde 24.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "SNS24",
-    "zhHant": "SNS24"
   },
   {
     "id": "m6-utente",
@@ -2093,11 +2045,23 @@
     "theme": "Sintomas",
     "portuguese": "dói-me",
     "english": "it hurts me",
-    "examplePt": "Dói-me o peito.",
+    "examplePt": "Dói-me a cabeça.",
     "note": "",
     "source": "pdf",
     "zhHans": "我疼/我痛",
     "zhHant": "我痛/我……痛"
+  },
+  {
+    "id": "m6-doem-me",
+    "modulo": "Módulo 6",
+    "theme": "Sintomas",
+    "portuguese": "doem-me",
+    "english": "they hurt me",
+    "examplePt": "Doem-me os pés.",
+    "note": "",
+    "source": "pdf",
+    "zhHans": "我……疼/我……痛（复数）",
+    "zhHant": "我……疼/我……痛（複數）"
   },
   {
     "id": "m6-peito",
