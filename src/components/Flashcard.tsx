@@ -5,7 +5,7 @@ import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
 
 let activeAudio: HTMLAudioElement | null = null;
-const AUTO_PLAY_DELAY_MS = 400;
+const AUTO_PLAY_DELAY_MS = 250;
 
 interface FlashcardProps {
   entry: VocabularyEntry;

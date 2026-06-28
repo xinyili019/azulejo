@@ -80,7 +80,7 @@ describe("App", () => {
     expect(play).toHaveBeenCalledTimes(1);
   });
 
-  it("waits 400ms before automatic pronunciation playback", () => {
+  it("waits 250ms before automatic pronunciation playback", () => {
     vi.useFakeTimers();
     const play = vi.mocked(window.HTMLMediaElement.prototype.play);
 
@@ -89,7 +89,7 @@ describe("App", () => {
     expect(play).not.toHaveBeenCalled();
 
     act(() => {
-      vi.advanceTimersByTime(399);
+      vi.advanceTimersByTime(249);
     });
     expect(play).not.toHaveBeenCalled();
 
