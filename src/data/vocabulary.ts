@@ -4946,8 +4946,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "antigo",
     "english": "old",
-    "zhHans": "老的",
-    "zhHant": "老的",
+    "zhHans": "古老的",
+    "zhHant": "古老的",
     "examplePt": "O edifício é antigo.",
     "source": "pdf"
   },
@@ -4968,8 +4968,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de lugares",
     "portuguese": "calmo",
     "english": "calm",
-    "zhHans": "冷静的",
-    "zhHant": "冷靜的",
+    "zhHans": "安静的；冷静的",
+    "zhHant": "安靜的；冷靜的",
     "examplePt": "O Rossio era muito calmo.",
     "source": "pdf"
   },
@@ -5034,8 +5034,8 @@ export const vocabulary: VocabularyEntry[] = [
     "theme": "Descrição de pessoas",
     "portuguese": "magro",
     "english": "thin",
-    "zhHans": "薄的",
-    "zhHant": "薄的",
+    "zhHans": "瘦的",
+    "zhHant": "瘦的",
     "examplePt": "Ele era magro.",
     "source": "pdf"
   },
