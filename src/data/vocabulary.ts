@@ -4145,7 +4145,7 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "doctor",
     "zhHans": "医生",
     "zhHant": "醫生",
-    "examplePt": "O médico observa o doente.",
+    "examplePt": "A médica observa o doente.",
     "source": "pdf"
   },
   {
@@ -4365,7 +4365,7 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "to examine the patient",
     "zhHans": "检查病人",
     "zhHant": "檢查病人",
-    "examplePt": "O médico observa o doente.",
+    "examplePt": "A médica observa o doente.",
     "source": "pdf"
   },
   {
@@ -4376,7 +4376,7 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "to prescribe",
     "zhHans": "开处方",
     "zhHant": "開處方",
-    "examplePt": "O médico passa receitas.",
+    "examplePt": "A médica passa receitas.",
     "source": "pdf"
   },
   {
