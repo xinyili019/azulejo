@@ -234,6 +234,14 @@ select {
   grid-column: 1 / -1;
 }
 
+.flashcard-instruction {
+  margin: 0 0 10px;
+  color: #38556e;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 .flip-tile {
   border: 0;
   padding: 0;
@@ -252,6 +260,7 @@ select {
 }
 
 .flip-tile:focus-visible,
+.card-previous:focus-visible,
 .pronunciation-control:focus-visible {
   outline: 3px solid #1f5fa6;
   outline-offset: 4px;
@@ -400,6 +409,13 @@ select {
   left: 50%;
   bottom: 34px;
   transform: translateX(-50%);
+  z-index: 4;
+}
+
+.card-previous {
+  position: absolute;
+  left: 34px;
+  bottom: 34px;
   z-index: 4;
 }
 
@@ -637,6 +653,11 @@ progress::-moz-progress-bar {
     position: static;
     justify-self: center;
     transform: none;
+  }
+
+  .card-previous {
+    position: static;
+    justify-self: center;
   }
 
   .card-actions {

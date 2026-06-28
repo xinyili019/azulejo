@@ -36,6 +36,23 @@ describe("App", () => {
     expect(screen.queryByLabelText(/mode/i)).not.toBeInTheDocument();
   });
 
+  it("explains that the card can be tapped to reveal the meaning", () => {
+    render(<App />);
+
+    expect(screen.getByText(/tap the card to see what it means/i)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /reveal answer/i })).toHaveAccessibleDescription(
+      /tap the card to see what it means/i
+    );
+  });
+
+  it("lets users go back to the previous word", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: /previous word/i }));
+
+    expect(screen.getByText(vocabulary[vocabulary.length - 1].portuguese)).toBeInTheDocument();
+  });
+
   it("lets users turn off automatic pronunciation while keeping manual playback", () => {
     render(<App />);
     const play = vi.mocked(window.HTMLMediaElement.prototype.play);

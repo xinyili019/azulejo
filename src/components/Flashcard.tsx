@@ -1,4 +1,4 @@
-import { ThumbsDown, ThumbsUp, Volume2 } from "lucide-react";
+import { ChevronLeft, ThumbsDown, ThumbsUp, Volume2 } from "lucide-react";
 import { useEffect } from "react";
 import type { Direction, VocabularyEntry } from "../types";
 import { getAnswer, getPrompt } from "../lib/filtering";
@@ -14,6 +14,7 @@ interface FlashcardProps {
   autoPlayPronunciation: boolean;
   ui: UiCopy;
   onToggleReveal: () => void;
+  onPrevious: () => void;
   onAgain: () => void;
   onKnown: () => void;
 }
@@ -25,6 +26,7 @@ export function Flashcard({
   autoPlayPronunciation,
   ui,
   onToggleReveal,
+  onPrevious,
   onAgain,
   onKnown
 }: FlashcardProps) {
@@ -104,12 +106,16 @@ export function Flashcard({
 
   return (
     <section className="flashcard" aria-label={ui.flashcard}>
+      <p id="flashcard-instruction" className="flashcard-instruction">
+        {ui.cardInstruction}
+      </p>
       <button
         className={`flip-tile ${revealed ? "is-revealed" : ""}`}
         type="button"
         onClick={onToggleReveal}
         aria-pressed={revealed}
         aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
+        aria-describedby="flashcard-instruction"
       >
         <span className="tile-face tile-front">
           <span className="tile-content">
@@ -123,6 +129,10 @@ export function Flashcard({
             {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
           </span>
         </span>
+      </button>
+      <button className="secondary card-previous" type="button" onClick={onPrevious}>
+        <ChevronLeft size={18} aria-hidden="true" />
+        {ui.previousWord}
       </button>
       {!revealed && renderPronunciationButton("pronunciation-control pronunciation-control-front")}
       <div className={`card-actions ${revealed ? "is-visible" : ""}`} aria-hidden={!revealed}>

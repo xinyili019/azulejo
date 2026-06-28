@@ -40,6 +40,13 @@ export default function App() {
     setCardIndex((current) => (filteredEntries.length === 0 ? 0 : (current + 1) % filteredEntries.length));
   }
 
+  function movePrevious() {
+    setRevealed(false);
+    setCardIndex((current) =>
+      filteredEntries.length === 0 ? 0 : (current - 1 + filteredEntries.length) % filteredEntries.length
+    );
+  }
+
   function handleReview(status: "again" | "known") {
     if (!activeEntry) return;
     setProgress((current) => recordReview(current, activeEntry.id, status));
@@ -140,6 +147,7 @@ export default function App() {
               autoPlayPronunciation={autoPlayPronunciation}
               ui={ui}
               onToggleReveal={() => setRevealed((current) => !current)}
+              onPrevious={movePrevious}
               onAgain={() => handleReview("again")}
               onKnown={() => handleReview("known")}
             />
