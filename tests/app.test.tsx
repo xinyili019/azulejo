@@ -29,6 +29,13 @@ describe("App", () => {
     expect(screen.queryByPlaceholderText(/term, theme, example/i)).not.toBeInTheDocument();
   });
 
+  it("labels the direction selector as language", () => {
+    render(<App />);
+
+    expect(screen.getByLabelText(/language/i)).toBeInTheDocument();
+    expect(screen.queryByLabelText(/mode/i)).not.toBeInTheDocument();
+  });
+
   it("lets users turn off automatic pronunciation while keeping manual playback", () => {
     render(<App />);
     const play = vi.mocked(window.HTMLMediaElement.prototype.play);

@@ -6,7 +6,7 @@ export interface UiCopy {
   locale: UiLocale;
   module: string;
   allModules: string;
-  mode: string;
+  language: string;
   reviewOnlyUnknown: string;
   exportProgress: string;
   importProgress: string;
@@ -34,7 +34,7 @@ const copy: Record<UiLocale, UiCopy> = {
     locale: "en",
     module: "Module",
     allModules: "All modules",
-    mode: "Mode",
+    language: "Language",
     reviewOnlyUnknown: "Review only unknown",
     exportProgress: "Export progress",
     importProgress: "Import progress",
@@ -60,7 +60,7 @@ const copy: Record<UiLocale, UiCopy> = {
     locale: "zhHans",
     module: "模块",
     allModules: "全部模块",
-    mode: "模式",
+    language: "语言",
     reviewOnlyUnknown: "只复习未掌握",
     exportProgress: "导出进度",
     importProgress: "导入进度",
@@ -86,7 +86,7 @@ const copy: Record<UiLocale, UiCopy> = {
     locale: "zhHant",
     module: "模組",
     allModules: "全部模組",
-    mode: "模式",
+    language: "語言",
     reviewOnlyUnknown: "只複習未掌握",
     exportProgress: "匯出進度",
     importProgress: "匯入進度",

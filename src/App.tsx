@@ -91,60 +91,65 @@ export default function App() {
           </div>
         </header>
 
-        <section className="controls" aria-label={ui.studyControls}>
-          <label>
-            {ui.module}
-            <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
-              <option value="all">{ui.allModules}</option>
-              {modulos.map((item) => (
-                <option key={item} value={item}>
-                  {ui.moduloLabel(item)}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            {ui.mode}
-            <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
-              <option value="pt-en">Portuguese to English</option>
-              <option value="en-pt">English to Portuguese</option>
-              <option value="pt-zh-hans">葡萄牙语 → 简体中文</option>
-              <option value="zh-hans-pt">简体中文 → 葡萄牙语</option>
-              <option value="pt-zh-hant">葡萄牙語 → 繁體中文</option>
-              <option value="zh-hant-pt">繁體中文 → 葡萄牙語</option>
-            </select>
-          </label>
-          <label className="toggle">
-            <input type="checkbox" checked={onlyDue} onChange={(event) => setOnlyDue(event.target.checked)} />
-            {ui.reviewOnlyUnknown}
-          </label>
-          <label className="toggle">
-            <input
-              type="checkbox"
-              checked={autoPlayPronunciation}
-              onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
-            />
-            {ui.autoPlayPronunciation}
-          </label>
-        </section>
-
-        {activeEntry ? (
-          <Flashcard
-            entry={activeEntry}
-            direction={direction}
-            revealed={revealed}
-            autoPlayPronunciation={autoPlayPronunciation}
-            ui={ui}
-            onToggleReveal={() => setRevealed((current) => !current)}
-            onAgain={() => handleReview("again")}
-            onKnown={() => handleReview("known")}
-          />
-        ) : (
-          <section className="empty-state">
-            <h2>{ui.noCardsTitle}</h2>
-            <p>{ui.noCardsBody}</p>
+        <section className="study-surface">
+          <section className="select-controls" aria-label={ui.studyControls}>
+            <label>
+              {ui.module}
+              <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
+                <option value="all">{ui.allModules}</option>
+                {modulos.map((item) => (
+                  <option key={item} value={item}>
+                    {ui.moduloLabel(item)}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              {ui.language}
+              <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
+                <option value="pt-en">Portuguese to English</option>
+                <option value="en-pt">English to Portuguese</option>
+                <option value="pt-zh-hans">葡萄牙语 → 简体中文</option>
+                <option value="zh-hans-pt">简体中文 → 葡萄牙语</option>
+                <option value="pt-zh-hant">葡萄牙語 → 繁體中文</option>
+                <option value="zh-hant-pt">繁體中文 → 葡萄牙語</option>
+              </select>
+            </label>
           </section>
-        )}
+
+          <div className="study-toggles">
+            <label className="toggle">
+              <input type="checkbox" checked={onlyDue} onChange={(event) => setOnlyDue(event.target.checked)} />
+              {ui.reviewOnlyUnknown}
+            </label>
+            <label className="toggle">
+              <input
+                type="checkbox"
+                checked={autoPlayPronunciation}
+                onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
+              />
+              {ui.autoPlayPronunciation}
+            </label>
+          </div>
+
+          {activeEntry ? (
+            <Flashcard
+              entry={activeEntry}
+              direction={direction}
+              revealed={revealed}
+              autoPlayPronunciation={autoPlayPronunciation}
+              ui={ui}
+              onToggleReveal={() => setRevealed((current) => !current)}
+              onAgain={() => handleReview("again")}
+              onKnown={() => handleReview("known")}
+            />
+          ) : (
+            <section className="empty-state">
+              <h2>{ui.noCardsTitle}</h2>
+              <p>{ui.noCardsBody}</p>
+            </section>
+          )}
+        </section>
       </section>
 
       <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} />

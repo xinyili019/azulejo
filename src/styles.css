@@ -162,20 +162,38 @@ h1 {
   pointer-events: none;
 }
 
-.controls {
+.study-surface {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(360px, 1fr) auto;
   gap: 12px;
   align-items: end;
 }
 
-.controls label {
+.select-controls {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.8fr) minmax(260px, 1.2fr);
+  gap: 12px;
+  align-items: end;
+}
+
+.select-controls label,
+.toggle {
   color: #123a66;
   display: flex;
   flex-direction: column;
   gap: 6px;
   font-size: 0.84rem;
   font-weight: 700;
+}
+
+.study-toggles {
+  min-height: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px 14px;
+  align-items: center;
+  min-width: 0;
 }
 
 select {
@@ -191,17 +209,13 @@ select {
   min-height: 42px;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding-top: 20px;
+  justify-content: flex-start;
+  line-height: 1.15;
+  min-width: 0;
 }
 
 .toggle input {
   flex: 0 0 auto;
-  width: 18px;
-  height: 18px;
-}
-
-.toggle input {
   width: 18px;
   height: 18px;
 }
@@ -213,6 +227,11 @@ select {
   perspective: 1600px;
   -webkit-perspective: 1600px;
   position: relative;
+}
+
+.flashcard,
+.empty-state {
+  grid-column: 1 / -1;
 }
 
 .flip-tile {
@@ -517,6 +536,29 @@ progress::-moz-progress-bar {
   color: #38556e;
 }
 
+@media (max-width: 1180px) {
+  .study-surface {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .select-controls {
+    order: 1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .flashcard,
+  .empty-state {
+    order: 2;
+  }
+
+  .study-toggles {
+    order: 3;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 980px) {
   .app-shell {
     grid-template-columns: 1fr;
@@ -524,10 +566,6 @@ progress::-moz-progress-bar {
 
   .dashboard {
     position: static;
-  }
-
-  .controls {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -542,7 +580,7 @@ progress::-moz-progress-bar {
   }
 
   .app-header,
-  .controls {
+  .select-controls {
     grid-template-columns: 1fr;
   }
 
