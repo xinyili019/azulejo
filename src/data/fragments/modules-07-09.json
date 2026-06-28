@@ -1,29 +1,5 @@
 [
   {
-    "id": "m7-empregado-mesa",
-    "modulo": "Módulo 7",
-    "theme": "Profissões",
-    "portuguese": "o empregado de mesa",
-    "english": "waiter",
-    "examplePt": "O empregado de mesa serve à mesa.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "服务员",
-    "zhHant": "服務生"
-  },
-  {
-    "id": "m7-pano",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o pano",
-    "english": "cloth",
-    "examplePt": "Uso um pano para limpar a mesa.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "布",
-    "zhHant": "布"
-  },
-  {
     "id": "m7-servir-mesa",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
@@ -34,30 +10,6 @@
     "source": "pdf",
     "zhHans": "餐桌服务/当服务员",
     "zhHant": "端菜服務/餐桌服務"
-  },
-  {
-    "id": "m7-por-mesa",
-    "modulo": "Módulo 7",
-    "theme": "Tarefas",
-    "portuguese": "pôr a mesa",
-    "english": "to set the table",
-    "examplePt": "Vou pôr a mesa antes do jantar.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "摆桌子",
-    "zhHant": "擺桌"
-  },
-  {
-    "id": "m7-levantar-mesa",
-    "modulo": "Módulo 7",
-    "theme": "Tarefas",
-    "portuguese": "levantar a mesa",
-    "english": "to clear the table",
-    "examplePt": "Depois do almoço, ele levanta a mesa.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "清理桌子",
-    "zhHant": "清理桌子"
   },
   {
     "id": "m7-cozinheiro",
@@ -192,18 +144,6 @@
     "zhHant": "刷子"
   },
   {
-    "id": "m7-secador",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o secador",
-    "english": "hair dryer",
-    "examplePt": "Uso o secador para secar o cabelo.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "电吹风",
-    "zhHant": "吹風機"
-  },
-  {
     "id": "m7-tesoura",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
@@ -288,18 +228,6 @@
     "zhHant": "公司"
   },
   {
-    "id": "m7-esfregona",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "a esfregona",
-    "english": "mop",
-    "examplePt": "Uso a esfregona para lavar o chão.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "拖把",
-    "zhHant": "拖把"
-  },
-  {
     "id": "m7-vassoura",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
@@ -310,18 +238,6 @@
     "source": "pdf",
     "zhHans": "扫帚",
     "zhHant": "掃帚"
-  },
-  {
-    "id": "m7-aspirador",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o aspirador",
-    "english": "vacuum cleaner",
-    "examplePt": "O aspirador faz barulho.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "吸尘器",
-    "zhHant": "吸塵器"
   },
   {
     "id": "m7-limpar-po",
@@ -528,18 +444,6 @@
     "zhHant": "清潔產品"
   },
   {
-    "id": "m7-lixivia",
-    "modulo": "Módulo 7",
-    "theme": "Limpeza",
-    "portuguese": "a lixívia",
-    "english": "bleach",
-    "examplePt": "A lixívia está no armário.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "漂白剂",
-    "zhHant": "漂白水"
-  },
-  {
     "id": "m7-capacete",
     "modulo": "Módulo 7",
     "theme": "Segurança no trabalho",
@@ -586,6 +490,30 @@
     "source": "pdf",
     "zhHans": "加班时间",
     "zhHant": "加班/加班時間"
+  },
+  {
+    "id": "m7-salario-bruto",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o salário bruto",
+    "english": "gross salary",
+    "examplePt": "O salário bruto não tem descontos.",
+    "note": "",
+    "source": "pdf",
+    "zhHans": "工资总额",
+    "zhHant": "薪資總額"
+  },
+  {
+    "id": "m7-salario-liquido",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o salário líquido",
+    "english": "net salary",
+    "examplePt": "O salário líquido já tem descontos.",
+    "note": "",
+    "source": "pdf",
+    "zhHans": "净工资",
+    "zhHant": "淨工資"
   },
   {
     "id": "m7-subsidio",
@@ -816,18 +744,6 @@
     "zhHant": "教育"
   },
   {
-    "id": "m8-competencias-linguisticas",
-    "modulo": "Módulo 8",
-    "theme": "Currículo",
-    "portuguese": "as competências linguísticas",
-    "english": "language skills",
-    "examplePt": "As competências linguísticas são importantes.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "语言能力",
-    "zhHant": "語言能力"
-  },
-  {
     "id": "m8-entrevista-trabalho",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -1020,18 +936,6 @@
     "zhHant": "日程安排的彈性"
   },
   {
-    "id": "m8-pratos",
-    "modulo": "Módulo 8",
-    "theme": "Cozinha",
-    "portuguese": "os pratos",
-    "english": "dishes",
-    "examplePt": "Ela prepara sopas, pratos e sobremesas.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "菜肴",
-    "zhHant": "菜餚"
-  },
-  {
     "id": "m8-vencimento",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -1078,6 +982,18 @@
     "source": "pdf",
     "zhHans": "出席率",
     "zhHant": "出席率"
+  },
+  {
+    "id": "m8-remuneracao",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a remuneração",
+    "english": "pay",
+    "examplePt": "A remuneração é compatível com as funções.",
+    "note": "",
+    "source": "pdf",
+    "zhHans": "薪酬/报酬",
+    "zhHant": "薪酬/報酬"
   },
   {
     "id": "m8-cargo",

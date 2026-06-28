@@ -636,18 +636,6 @@
     "zhHant": "賠償"
   },
   {
-    "id": "m11-montante",
-    "modulo": "Módulo 11",
-    "theme": "Dinheiro",
-    "portuguese": "o montante",
-    "english": "amount",
-    "examplePt": "O montante é igual ao seu valor.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "数量",
-    "zhHant": "數量"
-  },
-  {
     "id": "m11-recibo",
     "modulo": "Módulo 11",
     "theme": "Compras",

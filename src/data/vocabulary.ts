@@ -90,6 +90,17 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
+    "id": "m1-divorciado",
+    "modulo": "Módulo 1",
+    "theme": "Estado civil",
+    "portuguese": "divorciado(a)",
+    "english": "divorced",
+    "zhHans": "离婚的",
+    "zhHant": "離婚的",
+    "examplePt": "Ele é divorciado. Ela é divorciada.",
+    "source": "pdf"
+  },
+  {
     "id": "m1-solteiro",
     "modulo": "Módulo 1",
     "theme": "Estado civil",
@@ -98,6 +109,17 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "单身的",
     "zhHant": "單身的",
     "examplePt": "O Ahmed é solteiro. A Olga é solteira.",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-viuvo",
+    "modulo": "Módulo 1",
+    "theme": "Estado civil",
+    "portuguese": "viúvo(a)",
+    "english": "widowed",
+    "zhHans": "鳏寡/丧偶",
+    "zhHant": "鰥寡/喪偶",
+    "examplePt": "Ele é viúvo. Ela é viúva.",
     "source": "pdf"
   },
   {
@@ -453,6 +475,17 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
+    "id": "m1-cem",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "cem",
+    "english": "one hundred",
+    "zhHans": "一百",
+    "zhHant": "一百",
+    "examplePt": "Cem é um número.",
+    "source": "pdf"
+  },
+  {
     "id": "m1-cinco",
     "modulo": "Módulo 1",
     "theme": "Números",
@@ -461,6 +494,17 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "五",
     "zhHant": "五",
     "examplePt": "São cinco euros.",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-cinquenta",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "cinquenta",
+    "english": "fifty",
+    "zhHans": "五十",
+    "zhHant": "五十",
+    "examplePt": "São cinquenta euros.",
     "source": "pdf"
   },
   {
@@ -483,6 +527,17 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "二",
     "zhHant": "二",
     "examplePt": "Tenho dois filhos.",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-mil",
+    "modulo": "Módulo 1",
+    "theme": "Números",
+    "portuguese": "mil",
+    "english": "one thousand",
+    "zhHans": "一千",
+    "zhHant": "一千",
+    "examplePt": "Mil é um número.",
     "source": "pdf"
   },
   {
@@ -959,6 +1014,28 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
+    "id": "m1-renda",
+    "modulo": "Módulo 1",
+    "theme": "Textos",
+    "portuguese": "a renda",
+    "english": "rent",
+    "zhHans": "房租",
+    "zhHant": "租金/房租",
+    "examplePt": "O valor da renda é 200 euros.",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-aluga-se",
+    "modulo": "Módulo 1",
+    "theme": "Textos",
+    "portuguese": "aluga-se",
+    "english": "for rent",
+    "zhHans": "出租",
+    "zhHant": "出租",
+    "examplePt": "Aluga-se apartamento.",
+    "source": "pdf"
+  },
+  {
     "id": "m1-apartamento",
     "modulo": "Módulo 1",
     "theme": "Textos",
@@ -967,6 +1044,17 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公寓",
     "zhHant": "公寓",
     "examplePt": "Eles moram num apartamento pequeno.",
+    "source": "pdf"
+  },
+  {
+    "id": "m1-predio",
+    "modulo": "Módulo 1",
+    "theme": "Textos",
+    "portuguese": "o prédio",
+    "english": "building",
+    "zhHans": "建筑",
+    "zhHant": "大樓",
+    "examplePt": "Ele mora num prédio.",
     "source": "pdf"
   },
   {
@@ -3797,6 +3885,28 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
+    "id": "m7-salario-bruto",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o salário bruto",
+    "english": "gross salary",
+    "zhHans": "工资总额",
+    "zhHant": "薪資總額",
+    "examplePt": "O salário bruto não tem descontos.",
+    "source": "pdf"
+  },
+  {
+    "id": "m7-salario-liquido",
+    "modulo": "Módulo 7",
+    "theme": "Direitos e deveres",
+    "portuguese": "o salário líquido",
+    "english": "net salary",
+    "zhHans": "净工资",
+    "zhHant": "淨工資",
+    "examplePt": "O salário líquido já tem descontos.",
+    "source": "pdf"
+  },
+  {
     "id": "m7-subsidio",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
@@ -3827,17 +3937,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "刷子",
     "zhHant": "刷子",
     "examplePt": "A escova está na mesa.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-esfregona",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "a esfregona",
-    "english": "mop",
-    "zhHans": "拖把",
-    "zhHant": "拖把",
-    "examplePt": "Uso a esfregona para lavar o chão.",
     "source": "pdf"
   },
   {
@@ -3874,17 +3973,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-aspirador",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o aspirador",
-    "english": "vacuum cleaner",
-    "zhHans": "吸尘器",
-    "zhHant": "吸塵器",
-    "examplePt": "O aspirador faz barulho.",
-    "source": "pdf"
-  },
-  {
     "id": "m7-avental",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
@@ -3907,17 +3995,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-pano",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o pano",
-    "english": "cloth",
-    "zhHans": "布",
-    "zhHant": "布",
-    "examplePt": "Uso um pano para limpar a mesa.",
-    "source": "pdf"
-  },
-  {
     "id": "m7-papel",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
@@ -3926,28 +4003,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "纸",
     "zhHant": "紙",
     "examplePt": "Preciso de papel para imprimir.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-secador",
-    "modulo": "Módulo 7",
-    "theme": "Instrumentos de trabalho",
-    "portuguese": "o secador",
-    "english": "hair dryer",
-    "zhHans": "电吹风",
-    "zhHant": "吹風機",
-    "examplePt": "Uso o secador para secar o cabelo.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-lixivia",
-    "modulo": "Módulo 7",
-    "theme": "Limpeza",
-    "portuguese": "a lixívia",
-    "english": "bleach",
-    "zhHans": "漂白剂",
-    "zhHant": "漂白水",
-    "examplePt": "A lixívia está no armário.",
     "source": "pdf"
   },
   {
@@ -4102,17 +4157,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "厨师",
     "zhHant": "廚師",
     "examplePt": "O cozinheiro trabalha na cozinha.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-empregado-mesa",
-    "modulo": "Módulo 7",
-    "theme": "Profissões",
-    "portuguese": "o empregado de mesa",
-    "english": "waiter",
-    "zhHans": "服务员",
-    "zhHant": "服務生",
-    "examplePt": "O empregado de mesa serve à mesa.",
     "source": "pdf"
   },
   {
@@ -4292,17 +4336,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-levantar-mesa",
-    "modulo": "Módulo 7",
-    "theme": "Tarefas",
-    "portuguese": "levantar a mesa",
-    "english": "to clear the table",
-    "zhHans": "清理桌子",
-    "zhHant": "清理桌子",
-    "examplePt": "Depois do almoço, ele levanta a mesa.",
-    "source": "pdf"
-  },
-  {
     "id": "m7-limpar-po",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
@@ -4355,17 +4388,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "梳理",
     "zhHant": "梳理",
     "examplePt": "Ela penteia o cabelo.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-por-mesa",
-    "modulo": "Módulo 7",
-    "theme": "Tarefas",
-    "portuguese": "pôr a mesa",
-    "english": "to set the table",
-    "zhHans": "摆桌子",
-    "zhHant": "擺桌",
-    "examplePt": "Vou pôr a mesa antes do jantar.",
     "source": "pdf"
   },
   {
@@ -4490,17 +4512,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-pratos",
-    "modulo": "Módulo 8",
-    "theme": "Cozinha",
-    "portuguese": "os pratos",
-    "english": "dishes",
-    "zhHans": "菜肴",
-    "zhHant": "菜餚",
-    "examplePt": "Ela prepara sopas, pratos e sobremesas.",
-    "source": "pdf"
-  },
-  {
     "id": "m8-experiencia-profissional",
     "modulo": "Módulo 8",
     "theme": "Currículo",
@@ -4520,17 +4531,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "教育",
     "zhHant": "教育",
     "examplePt": "A formação académica está no CV.",
-    "source": "pdf"
-  },
-  {
-    "id": "m8-competencias-linguisticas",
-    "modulo": "Módulo 8",
-    "theme": "Currículo",
-    "portuguese": "as competências linguísticas",
-    "english": "language skills",
-    "zhHans": "语言能力",
-    "zhHant": "語言能力",
-    "examplePt": "As competências linguísticas são importantes.",
     "source": "pdf"
   },
   {
@@ -4630,6 +4630,17 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工作机会",
     "zhHant": "工作機會",
     "examplePt": "Parece uma boa oportunidade de trabalho.",
+    "source": "pdf"
+  },
+  {
+    "id": "m8-remuneracao",
+    "modulo": "Módulo 8",
+    "theme": "Emprego",
+    "portuguese": "a remuneração",
+    "english": "pay",
+    "zhHans": "薪酬/报酬",
+    "zhHant": "薪酬/報酬",
+    "examplePt": "A remuneração é compatível com as funções.",
     "source": "pdf"
   },
   {
@@ -5686,17 +5697,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "10欧元纸币",
     "zhHant": "10歐元紙幣",
     "examplePt": "A nova nota de 10 euros é apresentada segunda-feira.",
-    "source": "pdf"
-  },
-  {
-    "id": "m11-montante",
-    "modulo": "Módulo 11",
-    "theme": "Dinheiro",
-    "portuguese": "o montante",
-    "english": "amount",
-    "zhHans": "数量",
-    "zhHant": "數量",
-    "examplePt": "O montante é igual ao seu valor.",
     "source": "pdf"
   },
   {
