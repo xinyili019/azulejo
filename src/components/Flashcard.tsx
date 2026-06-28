@@ -125,20 +125,27 @@ export function Flashcard({
               </span>
             </span>
             <span className="tile-face tile-back">
-              <span className="tile-content">
+              <span className="tile-content tile-content-back">
                 <span className="answer">{getAnswer(entry, direction)}</span>
-                {entry.examplePt && <span className="example">{entry.examplePt}</span>}
-                {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
+                {(entry.examplePt || entry.exampleEn) && (
+                  <span className="example-stack">
+                    {entry.examplePt && <span className="example">{entry.examplePt}</span>}
+                    {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
+                  </span>
+                )}
               </span>
             </span>
           </button>
         </div>
-        {!revealed && renderPronunciationButton("pronunciation-control pronunciation-control-front")}
       </div>
-      <div className="flashcard-controls">
+      <div className={`flashcard-controls ${revealed ? "is-revealed" : ""}`}>
+        <button className="secondary card-previous" type="button" onClick={onPrevious}>
+          <ChevronLeft size={18} aria-hidden="true" />
+          {ui.previousWord}
+        </button>
+        {renderPronunciationButton("pronunciation-control")}
         {revealed && (
           <div className="card-actions is-visible">
-            {renderPronunciationButton("pronunciation-control pronunciation-control-back")}
             <button className="secondary review-again" type="button" onClick={onAgain}>
               <ThumbsDown size={18} aria-hidden="true" />
               {ui.again}
@@ -149,10 +156,6 @@ export function Flashcard({
             </button>
           </div>
         )}
-        <button className="secondary card-previous" type="button" onClick={onPrevious}>
-          <ChevronLeft size={18} aria-hidden="true" />
-          {ui.previousWord}
-        </button>
       </div>
     </section>
   );

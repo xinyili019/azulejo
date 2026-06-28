@@ -394,6 +394,24 @@ select {
   z-index: 1;
 }
 
+.tile-content-back {
+  height: 100%;
+  grid-template-rows: 1fr auto 1fr;
+  align-items: stretch;
+}
+
+.tile-content-back > .answer {
+  grid-row: 2;
+}
+
+.example-stack {
+  align-self: start;
+  display: grid;
+  gap: 12px;
+  grid-row: 3;
+  margin-top: 22px;
+}
+
 .answer-panel {
   display: grid;
   gap: 8px;
@@ -430,20 +448,15 @@ select {
   box-shadow: 0 12px 28px rgba(14, 44, 79, 0.18);
 }
 
-.pronunciation-control-front {
-  position: absolute;
-  left: 50%;
-  bottom: clamp(36px, 10%, 56px);
-  z-index: 3;
-  transform: translateX(-50%);
-}
-
 .card-previous {
   justify-self: center;
 }
 
 .flashcard-controls {
   display: grid;
+  grid-template-columns: repeat(3, max-content);
+  align-items: center;
+  justify-content: center;
   justify-items: center;
   gap: 10px;
 }
@@ -673,6 +686,36 @@ progress::-moz-progress-bar {
   .card-actions {
     gap: 8px;
     width: min(100%, 360px);
+  }
+
+  .flashcard-controls {
+    grid-template-columns: max-content minmax(0, 1fr);
+    width: min(100%, 360px);
+    justify-self: center;
+  }
+
+  .flashcard-controls:not(.is-revealed) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pronunciation-control {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+  .flashcard-controls:not(.is-revealed) .pronunciation-control {
+    justify-self: center;
+  }
+
+  .card-actions {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .card-previous {
+    grid-column: 1 / -1;
+    grid-row: 2;
   }
 
   .card-actions > button {

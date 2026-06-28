@@ -50,10 +50,12 @@ describe("App", () => {
 
     fireEvent.click(screen.getByRole("button", { name: /previous word/i }));
 
-    expect(screen.getByText(vocabulary[vocabulary.length - 1].portuguese)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /reveal answer/i })).toHaveTextContent(
+      vocabulary[vocabulary.length - 1].portuguese
+    );
   });
 
-  it("places previous word after the revealed review actions", () => {
+  it("places previous word before the revealed review actions", () => {
     render(<App />);
 
     fireEvent.click(screen.getByRole("button", { name: /reveal answer/i }));
@@ -63,7 +65,24 @@ describe("App", () => {
       .map((button) => button.textContent?.trim())
       .filter((text) => text === "Listen" || text === "Again" || text === "Known" || text === "Previous word");
 
-    expect(controls).toEqual(["Listen", "Again", "Known", "Previous word"]);
+    expect(controls).toEqual(["Previous word", "Listen", "Again", "Known"]);
+  });
+
+  it("keeps listen below the tile with the flashcard controls in every language mode", () => {
+    const { container } = render(<App />);
+    const languageSelect = screen.getByLabelText(/language/i);
+    const directions = Array.from(languageSelect.querySelectorAll("option")).map((option) => option.value);
+
+    for (const direction of directions) {
+      fireEvent.change(languageSelect, { target: { value: direction } });
+
+      const tileShell = container.querySelector(".tile-shell");
+      const flashcardControls = container.querySelector(".flashcard-controls");
+      const listenButton = container.querySelector(".pronunciation-control");
+
+      expect(tileShell).not.toContainElement(listenButton);
+      expect(flashcardControls).toContainElement(listenButton);
+    }
   });
 
   it("lets users turn off automatic pronunciation while keeping manual playback", () => {
