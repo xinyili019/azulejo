@@ -222,10 +222,8 @@ select {
 
 .flashcard {
   --tile-height: 430px;
-  min-height: var(--tile-height);
-  display: block;
-  perspective: 1600px;
-  -webkit-perspective: 1600px;
+  display: grid;
+  gap: 14px;
   position: relative;
 }
 
@@ -240,6 +238,13 @@ select {
   font-size: 0.95rem;
   font-weight: 600;
   text-align: center;
+}
+
+.tile-stage {
+  height: var(--tile-height);
+  min-height: var(--tile-height);
+  perspective: 1600px;
+  -webkit-perspective: 1600px;
 }
 
 .flip-tile {
@@ -405,45 +410,27 @@ select {
 }
 
 .pronunciation-control-front {
-  position: absolute;
-  left: 50%;
-  bottom: 34px;
-  transform: translateX(-50%);
-  z-index: 4;
+  justify-self: center;
 }
 
 .card-previous {
-  position: absolute;
-  left: 34px;
-  bottom: 34px;
-  z-index: 4;
+  justify-self: center;
+}
+
+.flashcard-controls {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
 }
 
 .card-actions {
-  position: absolute;
-  left: 50%;
-  bottom: 34px;
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  padding: 0;
-  opacity: 0;
-  transform: translate(-50%, 12px);
-  transition:
-    opacity 180ms ease,
-    transform 180ms ease;
-  pointer-events: none;
-  z-index: 3;
-  box-shadow: none;
 }
 
 .card-actions.is-visible {
-  opacity: 1;
-  transform: translate(-50%, 0);
   pointer-events: auto;
 }
 
@@ -606,10 +593,9 @@ progress::-moz-progress-bar {
 
   .flashcard {
     --tile-height: 360px;
-    display: grid;
-    gap: 14px;
   }
 
+  .tile-stage,
   .flip-tile,
   .tile-face {
     height: var(--tile-height);
@@ -649,29 +635,9 @@ progress::-moz-progress-bar {
       conic-gradient(from 34deg at calc(100% - 72px) calc(100% - 72px), transparent 0 13deg, rgba(14, 44, 79, 0.62) 14deg 30deg, transparent 31deg 44deg, rgba(117, 177, 222, 0.62) 45deg 61deg, transparent 62deg 77deg, rgba(31, 95, 166, 0.48) 78deg 94deg, transparent 95deg);
   }
 
-  .pronunciation-control-front {
-    position: static;
-    justify-self: center;
-    transform: none;
-  }
-
-  .card-previous {
-    position: static;
-    justify-self: center;
-  }
-
   .card-actions {
-    position: static;
-    display: none;
-    justify-self: center;
     gap: 8px;
     width: min(100%, 360px);
-    transform: none;
-  }
-
-  .card-actions.is-visible {
-    display: flex;
-    transform: none;
   }
 
   .card-actions > button {

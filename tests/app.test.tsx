@@ -36,12 +36,12 @@ describe("App", () => {
     expect(screen.queryByLabelText(/mode/i)).not.toBeInTheDocument();
   });
 
-  it("explains that the card can be tapped to reveal the meaning", () => {
+  it("explains that the tile can be tapped to check the answer", () => {
     render(<App />);
 
-    expect(screen.getByText(/tap the card to see what it means/i)).toBeInTheDocument();
+    expect(screen.getByText(/know this word\? tap the tile to check!/i)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /reveal answer/i })).toHaveAccessibleDescription(
-      /tap the card to see what it means/i
+      /know this word\? tap the tile to check!/i
     );
   });
 
@@ -51,6 +51,19 @@ describe("App", () => {
     fireEvent.click(screen.getByRole("button", { name: /previous word/i }));
 
     expect(screen.getByText(vocabulary[vocabulary.length - 1].portuguese)).toBeInTheDocument();
+  });
+
+  it("places previous word after the revealed review actions", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal answer/i }));
+
+    const controls = screen
+      .getAllByRole("button")
+      .map((button) => button.textContent?.trim())
+      .filter((text) => text === "Ouvir" || text === "Again" || text === "Known" || text === "Previous word");
+
+    expect(controls).toEqual(["Ouvir", "Again", "Known", "Previous word"]);
   });
 
   it("lets users turn off automatic pronunciation while keeping manual playback", () => {

@@ -109,45 +109,50 @@ export function Flashcard({
       <p id="flashcard-instruction" className="flashcard-instruction">
         {ui.cardInstruction}
       </p>
-      <button
-        className={`flip-tile ${revealed ? "is-revealed" : ""}`}
-        type="button"
-        onClick={onToggleReveal}
-        aria-pressed={revealed}
-        aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
-        aria-describedby="flashcard-instruction"
-      >
-        <span className="tile-face tile-front">
-          <span className="tile-content">
-            <span className="prompt">{getPrompt(entry, direction)}</span>
+      <div className="tile-stage">
+        <button
+          className={`flip-tile ${revealed ? "is-revealed" : ""}`}
+          type="button"
+          onClick={onToggleReveal}
+          aria-pressed={revealed}
+          aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
+          aria-describedby="flashcard-instruction"
+        >
+          <span className="tile-face tile-front">
+            <span className="tile-content">
+              <span className="prompt">{getPrompt(entry, direction)}</span>
+            </span>
           </span>
-        </span>
-        <span className="tile-face tile-back">
-          <span className="tile-content">
-            <span className="answer">{getAnswer(entry, direction)}</span>
-            {entry.examplePt && <span className="example">{entry.examplePt}</span>}
-            {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
+          <span className="tile-face tile-back">
+            <span className="tile-content">
+              <span className="answer">{getAnswer(entry, direction)}</span>
+              {entry.examplePt && <span className="example">{entry.examplePt}</span>}
+              {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
+            </span>
           </span>
-        </span>
-      </button>
-      <button className="secondary card-previous" type="button" onClick={onPrevious}>
-        <ChevronLeft size={18} aria-hidden="true" />
-        {ui.previousWord}
-      </button>
-      {!revealed && renderPronunciationButton("pronunciation-control pronunciation-control-front")}
-      {revealed && (
-        <div className="card-actions is-visible">
-          {renderPronunciationButton("pronunciation-control pronunciation-control-back")}
-          <button className="secondary review-again" type="button" onClick={onAgain}>
-            <ThumbsDown size={18} aria-hidden="true" />
-            {ui.again}
-          </button>
-          <button className="primary review-known" type="button" onClick={onKnown}>
-            <ThumbsUp size={18} aria-hidden="true" />
-            {ui.known}
-          </button>
-        </div>
-      )}
+        </button>
+      </div>
+      <div className="flashcard-controls">
+        {!revealed ? (
+          renderPronunciationButton("pronunciation-control pronunciation-control-front")
+        ) : (
+          <div className="card-actions is-visible">
+            {renderPronunciationButton("pronunciation-control pronunciation-control-back")}
+            <button className="secondary review-again" type="button" onClick={onAgain}>
+              <ThumbsDown size={18} aria-hidden="true" />
+              {ui.again}
+            </button>
+            <button className="primary review-known" type="button" onClick={onKnown}>
+              <ThumbsUp size={18} aria-hidden="true" />
+              {ui.known}
+            </button>
+          </div>
+        )}
+        <button className="secondary card-previous" type="button" onClick={onPrevious}>
+          <ChevronLeft size={18} aria-hidden="true" />
+          {ui.previousWord}
+        </button>
+      </div>
     </section>
   );
 }

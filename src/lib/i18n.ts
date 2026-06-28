@@ -44,7 +44,7 @@ const copy: Record<UiLocale, UiCopy> = {
     studyControls: "Study controls",
     revealAnswer: "Reveal answer",
     hideAnswer: "Hide answer",
-    cardInstruction: "Tap the card to see what it means.",
+    cardInstruction: "Know this word? Tap the tile to check!",
     listen: "Ouvir",
     autoPlayPronunciation: "Play pronunciation automatically",
     previousWord: "Previous word",
