@@ -144,30 +144,6 @@
     "zhHant": "已婚"
   },
   {
-    "id": "m1-divorciado",
-    "modulo": "Módulo 1",
-    "theme": "Estado civil",
-    "portuguese": "divorciado(a)",
-    "english": "divorced",
-    "examplePt": "Ele é divorciado. Ela é divorciada.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "离婚的",
-    "zhHant": "離婚的"
-  },
-  {
-    "id": "m1-viuvo",
-    "modulo": "Módulo 1",
-    "theme": "Estado civil",
-    "portuguese": "viúvo(a)",
-    "english": "widowed",
-    "examplePt": "Ele é viúvo. Ela é viúva.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "鳏寡/丧偶",
-    "zhHant": "鰥寡/喪偶"
-  },
-  {
     "id": "m1-morada",
     "modulo": "Módulo 1",
     "theme": "Morada",
@@ -178,18 +154,6 @@
     "source": "pdf",
     "zhHans": "地址/住址",
     "zhHant": "地址/住址"
-  },
-  {
-    "id": "m1-localidade",
-    "modulo": "Módulo 1",
-    "theme": "Morada",
-    "portuguese": "a localidade",
-    "english": "locality",
-    "examplePt": "A localidade é Porto.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "地区/所在地",
-    "zhHant": "地區/所在地"
   },
   {
     "id": "m1-codigo-postal",
@@ -262,18 +226,6 @@
     "source": "pdf",
     "zhHans": "国家",
     "zhHant": "國家"
-  },
-  {
-    "id": "m1-empregado-limpeza",
-    "modulo": "Módulo 1",
-    "theme": "Profissões",
-    "portuguese": "o empregado de limpeza",
-    "english": "cleaner",
-    "examplePt": "Ele é empregado de limpeza.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "清洁工",
-    "zhHant": "清潔工"
   },
   {
     "id": "m1-motorista",
@@ -466,42 +418,6 @@
     "source": "pdf",
     "zhHans": "四十",
     "zhHant": "四十"
-  },
-  {
-    "id": "m1-cinquenta",
-    "modulo": "Módulo 1",
-    "theme": "Números",
-    "portuguese": "cinquenta",
-    "english": "fifty",
-    "examplePt": "São cinquenta euros.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "五十",
-    "zhHant": "五十"
-  },
-  {
-    "id": "m1-cem",
-    "modulo": "Módulo 1",
-    "theme": "Números",
-    "portuguese": "cem",
-    "english": "one hundred",
-    "examplePt": "Cem é um número.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "一百",
-    "zhHant": "一百"
-  },
-  {
-    "id": "m1-mil",
-    "modulo": "Módulo 1",
-    "theme": "Números",
-    "portuguese": "mil",
-    "english": "one thousand",
-    "examplePt": "Mil é um número.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "一千",
-    "zhHant": "一千"
   },
   {
     "id": "m1-segunda-feira",
@@ -1006,42 +922,6 @@
     "source": "pdf",
     "zhHans": "公寓",
     "zhHant": "公寓"
-  },
-  {
-    "id": "m1-predio",
-    "modulo": "Módulo 1",
-    "theme": "Textos",
-    "portuguese": "o prédio",
-    "english": "building",
-    "examplePt": "Ele mora num prédio.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "建筑",
-    "zhHant": "大樓"
-  },
-  {
-    "id": "m1-aluga-se",
-    "modulo": "Módulo 1",
-    "theme": "Textos",
-    "portuguese": "aluga-se",
-    "english": "for rent",
-    "examplePt": "Aluga-se apartamento.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "出租",
-    "zhHant": "出租"
-  },
-  {
-    "id": "m1-renda",
-    "modulo": "Módulo 1",
-    "theme": "Textos",
-    "portuguese": "a renda",
-    "english": "rent",
-    "examplePt": "O valor da renda é 200 euros.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "房租",
-    "zhHant": "租金/房租"
   },
   {
     "id": "m1-ser",

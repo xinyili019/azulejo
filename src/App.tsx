@@ -87,15 +87,6 @@ export default function App() {
             <h1>Azulejo</h1>
             <p className="app-subtitle">your Portuguese, tile by tile</p>
           </div>
-          <div className="header-actions">
-            <button className="icon-button" type="button" onClick={exportProgress} aria-label={ui.exportProgress}>
-              <Download size={18} aria-hidden="true" />
-            </button>
-            <label className="icon-button" aria-label={ui.importProgress}>
-              <Upload size={18} aria-hidden="true" />
-              <input type="file" accept="application/json" onChange={importProgress} />
-            </label>
-          </div>
         </header>
 
         <section className="study-surface">
@@ -161,6 +152,15 @@ export default function App() {
       </section>
 
       <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} />
+      <footer className="utility-actions" aria-label={ui.studyControls}>
+        <button className="icon-button" type="button" onClick={exportProgress} aria-label={ui.exportProgress}>
+          <Download size={16} aria-hidden="true" />
+        </button>
+        <label className="icon-button" aria-label={ui.importProgress}>
+          <Upload size={16} aria-hidden="true" />
+          <input type="file" accept="application/json" onChange={importProgress} />
+        </label>
+      </footer>
     </main>
   );
 }

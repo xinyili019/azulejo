@@ -109,28 +109,30 @@ export function Flashcard({
       <p id="flashcard-instruction" className="flashcard-instruction">
         {ui.cardInstruction}
       </p>
-      <div className="tile-stage">
-        <button
-          className={`flip-tile ${revealed ? "is-revealed" : ""}`}
-          type="button"
-          onClick={onToggleReveal}
-          aria-pressed={revealed}
-          aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
-          aria-describedby="flashcard-instruction"
-        >
-          <span className="tile-face tile-front">
-            <span className="tile-content">
-              <span className="prompt">{getPrompt(entry, direction)}</span>
+      <div className="tile-shell">
+        <div className="tile-stage">
+          <button
+            className={`flip-tile ${revealed ? "is-revealed" : ""}`}
+            type="button"
+            onClick={onToggleReveal}
+            aria-pressed={revealed}
+            aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
+            aria-describedby="flashcard-instruction"
+          >
+            <span className="tile-face tile-front">
+              <span className="tile-content">
+                <span className="prompt">{getPrompt(entry, direction)}</span>
+              </span>
             </span>
-          </span>
-          <span className="tile-face tile-back">
-            <span className="tile-content">
-              <span className="answer">{getAnswer(entry, direction)}</span>
-              {entry.examplePt && <span className="example">{entry.examplePt}</span>}
-              {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
+            <span className="tile-face tile-back">
+              <span className="tile-content">
+                <span className="answer">{getAnswer(entry, direction)}</span>
+                {entry.examplePt && <span className="example">{entry.examplePt}</span>}
+                {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
+              </span>
             </span>
-          </span>
-        </button>
+          </button>
+        </div>
         {!revealed && renderPronunciationButton("pronunciation-control pronunciation-control-front")}
       </div>
       <div className="flashcard-controls">

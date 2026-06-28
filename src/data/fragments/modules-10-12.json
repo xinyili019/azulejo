@@ -468,18 +468,6 @@
     "zhHant": "接待處/接待"
   },
   {
-    "id": "m11-muito-atenciosamente",
-    "modulo": "Módulo 11",
-    "theme": "Correspondência",
-    "portuguese": "muito atenciosamente",
-    "english": "yours faithfully",
-    "examplePt": "De V.ª Ex.ª, muito atenciosamente.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "此致",
-    "zhHant": "此致"
-  },
-  {
     "id": "m11-dar-noticias",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
@@ -694,18 +682,6 @@
     "source": "pdf",
     "zhHans": "求助于/上诉",
     "zhHant": "求助於/上訴"
-  },
-  {
-    "id": "m11-meios-legais",
-    "modulo": "Módulo 11",
-    "theme": "Reclamações",
-    "portuguese": "os meios legais",
-    "english": "legal means",
-    "examplePt": "Vou recorrer a todos os meios legais.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "合法手段",
-    "zhHant": "合法手段"
   },
   {
     "id": "m11-ingrediente",
@@ -1102,18 +1078,6 @@
     "source": "pdf",
     "zhHans": "移民",
     "zhHant": "移民"
-  },
-  {
-    "id": "m12-vinculo-juridico",
-    "modulo": "Módulo 12",
-    "theme": "Cidadania",
-    "portuguese": "o vínculo jurídico",
-    "english": "legal bond",
-    "examplePt": "A nacionalidade é um vínculo jurídico.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "法律联系/法律关系",
-    "zhHant": "法律聯繫/法律關係"
   },
   {
     "id": "m12-regularizacao",

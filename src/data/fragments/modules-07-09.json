@@ -576,30 +576,6 @@
     "zhHant": "僱傭合約"
   },
   {
-    "id": "m7-trabalho-conta-propria",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "o trabalho por conta própria",
-    "english": "self-employment",
-    "examplePt": "Ela tem trabalho por conta própria.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "自营职业",
-    "zhHant": "自營職業"
-  },
-  {
-    "id": "m7-rescisao-contrato",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "a rescisão de contrato",
-    "english": "contract termination",
-    "examplePt": "A rescisão de contrato foi ontem.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "合同终止",
-    "zhHant": "合約終止"
-  },
-  {
     "id": "m7-horas-extraordinarias",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
@@ -612,30 +588,6 @@
     "zhHant": "加班/加班時間"
   },
   {
-    "id": "m7-salario-bruto",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "o salário bruto",
-    "english": "gross salary",
-    "examplePt": "O salário bruto não tem descontos.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "工资总额",
-    "zhHant": "薪資總額"
-  },
-  {
-    "id": "m7-salario-liquido",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "o salário líquido",
-    "english": "net salary",
-    "examplePt": "O salário líquido já tem descontos.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "净工资",
-    "zhHant": "淨工資"
-  },
-  {
     "id": "m7-subsidio",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
@@ -646,18 +598,6 @@
     "source": "pdf",
     "zhHans": "补贴/津贴",
     "zhHant": "津貼/補助"
-  },
-  {
-    "id": "m7-entidade-patronal",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "a entidade patronal",
-    "english": "employer",
-    "examplePt": "A entidade patronal assinou o contrato.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "雇主",
-    "zhHant": "雇主"
   },
   {
     "id": "m7-carregar",
@@ -792,30 +732,6 @@
     "zhHant": "求職信"
   },
   {
-    "id": "m8-candidatura-espontanea",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "a candidatura espontânea",
-    "english": "unsolicited application",
-    "examplePt": "Escrevi uma carta de candidatura espontânea.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "主动申请",
-    "zhHant": "主動申請"
-  },
-  {
-    "id": "m8-resposta-anuncio",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "a resposta ao anúncio",
-    "english": "reply to an ad",
-    "examplePt": "A carta é uma resposta ao anúncio.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "回复广告",
-    "zhHant": "回覆廣告"
-  },
-  {
     "id": "m8-candidatar-se",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -948,18 +864,6 @@
     "zhHant": "獲得國籍"
   },
   {
-    "id": "m8-perfil-adequado",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "o perfil adequado",
-    "english": "suitable profile",
-    "examplePt": "Tem o perfil adequado a esta função.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "合适的条件/合适的个人背景",
-    "zhHant": "合適的條件/符合職位要求"
-  },
-  {
     "id": "m8-funcao",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -1068,18 +972,6 @@
     "zhHant": "園藝"
   },
   {
-    "id": "m8-ramo",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "o ramo",
-    "english": "field",
-    "examplePt": "Procuro trabalho no meu ramo.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "行业/领域",
-    "zhHant": "行業/領域"
-  },
-  {
     "id": "m8-responsavel",
     "modulo": "Módulo 8",
     "theme": "Qualidades",
@@ -1152,18 +1044,6 @@
     "zhHant": "薪資/工資"
   },
   {
-    "id": "m8-iliquidos",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "ilíquidos",
-    "english": "gross",
-    "examplePt": "São 580 euros ilíquidos.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "税前的/未扣税的",
-    "zhHant": "稅前的/未扣稅的"
-  },
-  {
     "id": "m8-impostos",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -1198,18 +1078,6 @@
     "source": "pdf",
     "zhHans": "出席率",
     "zhHant": "出席率"
-  },
-  {
-    "id": "m8-remuneracao",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "a remuneração",
-    "english": "pay",
-    "examplePt": "A remuneração é compatível com as funções.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "薪酬/报酬",
-    "zhHant": "薪酬/報酬"
   },
   {
     "id": "m8-cargo",
@@ -1560,18 +1428,6 @@
     "zhHant": "出生證明"
   },
   {
-    "id": "m9-boletim-matricula",
-    "modulo": "Módulo 9",
-    "theme": "Escola",
-    "portuguese": "o boletim de matrícula",
-    "english": "enrolment form",
-    "examplePt": "Preenchi o boletim de matrícula.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "报名表",
-    "zhHant": "報名表"
-  },
-  {
     "id": "m9-boletim-vacinas",
     "modulo": "Módulo 9",
     "theme": "Saúde",
@@ -1606,18 +1462,6 @@
     "source": "pdf",
     "zhHans": "寻找更好的生活",
     "zhHant": "尋找更好的生活"
-  },
-  {
-    "id": "m9-condicoes-higiene-seguranca",
-    "modulo": "Módulo 9",
-    "theme": "Sociedade",
-    "portuguese": "as condições de higiene e segurança",
-    "english": "hygiene and safety conditions",
-    "examplePt": "As casas não tinham condições de higiene e segurança.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "卫生和安全条件",
-    "zhHant": "衛生和安全條件"
   },
   {
     "id": "m9-emigrar",
@@ -1666,18 +1510,6 @@
     "source": "pdf",
     "zhHans": "当年",
     "zhHant": "當年"
-  },
-  {
-    "id": "m9-costumar-infinitivo",
-    "modulo": "Módulo 9",
-    "theme": "Gramática",
-    "portuguese": "costumar + infinitivo",
-    "english": "to usually do",
-    "examplePt": "Eu costumava almoçar em casa.",
-    "note": "",
-    "source": "pdf",
-    "zhHans": "通常做",
-    "zhHant": "通常做"
   },
   {
     "id": "m9-mais-caro",

@@ -90,17 +90,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-divorciado",
-    "modulo": "Módulo 1",
-    "theme": "Estado civil",
-    "portuguese": "divorciado(a)",
-    "english": "divorced",
-    "zhHans": "离婚的",
-    "zhHant": "離婚的",
-    "examplePt": "Ele é divorciado. Ela é divorciada.",
-    "source": "pdf"
-  },
-  {
     "id": "m1-solteiro",
     "modulo": "Módulo 1",
     "theme": "Estado civil",
@@ -109,17 +98,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "单身的",
     "zhHant": "單身的",
     "examplePt": "O Ahmed é solteiro. A Olga é solteira.",
-    "source": "pdf"
-  },
-  {
-    "id": "m1-viuvo",
-    "modulo": "Módulo 1",
-    "theme": "Estado civil",
-    "portuguese": "viúvo(a)",
-    "english": "widowed",
-    "zhHans": "鳏寡/丧偶",
-    "zhHant": "鰥寡/喪偶",
-    "examplePt": "Ele é viúvo. Ela é viúva.",
     "source": "pdf"
   },
   {
@@ -442,17 +420,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-localidade",
-    "modulo": "Módulo 1",
-    "theme": "Morada",
-    "portuguese": "a localidade",
-    "english": "locality",
-    "zhHans": "地区/所在地",
-    "zhHant": "地區/所在地",
-    "examplePt": "A localidade é Porto.",
-    "source": "pdf"
-  },
-  {
     "id": "m1-morada",
     "modulo": "Módulo 1",
     "theme": "Morada",
@@ -486,17 +453,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-cem",
-    "modulo": "Módulo 1",
-    "theme": "Números",
-    "portuguese": "cem",
-    "english": "one hundred",
-    "zhHans": "一百",
-    "zhHant": "一百",
-    "examplePt": "Cem é um número.",
-    "source": "pdf"
-  },
-  {
     "id": "m1-cinco",
     "modulo": "Módulo 1",
     "theme": "Números",
@@ -505,17 +461,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "五",
     "zhHant": "五",
     "examplePt": "São cinco euros.",
-    "source": "pdf"
-  },
-  {
-    "id": "m1-cinquenta",
-    "modulo": "Módulo 1",
-    "theme": "Números",
-    "portuguese": "cinquenta",
-    "english": "fifty",
-    "zhHans": "五十",
-    "zhHant": "五十",
-    "examplePt": "São cinquenta euros.",
     "source": "pdf"
   },
   {
@@ -538,17 +483,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "二",
     "zhHant": "二",
     "examplePt": "Tenho dois filhos.",
-    "source": "pdf"
-  },
-  {
-    "id": "m1-mil",
-    "modulo": "Módulo 1",
-    "theme": "Números",
-    "portuguese": "mil",
-    "english": "one thousand",
-    "zhHans": "一千",
-    "zhHant": "一千",
-    "examplePt": "Mil é um número.",
     "source": "pdf"
   },
   {
@@ -681,17 +615,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医生",
     "zhHant": "醫生",
     "examplePt": "O médico trabalha no centro de saúde. A médica também.",
-    "source": "pdf"
-  },
-  {
-    "id": "m1-empregado-limpeza",
-    "modulo": "Módulo 1",
-    "theme": "Profissões",
-    "portuguese": "o empregado de limpeza",
-    "english": "cleaner",
-    "zhHans": "清洁工",
-    "zhHant": "清潔工",
-    "examplePt": "Ele é empregado de limpeza.",
     "source": "pdf"
   },
   {
@@ -1036,28 +959,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-renda",
-    "modulo": "Módulo 1",
-    "theme": "Textos",
-    "portuguese": "a renda",
-    "english": "rent",
-    "zhHans": "房租",
-    "zhHant": "租金/房租",
-    "examplePt": "O valor da renda é 200 euros.",
-    "source": "pdf"
-  },
-  {
-    "id": "m1-aluga-se",
-    "modulo": "Módulo 1",
-    "theme": "Textos",
-    "portuguese": "aluga-se",
-    "english": "for rent",
-    "zhHans": "出租",
-    "zhHant": "出租",
-    "examplePt": "Aluga-se apartamento.",
-    "source": "pdf"
-  },
-  {
     "id": "m1-apartamento",
     "modulo": "Módulo 1",
     "theme": "Textos",
@@ -1066,17 +967,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公寓",
     "zhHant": "公寓",
     "examplePt": "Eles moram num apartamento pequeno.",
-    "source": "pdf"
-  },
-  {
-    "id": "m1-predio",
-    "modulo": "Módulo 1",
-    "theme": "Textos",
-    "portuguese": "o prédio",
-    "english": "building",
-    "zhHans": "建筑",
-    "zhHant": "大樓",
-    "examplePt": "Ele mora num prédio.",
     "source": "pdf"
   },
   {
@@ -3885,28 +3775,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-entidade-patronal",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "a entidade patronal",
-    "english": "employer",
-    "zhHans": "雇主",
-    "zhHant": "雇主",
-    "examplePt": "A entidade patronal assinou o contrato.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-rescisao-contrato",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "a rescisão de contrato",
-    "english": "contract termination",
-    "zhHans": "合同终止",
-    "zhHant": "合約終止",
-    "examplePt": "A rescisão de contrato foi ontem.",
-    "source": "pdf"
-  },
-  {
     "id": "m7-horas-extraordinarias",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
@@ -3929,28 +3797,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-salario-bruto",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "o salário bruto",
-    "english": "gross salary",
-    "zhHans": "工资总额",
-    "zhHant": "薪資總額",
-    "examplePt": "O salário bruto não tem descontos.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-salario-liquido",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "o salário líquido",
-    "english": "net salary",
-    "zhHans": "净工资",
-    "zhHant": "淨工資",
-    "examplePt": "O salário líquido já tem descontos.",
-    "source": "pdf"
-  },
-  {
     "id": "m7-subsidio",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
@@ -3959,17 +3805,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "补贴/津贴",
     "zhHant": "津貼/補助",
     "examplePt": "Recebeu um subsídio.",
-    "source": "pdf"
-  },
-  {
-    "id": "m7-trabalho-conta-propria",
-    "modulo": "Módulo 7",
-    "theme": "Direitos e deveres",
-    "portuguese": "o trabalho por conta própria",
-    "english": "self-employment",
-    "zhHans": "自营职业",
-    "zhHant": "自營職業",
-    "examplePt": "Ela tem trabalho por conta própria.",
     "source": "pdf"
   },
   {
@@ -4710,17 +4545,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-candidatura-espontanea",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "a candidatura espontânea",
-    "english": "unsolicited application",
-    "zhHans": "主动申请",
-    "zhHant": "主動申請",
-    "examplePt": "Escrevi uma carta de candidatura espontânea.",
-    "source": "pdf"
-  },
-  {
     "id": "m8-carta-apresentacao",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -4809,28 +4633,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-remuneracao",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "a remuneração",
-    "english": "pay",
-    "zhHans": "薪酬/报酬",
-    "zhHant": "薪酬/報酬",
-    "examplePt": "A remuneração é compatível com as funções.",
-    "source": "pdf"
-  },
-  {
-    "id": "m8-resposta-anuncio",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "a resposta ao anúncio",
-    "english": "reply to an ad",
-    "zhHans": "回复广告",
-    "zhHant": "回覆廣告",
-    "examplePt": "A carta é uma resposta ao anúncio.",
-    "source": "pdf"
-  },
-  {
     "id": "m8-vaga",
     "modulo": "Módulo 8",
     "theme": "Emprego",
@@ -4872,17 +4674,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "辞职",
     "zhHant": "辭職",
     "examplePt": "Quando foi a última vez que se despediu de um emprego?",
-    "source": "pdf"
-  },
-  {
-    "id": "m8-iliquidos",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "ilíquidos",
-    "english": "gross",
-    "zhHans": "税前的/未扣税的",
-    "zhHant": "稅前的/未扣稅的",
-    "examplePt": "São 580 euros ilíquidos.",
     "source": "pdf"
   },
   {
@@ -4949,28 +4740,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工资/薪水",
     "zhHant": "工資/薪水",
     "examplePt": "O ordenado é compatível com as funções.",
-    "source": "pdf"
-  },
-  {
-    "id": "m8-perfil-adequado",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "o perfil adequado",
-    "english": "suitable profile",
-    "zhHans": "合适的条件/合适的个人背景",
-    "zhHant": "合適的條件/符合職位要求",
-    "examplePt": "Tem o perfil adequado a esta função.",
-    "source": "pdf"
-  },
-  {
-    "id": "m8-ramo",
-    "modulo": "Módulo 8",
-    "theme": "Emprego",
-    "portuguese": "o ramo",
-    "english": "field",
-    "zhHans": "行业/领域",
-    "zhHant": "行業/領域",
-    "examplePt": "Procuro trabalho no meu ramo.",
     "source": "pdf"
   },
   {
@@ -5282,28 +5051,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-boletim-matricula",
-    "modulo": "Módulo 9",
-    "theme": "Escola",
-    "portuguese": "o boletim de matrícula",
-    "english": "enrolment form",
-    "zhHans": "报名表",
-    "zhHant": "報名表",
-    "examplePt": "Preenchi o boletim de matrícula.",
-    "source": "pdf"
-  },
-  {
-    "id": "m9-costumar-infinitivo",
-    "modulo": "Módulo 9",
-    "theme": "Gramática",
-    "portuguese": "costumar + infinitivo",
-    "english": "to usually do",
-    "zhHans": "通常做",
-    "zhHant": "通常做",
-    "examplePt": "Eu costumava almoçar em casa.",
-    "source": "pdf"
-  },
-  {
     "id": "m9-agua-corrente",
     "modulo": "Módulo 9",
     "theme": "Hábitos",
@@ -5422,17 +5169,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "视力和听力问题",
     "zhHant": "視力和聽力問題",
     "examplePt": "A ficha permite detetar problemas visuais e auditivos.",
-    "source": "pdf"
-  },
-  {
-    "id": "m9-condicoes-higiene-seguranca",
-    "modulo": "Módulo 9",
-    "theme": "Sociedade",
-    "portuguese": "as condições de higiene e segurança",
-    "english": "hygiene and safety conditions",
-    "zhHans": "卫生和安全条件",
-    "zhHant": "衛生和安全條件",
-    "examplePt": "As casas não tinham condições de higiene e segurança.",
     "source": "pdf"
   },
   {
@@ -5909,17 +5645,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-muito-atenciosamente",
-    "modulo": "Módulo 11",
-    "theme": "Correspondência",
-    "portuguese": "muito atenciosamente",
-    "english": "yours faithfully",
-    "zhHans": "此致",
-    "zhHant": "此致",
-    "examplePt": "De V.ª Ex.ª, muito atenciosamente.",
-    "source": "pdf"
-  },
-  {
     "id": "m11-anexo",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
@@ -6250,17 +5975,6 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-meios-legais",
-    "modulo": "Módulo 11",
-    "theme": "Reclamações",
-    "portuguese": "os meios legais",
-    "english": "legal means",
-    "zhHans": "合法手段",
-    "zhHant": "合法手段",
-    "examplePt": "Vou recorrer a todos os meios legais.",
-    "source": "pdf"
-  },
-  {
     "id": "m11-reclamar",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
@@ -6544,17 +6258,6 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "欧洲公民",
     "zhHant": "歐洲公民",
     "examplePt": "Ser cidadão europeu permite viajar e trabalhar.",
-    "source": "pdf"
-  },
-  {
-    "id": "m12-vinculo-juridico",
-    "modulo": "Módulo 12",
-    "theme": "Cidadania",
-    "portuguese": "o vínculo jurídico",
-    "english": "legal bond",
-    "zhHans": "法律联系/法律关系",
-    "zhHant": "法律聯繫/法律關係",
-    "examplePt": "A nacionalidade é um vínculo jurídico.",
     "source": "pdf"
   },
   {

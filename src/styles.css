@@ -94,7 +94,7 @@ h1 {
   line-height: 1.05;
 }
 
-.header-actions,
+.utility-actions,
 .card-actions,
 .stats-row {
   display: flex;
@@ -117,14 +117,28 @@ h1 {
 }
 
 .icon-button {
-  width: 44px;
-  background: #f8fcff;
-  color: #123a66;
-  border: 1px solid #b9d2e9;
+  width: 36px;
+  min-height: 36px;
+  background: transparent;
+  color: #38556e;
+  border: 1px solid rgba(56, 85, 110, 0.24);
+  opacity: 0.72;
+}
+
+.icon-button:hover,
+.icon-button:focus-visible {
+  opacity: 1;
+  background: rgba(248, 252, 255, 0.72);
 }
 
 .icon-button input {
   display: none;
+}
+
+.utility-actions {
+  grid-column: 2;
+  justify-self: end;
+  align-self: start;
 }
 
 .primary {
@@ -240,12 +254,17 @@ select {
   text-align: center;
 }
 
-.tile-stage {
+.tile-shell {
   height: var(--tile-height);
+  min-height: var(--tile-height);
+  position: relative;
+}
+
+.tile-stage {
+  height: 100%;
   min-height: var(--tile-height);
   perspective: 1600px;
   -webkit-perspective: 1600px;
-  position: relative;
 }
 
 .flip-tile {
@@ -266,6 +285,7 @@ select {
 }
 
 .flip-tile:focus-visible,
+.icon-button:focus-visible,
 .card-previous:focus-visible,
 .pronunciation-control:focus-visible {
   outline: 3px solid #1f5fa6;
@@ -572,6 +592,10 @@ progress::-moz-progress-bar {
     grid-template-columns: 1fr;
   }
 
+  .utility-actions {
+    grid-column: 1;
+  }
+
   .dashboard {
     position: static;
   }
@@ -596,10 +620,16 @@ progress::-moz-progress-bar {
     display: grid;
   }
 
+  .utility-actions {
+    justify-self: center;
+    padding: 4px 0 8px;
+  }
+
   .flashcard {
     --tile-height: 360px;
   }
 
+  .tile-shell,
   .tile-stage,
   .flip-tile,
   .tile-face {
