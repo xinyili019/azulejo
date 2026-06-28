@@ -4969,7 +4969,7 @@ export const vocabulary: VocabularyEntry[] = [
     "portuguese": "calmo",
     "english": "calm",
     "zhHans": "安静的；冷静的",
-    "zhHant": "安靜的；冷靜的",
+    "zhHant": "安静的；冷静的",
     "examplePt": "O Rossio era muito calmo.",
     "source": "pdf"
   },
