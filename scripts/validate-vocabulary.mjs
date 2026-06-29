@@ -26,6 +26,12 @@ for (const entry of entries) {
     errors.push(`Missing required field near id: ${id || "(unknown)"}`);
     continue;
   }
+  if (entry.examplePt && (!entry.exampleEn || !entry.exampleZhHans || !entry.exampleZhHant)) {
+    errors.push(`Example translations must include English, Simplified Chinese, and Traditional Chinese: ${id}`);
+  }
+  if (!entry.examplePt && (entry.exampleEn || entry.exampleZhHans || entry.exampleZhHant)) {
+    errors.push(`Example translations require a Portuguese example source: ${id}`);
+  }
   if (ids.has(id)) errors.push(`Duplicate id: ${id}`);
   ids.add(id);
   modulos.add(modulo);

@@ -44,6 +44,9 @@ for (const entry of entries) {
     zhHans: entry.zhHans.trim(),
     zhHant: entry.zhHant.trim(),
     examplePt: entry.examplePt?.trim() || undefined,
+    exampleEn: entry.exampleEn?.trim() || undefined,
+    exampleZhHans: entry.exampleZhHans?.trim() || undefined,
+    exampleZhHant: entry.exampleZhHant?.trim() || undefined,
     source: "pdf"
   });
 }

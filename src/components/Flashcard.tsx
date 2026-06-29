@@ -1,5 +1,5 @@
-import { ChevronLeft, ThumbsDown, ThumbsUp, Volume2 } from "lucide-react";
-import { useEffect } from "react";
+import { ChevronLeft, ChevronRight, ThumbsDown, ThumbsUp, Volume2 } from "lucide-react";
+import { useEffect, useState, type KeyboardEvent } from "react";
 import type { Direction, VocabularyEntry } from "../types";
 import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
@@ -30,6 +30,22 @@ export function Flashcard({
   onAgain,
   onKnown
 }: FlashcardProps) {
+  const [exampleOpen, setExampleOpen] = useState(false);
+  const exampleId = `example-${entry.id}`;
+  const exampleTranslation = getExampleTranslation(entry, direction);
+  const hasExample = Boolean(entry.examplePt || exampleTranslation);
+
+  useEffect(() => {
+    setExampleOpen(false);
+  }, [entry.id, direction, revealed]);
+
+  function handleTileKeyDown(event: KeyboardEvent<HTMLDivElement>) {
+    if (event.target !== event.currentTarget) return;
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    onToggleReveal();
+  }
+
   function speakWithBrowserVoice() {
     if (
       typeof window === "undefined" ||
@@ -111,31 +127,52 @@ export function Flashcard({
       </p>
       <div className="tile-shell">
         <div className="tile-stage">
-          <button
+          <div
             className={`flip-tile ${revealed ? "is-revealed" : ""}`}
-            type="button"
+            role="button"
+            tabIndex={0}
             onClick={onToggleReveal}
+            onKeyDown={handleTileKeyDown}
             aria-pressed={revealed}
             aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
             aria-describedby="flashcard-instruction"
           >
-            <span className="tile-face tile-front">
+            <span className="tile-face tile-front" aria-hidden={revealed}>
               <span className="tile-content">
                 <span className="prompt">{getPrompt(entry, direction)}</span>
               </span>
             </span>
-            <span className="tile-face tile-back">
+            <span className={`tile-face tile-back ${exampleOpen ? "example-is-open" : ""}`} aria-hidden={!revealed}>
               <span className="tile-content tile-content-back">
-                <span className="answer">{getAnswer(entry, direction)}</span>
-                {(entry.examplePt || entry.exampleEn) && (
-                  <span className="example-stack">
-                    {entry.examplePt && <span className="example">{entry.examplePt}</span>}
-                    {entry.exampleEn && <span className="example muted">{entry.exampleEn}</span>}
+                <span className="answer-pair">
+                  <span className="answer-reference">{entry.portuguese}</span>
+                  <span className="answer">{getAnswer(entry, direction)}</span>
+                </span>
+                {hasExample && (
+                  <span className={`example-disclosure ${exampleOpen ? "open" : ""}`}>
+                    <button
+                      className="example-toggle"
+                      type="button"
+                      disabled={!revealed}
+                      aria-expanded={exampleOpen}
+                      aria-controls={exampleId}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        setExampleOpen((current) => !current);
+                      }}
+                    >
+                      <ChevronRight className="example-chevron" size={14} aria-hidden="true" />
+                      {ui.example}
+                    </button>
+                    <span id={exampleId} className="example-body" aria-hidden={!exampleOpen}>
+                      {entry.examplePt && <span className="example">{entry.examplePt}</span>}
+                      {exampleTranslation && <span className="example muted">{exampleTranslation}</span>}
+                    </span>
                   </span>
                 )}
               </span>
             </span>
-          </button>
+          </div>
         </div>
       </div>
       <div className={`flashcard-controls ${revealed ? "is-revealed" : ""}`}>
@@ -159,4 +196,10 @@ export function Flashcard({
       </div>
     </section>
   );
+}
+
+function getExampleTranslation(entry: VocabularyEntry, direction: Direction) {
+  if (direction.includes("zh-hans")) return entry.exampleZhHans;
+  if (direction.includes("zh-hant")) return entry.exampleZhHant;
+  return entry.exampleEn;
 }

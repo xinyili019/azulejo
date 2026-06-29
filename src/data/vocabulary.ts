@@ -10,6 +10,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "房子/家",
     "zhHant": "房子/家",
     "examplePt": "A minha casa fica perto.",
+    "exampleEn": "My house is nearby.",
+    "exampleZhHans": "我家在附近。",
+    "exampleZhHant": "我家在附近。",
     "source": "pdf"
   },
   {
@@ -21,6 +24,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "浴室",
     "zhHant": "浴室",
     "examplePt": "A casa de banho fica perto do quarto.",
+    "exampleEn": "The bathroom is near the bedroom.",
+    "exampleZhHans": "浴室在卧室附近。",
+    "exampleZhHant": "浴室在臥室附近。",
     "source": "pdf"
   },
   {
@@ -32,6 +38,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "厨房",
     "zhHant": "廚房",
     "examplePt": "Tomo o pequeno-almoço na cozinha.",
+    "exampleEn": "I have breakfast in the kitchen.",
+    "exampleZhHans": "我在厨房吃早餐。",
+    "exampleZhHant": "我在廚房吃早餐。",
     "source": "pdf"
   },
   {
@@ -43,6 +52,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "楼层",
     "zhHant": "樓層",
     "examplePt": "Moro no segundo andar.",
+    "exampleEn": "I live on the second floor.",
+    "exampleZhHans": "我住在二楼。",
+    "exampleZhHant": "我住在二樓。",
     "source": "pdf"
   },
   {
@@ -54,6 +66,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "房间/卧室",
     "zhHant": "房間/臥室",
     "examplePt": "A cozinha fica entre a sala e o quarto.",
+    "exampleEn": "The kitchen is between the living room and the bedroom.",
+    "exampleZhHans": "厨房在客厅和卧室之间。",
+    "exampleZhHant": "廚房在客廳和臥室之間。",
     "source": "pdf"
   },
   {
@@ -65,6 +80,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "电话",
     "zhHant": "電話",
     "examplePt": "Qual é o seu número de telefone?",
+    "exampleEn": "What is your telephone number?",
+    "exampleZhHans": "您的电话号码是多少？",
+    "exampleZhHant": "您的電話號碼是多少？",
     "source": "pdf"
   },
   {
@@ -76,6 +94,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "手机/移动电话",
     "zhHant": "手機/行動電話",
     "examplePt": "O meu telemóvel é novo.",
+    "exampleEn": "My mobile phone is new.",
+    "exampleZhHans": "我的手机是新的。",
+    "exampleZhHant": "我的手機是新的。",
     "source": "pdf"
   },
   {
@@ -87,6 +108,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "已婚",
     "zhHant": "已婚",
     "examplePt": "O Ahmed é casado. A Olga é casada.",
+    "exampleEn": "Ahmed is married. Olga is married.",
+    "exampleZhHans": "Ahmed 已婚。Olga 已婚。",
+    "exampleZhHant": "Ahmed 已婚。Olga 已婚。",
     "source": "pdf"
   },
   {
@@ -98,6 +122,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "离婚的",
     "zhHant": "離婚的",
     "examplePt": "Ele é divorciado. Ela é divorciada.",
+    "exampleEn": "He is divorced. She is divorced.",
+    "exampleZhHans": "他离婚了。她离婚了。",
+    "exampleZhHant": "他離婚了。她離婚了。",
     "source": "pdf"
   },
   {
@@ -109,6 +136,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "单身的",
     "zhHant": "單身的",
     "examplePt": "O Ahmed é solteiro. A Olga é solteira.",
+    "exampleEn": "Ahmed is single. Olga is single.",
+    "exampleZhHans": "Ahmed 是单身。Olga 是单身。",
+    "exampleZhHant": "Ahmed 是單身。Olga 是單身。",
     "source": "pdf"
   },
   {
@@ -120,6 +150,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "鳏寡/丧偶",
     "zhHant": "鰥寡/喪偶",
     "examplePt": "Ele é viúvo. Ela é viúva.",
+    "exampleEn": "He is a widower. She is a widow.",
+    "exampleZhHans": "他是鳏夫。她是寡妇。",
+    "exampleZhHant": "他是鰥夫。她是寡婦。",
     "source": "pdf"
   },
   {
@@ -131,6 +164,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "家庭",
     "zhHant": "家庭",
     "examplePt": "A minha família mora em Portugal.",
+    "exampleEn": "My family lives in Portugal.",
+    "exampleZhHans": "我的家人住在葡萄牙。",
+    "exampleZhHant": "我的家人住在葡萄牙。",
     "source": "pdf"
   },
   {
@@ -142,6 +178,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "母亲",
     "zhHant": "母親",
     "examplePt": "A minha mãe está bem.",
+    "exampleEn": "My mother is well.",
+    "exampleZhHans": "我的母亲很好。",
+    "exampleZhHant": "我的母親很好。",
     "source": "pdf"
   },
   {
@@ -153,6 +192,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "妻子或女人",
     "zhHant": "妻子或女人",
     "examplePt": "A minha mulher mora em Portugal.",
+    "exampleEn": "My wife lives in Portugal.",
+    "exampleZhHans": "我的妻子住在葡萄牙。",
+    "exampleZhHant": "我的妻子住在葡萄牙。",
     "source": "pdf"
   },
   {
@@ -164,6 +206,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "孩子/子女",
     "zhHant": "孩子/子女",
     "examplePt": "O meu filho estuda. A minha filha estuda.",
+    "exampleEn": "My son studies. My daughter studies.",
+    "exampleZhHans": "我的儿子在学习。我的女儿在学习。",
+    "exampleZhHant": "我的兒子在學習。我的女兒在學習。",
     "source": "pdf"
   },
   {
@@ -175,6 +220,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "兄弟",
     "zhHant": "兄弟",
     "examplePt": "O meu irmão chama-se José.",
+    "exampleEn": "My brother is called José.",
+    "exampleZhHans": "我的兄弟叫 José。",
+    "exampleZhHant": "我的兄弟叫 José。",
     "source": "pdf"
   },
   {
@@ -186,6 +234,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "丈夫",
     "zhHant": "丈夫",
     "examplePt": "O meu marido trabalha hoje.",
+    "exampleEn": "My husband works today.",
+    "exampleZhHans": "我的丈夫今天工作。",
+    "exampleZhHant": "我的丈夫今天工作。",
     "source": "pdf"
   },
   {
@@ -197,6 +248,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "父亲",
     "zhHant": "父親",
     "examplePt": "O meu pai chama-se António.",
+    "exampleEn": "My father is called António.",
+    "exampleZhHans": "我的父亲叫 António。",
+    "exampleZhHant": "我的父親叫 António。",
     "source": "pdf"
   },
   {
@@ -208,6 +262,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "如何",
     "zhHant": "如何",
     "examplePt": "Como está?",
+    "exampleEn": "How are you?",
+    "exampleZhHans": "您好吗？",
+    "exampleZhHant": "您好嗎？",
     "source": "pdf"
   },
   {
@@ -219,6 +276,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "是/在",
     "zhHant": "是/在",
     "examplePt": "Eu estou em Lisboa.",
+    "exampleEn": "I am in Lisbon.",
+    "exampleZhHans": "我在里斯本。",
+    "exampleZhHant": "我在里斯本。",
     "source": "pdf"
   },
   {
@@ -230,6 +290,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "居住",
     "zhHant": "居住",
     "examplePt": "Moro em Odivelas.",
+    "exampleEn": "I live in Odivelas.",
+    "exampleZhHans": "我住在 Odivelas。",
+    "exampleZhHant": "我住在 Odivelas。",
     "source": "pdf"
   },
   {
@@ -241,6 +304,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "在哪里",
     "zhHant": "在哪裡",
     "examplePt": "Onde mora?",
+    "exampleEn": "Where do you live?",
+    "exampleZhHans": "您住在哪里？",
+    "exampleZhHant": "您住在哪裡？",
     "source": "pdf"
   },
   {
@@ -252,6 +318,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "哪一个/什么",
     "zhHant": "哪一個/什麼",
     "examplePt": "Qual é a sua morada?",
+    "exampleEn": "What is your address?",
+    "exampleZhHans": "您的住址是什么？",
+    "exampleZhHant": "您的住址是什麼？",
     "source": "pdf"
   },
   {
@@ -263,6 +332,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "多少",
     "zhHant": "多少",
     "examplePt": "Quantos filhos tem?",
+    "exampleEn": "How many children do you have?",
+    "exampleZhHans": "您有几个孩子？",
+    "exampleZhHant": "您有幾個孩子？",
     "source": "pdf"
   },
   {
@@ -274,6 +346,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "什么/哪一个",
     "zhHant": "什麼/哪一個",
     "examplePt": "Que trabalho faz?",
+    "exampleEn": "What work do you do?",
+    "exampleZhHans": "您做什么工作？",
+    "exampleZhHant": "您做什麼工作？",
     "source": "pdf"
   },
   {
@@ -285,6 +360,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "谁",
     "zhHant": "誰",
     "examplePt": "Quem é o Ahmed?",
+    "exampleEn": "Who is Ahmed?",
+    "exampleZhHans": "Ahmed 是谁？",
+    "exampleZhHant": "Ahmed 是誰？",
     "source": "pdf"
   },
   {
@@ -296,6 +374,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "是",
     "zhHant": "是",
     "examplePt": "Eu sou o Ahmed.",
+    "exampleEn": "I am Ahmed.",
+    "exampleZhHans": "我是 Ahmed。",
+    "exampleZhHant": "我是 Ahmed。",
     "source": "pdf"
   },
   {
@@ -307,6 +388,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "拥有",
     "zhHant": "擁有",
     "examplePt": "Tenho 32 anos.",
+    "exampleEn": "I am 32 years old.",
+    "exampleZhHans": "我32岁。",
+    "exampleZhHant": "我32歲。",
     "source": "pdf"
   },
   {
@@ -318,6 +402,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工作",
     "zhHant": "工作",
     "examplePt": "Ela trabalha no supermercado.",
+    "exampleEn": "She works at the supermarket.",
+    "exampleZhHans": "她在超市工作。",
+    "exampleZhHant": "她在超市工作。",
     "source": "pdf"
   },
   {
@@ -329,6 +416,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "出生日期",
     "zhHant": "出生日期",
     "examplePt": "Qual é a sua data de nascimento?",
+    "exampleEn": "What is your date of birth?",
+    "exampleZhHans": "您的出生日期是什么？",
+    "exampleZhHant": "您的出生日期是什麼？",
     "source": "pdf"
   },
   {
@@ -340,6 +430,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "国籍",
     "zhHant": "國籍",
     "examplePt": "Qual é a sua nacionalidade?",
+    "exampleEn": "What is your nationality?",
+    "exampleZhHans": "您的国籍是什么？",
+    "exampleZhHant": "您的國籍是什麼？",
     "source": "pdf"
   },
   {
@@ -351,6 +444,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "女性",
     "zhHant": "女性",
     "examplePt": "A Olga é do sexo feminino.",
+    "exampleEn": "Olga is female.",
+    "exampleZhHans": "Olga 是女性。",
+    "exampleZhHant": "Olga 是女性。",
     "source": "pdf"
   },
   {
@@ -362,6 +458,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "男性",
     "zhHant": "男性",
     "examplePt": "O Ahmed é do sexo masculino.",
+    "exampleEn": "Ahmed is male.",
+    "exampleZhHans": "Ahmed 是男性。",
+    "exampleZhHant": "Ahmed 是男性。",
     "source": "pdf"
   },
   {
@@ -373,6 +472,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "姓",
     "zhHant": "姓",
     "examplePt": "Qual é o seu apelido?",
+    "exampleEn": "What is your surname?",
+    "exampleZhHans": "您的姓是什么？",
+    "exampleZhHant": "您的姓是什麼？",
     "source": "pdf"
   },
   {
@@ -384,6 +486,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "婚姻状况",
     "zhHant": "婚姻狀況",
     "examplePt": "Qual é o seu estado civil?",
+    "exampleEn": "What is your marital status?",
+    "exampleZhHans": "您的婚姻状况是什么？",
+    "exampleZhHant": "您的婚姻狀況是什麼？",
     "source": "pdf"
   },
   {
@@ -395,6 +500,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "出生地",
     "zhHant": "出生地",
     "examplePt": "O local de nascimento é Islamabad.",
+    "exampleEn": "The place of birth is Islamabad.",
+    "exampleZhHans": "出生地是 Islamabad。",
+    "exampleZhHant": "出生地是 Islamabad。",
     "source": "pdf"
   },
   {
@@ -406,6 +514,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "姓名",
     "zhHant": "姓名",
     "examplePt": "Escreva o seu nome completo.",
+    "exampleEn": "Write your full name.",
+    "exampleZhHans": "请写下您的全名。",
+    "exampleZhHant": "請寫下您的全名。",
     "source": "pdf"
   },
   {
@@ -417,6 +528,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "名",
     "zhHant": "名",
     "examplePt": "O meu primeiro nome é Ahmed.",
+    "exampleEn": "My first name is Ahmed.",
+    "exampleZhHans": "我的名是 Ahmed。",
+    "exampleZhHant": "我的名是 Ahmed。",
     "source": "pdf"
   },
   {
@@ -428,6 +542,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "性别",
     "zhHant": "性別",
     "examplePt": "O sexo é masculino.",
+    "exampleEn": "The sex is male.",
+    "exampleZhHans": "性别为男性。",
+    "exampleZhHant": "性別為男性。",
     "source": "pdf"
   },
   {
@@ -439,6 +556,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "城市",
     "zhHant": "城市",
     "examplePt": "Lisboa é uma cidade.",
+    "exampleEn": "Lisbon is a city.",
+    "exampleZhHans": "里斯本是一座城市。",
+    "exampleZhHant": "里斯本是一座城市。",
     "source": "pdf"
   },
   {
@@ -450,6 +570,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "地址/住址",
     "zhHant": "地址/住址",
     "examplePt": "Qual é a sua morada?",
+    "exampleEn": "What is your address?",
+    "exampleZhHans": "您的住址是什么？",
+    "exampleZhHant": "您的住址是什麼？",
     "source": "pdf"
   },
   {
@@ -461,6 +584,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "街道",
     "zhHant": "街道",
     "examplePt": "A rua tem um supermercado.",
+    "exampleEn": "The street has a supermarket.",
+    "exampleZhHans": "这条街有一家超市。",
+    "exampleZhHant": "這條街有一家超市。",
     "source": "pdf"
   },
   {
@@ -472,6 +598,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "邮政编码",
     "zhHant": "郵遞區號",
     "examplePt": "Qual é o seu código postal?",
+    "exampleEn": "What is your postal code?",
+    "exampleZhHans": "您的邮政编码是什么？",
+    "exampleZhHant": "您的郵遞區號是什麼？",
     "source": "pdf"
   },
   {
@@ -483,6 +612,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一百",
     "zhHant": "一百",
     "examplePt": "Cem é um número.",
+    "exampleEn": "One hundred is a number.",
+    "exampleZhHans": "一百是一个数字。",
+    "exampleZhHant": "一百是一個數字。",
     "source": "pdf"
   },
   {
@@ -494,6 +626,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "五",
     "zhHant": "五",
     "examplePt": "São cinco euros.",
+    "exampleEn": "It is five euros.",
+    "exampleZhHans": "是五欧元。",
+    "exampleZhHant": "是五歐元。",
     "source": "pdf"
   },
   {
@@ -505,6 +640,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "五十",
     "zhHant": "五十",
     "examplePt": "São cinquenta euros.",
+    "exampleEn": "It is fifty euros.",
+    "exampleZhHans": "是五十欧元。",
+    "exampleZhHant": "是五十歐元。",
     "source": "pdf"
   },
   {
@@ -516,6 +654,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "十",
     "zhHant": "十",
     "examplePt": "Tenho dez euros.",
+    "exampleEn": "I have ten euros.",
+    "exampleZhHans": "我有十欧元。",
+    "exampleZhHant": "我有十歐元。",
     "source": "pdf"
   },
   {
@@ -527,6 +668,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "二",
     "zhHant": "二",
     "examplePt": "Tenho dois filhos.",
+    "exampleEn": "I have two children.",
+    "exampleZhHans": "我有两个孩子。",
+    "exampleZhHant": "我有兩個孩子。",
     "source": "pdf"
   },
   {
@@ -538,6 +682,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一千",
     "zhHant": "一千",
     "examplePt": "Mil é um número.",
+    "exampleEn": "One thousand is a number.",
+    "exampleZhHans": "一千是一个数字。",
+    "exampleZhHant": "一千是一個數字。",
     "source": "pdf"
   },
   {
@@ -549,6 +696,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "九",
     "zhHant": "九",
     "examplePt": "São nove horas.",
+    "exampleEn": "It is nine o'clock.",
+    "exampleZhHans": "现在九点。",
+    "exampleZhHant": "現在九點。",
     "source": "pdf"
   },
   {
@@ -560,6 +710,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "八",
     "zhHant": "八",
     "examplePt": "Entro às oito.",
+    "exampleEn": "I go in at eight.",
+    "exampleZhHans": "我八点进去。",
+    "exampleZhHant": "我八點進去。",
     "source": "pdf"
   },
   {
@@ -571,6 +724,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "四十",
     "zhHant": "四十",
     "examplePt": "Tenho quarenta anos.",
+    "exampleEn": "I am forty years old.",
+    "exampleZhHans": "我四十岁。",
+    "exampleZhHant": "我四十歲。",
     "source": "pdf"
   },
   {
@@ -582,6 +738,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "四",
     "zhHant": "四",
     "examplePt": "Tenho quatro aulas.",
+    "exampleEn": "I have four classes.",
+    "exampleZhHans": "我有四节课。",
+    "exampleZhHant": "我有四節課。",
     "source": "pdf"
   },
   {
@@ -593,6 +752,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "六",
     "zhHant": "六",
     "examplePt": "Acordo às seis.",
+    "exampleEn": "I wake up at six.",
+    "exampleZhHans": "我六点醒来。",
+    "exampleZhHant": "我六點醒來。",
     "source": "pdf"
   },
   {
@@ -604,6 +766,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "七",
     "zhHant": "七",
     "examplePt": "São sete horas.",
+    "exampleEn": "It is seven o'clock.",
+    "exampleZhHans": "现在七点。",
+    "exampleZhHant": "現在七點。",
     "source": "pdf"
   },
   {
@@ -615,6 +780,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "三",
     "zhHant": "三",
     "examplePt": "Tenho três documentos.",
+    "exampleEn": "I have three documents.",
+    "exampleZhHans": "我有三份文件。",
+    "exampleZhHant": "我有三份文件。",
     "source": "pdf"
   },
   {
@@ -626,6 +794,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "三十",
     "zhHant": "三十",
     "examplePt": "Tenho trinta anos.",
+    "exampleEn": "I am thirty years old.",
+    "exampleZhHans": "我三十岁。",
+    "exampleZhHant": "我三十歲。",
     "source": "pdf"
   },
   {
@@ -637,6 +808,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一",
     "zhHant": "一",
     "examplePt": "Tenho um filho.",
+    "exampleEn": "I have a son.",
+    "exampleZhHans": "我有一个儿子。",
+    "exampleZhHant": "我有一個兒子。",
     "source": "pdf"
   },
   {
@@ -648,6 +822,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "二十",
     "zhHant": "二十",
     "examplePt": "São vinte euros.",
+    "exampleEn": "It is twenty euros.",
+    "exampleZhHans": "是二十欧元。",
+    "exampleZhHant": "是二十歐元。",
     "source": "pdf"
   },
   {
@@ -659,6 +836,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "国家",
     "zhHant": "國家",
     "examplePt": "Portugal é um país.",
+    "exampleEn": "Portugal is a country.",
+    "exampleZhHans": "葡萄牙是一个国家。",
+    "exampleZhHant": "葡萄牙是一個國家。",
     "source": "pdf"
   },
   {
@@ -670,6 +850,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医生",
     "zhHant": "醫生",
     "examplePt": "O médico trabalha no centro de saúde. A médica também.",
+    "exampleEn": "The male doctor works at the health center. The female doctor does too.",
+    "exampleZhHans": "男医生在卫生中心工作。女医生也是。",
+    "exampleZhHant": "男醫生在衛生中心工作。女醫生也是。",
     "source": "pdf"
   },
   {
@@ -681,6 +864,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "司机",
     "zhHant": "司機",
     "examplePt": "O motorista conduz o autocarro.",
+    "exampleEn": "The driver drives the bus.",
+    "exampleZhHans": "司机驾驶公共汽车。",
+    "exampleZhHant": "司機駕駛巴士。",
     "source": "pdf"
   },
   {
@@ -692,6 +878,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "老师",
     "zhHant": "老師",
     "examplePt": "O professor ensina Português. A professora ensina Português.",
+    "exampleEn": "The male teacher teaches Portuguese. The female teacher teaches Portuguese.",
+    "exampleZhHans": "男老师教葡萄牙语。女老师教葡萄牙语。",
+    "exampleZhHant": "男老師教葡萄牙語。女老師教葡萄牙語。",
     "source": "pdf"
   },
   {
@@ -703,6 +892,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "再见",
     "zhHant": "再見",
     "examplePt": "Adeus!",
+    "exampleEn": "Goodbye!",
+    "exampleZhHans": "再见！",
+    "exampleZhHant": "再見！",
     "source": "pdf"
   },
   {
@@ -714,6 +906,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "明天见",
     "zhHant": "明天見",
     "examplePt": "Até amanhã!",
+    "exampleEn": "See you tomorrow!",
+    "exampleZhHans": "明天见！",
+    "exampleZhHant": "明天見！",
     "source": "pdf"
   },
   {
@@ -725,6 +920,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "稍后见",
     "zhHant": "稍後見",
     "examplePt": "Até logo!",
+    "exampleEn": "See you later!",
+    "exampleZhHans": "待会儿见！",
+    "exampleZhHant": "待會兒見！",
     "source": "pdf"
   },
   {
@@ -736,6 +934,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "晚上好/晚安",
     "zhHant": "晚上好/晚安",
     "examplePt": "Boa noite!",
+    "exampleEn": "Good evening!",
+    "exampleZhHans": "晚上好！",
+    "exampleZhHant": "晚上好！",
     "source": "pdf"
   },
   {
@@ -747,6 +948,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "下午好",
     "zhHant": "午安",
     "examplePt": "Boa tarde!",
+    "exampleEn": "Good afternoon!",
+    "exampleZhHans": "下午好！",
+    "exampleZhHant": "午安！",
     "source": "pdf"
   },
   {
@@ -758,6 +962,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "早上好",
     "zhHant": "早安",
     "examplePt": "Bom dia, Sr. Santos.",
+    "exampleEn": "Good morning, Mr. Santos.",
+    "exampleZhHans": "早上好，Santos 先生。",
+    "exampleZhHant": "早安，Santos 先生。",
     "source": "pdf"
   },
   {
@@ -769,6 +976,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "你好吗？",
     "zhHant": "你好嗎？",
     "examplePt": "Como está, D. Marina?",
+    "exampleEn": "How are you, Ms. Marina?",
+    "exampleZhHans": "您好吗，Marina 女士？",
+    "exampleZhHant": "您好嗎，Marina 女士？",
     "source": "pdf"
   },
   {
@@ -780,6 +990,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "幸会",
     "zhHant": "幸會",
     "examplePt": "Olá Iona, muito prazer.",
+    "exampleEn": "Hello Iona, pleased to meet you.",
+    "exampleZhHans": "你好，Iona，很高兴认识你。",
+    "exampleZhHant": "你好，Iona，很高興認識你。",
     "source": "pdf"
   },
   {
@@ -791,6 +1004,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "你好",
     "zhHant": "你好",
     "examplePt": "Olá, Joana!",
+    "exampleEn": "Hello, Joana!",
+    "exampleZhHans": "你好，Joana！",
+    "exampleZhHant": "你好，Joana！",
     "source": "pdf"
   },
   {
@@ -802,6 +1018,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "都好吗？",
     "zhHant": "都好嗎？",
     "examplePt": "Olá, tudo bem?",
+    "exampleEn": "Hello, is everything all right?",
+    "exampleZhHans": "你好，一切都好吗？",
+    "exampleZhHant": "你好，一切都好嗎？",
     "source": "pdf"
   },
   {
@@ -813,6 +1032,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "四月",
     "zhHant": "四月",
     "examplePt": "A data de nascimento é em abril.",
+    "exampleEn": "The date of birth is in April.",
+    "exampleZhHans": "出生日期在四月。",
+    "exampleZhHant": "出生日期在四月。",
     "source": "pdf"
   },
   {
@@ -824,6 +1046,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "八月",
     "zhHant": "八月",
     "examplePt": "A data é em agosto.",
+    "exampleEn": "The date is in August.",
+    "exampleZhHans": "日期在八月。",
+    "exampleZhHant": "日期在八月。",
     "source": "pdf"
   },
   {
@@ -835,6 +1060,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "十二月",
     "zhHant": "十二月",
     "examplePt": "A data é em dezembro.",
+    "exampleEn": "The date is in December.",
+    "exampleZhHans": "日期在十二月。",
+    "exampleZhHant": "日期在十二月。",
     "source": "pdf"
   },
   {
@@ -846,6 +1074,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "星期日",
     "zhHant": "星期日",
     "examplePt": "Hoje é domingo.",
+    "exampleEn": "Today is Sunday.",
+    "exampleZhHans": "今天是星期日。",
+    "exampleZhHant": "今天是星期日。",
     "source": "pdf"
   },
   {
@@ -857,6 +1088,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "二月",
     "zhHant": "二月",
     "examplePt": "A data é em fevereiro.",
+    "exampleEn": "The date is in February.",
+    "exampleZhHans": "日期在二月。",
+    "exampleZhHant": "日期在二月。",
     "source": "pdf"
   },
   {
@@ -868,6 +1102,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一月",
     "zhHant": "一月",
     "examplePt": "A data é em janeiro.",
+    "exampleEn": "The date is in January.",
+    "exampleZhHans": "日期在一月。",
+    "exampleZhHant": "日期在一月。",
     "source": "pdf"
   },
   {
@@ -879,6 +1116,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "七月",
     "zhHant": "七月",
     "examplePt": "A data é em julho.",
+    "exampleEn": "The date is in July.",
+    "exampleZhHans": "日期在七月。",
+    "exampleZhHant": "日期在七月。",
     "source": "pdf"
   },
   {
@@ -890,6 +1130,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "六月",
     "zhHant": "六月",
     "examplePt": "A data é em junho.",
+    "exampleEn": "The date is in June.",
+    "exampleZhHans": "日期在六月。",
+    "exampleZhHant": "日期在六月。",
     "source": "pdf"
   },
   {
@@ -901,6 +1144,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "五月",
     "zhHant": "五月",
     "examplePt": "A data é em maio.",
+    "exampleEn": "The date is in May.",
+    "exampleZhHans": "日期在五月。",
+    "exampleZhHant": "日期在五月。",
     "source": "pdf"
   },
   {
@@ -912,6 +1158,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "三月",
     "zhHant": "三月",
     "examplePt": "A data é em março.",
+    "exampleEn": "The date is in March.",
+    "exampleZhHans": "日期在三月。",
+    "exampleZhHant": "日期在三月。",
     "source": "pdf"
   },
   {
@@ -923,6 +1172,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "十一月",
     "zhHant": "十一月",
     "examplePt": "A data é em novembro.",
+    "exampleEn": "The date is in November.",
+    "exampleZhHans": "日期在十一月。",
+    "exampleZhHant": "日期在十一月。",
     "source": "pdf"
   },
   {
@@ -934,6 +1186,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "十月",
     "zhHant": "十月",
     "examplePt": "A data é em outubro.",
+    "exampleEn": "The date is in October.",
+    "exampleZhHans": "日期在十月。",
+    "exampleZhHant": "日期在十月。",
     "source": "pdf"
   },
   {
@@ -945,6 +1200,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "周三",
     "zhHant": "週三",
     "examplePt": "Hoje é quarta-feira.",
+    "exampleEn": "Today is Wednesday.",
+    "exampleZhHans": "今天是星期三。",
+    "exampleZhHant": "今天是星期三。",
     "source": "pdf"
   },
   {
@@ -956,6 +1214,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "周四",
     "zhHant": "週四",
     "examplePt": "Hoje é quinta-feira.",
+    "exampleEn": "Today is Thursday.",
+    "exampleZhHans": "今天是星期四。",
+    "exampleZhHant": "今天是星期四。",
     "source": "pdf"
   },
   {
@@ -967,6 +1228,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "周六",
     "zhHant": "週六",
     "examplePt": "Hoje é sábado.",
+    "exampleEn": "Today is Saturday.",
+    "exampleZhHans": "今天是星期六。",
+    "exampleZhHant": "今天是星期六。",
     "source": "pdf"
   },
   {
@@ -978,6 +1242,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "周一",
     "zhHant": "週一",
     "examplePt": "Hoje é segunda-feira.",
+    "exampleEn": "Today is Monday.",
+    "exampleZhHans": "今天是星期一。",
+    "exampleZhHant": "今天是星期一。",
     "source": "pdf"
   },
   {
@@ -989,6 +1256,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "九月",
     "zhHant": "九月",
     "examplePt": "A data é em setembro.",
+    "exampleEn": "The date is in September.",
+    "exampleZhHans": "日期在九月。",
+    "exampleZhHant": "日期在九月。",
     "source": "pdf"
   },
   {
@@ -1000,6 +1270,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "星期五",
     "zhHant": "星期五",
     "examplePt": "Hoje é sexta-feira.",
+    "exampleEn": "Today is Friday.",
+    "exampleZhHans": "今天是星期五。",
+    "exampleZhHant": "今天是星期五。",
     "source": "pdf"
   },
   {
@@ -1011,6 +1284,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "周二",
     "zhHant": "週二",
     "examplePt": "Hoje é terça-feira.",
+    "exampleEn": "Today is Tuesday.",
+    "exampleZhHans": "今天是星期二。",
+    "exampleZhHant": "今天是星期二。",
     "source": "pdf"
   },
   {
@@ -1022,6 +1298,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "房租",
     "zhHant": "租金/房租",
     "examplePt": "O valor da renda é 200 euros.",
+    "exampleEn": "The rent amount is 200 euros.",
+    "exampleZhHans": "房租金额是200欧元。",
+    "exampleZhHant": "租金金額是200歐元。",
     "source": "pdf"
   },
   {
@@ -1033,6 +1312,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "出租",
     "zhHant": "出租",
     "examplePt": "Aluga-se apartamento.",
+    "exampleEn": "Apartment for rent.",
+    "exampleZhHans": "公寓出租。",
+    "exampleZhHant": "公寓出租。",
     "source": "pdf"
   },
   {
@@ -1044,6 +1326,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公寓",
     "zhHant": "公寓",
     "examplePt": "Eles moram num apartamento pequeno.",
+    "exampleEn": "They live in a small apartment.",
+    "exampleZhHans": "他们住在一套小公寓里。",
+    "exampleZhHant": "他們住在一間小公寓裡。",
     "source": "pdf"
   },
   {
@@ -1055,6 +1340,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "建筑",
     "zhHant": "大樓",
     "examplePt": "Ele mora num prédio.",
+    "exampleEn": "He lives in a building.",
+    "exampleZhHans": "他住在一栋楼里。",
+    "exampleZhHant": "他住在一棟樓裡。",
     "source": "pdf"
   },
   {
@@ -1066,6 +1354,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "醒来",
     "zhHant": "醒來",
     "examplePt": "Eu acordo às seis e meia.",
+    "exampleEn": "I wake up at six thirty.",
+    "exampleZhHans": "我六点半醒来。",
+    "exampleZhHant": "我六點半醒來。",
     "source": "pdf"
   },
   {
@@ -1077,6 +1368,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "吃午饭",
     "zhHant": "吃午餐",
     "examplePt": "Almoço entre o meio-dia e a uma.",
+    "exampleEn": "I have lunch between noon and one.",
+    "exampleZhHans": "我在中午十二点到一点之间吃午饭。",
+    "exampleZhHant": "我在中午十二點到一點之間吃午餐。",
     "source": "pdf"
   },
   {
@@ -1088,6 +1382,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "乘坐地铁",
     "zhHant": "搭乘地鐵",
     "examplePt": "Vou apanhar o metro.",
+    "exampleEn": "I am going to take the metro.",
+    "exampleZhHans": "我要坐地铁。",
+    "exampleZhHant": "我要搭地鐵。",
     "source": "pdf"
   },
   {
@@ -1099,6 +1396,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去上班",
     "zhHant": "去上班",
     "examplePt": "Vou para o trabalho às oito.",
+    "exampleEn": "I go to work at eight.",
+    "exampleZhHans": "我八点去上班。",
+    "exampleZhHant": "我八點去上班。",
     "source": "pdf"
   },
   {
@@ -1110,6 +1410,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "吃早餐",
     "zhHant": "吃早餐",
     "examplePt": "Tomo o pequeno-almoço na cozinha.",
+    "exampleEn": "I have breakfast in the kitchen.",
+    "exampleZhHans": "我在厨房吃早餐。",
+    "exampleZhHant": "我在廚房吃早餐。",
     "source": "pdf"
   },
   {
@@ -1121,6 +1424,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "回家",
     "zhHant": "回家",
     "examplePt": "Volto para casa às oito.",
+    "exampleEn": "I return home at eight.",
+    "exampleZhHans": "我八点回家。",
+    "exampleZhHant": "我八點回家。",
     "source": "pdf"
   },
   {
@@ -1132,6 +1438,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "分",
     "zhHant": "分",
     "examplePt": "São vinte cêntimos.",
+    "exampleEn": "It is twenty cents.",
+    "exampleZhHans": "是二十欧分。",
+    "exampleZhHant": "是二十歐分。",
     "source": "pdf"
   },
   {
@@ -1143,6 +1452,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "钱",
     "zhHant": "錢",
     "examplePt": "Preciso de transferir dinheiro.",
+    "exampleEn": "I need to transfer money.",
+    "exampleZhHans": "我需要转账。",
+    "exampleZhHant": "我需要轉帳。",
     "source": "pdf"
   },
   {
@@ -1154,6 +1466,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "欧元",
     "zhHant": "歐元",
     "examplePt": "São dois euros.",
+    "exampleEn": "It is two euros.",
+    "exampleZhHans": "是两欧元。",
+    "exampleZhHant": "是兩歐元。",
     "source": "pdf"
   },
   {
@@ -1165,6 +1480,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "打开",
     "zhHant": "打開",
     "examplePt": "A bilheteira abre às oito.",
+    "exampleEn": "The ticket office opens at eight.",
+    "exampleZhHans": "售票处八点开门。",
+    "exampleZhHant": "售票處八點開門。",
     "source": "pdf"
   },
   {
@@ -1176,6 +1494,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "有/已经过去",
     "zhHant": "有/已經過去",
     "examplePt": "Há muito trânsito.",
+    "exampleEn": "There is a lot of traffic.",
+    "exampleZhHans": "交通很拥堵。",
+    "exampleZhHant": "交通很擁堵。",
     "source": "pdf"
   },
   {
@@ -1187,6 +1508,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去",
     "zhHant": "去",
     "examplePt": "Eu vou para o trabalho.",
+    "exampleEn": "I go to work.",
+    "exampleZhHans": "我去上班。",
+    "exampleZhHant": "我去上班。",
     "source": "pdf"
   },
   {
@@ -1198,6 +1522,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去购物",
     "zhHant": "去購物",
     "examplePt": "Vou às compras ao sábado.",
+    "exampleEn": "I go shopping on Saturdays.",
+    "exampleZhHans": "我周六去购物。",
+    "exampleZhHant": "我週六去購物。",
     "source": "pdf"
   },
   {
@@ -1209,6 +1536,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "绝不/从未",
     "zhHant": "絕不/從未",
     "examplePt": "Nunca chego tarde.",
+    "exampleEn": "I never arrive late.",
+    "exampleZhHans": "我从不迟到。",
+    "exampleZhHant": "我從不遲到。",
     "source": "pdf"
   },
   {
@@ -1220,6 +1550,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "交通",
     "zhHant": "交通",
     "examplePt": "Há muito trânsito.",
+    "exampleEn": "There is a lot of traffic.",
+    "exampleZhHans": "交通很拥堵。",
+    "exampleZhHant": "交通很擁堵。",
     "source": "pdf"
   },
   {
@@ -1231,6 +1564,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "离开/出去",
     "zhHant": "離開/出去",
     "examplePt": "Saio de casa cedo.",
+    "exampleEn": "I leave home early.",
+    "exampleZhHans": "我很早出门。",
+    "exampleZhHant": "我很早出門。",
     "source": "pdf"
   },
   {
@@ -1242,6 +1578,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "总是",
     "zhHant": "總是",
     "examplePt": "Levanto-me sempre cedo.",
+    "exampleEn": "I always get up early.",
+    "exampleZhHans": "我总是早起。",
+    "exampleZhHant": "我總是早起。",
     "source": "pdf"
   },
   {
@@ -1253,6 +1592,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "转账",
     "zhHant": "轉帳",
     "examplePt": "Preciso de transferir dinheiro.",
+    "exampleEn": "I need to transfer money.",
+    "exampleZhHans": "我需要转账。",
+    "exampleZhHant": "我需要轉帳。",
     "source": "pdf"
   },
   {
@@ -1264,6 +1606,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "中午",
     "zhHant": "中午",
     "examplePt": "Almoço ao meio-dia.",
+    "exampleEn": "I have lunch at noon.",
+    "exampleZhHans": "我中午吃午饭。",
+    "exampleZhHant": "我中午吃午餐。",
     "source": "pdf"
   },
   {
@@ -1275,6 +1620,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "现在几点？",
     "zhHant": "現在幾點？",
     "examplePt": "Olá, que horas são?",
+    "exampleEn": "Hello, what time is it?",
+    "exampleZhHans": "你好，现在几点？",
+    "exampleZhHant": "你好，現在幾點？",
     "source": "pdf"
   },
   {
@@ -1286,6 +1634,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公共汽车",
     "zhHant": "公車",
     "examplePt": "Apanho o autocarro.",
+    "exampleEn": "I take the bus.",
+    "exampleZhHans": "我坐公共汽车。",
+    "exampleZhHant": "我搭巴士。",
     "source": "pdf"
   },
   {
@@ -1297,6 +1648,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "飞机",
     "zhHant": "飛機",
     "examplePt": "O meu avião parte às oito.",
+    "exampleEn": "My plane departs at eight.",
+    "exampleZhHans": "我的飞机八点起飞。",
+    "exampleZhHant": "我的飛機八點起飛。",
     "source": "pdf"
   },
   {
@@ -1308,6 +1662,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "火车",
     "zhHant": "火車",
     "examplePt": "Apanho o comboio.",
+    "exampleEn": "I take the train.",
+    "exampleZhHans": "我坐火车。",
+    "exampleZhHant": "我搭火車。",
     "source": "pdf"
   },
   {
@@ -1319,6 +1676,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "地铁",
     "zhHant": "捷運",
     "examplePt": "Uso o metro.",
+    "exampleEn": "I use the metro.",
+    "exampleZhHans": "我使用地铁。",
+    "exampleZhHant": "我使用地鐵。",
     "source": "pdf"
   },
   {
@@ -1330,6 +1690,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "出租车",
     "zhHant": "計程車",
     "examplePt": "A paragem de táxis fica ali.",
+    "exampleEn": "The taxi stand is over there.",
+    "exampleZhHans": "出租车站在那里。",
+    "exampleZhHant": "計程車站在那裡。",
     "source": "pdf"
   },
   {
@@ -1341,6 +1704,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "单程票",
     "zhHant": "單程票",
     "examplePt": "Queria um bilhete simples.",
+    "exampleEn": "I would like a single ticket.",
+    "exampleZhHans": "我想要一张单程票。",
+    "exampleZhHant": "我想要一張單程票。",
     "source": "pdf"
   },
   {
@@ -1352,6 +1718,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "交通月票/通行证",
     "zhHant": "交通月票/通行證",
     "examplePt": "Tenho de comprar o passe.",
+    "exampleEn": "I have to buy the travel pass.",
+    "exampleZhHans": "我必须买交通卡。",
+    "exampleZhHant": "我必須買交通票卡。",
     "source": "pdf"
   },
   {
@@ -1363,6 +1732,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "午餐",
     "zhHant": "午餐",
     "examplePt": "Levo o almoço de casa.",
+    "exampleEn": "I bring lunch from home.",
+    "exampleZhHans": "我从家里带午饭。",
+    "exampleZhHant": "我從家裡帶午餐。",
     "source": "pdf"
   },
   {
@@ -1374,6 +1746,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "晚餐",
     "zhHant": "晚餐",
     "examplePt": "Depois das aulas, jantamos.",
+    "exampleEn": "After classes, we have dinner.",
+    "exampleZhHans": "下课后，我们吃晚饭。",
+    "exampleZhHant": "下課後，我們吃晚餐。",
     "source": "pdf"
   },
   {
@@ -1385,6 +1760,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "早餐",
     "zhHant": "早餐",
     "examplePt": "Tomo o pequeno-almoço em casa.",
+    "exampleEn": "I have breakfast at home.",
+    "exampleZhHans": "我在家吃早餐。",
+    "exampleZhHant": "我在家吃早餐。",
     "source": "pdf"
   },
   {
@@ -1396,6 +1774,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "火车站",
     "zhHant": "火車站",
     "examplePt": "O metro passa pela estação.",
+    "exampleEn": "The metro passes through the station.",
+    "exampleZhHans": "地铁经过车站。",
+    "exampleZhHant": "地鐵經過車站。",
     "source": "pdf"
   },
   {
@@ -1407,6 +1788,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "巴士站",
     "zhHant": "巴士站",
     "examplePt": "Estou na paragem de autocarro.",
+    "exampleEn": "I am at the bus stop.",
+    "exampleZhHans": "我在公交车站。",
+    "exampleZhHant": "我在巴士站。",
     "source": "pdf"
   },
   {
@@ -1418,6 +1802,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "居留证",
     "zhHant": "居留證",
     "examplePt": "Preciso da renovação da autorização de residência.",
+    "exampleEn": "I need to renew the residence permit.",
+    "exampleZhHans": "我需要续办居留许可。",
+    "exampleZhHant": "我需要續辦居留許可。",
     "source": "pdf"
   },
   {
@@ -1429,6 +1816,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "刷牙",
     "zhHant": "刷牙",
     "examplePt": "A seguir, lavo os dentes.",
+    "exampleEn": "Next, I brush my teeth.",
+    "exampleZhHans": "接着，我刷牙。",
+    "exampleZhHant": "接著，我刷牙。",
     "source": "pdf"
   },
   {
@@ -1440,6 +1830,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "起床",
     "zhHant": "起床",
     "examplePt": "Levanto-me às cinco da manhã.",
+    "exampleEn": "I get up at five in the morning.",
+    "exampleZhHans": "我早上五点起床。",
+    "exampleZhHant": "我早上五點起床。",
     "source": "pdf"
   },
   {
@@ -1451,6 +1844,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公共交通",
     "zhHant": "大眾運輸",
     "examplePt": "Usa transportes públicos?",
+    "exampleEn": "Do you use public transport?",
+    "exampleZhHans": "您使用公共交通吗？",
+    "exampleZhHant": "您使用大眾運輸嗎？",
     "source": "pdf"
   },
   {
@@ -1462,6 +1858,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "需要",
     "zhHant": "需要",
     "examplePt": "Preciso de falar português.",
+    "exampleEn": "I need to speak Portuguese.",
+    "exampleZhHans": "我需要说葡萄牙语。",
+    "exampleZhHant": "我需要說葡萄牙語。",
     "source": "pdf"
   },
   {
@@ -1473,6 +1872,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "洗澡",
     "zhHant": "洗澡",
     "examplePt": "Tomo um duche quente.",
+    "exampleEn": "I take a hot shower.",
+    "exampleZhHans": "我洗个热水澡。",
+    "exampleZhHant": "我洗個熱水澡。",
     "source": "pdf"
   },
   {
@@ -1484,6 +1886,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "使用",
     "zhHant": "使用",
     "examplePt": "Uso o metro.",
+    "exampleEn": "I use the metro.",
+    "exampleZhHans": "我使用地铁。",
+    "exampleZhHant": "我使用地鐵。",
     "source": "pdf"
   },
   {
@@ -1495,6 +1900,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "水",
     "zhHant": "水",
     "examplePt": "Ponha água na panela.",
+    "exampleEn": "Put water in the pot.",
+    "exampleZhHans": "请把水倒进锅里。",
+    "exampleZhHant": "請把水倒進鍋裡。",
     "source": "pdf"
   },
   {
@@ -1506,6 +1914,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "咖啡/咖啡馆",
     "zhHant": "咖啡/咖啡館",
     "examplePt": "Queria uma bica.",
+    "exampleEn": "I would like an espresso.",
+    "exampleZhHans": "我想要一杯意式浓缩咖啡。",
+    "exampleZhHant": "我想要一杯義式濃縮咖啡。",
     "source": "pdf"
   },
   {
@@ -1517,6 +1928,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "奶酪",
     "zhHant": "起司",
     "examplePt": "Quero um queijo fresco.",
+    "exampleEn": "I want a fresh cheese.",
+    "exampleZhHans": "我想要一块新鲜奶酪。",
+    "exampleZhHant": "我想要一塊新鮮起司。",
     "source": "pdf"
   },
   {
@@ -1528,6 +1942,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "洗衣机",
     "zhHant": "洗衣機",
     "examplePt": "A máquina de lavar roupa está na cozinha.",
+    "exampleEn": "The washing machine is in the kitchen.",
+    "exampleZhHans": "洗衣机在厨房。",
+    "exampleZhHant": "洗衣機在廚房。",
     "source": "pdf"
   },
   {
@@ -1539,6 +1956,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "冰箱",
     "zhHant": "冰箱",
     "examplePt": "O frigorífico está cheio.",
+    "exampleEn": "The fridge is full.",
+    "exampleZhHans": "冰箱满了。",
+    "exampleZhHant": "冰箱滿了。",
     "source": "pdf"
   },
   {
@@ -1550,6 +1970,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "借记卡",
     "zhHant": "金融卡",
     "examplePt": "Posso pagar com o multibanco?",
+    "exampleEn": "Can I pay by debit card?",
+    "exampleZhHans": "我可以用借记卡付款吗？",
+    "exampleZhHant": "我可以用金融卡付款嗎？",
     "source": "pdf"
   },
   {
@@ -1561,6 +1984,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "香蕉",
     "zhHant": "香蕉",
     "examplePt": "Compro bananas.",
+    "exampleEn": "I buy bananas.",
+    "exampleZhHans": "我买香蕉。",
+    "exampleZhHant": "我買香蕉。",
     "source": "pdf"
   },
   {
@@ -1572,6 +1998,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "苹果",
     "zhHant": "蘋果",
     "examplePt": "A maçã é melhor do que as limas.",
+    "exampleEn": "The apple is better than the limes.",
+    "exampleZhHans": "苹果比青柠更好。",
+    "exampleZhHant": "蘋果比青檸更好。",
     "source": "pdf"
   },
   {
@@ -1583,6 +2012,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "便宜的",
     "zhHant": "便宜的",
     "examplePt": "As peras são menos caras.",
+    "exampleEn": "The pears are less expensive.",
+    "exampleZhHans": "梨比较便宜。",
+    "exampleZhHant": "梨比較便宜。",
     "source": "pdf"
   },
   {
@@ -1594,6 +2026,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "昂贵的",
     "zhHant": "昂貴的",
     "examplePt": "Este produto é caro.",
+    "exampleEn": "This product is expensive.",
+    "exampleZhHans": "这个产品很贵。",
+    "exampleZhHant": "這個產品很貴。",
     "source": "pdf"
   },
   {
@@ -1605,6 +2040,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "请求/点餐",
     "zhHant": "請求/點餐",
     "examplePt": "Vou pedir a conta.",
+    "exampleEn": "I am going to ask for the bill.",
+    "exampleZhHans": "我要结账。",
+    "exampleZhHant": "我要結帳。",
     "source": "pdf"
   },
   {
@@ -1616,6 +2054,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "能",
     "zhHant": "能",
     "examplePt": "Posso pagar com multibanco?",
+    "exampleEn": "Can I pay by debit card?",
+    "exampleZhHans": "我可以用借记卡付款吗？",
+    "exampleZhHant": "我可以用金融卡付款嗎？",
     "source": "pdf"
   },
   {
@@ -1627,6 +2068,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "想要",
     "zhHant": "想要",
     "examplePt": "Queria jantar num restaurante.",
+    "exampleEn": "I would like to have dinner at a restaurant.",
+    "exampleZhHans": "我想在餐厅吃晚饭。",
+    "exampleZhHant": "我想在餐廳吃晚餐。",
     "source": "pdf"
   },
   {
@@ -1638,6 +2082,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "健康的",
     "zhHant": "健康的",
     "examplePt": "Esta comida é saudável.",
+    "exampleEn": "This food is healthy.",
+    "exampleZhHans": "这种食物很健康。",
+    "exampleZhHant": "這種食物很健康。",
     "source": "pdf"
   },
   {
@@ -1649,6 +2096,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "牛奶",
     "zhHant": "牛奶",
     "examplePt": "Compro quatro pacotes de leite.",
+    "exampleEn": "I buy four cartons of milk.",
+    "exampleZhHans": "我买四盒牛奶。",
+    "exampleZhHant": "我買四盒牛奶。",
     "source": "pdf"
   },
   {
@@ -1660,6 +2110,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "洋葱",
     "zhHant": "洋蔥",
     "examplePt": "As cebolas são baratas.",
+    "exampleEn": "The onions are cheap.",
+    "exampleZhHans": "洋葱很便宜。",
+    "exampleZhHant": "洋蔥很便宜。",
     "source": "pdf"
   },
   {
@@ -1671,6 +2124,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "蒜",
     "zhHant": "蒜",
     "examplePt": "Compro alhos no mercado.",
+    "exampleEn": "I buy garlic at the market.",
+    "exampleZhHans": "我在市场买大蒜。",
+    "exampleZhHant": "我在市場買大蒜。",
     "source": "pdf"
   },
   {
@@ -1682,6 +2138,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "番茄",
     "zhHant": "番茄",
     "examplePt": "Queria duas latas de tomate pelado.",
+    "exampleEn": "I would like two cans of peeled tomatoes.",
+    "exampleZhHans": "我想要两罐去皮番茄。",
+    "exampleZhHant": "我想要兩罐去皮番茄。",
     "source": "pdf"
   },
   {
@@ -1693,6 +2152,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "糖",
     "zhHant": "糖",
     "examplePt": "Preciso de um pacote de açúcar.",
+    "exampleEn": "I need a packet of sugar.",
+    "exampleZhHans": "我需要一包糖。",
+    "exampleZhHant": "我需要一包糖。",
     "source": "pdf"
   },
   {
@@ -1704,6 +2166,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "米",
     "zhHant": "白飯",
     "examplePt": "Queria dois quilos de arroz.",
+    "exampleEn": "I would like two kilos of rice.",
+    "exampleZhHans": "我想要两公斤米。",
+    "exampleZhHant": "我想要兩公斤米。",
     "source": "pdf"
   },
   {
@@ -1715,6 +2180,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "橄榄油",
     "zhHant": "橄欖油",
     "examplePt": "Queria uma garrafa de azeite.",
+    "exampleEn": "I would like a bottle of olive oil.",
+    "exampleZhHans": "我想要一瓶橄榄油。",
+    "exampleZhHant": "我想要一瓶橄欖油。",
     "source": "pdf"
   },
   {
@@ -1726,6 +2194,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "三明治",
     "zhHant": "三明治",
     "examplePt": "Como uma sandes.",
+    "exampleEn": "I eat a sandwich.",
+    "exampleZhHans": "我吃一个三明治。",
+    "exampleZhHant": "我吃一個三明治。",
     "source": "pdf"
   },
   {
@@ -1737,6 +2208,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "切片面包",
     "zhHant": "切片麵包",
     "examplePt": "Compro pão de forma.",
+    "exampleEn": "I buy sliced bread.",
+    "exampleZhHans": "我买切片面包。",
+    "exampleZhHant": "我買切片麵包。",
     "source": "pdf"
   },
   {
@@ -1748,6 +2222,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "牛肉",
     "zhHant": "牛肉",
     "examplePt": "A carne de vaca está no talho.",
+    "exampleEn": "The beef is at the butcher's.",
+    "exampleZhHans": "牛肉在肉店。",
+    "exampleZhHant": "牛肉在肉店。",
     "source": "pdf"
   },
   {
@@ -1759,6 +2236,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "鸡肉",
     "zhHant": "雞肉",
     "examplePt": "Quero frango assado.",
+    "exampleEn": "I want roast chicken.",
+    "exampleZhHans": "我想要烤鸡。",
+    "exampleZhHant": "我想要烤雞。",
     "source": "pdf"
   },
   {
@@ -1770,6 +2250,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "账单",
     "zhHant": "帳單",
     "examplePt": "Era a conta, se faz favor.",
+    "exampleEn": "The bill, please.",
+    "exampleZhHans": "请给我账单。",
+    "exampleZhHant": "請給我帳單。",
     "source": "pdf"
   },
   {
@@ -1781,6 +2264,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "菜单",
     "zhHant": "選單",
     "examplePt": "Pode trazer a ementa?",
+    "exampleEn": "Can you bring the menu?",
+    "exampleZhHans": "可以拿菜单给我吗？",
+    "exampleZhHant": "可以拿菜單給我嗎？",
     "source": "pdf"
   },
   {
@@ -1792,6 +2278,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "发票",
     "zhHant": "發票",
     "examplePt": "Pode dar-me uma fatura?",
+    "exampleEn": "Can you give me an invoice?",
+    "exampleZhHans": "可以给我一张发票吗？",
+    "exampleZhHant": "可以給我一張發票嗎？",
     "source": "pdf"
   },
   {
@@ -1803,6 +2292,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "杂货店",
     "zhHant": "雜貨店",
     "examplePt": "Vou à mercearia.",
+    "exampleEn": "I am going to the grocery shop.",
+    "exampleZhHans": "我去杂货店。",
+    "exampleZhHant": "我去雜貨店。",
     "source": "pdf"
   },
   {
@@ -1814,6 +2306,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "面包店",
     "zhHant": "麵包店",
     "examplePt": "Compro pão na padaria.",
+    "exampleEn": "I buy bread at the bakery.",
+    "exampleZhHans": "我在面包店买面包。",
+    "exampleZhHant": "我在麵包店買麵包。",
     "source": "pdf"
   },
   {
@@ -1825,6 +2320,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "鱼店",
     "zhHant": "魚店",
     "examplePt": "Compro peixe na peixaria.",
+    "exampleEn": "I buy fish at the fish shop.",
+    "exampleZhHans": "我在鱼店买鱼。",
+    "exampleZhHant": "我在魚店買魚。",
     "source": "pdf"
   },
   {
@@ -1836,6 +2334,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "税号",
     "zhHant": "稅號",
     "examplePt": "O meu número de contribuinte é 243 333 218.",
+    "exampleEn": "My tax number is 243 333 218.",
+    "exampleZhHans": "我的税号是 243 333 218。",
+    "exampleZhHant": "我的稅號是 243 333 218。",
     "source": "pdf"
   },
   {
@@ -1847,6 +2348,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "到期日",
     "zhHant": "到期日",
     "examplePt": "Qual é o prazo de validade?",
+    "exampleEn": "What is the expiry date?",
+    "exampleZhHans": "有效期到什么时候？",
+    "exampleZhHant": "有效期限到什麼時候？",
     "source": "pdf"
   },
   {
@@ -1858,6 +2362,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "餐厅",
     "zhHant": "餐廳",
     "examplePt": "Vamos jantar num restaurante português.",
+    "exampleEn": "We are going to have dinner at a Portuguese restaurant.",
+    "exampleZhHans": "我们去一家葡萄牙餐厅吃晚饭。",
+    "exampleZhHant": "我們去一家葡萄牙餐廳吃晚餐。",
     "source": "pdf"
   },
   {
@@ -1869,6 +2376,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "收据",
     "zhHant": "收據",
     "examplePt": "Aqui tem o talão.",
+    "exampleEn": "Here is the receipt.",
+    "exampleZhHans": "这是您的收据。",
+    "exampleZhHant": "這是您的收據。",
     "source": "pdf"
   },
   {
@@ -1880,6 +2390,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "肉店",
     "zhHant": "肉店",
     "examplePt": "Compro carne no talho.",
+    "exampleEn": "I buy meat at the butcher's.",
+    "exampleZhHans": "我在肉店买肉。",
+    "exampleZhHant": "我在肉店買肉。",
     "source": "pdf"
   },
   {
@@ -1891,6 +2404,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "电影",
     "zhHant": "電影",
     "examplePt": "Qual é o filme?",
+    "exampleEn": "What is the film?",
+    "exampleZhHans": "是哪部电影？",
+    "exampleZhHant": "是哪部電影？",
     "source": "pdf"
   },
   {
@@ -1902,6 +2418,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "售票处",
     "zhHant": "售票處",
     "examplePt": "Encontramo-nos na bilheteira.",
+    "exampleEn": "We will meet at the ticket office.",
+    "exampleZhHans": "我们在售票处见面。",
+    "exampleZhHant": "我們在售票處見面。",
     "source": "pdf"
   },
   {
@@ -1913,6 +2432,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "足球",
     "zhHant": "足球",
     "examplePt": "Ele joga futebol ao domingo.",
+    "exampleEn": "He plays football on Sundays.",
+    "exampleZhHans": "他星期天踢足球。",
+    "exampleZhHant": "他星期天踢足球。",
     "source": "pdf"
   },
   {
@@ -1924,6 +2446,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去海滩",
     "zhHant": "去海灘",
     "examplePt": "No verão gosto de ir à praia.",
+    "exampleEn": "In the summer I like going to the beach.",
+    "exampleZhHans": "夏天我喜欢去海滩。",
+    "exampleZhHant": "夏天我喜歡去海灘。",
     "source": "pdf"
   },
   {
@@ -1935,6 +2460,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去酒吧",
     "zhHant": "去酒吧",
     "examplePt": "Depois do cinema vamos a um bar.",
+    "exampleEn": "After the cinema we are going to a bar.",
+    "exampleZhHans": "看完电影后我们去一家酒吧。",
+    "exampleZhHant": "看完電影後我們去一家酒吧。",
     "source": "pdf"
   },
   {
@@ -1946,6 +2474,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去电影院",
     "zhHant": "去電影院",
     "examplePt": "Queres ir ao cinema amanhã?",
+    "exampleEn": "Do you want to go to the cinema tomorrow?",
+    "exampleZhHans": "你明天想去电影院吗？",
+    "exampleZhHant": "你明天想去電影院嗎？",
     "source": "pdf"
   },
   {
@@ -1957,6 +2488,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去旅行",
     "zhHant": "去旅行",
     "examplePt": "Gosto de viajar nas férias.",
+    "exampleEn": "I like travelling during the holidays.",
+    "exampleZhHans": "假期里我喜欢旅行。",
+    "exampleZhHant": "假期裡我喜歡旅行。",
     "source": "pdf"
   },
   {
@@ -1968,6 +2502,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "复活节",
     "zhHant": "復活節",
     "examplePt": "Na Páscoa comem-se folares.",
+    "exampleEn": "At Easter, folares are eaten.",
+    "exampleZhHans": "复活节人们吃复活节甜面包。",
+    "exampleZhHant": "復活節人們吃復活節甜麵包。",
     "source": "pdf"
   },
   {
@@ -1979,6 +2516,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "圣诞节",
     "zhHant": "聖誕節",
     "examplePt": "No Natal as pessoas reúnem-se.",
+    "exampleEn": "At Christmas people get together.",
+    "exampleZhHans": "圣诞节人们会聚在一起。",
+    "exampleZhHant": "聖誕節人們會聚在一起。",
     "source": "pdf"
   },
   {
@@ -1990,6 +2530,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "春天",
     "zhHant": "春天",
     "examplePt": "Na primavera há muitas flores.",
+    "exampleEn": "In spring there are many flowers.",
+    "exampleZhHans": "春天有很多花。",
+    "exampleZhHant": "春天有很多花。",
     "source": "pdf"
   },
   {
@@ -2001,6 +2544,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "冬天",
     "zhHant": "冬天",
     "examplePt": "No inverno faz frio.",
+    "exampleEn": "In winter it is cold.",
+    "exampleZhHans": "冬天很冷。",
+    "exampleZhHant": "冬天很冷。",
     "source": "pdf"
   },
   {
@@ -2012,6 +2558,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "秋天",
     "zhHant": "秋天",
     "examplePt": "No outono as folhas secam.",
+    "exampleEn": "In autumn the leaves dry out.",
+    "exampleZhHans": "秋天树叶会干枯。",
+    "exampleZhHant": "秋天樹葉會乾枯。",
     "source": "pdf"
   },
   {
@@ -2023,6 +2572,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "夏天",
     "zhHant": "夏天",
     "examplePt": "No verão vou à praia.",
+    "exampleEn": "In the summer I go to the beach.",
+    "exampleZhHans": "夏天我去海滩。",
+    "exampleZhHant": "夏天我去海灘。",
     "source": "pdf"
   },
   {
@@ -2034,6 +2586,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "雨",
     "zhHant": "雨",
     "examplePt": "Hoje há chuva.",
+    "exampleEn": "Today there is rain.",
+    "exampleZhHans": "今天有雨。",
+    "exampleZhHant": "今天有雨。",
     "source": "pdf"
   },
   {
@@ -2045,6 +2600,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "凉爽/新鲜",
     "zhHant": "涼爽/新鮮",
     "examplePt": "O tempo está fresco. A noite está fresca.",
+    "exampleEn": "The weather is cool. The night is cool.",
+    "exampleZhHans": "天气很凉爽。夜晚很凉爽。",
+    "exampleZhHant": "天氣很涼爽。夜晚很涼爽。",
     "source": "pdf"
   },
   {
@@ -2056,6 +2614,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "寒冷的",
     "zhHant": "寒冷的",
     "examplePt": "O dia está frio. A noite está fria.",
+    "exampleEn": "The day is cold. The night is cold.",
+    "exampleZhHans": "白天很冷。夜晚很冷。",
+    "exampleZhHant": "白天很冷。夜晚很冷。",
     "source": "pdf"
   },
   {
@@ -2067,6 +2628,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "太阳",
     "zhHant": "太陽",
     "examplePt": "Gosto de apanhar sol.",
+    "exampleEn": "I like sunbathing.",
+    "exampleZhHans": "我喜欢晒太阳。",
+    "exampleZhHant": "我喜歡曬太陽。",
     "source": "pdf"
   },
   {
@@ -2078,6 +2642,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "风",
     "zhHant": "風",
     "examplePt": "Está muito vento.",
+    "exampleEn": "It is very windy.",
+    "exampleZhHans": "风很大。",
+    "exampleZhHant": "風很大。",
     "source": "pdf"
   },
   {
@@ -2089,6 +2656,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "糕点店",
     "zhHant": "糕點店",
     "examplePt": "Lanchamos na pastelaria.",
+    "exampleEn": "We have a snack at the pastry shop.",
+    "exampleZhHans": "我们在糕点店吃点心。",
+    "exampleZhHant": "我們在糕點店吃點心。",
     "source": "pdf"
   },
   {
@@ -2100,6 +2670,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "购物中心",
     "zhHant": "購物中心",
     "examplePt": "Vou ao centro comercial.",
+    "exampleEn": "I am going to the shopping centre.",
+    "exampleZhHans": "我去购物中心。",
+    "exampleZhHant": "我去購物中心。",
     "source": "pdf"
   },
   {
@@ -2111,6 +2684,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "与我一起",
     "zhHant": "與我一起",
     "examplePt": "Podes contar comigo.",
+    "exampleEn": "You can count on me.",
+    "exampleZhHans": "你可以指望我。",
+    "exampleZhHant": "你可以指望我。",
     "source": "pdf"
   },
   {
@@ -2122,6 +2698,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "与您",
     "zhHant": "與您",
     "examplePt": "Posso ir consigo?",
+    "exampleEn": "May I go with you?",
+    "exampleZhHans": "我可以和您一起去吗？",
+    "exampleZhHant": "我可以和您一起去嗎？",
     "source": "pdf"
   },
   {
@@ -2133,6 +2712,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "与你",
     "zhHant": "與你",
     "examplePt": "Vou contigo ao cinema.",
+    "exampleEn": "I am going to the cinema with you.",
+    "exampleZhHans": "我和你一起去电影院。",
+    "exampleZhHant": "我和你一起去電影院。",
     "source": "pdf"
   },
   {
@@ -2144,6 +2726,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "明天",
     "zhHant": "明天",
     "examplePt": "Amanhã vou trabalhar.",
+    "exampleEn": "Tomorrow I am going to work.",
+    "exampleZhHans": "明天我要工作。",
+    "exampleZhHant": "明天我要工作。",
     "source": "pdf"
   },
   {
@@ -2155,6 +2740,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一周后",
     "zhHant": "一週後",
     "examplePt": "Daqui a uma semana vou viajar.",
+    "exampleEn": "In a week I am going to travel.",
+    "exampleZhHans": "一周后我要去旅行。",
+    "exampleZhHant": "一週後我要去旅行。",
     "source": "pdf"
   },
   {
@@ -2166,6 +2754,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "后天",
     "zhHant": "後天",
     "examplePt": "Depois de amanhã é sábado.",
+    "exampleEn": "The day after tomorrow is Saturday.",
+    "exampleZhHans": "后天是星期六。",
+    "exampleZhHant": "後天是星期六。",
     "source": "pdf"
   },
   {
@@ -2177,6 +2768,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "下周",
     "zhHant": "下週",
     "examplePt": "Na próxima semana vou ao dentista.",
+    "exampleEn": "Next week I am going to the dentist.",
+    "exampleZhHans": "下周我要去看牙医。",
+    "exampleZhHant": "下週我要去看牙醫。",
     "source": "pdf"
   },
   {
@@ -2188,6 +2782,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "周末",
     "zhHant": "週末",
     "examplePt": "No fim de semana podemos ir a Sintra.",
+    "exampleEn": "On the weekend we can go to Sintra.",
+    "exampleZhHans": "周末我们可以去辛特拉。",
+    "exampleZhHant": "週末我們可以去辛特拉。",
     "source": "pdf"
   },
   {
@@ -2199,6 +2796,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "骑自行车",
     "zhHant": "騎自行車",
     "examplePt": "Eles costumam andar de bicicleta.",
+    "exampleEn": "They usually ride bicycles.",
+    "exampleZhHans": "他们通常骑自行车。",
+    "exampleZhHant": "他們通常騎自行車。",
     "source": "pdf"
   },
   {
@@ -2210,6 +2810,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "说话",
     "zhHant": "說話",
     "examplePt": "Gosto de conversar com amigos.",
+    "exampleEn": "I like talking with friends.",
+    "exampleZhHans": "我喜欢和朋友聊天。",
+    "exampleZhHant": "我喜歡和朋友聊天。",
     "source": "pdf"
   },
   {
@@ -2221,6 +2824,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去健身房",
     "zhHant": "去健身房",
     "examplePt": "Vou ao ginásio depois do trabalho.",
+    "exampleEn": "I go to the gym after work.",
+    "exampleZhHans": "下班后我去健身房。",
+    "exampleZhHant": "下班後我去健身房。",
     "source": "pdf"
   },
   {
@@ -2232,6 +2838,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去散步",
     "zhHant": "去散步",
     "examplePt": "Vamos dar uma volta ao centro comercial.",
+    "exampleEn": "We are going for a stroll around the shopping centre.",
+    "exampleZhHans": "我们去购物中心逛一圈。",
+    "exampleZhHant": "我們去購物中心逛一圈。",
     "source": "pdf"
   },
   {
@@ -2243,6 +2852,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "阅读",
     "zhHant": "閱讀",
     "examplePt": "No fim de semana gosto de ler.",
+    "exampleEn": "On the weekend I like to read.",
+    "exampleZhHans": "周末我喜欢阅读。",
+    "exampleZhHant": "週末我喜歡閱讀。",
     "source": "pdf"
   },
   {
@@ -2254,6 +2866,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "听音乐",
     "zhHant": "聽音樂",
     "examplePt": "Gosto de ouvir música em casa.",
+    "exampleEn": "I like listening to music at home.",
+    "exampleZhHans": "我喜欢在家听音乐。",
+    "exampleZhHant": "我喜歡在家聽音樂。",
     "source": "pdf"
   },
   {
@@ -2265,6 +2880,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去散步",
     "zhHant": "去散步",
     "examplePt": "Costumo passear no parque.",
+    "exampleEn": "I usually go for a walk in the park.",
+    "exampleZhHans": "我通常在公园散步。",
+    "exampleZhHant": "我通常在公園散步。",
     "source": "pdf"
   },
   {
@@ -2276,6 +2894,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "看电视",
     "zhHant": "看電視",
     "examplePt": "À noite vejo televisão.",
+    "exampleEn": "At night I watch television.",
+    "exampleZhHans": "晚上我看电视。",
+    "exampleZhHant": "晚上我看電視。",
     "source": "pdf"
   },
   {
@@ -2287,6 +2908,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "通常做",
     "zhHant": "通常做",
     "examplePt": "Costumo passar o fim de semana fora.",
+    "exampleEn": "I usually spend the weekend away.",
+    "exampleZhHans": "我通常在外面过周末。",
+    "exampleZhHant": "我通常在外面過週末。",
     "source": "pdf"
   },
   {
@@ -2298,6 +2922,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "玩得开心",
     "zhHant": "玩得開心",
     "examplePt": "Nós divertimo-nos muito.",
+    "exampleEn": "We have a lot of fun.",
+    "exampleZhHans": "我们玩得很开心。",
+    "exampleZhHant": "我們玩得很開心。",
     "source": "pdf"
   },
   {
@@ -2309,6 +2936,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "说",
     "zhHant": "說",
     "examplePt": "Eles dizem que o desporto é saudável.",
+    "exampleEn": "They say that sport is healthy.",
+    "exampleZhHans": "他们说运动有益健康。",
+    "exampleZhHant": "他們說運動有益健康。",
     "source": "pdf"
   },
   {
@@ -2320,6 +2950,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "节假日休息",
     "zhHant": "假日休息",
     "examplePt": "A loja está fechada para férias.",
+    "exampleEn": "The shop is closed for holidays.",
+    "exampleZhHans": "商店因假期暂停营业。",
+    "exampleZhHant": "商店因假期暫停營業。",
     "source": "pdf"
   },
   {
@@ -2331,6 +2964,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "禁止抽烟",
     "zhHant": "禁止抽煙",
     "examplePt": "O aviso diz: Proibido fumar.",
+    "exampleEn": "The notice says: No smoking.",
+    "exampleZhHans": "告示写着：禁止吸烟。",
+    "exampleZhHant": "告示寫著：禁止吸菸。",
     "source": "pdf"
   },
   {
@@ -2342,6 +2978,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "开立账户",
     "zhHant": "開立帳戶",
     "examplePt": "Ela quer abrir uma conta no banco.",
+    "exampleEn": "She wants to open an account at the bank.",
+    "exampleZhHans": "她想在银行开户。",
+    "exampleZhHant": "她想在銀行開戶。",
     "source": "pdf"
   },
   {
@@ -2353,6 +2992,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "服务站",
     "zhHant": "服務站",
     "examplePt": "Pare na estação de serviço.",
+    "exampleEn": "Stop at the service station.",
+    "exampleZhHans": "请在服务站停车。",
+    "exampleZhHant": "請在服務站停車。",
     "source": "pdf"
   },
   {
@@ -2364,6 +3006,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "路",
     "zhHant": "路",
     "examplePt": "O triângulo está na estrada.",
+    "exampleEn": "The warning triangle is on the road.",
+    "exampleZhHans": "三角警示牌在路上。",
+    "exampleZhHant": "三角警示牌在路上。",
     "source": "pdf"
   },
   {
@@ -2375,6 +3020,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "开车",
     "zhHant": "開車",
     "examplePt": "Não fale ao telemóvel quando está a guiar.",
+    "exampleEn": "Do not talk on the mobile phone when you are driving.",
+    "exampleZhHans": "开车时不要打手机。",
+    "exampleZhHant": "開車時不要講手機。",
     "source": "pdf"
   },
   {
@@ -2386,6 +3034,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "轮胎漏气",
     "zhHant": "輪胎漏氣",
     "examplePt": "Tenho de trocar um pneu furado.",
+    "exampleEn": "I have to change a flat tyre.",
+    "exampleZhHans": "我得换一个漏气的轮胎。",
+    "exampleZhHant": "我得換一個漏氣的輪胎。",
     "source": "pdf"
   },
   {
@@ -2397,6 +3048,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "车辆",
     "zhHant": "車輛",
     "examplePt": "Leve luvas no seu veículo.",
+    "exampleEn": "Keep gloves in your vehicle.",
+    "exampleZhHans": "请在您的车里带上手套。",
+    "exampleZhHant": "請在您的車裡帶上手套。",
     "source": "pdf"
   },
   {
@@ -2408,6 +3062,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "超市",
     "zhHant": "超級市場",
     "examplePt": "Vou ao supermercado.",
+    "exampleEn": "I am going to the supermarket.",
+    "exampleZhHans": "我去超市。",
+    "exampleZhHant": "我去超市。",
     "source": "pdf"
   },
   {
@@ -2419,6 +3076,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "存钱/省钱",
     "zhHant": "存錢/省錢",
     "examplePt": "Quero poupar no supermercado.",
+    "exampleEn": "I want to save money at the supermarket.",
+    "exampleZhHans": "我想在超市省钱。",
+    "exampleZhHant": "我想在超市省錢。",
     "source": "pdf"
   },
   {
@@ -2430,6 +3090,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "挂号信",
     "zhHant": "掛號信",
     "examplePt": "A carta é registada.",
+    "exampleEn": "The letter is registered.",
+    "exampleZhHans": "这封信是挂号信。",
+    "exampleZhHant": "這封信是掛號信。",
     "source": "pdf"
   },
   {
@@ -2441,6 +3104,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "包裹",
     "zhHant": "包裹",
     "examplePt": "Tenho uma encomenda nos Correios.",
+    "exampleEn": "I have a parcel at the post office.",
+    "exampleZhHans": "我在邮局有一个包裹。",
+    "exampleZhHant": "我在郵局有一個包裹。",
     "source": "pdf"
   },
   {
@@ -2452,6 +3118,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "寄信",
     "zhHant": "寄信",
     "examplePt": "Queria enviar esta carta.",
+    "exampleEn": "I would like to send this letter.",
+    "exampleZhHans": "我想寄这封信。",
+    "exampleZhHant": "我想寄這封信。",
     "source": "pdf"
   },
   {
@@ -2463,6 +3132,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "大街",
     "zhHant": "大街",
     "examplePt": "Siga em frente por esta avenida.",
+    "exampleEn": "Go straight ahead along this avenue.",
+    "exampleZhHans": "请沿着这条大道一直往前走。",
+    "exampleZhHant": "請沿著這條大道一直往前走。",
     "source": "pdf"
   },
   {
@@ -2474,6 +3146,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "向右",
     "zhHant": "向右",
     "examplePt": "Vire à direita.",
+    "exampleEn": "Turn right.",
+    "exampleZhHans": "请向右转。",
+    "exampleZhHant": "請向右轉。",
     "source": "pdf"
   },
   {
@@ -2485,6 +3160,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "左边/向左",
     "zhHant": "左邊/向左",
     "examplePt": "Vire à esquerda.",
+    "exampleEn": "Turn left.",
+    "exampleZhHans": "请向左转。",
+    "exampleZhHant": "請向左轉。",
     "source": "pdf"
   },
   {
@@ -2496,6 +3174,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "环岛",
     "zhHant": "圓環/環形交叉路口",
     "examplePt": "Contorne a rotunda.",
+    "exampleEn": "Go around the roundabout.",
+    "exampleZhHans": "请绕过环岛。",
+    "exampleZhHant": "請繞過圓環。",
     "source": "pdf"
   },
   {
@@ -2507,6 +3188,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "穿越",
     "zhHant": "穿越",
     "examplePt": "Atravesse o cruzamento com cuidado.",
+    "exampleEn": "Cross the intersection carefully.",
+    "exampleZhHans": "请小心穿过十字路口。",
+    "exampleZhHant": "請小心穿過十字路口。",
     "source": "pdf"
   },
   {
@@ -2518,6 +3202,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "从这里",
     "zhHant": "從這裡",
     "examplePt": "Como vou daqui para o ACM?",
+    "exampleEn": "How do I go from here to ACM?",
+    "exampleZhHans": "我从这里怎么去 ACM？",
+    "exampleZhHant": "我從這裡怎麼去 ACM？",
     "source": "pdf"
   },
   {
@@ -2529,6 +3216,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "需要时间",
     "zhHant": "需要時間",
     "examplePt": "Demora cerca de dez minutos.",
+    "exampleEn": "It takes about ten minutes.",
+    "exampleZhHans": "大约需要十分钟。",
+    "exampleZhHant": "大約需要十分鐘。",
     "source": "pdf"
   },
   {
@@ -2540,6 +3230,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "下去",
     "zhHant": "下去",
     "examplePt": "Desça a rua.",
+    "exampleEn": "Go down the street.",
+    "exampleZhHans": "请沿着这条街往下走。",
+    "exampleZhHant": "請沿著這條街往下走。",
     "source": "pdf"
   },
   {
@@ -2551,6 +3244,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "步行/走路去",
     "zhHant": "步行/走路去",
     "examplePt": "Vá a pé até ao ACM.",
+    "exampleEn": "Go on foot to ACM.",
+    "exampleZhHans": "请步行到 ACM。",
+    "exampleZhHant": "請步行到 ACM。",
     "source": "pdf"
   },
   {
@@ -2562,6 +3258,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "十字路口",
     "zhHant": "十字路口",
     "examplePt": "Atravesse o cruzamento com cuidado.",
+    "exampleEn": "Cross the intersection carefully.",
+    "exampleZhHans": "请小心穿过十字路口。",
+    "exampleZhHant": "請小心穿過十字路口。",
     "source": "pdf"
   },
   {
@@ -2573,6 +3272,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "红绿灯",
     "zhHant": "紅綠燈",
     "examplePt": "O semáforo está avariado.",
+    "exampleEn": "The traffic light is broken.",
+    "exampleZhHans": "红绿灯坏了。",
+    "exampleZhHant": "紅綠燈壞了。",
     "source": "pdf"
   },
   {
@@ -2584,6 +3286,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "经过/通过",
     "zhHant": "經過/通過",
     "examplePt": "O autocarro passa pelo Areeiro.",
+    "exampleEn": "The bus goes through Areeiro.",
+    "exampleZhHans": "公交车经过阿雷埃鲁。",
+    "exampleZhHant": "公車經過阿雷埃魯。",
     "source": "pdf"
   },
   {
@@ -2595,6 +3300,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "由/通过/沿着",
     "zhHant": "由/通過/沿著",
     "examplePt": "Siga em frente por esta rua.",
+    "exampleEn": "Go straight ahead along this street.",
+    "exampleZhHans": "请沿着这条街一直往前走。",
+    "exampleZhHant": "請沿著這條街一直往前走。",
     "source": "pdf"
   },
   {
@@ -2606,6 +3314,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "由/通过/沿着",
     "zhHant": "由/通過/沿著",
     "examplePt": "Passe pelo banco. Passe pela farmácia.",
+    "exampleEn": "Pass by the bank. Pass by the pharmacy.",
+    "exampleZhHans": "经过银行。经过药房。",
+    "exampleZhHant": "經過銀行。經過藥房。",
     "source": "pdf"
   },
   {
@@ -2617,6 +3328,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "直走",
     "zhHant": "直走",
     "examplePt": "Siga em frente até ao banco.",
+    "exampleEn": "Go straight ahead until the bank.",
+    "exampleZhHans": "请一直往前走到银行。",
+    "exampleZhHant": "請一直往前走到銀行。",
     "source": "pdf"
   },
   {
@@ -2628,6 +3342,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "上去",
     "zhHant": "上去",
     "examplePt": "Suba a Rua do Sol.",
+    "exampleEn": "Go up Rua do Sol.",
+    "exampleZhHans": "请沿太阳街往上走。",
+    "exampleZhHant": "請沿太陽街往上走。",
     "source": "pdf"
   },
   {
@@ -2639,6 +3356,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "右转",
     "zhHant": "右轉",
     "examplePt": "Vire à direita na igreja.",
+    "exampleEn": "Turn right at the church.",
+    "exampleZhHans": "请在教堂处向右转。",
+    "exampleZhHant": "請在教堂處向右轉。",
     "source": "pdf"
   },
   {
@@ -2650,6 +3370,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "护照照片",
     "zhHant": "護照照片",
     "examplePt": "Preciso de duas fotografias tipo passe.",
+    "exampleEn": "I need two passport-style photographs.",
+    "exampleZhHans": "我需要两张证件照。",
+    "exampleZhHant": "我需要兩張證件照。",
     "source": "pdf"
   },
   {
@@ -2661,6 +3384,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "居留卡",
     "zhHant": "居留卡",
     "examplePt": "Preciso do cartão de residência.",
+    "exampleEn": "I need the residence card.",
+    "exampleZhHans": "我需要居留卡。",
+    "exampleZhHant": "我需要居留卡。",
     "source": "pdf"
   },
   {
@@ -2672,6 +3398,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "表格",
     "zhHant": "表格",
     "examplePt": "Preencha este impresso.",
+    "exampleEn": "Fill in this form.",
+    "exampleZhHans": "请填写这张表格。",
+    "exampleZhHant": "請填寫這張表格。",
     "source": "pdf"
   },
   {
@@ -2683,6 +3412,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "护照",
     "zhHant": "護照",
     "examplePt": "Deve levar o passaporte.",
+    "exampleEn": "You should take the passport.",
+    "exampleZhHans": "您应该带上护照。",
+    "exampleZhHant": "您應該帶上護照。",
     "source": "pdf"
   },
   {
@@ -2694,6 +3426,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "犯罪记录",
     "zhHant": "犯罪記錄",
     "examplePt": "Preciso de autorização para consulta do registo criminal.",
+    "exampleEn": "I need authorisation to consult the criminal record.",
+    "exampleZhHans": "我需要授权查询犯罪记录。",
+    "exampleZhHant": "我需要授權查詢犯罪紀錄。",
     "source": "pdf"
   },
   {
@@ -2705,6 +3440,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "申请人",
     "zhHant": "申請人",
     "examplePt": "O requerente assina o pedido.",
+    "exampleEn": "The applicant signs the request.",
+    "exampleZhHans": "申请人在申请书上签字。",
+    "exampleZhHant": "申請人在申請書上簽字。",
     "source": "pdf"
   },
   {
@@ -2716,6 +3454,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "所需文件",
     "zhHant": "所需文件",
     "examplePt": "Que documentos necessários devo trazer?",
+    "exampleEn": "What required documents should I bring?",
+    "exampleZhHans": "我应该带哪些必要文件？",
+    "exampleZhHant": "我應該帶哪些必要文件？",
     "source": "pdf"
   },
   {
@@ -2727,6 +3468,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "续签/更新",
     "zhHant": "續簽/更新",
     "examplePt": "Queria renovar a autorização de residência.",
+    "exampleEn": "I would like to renew the residence permit.",
+    "exampleZhHans": "我想续居留许可。",
+    "exampleZhHant": "我想續居留許可。",
     "source": "pdf"
   },
   {
@@ -2738,6 +3482,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "地产代理",
     "zhHant": "地產代理",
     "examplePt": "A imobiliária mostra casas.",
+    "exampleEn": "The estate agency shows houses.",
+    "exampleZhHans": "房地产中介展示房子。",
+    "exampleZhHant": "房地產仲介展示房子。",
     "source": "pdf"
   },
   {
@@ -2749,6 +3496,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "洗衣店/自助洗衣店",
     "zhHant": "洗衣店/自助洗衣店",
     "examplePt": "Levo a roupa à lavandaria.",
+    "exampleEn": "I take the clothes to the launderette.",
+    "exampleZhHans": "我把衣服送到洗衣店。",
+    "exampleZhHant": "我把衣服送到洗衣店。",
     "source": "pdf"
   },
   {
@@ -2760,6 +3510,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "服装店",
     "zhHant": "服飾店",
     "examplePt": "A loja de roupa está aberta.",
+    "exampleEn": "The clothes shop is open.",
+    "exampleZhHans": "服装店开着。",
+    "exampleZhHant": "服裝店開著。",
     "source": "pdf"
   },
   {
@@ -2771,6 +3524,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "配镜师",
     "zhHant": "配鏡師",
     "examplePt": "Vou ao oculista.",
+    "exampleEn": "I am going to the optician.",
+    "exampleZhHans": "我要去看眼科验光师。",
+    "exampleZhHant": "我要去看眼科驗光師。",
     "source": "pdf"
   },
   {
@@ -2782,6 +3538,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "应该",
     "zhHant": "應該",
     "examplePt": "Deve fazer exercício físico.",
+    "exampleEn": "You should do physical exercise.",
+    "exampleZhHans": "您应该进行体育锻炼。",
+    "exampleZhHant": "您應該進行體育鍛煉。",
     "source": "pdf"
   },
   {
@@ -2793,6 +3552,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "需要",
     "zhHant": "需要",
     "examplePt": "Preciso de trazer documentos.",
+    "exampleEn": "I need to bring documents.",
+    "exampleZhHans": "我需要带文件。",
+    "exampleZhHant": "我需要帶文件。",
     "source": "pdf"
   },
   {
@@ -2804,6 +3566,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "必须",
     "zhHant": "必須",
     "examplePt": "Tenho de levar o passaporte.",
+    "exampleEn": "I have to take the passport.",
+    "exampleZhHans": "我必须带护照。",
+    "exampleZhHant": "我必須帶護照。",
     "source": "pdf"
   },
   {
@@ -2815,6 +3580,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "找零",
     "zhHant": "找零",
     "examplePt": "Ele dá-me o troco.",
+    "exampleEn": "He gives me the change.",
+    "exampleZhHans": "他把零钱找给我。",
+    "exampleZhHant": "他把零錢找給我。",
     "source": "pdf"
   },
   {
@@ -2826,6 +3594,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "体育锻炼",
     "zhHant": "體育鍛鍊",
     "examplePt": "Deve fazer exercício físico.",
+    "exampleEn": "You should do physical exercise.",
+    "exampleZhHans": "您应该进行体育锻炼。",
+    "exampleZhHant": "您應該進行體育鍛煉。",
     "source": "pdf"
   },
   {
@@ -2837,6 +3608,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "票号",
     "zhHant": "票號",
     "examplePt": "Pode dar-me a sua senha?",
+    "exampleEn": "Can you give me your ticket number?",
+    "exampleZhHans": "您可以给我您的号码票吗？",
+    "exampleZhHant": "您可以給我您的號碼牌嗎？",
     "source": "pdf"
   },
   {
@@ -2848,6 +3622,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "支付账单",
     "zhHant": "支付帳單",
     "examplePt": "Queria pagar a conta da água.",
+    "exampleEn": "I would like to pay the water bill.",
+    "exampleZhHans": "我想付水费账单。",
+    "exampleZhHant": "我想付水費帳單。",
     "source": "pdf"
   },
   {
@@ -2859,6 +3636,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "亲自",
     "zhHant": "親自",
     "examplePt": "Tem de vir cá pessoalmente.",
+    "exampleEn": "You have to come here in person.",
+    "exampleZhHans": "您必须亲自来这里。",
+    "exampleZhHant": "您必須親自來這裡。",
     "source": "pdf"
   },
   {
@@ -2870,6 +3650,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "加油站",
     "zhHant": "加油站",
     "examplePt": "A bomba de gasolina fica perto.",
+    "exampleEn": "The petrol station is nearby.",
+    "exampleZhHans": "加油站就在附近。",
+    "exampleZhHant": "加油站就在附近。",
     "source": "pdf"
   },
   {
@@ -2881,6 +3664,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "修理店",
     "zhHant": "修理店",
     "examplePt": "O carro está na oficina.",
+    "exampleEn": "The car is at the repair shop.",
+    "exampleZhHans": "汽车在修理厂。",
+    "exampleZhHant": "汽車在修理廠。",
     "source": "pdf"
   },
   {
@@ -2892,6 +3678,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "银行",
     "zhHant": "銀行",
     "examplePt": "O banco fica atrás dos Correios.",
+    "exampleEn": "The bank is behind the post office.",
+    "exampleZhHans": "银行在邮局后面。",
+    "exampleZhHant": "銀行在郵局後面。",
     "source": "pdf"
   },
   {
@@ -2903,6 +3692,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "服务",
     "zhHant": "服務",
     "examplePt": "Este serviço ajuda os utentes.",
+    "exampleEn": "This service helps users.",
+    "exampleZhHans": "这项服务帮助用户。",
+    "exampleZhHant": "這項服務幫助使用者。",
     "source": "pdf"
   },
   {
@@ -2914,6 +3706,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "外国人和边境服务局",
     "zhHant": "外國人和邊境服務局",
     "examplePt": "Tenho marcação no Serviço de Estrangeiros e Fronteiras.",
+    "exampleEn": "I have an appointment at the Foreigners and Borders Service.",
+    "exampleZhHans": "我在移民和边境服务局有预约。",
+    "exampleZhHant": "我在移民和邊境服務局有預約。",
     "source": "pdf"
   },
   {
@@ -2925,6 +3720,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "邮局",
     "zhHant": "郵局",
     "examplePt": "Vou aos Correios enviar uma carta.",
+    "exampleEn": "I am going to the post office to send a letter.",
+    "exampleZhHans": "我要去邮局寄一封信。",
+    "exampleZhHant": "我要去郵局寄一封信。",
     "source": "pdf"
   },
   {
@@ -2936,6 +3734,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "接电话",
     "zhHant": "接電話",
     "examplePt": "Não atenda o telemóvel.",
+    "exampleEn": "Do not answer the mobile phone.",
+    "exampleZhHans": "不要接手机。",
+    "exampleZhHant": "不要接手機。",
     "source": "pdf"
   },
   {
@@ -2947,6 +3748,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "关闭",
     "zhHant": "關閉",
     "examplePt": "Desligue o telemóvel.",
+    "exampleEn": "Turn off the mobile phone.",
+    "exampleZhHans": "请关掉手机。",
+    "exampleZhHant": "請關掉手機。",
     "source": "pdf"
   },
   {
@@ -2958,6 +3762,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "忘记",
     "zhHant": "忘記",
     "examplePt": "Não se esqueça dos documentos.",
+    "exampleEn": "Do not forget the documents.",
+    "exampleZhHans": "不要忘记文件。",
+    "exampleZhHant": "不要忘記文件。",
     "source": "pdf"
   },
   {
@@ -2969,6 +3776,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "知道/会",
     "zhHant": "知道/會",
     "examplePt": "Sabe onde ficam os Correios?",
+    "exampleEn": "Do you know where the post office is?",
+    "exampleZhHans": "您知道邮局在哪里吗？",
+    "exampleZhHant": "您知道郵局在哪裡嗎？",
     "source": "pdf"
   },
   {
@@ -2980,6 +3790,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "权利和义务",
     "zhHant": "權利和義務",
     "examplePt": "Têm os mesmos direitos e deveres.",
+    "exampleEn": "They have the same rights and duties.",
+    "exampleZhHans": "他们有相同的权利和义务。",
+    "exampleZhHant": "他們有相同的權利和義務。",
     "source": "pdf"
   },
   {
@@ -2991,6 +3804,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "咨询医生",
     "zhHant": "諮詢醫生",
     "examplePt": "Não dê medicamentos sem consultar o médico.",
+    "exampleEn": "Do not give medicines without consulting the doctor.",
+    "exampleZhHans": "不要在未咨询医生的情况下给药。",
+    "exampleZhHant": "不要在未諮詢醫生的情況下給藥。",
     "source": "pdf"
   },
   {
@@ -3002,6 +3818,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "要小心",
     "zhHant": "要小心",
     "examplePt": "Tenha cuidado com a sua saúde.",
+    "exampleEn": "Take care of your health.",
+    "exampleZhHans": "请注意您的健康。",
+    "exampleZhHant": "請注意您的健康。",
     "source": "pdf"
   },
   {
@@ -3013,6 +3832,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "多长时间？",
     "zhHant": "多長時間？",
     "examplePt": "Há quanto tempo está assim?",
+    "exampleEn": "How long have you been like this?",
+    "exampleZhHans": "您这样多久了？",
+    "exampleZhHant": "您這樣多久了？",
     "source": "pdf"
   },
   {
@@ -3024,6 +3846,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "预约",
     "zhHant": "預約",
     "examplePt": "Vou marcar uma consulta.",
+    "exampleEn": "I am going to book an appointment.",
+    "exampleZhHans": "我要预约看诊。",
+    "exampleZhHant": "我要預約看診。",
     "source": "pdf"
   },
   {
@@ -3035,6 +3860,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医生办公室",
     "zhHant": "醫生辦公室",
     "examplePt": "Estou no consultório médico.",
+    "exampleEn": "I am at the doctor's office.",
+    "exampleZhHans": "我在医生诊所。",
+    "exampleZhHant": "我在醫生診所。",
     "source": "pdf"
   },
   {
@@ -3046,6 +3874,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "坐下来",
     "zhHant": "坐下來",
     "examplePt": "Faça o favor de se sentar.",
+    "exampleEn": "Please sit down.",
+    "exampleZhHans": "请坐。",
+    "exampleZhHant": "請坐。",
     "source": "pdf"
   },
   {
@@ -3057,6 +3888,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "腹部",
     "zhHant": "腹部",
     "examplePt": "Dói-me a barriga.",
+    "exampleEn": "My belly hurts.",
+    "exampleZhHans": "我肚子疼。",
+    "exampleZhHant": "我肚子痛。",
     "source": "pdf"
   },
   {
@@ -3068,6 +3902,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "嘴",
     "zhHant": "嘴",
     "examplePt": "Abra a boca, por favor.",
+    "exampleEn": "Open your mouth, please.",
+    "exampleZhHans": "请张开嘴。",
+    "exampleZhHant": "請張開嘴。",
     "source": "pdf"
   },
   {
@@ -3079,6 +3916,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "头",
     "zhHant": "頭",
     "examplePt": "Dói-me a cabeça.",
+    "exampleEn": "My head hurts.",
+    "exampleZhHans": "我头疼。",
+    "exampleZhHant": "我頭痛。",
     "source": "pdf"
   },
   {
@@ -3090,6 +3930,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "手",
     "zhHant": "手",
     "examplePt": "Lave as mãos.",
+    "exampleEn": "Wash your hands.",
+    "exampleZhHans": "请洗手。",
+    "exampleZhHant": "請洗手。",
     "source": "pdf"
   },
   {
@@ -3101,6 +3944,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "腿",
     "zhHant": "腿",
     "examplePt": "Doem-me as pernas.",
+    "exampleEn": "My legs hurt.",
+    "exampleZhHans": "我腿疼。",
+    "exampleZhHant": "我腿痛。",
     "source": "pdf"
   },
   {
@@ -3112,6 +3958,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "手臂",
     "zhHant": "手臂",
     "examplePt": "Dói-me o braço.",
+    "exampleEn": "My arm hurts.",
+    "exampleZhHans": "我胳膊疼。",
+    "exampleZhHant": "我手臂痛。",
     "source": "pdf"
   },
   {
@@ -3123,6 +3972,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "胃",
     "zhHant": "胃",
     "examplePt": "Dói-me o estômago.",
+    "exampleEn": "My stomach hurts.",
+    "exampleZhHans": "我胃疼。",
+    "exampleZhHant": "我胃痛。",
     "source": "pdf"
   },
   {
@@ -3134,6 +3986,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "膝盖",
     "zhHant": "膝蓋",
     "examplePt": "Doem-me os joelhos.",
+    "exampleEn": "My knees hurt.",
+    "exampleZhHans": "我膝盖疼。",
+    "exampleZhHant": "我膝蓋痛。",
     "source": "pdf"
   },
   {
@@ -3145,6 +4000,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "鼻子",
     "zhHant": "鼻子",
     "examplePt": "Dói-me o nariz.",
+    "exampleEn": "My nose hurts.",
+    "exampleZhHans": "我鼻子疼。",
+    "exampleZhHant": "我鼻子痛。",
     "source": "pdf"
   },
   {
@@ -3156,6 +4014,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "脚",
     "zhHant": "腳",
     "examplePt": "Doem-me os pés.",
+    "exampleEn": "My feet hurt.",
+    "exampleZhHans": "我脚疼。",
+    "exampleZhHant": "我腳痛。",
     "source": "pdf"
   },
   {
@@ -3167,6 +4028,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "胸部",
     "zhHant": "胸部",
     "examplePt": "Dói-te o peito?",
+    "exampleEn": "Does your chest hurt?",
+    "exampleZhHans": "你胸口疼吗？",
+    "exampleZhHant": "你胸口痛嗎？",
     "source": "pdf"
   },
   {
@@ -3178,6 +4042,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "脖子",
     "zhHant": "脖子",
     "examplePt": "Não me dói o pescoço.",
+    "exampleEn": "My neck does not hurt.",
+    "exampleZhHans": "我脖子不疼。",
+    "exampleZhHant": "我脖子不痛。",
     "source": "pdf"
   },
   {
@@ -3189,6 +4056,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "眼睛",
     "zhHant": "眼睛",
     "examplePt": "Tenho os olhos vermelhos.",
+    "exampleEn": "My eyes are red.",
+    "exampleZhHans": "我的眼睛红了。",
+    "exampleZhHant": "我的眼睛紅了。",
     "source": "pdf"
   },
   {
@@ -3200,6 +4070,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "耳朵",
     "zhHant": "耳朵",
     "examplePt": "Doem-me os ouvidos.",
+    "exampleEn": "My ears hurt.",
+    "exampleZhHans": "我耳朵疼。",
+    "exampleZhHant": "我耳朵痛。",
     "source": "pdf"
   },
   {
@@ -3211,6 +4084,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "锻炼身体",
     "zhHant": "鍛鍊身體",
     "examplePt": "Deve fazer exercício.",
+    "exampleEn": "You should exercise.",
+    "exampleZhHans": "您应该锻炼。",
+    "exampleZhHant": "您應該鍛煉。",
     "source": "pdf"
   },
   {
@@ -3222,6 +4098,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "保持健康的饮食",
     "zhHant": "保持健康的飲食",
     "examplePt": "É importante ter uma alimentação saudável.",
+    "exampleEn": "It is important to have a healthy diet.",
+    "exampleZhHans": "保持健康饮食很重要。",
+    "exampleZhHant": "保持健康飲食很重要。",
     "source": "pdf"
   },
   {
@@ -3233,6 +4112,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "合法化地位",
     "zhHant": "合法化地位",
     "examplePt": "Ainda não têm a situação legalizada.",
+    "exampleEn": "They still do not have their situation legalised.",
+    "exampleZhHans": "他们的法律身份尚未合法化。",
+    "exampleZhHant": "他們的法律身份尚未合法化。",
     "source": "pdf"
   },
   {
@@ -3244,6 +4126,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "合法地",
     "zhHant": "合法地",
     "examplePt": "Residimos legalmente em Portugal.",
+    "exampleEn": "We reside legally in Portugal.",
+    "exampleZhHans": "我们在葡萄牙合法居住。",
+    "exampleZhHant": "我們在葡萄牙合法居住。",
     "source": "pdf"
   },
   {
@@ -3255,6 +4140,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "抢劫",
     "zhHant": "搶劫",
     "examplePt": "O 112 atende situações de assalto.",
+    "exampleEn": "112 handles robbery situations.",
+    "exampleZhHans": "112 处理抢劫情况。",
+    "exampleZhHant": "112 處理搶劫情況。",
     "source": "pdf"
   },
   {
@@ -3266,6 +4154,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "火灾",
     "zhHant": "火災",
     "examplePt": "O 112 atende situações de incêndio.",
+    "exampleEn": "112 handles fire situations.",
+    "exampleZhHans": "112 处理火灾情况。",
+    "exampleZhHant": "112 處理火災情況。",
     "source": "pdf"
   },
   {
@@ -3277,6 +4168,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "紧急医疗服务",
     "zhHant": "緊急醫療服務",
     "examplePt": "O INEM presta socorro médico.",
+    "exampleEn": "INEM provides medical assistance.",
+    "exampleZhHans": "INEM 提供医疗救助。",
+    "exampleZhHant": "INEM 提供醫療救助。",
     "source": "pdf"
   },
   {
@@ -3288,6 +4182,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "欧洲紧急电话号码",
     "zhHant": "歐洲緊急電話號碼",
     "examplePt": "O 112 é o Número Europeu de Emergência.",
+    "exampleEn": "112 is the European Emergency Number.",
+    "exampleZhHans": "112 是欧洲紧急电话号码。",
+    "exampleZhHant": "112 是歐洲緊急電話號碼。",
     "source": "pdf"
   },
   {
@@ -3299,6 +4196,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "消防员",
     "zhHant": "消防員",
     "examplePt": "Os bombeiros ajudam nas emergências.",
+    "exampleEn": "Firefighters help in emergencies.",
+    "exampleZhHans": "消防员在紧急情况下提供帮助。",
+    "exampleZhHant": "消防員在緊急情況下提供幫助。",
     "source": "pdf"
   },
   {
@@ -3310,6 +4210,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "牙医",
     "zhHant": "牙醫",
     "examplePt": "Tenho consulta no dentista.",
+    "exampleEn": "I have a dentist appointment.",
+    "exampleZhHans": "我有牙医预约。",
+    "exampleZhHant": "我有牙醫預約。",
     "source": "pdf"
   },
   {
@@ -3321,6 +4224,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "家庭医生",
     "zhHant": "家庭醫生",
     "examplePt": "Marco consulta com o médico de família.",
+    "exampleEn": "I make an appointment with the family doctor.",
+    "exampleZhHans": "我和家庭医生预约看诊。",
+    "exampleZhHant": "我和家庭醫生預約看診。",
     "source": "pdf"
   },
   {
@@ -3332,6 +4238,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "眼科医生",
     "zhHant": "眼科醫生",
     "examplePt": "Vou ao oftalmologista por causa dos olhos.",
+    "exampleEn": "I am going to the ophthalmologist because of my eyes.",
+    "exampleZhHans": "因为眼睛的问题，我去看眼科医生。",
+    "exampleZhHant": "因為眼睛的問題，我去看眼科醫生。",
     "source": "pdf"
   },
   {
@@ -3343,6 +4252,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "儿科医生",
     "zhHant": "兒科醫生",
     "examplePt": "A criança vai ao pediatra.",
+    "exampleEn": "The child is going to the paediatrician.",
+    "exampleZhHans": "孩子去看儿科医生。",
+    "exampleZhHant": "孩子去看兒科醫生。",
     "source": "pdf"
   },
   {
@@ -3354,6 +4266,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "做化验/做检查",
     "zhHant": "做化驗/做檢查",
     "examplePt": "Deve fazer análises.",
+    "exampleEn": "You should have tests done.",
+    "exampleZhHans": "您应该做化验。",
+    "exampleZhHant": "您應該做化驗。",
     "source": "pdf"
   },
   {
@@ -3365,6 +4280,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "照X光",
     "zhHant": "照X光",
     "examplePt": "Tenho de fazer uma radiografia.",
+    "exampleEn": "I have to have an X-ray.",
+    "exampleZhHans": "我得拍一张 X 光片。",
+    "exampleZhHant": "我得照一張 X 光片。",
     "source": "pdf"
   },
   {
@@ -3376,6 +4294,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "测量血压",
     "zhHant": "測量血壓",
     "examplePt": "A enfermeira vai medir a tensão.",
+    "exampleEn": "The nurse is going to measure the blood pressure.",
+    "exampleZhHans": "护士将测量血压。",
+    "exampleZhHant": "護士將量血壓。",
     "source": "pdf"
   },
   {
@@ -3387,6 +4308,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "药店",
     "zhHant": "藥局",
     "examplePt": "Vou à farmácia comprar medicamentos.",
+    "exampleEn": "I am going to the pharmacy to buy medicines.",
+    "exampleZhHans": "我要去药房买药。",
+    "exampleZhHant": "我要去藥房買藥。",
     "source": "pdf"
   },
   {
@@ -3398,6 +4322,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "处方",
     "zhHant": "處方",
     "examplePt": "Aqui está a receita.",
+    "exampleEn": "Here is the prescription.",
+    "exampleZhHans": "处方在这里。",
+    "exampleZhHant": "處方在這裡。",
     "source": "pdf"
   },
   {
@@ -3409,6 +4336,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "配药",
     "zhHant": "配藥",
     "examplePt": "O senhor aviou esta receita na farmácia.",
+    "exampleEn": "The gentleman filled this prescription at the pharmacy.",
+    "exampleZhHans": "先生，您在药房配了这张处方。",
+    "exampleZhHant": "先生，您在藥房配了這張處方。",
     "source": "pdf"
   },
   {
@@ -3420,6 +4350,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "药剂师",
     "zhHant": "藥師",
     "examplePt": "A farmacêutica pede o cartão de utente.",
+    "exampleEn": "The pharmacist asks for the health user card.",
+    "exampleZhHans": "女药剂师要求出示医疗用户卡。",
+    "exampleZhHant": "女藥劑師要求出示醫療使用者卡。",
     "source": "pdf"
   },
   {
@@ -3431,6 +4364,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "推荐剂量",
     "zhHant": "建議劑量",
     "examplePt": "A dose recomendada é um comprimido por dia.",
+    "exampleEn": "The recommended dose is one tablet per day.",
+    "exampleZhHans": "推荐剂量是每天一片。",
+    "exampleZhHant": "建議劑量是每天一片。",
     "source": "pdf"
   },
   {
@@ -3442,6 +4378,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "缓解疼痛",
     "zhHant": "緩解疼痛",
     "examplePt": "O medicamento alivia a dor.",
+    "exampleEn": "The medicine relieves the pain.",
+    "exampleZhHans": "这种药能缓解疼痛。",
+    "exampleZhHant": "這種藥能緩解疼痛。",
     "source": "pdf"
   },
   {
@@ -3453,6 +4392,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "饭后",
     "zhHant": "飯後",
     "examplePt": "Tome o comprimido após as refeições.",
+    "exampleEn": "Take the tablet after meals.",
+    "exampleZhHans": "饭后服用药片。",
+    "exampleZhHant": "飯後服用藥片。",
     "source": "pdf"
   },
   {
@@ -3464,6 +4406,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "每12小时一次",
     "zhHant": "每12小時一次",
     "examplePt": "Tome o antibiótico de 12 em 12 horas.",
+    "exampleEn": "Take the antibiotic every 12 hours.",
+    "exampleZhHans": "请每 12 小时服用一次抗生素。",
+    "exampleZhHant": "請每 12 小時服用一次抗生素。",
     "source": "pdf"
   },
   {
@@ -3475,6 +4420,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "每八小时一次",
     "zhHant": "每八小時一次",
     "examplePt": "Tome um comprimido de oito em oito horas.",
+    "exampleEn": "Take one tablet every eight hours.",
+    "exampleZhHans": "请每八小时服用一片药。",
+    "exampleZhHant": "請每八小時服用一片藥。",
     "source": "pdf"
   },
   {
@@ -3486,6 +4434,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "退烧/降烧",
     "zhHant": "退燒/降燒",
     "examplePt": "O medicamento diminui a febre.",
+    "exampleEn": "The medicine reduces the fever.",
+    "exampleZhHans": "这种药能退烧。",
+    "exampleZhHant": "這種藥能退燒。",
     "source": "pdf"
   },
   {
@@ -3497,6 +4448,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "抗生素",
     "zhHant": "抗生素",
     "examplePt": "Deve tomar o antibiótico de 12 em 12 horas.",
+    "exampleEn": "You should take the antibiotic every 12 hours.",
+    "exampleZhHans": "您应该每 12 小时服用一次抗生素。",
+    "exampleZhHant": "您應該每 12 小時服用一次抗生素。",
     "source": "pdf"
   },
   {
@@ -3508,6 +4462,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "药片",
     "zhHant": "藥片",
     "examplePt": "Tome estes comprimidos.",
+    "exampleEn": "Take these tablets.",
+    "exampleZhHans": "请服用这些药片。",
+    "exampleZhHant": "請服用這些藥片。",
     "source": "pdf"
   },
   {
@@ -3519,6 +4476,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "药品",
     "zhHant": "藥物",
     "examplePt": "Não tome este medicamento.",
+    "exampleEn": "Do not take this medicine.",
+    "exampleZhHans": "不要服用这种药。",
+    "exampleZhHant": "不要服用這種藥。",
     "source": "pdf"
   },
   {
@@ -3530,6 +4490,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "急诊",
     "zhHant": "急診",
     "examplePt": "A consulta de urgência é no hospital.",
+    "exampleEn": "The emergency consultation is at the hospital.",
+    "exampleZhHans": "急诊看诊在医院。",
+    "exampleZhHant": "急診看診在醫院。",
     "source": "pdf"
   },
   {
@@ -3541,6 +4504,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "登记/注册",
     "zhHant": "登記/註冊",
     "examplePt": "Fazem a inscrição na consulta.",
+    "exampleEn": "They register for the appointment.",
+    "exampleZhHans": "他们在看诊时登记。",
+    "exampleZhHant": "他們在看診時登記。",
     "source": "pdf"
   },
   {
@@ -3552,6 +4518,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "取得/登录",
     "zhHant": "取得/登入",
     "examplePt": "Podem aceder a cuidados de saúde.",
+    "exampleEn": "They can access health care.",
+    "exampleZhHans": "可以获得医疗护理。",
+    "exampleZhHant": "可以獲得醫療護理。",
     "source": "pdf"
   },
   {
@@ -3563,6 +4532,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医疗用户卡/就诊卡",
     "zhHant": "醫療用戶卡/就診卡",
     "examplePt": "Dê-me o seu cartão de utente.",
+    "exampleEn": "Give me your health user card.",
+    "exampleZhHans": "请给我您的医疗用户卡。",
+    "exampleZhHant": "請給我您的醫療使用者卡。",
     "source": "pdf"
   },
   {
@@ -3574,6 +4546,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "国家卫生服务体系",
     "zhHant": "國家衛生服務體系",
     "examplePt": "SNS significa Serviço Nacional de Saúde.",
+    "exampleEn": "SNS means National Health Service.",
+    "exampleZhHans": "SNS 的意思是国家卫生服务。",
+    "exampleZhHant": "SNS 的意思是國家衛生服務。",
     "source": "pdf"
   },
   {
@@ -3585,6 +4560,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "健康服务使用者",
     "zhHant": "健康服務使用者",
     "examplePt": "O serviço é para todos os utentes.",
+    "exampleEn": "The service is for all users.",
+    "exampleZhHans": "这项服务面向所有用户。",
+    "exampleZhHant": "這項服務面向所有使用者。",
     "source": "pdf"
   },
   {
@@ -3596,6 +4574,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "卫生保健",
     "zhHant": "衛生保健",
     "examplePt": "Os estrangeiros podem aceder a cuidados de saúde.",
+    "exampleEn": "Foreigners can access health care.",
+    "exampleZhHans": "外国人可以获得医疗护理。",
+    "exampleZhHant": "外國人可以獲得醫療護理。",
     "source": "pdf"
   },
   {
@@ -3607,6 +4588,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "眼镜",
     "zhHant": "眼鏡",
     "examplePt": "Preciso de óculos para ler.",
+    "exampleEn": "I need glasses to read.",
+    "exampleZhHans": "我需要眼镜来看书。",
+    "exampleZhHant": "我需要眼鏡來看書。",
     "source": "pdf"
   },
   {
@@ -3618,6 +4602,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "口罩",
     "zhHant": "口罩",
     "examplePt": "Use máscara durante o trabalho.",
+    "exampleEn": "Wear a mask during work.",
+    "exampleZhHans": "工作期间请戴口罩。",
+    "exampleZhHant": "工作期間請戴口罩。",
     "source": "pdf"
   },
   {
@@ -3629,6 +4616,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "紧急热线",
     "zhHant": "緊急熱線",
     "examplePt": "Ligue para a linha de emergência.",
+    "exampleEn": "Call the emergency line.",
+    "exampleZhHans": "请拨打紧急热线。",
+    "exampleZhHant": "請撥打緊急熱線。",
     "source": "pdf"
   },
   {
@@ -3640,6 +4630,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "家庭保健单位",
     "zhHant": "家庭健康單位",
     "examplePt": "A USF é uma Unidade de Saúde Familiar.",
+    "exampleEn": "The USF is a Family Health Unit.",
+    "exampleZhHans": "USF 是家庭健康单位。",
+    "exampleZhHant": "USF 是家庭健康單位。",
     "source": "pdf"
   },
   {
@@ -3651,6 +4644,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "健康中心/社区诊所",
     "zhHant": "健康中心/社區診所",
     "examplePt": "Vou ao Centro de Saúde da minha área.",
+    "exampleEn": "I am going to the health centre in my area.",
+    "exampleZhHans": "我去我所在区域的健康中心。",
+    "exampleZhHant": "我去我所在區域的健康中心。",
     "source": "pdf"
   },
   {
@@ -3662,6 +4658,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医院",
     "zhHant": "醫院",
     "examplePt": "Vou ao hospital.",
+    "exampleEn": "I am going to the hospital.",
+    "exampleZhHans": "我去医院。",
+    "exampleZhHant": "我去醫院。",
     "source": "pdf"
   },
   {
@@ -3673,6 +4672,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "过敏",
     "zhHant": "過敏",
     "examplePt": "O senhor está com uma alergia.",
+    "exampleEn": "You have an allergy, sir.",
+    "exampleZhHans": "先生，您有过敏症状。",
+    "exampleZhHant": "先生，您有過敏症狀。",
     "source": "pdf"
   },
   {
@@ -3684,6 +4686,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "瘙痒",
     "zhHant": "癢感",
     "examplePt": "Tenho muita comichão.",
+    "exampleEn": "I have a lot of itching.",
+    "exampleZhHans": "我很痒。",
+    "exampleZhHant": "我很癢。",
     "source": "pdf"
   },
   {
@@ -3695,6 +4700,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "牙疼",
     "zhHant": "牙痛",
     "examplePt": "Estou com dores de dentes.",
+    "exampleEn": "I have toothache.",
+    "exampleZhHans": "我牙疼。",
+    "exampleZhHant": "我牙痛。",
     "source": "pdf"
   },
   {
@@ -3706,6 +4714,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "我……疼/我……痛（复数）",
     "zhHant": "我……疼/我……痛（複數）",
     "examplePt": "Doem-me os pés.",
+    "exampleEn": "My feet hurt.",
+    "exampleZhHans": "我脚疼。",
+    "exampleZhHant": "我腳痛。",
     "source": "pdf"
   },
   {
@@ -3717,6 +4728,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "我疼/我痛",
     "zhHant": "我痛/我……痛",
     "examplePt": "Dói-me a cabeça.",
+    "exampleEn": "My head hurts.",
+    "exampleZhHans": "我头疼。",
+    "exampleZhHant": "我頭痛。",
     "source": "pdf"
   },
   {
@@ -3728,6 +4742,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "打喷嚏",
     "zhHant": "打噴嚏",
     "examplePt": "Espirro muitas vezes.",
+    "exampleEn": "I sneeze many times.",
+    "exampleZhHans": "我经常打喷嚏。",
+    "exampleZhHant": "我經常打噴嚏。",
     "source": "pdf"
   },
   {
@@ -3739,6 +4756,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "感冒了",
     "zhHant": "感冒了",
     "examplePt": "Ele está constipado. Ela está constipada.",
+    "exampleEn": "He has a cold. She has a cold.",
+    "exampleZhHans": "他感冒了。她感冒了。",
+    "exampleZhHant": "他感冒了。她感冒了。",
     "source": "pdf"
   },
   {
@@ -3750,6 +4770,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "感到恶心",
     "zhHant": "感到噁心",
     "examplePt": "Ele está enjoado. Ela está enjoada.",
+    "exampleEn": "He feels nauseous. She feels nauseous.",
+    "exampleZhHans": "他觉得恶心。她觉得恶心。",
+    "exampleZhHant": "他覺得噁心。她覺得噁心。",
     "source": "pdf"
   },
   {
@@ -3761,6 +4784,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "虚弱的",
     "zhHant": "虛弱的",
     "examplePt": "Estou sem forças.",
+    "exampleEn": "I have no strength.",
+    "exampleZhHans": "我没有力气。",
+    "exampleZhHant": "我沒有力氣。",
     "source": "pdf"
   },
   {
@@ -3772,6 +4798,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "感到疲倦",
     "zhHant": "感到疲倦",
     "examplePt": "Ele sente-se cansado. Ela sente-se cansada.",
+    "exampleEn": "He feels tired. She feels tired.",
+    "exampleZhHans": "他觉得累。她觉得累。",
+    "exampleZhHant": "他覺得累。她覺得累。",
     "source": "pdf"
   },
   {
@@ -3783,6 +4812,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "过敏",
     "zhHant": "過敏",
     "examplePt": "Sou alérgica a este medicamento.",
+    "exampleEn": "I am allergic to this medicine.",
+    "exampleZhHans": "我对这种药过敏。",
+    "exampleZhHant": "我對這種藥過敏。",
     "source": "pdf"
   },
   {
@@ -3794,6 +4826,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "对...过敏",
     "zhHant": "對...過敏",
     "examplePt": "Sou alérgico a este medicamento.",
+    "exampleEn": "I am allergic to this medicine.",
+    "exampleZhHans": "我对这种药过敏。",
+    "exampleZhHant": "我對這種藥過敏。",
     "source": "pdf"
   },
   {
@@ -3805,6 +4840,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "发烧",
     "zhHant": "發燒",
     "examplePt": "O menino tem febre.",
+    "exampleEn": "The boy has a fever.",
+    "exampleZhHans": "男孩发烧了。",
+    "exampleZhHant": "男孩發燒了。",
     "source": "pdf"
   },
   {
@@ -3816,6 +4854,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "咳嗽",
     "zhHant": "咳嗽",
     "examplePt": "Está com tosse?",
+    "exampleEn": "Do you have a cough?",
+    "exampleZhHans": "您咳嗽吗？",
+    "exampleZhHant": "您咳嗽嗎？",
     "source": "pdf"
   },
   {
@@ -3827,6 +4868,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "中毒",
     "zhHant": "中毒",
     "examplePt": "Ele tem uma intoxicação.",
+    "exampleEn": "He has poisoning.",
+    "exampleZhHans": "他中毒了。",
+    "exampleZhHant": "他中毒了。",
     "source": "pdf"
   },
   {
@@ -3838,6 +4882,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "晕眩的",
     "zhHant": "暈眩的",
     "examplePt": "Sinto-me tonto. Sinto-me tonta.",
+    "exampleEn": "I feel dizzy.",
+    "exampleZhHans": "我觉得头晕。",
+    "exampleZhHant": "我覺得頭暈。",
     "source": "pdf"
   },
   {
@@ -3849,6 +4896,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "注射",
     "zhHant": "注射",
     "examplePt": "Tenho de levar uma injeção.",
+    "exampleEn": "I have to get an injection.",
+    "exampleZhHans": "我得打一针。",
+    "exampleZhHant": "我得打一針。",
     "source": "pdf"
   },
   {
@@ -3860,6 +4910,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "疼/痛",
     "zhHant": "疼痛",
     "examplePt": "Dói-me a barriga.",
+    "exampleEn": "My belly hurts.",
+    "exampleZhHans": "我肚子疼。",
+    "exampleZhHant": "我肚子痛。",
     "source": "pdf"
   },
   {
@@ -3871,6 +4924,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "加班时间",
     "zhHant": "加班/加班時間",
     "examplePt": "Recebi as horas extraordinárias.",
+    "exampleEn": "I received the overtime pay.",
+    "exampleZhHans": "我收到了加班费。",
+    "exampleZhHant": "我收到了加班費。",
     "source": "pdf"
   },
   {
@@ -3882,6 +4938,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "雇佣合同",
     "zhHant": "僱傭合約",
     "examplePt": "É importante ler o contrato de trabalho.",
+    "exampleEn": "It is important to read the employment contract.",
+    "exampleZhHans": "阅读劳动合同很重要。",
+    "exampleZhHant": "閱讀勞動合約很重要。",
     "source": "pdf"
   },
   {
@@ -3893,6 +4952,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工资总额",
     "zhHant": "薪資總額",
     "examplePt": "O salário bruto não tem descontos.",
+    "exampleEn": "The gross salary has no deductions.",
+    "exampleZhHans": "税前工资没有扣除项。",
+    "exampleZhHant": "稅前薪資沒有扣除項。",
     "source": "pdf"
   },
   {
@@ -3904,6 +4966,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "净工资",
     "zhHant": "淨工資",
     "examplePt": "O salário líquido já tem descontos.",
+    "exampleEn": "The net salary already has deductions.",
+    "exampleZhHans": "净工资已经扣除各项费用。",
+    "exampleZhHant": "淨薪資已經扣除各項費用。",
     "source": "pdf"
   },
   {
@@ -3915,6 +4980,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "补贴/津贴",
     "zhHant": "津貼/補助",
     "examplePt": "Recebeu um subsídio.",
+    "exampleEn": "He or she received a benefit.",
+    "exampleZhHans": "收到了一笔补助。",
+    "exampleZhHant": "收到了一筆補助。",
     "source": "pdf"
   },
   {
@@ -3926,6 +4994,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "劳工权利",
     "zhHant": "勞工權利",
     "examplePt": "Os trabalhadores imigrantes têm direitos laborais.",
+    "exampleEn": "Immigrant workers have labor rights.",
+    "exampleZhHans": "移民工人有劳动权利。",
+    "exampleZhHant": "移民工人有勞動權利。",
     "source": "pdf"
   },
   {
@@ -3937,6 +5008,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "刷子",
     "zhHant": "刷子",
     "examplePt": "A escova está na mesa.",
+    "exampleEn": "The brush is on the table.",
+    "exampleZhHans": "刷子在桌子上。",
+    "exampleZhHant": "刷子在桌子上。",
     "source": "pdf"
   },
   {
@@ -3948,6 +5022,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "剪刀",
     "zhHant": "剪刀",
     "examplePt": "A tesoura corta o cabelo.",
+    "exampleEn": "The scissors cut hair.",
+    "exampleZhHans": "剪刀剪头发。",
+    "exampleZhHant": "剪刀剪頭髮。",
     "source": "pdf"
   },
   {
@@ -3959,6 +5036,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "扫帚",
     "zhHant": "掃帚",
     "examplePt": "A vassoura está atrás da porta.",
+    "exampleEn": "The broom is behind the door.",
+    "exampleZhHans": "扫帚在门后面。",
+    "exampleZhHant": "掃帚在門後面。",
     "source": "pdf"
   },
   {
@@ -3970,6 +5050,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "手套",
     "zhHant": "手套",
     "examplePt": "Use luvas no trabalho.",
+    "exampleEn": "Wear gloves at work.",
+    "exampleZhHans": "工作时请戴手套。",
+    "exampleZhHant": "工作時請戴手套。",
     "source": "pdf"
   },
   {
@@ -3981,6 +5064,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "围裙",
     "zhHant": "圍裙",
     "examplePt": "Ela põe o avental na cozinha.",
+    "exampleEn": "She puts on the apron in the kitchen.",
+    "exampleZhHans": "她在厨房穿上围裙。",
+    "exampleZhHant": "她在廚房穿上圍裙。",
     "source": "pdf"
   },
   {
@@ -3992,6 +5078,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "电脑",
     "zhHant": "電腦",
     "examplePt": "Uso o computador no escritório.",
+    "exampleEn": "I use the computer in the office.",
+    "exampleZhHans": "我在办公室使用电脑。",
+    "exampleZhHant": "我在辦公室使用電腦。",
     "source": "pdf"
   },
   {
@@ -4003,6 +5092,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "纸",
     "zhHant": "紙",
     "examplePt": "Preciso de papel para imprimir.",
+    "exampleEn": "I need paper to print.",
+    "exampleZhHans": "我需要纸来打印。",
+    "exampleZhHant": "我需要紙來列印。",
     "source": "pdf"
   },
   {
@@ -4014,6 +5106,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "清洁产品",
     "zhHant": "清潔產品",
     "examplePt": "Vou buscar os detergentes.",
+    "exampleEn": "I am going to get the detergents.",
+    "exampleZhHans": "我去拿清洁剂。",
+    "exampleZhHant": "我去拿清潔劑。",
     "source": "pdf"
   },
   {
@@ -4025,6 +5120,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "学校",
     "zhHant": "學校",
     "examplePt": "As crianças entraram na escola.",
+    "exampleEn": "The children entered the school.",
+    "exampleZhHans": "孩子们进了学校。",
+    "exampleZhHant": "孩子們進了學校。",
     "source": "pdf"
   },
   {
@@ -4036,6 +5134,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "私人住宅",
     "zhHant": "私人住宅",
     "examplePt": "Ela limpa casas particulares.",
+    "exampleEn": "She cleans private homes.",
+    "exampleZhHans": "她打扫私人住宅。",
+    "exampleZhHant": "她打掃私人住宅。",
     "source": "pdf"
   },
   {
@@ -4047,6 +5148,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公司",
     "zhHant": "公司",
     "examplePt": "Muitas pessoas trabalham em empresas.",
+    "exampleEn": "Many people work in companies.",
+    "exampleZhHans": "很多人在公司工作。",
+    "exampleZhHant": "很多人在公司工作。",
     "source": "pdf"
   },
   {
@@ -4058,6 +5162,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "建筑工地",
     "zhHant": "建築工地",
     "examplePt": "Ele trabalha nas obras.",
+    "exampleEn": "He works on construction sites.",
+    "exampleZhHans": "他在建筑工地工作。",
+    "exampleZhHant": "他在建築工地工作。",
     "source": "pdf"
   },
   {
@@ -4069,6 +5176,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "美发沙龙",
     "zhHant": "美髮沙龍",
     "examplePt": "Ela trabalha num salão de cabeleireiro.",
+    "exampleEn": "She works in a hair salon.",
+    "exampleZhHans": "她在一家美发沙龙工作。",
+    "exampleZhHant": "她在一家美髮沙龍工作。",
     "source": "pdf"
   },
   {
@@ -4080,6 +5190,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "办公室",
     "zhHant": "辦公室",
     "examplePt": "Os escritórios abrem às nove.",
+    "exampleEn": "The offices open at nine.",
+    "exampleZhHans": "办公室九点开门。",
+    "exampleZhHant": "辦公室九點開門。",
     "source": "pdf"
   },
   {
@@ -4091,6 +5204,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "水泥",
     "zhHant": "水泥",
     "examplePt": "Precisamos de dois sacos de cimento.",
+    "exampleEn": "We need two bags of cement.",
+    "exampleZhHans": "我们需要两袋水泥。",
+    "exampleZhHant": "我們需要兩袋水泥。",
     "source": "pdf"
   },
   {
@@ -4102,6 +5218,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "农民",
     "zhHant": "農民",
     "examplePt": "O agricultor trabalha no campo.",
+    "exampleEn": "The farmer works in the field.",
+    "exampleZhHans": "农民在田里工作。",
+    "exampleZhHant": "農民在田裡工作。",
     "source": "pdf"
   },
   {
@@ -4113,6 +5232,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "理发师",
     "zhHant": "理髮師",
     "examplePt": "A cabeleireira corta o cabelo.",
+    "exampleEn": "The hairdresser cuts hair.",
+    "exampleZhHans": "女理发师剪头发。",
+    "exampleZhHant": "女理髮師剪頭髮。",
     "source": "pdf"
   },
   {
@@ -4124,6 +5246,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "厨师",
     "zhHant": "廚師",
     "examplePt": "O cozinheiro trabalha na cozinha.",
+    "exampleEn": "The cook works in the kitchen.",
+    "exampleZhHans": "厨师在厨房工作。",
+    "exampleZhHant": "廚師在廚房工作。",
     "source": "pdf"
   },
   {
@@ -4135,6 +5260,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "清洁工",
     "zhHant": "清潔工",
     "examplePt": "A empregada de limpeza trabalha em casas particulares.",
+    "exampleEn": "The cleaner works in private homes.",
+    "exampleZhHans": "女清洁工在私人住宅工作。",
+    "exampleZhHant": "女清潔工在私人住宅工作。",
     "source": "pdf"
   },
   {
@@ -4146,6 +5274,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医生",
     "zhHant": "醫生",
     "examplePt": "A médica observa o doente.",
+    "exampleEn": "The doctor examines the patient.",
+    "exampleZhHans": "女医生观察病人。",
+    "exampleZhHant": "女醫生觀察病人。",
     "source": "pdf"
   },
   {
@@ -4157,6 +5288,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "瓦工",
     "zhHant": "瓦工",
     "examplePt": "O pedreiro trabalha nas obras.",
+    "exampleEn": "The bricklayer works on construction sites.",
+    "exampleZhHans": "瓦工在建筑工地工作。",
+    "exampleZhHant": "瓦工在建築工地工作。",
     "source": "pdf"
   },
   {
@@ -4168,6 +5302,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "老师",
     "zhHant": "老師",
     "examplePt": "A professora trabalha na escola.",
+    "exampleEn": "The teacher works at the school.",
+    "exampleZhHans": "女老师在学校工作。",
+    "exampleZhHant": "女老師在學校工作。",
     "source": "pdf"
   },
   {
@@ -4179,6 +5316,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "秘书",
     "zhHant": "秘書",
     "examplePt": "A secretária atende o telefone.",
+    "exampleEn": "The secretary answers the phone.",
+    "exampleZhHans": "秘书接电话。",
+    "exampleZhHant": "秘書接電話。",
     "source": "pdf"
   },
   {
@@ -4190,6 +5330,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "到达",
     "zhHant": "到達",
     "examplePt": "Ela chegou à meta.",
+    "exampleEn": "She reached the finish line.",
+    "exampleZhHans": "她到达了终点。",
+    "exampleZhHant": "她到達了終點。",
     "source": "pdf"
   },
   {
@@ -4201,6 +5344,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "进入",
     "zhHant": "進入",
     "examplePt": "As crianças entraram na escola.",
+    "exampleEn": "The children entered the school.",
+    "exampleZhHans": "孩子们进了学校。",
+    "exampleZhHant": "孩子們進了學校。",
     "source": "pdf"
   },
   {
@@ -4212,6 +5358,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "离开",
     "zhHant": "離開",
     "examplePt": "Ela saiu do aeroporto.",
+    "exampleEn": "She left the airport.",
+    "exampleZhHans": "她离开了机场。",
+    "exampleZhHant": "她離開了機場。",
     "source": "pdf"
   },
   {
@@ -4223,6 +5372,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "头盔",
     "zhHant": "頭盔",
     "examplePt": "Usa o capacete nas obras.",
+    "exampleEn": "Wear the helmet on the construction site.",
+    "exampleZhHans": "在工地要戴安全帽。",
+    "exampleZhHant": "在工地要戴安全帽。",
     "source": "pdf"
   },
   {
@@ -4234,6 +5386,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "储存",
     "zhHant": "儲存",
     "examplePt": "O trabalhador armazena produtos.",
+    "exampleEn": "The worker stores products.",
+    "exampleZhHans": "工人储存产品。",
+    "exampleZhHant": "工人儲存產品。",
     "source": "pdf"
   },
   {
@@ -4245,6 +5400,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "吸尘",
     "zhHant": "吸塵",
     "examplePt": "Ela aspira o chão.",
+    "exampleEn": "She vacuums the floor.",
+    "exampleZhHans": "她用吸尘器吸地板。",
+    "exampleZhHant": "她用吸塵器吸地板。",
     "source": "pdf"
   },
   {
@@ -4256,6 +5414,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "搬运/装载",
     "zhHant": "搬運/裝載",
     "examplePt": "Ele carrega produtos.",
+    "exampleEn": "He loads products.",
+    "exampleZhHans": "他装载产品。",
+    "exampleZhHant": "他裝載產品。",
     "source": "pdf"
   },
   {
@@ -4267,6 +5428,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "剪头发",
     "zhHant": "剪頭髮",
     "examplePt": "Vou cortar o cabelo amanhã.",
+    "exampleEn": "I am going to cut my hair tomorrow.",
+    "exampleZhHans": "我明天要剪头发。",
+    "exampleZhHant": "我明天要剪頭髮。",
     "source": "pdf"
   },
   {
@@ -4278,6 +5442,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "做饭",
     "zhHant": "煮飯",
     "examplePt": "Gosto de cozinhar.",
+    "exampleEn": "I like to cook.",
+    "exampleZhHans": "我喜欢做饭。",
+    "exampleZhHant": "我喜歡煮飯。",
     "source": "pdf"
   },
   {
@@ -4289,6 +5456,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "卸货/下载",
     "zhHant": "卸貨/下載",
     "examplePt": "Ela descarrega produtos.",
+    "exampleEn": "She unloads products.",
+    "exampleZhHans": "她卸下产品。",
+    "exampleZhHant": "她卸下產品。",
     "source": "pdf"
   },
   {
@@ -4300,6 +5470,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "教导",
     "zhHant": "教導",
     "examplePt": "A professora ensina português.",
+    "exampleEn": "The teacher teaches Portuguese.",
+    "exampleZhHans": "女老师教葡萄牙语。",
+    "exampleZhHant": "女老師教葡萄牙語。",
     "source": "pdf"
   },
   {
@@ -4311,6 +5484,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "做测试",
     "zhHant": "做測試",
     "examplePt": "Tenho de fazer exames.",
+    "exampleEn": "I have to do tests.",
+    "exampleZhHans": "我必须做检查。",
+    "exampleZhHant": "我必須做檢查。",
     "source": "pdf"
   },
   {
@@ -4322,6 +5498,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "洗头发",
     "zhHant": "洗頭髮",
     "examplePt": "A cabeleireira lava a cabeça da cliente.",
+    "exampleEn": "The hairdresser washes the client's hair.",
+    "exampleZhHans": "女理发师给女顾客洗头。",
+    "exampleZhHant": "女理髮師給女顧客洗頭。",
     "source": "pdf"
   },
   {
@@ -4333,6 +5512,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "拖地",
     "zhHant": "拖地",
     "examplePt": "Ele lava o chão da cozinha.",
+    "exampleEn": "He mops the kitchen floor.",
+    "exampleZhHans": "他拖厨房地板。",
+    "exampleZhHant": "他拖廚房地板。",
     "source": "pdf"
   },
   {
@@ -4344,6 +5526,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去灰尘",
     "zhHant": "去灰塵",
     "examplePt": "Vou limpar o pó da secretária.",
+    "exampleEn": "I am going to dust the desk.",
+    "exampleZhHans": "我要给书桌除尘。",
+    "exampleZhHant": "我要給書桌除塵。",
     "source": "pdf"
   },
   {
@@ -4355,6 +5540,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "安排会议",
     "zhHant": "安排會議",
     "examplePt": "Ela marcou uma reunião.",
+    "exampleEn": "She scheduled a meeting.",
+    "exampleZhHans": "她安排了一次会议。",
+    "exampleZhHant": "她安排了一次會議。",
     "source": "pdf"
   },
   {
@@ -4366,6 +5554,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "检查病人",
     "zhHant": "檢查病人",
     "examplePt": "A médica observa o doente.",
+    "exampleEn": "The doctor examines the patient.",
+    "exampleZhHans": "女医生观察病人。",
+    "exampleZhHant": "女醫生觀察病人。",
     "source": "pdf"
   },
   {
@@ -4377,6 +5568,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "开处方",
     "zhHant": "開處方",
     "examplePt": "A médica passa receitas.",
+    "exampleEn": "The doctor writes prescriptions.",
+    "exampleZhHans": "女医生开处方。",
+    "exampleZhHant": "女醫生開處方。",
     "source": "pdf"
   },
   {
@@ -4388,6 +5582,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "梳理",
     "zhHant": "梳理",
     "examplePt": "Ela penteia o cabelo.",
+    "exampleEn": "She combs her hair.",
+    "exampleZhHans": "她梳头发。",
+    "exampleZhHant": "她梳頭髮。",
     "source": "pdf"
   },
   {
@@ -4399,6 +5596,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "准备食物",
     "zhHant": "準備食物",
     "examplePt": "O cozinheiro prepara os alimentos.",
+    "exampleEn": "The cook prepares the food.",
+    "exampleZhHans": "厨师准备食物。",
+    "exampleZhHant": "廚師準備食物。",
     "source": "pdf"
   },
   {
@@ -4410,6 +5610,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "餐桌服务/当服务员",
     "zhHant": "端菜服務/餐桌服務",
     "examplePt": "Ela sabe servir à mesa.",
+    "exampleEn": "She knows how to wait tables.",
+    "exampleZhHans": "她会在餐桌旁服务。",
+    "exampleZhHant": "她會在餐桌旁服務。",
     "source": "pdf"
   },
   {
@@ -4421,6 +5624,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "前天",
     "zhHant": "前天",
     "examplePt": "Anteontem trabalhei muito.",
+    "exampleEn": "The day before yesterday I worked a lot.",
+    "exampleZhHans": "前天我工作了很多。",
+    "exampleZhHant": "前天我工作了很多。",
     "source": "pdf"
   },
   {
@@ -4432,6 +5638,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "不久前",
     "zhHant": "不久前",
     "examplePt": "Ele saiu há bocado.",
+    "exampleEn": "He left a short while ago.",
+    "exampleZhHans": "他刚才出去了。",
+    "exampleZhHant": "他剛才出去了。",
     "source": "pdf"
   },
   {
@@ -4443,6 +5652,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "昨天",
     "zhHant": "昨天",
     "examplePt": "Ontem assinei o contrato.",
+    "exampleEn": "Yesterday I signed the contract.",
+    "exampleZhHans": "昨天我签了合同。",
+    "exampleZhHant": "昨天我簽了合約。",
     "source": "pdf"
   },
   {
@@ -4454,6 +5666,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "求职/可应聘",
     "zhHant": "求職/可應聘",
     "examplePt": "No anúncio, lê-se: oferece-se cozinheira.",
+    "exampleEn": "The advertisement reads: cook available.",
+    "exampleZhHans": "广告上写着：招聘女厨师。",
+    "exampleZhHant": "廣告上寫著：招聘女廚師。",
     "source": "pdf"
   },
   {
@@ -4465,6 +5680,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "要求",
     "zhHant": "要求",
     "examplePt": "O anúncio tem vários requisitos.",
+    "exampleEn": "The advertisement has several requirements.",
+    "exampleZhHans": "广告有多项要求。",
+    "exampleZhHant": "廣告有多項要求。",
     "source": "pdf"
   },
   {
@@ -4476,6 +5694,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "我正在找工作",
     "zhHant": "我正在找工作",
     "examplePt": "Procuro trabalho no meu ramo.",
+    "exampleEn": "I am looking for work in my field.",
+    "exampleZhHans": "我在本行业找工作。",
+    "exampleZhHant": "我在本行業找工作。",
     "source": "pdf"
   },
   {
@@ -4487,6 +5708,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "认识/相遇",
     "zhHant": "認識/相遇",
     "examplePt": "Ela conheceu as condições de trabalho.",
+    "exampleEn": "She learned about the working conditions.",
+    "exampleZhHans": "她了解了工作条件。",
+    "exampleZhHant": "她了解了工作條件。",
     "source": "pdf"
   },
   {
@@ -4498,6 +5722,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "能够/成功做到",
     "zhHant": "能夠/成功做到",
     "examplePt": "Ela conseguiu ficar com o emprego.",
+    "exampleEn": "She managed to keep the job.",
+    "exampleZhHans": "她成功保住了这份工作。",
+    "exampleZhHant": "她成功保住了這份工作。",
     "source": "pdf"
   },
   {
@@ -4509,6 +5736,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "获得国籍",
     "zhHant": "獲得國籍",
     "examplePt": "Ele quer adquirir a nacionalidade portuguesa.",
+    "exampleEn": "He wants to acquire Portuguese nationality.",
+    "exampleZhHans": "他想取得葡萄牙国籍。",
+    "exampleZhHant": "他想取得葡萄牙國籍。",
     "source": "pdf"
   },
   {
@@ -4520,6 +5750,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工作经验",
     "zhHant": "工作經驗",
     "examplePt": "Tenho experiência profissional em pastelaria.",
+    "exampleEn": "I have professional experience in pastry making.",
+    "exampleZhHans": "我有糕点制作方面的工作经验。",
+    "exampleZhHant": "我有糕點製作方面的工作經驗。",
     "source": "pdf"
   },
   {
@@ -4531,6 +5764,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "教育",
     "zhHant": "教育",
     "examplePt": "A formação académica está no CV.",
+    "exampleEn": "The academic background is on the CV.",
+    "exampleZhHans": "学历在简历上。",
+    "exampleZhHant": "學歷在履歷上。",
     "source": "pdf"
   },
   {
@@ -4542,6 +5778,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "个人资料",
     "zhHant": "個人資料",
     "examplePt": "O currículo tem dados de identificação.",
+    "exampleEn": "The resume has personal identification details.",
+    "exampleZhHans": "简历上有身份资料。",
+    "exampleZhHant": "履歷上有身分資料。",
     "source": "pdf"
   },
   {
@@ -4553,6 +5792,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "求职信",
     "zhHant": "求職信",
     "examplePt": "Envio uma carta de apresentação.",
+    "exampleEn": "I am sending a cover letter.",
+    "exampleZhHans": "我寄出一封求职信。",
+    "exampleZhHant": "我寄出一封求職信。",
     "source": "pdf"
   },
   {
@@ -4564,6 +5806,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "驾驶执照",
     "zhHant": "駕駛執照",
     "examplePt": "Tenho carta de condução.",
+    "exampleEn": "I have a driving licence.",
+    "exampleZhHans": "我有驾驶执照。",
+    "exampleZhHant": "我有駕駛執照。",
     "source": "pdf"
   },
   {
@@ -4575,6 +5820,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "可上班时间",
     "zhHant": "可上班時間",
     "examplePt": "Tenho disponibilidade para entrada imediata.",
+    "exampleEn": "I am available for an immediate start.",
+    "exampleZhHans": "我可以立即入职。",
+    "exampleZhHant": "我可以立即入職。",
     "source": "pdf"
   },
   {
@@ -4586,6 +5834,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "立即开始",
     "zhHant": "立即開始",
     "examplePt": "O anúncio pede entrada imediata.",
+    "exampleEn": "The advertisement asks for an immediate start.",
+    "exampleZhHans": "广告要求立即入职。",
+    "exampleZhHant": "廣告要求立即入職。",
     "source": "pdf"
   },
   {
@@ -4597,6 +5848,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工作面试",
     "zhHant": "工作面試",
     "examplePt": "Fui a uma entrevista de trabalho.",
+    "exampleEn": "I went to a job interview.",
+    "exampleZhHans": "我去参加了一次工作面试。",
+    "exampleZhHant": "我去參加了一次工作面試。",
     "source": "pdf"
   },
   {
@@ -4608,6 +5862,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "日程安排的灵活性",
     "zhHant": "日程安排的彈性",
     "examplePt": "O emprego pede flexibilidade de horário.",
+    "exampleEn": "The job requires schedule flexibility.",
+    "exampleZhHans": "这份工作要求时间安排灵活。",
+    "exampleZhHant": "這份工作要求時間安排靈活。",
     "source": "pdf"
   },
   {
@@ -4619,6 +5876,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "角色/功能",
     "zhHant": "角色/功能",
     "examplePt": "Apresento a minha candidatura para esta função.",
+    "exampleEn": "I am submitting my application for this role.",
+    "exampleZhHans": "我提交对这个职务的申请。",
+    "exampleZhHant": "我提交對這個職務的申請。",
     "source": "pdf"
   },
   {
@@ -4630,6 +5890,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工作机会",
     "zhHant": "工作機會",
     "examplePt": "Parece uma boa oportunidade de trabalho.",
+    "exampleEn": "It seems like a good job opportunity.",
+    "exampleZhHans": "这看起来是一个好的工作机会。",
+    "exampleZhHant": "這看起來是一個好的工作機會。",
     "source": "pdf"
   },
   {
@@ -4641,6 +5904,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "薪酬/报酬",
     "zhHant": "薪酬/報酬",
     "examplePt": "A remuneração é compatível com as funções.",
+    "exampleEn": "The remuneration is compatible with the duties.",
+    "exampleZhHans": "报酬与职能相符。",
+    "exampleZhHant": "報酬與職能相符。",
     "source": "pdf"
   },
   {
@@ -4652,6 +5918,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "空缺",
     "zhHant": "空缺",
     "examplePt": "Há uma vaga de tradutor.",
+    "exampleEn": "There is a translator vacancy.",
+    "exampleZhHans": "有一个翻译职位空缺。",
+    "exampleZhHant": "有一個翻譯職位空缺。",
     "source": "pdf"
   },
   {
@@ -4663,6 +5932,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "申请",
     "zhHant": "申請",
     "examplePt": "Vou candidatar-me a esta vaga.",
+    "exampleEn": "I am going to apply for this vacancy.",
+    "exampleZhHans": "我要申请这个职位空缺。",
+    "exampleZhHant": "我要申請這個職位空缺。",
     "source": "pdf"
   },
   {
@@ -4674,6 +5946,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "失业的",
     "zhHant": "失業的",
     "examplePt": "O jovem está desempregado.",
+    "exampleEn": "The young man is unemployed.",
+    "exampleZhHans": "这个年轻人失业了。",
+    "exampleZhHant": "這個年輕人失業了。",
     "source": "pdf"
   },
   {
@@ -4685,6 +5960,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "辞职",
     "zhHant": "辭職",
     "examplePt": "Quando foi a última vez que se despediu de um emprego?",
+    "exampleEn": "When was the last time you quit a job?",
+    "exampleZhHans": "你上一次辞去一份工作是什么时候？",
+    "exampleZhHant": "你上一次辭去一份工作是什麼時候？",
     "source": "pdf"
   },
   {
@@ -4696,6 +5974,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "招聘广告",
     "zhHant": "徵才廣告",
     "examplePt": "Li um anúncio de trabalho.",
+    "exampleEn": "I read a job advertisement.",
+    "exampleZhHans": "我读了一则招聘广告。",
+    "exampleZhHant": "我讀了一則招聘廣告。",
     "source": "pdf"
   },
   {
@@ -4707,6 +5988,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "加薪",
     "zhHant": "加薪",
     "examplePt": "Recebeu um aumento no salário.",
+    "exampleEn": "He or she received a salary increase.",
+    "exampleZhHans": "得到了加薪。",
+    "exampleZhHant": "得到了加薪。",
     "source": "pdf"
   },
   {
@@ -4718,6 +6002,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "职位",
     "zhHant": "職位",
     "examplePt": "Ele tem um cargo na associação.",
+    "exampleEn": "He has a position in the association.",
+    "exampleZhHans": "他在协会里有一个职位。",
+    "exampleZhHant": "他在協會裡有一個職位。",
     "source": "pdf"
   },
   {
@@ -4729,6 +6016,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "简历/履历",
     "zhHant": "履歷/簡歷",
     "examplePt": "Enviei o meu currículo para a empresa.",
+    "exampleEn": "I sent my resume to the company.",
+    "exampleZhHans": "我把我的简历寄给了公司。",
+    "exampleZhHant": "我把我的履歷寄給了公司。",
     "source": "pdf"
   },
   {
@@ -4740,6 +6030,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "简历",
     "zhHant": "履歷",
     "examplePt": "Enviei o meu CV para a empresa.",
+    "exampleEn": "I sent my CV to the company.",
+    "exampleZhHans": "我把我的简历寄给了公司。",
+    "exampleZhHant": "我把我的履歷寄給了公司。",
     "source": "pdf"
   },
   {
@@ -4751,6 +6044,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工资/薪水",
     "zhHant": "工資/薪水",
     "examplePt": "O ordenado é compatível com as funções.",
+    "exampleEn": "The salary is compatible with the duties.",
+    "exampleZhHans": "薪水与职能相符。",
+    "exampleZhHant": "薪水與職能相符。",
     "source": "pdf"
   },
   {
@@ -4762,6 +6058,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "失业救济金",
     "zhHant": "失業救濟金",
     "examplePt": "Recebeu um subsídio de desemprego.",
+    "exampleEn": "He or she received unemployment benefit.",
+    "exampleZhHans": "收到了失业补助金。",
+    "exampleZhHant": "收到了失業補助金。",
     "source": "pdf"
   },
   {
@@ -4773,6 +6072,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "薪资/工资",
     "zhHant": "薪資/工資",
     "examplePt": "O vencimento é de 580 euros.",
+    "exampleEn": "The pay is 580 euros.",
+    "exampleZhHans": "工资是580欧元。",
+    "exampleZhHant": "薪資是580歐元。",
     "source": "pdf"
   },
   {
@@ -4784,6 +6086,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "税收",
     "zhHant": "稅收",
     "examplePt": "O vencimento está sujeito a impostos.",
+    "exampleEn": "The pay is subject to taxes.",
+    "exampleZhHans": "工资需缴税。",
+    "exampleZhHant": "薪資需繳稅。",
     "source": "pdf"
   },
   {
@@ -4795,6 +6100,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "绿色收据/自由职业发票",
     "zhHant": "綠色收據/自由職業收據",
     "examplePt": "Trabalhou a recibos verdes.",
+    "exampleEn": "He or she worked on green receipts.",
+    "exampleZhHans": "曾以绿色收据形式工作。",
+    "exampleZhHant": "曾以綠色收據形式工作。",
     "source": "pdf"
   },
   {
@@ -4806,6 +6114,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "园艺",
     "zhHant": "園藝",
     "examplePt": "Ele tem experiência em jardinagem.",
+    "exampleEn": "He has experience in gardening.",
+    "exampleZhHans": "他有园艺经验。",
+    "exampleZhHant": "他有園藝經驗。",
     "source": "pdf"
   },
   {
@@ -4817,6 +6128,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "家政工人",
     "zhHant": "家事勞工",
     "examplePt": "A senhora procura uma empregada doméstica.",
+    "exampleEn": "The lady is looking for a domestic worker.",
+    "exampleZhHans": "这位女士在找一名家政女工。",
+    "exampleZhHant": "這位女士在找一名家政女工。",
     "source": "pdf"
   },
   {
@@ -4828,6 +6142,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "出席率",
     "zhHant": "出席率",
     "examplePt": "A assiduidade é importante no trabalho.",
+    "exampleEn": "Attendance is important at work.",
+    "exampleZhHans": "出勤在工作中很重要。",
+    "exampleZhHant": "出勤在工作中很重要。",
     "source": "pdf"
   },
   {
@@ -4839,6 +6156,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "准时",
     "zhHant": "準時",
     "examplePt": "O trabalhador é pontual.",
+    "exampleEn": "The worker is punctual.",
+    "exampleZhHans": "这名工人很守时。",
+    "exampleZhHant": "這名工人很守時。",
     "source": "pdf"
   },
   {
@@ -4850,6 +6170,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "负责任的",
     "zhHant": "負責任的",
     "examplePt": "Ela é responsável e pontual.",
+    "exampleEn": "She is responsible and punctual.",
+    "exampleZhHans": "她负责而且守时。",
+    "exampleZhHant": "她負責而且守時。",
     "source": "pdf"
   },
   {
@@ -4861,6 +6184,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "这是允许的",
     "zhHant": "這是允許的",
     "examplePt": "É permitida a venda de bilhetes.",
+    "exampleEn": "The sale of tickets is allowed.",
+    "exampleZhHans": "允许售票。",
+    "exampleZhHant": "允許售票。",
     "source": "pdf"
   },
   {
@@ -4872,6 +6198,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "这是禁止的",
     "zhHant": "這是禁止的",
     "examplePt": "É proibido usar o telemóvel.",
+    "exampleEn": "It is forbidden to use the mobile phone.",
+    "exampleZhHans": "禁止使用手机。",
+    "exampleZhHant": "禁止使用手機。",
     "source": "pdf"
   },
   {
@@ -4883,6 +6212,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工作场所",
     "zhHant": "工作場所",
     "examplePt": "Não se pode fumar no local de trabalho.",
+    "exampleEn": "You cannot smoke in the workplace.",
+    "exampleZhHans": "工作场所内不能吸烟。",
+    "exampleZhHant": "工作場所內不能吸菸。",
     "source": "pdf"
   },
   {
@@ -4894,6 +6226,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "自从",
     "zhHant": "自從",
     "examplePt": "Trabalho nesse restaurante desde 2006.",
+    "exampleEn": "I have worked at that restaurant since 2006.",
+    "exampleZhHans": "我从2006年起就在那家餐厅工作。",
+    "exampleZhHant": "我從2006年起就在那家餐廳工作。",
     "source": "pdf"
   },
   {
@@ -4905,6 +6240,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "最便宜的",
     "zhHant": "最便宜的",
     "examplePt": "O produto mais barato é a consola.",
+    "exampleEn": "The cheapest product is the game console.",
+    "exampleZhHans": "最便宜的产品是游戏机。",
+    "exampleZhHant": "最便宜的產品是遊戲機。",
     "source": "pdf"
   },
   {
@@ -4916,6 +6254,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "最贵的",
     "zhHant": "最貴的",
     "examplePt": "O produto mais caro é a televisão.",
+    "exampleEn": "The most expensive product is the television.",
+    "exampleZhHans": "最贵的产品是电视。",
+    "exampleZhHant": "最貴的產品是電視。",
     "source": "pdf"
   },
   {
@@ -4927,6 +6268,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "出色的",
     "zhHant": "出色的",
     "examplePt": "Este concerto é ótimo.",
+    "exampleEn": "This concert is excellent.",
+    "exampleZhHans": "这场音乐会很棒。",
+    "exampleZhHant": "這場音樂會很棒。",
     "source": "pdf"
   },
   {
@@ -4938,6 +6282,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "糟糕的",
     "zhHant": "糟糕的",
     "examplePt": "Esta comida está péssima.",
+    "exampleEn": "This food is terrible.",
+    "exampleZhHans": "这道菜非常糟糕。",
+    "exampleZhHant": "這道菜非常糟糕。",
     "source": "pdf"
   },
   {
@@ -4949,6 +6296,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "古老的",
     "zhHant": "古老的",
     "examplePt": "O edifício é antigo.",
+    "exampleEn": "The building is old.",
+    "exampleZhHans": "这栋建筑很古老。",
+    "exampleZhHant": "這棟建築很古老。",
     "source": "pdf"
   },
   {
@@ -4960,6 +6310,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "嘈杂",
     "zhHant": "吵雜",
     "examplePt": "O Rossio é muito barulhento.",
+    "exampleEn": "Rossio is very noisy.",
+    "exampleZhHans": "罗西奥非常吵闹。",
+    "exampleZhHant": "羅西奧非常吵鬧。",
     "source": "pdf"
   },
   {
@@ -4971,6 +6324,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "安静的；冷静的",
     "zhHant": "安静的；冷静的",
     "examplePt": "O Rossio era muito calmo.",
+    "exampleEn": "Rossio used to be very calm.",
+    "exampleZhHans": "罗西奥以前很安静。",
+    "exampleZhHant": "羅西奧以前很安靜。",
     "source": "pdf"
   },
   {
@@ -4982,6 +6338,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "现代的",
     "zhHant": "現代的",
     "examplePt": "O bairro é moderno.",
+    "exampleEn": "The neighbourhood is modern.",
+    "exampleZhHans": "这个街区很现代。",
+    "exampleZhHant": "這個街區很現代。",
     "source": "pdf"
   },
   {
@@ -4993,6 +6352,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "忙碌的",
     "zhHant": "忙碌的",
     "examplePt": "O Rossio é muito movimentado.",
+    "exampleEn": "Rossio is very busy.",
+    "exampleZhHans": "罗西奥非常热闹。",
+    "exampleZhHant": "羅西奧非常熱鬧。",
     "source": "pdf"
   },
   {
@@ -5004,6 +6366,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "交通繁忙",
     "zhHant": "交通繁忙",
     "examplePt": "O Rossio tem muito trânsito.",
+    "exampleEn": "Rossio has a lot of traffic.",
+    "exampleZhHans": "罗西奥交通很多。",
+    "exampleZhHant": "羅西奧交通很多。",
     "source": "pdf"
   },
   {
@@ -5015,6 +6380,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "被污染的",
     "zhHant": "被污染的",
     "examplePt": "O lugar está poluído.",
+    "exampleEn": "The place is polluted.",
+    "exampleZhHans": "这个地方被污染了。",
+    "exampleZhHant": "這個地方被污染了。",
     "source": "pdf"
   },
   {
@@ -5026,6 +6394,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "交通很少",
     "zhHant": "交通很少",
     "examplePt": "O Rossio tinha pouco trânsito.",
+    "exampleEn": "Rossio used to have little traffic.",
+    "exampleZhHans": "罗西奥以前交通很少。",
+    "exampleZhHant": "羅西奧以前交通很少。",
     "source": "pdf"
   },
   {
@@ -5037,6 +6408,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "瘦的",
     "zhHant": "瘦的",
     "examplePt": "Ele era magro.",
+    "exampleEn": "He used to be thin.",
+    "exampleZhHans": "他以前很瘦。",
+    "exampleZhHant": "他以前很瘦。",
     "source": "pdf"
   },
   {
@@ -5048,6 +6422,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "出生证明",
     "zhHant": "出生證明",
     "examplePt": "A escola pede a cédula da criança.",
+    "exampleEn": "The school asks for the child's birth certificate.",
+    "exampleZhHans": "学校要求提供孩子的出生证明。",
+    "exampleZhHant": "學校要求提供孩子的出生證明。",
     "source": "pdf"
   },
   {
@@ -5059,6 +6436,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "报名",
     "zhHant": "報名",
     "examplePt": "Queria matricular o meu filho.",
+    "exampleEn": "I would like to enrol my son.",
+    "exampleZhHans": "我想给我儿子报名入学。",
+    "exampleZhHant": "我想給我兒子報名入學。",
     "source": "pdf"
   },
   {
@@ -5070,6 +6450,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "自来水",
     "zhHant": "自來水",
     "examplePt": "As pessoas usam água corrente.",
+    "exampleEn": "People use running water.",
+    "exampleZhHans": "人们使用自来水。",
+    "exampleZhHant": "人們使用自來水。",
     "source": "pdf"
   },
   {
@@ -5081,6 +6464,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "用手机通话",
     "zhHant": "用手機通話",
     "examplePt": "As pessoas falam ao telemóvel.",
+    "exampleEn": "People talk on mobile phones.",
+    "exampleZhHans": "人们用手机通话。",
+    "exampleZhHant": "人們用手機通話。",
     "source": "pdf"
   },
   {
@@ -5092,6 +6478,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "寻找更好的生活",
     "zhHant": "尋找更好的生活",
     "examplePt": "Foram para fora do país à procura de uma vida melhor.",
+    "exampleEn": "They went abroad in search of a better life.",
+    "exampleZhHans": "他们去了国外寻找更好的生活。",
+    "exampleZhHant": "他們去了國外尋找更好的生活。",
     "source": "pdf"
   },
   {
@@ -5103,6 +6492,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "移民海外",
     "zhHant": "移民海外",
     "examplePt": "Muitos portugueses emigraram.",
+    "exampleEn": "Many Portuguese people emigrated.",
+    "exampleZhHans": "许多葡萄牙人移民到了国外。",
+    "exampleZhHant": "許多葡萄牙人移民到了國外。",
     "source": "pdf"
   },
   {
@@ -5114,6 +6506,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "现在",
     "zhHant": "現在",
     "examplePt": "Agora vivo em Lisboa.",
+    "exampleEn": "Now I live in Lisbon.",
+    "exampleZhHans": "现在我住在里斯本。",
+    "exampleZhHant": "現在我住在里斯本。",
     "source": "pdf"
   },
   {
@@ -5125,6 +6520,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "在过去",
     "zhHant": "在過去",
     "examplePt": "Antigamente as pessoas andavam de carroça.",
+    "exampleEn": "In the past, people travelled by cart.",
+    "exampleZhHans": "从前人们乘马车出行。",
+    "exampleZhHant": "從前人們乘馬車出行。",
     "source": "pdf"
   },
   {
@@ -5136,6 +6534,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "在过去",
     "zhHant": "在過去",
     "examplePt": "Dantes, as pessoas andavam de carroça.",
+    "exampleEn": "In the old days, people travelled by cart.",
+    "exampleZhHans": "过去，人们乘马车出行。",
+    "exampleZhHant": "過去，人們乘馬車出行。",
     "source": "pdf"
   },
   {
@@ -5147,6 +6548,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "邻居",
     "zhHant": "鄰居",
     "examplePt": "Os vizinhos são portugueses.",
+    "exampleEn": "The neighbours are Portuguese.",
+    "exampleZhHans": "邻居们是葡萄牙人。",
+    "exampleZhHant": "鄰居們是葡萄牙人。",
     "source": "pdf"
   },
   {
@@ -5158,6 +6562,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "牛仔裤",
     "zhHant": "牛仔褲",
     "examplePt": "Ele usava calças de ganga.",
+    "exampleEn": "He used to wear jeans.",
+    "exampleZhHans": "他以前穿牛仔裤。",
+    "exampleZhHant": "他以前穿牛仔褲。",
     "source": "pdf"
   },
   {
@@ -5169,6 +6576,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "疫苗接种记录",
     "zhHant": "疫苗接種記錄",
     "examplePt": "A escola pede o boletim de vacinas.",
+    "exampleEn": "The school asks for the vaccination record.",
+    "exampleZhHans": "学校要求提供疫苗接种记录。",
+    "exampleZhHant": "學校要求提供疫苗接種紀錄。",
     "source": "pdf"
   },
   {
@@ -5180,6 +6590,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "视力和听力问题",
     "zhHant": "視力和聽力問題",
     "examplePt": "A ficha permite detetar problemas visuais e auditivos.",
+    "exampleEn": "The form makes it possible to detect vision and hearing problems.",
+    "exampleZhHans": "表格可以帮助发现视力和听力问题。",
+    "exampleZhHant": "表格可以幫助發現視力和聽力問題。",
     "source": "pdf"
   },
   {
@@ -5191,6 +6604,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "当时",
     "zhHant": "當時",
     "examplePt": "Naquela época, eles viviam no campo.",
+    "exampleEn": "At that time, they lived in the countryside.",
+    "exampleZhHans": "在那个时期，他们住在乡下。",
+    "exampleZhHant": "在那個時期，他們住在鄉下。",
     "source": "pdf"
   },
   {
@@ -5202,6 +6618,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "当年",
     "zhHant": "當年",
     "examplePt": "Naquele tempo, acordávamos muito cedo.",
+    "exampleEn": "In those days, we used to wake up very early.",
+    "exampleZhHans": "那时候，我们很早起床。",
+    "exampleZhHant": "那時候，我們很早起床。",
     "source": "pdf"
   },
   {
@@ -5213,6 +6632,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "开车去",
     "zhHant": "開車去",
     "examplePt": "Hoje anda-se de carro.",
+    "exampleEn": "Nowadays people travel by car.",
+    "exampleZhHans": "如今人们开车出行。",
+    "exampleZhHant": "如今人們開車出行。",
     "source": "pdf"
   },
   {
@@ -5224,6 +6646,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "健康的饮食",
     "zhHant": "健康的飲食",
     "examplePt": "Tem tido uma alimentação saudável?",
+    "exampleEn": "Have you been eating a healthy diet?",
+    "exampleZhHans": "您一直有健康饮食吗？",
+    "exampleZhHant": "您一直有健康飲食嗎？",
     "source": "pdf"
   },
   {
@@ -5235,6 +6660,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一顿饭",
     "zhHant": "一頓飯",
     "examplePt": "Come as refeições a horas?",
+    "exampleEn": "Do you eat your meals on time?",
+    "exampleZhHans": "您按时吃饭吗？",
+    "exampleZhHant": "您按時吃飯嗎？",
     "source": "pdf"
   },
   {
@@ -5246,6 +6674,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "建筑工程",
     "zhHant": "建築工程",
     "examplePt": "Ultimamente eles têm trabalhado na construção civil.",
+    "exampleEn": "Lately, they have been working in construction.",
+    "exampleZhHans": "最近他们一直在建筑行业工作。",
+    "exampleZhHant": "最近他們一直在建築業工作。",
     "source": "pdf"
   },
   {
@@ -5257,6 +6688,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "失去工作",
     "zhHant": "失去工作",
     "examplePt": "O Santiago perdeu o emprego.",
+    "exampleEn": "Santiago lost his job.",
+    "exampleZhHans": "Santiago 失业了。",
+    "exampleZhHant": "Santiago 失業了。",
     "source": "pdf"
   },
   {
@@ -5268,6 +6702,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "找工作",
     "zhHant": "找工作",
     "examplePt": "O Vladimir tem procurado emprego desde que chegou a Lisboa.",
+    "exampleEn": "Vladimir has been looking for work since he arrived in Lisbon.",
+    "exampleZhHans": "Vladimir 自从到达里斯本以来一直在找工作。",
+    "exampleZhHant": "Vladimir 自從到達里斯本以來一直在找工作。",
     "source": "pdf"
   },
   {
@@ -5279,6 +6716,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "很忙",
     "zhHant": "很忙",
     "examplePt": "Ele está ocupado. Ela está ocupada.",
+    "exampleEn": "He is busy. She is busy.",
+    "exampleZhHans": "他很忙。她很忙。",
+    "exampleZhHant": "他很忙。她很忙。",
     "source": "pdf"
   },
   {
@@ -5290,6 +6730,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "依赖",
     "zhHant": "依賴",
     "examplePt": "Lá em casa dependem de mim.",
+    "exampleEn": "At home, they depend on me.",
+    "exampleZhHans": "在家里，他们都依靠我。",
+    "exampleZhHant": "在家裡，他們都依靠我。",
     "source": "pdf"
   },
   {
@@ -5301,6 +6744,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "浏览互联网",
     "zhHant": "瀏覽網路",
     "examplePt": "Eu tenho navegado na net.",
+    "exampleEn": "I have been browsing the internet.",
+    "exampleZhHans": "我最近一直在上网。",
+    "exampleZhHant": "我最近一直在上網。",
     "source": "pdf"
   },
   {
@@ -5312,6 +6758,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "休息",
     "zhHant": "休息",
     "examplePt": "Tenho aproveitado para descansar.",
+    "exampleEn": "I have been taking the opportunity to rest.",
+    "exampleZhHans": "我一直利用这个机会休息。",
+    "exampleZhHant": "我一直利用這個機會休息。",
     "source": "pdf"
   },
   {
@@ -5323,6 +6772,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "去度假",
     "zhHant": "去度假",
     "examplePt": "Tirei uns dias de férias.",
+    "exampleEn": "I took a few days off.",
+    "exampleZhHans": "我休了几天假。",
+    "exampleZhHant": "我休了幾天假。",
     "source": "pdf"
   },
   {
@@ -5334,6 +6786,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "疾病",
     "zhHant": "疾病",
     "examplePt": "Sofre de alguma doença?",
+    "exampleEn": "Do you suffer from any illness?",
+    "exampleZhHans": "您患有什么疾病吗？",
+    "exampleZhHant": "您患有什麼疾病嗎？",
     "source": "pdf"
   },
   {
@@ -5345,6 +6800,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "头痛",
     "zhHant": "頭痛",
     "examplePt": "Tenho tido muitas dores de cabeça.",
+    "exampleEn": "I have been having many headaches.",
+    "exampleZhHans": "我最近经常头痛。",
+    "exampleZhHant": "我最近經常頭痛。",
     "source": "pdf"
   },
   {
@@ -5356,6 +6814,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医生办公室",
     "zhHant": "醫生辦公室",
     "examplePt": "O Manuel está no consultório.",
+    "exampleEn": "Manuel is at the doctor's office.",
+    "exampleZhHans": "Manuel 在诊所。",
+    "exampleZhHant": "Manuel 在診所。",
     "source": "pdf"
   },
   {
@@ -5367,6 +6828,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "压力",
     "zhHant": "壓力",
     "examplePt": "Tem de ter uma vida mais moderada.",
+    "exampleEn": "You have to lead a more moderate life.",
+    "exampleZhHans": "您必须过更有节制的生活。",
+    "exampleZhHant": "您必須過更有節制的生活。",
     "source": "pdf"
   },
   {
@@ -5378,6 +6842,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "感觉良好",
     "zhHant": "感覺良好",
     "examplePt": "Ultimamente não me tenho sentido bem.",
+    "exampleEn": "Lately I have not been feeling well.",
+    "exampleZhHans": "最近我感觉不太好。",
+    "exampleZhHant": "最近我感覺不太好。",
     "source": "pdf"
   },
   {
@@ -5389,6 +6856,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "思念/想念",
     "zhHant": "思念/想念",
     "examplePt": "Têm saudades do peixe fresco.",
+    "exampleEn": "They miss fresh fish.",
+    "exampleZhHans": "他们想念新鲜的鱼。",
+    "exampleZhHant": "他們想念新鮮的魚。",
     "source": "pdf"
   },
   {
@@ -5400,6 +6870,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "想念/怀念",
     "zhHant": "想念/懷念",
     "examplePt": "Têm sentido falta do calor.",
+    "exampleEn": "They have been missing the warmth.",
+    "exampleZhHans": "他们一直想念那里的温暖。",
+    "exampleZhHant": "他們一直想念那裡的溫暖。",
     "source": "pdf"
   },
   {
@@ -5411,6 +6884,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "旅行社",
     "zhHant": "旅行社",
     "examplePt": "Ela trabalha numa agência de viagens.",
+    "exampleEn": "She works at a travel agency.",
+    "exampleZhHans": "她在一家旅行社工作。",
+    "exampleZhHant": "她在一家旅行社工作。",
     "source": "pdf"
   },
   {
@@ -5422,6 +6898,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "到目前为止",
     "zhHant": "到目前為止",
     "examplePt": "Até agora tenho gostado de viver em Portugal.",
+    "exampleEn": "So far, I have enjoyed living in Portugal.",
+    "exampleZhHans": "到目前为止，我一直喜欢在葡萄牙生活。",
+    "exampleZhHant": "到目前為止，我一直喜歡在葡萄牙生活。",
     "source": "pdf"
   },
   {
@@ -5433,6 +6912,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "早期的",
     "zhHant": "早期的",
     "examplePt": "Ela acordava cedo.",
+    "exampleEn": "She used to wake up early.",
+    "exampleZhHans": "她以前早起。",
+    "exampleZhHant": "她以前早起。",
     "source": "pdf"
   },
   {
@@ -5444,6 +6926,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "自从",
     "zhHant": "自從",
     "examplePt": "Desde que chegaram, ele tem saído com eles.",
+    "exampleEn": "Since they arrived, he has been going out with them.",
+    "exampleZhHans": "自从他们到达以后，他一直和他们一起出去。",
+    "exampleZhHant": "自從他們到達以後，他一直和他們一起出去。",
     "source": "pdf"
   },
   {
@@ -5455,6 +6940,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "两天前",
     "zhHant": "兩天前",
     "examplePt": "Há dois dias a Manu encontrou a Padma.",
+    "exampleEn": "Two days ago, Manu met Padma.",
+    "exampleZhHans": "两天前，Manu 遇见了 Padma。",
+    "exampleZhHant": "兩天前，Manu 遇見了 Padma。",
     "source": "pdf"
   },
   {
@@ -5466,6 +6954,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一个月前",
     "zhHant": "一個月前",
     "examplePt": "Há um mês nós estivemos com os nossos tios.",
+    "exampleEn": "A month ago, we were with our aunts and uncles.",
+    "exampleZhHans": "一个月前，我们和叔叔阿姨们在一起。",
+    "exampleZhHant": "一個月前，我們和叔叔阿姨們在一起。",
     "source": "pdf"
   },
   {
@@ -5477,6 +6968,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "上个月",
     "zhHant": "上個月",
     "examplePt": "No mês passado não choveu.",
+    "exampleEn": "It did not rain last month.",
+    "exampleZhHans": "上个月没有下雨。",
+    "exampleZhHant": "上個月沒有下雨。",
     "source": "pdf"
   },
   {
@@ -5488,6 +6982,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "最近的",
     "zhHant": "最近的",
     "examplePt": "São acontecimentos recentes.",
+    "exampleEn": "They are recent events.",
+    "exampleZhHans": "这些是最近发生的事件。",
+    "exampleZhHant": "這些是最近發生的事件。",
     "source": "pdf"
   },
   {
@@ -5499,6 +6996,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "晚的",
     "zhHant": "晚的",
     "examplePt": "Ela tem acordado tarde.",
+    "exampleEn": "She has been waking up late.",
+    "exampleZhHans": "她最近一直很晚起床。",
+    "exampleZhHant": "她最近一直很晚起床。",
     "source": "pdf"
   },
   {
@@ -5510,6 +7010,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "最近",
     "zhHant": "最近",
     "examplePt": "Ultimamente tem chovido muito.",
+    "exampleEn": "It has been raining a lot lately.",
+    "exampleZhHans": "最近雨下得很多。",
+    "exampleZhHant": "最近雨下得很多。",
     "source": "pdf"
   },
   {
@@ -5521,6 +7024,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "步行",
     "zhHant": "步行",
     "examplePt": "Nós passeávamos muito a pé.",
+    "exampleEn": "We used to walk a lot.",
+    "exampleZhHans": "我们以前经常步行散步。",
+    "exampleZhHant": "我們以前經常步行散步。",
     "source": "pdf"
   },
   {
@@ -5532,6 +7038,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "开车",
     "zhHant": "開車",
     "examplePt": "Nós temos passeado de carro.",
+    "exampleEn": "We have been going for drives.",
+    "exampleZhHans": "我们最近常常开车出去兜风。",
+    "exampleZhHant": "我們最近常常開車出去兜風。",
     "source": "pdf"
   },
   {
@@ -5543,6 +7052,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "机票",
     "zhHant": "機票",
     "examplePt": "Vendemos bilhetes de avião.",
+    "exampleEn": "We sell plane tickets.",
+    "exampleZhHans": "我们出售机票。",
+    "exampleZhHant": "我們出售機票。",
     "source": "pdf"
   },
   {
@@ -5554,6 +7066,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "特色菜/专长",
     "zhHant": "特色菜",
     "examplePt": "A especialidade são os bolinhos de bacalhau.",
+    "exampleEn": "The specialty is codfish cakes.",
+    "exampleZhHans": "特色菜是鳕鱼小丸子。",
+    "exampleZhHant": "特色菜是鱈魚小丸子。",
     "source": "pdf"
   },
   {
@@ -5565,6 +7080,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "鳕鱼饼",
     "zhHant": "鱈魚餅",
     "examplePt": "Tens de explicar como se fazem os pastéis de bacalhau.",
+    "exampleEn": "You have to explain how codfish cakes are made.",
+    "exampleZhHans": "你得解释鳕鱼饼是怎么做的。",
+    "exampleZhHant": "你得解釋鱈魚餅是怎麼做的。",
     "source": "pdf"
   },
   {
@@ -5576,6 +7094,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "品牌",
     "zhHant": "品牌",
     "examplePt": "O telemóvel é da marca Vodafone.",
+    "exampleEn": "The mobile phone is from the Vodafone brand.",
+    "exampleZhHans": "这部手机是 Vodafone 品牌的。",
+    "exampleZhHant": "這支手機是 Vodafone 品牌的。",
     "source": "pdf"
   },
   {
@@ -5587,6 +7108,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "收据/付款凭证",
     "zhHant": "收據/付款憑證",
     "examplePt": "Junto cópia do recibo de compra.",
+    "exampleEn": "I am enclosing a copy of the purchase receipt.",
+    "exampleZhHans": "我附上购买收据的副本。",
+    "exampleZhHant": "我附上購買收據的副本。",
     "source": "pdf"
   },
   {
@@ -5598,6 +7122,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "工具",
     "zhHant": "工具",
     "examplePt": "Esta ferramenta tem regras próprias.",
+    "exampleEn": "This tool has its own rules.",
+    "exampleZhHans": "这个工具有自己的规则。",
+    "exampleZhHant": "這個工具有自己的規則。",
     "source": "pdf"
   },
   {
@@ -5609,6 +7136,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "肩膀",
     "zhHant": "肩膀",
     "examplePt": "Tinha dores no ombro direito.",
+    "exampleEn": "He had pain in his right shoulder.",
+    "exampleZhHans": "他右肩疼痛。",
+    "exampleZhHant": "他右肩疼痛。",
     "source": "pdf"
   },
   {
@@ -5620,6 +7150,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "接待处/接待",
     "zhHant": "接待處/接待",
     "examplePt": "A receção da encomenda foi rápida.",
+    "exampleEn": "The order was received quickly.",
+    "exampleZhHans": "包裹接收得很快。",
+    "exampleZhHant": "包裹接收得很快。",
     "source": "pdf"
   },
   {
@@ -5631,6 +7164,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "紧迫性",
     "zhHant": "緊迫性",
     "examplePt": "Tenho muita urgência na receção do mesmo.",
+    "exampleEn": "I urgently need to receive it.",
+    "exampleZhHans": "我非常急需收到该物品。",
+    "exampleZhHant": "我非常急需收到該物品。",
     "source": "pdf"
   },
   {
@@ -5642,6 +7178,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "保持联系",
     "zhHant": "保持聯繫",
     "examplePt": "Dá notícias.",
+    "exampleEn": "Keep in touch.",
+    "exampleZhHans": "保持联系。",
+    "exampleZhHant": "保持聯繫。",
     "source": "pdf"
   },
   {
@@ -5653,6 +7192,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "尊敬的先生",
     "zhHant": "尊敬的先生",
     "examplePt": "Ex.mo Senhor, solicito uma informação.",
+    "exampleEn": "Dear Sir, I am requesting information.",
+    "exampleZhHans": "尊敬的先生，我想咨询一项信息。",
+    "exampleZhHant": "尊敬的先生，我想諮詢一項資訊。",
     "source": "pdf"
   },
   {
@@ -5664,6 +7206,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "附件/附录",
     "zhHant": "附件/附錄",
     "examplePt": "Anexo: Currículo.",
+    "exampleEn": "Attachment: Resume.",
+    "exampleZhHans": "附件：简历。",
+    "exampleZhHant": "附件：履歷。",
     "source": "pdf"
   },
   {
@@ -5675,6 +7220,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "主题",
     "zhHant": "主題",
     "examplePt": "Assunto: Reclamação por roupa estragada.",
+    "exampleEn": "Subject: Complaint about damaged clothing.",
+    "exampleZhHans": "主题：关于衣物损坏的投诉。",
+    "exampleZhHant": "主旨：關於衣物損壞的投訴。",
     "source": "pdf"
   },
   {
@@ -5686,6 +7234,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "接受者",
     "zhHant": "接受者",
     "examplePt": "Não conhecemos o destinatário.",
+    "exampleEn": "We do not know the recipient.",
+    "exampleZhHans": "我们不认识收件人。",
+    "exampleZhHant": "我們不認識收件人。",
     "source": "pdf"
   },
   {
@@ -5697,6 +7248,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "10欧元纸币",
     "zhHant": "10歐元紙幣",
     "examplePt": "A nova nota de 10 euros é apresentada segunda-feira.",
+    "exampleEn": "The new 10-euro banknote will be presented on Monday.",
+    "exampleZhHans": "新版 10 欧元纸币将于星期一发布。",
+    "exampleZhHant": "新版 10 歐元紙幣將於星期一發布。",
     "source": "pdf"
   },
   {
@@ -5708,6 +7262,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "文凭",
     "zhHant": "文憑",
     "examplePt": "Recebi o meu diploma de Informática.",
+    "exampleEn": "I received my diploma in Computer Science.",
+    "exampleZhHans": "我收到了我的信息学文凭。",
+    "exampleZhHant": "我收到了我的資訊學文憑。",
     "source": "pdf"
   },
   {
@@ -5719,6 +7276,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "申请",
     "zhHant": "申請/求職申請",
     "examplePt": "Saiu o resultado das candidaturas.",
+    "exampleEn": "The application results have been released.",
+    "exampleZhHans": "申请结果出来了。",
+    "exampleZhHant": "申請結果出來了。",
     "source": "pdf"
   },
   {
@@ -5730,6 +7290,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "能力/技能",
     "zhHant": "能力/技能",
     "examplePt": "Desenvolvi competências na minha formação.",
+    "exampleEn": "I developed skills during my training.",
+    "exampleZhHans": "我在培训中培养了技能。",
+    "exampleZhHant": "我在培訓中培養了技能。",
     "source": "pdf"
   },
   {
@@ -5741,6 +7304,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "面试/采访",
     "zhHant": "面試/採訪",
     "examplePt": "Gostaria de uma entrevista pessoal.",
+    "exampleEn": "I would like a personal interview.",
+    "exampleZhHans": "我希望进行一次面谈。",
+    "exampleZhHant": "我希望進行一次面談。",
     "source": "pdf"
   },
   {
@@ -5752,6 +7318,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "主管/主任",
     "zhHant": "主任/主管",
     "examplePt": "Enviei a carta ao diretor.",
+    "exampleEn": "I sent the letter to the director.",
+    "exampleZhHans": "我把信寄给了主任。",
+    "exampleZhHant": "我把信寄給了主任。",
     "source": "pdf"
   },
   {
@@ -5763,6 +7332,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "人力资源",
     "zhHant": "人力資源",
     "examplePt": "Falei com os Recursos Humanos.",
+    "exampleEn": "I spoke with Human Resources.",
+    "exampleZhHans": "我和人力资源部谈过了。",
+    "exampleZhHant": "我和人力資源部談過了。",
     "source": "pdf"
   },
   {
@@ -5774,6 +7346,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "被联系/有人联系",
     "zhHant": "被聯繫/有人聯繫",
     "examplePt": "Pode ser contactado por telefone. Pode ser contactada por telefone.",
+    "exampleEn": "He can be contacted by telephone. She can be contacted by telephone.",
+    "exampleZhHans": "可以通过电话联系他。可以通过电话联系她。",
+    "exampleZhHant": "可以透過電話聯繫他。可以透過電話聯繫她。",
     "source": "pdf"
   },
   {
@@ -5785,6 +7360,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "某人",
     "zhHant": "某人",
     "examplePt": "Alguém sabe onde fica o ACM?",
+    "exampleEn": "Does anyone know where the ACM is?",
+    "exampleZhHans": "有人知道 ACM 在哪里吗？",
+    "exampleZhHant": "有人知道 ACM 在哪裡嗎？",
     "source": "pdf"
   },
   {
@@ -5796,6 +7374,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "没有什么",
     "zhHant": "沒有什麼",
     "examplePt": "Não quero comprar nada.",
+    "exampleEn": "I do not want to buy anything.",
+    "exampleZhHans": "我什么都不想买。",
+    "exampleZhHant": "我什麼都不想買。",
     "source": "pdf"
   },
   {
@@ -5807,6 +7388,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "没有人",
     "zhHant": "沒有人",
     "examplePt": "Ninguém deve estar ilegal.",
+    "exampleEn": "No one should be in an illegal situation.",
+    "exampleZhHans": "任何人都不应该处于非法状态。",
+    "exampleZhHant": "任何人都不應該處於非法狀態。",
     "source": "pdf"
   },
   {
@@ -5818,6 +7402,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "一切",
     "zhHant": "一切",
     "examplePt": "Tenho tudo preparado para partir.",
+    "exampleEn": "I have everything ready to leave.",
+    "exampleZhHans": "我已经准备好出发所需的一切。",
+    "exampleZhHant": "我已經準備好出發所需的一切。",
     "source": "pdf"
   },
   {
@@ -5829,6 +7416,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "几个（阴性复数）",
     "zhHant": "幾（陰性複數）",
     "examplePt": "Tenho várias perguntas.",
+    "exampleEn": "I have several questions.",
+    "exampleZhHans": "我有好几个问题。",
+    "exampleZhHant": "我有好幾個問題。",
     "source": "pdf"
   },
   {
@@ -5840,6 +7430,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "几个（阳性复数）",
     "zhHant": "幾個（陽性複數）",
     "examplePt": "Tenho vários documentos.",
+    "exampleEn": "I have several documents.",
+    "exampleZhHans": "我有好几份文件。",
+    "exampleZhHant": "我有好幾份文件。",
     "source": "pdf"
   },
   {
@@ -5851,6 +7444,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "居民",
     "zhHant": "居民",
     "examplePt": "Olga Ivanova é residente em Lisboa.",
+    "exampleEn": "Olga Ivanova is a resident of Lisbon.",
+    "exampleZhHans": "Olga Ivanova 是里斯本居民。",
+    "exampleZhHant": "Olga Ivanova 是里斯本居民。",
     "source": "pdf"
   },
   {
@@ -5862,6 +7458,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "偏爱",
     "zhHant": "偏愛",
     "examplePt": "O futebol está em primeiro lugar na preferência.",
+    "exampleEn": "Football is the top preference.",
+    "exampleZhHans": "足球在偏好中位居第一。",
+    "exampleZhHant": "足球在偏好中位居第一。",
     "source": "pdf"
   },
   {
@@ -5873,6 +7472,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "翻译者",
     "zhHant": "翻譯者",
     "examplePt": "Há uma vaga de tradutor.",
+    "exampleEn": "There is a translator vacancy.",
+    "exampleZhHans": "有一个译员职位空缺。",
+    "exampleZhHant": "有一個譯員職位空缺。",
     "source": "pdf"
   },
   {
@@ -5884,6 +7486,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "杯子",
     "zhHant": "杯子",
     "examplePt": "Use uma chávena de açúcar.",
+    "exampleEn": "Use a cup of sugar.",
+    "exampleZhHans": "使用一杯糖。",
+    "exampleZhHant": "使用一杯糖。",
     "source": "pdf"
   },
   {
@@ -5895,6 +7500,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "成分",
     "zhHant": "成分",
     "examplePt": "Misture os ingredientes.",
+    "exampleEn": "Mix the ingredients.",
+    "exampleZhHans": "把这些食材混合起来。",
+    "exampleZhHant": "把這些食材混合起來。",
     "source": "pdf"
   },
   {
@@ -5906,6 +7514,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "赔偿",
     "zhHant": "賠償",
     "examplePt": "Exijo uma indemnização de 150 euros.",
+    "exampleEn": "I demand compensation of 150 euros.",
+    "exampleZhHans": "我要求 150 欧元的赔偿。",
+    "exampleZhHant": "我要求 150 歐元的賠償。",
     "source": "pdf"
   },
   {
@@ -5917,6 +7528,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "疏忽",
     "zhHant": "疏忽",
     "examplePt": "Assunto: Negligência dos serviços do Centro de Saúde.",
+    "exampleEn": "Subject: Negligence in the services of the Health Center.",
+    "exampleZhHans": "主题：卫生中心服务疏忽。",
+    "exampleZhHant": "主旨：衛生中心服務疏忽。",
     "source": "pdf"
   },
   {
@@ -5928,6 +7542,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "抱怨/投诉",
     "zhHant": "抱怨/投訴",
     "examplePt": "A DECO tem recebido queixas de consumidores.",
+    "exampleEn": "DECO has received complaints from consumers.",
+    "exampleZhHans": "DECO 一直收到消费者的投诉。",
+    "exampleZhHant": "DECO 一直收到消費者的投訴。",
     "source": "pdf"
   },
   {
@@ -5939,6 +7556,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "损坏的衣服",
     "zhHant": "損壞的衣服",
     "examplePt": "A reclamação é por roupa estragada.",
+    "exampleEn": "The complaint is about damaged clothing.",
+    "exampleZhHans": "投诉是因为衣物损坏。",
+    "exampleZhHant": "投訴是因為衣物損壞。",
     "source": "pdf"
   },
   {
@@ -5950,6 +7570,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "要求",
     "zhHant": "要求",
     "examplePt": "Exijo uma indemnização.",
+    "exampleEn": "I demand compensation.",
+    "exampleZhHans": "我要求赔偿。",
+    "exampleZhHant": "我要求賠償。",
     "source": "pdf"
   },
   {
@@ -5961,6 +7584,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "消费者",
     "zhHant": "消費者",
     "examplePt": "Os consumidores fizeram queixas.",
+    "exampleEn": "Consumers made complaints.",
+    "exampleZhHans": "消费者提出了投诉。",
+    "exampleZhHant": "消費者提出了投訴。",
     "source": "pdf"
   },
   {
@@ -5972,6 +7598,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "损害",
     "zhHant": "損害",
     "examplePt": "A empresa é responsável pelos estragos.",
+    "exampleEn": "The company is responsible for the damage.",
+    "exampleZhHans": "该公司应对损坏负责。",
+    "exampleZhHant": "該公司應對損壞負責。",
     "source": "pdf"
   },
   {
@@ -5983,6 +7612,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "抱怨/投诉",
     "zhHant": "抱怨/投訴",
     "examplePt": "Temos de reclamar.",
+    "exampleEn": "We have to complain.",
+    "exampleZhHans": "我们必须投诉。",
+    "exampleZhHant": "我們必須投訴。",
     "source": "pdf"
   },
   {
@@ -5994,6 +7626,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "求助于/上诉",
     "zhHant": "求助於/上訴",
     "examplePt": "Vou recorrer a todos os meios legais.",
+    "exampleEn": "I will resort to all legal means.",
+    "exampleZhHans": "我将诉诸一切法律途径。",
+    "exampleZhHant": "我將訴諸一切法律途徑。",
     "source": "pdf"
   },
   {
@@ -6005,6 +7640,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "套装",
     "zhHant": "套裝",
     "examplePt": "Entreguei um fato cinzento escuro.",
+    "exampleEn": "I delivered a dark gray suit.",
+    "exampleZhHans": "我交了一套深灰色西装。",
+    "exampleZhHant": "我交了一套深灰色西裝。",
     "source": "pdf"
   },
   {
@@ -6016,6 +7654,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "骨折",
     "zhHant": "骨折",
     "examplePt": "Ele tinha uma fratura muito grave.",
+    "exampleEn": "He had a very serious fracture.",
+    "exampleZhHans": "他有一处非常严重的骨折。",
+    "exampleZhHant": "他有一處非常嚴重的骨折。",
     "source": "pdf"
   },
   {
@@ -6027,6 +7668,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "严重的",
     "zhHant": "嚴重的",
     "examplePt": "O problema era grave.",
+    "exampleEn": "The problem was serious.",
+    "exampleZhHans": "问题很严重。",
+    "exampleZhHant": "問題很嚴重。",
     "source": "pdf"
   },
   {
@@ -6038,6 +7682,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "诉说……症状/说……痛",
     "zhHant": "訴說……症狀/說……痛",
     "examplePt": "Começou a queixar-se de fortes dores.",
+    "exampleEn": "She began to complain of severe pain.",
+    "exampleZhHans": "她开始诉说剧烈疼痛。",
+    "exampleZhHant": "她開始訴說劇烈疼痛。",
     "source": "pdf"
   },
   {
@@ -6049,6 +7696,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "抢劫",
     "zhHant": "搶劫",
     "examplePt": "O banco foi assaltado ontem de manhã.",
+    "exampleEn": "The bank was robbed yesterday morning.",
+    "exampleZhHans": "银行昨天早上被抢劫了。",
+    "exampleZhHant": "銀行昨天早上被搶劫了。",
     "source": "pdf"
   },
   {
@@ -6060,6 +7710,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "机构/商店",
     "zhHant": "機構/商店",
     "examplePt": "Entreguei a roupa no vosso estabelecimento.",
+    "exampleEn": "I delivered the clothing to your establishment.",
+    "exampleZhHans": "我把衣服交到了贵店。",
+    "exampleZhHant": "我把衣服交到了貴店。",
     "source": "pdf"
   },
   {
@@ -6071,6 +7724,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "最后期限",
     "zhHant": "最後期限",
     "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
+    "exampleEn": "The amount must be delivered within eight days.",
+    "exampleZhHans": "该金额应在八天期限内交付。",
+    "exampleZhHant": "該金額應在八天期限內交付。",
     "source": "pdf"
   },
   {
@@ -6082,6 +7738,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "投诉信",
     "zhHant": "投訴信",
     "examplePt": "Devemos escrever uma carta de reclamação.",
+    "exampleEn": "We should write a complaint letter.",
+    "exampleZhHans": "我们应该写一封投诉信。",
+    "exampleZhHant": "我們應該寫一封投訴信。",
     "source": "pdf"
   },
   {
@@ -6093,6 +7752,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "正式信函",
     "zhHant": "正式信函",
     "examplePt": "Escrevi uma carta formal.",
+    "exampleEn": "I wrote a formal letter.",
+    "exampleZhHans": "我写了一封正式信函。",
+    "exampleZhHant": "我寫了一封正式信函。",
     "source": "pdf"
   },
   {
@@ -6104,6 +7766,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "信息",
     "zhHant": "訊息",
     "examplePt": "Mandei uma mensagem.",
+    "exampleEn": "I sent a message.",
+    "exampleZhHans": "我发了一条消息。",
+    "exampleZhHant": "我發了一則訊息。",
     "source": "pdf"
   },
   {
@@ -6115,6 +7780,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "新闻/消息",
     "zhHant": "新聞/消息",
     "examplePt": "Leia a notícia no jornal.",
+    "exampleEn": "Read the news item in the newspaper.",
+    "exampleZhHans": "请在报纸上读这则新闻。",
+    "exampleZhHant": "請在報紙上讀這則新聞。",
     "source": "pdf"
   },
   {
@@ -6126,6 +7794,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "电子邮件",
     "zhHant": "電子郵件",
     "examplePt": "Enviei o currículo por e-mail.",
+    "exampleEn": "I sent the resume by email.",
+    "exampleZhHans": "我通过电子邮件发送了简历。",
+    "exampleZhHant": "我透過電子郵件寄出了履歷。",
     "source": "pdf"
   },
   {
@@ -6137,6 +7808,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "日常生活",
     "zhHant": "日常生活",
     "examplePt": "O e-mail faz parte do nosso quotidiano.",
+    "exampleEn": "Email is part of our daily life.",
+    "exampleZhHans": "电子邮件是我们日常生活的一部分。",
+    "exampleZhHant": "電子郵件是我們日常生活的一部分。",
     "source": "pdf"
   },
   {
@@ -6148,6 +7822,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "了解情况",
     "zhHant": "了解情況",
     "examplePt": "Tenta informar-se sobre os candidatos.",
+    "exampleEn": "He tries to find out about the candidates.",
+    "exampleZhHans": "他试图了解候选人的情况。",
+    "exampleZhHant": "他試圖了解候選人的情況。",
     "source": "pdf"
   },
   {
@@ -6159,6 +7836,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "保护",
     "zhHant": "保護",
     "examplePt": "A associação protege os direitos dos imigrantes.",
+    "exampleEn": "The association protects the rights of immigrants.",
+    "exampleZhHans": "该协会保护移民的权利。",
+    "exampleZhHant": "該協會保護移民的權利。",
     "source": "pdf"
   },
   {
@@ -6170,6 +7850,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公民身份/公民权",
     "zhHant": "公民身分/公民權",
     "examplePt": "Cidadania é a qualidade ou direito do cidadão.",
+    "exampleEn": "Citizenship is the status or right of the citizen.",
+    "exampleZhHans": "公民身份是公民的资格或权利。",
+    "exampleZhHant": "公民身分是公民的資格或權利。",
     "source": "pdf"
   },
   {
@@ -6181,6 +7864,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "民主",
     "zhHant": "民主",
     "examplePt": "Vivemos em democracias.",
+    "exampleEn": "We live in democracies.",
+    "exampleZhHans": "我们生活在民主制度中。",
+    "exampleZhHant": "我們生活在民主制度中。",
     "source": "pdf"
   },
   {
@@ -6192,6 +7878,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "歧视",
     "zhHant": "歧視",
     "examplePt": "Devemos combater a discriminação.",
+    "exampleEn": "We must combat discrimination.",
+    "exampleZhHans": "我们应当反对歧视。",
+    "exampleZhHant": "我們應當反對歧視。",
     "source": "pdf"
   },
   {
@@ -6203,6 +7892,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "选举",
     "zhHant": "選舉",
     "examplePt": "Pode votar em eleições europeias.",
+    "exampleEn": "You can vote in European elections.",
+    "exampleZhHans": "可以在欧洲选举中投票。",
+    "exampleZhHant": "可以在歐洲選舉中投票。",
     "source": "pdf"
   },
   {
@@ -6214,6 +7906,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "请愿",
     "zhHant": "請願",
     "examplePt": "Pode apresentar petições.",
+    "exampleEn": "You can submit petitions.",
+    "exampleZhHans": "可以提交请愿书。",
+    "exampleZhHant": "可以提交請願書。",
     "source": "pdf"
   },
   {
@@ -6225,6 +7920,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "建议",
     "zhHant": "建議",
     "examplePt": "Pode apresentar sugestões.",
+    "exampleEn": "You can make suggestions.",
+    "exampleZhHans": "可以提出建议。",
+    "exampleZhHant": "可以提出建議。",
     "source": "pdf"
   },
   {
@@ -6236,6 +7934,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "获得",
     "zhHant": "獲得",
     "examplePt": "Quero adquirir a nacionalidade portuguesa.",
+    "exampleEn": "I want to acquire Portuguese nationality.",
+    "exampleZhHans": "我想取得葡萄牙国籍。",
+    "exampleZhHant": "我想取得葡萄牙國籍。",
     "source": "pdf"
   },
   {
@@ -6247,6 +7948,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公民",
     "zhHant": "公民",
     "examplePt": "Ser cidadão significa envolver-se na comunidade.",
+    "exampleEn": "Being a citizen means getting involved in the community.",
+    "exampleZhHans": "作为公民意味着参与社区事务。",
+    "exampleZhHant": "作為公民意味著參與社區事務。",
     "source": "pdf"
   },
   {
@@ -6258,6 +7962,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "欧洲公民",
     "zhHant": "歐洲公民",
     "examplePt": "Ser cidadão europeu permite viajar e trabalhar.",
+    "exampleEn": "Being a European citizen allows you to travel and work.",
+    "exampleZhHans": "作为欧洲公民可以旅行和工作。",
+    "exampleZhHant": "作為歐洲公民可以旅行和工作。",
     "source": "pdf"
   },
   {
@@ -6269,6 +7976,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "公民权利",
     "zhHant": "公民權利",
     "examplePt": "O cidadão tem direitos civis.",
+    "exampleEn": "The citizen has civil rights.",
+    "exampleZhHans": "公民拥有公民权利。",
+    "exampleZhHant": "公民擁有公民權利。",
     "source": "pdf"
   },
   {
@@ -6280,6 +7990,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "人权",
     "zhHant": "人權",
     "examplePt": "As democracias respeitam os direitos humanos.",
+    "exampleEn": "Democracies respect human rights.",
+    "exampleZhHans": "民主制度尊重人权。",
+    "exampleZhHant": "民主制度尊重人權。",
     "source": "pdf"
   },
   {
@@ -6291,6 +8004,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "志愿者",
     "zhHant": "志工",
     "examplePt": "O voluntário ajuda. A voluntária ajuda.",
+    "exampleEn": "The male volunteer helps. The female volunteer helps.",
+    "exampleZhHans": "男志愿者提供帮助。女志愿者提供帮助。",
+    "exampleZhHant": "男志工提供幫助。女志工提供幫助。",
     "source": "pdf"
   },
   {
@@ -6302,6 +8018,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "投票",
     "zhHant": "投票",
     "examplePt": "O cidadão pode votar.",
+    "exampleEn": "The citizen can vote.",
+    "exampleZhHans": "公民可以投票。",
+    "exampleZhHant": "公民可以投票。",
     "source": "pdf"
   },
   {
@@ -6313,6 +8032,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "证书",
     "zhHant": "證書",
     "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
+    "exampleEn": "You have to present a Portuguese Language Certificate.",
+    "exampleZhHans": "必须提交一份葡萄牙语证书。",
+    "exampleZhHant": "必須提交一份葡萄牙語證書。",
     "source": "pdf"
   },
   {
@@ -6324,6 +8046,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "申请表",
     "zhHant": "申請表",
     "examplePt": "Deve juntar documentos ao requerimento.",
+    "exampleEn": "You must attach documents to the application form.",
+    "exampleZhHans": "应把文件附在申请表上。",
+    "exampleZhHant": "應把文件附在申請表上。",
     "source": "pdf"
   },
   {
@@ -6335,6 +8060,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "填写",
     "zhHant": "填寫",
     "examplePt": "Basta preencher o requerimento.",
+    "exampleEn": "It is enough to fill in the application form.",
+    "exampleZhHans": "只需填写申请表。",
+    "exampleZhHant": "只需填寫申請表。",
     "source": "pdf"
   },
   {
@@ -6346,6 +8074,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "办理/处理",
     "zhHant": "辦理/處理",
     "examplePt": "Ajudam-te a tratar de tudo.",
+    "exampleEn": "They help you take care of everything.",
+    "exampleZhHans": "他们会帮你处理一切。",
+    "exampleZhHant": "他們會幫你處理一切。",
     "source": "pdf"
   },
   {
@@ -6357,6 +8088,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "雇主",
     "zhHant": "雇主",
     "examplePt": "Alguns empregadores não observam os direitos dos trabalhadores.",
+    "exampleEn": "Some employers do not observe workers' rights.",
+    "exampleZhHans": "一些雇主不遵守劳动者的权利。",
+    "exampleZhHant": "一些雇主不遵守勞動者的權利。",
     "source": "pdf"
   },
   {
@@ -6368,6 +8102,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "劳工权利和义务",
     "zhHant": "勞工權利和義務",
     "examplePt": "Devemos informar-nos sobre os direitos e deveres laborais.",
+    "exampleEn": "We should inform ourselves about labor rights and duties.",
+    "exampleZhHans": "我们应当了解劳动权利和义务。",
+    "exampleZhHant": "我們應當了解勞動權利和義務。",
     "source": "pdf"
   },
   {
@@ -6379,6 +8116,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "高租金",
     "zhHant": "高租金",
     "examplePt": "Há dificuldades devido às rendas elevadas.",
+    "exampleEn": "There are difficulties due to high rents.",
+    "exampleZhHans": "由于租金高昂，存在困难。",
+    "exampleZhHant": "由於租金高昂，存在困難。",
     "source": "pdf"
   },
   {
@@ -6390,6 +8130,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "定居/安顿",
     "zhHant": "定居/安頓",
     "examplePt": "Acabou por fixar-se em Alfambras.",
+    "exampleEn": "He ended up settling in Alfambras.",
+    "exampleZhHans": "他最终在 Alfambras 定居下来。",
+    "exampleZhHant": "他最終在 Alfambras 定居下來。",
     "source": "pdf"
   },
   {
@@ -6401,6 +8144,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "居住",
     "zhHant": "居住",
     "examplePt": "Pode residir no espaço europeu.",
+    "exampleEn": "You can reside in the European area.",
+    "exampleZhHans": "可以在欧洲空间居住。",
+    "exampleZhHant": "可以在歐洲空間居住。",
     "source": "pdf"
   },
   {
@@ -6412,6 +8158,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "移民协会",
     "zhHant": "移民協會",
     "examplePt": "A associação de imigrantes protege direitos.",
+    "exampleEn": "The immigrant association protects rights.",
+    "exampleZhHans": "移民协会保护权利。",
+    "exampleZhHant": "移民協會保護權利。",
     "source": "pdf"
   },
   {
@@ -6423,6 +8172,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "市议会",
     "zhHant": "市議會",
     "examplePt": "É candidato à presidência da Câmara Municipal.",
+    "exampleEn": "He is a candidate for president of the City Council.",
+    "exampleZhHans": "他是市政厅主席职位的候选人。",
+    "exampleZhHant": "他是市政廳主席職位的候選人。",
     "source": "pdf"
   },
   {
@@ -6434,6 +8186,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "机构",
     "zhHant": "機構",
     "examplePt": "O CNAI reúne diferentes instituições.",
+    "exampleEn": "CNAI brings together different institutions.",
+    "exampleZhHans": "CNAI 汇集了不同机构。",
+    "exampleZhHant": "CNAI 匯集了不同機構。",
     "source": "pdf"
   },
   {
@@ -6445,6 +8200,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "社会保障/社保",
     "zhHant": "社會保障/社保",
     "examplePt": "O serviço apoia questões de segurança social.",
+    "exampleEn": "The service supports social security matters.",
+    "exampleZhHans": "该服务支持社会保障相关问题。",
+    "exampleZhHant": "該服務支持社會保障相關問題。",
     "source": "pdf"
   },
   {
@@ -6456,6 +8214,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "援助办公室/咨询处",
     "zhHant": "援助辦公室/諮詢處",
     "examplePt": "Existem gabinetes de apoio ao cidadão imigrante.",
+    "exampleEn": "There are support offices for immigrant citizens.",
+    "exampleZhHans": "有为移民公民提供支持的办公室。",
+    "exampleZhHant": "有為移民公民提供支援的辦公室。",
     "source": "pdf"
   },
   {
@@ -6467,6 +8228,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "移（入）民",
     "zhHant": "移（入）民",
     "examplePt": "O tema é a imigração.",
+    "exampleEn": "The topic is immigration.",
+    "exampleZhHans": "主题是移民。",
+    "exampleZhHant": "主題是移民。",
     "source": "pdf"
   },
   {
@@ -6478,6 +8242,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "身份合法化/手续正规化",
     "zhHant": "身分合法化/手續正規化",
     "examplePt": "O serviço apoia a regularização da situação legal.",
+    "exampleEn": "The service supports regularizing legal status.",
+    "exampleZhHans": "该服务支持法律状态的正规化。",
+    "exampleZhHant": "該服務支持法律狀態的正規化。",
     "source": "pdf"
   },
   {
@@ -6489,6 +8256,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "法律地位",
     "zhHant": "法律地位",
     "examplePt": "É importante legalizar a sua situação.",
+    "exampleEn": "It is important to legalize your situation.",
+    "exampleZhHans": "使您的状况合法化很重要。",
+    "exampleZhHant": "使您的狀況合法化很重要。",
     "source": "pdf"
   },
   {
@@ -6500,6 +8270,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "移民",
     "zhHant": "移民",
     "examplePt": "O imigrante pediu informações. A imigrante pediu informações.",
+    "exampleEn": "The male immigrant asked for information. The female immigrant asked for information.",
+    "exampleZhHans": "男移民询问了信息。女移民询问了信息。",
+    "exampleZhHant": "男移民詢問了資訊。女移民詢問了資訊。",
     "source": "pdf"
   },
   {
@@ -6511,6 +8284,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "办理合法化/使合法",
     "zhHant": "辦理合法化/使合法",
     "examplePt": "É importante legalizar a sua situação.",
+    "exampleEn": "It is important to legalize your situation.",
+    "exampleZhHans": "使您的状况合法化很重要。",
+    "exampleZhHant": "使您的狀況合法化很重要。",
     "source": "pdf"
   },
   {
@@ -6522,6 +8298,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "家庭团聚",
     "zhHant": "家庭團聚",
     "examplePt": "O CLAII apoia o reagrupamento familiar.",
+    "exampleEn": "CLAII supports family reunification.",
+    "exampleZhHans": "CLAII 支持家庭团聚。",
+    "exampleZhHant": "CLAII 支持家庭團聚。",
     "source": "pdf"
   },
   {
@@ -6533,6 +8312,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "自愿返国/自愿返回",
     "zhHant": "自願返國/自願返回",
     "examplePt": "O serviço informa sobre retorno voluntário.",
+    "exampleEn": "The service provides information about voluntary return.",
+    "exampleZhHans": "该服务提供关于自愿返回的信息。",
+    "exampleZhHant": "該服務提供關於自願返回的資訊。",
     "source": "pdf"
   },
   {
@@ -6544,6 +8326,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "医疗保健",
     "zhHant": "醫療保健",
     "examplePt": "Pode receber cuidados médicos.",
+    "exampleEn": "You can receive medical care.",
+    "exampleZhHans": "可以接受医疗护理。",
+    "exampleZhHant": "可以接受醫療護理。",
     "source": "pdf"
   },
   {
@@ -6555,6 +8340,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "机密的",
     "zhHant": "機密的",
     "examplePt": "O serviço é confidencial e gratuito.",
+    "exampleEn": "The service is confidential and free of charge.",
+    "exampleZhHans": "该服务是保密且免费的。",
+    "exampleZhHant": "該服務是保密且免費的。",
     "source": "pdf"
   },
   {
@@ -6566,6 +8354,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "免费",
     "zhHant": "免費",
     "examplePt": "O serviço é gratuito. A consulta é gratuita.",
+    "exampleEn": "The service is free of charge. The consultation is free of charge.",
+    "exampleZhHans": "该服务是免费的。咨询是免费的。",
+    "exampleZhHant": "該服務是免費的。諮詢是免費的。",
     "source": "pdf"
   },
   {
@@ -6577,6 +8368,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "柜台/服务台",
     "zhHant": "櫃台/服務台",
     "examplePt": "Falou do outro lado do balcão.",
+    "exampleEn": "He spoke from the other side of the counter.",
+    "exampleZhHans": "他在柜台的另一边说话。",
+    "exampleZhHant": "他在櫃台的另一邊說話。",
     "source": "pdf"
   },
   {
@@ -6588,6 +8382,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "社区/共同体",
     "zhHant": "社區/共同體",
     "examplePt": "Participa na vida da comunidade.",
+    "exampleEn": "Participate in community life.",
+    "exampleZhHans": "参与社区生活。",
+    "exampleZhHant": "參與社區生活。",
     "source": "pdf"
   },
   {
@@ -6599,6 +8396,9 @@ export const vocabulary: VocabularyEntry[] = [
     "zhHans": "融入/融合",
     "zhHant": "融入/融合",
     "examplePt": "O serviço apoia a integração dos imigrantes.",
+    "exampleEn": "The service supports the integration of immigrants.",
+    "exampleZhHans": "该服务支持移民融入。",
+    "exampleZhHant": "該服務支持移民融入。",
     "source": "pdf"
   }
 ] satisfies VocabularyEntry[];

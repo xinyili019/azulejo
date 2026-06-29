@@ -11,6 +11,8 @@ export interface VocabularyEntry {
   zhHant: string;
   examplePt?: string;
   exampleEn?: string;
+  exampleZhHans?: string;
+  exampleZhHant?: string;
   note?: string;
   source: "seed" | "pdf";
 }

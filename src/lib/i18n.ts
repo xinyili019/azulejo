@@ -18,6 +18,7 @@ export interface UiCopy {
   listen: string;
   autoPlayPronunciation: string;
   previousWord: string;
+  example: string;
   again: string;
   known: string;
   flashcard: string;
@@ -48,6 +49,7 @@ const copy: Record<UiLocale, UiCopy> = {
     listen: "Listen",
     autoPlayPronunciation: "Play pronunciation automatically",
     previousWord: "Previous word",
+    example: "Example",
     again: "Again",
     known: "Known",
     flashcard: "Flashcard",
@@ -76,6 +78,7 @@ const copy: Record<UiLocale, UiCopy> = {
     listen: "听发音",
     autoPlayPronunciation: "自动播放发音",
     previousWord: "上一个单词",
+    example: "例句",
     again: "再练习",
     known: "已掌握",
     flashcard: "单词卡",
@@ -104,6 +107,7 @@ const copy: Record<UiLocale, UiCopy> = {
     listen: "聽發音",
     autoPlayPronunciation: "自動播放發音",
     previousWord: "上一個單字",
+    example: "例句",
     again: "再練習",
     known: "已掌握",
     flashcard: "單字卡",

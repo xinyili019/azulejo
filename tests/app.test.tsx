@@ -23,6 +23,41 @@ describe("App", () => {
     expect(localStorage.getItem("pt-a2-vocab-progress")).toContain("known");
   });
 
+  it("keeps examples collapsed behind a toggle on the flipped card", () => {
+    render(<App />);
+
+    expect(screen.queryByRole("button", { name: /example/i })).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal answer/i }));
+
+    expect(screen.getAllByText("a casa").some((element) => element.classList.contains("answer-reference"))).toBe(true);
+    expect(screen.getByText("house; home")).toBeInTheDocument();
+
+    const exampleToggle = screen.getByRole("button", { name: /example/i });
+    const exampleBody = screen.getByText("A minha casa fica perto.").closest(".example-body");
+
+    expect(exampleToggle).toHaveAttribute("aria-expanded", "false");
+    expect(exampleBody).toHaveAttribute("aria-hidden", "true");
+
+    fireEvent.click(exampleToggle);
+
+    expect(exampleToggle).toHaveAttribute("aria-expanded", "true");
+    expect(exampleBody).toHaveAttribute("aria-hidden", "false");
+    expect(screen.getByText("My house is nearby.")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /hide answer/i })).toBeInTheDocument();
+  });
+
+  it("uses the active Chinese writing system for example translations", () => {
+    render(<App />);
+
+    fireEvent.change(screen.getByLabelText(/language/i), { target: { value: "pt-zh-hans" } });
+    fireEvent.click(screen.getByRole("button", { name: "显示答案" }));
+    fireEvent.click(screen.getByRole("button", { name: "例句" }));
+
+    expect(screen.getByText("我家在附近。")).toBeInTheDocument();
+    expect(screen.queryByText("My house is nearby.")).not.toBeInTheDocument();
+  });
+
   it("does not render search controls", () => {
     render(<App />);
 
