@@ -250,8 +250,41 @@ select {
 }
 
 .flashcard,
+.review-switch-shell,
 .empty-state {
   grid-column: 1 / -1;
+}
+
+.review-switch-shell {
+  position: relative;
+  width: 100%;
+  padding-top: 34px;
+}
+
+.review-switch-shell.is-without-back {
+  padding-top: 0;
+}
+
+.review-switch-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 28px;
+  border: 1px solid rgba(18, 58, 102, 0.2);
+  border-radius: 999px;
+  padding: 0 12px;
+  background: rgba(251, 253, 255, 0.82);
+  color: #38556e;
+  box-shadow: 0 8px 20px rgba(14, 44, 79, 0.1);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.review-switch-back:hover,
+.review-switch-back:focus-visible {
+  background: #fbfdff;
+  color: #123a66;
 }
 
 .flashcard-instruction {
@@ -296,6 +329,7 @@ select {
 .flip-tile:focus-visible,
 .icon-button:focus-visible,
 .card-previous:focus-visible,
+.review-switch-back:focus-visible,
 .pronunciation-control:focus-visible,
 .example-toggle:focus-visible {
   outline: 3px solid #1f5fa6;
@@ -999,6 +1033,7 @@ progress::-moz-progress-bar {
   }
 
   .flashcard,
+  .review-switch-shell,
   .empty-state {
     order: 2;
   }
@@ -1091,6 +1126,16 @@ progress::-moz-progress-bar {
     min-height: 360px;
     padding: 24px 18px;
     gap: 14px;
+  }
+
+  .review-switch-shell {
+    padding-top: 30px;
+  }
+
+  .review-switch-back {
+    min-height: 26px;
+    padding: 0 10px;
+    font-size: 0.78rem;
   }
 
   .retrieval-review {

@@ -12,6 +12,7 @@ interface FlashcardProps {
   direction: Direction;
   revealed: boolean;
   autoPlayPronunciation: boolean;
+  showFirstWordTip?: boolean;
   ui: UiCopy;
   onToggleReveal: () => void;
   onPrevious: () => void;
@@ -24,6 +25,7 @@ export function Flashcard({
   direction,
   revealed,
   autoPlayPronunciation,
+  showFirstWordTip = false,
   ui,
   onToggleReveal,
   onPrevious,
@@ -187,15 +189,15 @@ export function Flashcard({
               </span>
             </span>
           </div>
-          {isFirstWord && revealed && !firstWordTipDismissed && (
-            <div className="first-word-tip" role="status" aria-live="polite">
-              <p>{getFirstWordTipText(ui)}</p>
-              <button className="primary first-word-tip-dismiss" type="button" onClick={() => setFirstWordTipDismissed(true)}>
-                {ui.gotIt}
-              </button>
-            </div>
-          )}
         </div>
+        {showFirstWordTip && revealed && !firstWordTipDismissed && (
+          <div className="first-word-tip" role="status" aria-live="polite">
+            <p>{getFirstWordTipText(ui)}</p>
+            <button className="primary first-word-tip-dismiss" type="button" onClick={() => setFirstWordTipDismissed(true)}>
+              {ui.gotIt}
+            </button>
+          </div>
+        )}
       </div>
       <div className={`flashcard-controls ${revealed ? "is-revealed" : ""}`}>
         {isFirstWord ? (

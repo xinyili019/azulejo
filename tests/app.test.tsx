@@ -181,6 +181,7 @@ describe("App", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "Review new words" }));
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    expect(screen.queryByText(/tap the tile to flip back to the same word/i)).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
 
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);

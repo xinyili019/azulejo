@@ -22,6 +22,7 @@ export interface UiCopy {
   translation: string;
   again: string;
   gotIt: string;
+  goBack: string;
   known: string;
   flashcard: string;
   progressDashboard: string;
@@ -55,6 +56,7 @@ const copy: Record<UiLocale, UiCopy> = {
     translation: "Translation",
     again: "Again",
     gotIt: "Got it",
+    goBack: "Go back",
     known: "Known",
     flashcard: "Flashcard",
     progressDashboard: "Progress dashboard",
@@ -86,6 +88,7 @@ const copy: Record<UiLocale, UiCopy> = {
     translation: "翻译",
     again: "再练习",
     gotIt: "了解",
+    goBack: "返回",
     known: "已掌握",
     flashcard: "单词卡",
     progressDashboard: "学习进度",
@@ -117,6 +120,7 @@ const copy: Record<UiLocale, UiCopy> = {
     translation: "翻譯",
     again: "再練習",
     gotIt: "了解",
+    goBack: "返回",
     known: "已掌握",
     flashcard: "單字卡",
     progressDashboard: "學習進度",

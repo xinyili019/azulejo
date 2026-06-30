@@ -173,6 +173,14 @@ export default function App() {
     startRetrieval(entries, getMilestoneActionLabel(direction, REVIEW_MODE.sessionNewTypedPortuguese), "session");
   }
 
+  function returnToSessionReviewChoice() {
+    setRetrievalState(null);
+    setReviewQueue([]);
+    setCardIndex(0);
+    setRevealed(false);
+    setPhase("sessionMilestone");
+  }
+
   function continueAfterSession() {
     const completedSessionIndex = sessionIndex;
     const completedSession = sessionPlan.sessions[completedSessionIndex];
@@ -330,6 +338,7 @@ export default function App() {
           ui={ui}
           title={retrievalState.title}
           onComplete={handleRetrievalComplete}
+          onGoBack={retrievalState.context === "session" ? returnToSessionReviewChoice : undefined}
         />
       );
     }
@@ -415,17 +424,38 @@ export default function App() {
     }
 
     return activeEntry ? (
-      <Flashcard
-        entry={activeEntry}
-        direction={direction}
-        revealed={revealed}
-        autoPlayPronunciation={autoPlayPronunciation && (phase === "study" || phase === "sessionAgainFlashcards")}
-        ui={ui}
-        onToggleReveal={() => setRevealed((current) => !current)}
-        onPrevious={movePrevious}
-        onAgain={() => handleReview("again")}
-        onKnown={() => handleReview("known")}
-      />
+      phase === "sessionAgainFlashcards" ? (
+        <div className="review-switch-shell">
+          <button className="review-switch-back" type="button" onClick={returnToSessionReviewChoice}>
+            {ui.goBack}
+          </button>
+          <Flashcard
+            entry={activeEntry}
+            direction={direction}
+            revealed={revealed}
+            autoPlayPronunciation={autoPlayPronunciation}
+            showFirstWordTip={false}
+            ui={ui}
+            onToggleReveal={() => setRevealed((current) => !current)}
+            onPrevious={movePrevious}
+            onAgain={() => handleReview("again")}
+            onKnown={() => handleReview("known")}
+          />
+        </div>
+      ) : (
+        <Flashcard
+          entry={activeEntry}
+          direction={direction}
+          revealed={revealed}
+          autoPlayPronunciation={autoPlayPronunciation && phase === "study"}
+          showFirstWordTip={phase === "study" && sessionIndex === 0 && cardIndex === 0}
+          ui={ui}
+          onToggleReveal={() => setRevealed((current) => !current)}
+          onPrevious={movePrevious}
+          onAgain={() => handleReview("again")}
+          onKnown={() => handleReview("known")}
+        />
+      )
     ) : (
       <section className="empty-state">
         <h2>{ui.noCardsTitle}</h2>

@@ -23,9 +23,10 @@ interface RetrievalReviewProps {
   ui: UiCopy;
   title: string;
   onComplete: (results: RetrievalReviewResult[]) => void;
+  onGoBack?: () => void;
 }
 
-export function RetrievalReview({ prompts, direction, ui, title, onComplete }: RetrievalReviewProps) {
+export function RetrievalReview({ prompts, direction, ui, title, onComplete, onGoBack }: RetrievalReviewProps) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [promptIndex, setPromptIndex] = useState(0);
   const [promptState, setPromptState] = useState<PromptReviewState>(() => createPromptReviewState(null));
@@ -108,93 +109,100 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete }: R
   }
 
   return (
-    <section className="review-panel retrieval-review" aria-label={title}>
-      <div className="review-header">
-        <p className="eyebrow">{title}</p>
-        <strong>
-          {promptIndex + 1} / {prompts.length}
-        </strong>
-      </div>
-
-      <div className="retrieval-prompt">
-        <p className="retrieval-prompt-text">{activePrompt.prompt}</p>
-        <button className="icon-button retrieval-audio" type="button" onClick={speak} aria-label={ui.listen}>
-          <Volume2 size={18} aria-hidden="true" />
+    <div className={`review-switch-shell${onGoBack ? "" : " is-without-back"}`}>
+      {onGoBack && (
+        <button className="review-switch-back" type="button" onClick={onGoBack}>
+          {ui.goBack}
         </button>
-      </div>
-
-      <div className="retrieval-typing-surface" onClick={() => inputRef.current?.focus()}>
-        <div
-          className={`retrieval-cue ${submitted ? "retrieval-cue-feedback" : "retrieval-cue-masked"}`}
-          aria-label="Portuguese answer cue"
-        >
-          {renderCueSlots(activePrompt.cue, input, submitted ? feedback : undefined)}
+      )}
+      <section className="review-panel retrieval-review" aria-label={title}>
+        <div className="review-header">
+          <p className="eyebrow">{title}</p>
+          <strong>
+            {promptIndex + 1} / {prompts.length}
+          </strong>
         </div>
 
-        <input
-          key={activePrompt.id}
-          ref={inputRef}
-          className="retrieval-input retrieval-input-overlay"
-          name={`retrieval-input-${activePrompt.id}`}
-          value={input}
-          onChange={(event) =>
-            setPromptState((current) => ({
-              ...createPromptReviewState(activePrompt.id),
-              ...(current.promptId === activePrompt.id ? current : {}),
-              input: getSlotInput(event.target.value, activePrompt.cue)
-            }))
-          }
-          disabled={submitted}
-          autoComplete="off"
-          autoCapitalize="none"
-          autoCorrect="off"
-          spellCheck={false}
-          aria-label="Type the Portuguese word"
-        />
-      </div>
-
-      <div className="retrieval-actions">
-        {!submitted ? (
-          <button className="secondary" type="button" onClick={() => submitAnswer(true)}>
-            <Eye size={18} aria-hidden="true" />
-            {revealLabel}
+        <div className="retrieval-prompt">
+          <p className="retrieval-prompt-text">{activePrompt.prompt}</p>
+          <button className="icon-button retrieval-audio" type="button" onClick={speak} aria-label={ui.listen}>
+            <Volume2 size={18} aria-hidden="true" />
           </button>
-        ) : (
-          <>
-            <p className={`retrieval-feedback ${outcome === "correct" ? "is-correct" : "is-incorrect"}`}>
-              {outcome === "correct" ? "Correct" : "Incorrect"}
-            </p>
-            <button className="primary" type="button" onClick={nextPrompt}>
-              {promptIndex >= prompts.length - 1 ? "Finish" : "Next"}
-            </button>
-          </>
-        )}
-      </div>
+        </div>
 
-      {submitted && (activePrompt.entry.examplePt || targetExample) && (
-        <div className={`retrieval-example ${exampleOpen ? "open" : ""}`}>
-          <button
-            className="example-toggle"
-            type="button"
-            aria-expanded={exampleOpen}
-            onClick={() =>
+        <div className="retrieval-typing-surface" onClick={() => inputRef.current?.focus()}>
+          <div
+            className={`retrieval-cue ${submitted ? "retrieval-cue-feedback" : "retrieval-cue-masked"}`}
+            aria-label="Portuguese answer cue"
+          >
+            {renderCueSlots(activePrompt.cue, input, submitted ? feedback : undefined)}
+          </div>
+
+          <input
+            key={activePrompt.id}
+            ref={inputRef}
+            className="retrieval-input retrieval-input-overlay"
+            name={`retrieval-input-${activePrompt.id}`}
+            value={input}
+            onChange={(event) =>
               setPromptState((current) => ({
                 ...createPromptReviewState(activePrompt.id),
                 ...(current.promptId === activePrompt.id ? current : {}),
-                exampleOpen: !exampleOpen
+                input: getSlotInput(event.target.value, activePrompt.cue)
               }))
             }
-          >
-            <ChevronRight className="example-chevron" size={14} aria-hidden="true" />
-            {ui.example}
-          </button>
-          <div className="example-body" aria-hidden={!exampleOpen}>
-            {activePrompt.entry.examplePt && <span className="example">{activePrompt.entry.examplePt}</span>}
-            {targetExample && <span className="example muted">{targetExample}</span>}
-          </div>
+            disabled={submitted}
+            autoComplete="off"
+            autoCapitalize="none"
+            autoCorrect="off"
+            spellCheck={false}
+            aria-label="Type the Portuguese word"
+          />
         </div>
-      )}
-    </section>
+
+        <div className="retrieval-actions">
+          {!submitted ? (
+            <button className="secondary" type="button" onClick={() => submitAnswer(true)}>
+              <Eye size={18} aria-hidden="true" />
+              {revealLabel}
+            </button>
+          ) : (
+            <>
+              <p className={`retrieval-feedback ${outcome === "correct" ? "is-correct" : "is-incorrect"}`}>
+                {outcome === "correct" ? "Correct" : "Incorrect"}
+              </p>
+              <button className="primary" type="button" onClick={nextPrompt}>
+                {promptIndex >= prompts.length - 1 ? "Finish" : "Next"}
+              </button>
+            </>
+          )}
+        </div>
+
+        {submitted && (activePrompt.entry.examplePt || targetExample) && (
+          <div className={`retrieval-example ${exampleOpen ? "open" : ""}`}>
+            <button
+              className="example-toggle"
+              type="button"
+              aria-expanded={exampleOpen}
+              onClick={() =>
+                setPromptState((current) => ({
+                  ...createPromptReviewState(activePrompt.id),
+                  ...(current.promptId === activePrompt.id ? current : {}),
+                  exampleOpen: !exampleOpen
+                }))
+              }
+            >
+              <ChevronRight className="example-chevron" size={14} aria-hidden="true" />
+              {ui.example}
+            </button>
+            <div className="example-body" aria-hidden={!exampleOpen}>
+              {activePrompt.entry.examplePt && <span className="example">{activePrompt.entry.examplePt}</span>}
+              {targetExample && <span className="example muted">{targetExample}</span>}
+            </div>
+          </div>
+        )}
+      </section>
+    </div>
   );
 }
 

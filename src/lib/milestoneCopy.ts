@@ -58,8 +58,8 @@ const copy: Record<MilestoneLocale, LocaleCopy> = {
     finalTitle: "恭喜！你已经完成全部模块。",
     labels: {
       [REVIEW_MODE.sessionAgainFlashcards]: "复习生词",
-      [REVIEW_MODE.sessionNewTypedPortuguese]: "测试生词",
-      [REVIEW_MODE.moduleAgainTypedPortuguese]: "测试生词",
+      [REVIEW_MODE.sessionNewTypedPortuguese]: "回想生词",
+      [REVIEW_MODE.moduleAgainTypedPortuguese]: "回想生词",
       [REVIEW_MODE.finalAllRandomTypedPortuguese]: "随机输入全部葡语词",
       [REVIEW_MODE.finalFirstPassUnknownRandomTypedPortuguese]: "随机输入第一遍未掌握的葡语词"
     }
@@ -70,8 +70,8 @@ const copy: Record<MilestoneLocale, LocaleCopy> = {
     finalTitle: "恭喜！你已經完成全部模組。",
     labels: {
       [REVIEW_MODE.sessionAgainFlashcards]: "複習生字",
-      [REVIEW_MODE.sessionNewTypedPortuguese]: "測試生字",
-      [REVIEW_MODE.moduleAgainTypedPortuguese]: "測試生字",
+      [REVIEW_MODE.sessionNewTypedPortuguese]: "回想生字",
+      [REVIEW_MODE.moduleAgainTypedPortuguese]: "回想生字",
       [REVIEW_MODE.finalAllRandomTypedPortuguese]: "隨機輸入全部葡語單字",
       [REVIEW_MODE.finalFirstPassUnknownRandomTypedPortuguese]: "隨機輸入第一遍未掌握的葡語單字"
     }

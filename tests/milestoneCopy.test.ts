@@ -26,12 +26,12 @@ describe("milestone copy", () => {
     expect(getSessionMilestoneCopy("pt-zh-hans", 42).title).toBe("恭喜！你已经认出 42 个词！");
     expect(getSessionMilestoneCopy("pt-zh-hans", 42).actions.map((action) => action.label)).toEqual([
       "复习生词",
-      "测试生词"
+      "回想生词"
     ]);
     expect(getSessionMilestoneCopy("zh-hant-pt", 42).title).toBe("恭喜！你已經認出 42 個單字！");
     expect(getSessionMilestoneCopy("zh-hant-pt", 42).actions.map((action) => action.label)).toEqual([
       "複習生字",
-      "測試生字"
+      "回想生字"
     ]);
   });
 
@@ -51,9 +51,9 @@ describe("milestone copy", () => {
     });
 
     expect(getModuleMilestoneCopy("pt-zh-hans", "Modulo 3").title).toBe("恭喜！你已经完成模块 3。");
-    expect(getModuleMilestoneCopy("pt-zh-hans", "Modulo 3").actions[0].label).toBe("测试生词");
+    expect(getModuleMilestoneCopy("pt-zh-hans", "Modulo 3").actions[0].label).toBe("回想生词");
     expect(getModuleMilestoneCopy("pt-zh-hant", "Modulo 3").title).toBe("恭喜！你已經完成模組 3。");
-    expect(getModuleMilestoneCopy("pt-zh-hant", "Modulo 3").actions[0].label).toBe("測試生字");
+    expect(getModuleMilestoneCopy("pt-zh-hant", "Modulo 3").actions[0].label).toBe("回想生字");
   });
 
   it("returns final all-module randomized type-out options", () => {
@@ -83,7 +83,7 @@ describe("milestone copy", () => {
 
   it("can fetch one action label by review mode", () => {
     expect(getMilestoneActionLabel("pt-zh-hans", REVIEW_MODE.sessionNewTypedPortuguese)).toBe(
-      "测试生词"
+      "回想生词"
     );
   });
 });
