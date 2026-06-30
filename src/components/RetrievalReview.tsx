@@ -162,7 +162,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete }: R
         ) : (
           <>
             <p className={`retrieval-feedback ${outcome === "correct" ? "is-correct" : "is-incorrect"}`}>
-              {outcome === "correct" ? "Correct" : activePrompt.answer}
+              {outcome === "correct" ? "Correct" : "Incorrect"}
             </p>
             <button className="primary" type="button" onClick={nextPrompt}>
               {promptIndex >= prompts.length - 1 ? "Finish" : "Next"}

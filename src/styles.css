@@ -391,15 +391,15 @@ select {
   bottom: clamp(16px, 2vw, 22px);
   transform: translateX(-50%);
   z-index: 3;
-  width: min(640px, calc(100% - 48px));
-  padding: 14px 16px;
+  width: min(560px, calc(100% - 72px));
+  padding: 10px 12px;
   display: grid;
-  gap: 10px;
+  gap: 7px;
   justify-items: start;
   text-align: left;
   border: 1px solid #b9d2e9;
   border-radius: 14px;
-  background: rgba(251, 253, 255, 0.8);
+  background: rgba(251, 253, 255, 0.7);
   box-shadow: 0 14px 32px rgba(14, 44, 79, 0.18);
   backdrop-filter: blur(6px);
 }
@@ -407,15 +407,16 @@ select {
 .first-word-tip p {
   margin: 0;
   color: #123a66;
-  font-size: 0.95rem;
+  font-size: 0.84rem;
   font-weight: 600;
-  line-height: 1.35;
+  line-height: 1.28;
 }
 
 .first-word-tip-dismiss {
-  min-height: 34px;
-  padding: 0 14px;
+  min-height: 30px;
+  padding: 0 12px;
   border-radius: 999px;
+  font-size: 0.84rem;
   justify-self: center;
 }
 
@@ -783,9 +784,12 @@ progress::-moz-progress-bar {
 }
 
 .retrieval-review {
+  --retrieval-type-size: clamp(1.5rem, 4vw, 3.9rem);
+  --retrieval-letter-scale: 1;
   align-content: start;
-  padding-top: 26px;
-  padding-bottom: 30px;
+  padding-top: 28px;
+  padding-bottom: 34px;
+  row-gap: 16px;
 }
 
 .review-panel h2 {
@@ -816,6 +820,10 @@ progress::-moz-progress-bar {
   gap: 10px;
 }
 
+.retrieval-actions {
+  margin-top: 6px;
+}
+
 .review-header {
   width: min(640px, 100%);
   display: flex;
@@ -830,30 +838,40 @@ progress::-moz-progress-bar {
 }
 
 .retrieval-prompt {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: minmax(46px, 1fr) fit-content(calc(100% - 92px)) minmax(46px, 1fr);
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  width: 100%;
+  margin-top: clamp(36px, 6vw, 58px);
   color: var(--navy);
 }
 
 .retrieval-prompt p {
+  grid-column: 2;
+  min-width: 0;
+  max-width: 100%;
   margin: 0;
   font-family: "Cormorant", Georgia, serif;
-  font-size: 2.15rem;
+  font-size: calc(var(--retrieval-type-size) * var(--retrieval-letter-scale));
   font-weight: 500;
   line-height: 1.08;
+  text-align: center;
+  text-wrap: balance;
 }
 
 .retrieval-audio {
+  grid-column: 3;
   flex: 0 0 auto;
+  justify-self: start;
+  margin-left: 10px;
 }
 
 .retrieval-typing-surface {
   position: relative;
-  width: min(680px, 100%);
+  width: min(760px, 100%);
   display: flex;
   justify-content: center;
+  margin-top: 4px;
   cursor: text;
 }
 
@@ -864,20 +882,20 @@ progress::-moz-progress-bar {
   justify-content: center;
   gap: 4px;
   width: 100%;
-  min-height: 48px;
+  min-height: calc(var(--retrieval-type-size) * 1.35);
   pointer-events: none;
 }
 
 .cue-char {
-  min-width: 0.72em;
+  min-width: 0.66em;
   color: #38556e;
   font-family: "Cormorant", Georgia, serif;
-  font-size: 1.65rem;
-  font-weight: 500;
+  font-size: calc(var(--retrieval-type-size) * var(--retrieval-letter-scale));
+  font-weight: 450;
   line-height: 1;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 5px;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 6px;
   text-decoration-color: #38556e;
 }
 
@@ -934,11 +952,14 @@ progress::-moz-progress-bar {
 
 .retrieval-feedback {
   margin: 0;
-  min-height: 42px;
+  min-height: 32px;
   display: inline-flex;
   align-items: center;
   color: #38556e;
+  font-size: 0.95rem;
   font-weight: 700;
+  line-height: 1;
+  text-align: center;
 }
 
 .retrieval-feedback.is-correct {
@@ -1044,14 +1065,21 @@ progress::-moz-progress-bar {
   }
 
   .first-word-tip {
-    width: min(100%, 320px);
+    width: min(100%, 286px);
     bottom: 12px;
-    padding: 12px 14px;
-    gap: 8px;
+    padding: 9px 10px;
+    gap: 6px;
   }
 
   .first-word-tip p {
-    font-size: 0.9rem;
+    font-size: 0.76rem;
+    line-height: 1.24;
+  }
+
+  .first-word-tip-dismiss {
+    min-height: 28px;
+    padding: 0 11px;
+    font-size: 0.78rem;
   }
 
   .prompt,
@@ -1066,8 +1094,11 @@ progress::-moz-progress-bar {
   }
 
   .retrieval-review {
-    padding-top: 30px;
+    --retrieval-type-size: 27px;
+    --retrieval-letter-scale: 1.25;
+    padding-top: 32px;
     padding-bottom: 26px;
+    row-gap: 12px;
   }
 
   .milestone-panel h2 {
@@ -1080,9 +1111,19 @@ progress::-moz-progress-bar {
     width: min(100%, 320px);
   }
 
-  .milestone-actions > button,
+  .milestone-actions > button {
+    width: auto;
+    min-height: 36px;
+    padding-inline: 14px;
+    font-size: 0.9rem;
+  }
+
   .retrieval-actions > button {
-    width: 100%;
+    width: auto;
+    min-width: 0;
+    min-height: 36px;
+    padding-inline: 16px;
+    font-size: 0.9rem;
   }
 
   .review-header {
@@ -1103,11 +1144,11 @@ progress::-moz-progress-bar {
     flex-wrap: wrap;
     row-gap: 8px;
     max-width: 100%;
+    margin-top: 58px;
   }
 
   .retrieval-prompt p {
     max-width: 100%;
-    font-size: 1.55rem;
     overflow-wrap: anywhere;
   }
 
@@ -1117,8 +1158,7 @@ progress::-moz-progress-bar {
   }
 
   .cue-char {
-    font-size: 1.25rem;
-    text-underline-offset: 4px;
+    text-underline-offset: 5px;
   }
 
   .retrieval-input {
