@@ -23,6 +23,7 @@ export function recordReview(
   return {
     ...progress,
     [cardId]: {
+      ...current,
       status,
       reviewCount: current.reviewCount + 1,
       knownCount: current.knownCount + (status === "known" ? 1 : 0),

@@ -19,7 +19,9 @@ export interface UiCopy {
   autoPlayPronunciation: string;
   previousWord: string;
   example: string;
+  translation: string;
   again: string;
+  gotIt: string;
   known: string;
   flashcard: string;
   progressDashboard: string;
@@ -43,14 +45,16 @@ const copy: Record<UiLocale, UiCopy> = {
     importProgress: "Import progress",
     importError: "Could not import that progress file.",
     studyControls: "Study controls",
-    revealAnswer: "Reveal answer",
+    revealAnswer: "Reveal",
     hideAnswer: "Hide answer",
     cardInstruction: "Know this word? Tap the tile to check!",
     listen: "Listen",
     autoPlayPronunciation: "Play pronunciation automatically",
     previousWord: "Previous word",
     example: "Example",
+    translation: "Translation",
     again: "Again",
+    gotIt: "Got it",
     known: "Known",
     flashcard: "Flashcard",
     progressDashboard: "Progress dashboard",
@@ -72,14 +76,16 @@ const copy: Record<UiLocale, UiCopy> = {
     importProgress: "导入进度",
     importError: "无法导入这个进度文件。",
     studyControls: "学习控件",
-    revealAnswer: "显示答案",
+    revealAnswer: "显示",
     hideAnswer: "隐藏答案",
     cardInstruction: "认识这个词吗？点击瓷片查看吧！",
     listen: "听发音",
     autoPlayPronunciation: "自动播放发音",
     previousWord: "上一个单词",
     example: "例句",
+    translation: "翻译",
     again: "再练习",
+    gotIt: "了解",
     known: "已掌握",
     flashcard: "单词卡",
     progressDashboard: "学习进度",
@@ -101,21 +107,23 @@ const copy: Record<UiLocale, UiCopy> = {
     importProgress: "匯入進度",
     importError: "無法匯入這個進度檔案。",
     studyControls: "學習控制項",
-    revealAnswer: "顯示答案",
+    revealAnswer: "顯示",
     hideAnswer: "隱藏答案",
-    cardInstruction: "認識這個詞嗎？點一下瓷片查看吧！",
+    cardInstruction: "認識這個單字嗎？點一下瓷片查看吧！",
     listen: "聽發音",
     autoPlayPronunciation: "自動播放發音",
     previousWord: "上一個單字",
     example: "例句",
+    translation: "翻譯",
     again: "再練習",
+    gotIt: "了解",
     known: "已掌握",
     flashcard: "單字卡",
     progressDashboard: "學習進度",
-    knownVocabulary: "已掌握詞彙",
+    knownVocabulary: "已掌握單字",
     reviewed: "已複習",
     remaining: "待複習",
-    noCardsTitle: "恭喜你！你已經掌握全部詞彙！",
+    noCardsTitle: "恭喜你！你已經掌握全部單字！",
     noCardsBody: "請選擇一個模組複習吧！",
     moduleProgress: (modulo) => `${toChineseModulo(modulo, "模組")}進度`,
     moduloLabel: (modulo) => toChineseModulo(modulo, "模組")

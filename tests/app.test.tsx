@@ -16,33 +16,53 @@ describe("App", () => {
   it("reveals a flashcard answer and records progress", () => {
     render(<App />);
 
-    fireEvent.click(screen.getByRole("button", { name: /reveal answer/i }));
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     expect(screen.getByText(vocabulary[0].english)).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
     expect(localStorage.getItem("pt-a2-vocab-progress")).toContain("known");
   });
 
-  it("keeps examples collapsed behind a toggle on the flipped card", () => {
+  it("shows a first-word tip on a casa and hides the previous word control there", () => {
     render(<App />);
 
-    expect(screen.queryByRole("button", { name: /example/i })).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /previous word/i })).not.toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole("button", { name: /reveal answer/i }));
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+
+    expect(screen.getByText(/tap the tile to flip back to the same word/i)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /got it/i })).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: /got it/i }));
+
+    expect(screen.queryByText(/tap the tile to flip back to the same word/i)).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /previous word/i })).not.toBeInTheDocument();
+  });
+
+  it("shows the Portuguese example on flip and folds the translation behind a toggle", () => {
+    render(<App />);
+
+    expect(screen.queryByRole("button", { name: /translation/i })).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
 
     expect(screen.getAllByText("a casa").some((element) => element.classList.contains("answer-reference"))).toBe(true);
     expect(screen.getByText("house; home")).toBeInTheDocument();
+    expect(screen.getByText("A minha casa fica perto.")).toBeInTheDocument();
 
-    const exampleToggle = screen.getByRole("button", { name: /example/i });
-    const exampleBody = screen.getByText("A minha casa fica perto.").closest(".example-body");
+    const translationToggle = screen.getByRole("button", { name: /translation/i });
+    const translationBody = screen.getByText("My house is nearby.").closest(".example-body");
+    const tileBack = screen.getByText("My house is nearby.").closest(".tile-back");
 
-    expect(exampleToggle).toHaveAttribute("aria-expanded", "false");
-    expect(exampleBody).toHaveAttribute("aria-hidden", "true");
+    expect(translationToggle).toHaveAttribute("aria-expanded", "false");
+    expect(translationBody).toHaveAttribute("aria-hidden", "true");
+    expect(tileBack).not.toHaveClass("translation-is-open");
 
-    fireEvent.click(exampleToggle);
+    fireEvent.click(translationToggle);
 
-    expect(exampleToggle).toHaveAttribute("aria-expanded", "true");
-    expect(exampleBody).toHaveAttribute("aria-hidden", "false");
+    expect(translationToggle).toHaveAttribute("aria-expanded", "true");
+    expect(translationBody).toHaveAttribute("aria-hidden", "false");
+    expect(tileBack).toHaveClass("translation-is-open");
     expect(screen.getByText("My house is nearby.")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /hide answer/i })).toBeInTheDocument();
   });
@@ -51,11 +71,30 @@ describe("App", () => {
     render(<App />);
 
     fireEvent.change(screen.getByLabelText(/language/i), { target: { value: "pt-zh-hans" } });
-    fireEvent.click(screen.getByRole("button", { name: "显示答案" }));
-    fireEvent.click(screen.getByRole("button", { name: "例句" }));
+    fireEvent.click(screen.getByRole("button", { name: "显示" }));
+    fireEvent.click(screen.getByRole("button", { name: "翻译" }));
 
     expect(screen.getByText("我家在附近。")).toBeInTheDocument();
     expect(screen.queryByText("My house is nearby.")).not.toBeInTheDocument();
+  });
+
+  it("keeps the flipped-card reference in the front prompt language", () => {
+    render(<App />);
+
+    const languageSelect = screen.getByLabelText(/language/i);
+
+    fireEvent.change(languageSelect, { target: { value: "en-pt" } });
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    expect(screen.getAllByText("house; home").some((element) => element.classList.contains("answer-reference"))).toBe(
+      true
+    );
+    expect(screen.getByText("a casa")).toHaveClass("answer");
+
+    fireEvent.click(screen.getByRole("button", { name: /hide answer/i }));
+    fireEvent.change(languageSelect, { target: { value: "zh-hans-pt" } });
+    fireEvent.click(screen.getByRole("button", { name: "显示" }));
+    expect(screen.getAllByText("房子/家").some((element) => element.classList.contains("answer-reference"))).toBe(true);
+    expect(screen.getByText("a casa")).toHaveClass("answer");
   });
 
   it("does not render search controls", () => {
@@ -75,7 +114,7 @@ describe("App", () => {
     render(<App />);
 
     expect(screen.getByText(/know this word\? tap the tile to check!/i)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /reveal answer/i })).toHaveAccessibleDescription(
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveAccessibleDescription(
       /know this word\? tap the tile to check!/i
     );
   });
@@ -83,17 +122,19 @@ describe("App", () => {
   it("lets users go back to the previous word", () => {
     render(<App />);
 
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
     fireEvent.click(screen.getByRole("button", { name: /previous word/i }));
 
-    expect(screen.getByRole("button", { name: /reveal answer/i })).toHaveTextContent(
-      vocabulary[vocabulary.length - 1].portuguese
-    );
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[0].portuguese);
   });
 
   it("places previous word before the revealed review actions", () => {
     render(<App />);
 
-    fireEvent.click(screen.getByRole("button", { name: /reveal answer/i }));
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
 
     const controls = screen
       .getAllByRole("button")
@@ -102,6 +143,73 @@ describe("App", () => {
 
     expect(controls).toEqual(["Previous word", "Listen", "Again", "Known"]);
   });
+
+  it("starts the next 20-word session after typed session review instead of showing a previous-session word", () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole("checkbox", { name: /play pronunciation automatically/i }));
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /again/i }));
+
+    for (let index = 1; index < 20; index += 1) {
+      fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+      fireEvent.click(screen.getByRole("button", { name: /known/i }));
+    }
+
+    fireEvent.click(screen.getByRole("button", { name: "Recall new words" }));
+    fireEvent.click(screen.getByRole("button", { name: "Reveal" }));
+    fireEvent.click(screen.getByRole("button", { name: "Finish" }));
+
+    expect(screen.getByText("Session review complete")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Start next session" }));
+
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);
+  }, 10_000);
+
+  it("starts the next 20-word session after flashcard again review instead of replaying the reviewed word", () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole("checkbox", { name: /play pronunciation automatically/i }));
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /again/i }));
+
+    for (let index = 1; index < 20; index += 1) {
+      fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+      fireEvent.click(screen.getByRole("button", { name: /known/i }));
+    }
+
+    fireEvent.click(screen.getByRole("button", { name: "Review new words" }));
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);
+  }, 10_000);
+
+  it("starts the next 20-word session after reviewing missed recall words", () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole("checkbox", { name: /play pronunciation automatically/i }));
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /again/i }));
+
+    for (let index = 1; index < 20; index += 1) {
+      fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+      fireEvent.click(screen.getByRole("button", { name: /known/i }));
+    }
+
+    fireEvent.click(screen.getByRole("button", { name: "Recall new words" }));
+    fireEvent.click(screen.getByRole("button", { name: "Reveal" }));
+    fireEvent.click(screen.getByRole("button", { name: "Finish" }));
+    expect(screen.getByText("Session review complete")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Review new words" }));
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[0].portuguese);
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);
+  }, 10_000);
 
   it("keeps listen below the tile with the flashcard controls in every language mode", () => {
     const { container } = render(<App />);

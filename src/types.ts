@@ -21,6 +21,11 @@ export interface CardProgress {
   status: CardStatus;
   reviewCount: number;
   knownCount: number;
+  firstPassStatus?: Exclude<CardStatus, "new">;
+  everAgain?: boolean;
+  retrievalTroubleCount?: number;
+  sessionTroubleCount?: number;
+  moduleTroubleCount?: number;
   lastReviewedAt?: string;
 }
 
