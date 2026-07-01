@@ -1,3 +1,4 @@
+import { Download } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Flashcard } from "./components/Flashcard";
 import { ProgressDashboard } from "./components/ProgressDashboard";
@@ -44,6 +45,10 @@ interface RetrievalState {
   prompts: ReturnType<typeof buildRetrievalReviewPrompts>;
 }
 
+interface BeforeInstallPromptEvent extends Event {
+  prompt: () => Promise<void>;
+}
+
 export default function App() {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
   const [modulo, setModulo] = useState("all");
@@ -56,10 +61,39 @@ export default function App() {
   const [sessionAgainIds, setSessionAgainIds] = useState<string[]>([]);
   const [reviewQueue, setReviewQueue] = useState<VocabularyEntry[]>([]);
   const [retrievalState, setRetrievalState] = useState<RetrievalState | null>(null);
+  const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [showInstallHelp, setShowInstallHelp] = useState(false);
+  const [appInstalled, setAppInstalled] = useState(false);
 
   useEffect(() => {
     saveProgress(progress);
   }, [progress]);
+
+  useEffect(() => {
+    const standalone =
+      window.matchMedia?.("(display-mode: standalone)").matches ||
+      ("standalone" in window.navigator && Boolean((window.navigator as Navigator & { standalone?: boolean }).standalone));
+    setAppInstalled(standalone);
+
+    function handleBeforeInstallPrompt(event: Event) {
+      event.preventDefault();
+      setInstallPrompt(event as BeforeInstallPromptEvent);
+    }
+
+    function handleAppInstalled() {
+      setAppInstalled(true);
+      setShowInstallHelp(false);
+      setInstallPrompt(null);
+    }
+
+    window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+    window.addEventListener("appinstalled", handleAppInstalled);
+
+    return () => {
+      window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+      window.removeEventListener("appinstalled", handleAppInstalled);
+    };
+  }, []);
 
   const modulos = useMemo(() => getModulos(vocabulary), []);
   const selectedEntries = useMemo(
@@ -172,6 +206,16 @@ export default function App() {
       return;
     }
     startRetrieval(entries, getMilestoneActionLabel(direction, REVIEW_MODE.sessionNewTypedPortuguese), "session");
+  }
+
+  async function handleAddToHomeScreen() {
+    if (installPrompt) {
+      await installPrompt.prompt();
+      setInstallPrompt(null);
+      return;
+    }
+
+    setShowInstallHelp((current) => !current);
   }
 
   function returnToSessionReviewChoice() {
@@ -525,6 +569,22 @@ export default function App() {
               />
               {ui.autoPlayPronunciation}
             </label>
+            {!appInstalled && (
+              <div className="install-app-control">
+                <button className="secondary install-app-button" type="button" onClick={handleAddToHomeScreen}>
+                  <Download size={16} aria-hidden="true" />
+                  {ui.addToHomeScreen}
+                </button>
+                {showInstallHelp && (
+                  <div className="install-app-help" role="status">
+                    <p>{ui.addToHomeScreenHelp}</p>
+                    <button className="install-app-dismiss" type="button" onClick={() => setShowInstallHelp(false)}>
+                      {ui.gotIt}
+                    </button>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
           {renderStudyContent()}

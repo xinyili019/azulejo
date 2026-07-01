@@ -231,6 +231,47 @@ h1 {
   min-width: 0;
 }
 
+.install-app-control {
+  display: none;
+}
+
+.install-app-button {
+  min-height: 36px;
+  padding-inline: 12px;
+  font-size: 0.86rem;
+}
+
+.install-app-help {
+  width: min(100%, 320px);
+  margin-top: 8px;
+  border: 1px solid rgba(18, 58, 102, 0.18);
+  border-radius: 8px;
+  padding: 10px;
+  background: rgba(251, 253, 255, 0.92);
+  box-shadow: 0 12px 28px rgba(14, 44, 79, 0.12);
+  color: #38556e;
+}
+
+.install-app-help p {
+  margin: 0;
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.28;
+}
+
+.install-app-dismiss {
+  min-height: 28px;
+  margin-top: 8px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 12px;
+  background: #123a66;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 select {
   min-height: 42px;
   border: 1px solid #b9d2e9;
@@ -1092,6 +1133,16 @@ progress::-moz-progress-bar {
 
   .app-header {
     display: grid;
+  }
+
+  .study-toggles {
+    align-items: flex-start;
+  }
+
+  .install-app-control {
+    display: grid;
+    justify-items: start;
+    max-width: 100%;
   }
 
   .utility-actions {

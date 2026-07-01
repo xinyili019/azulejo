@@ -31,6 +31,14 @@ describe("App", () => {
     expect(fingerprint).toHaveTextContent("azulejo.authorship.canary.XinyiLi.2026");
   });
 
+  it("shows add-to-home-screen instructions when no install prompt is available", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: /add to home screen/i }));
+
+    expect(screen.getByText(/tap share/i)).toBeInTheDocument();
+  });
+
   it("shows a first-word tip on a casa and hides the previous word control there", () => {
     render(<App />);
 
