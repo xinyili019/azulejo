@@ -269,4 +269,40 @@ describe("App", () => {
     });
     expect(play).toHaveBeenCalledTimes(1);
   });
+
+  it("autoplays pronunciation only after flip in translation-to-Portuguese modes", () => {
+    vi.useFakeTimers();
+    const play = vi.mocked(window.HTMLMediaElement.prototype.play);
+    const reverseDirections = [
+      { value: "en-pt", revealLabel: /reveal/i },
+      { value: "zh-hans-pt", revealLabel: "显示" },
+      { value: "zh-hant-pt", revealLabel: "顯示" }
+    ];
+
+    for (const direction of reverseDirections) {
+      play.mockClear();
+      const { unmount } = render(<App />);
+
+      fireEvent.change(screen.getByLabelText(/language/i), { target: { value: direction.value } });
+
+      act(() => {
+        vi.advanceTimersByTime(250);
+      });
+      expect(play).not.toHaveBeenCalled();
+
+      fireEvent.click(screen.getByRole("button", { name: direction.revealLabel }));
+
+      act(() => {
+        vi.advanceTimersByTime(249);
+      });
+      expect(play).not.toHaveBeenCalled();
+
+      act(() => {
+        vi.advanceTimersByTime(1);
+      });
+      expect(play).toHaveBeenCalledTimes(1);
+
+      unmount();
+    }
+  });
 });

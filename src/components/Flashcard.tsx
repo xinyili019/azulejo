@@ -41,6 +41,9 @@ export function Flashcard({
   const hasTranslation = Boolean(exampleTranslation);
   const isFirstWord = entry.id === "m1-casa";
   const cardTermSize = getCardTermSize(prompt);
+  const portugueseIsFront = isPortugueseFrontDirection(direction);
+  const shouldAutoPlayPronunciation = autoPlayPronunciation && (portugueseIsFront || revealed);
+  const autoPlayTrigger = portugueseIsFront ? `${entry.id}:${direction}` : `${entry.id}:${direction}:${revealed}`;
 
   useEffect(() => {
     setTranslationOpen(false);
@@ -104,14 +107,14 @@ export function Flashcard({
   }
 
   useEffect(() => {
-    if (!autoPlayPronunciation) return;
+    if (!shouldAutoPlayPronunciation) return;
 
     const timeoutId = window.setTimeout(() => {
       handlePronunciation();
     }, AUTO_PLAY_DELAY_MS);
 
     return () => window.clearTimeout(timeoutId);
-  }, [entry.id, autoPlayPronunciation]);
+  }, [autoPlayTrigger, shouldAutoPlayPronunciation]);
 
   function renderPronunciationButton(className: string) {
     return (
@@ -233,6 +236,10 @@ function getExampleTranslation(entry: VocabularyEntry, direction: Direction) {
   if (direction.includes("zh-hans")) return entry.exampleZhHans;
   if (direction.includes("zh-hant")) return entry.exampleZhHant;
   return entry.exampleEn;
+}
+
+function isPortugueseFrontDirection(direction: Direction) {
+  return direction.startsWith("pt-");
 }
 
 function getFirstWordTipText(ui: UiCopy) {
