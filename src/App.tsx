@@ -3,6 +3,7 @@ import { Flashcard } from "./components/Flashcard";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { RetrievalReview } from "./components/RetrievalReview";
 import { vocabulary } from "./data/vocabulary";
+import { AUTHORSHIP_FINGERPRINT, AUTHORSHIP_OWNER } from "./lib/authorshipFingerprint";
 import { getModulos } from "./lib/filtering";
 import { getUiCopy } from "./lib/i18n";
 import {
@@ -466,6 +467,14 @@ export default function App() {
 
   return (
     <main className="app-shell">
+      <span
+        className="authorship-fingerprint"
+        data-author={AUTHORSHIP_OWNER}
+        data-fingerprint={AUTHORSHIP_FINGERPRINT}
+        aria-hidden="true"
+      >
+        {AUTHORSHIP_FINGERPRINT}
+      </span>
       <section className="workspace">
         <header className="app-header">
           <div>

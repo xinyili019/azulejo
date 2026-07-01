@@ -23,6 +23,14 @@ describe("App", () => {
     expect(localStorage.getItem("pt-a2-vocab-progress")).toContain("known");
   });
 
+  it("renders the authorship fingerprint in hidden output", () => {
+    const { container } = render(<App />);
+    const fingerprint = container.querySelector("[data-fingerprint='azulejo.authorship.canary.XinyiLi.2026']");
+
+    expect(fingerprint).toHaveAttribute("data-author", "XinyiLi");
+    expect(fingerprint).toHaveTextContent("azulejo.authorship.canary.XinyiLi.2026");
+  });
+
   it("shows a first-word tip on a casa and hides the previous word control there", () => {
     render(<App />);
 
