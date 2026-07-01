@@ -95,7 +95,7 @@ export default function App() {
 
     if (phase === "sessionAgainFlashcards") {
       if (nextIndex >= reviewQueue.length) {
-        continueAfterSession();
+        finishSessionReview();
         return;
       }
       setCardIndex(nextIndex);
@@ -180,6 +180,12 @@ export default function App() {
     setCardIndex(0);
     setRevealed(false);
     setPhase("sessionMilestone");
+  }
+
+  function finishSessionReview() {
+    setCardIndex(0);
+    setRevealed(false);
+    setPhase("sessionRetrievalComplete");
   }
 
   function continueAfterSession() {
@@ -281,11 +287,11 @@ export default function App() {
       const missed = results.filter((result) => result.outcome !== "correct").map((result) => result.entry);
       if (missed.length > 0) {
         setReviewQueue(missed);
-        setCardIndex(0);
-        setPhase("sessionRetrievalComplete");
+        finishSessionReview();
         return;
       }
-      continueAfterSession();
+      setReviewQueue([]);
+      finishSessionReview();
       return;
     }
 

@@ -192,6 +192,9 @@ describe("App", () => {
     expect(screen.queryByText(/tap the tile to flip back to the same word/i)).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
 
+    expect(screen.getByText("Session review complete")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Start next session" }));
+
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);
   }, 10_000);
 
@@ -216,6 +219,9 @@ describe("App", () => {
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[0].portuguese);
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    expect(screen.getByText("Session review complete")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Start next session" }));
 
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);
   }, 10_000);
