@@ -6823,7 +6823,7 @@ export const vocabulary: VocabularyEntry[] = [
     "id": "m10-stress",
     "modulo": "Módulo 10",
     "theme": "Saúde",
-    "portuguese": "o stress",
+    "portuguese": "o stresse",
     "english": "stress",
     "zhHans": "压力",
     "zhHant": "壓力",

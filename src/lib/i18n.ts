@@ -13,6 +13,7 @@ export interface UiCopy {
   importError: string;
   studyControls: string;
   revealAnswer: string;
+  checkAnswer: string;
   hideAnswer: string;
   cardInstruction: string;
   listen: string;
@@ -29,6 +30,19 @@ export interface UiCopy {
   startOver: string;
   flashcard: string;
   progressDashboard: string;
+  moduleQuiz: string;
+  quizScope: string;
+  startQuiz: string;
+  startNewModule: string;
+  freshQuiz: string;
+  nextQuestion: string;
+  finishQuiz: string;
+  correct: string;
+  incorrect: string;
+  quizScore: (correct: number, total: number) => string;
+  finalQuizScore: (correct: number, total: number) => string;
+  moduleQuizScores: string;
+  readyForExam: string;
   knownVocabulary: string;
   reviewed: string;
   remaining: string;
@@ -50,6 +64,7 @@ const copy: Record<UiLocale, UiCopy> = {
     importError: "Could not import that progress file.",
     studyControls: "Study controls",
     revealAnswer: "Reveal",
+    checkAnswer: "Check",
     hideAnswer: "Hide answer",
     cardInstruction: "Know this word? Tap the tile to check!",
     listen: "Listen",
@@ -66,10 +81,23 @@ const copy: Record<UiLocale, UiCopy> = {
     startOver: "Start over",
     flashcard: "Flashcard",
     progressDashboard: "Progress dashboard",
+    moduleQuiz: "Module quiz",
+    quizScope: "Quiz scope",
+    startQuiz: "Start quiz",
+    startNewModule: "Start new module",
+    freshQuiz: "Fresh 20",
+    nextQuestion: "Next",
+    finishQuiz: "Finish",
+    correct: "Correct",
+    incorrect: "Incorrect",
+    quizScore: (correct, total) => `${correct} / ${total} correct`,
+    finalQuizScore: (correct, total) => `You scored ${correct}/${total}!`,
+    moduleQuizScores: "Module quiz scores",
+    readyForExam: "ready for your exam!",
     knownVocabulary: "known vocabulary",
     reviewed: "reviewed",
     remaining: "remaining",
-    noCardsTitle: "Congratulations! You have mastered all vocabulary.",
+    noCardsTitle: "No cards to show.",
     noCardsBody: "Choose a module to review.",
     moduleProgress: (modulo) => `${modulo} progress`,
     moduloLabel: (modulo) => modulo
@@ -85,6 +113,7 @@ const copy: Record<UiLocale, UiCopy> = {
     importError: "无法导入这个进度文件。",
     studyControls: "学习控件",
     revealAnswer: "显示",
+    checkAnswer: "检查",
     hideAnswer: "隐藏答案",
     cardInstruction: "认识这个词吗？点击瓷片查看吧！",
     listen: "听发音",
@@ -101,10 +130,23 @@ const copy: Record<UiLocale, UiCopy> = {
     startOver: "重新开始",
     flashcard: "单词卡",
     progressDashboard: "学习进度",
+    moduleQuiz: "模块测验",
+    quizScope: "测验范围",
+    startQuiz: "开始测验",
+    startNewModule: "开始新模块",
+    freshQuiz: "重新抽 20 题",
+    nextQuestion: "下一题",
+    finishQuiz: "完成",
+    correct: "正确",
+    incorrect: "不正确",
+    quizScore: (correct, total) => `答对 ${correct} / ${total} 题`,
+    finalQuizScore: (correct, total) => `你得了 ${correct}/${total} 分！`,
+    moduleQuizScores: "模块测验成绩",
+    readyForExam: "考试准备度",
     knownVocabulary: "已掌握词汇",
     reviewed: "已复习",
     remaining: "待复习",
-    noCardsTitle: "恭喜你！你已经掌握全部词汇！",
+    noCardsTitle: "没有可显示的单词卡。",
     noCardsBody: "请选择一个模块复习吧！",
     moduleProgress: (modulo) => `${toChineseModulo(modulo, "模块")}进度`,
     moduloLabel: (modulo) => toChineseModulo(modulo, "模块")
@@ -120,6 +162,7 @@ const copy: Record<UiLocale, UiCopy> = {
     importError: "無法匯入這個進度檔案。",
     studyControls: "學習控制項",
     revealAnswer: "顯示",
+    checkAnswer: "檢查",
     hideAnswer: "隱藏答案",
     cardInstruction: "認識這個單字嗎？點一下瓷片查看吧！",
     listen: "聽發音",
@@ -136,10 +179,23 @@ const copy: Record<UiLocale, UiCopy> = {
     startOver: "重新開始",
     flashcard: "單字卡",
     progressDashboard: "學習進度",
+    moduleQuiz: "模組測驗",
+    quizScope: "測驗範圍",
+    startQuiz: "開始測驗",
+    startNewModule: "開始新模組",
+    freshQuiz: "重新抽 20 題",
+    nextQuestion: "下一題",
+    finishQuiz: "完成",
+    correct: "正確",
+    incorrect: "不正確",
+    quizScore: (correct, total) => `答對 ${correct} / ${total} 題`,
+    finalQuizScore: (correct, total) => `你得了 ${correct}/${total} 分！`,
+    moduleQuizScores: "模組測驗成績",
+    readyForExam: "考試準備度",
     knownVocabulary: "已掌握單字",
     reviewed: "已複習",
     remaining: "待複習",
-    noCardsTitle: "恭喜你！你已經掌握全部單字！",
+    noCardsTitle: "沒有可顯示的單字卡。",
     noCardsBody: "請選擇一個模組複習吧！",
     moduleProgress: (modulo) => `${toChineseModulo(modulo, "模組")}進度`,
     moduloLabel: (modulo) => toChineseModulo(modulo, "模組")

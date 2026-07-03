@@ -16,7 +16,10 @@ export function ProgressDashboard({ entries, progress, ui, onStartOver }: Progre
   return (
     <aside className="dashboard" aria-label={ui.progressDashboard}>
       <div className="stat-main">
-        <span>{total.knownPercent}%</span>
+        <div className="stat-main-value">
+          <span>{total.knownPercent}%</span>
+          <span className="exam-readiness">{ui.readyForExam}</span>
+        </div>
         <p>{ui.knownVocabulary}</p>
       </div>
       <div className="stats-row">

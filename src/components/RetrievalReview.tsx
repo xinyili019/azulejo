@@ -1,5 +1,5 @@
-import { ChevronRight, Eye, Volume2 } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { Check, ChevronRight, Eye, Volume2 } from "lucide-react";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import {
   getCharacterFeedback,
   getRetrievalOutcome,
@@ -44,6 +44,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
   const feedback = activePrompt && submitted ? getCharacterFeedback(scoredInput, activePrompt.answer) : [];
   const outcome = activePrompt && submitted ? getRetrievalOutcome(scoredInput, activePrompt.answer, revealedBeforeTyped) : null;
   const targetExample = activePrompt ? getExampleTranslation(activePrompt.entry, direction) : undefined;
+  const hasInput = Array.from(input).length > 0;
   const revealLabel = ui.revealAnswer;
 
   useEffect(() => {
@@ -88,6 +89,17 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
       revealedBeforeTyped: revealed,
       submitted: true
     }));
+  }
+
+  function submitTypedAnswer() {
+    if (!hasInput) return;
+    submitAnswer(false);
+  }
+
+  function handleInputKeyDown(event: KeyboardEvent<HTMLInputElement>) {
+    if (event.key !== "Enter" || !hasInput) return;
+    event.preventDefault();
+    submitTypedAnswer();
   }
 
   function nextPrompt() {
@@ -151,6 +163,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
                 input: getSlotInput(event.target.value, activePrompt.cue)
               }))
             }
+            onKeyDown={handleInputKeyDown}
             disabled={submitted}
             autoComplete="off"
             autoCapitalize="none"
@@ -162,10 +175,22 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
 
         <div className="retrieval-actions">
           {!submitted ? (
-            <button className="secondary" type="button" onClick={() => submitAnswer(true)}>
-              <Eye size={18} aria-hidden="true" />
-              {revealLabel}
-            </button>
+            <>
+              <button
+                className="primary retrieval-submit"
+                type="button"
+                aria-disabled={!hasInput}
+                aria-label={ui.checkAnswer}
+                onClick={submitTypedAnswer}
+              >
+                <Check size={18} aria-hidden="true" />
+                {ui.checkAnswer}
+              </button>
+              <button className="secondary" type="button" onClick={() => submitAnswer(true)}>
+                <Eye size={18} aria-hidden="true" />
+                {revealLabel}
+              </button>
+            </>
           ) : (
             <>
               <p className={`retrieval-feedback ${outcome === "correct" ? "is-correct" : "is-incorrect"}`}>

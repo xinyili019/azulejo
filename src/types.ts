@@ -17,6 +17,33 @@ export interface VocabularyEntry {
   source: "seed" | "pdf";
 }
 
+export interface ModuleQuizScope {
+  id: string;
+  modulo: string;
+  label: string;
+  entries: VocabularyEntry[];
+  startIndex: number;
+  endIndex: number;
+}
+
+export interface ModuleQuizQuestion {
+  id: string;
+  entry: VocabularyEntry;
+  clozeSentence: string;
+  answer: string;
+  choices: string[];
+  translation?: string;
+}
+
+export interface ModuleQuizResult {
+  scopeId: string;
+  modulo: string;
+  label: string;
+  correct: number;
+  total: number;
+  completedAt: string;
+}
+
 export interface CardProgress {
   status: CardStatus;
   reviewCount: number;

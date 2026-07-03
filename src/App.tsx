@@ -1,6 +1,7 @@
-import { Download } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { Brain, Download } from "lucide-react";
+import { type ReactNode, useEffect, useMemo, useState } from "react";
 import { Flashcard } from "./components/Flashcard";
+import { ModuleQuiz } from "./components/ModuleQuiz";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { RetrievalReview } from "./components/RetrievalReview";
 import { vocabulary } from "./data/vocabulary";
@@ -15,6 +16,7 @@ import {
   REVIEW_MODE,
   type ReviewModeId
 } from "./lib/milestoneCopy";
+import { buildModuleQuizScopes } from "./lib/moduleQuiz";
 import { getCardProgress, loadProgress, recordReview, saveProgress } from "./lib/progress";
 import {
   buildRetrievalReviewPrompts,
@@ -24,7 +26,7 @@ import {
   type RetrievalReviewResult
 } from "./lib/retrievalReview";
 import { buildSessionPlan, type VocabularySession } from "./lib/sessionPlan";
-import type { CardProgress, CardStatus, Direction, ProgressState, VocabularyEntry } from "./types";
+import type { CardProgress, CardStatus, Direction, ModuleQuizResult, ProgressState, VocabularyEntry } from "./types";
 import "./styles.css";
 
 type StudyPhase =
@@ -35,7 +37,9 @@ type StudyPhase =
   | "moduleMilestone"
   | "finalMilestone"
   | "retrieval"
-  | "complete";
+  | "quiz";
+
+type QuizReturnPhase = Exclude<StudyPhase, "quiz" | "retrieval">;
 
 type RetrievalContext = "session" | "module" | "final";
 
@@ -61,6 +65,9 @@ export default function App() {
   const [sessionAgainIds, setSessionAgainIds] = useState<string[]>([]);
   const [reviewQueue, setReviewQueue] = useState<VocabularyEntry[]>([]);
   const [retrievalState, setRetrievalState] = useState<RetrievalState | null>(null);
+  const [quizScopeId, setQuizScopeId] = useState<string | null>(null);
+  const [quizReturnPhase, setQuizReturnPhase] = useState<QuizReturnPhase>("study");
+  const [moduleQuizResults, setModuleQuizResults] = useState<Record<string, ModuleQuizResult>>({});
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [showInstallHelp, setShowInstallHelp] = useState(false);
   const [appInstalled, setAppInstalled] = useState(false);
@@ -101,6 +108,7 @@ export default function App() {
     [modulo]
   );
   const sessionPlan = useMemo(() => buildSessionPlan(selectedEntries), [selectedEntries]);
+  const quizScopes = useMemo(() => buildModuleQuizScopes(selectedEntries), [selectedEntries]);
   const currentSession = sessionPlan.sessions[sessionIndex];
   const ui = getUiCopy(direction);
 
@@ -108,6 +116,13 @@ export default function App() {
     phase === "sessionAgainFlashcards" ? reviewQueue : currentSession?.entries ?? selectedEntries;
   const activeEntry = visibleEntries[cardIndex];
   const recognizedCount = selectedEntries.filter((entry) => getCardProgress(progress, entry.id).status === "known").length;
+  const completedModuleQuizResults = useMemo(
+    () =>
+      quizScopes
+        .map((scope) => moduleQuizResults[scope.id])
+        .filter((result): result is ModuleQuizResult => Boolean(result)),
+    [moduleQuizResults, quizScopes]
+  );
 
   useEffect(() => {
     resetFlow();
@@ -121,10 +136,13 @@ export default function App() {
     setSessionAgainIds([]);
     setReviewQueue([]);
     setRetrievalState(null);
+    setQuizScopeId(null);
+    setQuizReturnPhase("study");
   }
 
   function handleStartOver() {
     setProgress({});
+    setModuleQuizResults({});
     resetFlow();
   }
 
@@ -268,7 +286,12 @@ export default function App() {
       return;
     }
 
-    setPhase(modulo === "all" ? "finalMilestone" : "complete");
+    if (modulo === "all") {
+      setPhase("finalMilestone");
+      return;
+    }
+
+    resetFlow();
   }
 
   function startModuleTypedReview() {
@@ -302,6 +325,32 @@ export default function App() {
     setPhase("retrieval");
     setCardIndex(0);
     setRevealed(false);
+  }
+
+  function startModuleQuiz(returnPhase: QuizReturnPhase = phase === "moduleMilestone" ? "moduleMilestone" : "study") {
+    const initialScope = getCurrentQuizScope()?.id ?? quizScopes[0]?.id ?? null;
+    setQuizScopeId(initialScope);
+    setQuizReturnPhase(returnPhase);
+    setPhase("quiz");
+    setCardIndex(0);
+    setRevealed(false);
+  }
+
+  function finishModuleQuiz() {
+    setPhase(quizReturnPhase);
+    setQuizScopeId(null);
+  }
+
+  function startNewModuleAfterQuiz() {
+    setQuizScopeId(null);
+    continueAfterModule();
+  }
+
+  function handleModuleQuizComplete(result: ModuleQuizResult) {
+    setModuleQuizResults((current) => ({
+      ...current,
+      [result.scopeId]: result
+    }));
   }
 
   function handleRetrievalComplete(results: RetrievalReviewResult[]) {
@@ -349,7 +398,7 @@ export default function App() {
       return;
     }
 
-    setPhase("complete");
+    setPhase("finalMilestone");
   }
 
   function getCurrentSessionAgainEntries() {
@@ -360,6 +409,13 @@ export default function App() {
   function getCurrentModuleEntries() {
     if (!currentSession) return selectedEntries;
     return sessionPlan.modules[currentSession.moduleIndex]?.entries ?? [];
+  }
+
+  function getCurrentQuizScope() {
+    const moduleEntries = getCurrentModuleEntries();
+    const firstEntry = moduleEntries[0];
+    if (!firstEntry) return quizScopes[0];
+    return quizScopes.find((scope) => scope.modulo === firstEntry.modulo);
   }
 
   function expandFinalReviewEntries(baseEntries: VocabularyEntry[]) {
@@ -386,6 +442,22 @@ export default function App() {
   }
 
   function renderStudyContent() {
+    if (phase === "quiz") {
+      return (
+        <ModuleQuiz
+          scopes={quizScopes}
+          allEntries={selectedEntries}
+          direction={direction}
+          initialScopeId={quizScopeId}
+          ui={ui}
+          onComplete={handleModuleQuizComplete}
+          onExit={finishModuleQuiz}
+          onCompletionExit={quizReturnPhase === "moduleMilestone" ? startNewModuleAfterQuiz : finishModuleQuiz}
+          completionExitLabel={quizReturnPhase === "moduleMilestone" ? ui.startNewModule : ui.goBack}
+        />
+      );
+    }
+
     if (phase === "retrieval" && retrievalState) {
       return (
         <RetrievalReview
@@ -424,17 +496,25 @@ export default function App() {
         ? getModuleMilestoneCopy(direction, currentSession.modulo)
         : { title: "Module complete", actions: [] };
       const dueCount = getCurrentModuleEntries().filter((entry) => getCardProgress(progress, entry.id).everAgain).length;
+      const moduleContinueLabel = modulo === "all" && sessionPlan.sessions[sessionIndex + 1] ? ui.startNewModule : "Finish";
       return (
         <MilestonePanel
           title={copy.title}
           actions={
             dueCount === 0
-              ? [{ id: "continue", label: modulo === "all" ? "Continue" : "Finish", onClick: continueAfterModule }]
-              : copy.actions.map((action) => ({
-                  id: action.id,
-                  label: action.label,
-                  onClick: startModuleTypedReview
-                }))
+              ? [
+                  { id: "quiz", label: ui.startQuiz, onClick: () => startModuleQuiz("moduleMilestone") },
+                  { id: "continue", label: moduleContinueLabel, onClick: continueAfterModule }
+                ]
+              : [
+                  ...copy.actions.map((action) => ({
+                    id: action.id,
+                    label: action.label,
+                    onClick: startModuleTypedReview
+                  })),
+                  { id: "quiz", label: ui.startQuiz, onClick: () => startModuleQuiz("moduleMilestone") },
+                  { id: "continue", label: moduleContinueLabel, onClick: continueAfterModule }
+                ]
           }
         />
       );
@@ -466,16 +546,9 @@ export default function App() {
             label: action.label,
             onClick: () => startFinalTypedReview(action.id)
           }))}
-        />
-      );
-    }
-
-    if (phase === "complete") {
-      return (
-        <section className="empty-state">
-          <h2>{ui.noCardsTitle}</h2>
-          <p>{ui.noCardsBody}</p>
-        </section>
+        >
+          <ModuleQuizScoreSummary results={completedModuleQuizResults} ui={ui} />
+        </MilestonePanel>
       );
     }
 
@@ -566,6 +639,12 @@ export default function App() {
           </section>
 
           <div className="study-toggles">
+            {quizScopes.length > 0 && phase !== "quiz" && (
+              <button className="secondary module-quiz-start" type="button" onClick={() => startModuleQuiz("study")}>
+                <Brain size={16} aria-hidden="true" />
+                {ui.startQuiz}
+              </button>
+            )}
             <label className="toggle auto-audio-toggle">
               <input
                 type="checkbox"
@@ -608,17 +687,45 @@ interface MilestonePanelProps {
     label: string;
     onClick: () => void;
   }>;
+  children?: ReactNode;
 }
 
-function MilestonePanel({ title, actions }: MilestonePanelProps) {
+function MilestonePanel({ title, actions, children }: MilestonePanelProps) {
   return (
     <section className="review-panel milestone-panel">
       <h2>{renderMilestoneTitle(title)}</h2>
+      {children}
       <div className="milestone-actions">
         {actions.map((action, index) => (
           <button key={action.id} className={index === 0 ? "primary" : "secondary"} type="button" onClick={action.onClick}>
             {action.label}
           </button>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+interface ModuleQuizScoreSummaryProps {
+  results: ModuleQuizResult[];
+  ui: ReturnType<typeof getUiCopy>;
+}
+
+function ModuleQuizScoreSummary({ results, ui }: ModuleQuizScoreSummaryProps) {
+  if (results.length === 0) return null;
+
+  const totalCorrect = results.reduce((sum, result) => sum + result.correct, 0);
+  const totalQuestions = results.reduce((sum, result) => sum + result.total, 0);
+
+  return (
+    <section className="module-quiz-score-summary" aria-label={ui.moduleQuizScores}>
+      <p>{ui.finalQuizScore(totalCorrect, totalQuestions)}</p>
+      <div className="module-quiz-score-list">
+        {results.map((result) => (
+          <div className="module-quiz-score-row" key={result.scopeId}>
+            <span>{result.label}</span>
+            <strong>{ui.quizScore(result.correct, result.total)}</strong>
+          </div>
         ))}
       </div>
     </section>
