@@ -1860,7 +1860,7 @@ progress::-moz-progress-bar {
   }
 
   .module-quiz-prompt {
-    min-height: 76px;
+    min-height: 64px;
     margin-top: 0;
     grid-template-columns: 34px minmax(0, 1fr) 34px;
     gap: 8px;
@@ -1888,6 +1888,26 @@ progress::-moz-progress-bar {
   .module-quiz-prompt.is-audio-meaning .module-quiz-audio svg {
     width: 28px;
     height: 28px;
+  }
+
+  .module-quiz-translation {
+    width: min(100%, 320px);
+    min-height: 22px;
+  }
+
+  .module-quiz-translation .example-toggle {
+    min-height: 20px;
+    font-size: 0.68rem;
+  }
+
+  .module-quiz-translation.open .example-body {
+    max-height: 58px;
+    margin-top: 2px;
+  }
+
+  .module-quiz-translation .example {
+    font-size: 0.98rem;
+    line-height: 1.12;
   }
 
   .module-quiz-choices {
