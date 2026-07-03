@@ -158,7 +158,7 @@ describe("App", () => {
 
     expect(screen.getByRole("combobox", { name: "Situação" })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "Vocabulário" })).toHaveAttribute("aria-selected", "true");
-    expect(screen.getByText(/Banco 0% pronto/)).toBeInTheDocument();
+    expect(screen.getByText(/Banco 0%/)).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("tab", { name: "Diálogo" }));
     expect(screen.getByText("Boa tarde, queria abrir uma conta à ordem.")).toBeInTheDocument();

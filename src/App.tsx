@@ -594,12 +594,8 @@ export default function App() {
     return ui.locale === "zhHans" ? line.zhHans : line.zhHant;
   }
 
-  function getPrimarySituacaoTranslation(line: SituacaoContentLine) {
-    return ui.locale === "en" ? line.en : getChineseText(line);
-  }
-
-  function getSecondarySituacaoTranslation(line: SituacaoContentLine) {
-    return ui.locale === "en" ? getChineseText(line) : line.en;
+  function getSituacaoTranslation(line: SituacaoContentLine) {
+    return direction.includes("zh") ? getChineseText(line) : line.en;
   }
 
   function renderModeTabs() {
@@ -798,8 +794,7 @@ export default function App() {
             </button>
             <div>
               <p className="situacao-pt">{line.pt}</p>
-              <p className="situacao-translation">{getPrimarySituacaoTranslation(line)}</p>
-              <p className="situacao-secondary">{getSecondarySituacaoTranslation(line)}</p>
+              <p className="situacao-translation">{getSituacaoTranslation(line)}</p>
               {line.note && <p className="situacao-note">{line.note}</p>}
             </div>
           </article>
@@ -835,8 +830,7 @@ export default function App() {
               </button>
               <div>
                 <p className="situacao-card-pt">{line.pt}</p>
-                <p className="situacao-translation">{getPrimarySituacaoTranslation(line)}</p>
-                <p className="situacao-secondary">{getSecondarySituacaoTranslation(line)}</p>
+                <p className="situacao-translation">{getSituacaoTranslation(line)}</p>
               </div>
             </article>
           ))}

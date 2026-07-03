@@ -21,6 +21,14 @@ export function ProgressDashboard({
 }: ProgressDashboardProps) {
   const total = summarizeProgress(entries, progress);
   const byModulo = summarizeByModulo(entries, progress);
+  const readinessLabel =
+    mode === "situacoes"
+      ? ui.locale === "en"
+        ? "ready for your journey!"
+        : ui.locale === "zhHans"
+          ? "旅程准备度"
+          : "旅程準備度"
+      : ui.readyForExam;
   const situacaoReadiness = situacaoGroups.flatMap((group) =>
     group.items.map((item) => {
       const groupEntries = entries.filter((entry) => entry.situacoes?.includes(item.id));
@@ -37,7 +45,7 @@ export function ProgressDashboard({
       <div className="stat-main">
         <div className="stat-main-value">
           <span>{total.knownPercent}%</span>
-          <span className="exam-readiness">{ui.readyForExam}</span>
+          <span className="exam-readiness">{readinessLabel}</span>
         </div>
         <p>{ui.knownVocabulary}</p>
       </div>
@@ -55,7 +63,7 @@ export function ProgressDashboard({
         <div className="situacao-readiness">
           {situacaoReadiness.map(({ id, label, stats }) => (
             <div className="module-row situacao-readiness-row" key={id}>
-              <span>{label} {stats.knownPercent}% pronto</span>
+              <span>{label} {stats.knownPercent}%</span>
               <progress value={stats.known} max={stats.total || 1} aria-label={`${label} readiness`} />
               <strong>{stats.known}/{stats.total}</strong>
             </div>

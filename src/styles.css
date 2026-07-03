@@ -62,6 +62,8 @@ select {
 }
 
 .workspace {
+  min-width: 0;
+  max-width: 100%;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -242,6 +244,8 @@ h1 {
 }
 
 .study-surface {
+  min-width: 0;
+  max-width: 100%;
   display: grid;
   grid-template-columns: minmax(360px, 1fr) auto;
   gap: 12px;
@@ -281,6 +285,8 @@ h1 {
 
 .situacao-mode {
   grid-column: 1 / -1;
+  min-width: 0;
+  max-width: 100%;
   display: grid;
   gap: 14px;
 }
@@ -466,6 +472,8 @@ select {
 
 .flashcard {
   --tile-height: 430px;
+  min-width: 0;
+  max-width: 100%;
   display: grid;
   gap: 14px;
   position: relative;
@@ -518,12 +526,16 @@ select {
 }
 
 .tile-shell {
+  width: 100%;
+  max-width: 100%;
   height: var(--tile-height);
   min-height: var(--tile-height);
   position: relative;
 }
 
 .tile-stage {
+  width: 100%;
+  max-width: 100%;
   height: 100%;
   min-height: var(--tile-height);
   perspective: 1600px;
@@ -535,6 +547,7 @@ select {
   border: 0;
   padding: 0;
   width: 100%;
+  max-width: 100%;
   height: var(--tile-height);
   min-height: var(--tile-height);
   border-radius: 8px;
@@ -579,8 +592,8 @@ select {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   overflow: hidden;
-  transform: rotateY(0deg) translateZ(1px);
-  -webkit-transform: rotateY(0deg) translateZ(1px);
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
   box-shadow:
     inset 0 0 0 9px rgba(249, 252, 255, 0.96),
     inset 0 0 0 12px rgba(18, 58, 102, 0.84),
@@ -708,8 +721,8 @@ select {
 }
 
 .tile-back {
-  transform: rotateY(180deg) translateZ(1px);
-  -webkit-transform: rotateY(180deg) translateZ(1px);
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .prompt,
@@ -744,13 +757,13 @@ select {
   --answer-reference-size: clamp(1.3rem, 2vw, 1.75rem);
   --answer-size: var(--card-term-size);
   height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-  padding-bottom: 18px;
+  width: min(760px, 100%);
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  margin-inline: auto;
+  padding: 42px 24px 54px;
+  box-sizing: border-box;
 }
 
 .answer-pair {
@@ -758,6 +771,7 @@ select {
   justify-items: center;
   gap: 5px;
   width: min(760px, 100%);
+  margin-inline: auto;
   pointer-events: none;
   z-index: 1;
   margin-bottom: 14px;
@@ -792,6 +806,7 @@ select {
   display: grid;
   justify-items: center;
   width: min(680px, 100%);
+  margin-inline: auto;
   z-index: 1;
   gap: 3px;
   margin-top: 0;
@@ -1953,7 +1968,7 @@ progress::-moz-progress-bar {
   .tile-content-back {
     --answer-reference-size: 20px;
     --answer-size: var(--card-term-size);
-    padding: 28px 16px 38px;
+    padding: 34px 20px 42px;
   }
 
   .answer-pair {
