@@ -123,6 +123,11 @@ export default function App() {
     setRetrievalState(null);
   }
 
+  function handleStartOver() {
+    setProgress({});
+    resetFlow();
+  }
+
   function moveNext() {
     setRevealed(false);
     const nextIndex = cardIndex + 1;
@@ -591,7 +596,7 @@ export default function App() {
         </section>
       </section>
 
-      <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} />
+      <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} onStartOver={handleStartOver} />
     </main>
   );
 }

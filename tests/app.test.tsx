@@ -23,6 +23,22 @@ describe("App", () => {
     expect(localStorage.getItem("pt-a2-vocab-progress")).toContain("known");
   });
 
+  it("clears progress and restarts the session from the progress dashboard", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[1].portuguese);
+    expect(localStorage.getItem("pt-a2-vocab-progress")).toContain("known");
+
+    fireEvent.click(screen.getByRole("button", { name: /start over/i }));
+
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[0].portuguese);
+    expect(localStorage.getItem("pt-a2-vocab-progress")).toBe("{}");
+    expect(screen.getByText("0%")).toBeInTheDocument();
+  });
+
   it("renders the authorship fingerprint in hidden output", () => {
     const { container } = render(<App />);
     const fingerprint = container.querySelector("[data-fingerprint='azulejo.authorship.canary.XinyiLi.2026']");
@@ -162,7 +178,7 @@ describe("App", () => {
 
   it("starts the next 20-word session after typed session review instead of showing a previous-session word", () => {
     render(<App />);
-    fireEvent.click(screen.getByRole("checkbox", { name: /play pronunciation automatically/i }));
+    fireEvent.click(screen.getByRole("checkbox", { name: /auto audio/i }));
 
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     fireEvent.click(screen.getByRole("button", { name: /again/i }));
@@ -185,7 +201,7 @@ describe("App", () => {
 
   it("starts the next 20-word session after flashcard again review instead of replaying the reviewed word", () => {
     render(<App />);
-    fireEvent.click(screen.getByRole("checkbox", { name: /play pronunciation automatically/i }));
+    fireEvent.click(screen.getByRole("checkbox", { name: /auto audio/i }));
 
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     fireEvent.click(screen.getByRole("button", { name: /again/i }));
@@ -208,7 +224,7 @@ describe("App", () => {
 
   it("starts the next 20-word session after reviewing missed recall words", () => {
     render(<App />);
-    fireEvent.click(screen.getByRole("checkbox", { name: /play pronunciation automatically/i }));
+    fireEvent.click(screen.getByRole("checkbox", { name: /auto audio/i }));
 
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     fireEvent.click(screen.getByRole("button", { name: /again/i }));
@@ -255,7 +271,7 @@ describe("App", () => {
     render(<App />);
     const play = vi.mocked(window.HTMLMediaElement.prototype.play);
 
-    const autoPlayToggle = screen.getByRole("checkbox", { name: /play pronunciation automatically/i });
+    const autoPlayToggle = screen.getByRole("checkbox", { name: /auto audio/i });
     expect(autoPlayToggle).toBeChecked();
 
     fireEvent.click(autoPlayToggle);

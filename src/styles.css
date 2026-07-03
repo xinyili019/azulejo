@@ -190,6 +190,12 @@ h1 {
   color: #fff;
 }
 
+.pronunciation-control,
+.review-again,
+.review-known {
+  min-width: 117px;
+}
+
 .primary:disabled,
 .secondary:disabled {
   cursor: default;
@@ -239,6 +245,10 @@ h1 {
   min-height: 36px;
   padding-inline: 12px;
   font-size: 0.86rem;
+}
+
+.install-app-button svg {
+  color: #d8ac55;
 }
 
 .install-app-help {
@@ -384,6 +394,7 @@ select {
 .icon-button:focus-visible,
 .card-previous:focus-visible,
 .review-switch-back:focus-visible,
+.progress-start-over:focus-visible,
 .pronunciation-control:focus-visible,
 .example-toggle:focus-visible {
   outline: 3px solid #1f5fa6;
@@ -721,12 +732,14 @@ select {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  gap: 10px;
+  gap: 16px;
+  width: fit-content;
+  margin-inline: auto;
 }
 
 .card-actions {
   display: flex;
-  gap: 10px;
+  gap: 16px;
   justify-content: center;
   align-items: center;
 }
@@ -828,6 +841,26 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
   background: linear-gradient(90deg, #1f5fa6 0%, #65a6de 86%, #d8ac55 100%);
   border-radius: 999px;
+}
+
+.progress-start-over {
+  width: 100%;
+  min-height: 42px;
+  margin-top: 18px;
+  border: 1px solid rgba(216, 172, 85, 0.62);
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(251, 253, 255, 0.96) 0%, #eef6fc 100%);
+  color: #123a66;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 10px 22px rgba(14, 44, 79, 0.12);
+}
+
+.progress-start-over:hover,
+.progress-start-over:focus-visible {
+  border-color: #d8ac55;
+  background: linear-gradient(180deg, #fbfdff 0%, #e4f1fb 100%);
+  color: #1f5fa6;
 }
 
 .empty-state {
@@ -1126,6 +1159,12 @@ progress::-moz-progress-bar {
     padding: 16px;
   }
 
+  .workspace,
+  .study-surface,
+  .flashcard {
+    gap: 12px;
+  }
+
   .app-header,
   .select-controls {
     grid-template-columns: 1fr;
@@ -1136,13 +1175,53 @@ progress::-moz-progress-bar {
   }
 
   .study-toggles {
-    align-items: flex-start;
+    order: 2;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: nowrap;
   }
 
   .install-app-control {
-    display: grid;
-    justify-items: start;
+    display: flex;
+    justify-content: flex-end;
+    flex: 0 0 auto;
     max-width: 100%;
+  }
+
+  .install-app-button {
+    min-height: 38px;
+    border-color: rgba(216, 172, 85, 0.64);
+    background:
+      linear-gradient(135deg, rgba(216, 172, 85, 0.16) 0 12px, transparent 12px),
+      linear-gradient(315deg, rgba(31, 95, 166, 0.12) 0 12px, transparent 12px),
+      linear-gradient(180deg, #fbfdff 0%, #eef6fc 100%);
+    color: #123a66;
+    box-shadow:
+      inset 0 0 0 2px rgba(251, 253, 255, 0.82),
+      0 8px 18px rgba(14, 44, 79, 0.12);
+  }
+
+  .install-app-button:hover,
+  .install-app-button:focus-visible {
+    border-color: #d8ac55;
+    background:
+      linear-gradient(135deg, rgba(216, 172, 85, 0.22) 0 12px, transparent 12px),
+      linear-gradient(315deg, rgba(31, 95, 166, 0.16) 0 12px, transparent 12px),
+      linear-gradient(180deg, #fbfdff 0%, #e4f1fb 100%);
+  }
+
+  .install-app-help {
+    width: min(100%, 300px);
+    margin-top: 6px;
+    border-color: rgba(216, 172, 85, 0.42);
+  }
+
+  .flashcard,
+  .review-switch-shell,
+  .empty-state {
+    order: 3;
   }
 
   .utility-actions {
@@ -1153,6 +1232,12 @@ progress::-moz-progress-bar {
   .flashcard {
     --tile-height: 360px;
     --card-term-size: 36px;
+    gap: 8px;
+  }
+
+  .flashcard-instruction {
+    margin-bottom: 2px;
+    font-size: 0.92rem;
   }
 
   .tile-shell,
@@ -1165,6 +1250,52 @@ progress::-moz-progress-bar {
 
   .tile-face {
     padding: 20px;
+  }
+
+  .flashcard-controls {
+    grid-template-columns: max-content minmax(0, 1fr);
+    width: min(100%, 360px);
+    justify-self: center;
+  }
+
+  .flashcard-controls:not(.is-revealed) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pronunciation-control {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+  .pronunciation-control,
+  .review-again,
+  .review-known {
+    min-width: 0;
+  }
+
+  .flashcard-controls:not(.is-revealed) .pronunciation-control {
+    justify-self: center;
+  }
+
+  .card-actions {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .card-previous {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .card-previous.is-hidden {
+    display: none;
+  }
+
+  .card-actions > button {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0 10px;
   }
 
   .first-word-tip {
@@ -1365,43 +1496,6 @@ progress::-moz-progress-bar {
   }
 
   .card-actions {
-    gap: 8px;
-    width: min(100%, 360px);
-  }
-
-  .flashcard-controls {
-    grid-template-columns: max-content minmax(0, 1fr);
-    width: min(100%, 360px);
-    justify-self: center;
-  }
-
-  .flashcard-controls:not(.is-revealed) {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .pronunciation-control {
-    grid-column: 1;
-    grid-row: 1;
-    justify-self: end;
-  }
-
-  .flashcard-controls:not(.is-revealed) .pronunciation-control {
-    justify-self: center;
-  }
-
-  .card-actions {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .card-previous {
-    grid-column: 1 / -1;
-    grid-row: 2;
-  }
-
-  .card-actions > button {
-    flex: 1 1 0;
-    min-width: 0;
-    padding: 0 10px;
+    gap: 16px;
   }
 }

@@ -6,9 +6,10 @@ interface ProgressDashboardProps {
   entries: VocabularyEntry[];
   progress: ProgressState;
   ui: UiCopy;
+  onStartOver: () => void;
 }
 
-export function ProgressDashboard({ entries, progress, ui }: ProgressDashboardProps) {
+export function ProgressDashboard({ entries, progress, ui, onStartOver }: ProgressDashboardProps) {
   const total = summarizeProgress(entries, progress);
   const byModulo = summarizeByModulo(entries, progress);
 
@@ -37,6 +38,9 @@ export function ProgressDashboard({ entries, progress, ui }: ProgressDashboardPr
           </div>
         ))}
       </div>
+      <button className="progress-start-over" type="button" onClick={onStartOver}>
+        {ui.startOver}
+      </button>
     </aside>
   );
 }

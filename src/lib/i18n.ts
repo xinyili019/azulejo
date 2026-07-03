@@ -26,6 +26,7 @@ export interface UiCopy {
   gotIt: string;
   goBack: string;
   known: string;
+  startOver: string;
   flashcard: string;
   progressDashboard: string;
   knownVocabulary: string;
@@ -52,7 +53,7 @@ const copy: Record<UiLocale, UiCopy> = {
     hideAnswer: "Hide answer",
     cardInstruction: "Know this word? Tap the tile to check!",
     listen: "Listen",
-    autoPlayPronunciation: "Play pronunciation automatically",
+    autoPlayPronunciation: "Auto audio",
     addToHomeScreen: "Add to Home Screen",
     addToHomeScreenHelp: "On iPhone, tap Share, then choose Add to Home Screen. On Android, use the install prompt or browser menu.",
     previousWord: "Previous word",
@@ -62,6 +63,7 @@ const copy: Record<UiLocale, UiCopy> = {
     gotIt: "Got it",
     goBack: "Go back",
     known: "Known",
+    startOver: "Start over",
     flashcard: "Flashcard",
     progressDashboard: "Progress dashboard",
     knownVocabulary: "known vocabulary",
@@ -86,7 +88,7 @@ const copy: Record<UiLocale, UiCopy> = {
     hideAnswer: "隐藏答案",
     cardInstruction: "认识这个词吗？点击瓷片查看吧！",
     listen: "听发音",
-    autoPlayPronunciation: "自动播放发音",
+    autoPlayPronunciation: "自动音频",
     addToHomeScreen: "添加到主屏幕",
     addToHomeScreenHelp: "在 iPhone 上，请点“分享”，再选择“添加到主屏幕”。在 Android 上，请使用安装提示或浏览器菜单。",
     previousWord: "上一个单词",
@@ -96,6 +98,7 @@ const copy: Record<UiLocale, UiCopy> = {
     gotIt: "了解",
     goBack: "返回",
     known: "已掌握",
+    startOver: "重新开始",
     flashcard: "单词卡",
     progressDashboard: "学习进度",
     knownVocabulary: "已掌握词汇",
@@ -120,7 +123,7 @@ const copy: Record<UiLocale, UiCopy> = {
     hideAnswer: "隱藏答案",
     cardInstruction: "認識這個單字嗎？點一下瓷片查看吧！",
     listen: "聽發音",
-    autoPlayPronunciation: "自動播放發音",
+    autoPlayPronunciation: "自動音訊",
     addToHomeScreen: "加入主畫面",
     addToHomeScreenHelp: "在 iPhone 上，請點「分享」，再選擇「加入主畫面」。在 Android 上，請使用安裝提示或瀏覽器選單。",
     previousWord: "上一個單字",
@@ -130,6 +133,7 @@ const copy: Record<UiLocale, UiCopy> = {
     gotIt: "了解",
     goBack: "返回",
     known: "已掌握",
+    startOver: "重新開始",
     flashcard: "單字卡",
     progressDashboard: "學習進度",
     knownVocabulary: "已掌握單字",
