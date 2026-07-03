@@ -1,12 +1,17 @@
 {
   "name": "Azulejo",
   "short_name": "Azulejo",
-  "description": "European Portuguese vocabulary, tile by tile.",
+  "description": "European Portuguese A1 and A2 vocabulary trainer with flashcards, pronunciation audio, examples, Chinese translations, and progress tracking.",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "language", "productivity"],
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#f7fbff",
   "theme_color": "#0047AB",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "app-icon-192.png",
