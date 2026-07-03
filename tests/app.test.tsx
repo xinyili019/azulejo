@@ -1,7 +1,15 @@
-import { act, fireEvent, render, screen } from "@testing-library/react";
+import { act, fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import App from "../src/App";
 import { vocabulary } from "../src/data/vocabulary";
+
+function completeVisibleModuleQuiz() {
+  for (let question = 0; question < 20; question += 1) {
+    const choices = within(screen.getByRole("list", { name: /multiple choice answers/i })).getAllByRole("button");
+    fireEvent.click(choices[0]);
+    fireEvent.click(screen.getByRole("button", { name: question === 19 ? /finish/i : /next/i }));
+  }
+}
 
 describe("App", () => {
   beforeEach(() => {
@@ -199,6 +207,28 @@ describe("App", () => {
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);
   }, 10_000);
 
+  it("opens the first module quiz after the 40-word session boundary", () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole("checkbox", { name: /auto audio/i }));
+
+    for (let index = 0; index < 20; index += 1) {
+      fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+      fireEvent.click(screen.getByRole("button", { name: /known/i }));
+    }
+
+    fireEvent.click(screen.getByRole("button", { name: "Start next session" }));
+
+    for (let index = 20; index < 40; index += 1) {
+      fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+      fireEvent.click(screen.getByRole("button", { name: /known/i }));
+    }
+
+    fireEvent.click(screen.getByRole("button", { name: "Start next session" }));
+
+    expect(screen.getByLabelText(/quiz scope/i)).toHaveValue("modulo-1-1-40");
+    expect(screen.queryByRole("button", { name: /fresh 20/i })).not.toBeInTheDocument();
+  }, 10_000);
+
   it("starts the next 20-word session after flashcard again review instead of replaying the reviewed word", () => {
     render(<App />);
     fireEvent.click(screen.getByRole("checkbox", { name: /auto audio/i }));
@@ -266,8 +296,16 @@ describe("App", () => {
       const startNextSession = screen.queryByRole("button", { name: "Start next session" });
       if (startNextSession) {
         fireEvent.click(startNextSession);
+        if (screen.queryByRole("list", { name: /multiple choice answers/i })) {
+          completeVisibleModuleQuiz();
+          fireEvent.click(screen.getByRole("button", { name: "Start next session" }));
+        }
       }
     }
+
+    fireEvent.click(screen.getAllByRole("button", { name: "Start quiz" }).at(-1) as HTMLElement);
+    expect(screen.getByLabelText(/quiz scope/i)).toHaveValue("modulo-1-41-96");
+    fireEvent.click(screen.getByRole("button", { name: "Go back" }));
 
     fireEvent.click(screen.getByRole("button", { name: "Start new module" }));
 

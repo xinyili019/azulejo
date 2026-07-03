@@ -35,6 +35,8 @@ export interface UiCopy {
   audioMeaningPrompt: string;
   startQuiz: string;
   startNewModule: string;
+  startNextSession: string;
+  sessionReviewComplete: string;
   freshQuiz: string;
   nextQuestion: string;
   finishQuiz: string;
@@ -87,6 +89,8 @@ const copy: Record<UiLocale, UiCopy> = {
     audioMeaningPrompt: "Listen and choose the meaning.",
     startQuiz: "Start quiz",
     startNewModule: "Start new module",
+    startNextSession: "Start next session",
+    sessionReviewComplete: "Session review complete",
     freshQuiz: "Fresh 20",
     nextQuestion: "Next",
     finishQuiz: "Finish",
@@ -137,6 +141,8 @@ const copy: Record<UiLocale, UiCopy> = {
     audioMeaningPrompt: "听音频，选择意思。",
     startQuiz: "开始测验",
     startNewModule: "开始新模块",
+    startNextSession: "开始下一组",
+    sessionReviewComplete: "本组复习完成",
     freshQuiz: "重新抽 20 题",
     nextQuestion: "下一题",
     finishQuiz: "完成",
@@ -187,6 +193,8 @@ const copy: Record<UiLocale, UiCopy> = {
     audioMeaningPrompt: "聽音訊，選擇意思。",
     startQuiz: "開始測驗",
     startNewModule: "開始新模組",
+    startNextSession: "開始下一組",
+    sessionReviewComplete: "本組複習完成",
     freshQuiz: "重新抽 20 題",
     nextQuestion: "下一題",
     finishQuiz: "完成",

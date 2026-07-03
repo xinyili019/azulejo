@@ -9,7 +9,7 @@ export const MODULE_QUIZ_CHOICE_COUNT = 4;
 export const MODULE_QUIZ_AUDIO_MEANING_CHOICE_COUNT = 3;
 
 const MODULE_QUIZ_CUSTOM_SPLITS: Record<string, number[]> = {
-  "Módulo 1": [50],
+  "Módulo 1": [40],
   "Módulo 6": [40]
 };
 

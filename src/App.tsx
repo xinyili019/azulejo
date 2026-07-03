@@ -265,16 +265,24 @@ export default function App() {
     setPhase("sessionRetrievalComplete");
   }
 
-  function continueAfterSession() {
+  function continueAfterSession({ skipBoundaryQuiz = false }: { skipBoundaryQuiz?: boolean } = {}) {
     const completedSessionIndex = sessionIndex;
     const completedSession = sessionPlan.sessions[completedSessionIndex];
     const nextSession = sessionPlan.sessions[completedSessionIndex + 1];
     const finishedModule = !nextSession || nextSession.moduleIndex !== completedSession?.moduleIndex;
+    const pendingQuizScope = getSessionBoundaryQuizScope(completedSession);
 
     setSessionAgainIds([]);
     setReviewQueue([]);
     setCardIndex(0);
     setRevealed(false);
+
+    if (!skipBoundaryQuiz && pendingQuizScope && !moduleQuizResults[pendingQuizScope.id]) {
+      setQuizScopeId(pendingQuizScope.id);
+      setQuizReturnPhase("sessionRetrievalComplete");
+      setPhase("quiz");
+      return;
+    }
 
     if (finishedModule) {
       setPhase("moduleMilestone");
@@ -347,8 +355,11 @@ export default function App() {
     setRevealed(false);
   }
 
-  function startModuleQuiz(returnPhase: QuizReturnPhase = phase === "moduleMilestone" ? "moduleMilestone" : "study") {
-    const initialScope = getCurrentQuizScope()?.id ?? quizScopes[0]?.id ?? null;
+  function startModuleQuiz(
+    returnPhase: QuizReturnPhase = phase === "moduleMilestone" ? "moduleMilestone" : "study",
+    scopeId?: string | null
+  ) {
+    const initialScope = scopeId ?? getCurrentQuizScope()?.id ?? quizScopes[0]?.id ?? null;
     setQuizScopeId(initialScope);
     setQuizReturnPhase(returnPhase);
     setPhase("quiz");
@@ -364,6 +375,11 @@ export default function App() {
   function startNewModuleAfterQuiz() {
     setQuizScopeId(null);
     continueAfterModule();
+  }
+
+  function continueAfterSessionQuiz() {
+    setQuizScopeId(null);
+    continueAfterSession({ skipBoundaryQuiz: true });
   }
 
   function handleModuleQuizComplete(result: ModuleQuizResult) {
@@ -438,6 +454,22 @@ export default function App() {
     return quizScopes.find((scope) => scope.modulo === firstEntry.modulo);
   }
 
+  function getModuleCompletionQuizScope() {
+    const moduleEntries = getCurrentModuleEntries();
+    const firstEntry = moduleEntries[0];
+    if (!firstEntry) return quizScopes[0];
+    return [...quizScopes]
+      .reverse()
+      .find((scope) => scope.modulo === firstEntry.modulo && scope.endIndex === moduleEntries.length);
+  }
+
+  function getSessionBoundaryQuizScope(session?: VocabularySession) {
+    if (!session) return null;
+    const modulePlan = sessionPlan.modules[session.moduleIndex];
+    if (!modulePlan || session.endIndex >= modulePlan.totalEntries) return null;
+    return quizScopes.find((scope) => scope.modulo === session.modulo && scope.endIndex === session.endIndex) ?? null;
+  }
+
   function getNextStandaloneModulo() {
     if (modulo === "all") return null;
     const currentModulo = currentSession?.modulo ?? modulo;
@@ -479,8 +511,20 @@ export default function App() {
           ui={ui}
           onComplete={handleModuleQuizComplete}
           onExit={finishModuleQuiz}
-          onCompletionExit={quizReturnPhase === "moduleMilestone" ? startNewModuleAfterQuiz : finishModuleQuiz}
-          completionExitLabel={quizReturnPhase === "moduleMilestone" ? ui.startNewModule : ui.goBack}
+          onCompletionExit={
+            quizReturnPhase === "moduleMilestone"
+              ? startNewModuleAfterQuiz
+              : quizReturnPhase === "sessionRetrievalComplete"
+                ? continueAfterSessionQuiz
+                : finishModuleQuiz
+          }
+          completionExitLabel={
+            quizReturnPhase === "moduleMilestone"
+              ? ui.startNewModule
+              : quizReturnPhase === "sessionRetrievalComplete"
+                ? ui.startNextSession
+                : ui.goBack
+          }
         />
       );
     }
@@ -504,7 +548,7 @@ export default function App() {
           title={getSessionMilestoneCopy(direction, recognizedCount).title}
           actions={
             getCurrentSessionAgainEntries().length === 0
-              ? [{ id: "continue", label: "Start next session", onClick: continueAfterSession }]
+              ? [{ id: "continue", label: ui.startNextSession, onClick: continueAfterSession }]
               : getSessionMilestoneCopy(direction, recognizedCount).actions.map((action) => ({
                   id: action.id,
                   label: action.label,
@@ -534,7 +578,7 @@ export default function App() {
           actions={
             dueCount === 0
               ? [
-                  { id: "quiz", label: ui.startQuiz, onClick: () => startModuleQuiz("moduleMilestone") },
+                  { id: "quiz", label: ui.startQuiz, onClick: () => startModuleQuiz("moduleMilestone", getModuleCompletionQuizScope()?.id) },
                   { id: "continue", label: moduleContinueLabel, onClick: continueAfterModule }
                 ]
               : [
@@ -543,7 +587,7 @@ export default function App() {
                     label: action.label,
                     onClick: startModuleTypedReview
                   })),
-                  { id: "quiz", label: ui.startQuiz, onClick: () => startModuleQuiz("moduleMilestone") },
+                  { id: "quiz", label: ui.startQuiz, onClick: () => startModuleQuiz("moduleMilestone", getModuleCompletionQuizScope()?.id) },
                   { id: "continue", label: moduleContinueLabel, onClick: continueAfterModule }
                 ]
           }
@@ -554,14 +598,14 @@ export default function App() {
     if (phase === "sessionRetrievalComplete") {
       return (
         <MilestonePanel
-          title="Session review complete"
+          title={ui.sessionReviewComplete}
           actions={[
             {
               id: REVIEW_MODE.sessionAgainFlashcards,
               label: getSessionMilestoneCopy(direction, recognizedCount).actions[0].label,
               onClick: startSessionAgainFlashcards
             },
-            { id: "continue", label: "Start next session", onClick: continueAfterSession }
+            { id: "continue", label: ui.startNextSession, onClick: continueAfterSession }
           ]}
         />
       );

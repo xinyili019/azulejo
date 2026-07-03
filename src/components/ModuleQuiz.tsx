@@ -1,5 +1,5 @@
 import { Check, ChevronRight, RotateCcw, Volume2, X } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { buildModuleQuizQuestions } from "../lib/moduleQuiz";
 import type { UiCopy } from "../lib/i18n";
 import type { Direction, ModuleQuizQuestion, ModuleQuizResult, ModuleQuizScope, VocabularyEntry } from "../types";
@@ -38,6 +38,7 @@ export function ModuleQuiz({
   const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
   const [results, setResults] = useState<QuizResult[]>([]);
   const [translationOpen, setTranslationOpen] = useState(false);
+  const activeAudioRef = useRef<HTMLAudioElement | null>(null);
   const activeScope = useMemo(
     () => scopes.find((scope) => scope.id === scopeId) ?? scopes[0],
     [scopeId, scopes]
@@ -55,6 +56,12 @@ export function ModuleQuiz({
   useEffect(() => {
     startFreshQuiz();
   }, [activeScope?.id, direction]);
+
+  useEffect(() => {
+    if (activeQuestion?.format === "audioMeaning") {
+      playQuestionAudio(activeQuestion);
+    }
+  }, [activeQuestion?.id, activeQuestion?.format]);
 
   function startFreshQuiz() {
     if (!activeScope) {
@@ -96,14 +103,33 @@ export function ModuleQuiz({
     }
   }
 
-  function speak() {
-    if (!activeQuestion || typeof window === "undefined" || !("Audio" in window)) return;
+  function prepareAmbientAudioSession() {
+    const audioSession = (navigator as Navigator & { audioSession?: { type?: string } }).audioSession;
+    if (audioSession && "type" in audioSession) {
+      try {
+        audioSession.type = "ambient";
+      } catch {
+        // Some browsers expose audioSession but keep the type read-only.
+      }
+    }
+  }
+
+  function playQuestionAudio(question: ModuleQuizQuestion) {
+    if (typeof window === "undefined" || !("Audio" in window)) return;
     const audioPath =
-      activeQuestion.format === "cloze"
-        ? `audio/pt/examples/${activeQuestion.entry.id}.m4a`
-        : `audio/pt/${activeQuestion.entry.id}.m4a`;
+      question.format === "cloze"
+        ? `audio/pt/examples/${question.entry.id}.m4a`
+        : `audio/pt/${question.entry.id}.m4a`;
+    prepareAmbientAudioSession();
+    activeAudioRef.current?.pause();
     const audio = new Audio(`${import.meta.env.BASE_URL}${audioPath}`);
+    activeAudioRef.current = audio;
     audio.play().catch(() => undefined);
+  }
+
+  function speak() {
+    if (!activeQuestion) return;
+    playQuestionAudio(activeQuestion);
   }
 
   if (!activeScope || questions.length === 0) {
@@ -200,7 +226,11 @@ export function ModuleQuiz({
           </div>
         )}
 
-        <div className="module-quiz-choices" role="list" aria-label="Multiple choice answers">
+        <div
+          className={`module-quiz-choices choices-${activeQuestion.choices.length}`}
+          role="list"
+          aria-label="Multiple choice answers"
+        >
           {activeQuestion.choices.map((choice) => {
             const isSelected = selectedChoice === choice;
             const isAnswer = choice === activeQuestion.answer;
@@ -222,7 +252,7 @@ export function ModuleQuiz({
           })}
         </div>
 
-        <div className="module-quiz-actions">
+        <div className={`module-quiz-actions${activeQuestion.format === "audioMeaning" ? " has-target-word" : ""}`}>
           {answered && (
             <p className={`retrieval-feedback ${selectedCorrect ? "is-correct" : "is-incorrect"}`}>
               {selectedCorrect ? ui.correct : ui.incorrect}
@@ -231,11 +261,12 @@ export function ModuleQuiz({
           <button className="primary" type="button" disabled={!answered} onClick={continueQuiz}>
             {questionIndex >= questions.length - 1 ? ui.finishQuiz : ui.nextQuestion}
           </button>
-          <button className="secondary" type="button" onClick={startFreshQuiz}>
-            <RotateCcw size={18} aria-hidden="true" />
-            {ui.freshQuiz}
-          </button>
         </div>
+        {answered && activeQuestion.format === "audioMeaning" && (
+          <p className="module-quiz-target-word" aria-live="polite">
+            {activeQuestion.entry.portuguese}
+          </p>
+        )}
       </section>
     </div>
   );

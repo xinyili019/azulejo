@@ -19,8 +19,8 @@ describe("module quiz", () => {
     const moduleTwoScopes = scopes.filter((scope) => scope.modulo === "Módulo 2");
 
     expect(moduleOneScopes).toHaveLength(2);
-    expect(moduleOneScopes.map((scope) => scope.entries.length)).toEqual([50, 46]);
-    expect(moduleOneScopes.map((scope) => scope.label)).toEqual(["Módulo 1 1-50", "Módulo 1 51-96"]);
+    expect(moduleOneScopes.map((scope) => scope.entries.length)).toEqual([40, 56]);
+    expect(moduleOneScopes.map((scope) => scope.label)).toEqual(["Módulo 1 1-40", "Módulo 1 41-96"]);
 
     expect(moduleSixScopes).toHaveLength(2);
     expect(moduleSixScopes.map((scope) => scope.entries.length)).toEqual([40, 41]);
