@@ -286,7 +286,10 @@ export default function App() {
   }
 
   function continueAfterModule() {
-    const nextSession = sessionPlan.sessions[sessionIndex + 1];
+    const nextSession =
+      currentSession === undefined
+        ? sessionPlan.sessions[sessionIndex + 1]
+        : sessionPlan.sessions.find((session) => session.moduleIndex > currentSession.moduleIndex);
     setCardIndex(0);
     setRevealed(false);
 
@@ -298,6 +301,13 @@ export default function App() {
 
     if (modulo === "all") {
       setPhase("finalMilestone");
+      return;
+    }
+
+    const nextStandaloneModulo = getNextStandaloneModulo();
+    if (nextStandaloneModulo) {
+      setModulo(nextStandaloneModulo);
+      resetFlow();
       return;
     }
 
@@ -428,6 +438,13 @@ export default function App() {
     return quizScopes.find((scope) => scope.modulo === firstEntry.modulo);
   }
 
+  function getNextStandaloneModulo() {
+    if (modulo === "all") return null;
+    const currentModulo = currentSession?.modulo ?? modulo;
+    const currentModuloIndex = modulos.indexOf(currentModulo);
+    return currentModuloIndex >= 0 ? modulos[currentModuloIndex + 1] ?? null : null;
+  }
+
   function expandFinalReviewEntries(baseEntries: VocabularyEntry[]) {
     const entries = [...baseEntries];
     const baseIds = new Set(baseEntries.map((entry) => entry.id));
@@ -506,7 +523,11 @@ export default function App() {
         ? getModuleMilestoneCopy(direction, currentSession.modulo)
         : { title: "Module complete", actions: [] };
       const dueCount = getCurrentModuleEntries().filter((entry) => getCardProgress(progress, entry.id).everAgain).length;
-      const moduleContinueLabel = modulo === "all" && sessionPlan.sessions[sessionIndex + 1] ? ui.startNewModule : "Finish";
+      const hasNextModule =
+        modulo === "all"
+          ? Boolean(currentSession && sessionPlan.sessions.some((session) => session.moduleIndex > currentSession.moduleIndex))
+          : Boolean(getNextStandaloneModulo());
+      const moduleContinueLabel = hasNextModule ? ui.startNewModule : "Finish";
       return (
         <MilestonePanel
           title={copy.title}

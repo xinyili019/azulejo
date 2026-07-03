@@ -167,12 +167,21 @@ export function ModuleQuiz({
           </select>
         </label>
 
-        <div className={`module-quiz-prompt ${activeQuestion.format === "audioMeaning" ? "is-audio-meaning" : ""}`}>
-          <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
-            <Volume2 size={18} aria-hidden="true" />
-          </button>
-          <p>{activeQuestion.format === "cloze" ? activeQuestion.clozeSentence : ui.audioMeaningPrompt}</p>
-        </div>
+        {activeQuestion.format === "cloze" ? (
+          <div className="module-quiz-prompt">
+            <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
+              <Volume2 size={18} aria-hidden="true" />
+            </button>
+            <p>{activeQuestion.clozeSentence}</p>
+          </div>
+        ) : (
+          <div className="module-quiz-prompt is-audio-meaning">
+            <p>{ui.audioMeaningPrompt}</p>
+            <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
+              <Volume2 size={34} aria-hidden="true" />
+            </button>
+          </div>
+        )}
 
         {activeQuestion.format === "cloze" && activeQuestion.translation && (
           <div className={`module-quiz-translation ${translationOpen ? "open" : ""}`}>

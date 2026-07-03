@@ -250,6 +250,31 @@ describe("App", () => {
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[20].portuguese);
   }, 10_000);
 
+  it("starts the next selected module after finishing the current selected module", () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole("checkbox", { name: /auto audio/i }));
+
+    fireEvent.change(screen.getByLabelText(/module/i), { target: { value: "Módulo 1" } });
+
+    const moduleOneEntries = vocabulary.filter((entry) => entry.modulo === "Módulo 1");
+    const firstModuleTwoEntry = vocabulary.find((entry) => entry.modulo === "Módulo 2");
+
+    for (let index = 0; index < moduleOneEntries.length; index += 1) {
+      fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+      fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+      const startNextSession = screen.queryByRole("button", { name: "Start next session" });
+      if (startNextSession) {
+        fireEvent.click(startNextSession);
+      }
+    }
+
+    fireEvent.click(screen.getByRole("button", { name: "Start new module" }));
+
+    expect(screen.getByLabelText(/module/i)).toHaveValue("Módulo 2");
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(firstModuleTwoEntry?.portuguese ?? "");
+  }, 20_000);
+
   it("keeps listen below the tile with the flashcard controls in every language mode", () => {
     const { container } = render(<App />);
     const languageSelect = screen.getByLabelText(/language/i);
