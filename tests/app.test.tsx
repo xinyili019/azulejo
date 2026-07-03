@@ -147,7 +147,24 @@ describe("App", () => {
     render(<App />);
 
     expect(screen.getByLabelText(/language/i)).toBeInTheDocument();
-    expect(screen.queryByLabelText(/mode/i)).not.toBeInTheDocument();
+    expect(screen.getByRole("tablist", { name: /study mode/i })).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "Manual" })).toHaveAttribute("aria-selected", "true");
+  });
+
+  it("switches to Situações with vocabulary, dialogue, card, and readiness views", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("tab", { name: "Situações" }));
+
+    expect(screen.getByRole("combobox", { name: "Situação" })).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "Vocabulário" })).toHaveAttribute("aria-selected", "true");
+    expect(screen.getByText(/Banco 0% pronto/)).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("tab", { name: "Diálogo" }));
+    expect(screen.getByText("Boa tarde, queria abrir uma conta à ordem.")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("tab", { name: "Cartão" }));
+    expect(screen.getByRole("button", { name: "Print" })).toBeInTheDocument();
   });
 
   it("explains that the tile can be tapped to check the answer", () => {

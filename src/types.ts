@@ -3,7 +3,7 @@ export type CardStatus = "new" | "again" | "known";
 
 export interface VocabularyEntry {
   id: string;
-  modulo: string;
+  modulo?: string;
   theme: string;
   portuguese: string;
   english: string;
@@ -14,7 +14,38 @@ export interface VocabularyEntry {
   exampleZhHans?: string;
   exampleZhHant?: string;
   note?: string;
-  source: "seed" | "pdf";
+  situacao?: string;
+  situacoes?: string[];
+  tipo?: "vocabulário";
+  source: "seed" | "pdf" | "situacao";
+}
+
+export interface SituacaoGroup {
+  label: string;
+  items: Array<{
+    id: string;
+    label: string;
+  }>;
+}
+
+export interface SituacaoVocabularyRow {
+  situacao: string;
+  pt: string;
+  en: string;
+  zhHans: string;
+  zhHant: string;
+  note?: string;
+}
+
+export interface SituacaoContentLine {
+  id: string;
+  situacao: string;
+  order: number;
+  pt: string;
+  en: string;
+  zhHans: string;
+  zhHant: string;
+  note?: string;
 }
 
 export interface ModuleQuizScope {

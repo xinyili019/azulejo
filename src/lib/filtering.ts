@@ -7,7 +7,7 @@ export interface FilterOptions {
 }
 
 export function getModulos(entries: VocabularyEntry[]) {
-  return Array.from(new Set(entries.map((entry) => entry.modulo)));
+  return Array.from(new Set(entries.map((entry) => entry.modulo).filter((modulo): modulo is string => Boolean(modulo))));
 }
 
 export function filterEntries(

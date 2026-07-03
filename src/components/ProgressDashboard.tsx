@@ -1,4 +1,4 @@
-import type { ProgressState, VocabularyEntry } from "../types";
+import type { ProgressState, SituacaoGroup, VocabularyEntry } from "../types";
 import { summarizeByModulo, summarizeProgress } from "../lib/progress";
 import type { UiCopy } from "../lib/i18n";
 
@@ -6,12 +6,31 @@ interface ProgressDashboardProps {
   entries: VocabularyEntry[];
   progress: ProgressState;
   ui: UiCopy;
+  mode?: "manual" | "situacoes";
+  situacaoGroups?: SituacaoGroup[];
   onStartOver: () => void;
 }
 
-export function ProgressDashboard({ entries, progress, ui, onStartOver }: ProgressDashboardProps) {
+export function ProgressDashboard({
+  entries,
+  progress,
+  ui,
+  mode = "manual",
+  situacaoGroups = [],
+  onStartOver
+}: ProgressDashboardProps) {
   const total = summarizeProgress(entries, progress);
   const byModulo = summarizeByModulo(entries, progress);
+  const situacaoReadiness = situacaoGroups.flatMap((group) =>
+    group.items.map((item) => {
+      const groupEntries = entries.filter((entry) => entry.situacoes?.includes(item.id));
+      return {
+        id: item.id,
+        label: item.label,
+        stats: summarizeProgress(groupEntries, progress)
+      };
+    })
+  );
 
   return (
     <aside className="dashboard" aria-label={ui.progressDashboard}>
@@ -32,15 +51,27 @@ export function ProgressDashboard({ entries, progress, ui, onStartOver }: Progre
           <span>{ui.remaining}</span>
         </div>
       </div>
-      <div className="module-progress">
-        {Object.entries(byModulo).map(([modulo, stats]) => (
-          <div className="module-row" key={modulo}>
-            <span>{ui.moduloLabel(modulo)}</span>
-            <progress value={stats.known} max={stats.total} aria-label={ui.moduleProgress(modulo)} />
-            <strong>{stats.known}/{stats.total}</strong>
-          </div>
-        ))}
-      </div>
+      {mode === "situacoes" ? (
+        <div className="situacao-readiness">
+          {situacaoReadiness.map(({ id, label, stats }) => (
+            <div className="module-row situacao-readiness-row" key={id}>
+              <span>{label} {stats.knownPercent}% pronto</span>
+              <progress value={stats.known} max={stats.total || 1} aria-label={`${label} readiness`} />
+              <strong>{stats.known}/{stats.total}</strong>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="module-progress">
+          {Object.entries(byModulo).map(([modulo, stats]) => (
+            <div className="module-row" key={modulo}>
+              <span>{ui.moduloLabel(modulo)}</span>
+              <progress value={stats.known} max={stats.total} aria-label={ui.moduleProgress(modulo)} />
+              <strong>{stats.known}/{stats.total}</strong>
+            </div>
+          ))}
+        </div>
+      )}
       <button className="progress-start-over" type="button" onClick={onStartOver}>
         {ui.startOver}
       </button>

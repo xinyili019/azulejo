@@ -1,10 +1,12 @@
-import { Brain, Download } from "lucide-react";
+import { Brain, Download, Printer, Save, Volume2 } from "lucide-react";
 import { type ReactNode, useEffect, useMemo, useState } from "react";
 import { Flashcard } from "./components/Flashcard";
 import { ModuleQuiz } from "./components/ModuleQuiz";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { RetrievalReview } from "./components/RetrievalReview";
+import { situacaoCheatSheetLines, situacaoDialogueLines, situacaoGroups, situacaoLabels } from "./data/situacoes";
 import { vocabulary } from "./data/vocabulary";
+import { getVocabularyForSituacao, situacaoVocabulary } from "./data/wordBank";
 import { AUTHORSHIP_FINGERPRINT, AUTHORSHIP_OWNER } from "./lib/authorshipFingerprint";
 import { getModulos } from "./lib/filtering";
 import { getUiCopy } from "./lib/i18n";
@@ -26,7 +28,15 @@ import {
   type RetrievalReviewResult
 } from "./lib/retrievalReview";
 import { buildSessionPlan, type VocabularySession } from "./lib/sessionPlan";
-import type { CardProgress, CardStatus, Direction, ModuleQuizResult, ProgressState, VocabularyEntry } from "./types";
+import type {
+  CardProgress,
+  CardStatus,
+  Direction,
+  ModuleQuizResult,
+  ProgressState,
+  SituacaoContentLine,
+  VocabularyEntry
+} from "./types";
 import "./styles.css";
 
 type StudyPhase =
@@ -42,7 +52,10 @@ type StudyPhase =
 type QuizReturnPhase = Exclude<StudyPhase, "quiz" | "retrieval">;
 
 type RetrievalContext = "session" | "module" | "final";
+type AppMode = "manual" | "situacoes";
+type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
 const FIRST_WORD_TIP_DISMISSED_KEY = "azulejo:first-word-tip-dismissed";
+const DEFAULT_SITUACAO_ID = situacaoGroups[0]?.items[0]?.id ?? "banco";
 
 interface RetrievalState {
   title: string;
@@ -56,7 +69,12 @@ interface BeforeInstallPromptEvent extends Event {
 
 export default function App() {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
+  const [appMode, setAppMode] = useState<AppMode>("manual");
   const [modulo, setModulo] = useState("all");
+  const [situacaoId, setSituacaoId] = useState(DEFAULT_SITUACAO_ID);
+  const [situacaoTab, setSituacaoTab] = useState<SituacaoTab>("vocabulario");
+  const [situacaoCardIndex, setSituacaoCardIndex] = useState(0);
+  const [situacaoRevealed, setSituacaoRevealed] = useState(false);
   const [autoPlayPronunciation, setAutoPlayPronunciation] = useState(true);
   const [direction, setDirection] = useState<Direction>("pt-en");
   const [sessionIndex, setSessionIndex] = useState(0);
@@ -112,6 +130,15 @@ export default function App() {
     () => (modulo === "all" ? vocabulary : vocabulary.filter((entry) => entry.modulo === modulo)),
     [modulo]
   );
+  const selectedSituacaoEntries = useMemo(() => getVocabularyForSituacao(situacaoId), [situacaoId]);
+  const selectedSituacaoDialogue = useMemo(
+    () => situacaoDialogueLines.filter((line) => line.situacao === situacaoId),
+    [situacaoId]
+  );
+  const selectedSituacaoCheatSheet = useMemo(
+    () => situacaoCheatSheetLines.filter((line) => line.situacao === situacaoId),
+    [situacaoId]
+  );
   const sessionPlan = useMemo(() => buildSessionPlan(selectedEntries), [selectedEntries]);
   const quizScopes = useMemo(() => buildModuleQuizScopes(selectedEntries), [selectedEntries]);
   const currentSession = sessionPlan.sessions[sessionIndex];
@@ -120,6 +147,7 @@ export default function App() {
   const visibleEntries =
     phase === "sessionAgainFlashcards" ? reviewQueue : currentSession?.entries ?? selectedEntries;
   const activeEntry = visibleEntries[cardIndex];
+  const activeSituacaoEntry = selectedSituacaoEntries[situacaoCardIndex];
   const recognizedCount = selectedEntries.filter((entry) => getCardProgress(progress, entry.id).status === "known").length;
   const completedModuleQuizResults = useMemo(
     () =>
@@ -132,6 +160,11 @@ export default function App() {
   useEffect(() => {
     resetFlow();
   }, [modulo, direction]);
+
+  useEffect(() => {
+    setSituacaoCardIndex(0);
+    setSituacaoRevealed(false);
+  }, [situacaoId, direction]);
 
   function resetFlow() {
     setSessionIndex(0);
@@ -148,7 +181,64 @@ export default function App() {
   function handleStartOver() {
     setProgress({});
     setModuleQuizResults({});
+    setSituacaoCardIndex(0);
+    setSituacaoRevealed(false);
     resetFlow();
+  }
+
+  function moveNextSituacaoCard() {
+    if (selectedSituacaoEntries.length === 0) return;
+    setSituacaoRevealed(false);
+    setSituacaoCardIndex((current) => (current + 1) % selectedSituacaoEntries.length);
+  }
+
+  function movePreviousSituacaoCard() {
+    if (selectedSituacaoEntries.length === 0) return;
+    setSituacaoRevealed(false);
+    setSituacaoCardIndex((current) => (current - 1 + selectedSituacaoEntries.length) % selectedSituacaoEntries.length);
+  }
+
+  function handleSituacaoReview(status: Exclude<CardStatus, "new">) {
+    if (!activeSituacaoEntry) return;
+
+    setProgress((current) => recordReview(current, activeSituacaoEntry.id, status));
+    moveNextSituacaoCard();
+  }
+
+  function speakPortugueseText(text: string) {
+    if (
+      typeof window === "undefined" ||
+      !("speechSynthesis" in window) ||
+      !("SpeechSynthesisUtterance" in window)
+    ) {
+      return;
+    }
+
+    const utterance = new window.SpeechSynthesisUtterance(text);
+    const voices = window.speechSynthesis.getVoices();
+    const voice =
+      voices.find((candidate) => candidate.lang.toLowerCase() === "pt-pt") ??
+      voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt-pt")) ??
+      voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt"));
+
+    utterance.lang = voice?.lang ?? "pt-PT";
+    utterance.voice = voice ?? null;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function saveSituacaoCheatSheet() {
+    const label = situacaoLabels[situacaoId] ?? situacaoId;
+    const content = selectedSituacaoCheatSheet
+      .map((line) => `${line.pt}\n${line.en}\n${getChineseText(line)}${line.note ? `\n${line.note}` : ""}`)
+      .join("\n\n");
+    const blob = new Blob([`${label}\n\n${content}\n`], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `azulejo-${situacaoId}-cartao.txt`;
+    link.click();
+    URL.revokeObjectURL(url);
   }
 
   function dismissFirstWordTip() {
@@ -500,6 +590,261 @@ export default function App() {
     );
   }
 
+  function getChineseText(line: SituacaoContentLine) {
+    return ui.locale === "zhHans" ? line.zhHans : line.zhHant;
+  }
+
+  function getPrimarySituacaoTranslation(line: SituacaoContentLine) {
+    return ui.locale === "en" ? line.en : getChineseText(line);
+  }
+
+  function getSecondarySituacaoTranslation(line: SituacaoContentLine) {
+    return ui.locale === "en" ? getChineseText(line) : line.en;
+  }
+
+  function renderModeTabs() {
+    return (
+      <div className="mode-tabs" role="tablist" aria-label="Study mode">
+        <button
+          type="button"
+          role="tab"
+          aria-selected={appMode === "manual"}
+          className={appMode === "manual" ? "is-active" : ""}
+          onClick={() => setAppMode("manual")}
+        >
+          Manual
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={appMode === "situacoes"}
+          className={appMode === "situacoes" ? "is-active" : ""}
+          onClick={() => setAppMode("situacoes")}
+        >
+          Situações
+        </button>
+      </div>
+    );
+  }
+
+  function renderLanguageSelect() {
+    return (
+      <label>
+        {ui.language}
+        <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
+          <option value="pt-en">Portuguese to English</option>
+          <option value="en-pt">English to Portuguese</option>
+          <option value="pt-zh-hans">葡萄牙语 → 简体中文</option>
+          <option value="zh-hans-pt">简体中文 → 葡萄牙语</option>
+          <option value="pt-zh-hant">葡萄牙語 → 繁體中文</option>
+          <option value="zh-hant-pt">繁體中文 → 葡萄牙語</option>
+        </select>
+      </label>
+    );
+  }
+
+  function renderManualControls() {
+    return (
+      <>
+        <section className="select-controls" aria-label={ui.studyControls}>
+          <label>
+            {ui.module}
+            <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
+              <option value="all">{ui.allModules}</option>
+              {modulos.map((item) => (
+                <option key={item} value={item}>
+                  {ui.moduloLabel(item)}
+                </option>
+              ))}
+            </select>
+          </label>
+          {renderLanguageSelect()}
+        </section>
+
+        <div className="study-toggles">
+          {quizScopes.length > 0 && phase !== "quiz" && (
+            <button className="secondary module-quiz-start" type="button" onClick={() => startModuleQuiz("study")}>
+              <Brain size={16} aria-hidden="true" />
+              {ui.startQuiz}
+            </button>
+          )}
+          <label className="toggle auto-audio-toggle">
+            <input
+              type="checkbox"
+              checked={autoPlayPronunciation}
+              onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
+            />
+            {ui.autoPlayPronunciation}
+          </label>
+        </div>
+
+        {renderStudyContent()}
+      </>
+    );
+  }
+
+  function renderSituacaoControls() {
+    return (
+      <>
+        <section className="select-controls situacao-controls" aria-label="Controlo de Situações">
+          <label>
+            Situação
+            <select value={situacaoId} onChange={(event) => setSituacaoId(event.target.value)}>
+              {situacaoGroups.map((group) => (
+                <optgroup key={group.label} label={group.label}>
+                  {group.items.map((item) => (
+                    <option key={item.id} value={item.id}>
+                      {item.label}
+                    </option>
+                  ))}
+                </optgroup>
+              ))}
+            </select>
+          </label>
+          {renderLanguageSelect()}
+        </section>
+
+        <div className="study-toggles situacao-toggles">
+          <label className="toggle auto-audio-toggle">
+            <input
+              type="checkbox"
+              checked={autoPlayPronunciation}
+              onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
+            />
+            {ui.autoPlayPronunciation}
+          </label>
+        </div>
+
+        {renderSituacoesContent()}
+      </>
+    );
+  }
+
+  function renderSituacoesContent() {
+    return (
+      <section className="situacao-mode">
+        <div className="situacao-tabs" role="tablist" aria-label="Conteúdo da situação">
+          <button
+            type="button"
+            role="tab"
+            aria-selected={situacaoTab === "vocabulario"}
+            className={situacaoTab === "vocabulario" ? "is-active" : ""}
+            onClick={() => setSituacaoTab("vocabulario")}
+          >
+            Vocabulário
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={situacaoTab === "dialogo"}
+            className={situacaoTab === "dialogo" ? "is-active" : ""}
+            onClick={() => setSituacaoTab("dialogo")}
+          >
+            Diálogo
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={situacaoTab === "cartao"}
+            className={situacaoTab === "cartao" ? "is-active" : ""}
+            onClick={() => setSituacaoTab("cartao")}
+          >
+            Cartão
+          </button>
+        </div>
+
+        {situacaoTab === "vocabulario" && renderSituacaoVocabulary()}
+        {situacaoTab === "dialogo" && renderSituacaoDialogue()}
+        {situacaoTab === "cartao" && renderSituacaoCard()}
+      </section>
+    );
+  }
+
+  function renderSituacaoVocabulary() {
+    return activeSituacaoEntry ? (
+      <Flashcard
+        entry={activeSituacaoEntry}
+        direction={direction}
+        revealed={situacaoRevealed}
+        autoPlayPronunciation={autoPlayPronunciation}
+        showFirstWordTip={false}
+        ui={ui}
+        onToggleReveal={() => setSituacaoRevealed((current) => !current)}
+        onPrevious={movePreviousSituacaoCard}
+        onAgain={() => handleSituacaoReview("again")}
+        onKnown={() => handleSituacaoReview("known")}
+      />
+    ) : (
+      <section className="empty-state">
+        <h2>{ui.noCardsTitle}</h2>
+        <p>{ui.noCardsBody}</p>
+      </section>
+    );
+  }
+
+  function renderSituacaoDialogue() {
+    return (
+      <section className="situacao-list dialogue-list" aria-label="Diálogo">
+        {selectedSituacaoDialogue.map((line) => (
+          <article className="situacao-line" key={line.id}>
+            <button
+              className="icon-button situacao-listen"
+              type="button"
+              onClick={() => speakPortugueseText(line.pt)}
+              aria-label={`${ui.listen}: ${line.pt}`}
+              title={ui.listen}
+            >
+              <Volume2 size={18} aria-hidden="true" />
+            </button>
+            <div>
+              <p className="situacao-pt">{line.pt}</p>
+              <p className="situacao-translation">{getPrimarySituacaoTranslation(line)}</p>
+              <p className="situacao-secondary">{getSecondarySituacaoTranslation(line)}</p>
+              {line.note && <p className="situacao-note">{line.note}</p>}
+            </div>
+          </article>
+        ))}
+      </section>
+    );
+  }
+
+  function renderSituacaoCard() {
+    return (
+      <section className="situacao-card" aria-label="Cartão">
+        <div className="situacao-card-actions">
+          <button className="secondary" type="button" onClick={saveSituacaoCheatSheet}>
+            <Save size={16} aria-hidden="true" />
+            Save
+          </button>
+          <button className="secondary" type="button" onClick={() => window.print()}>
+            <Printer size={16} aria-hidden="true" />
+            Print
+          </button>
+        </div>
+        <div className="situacao-card-lines">
+          {selectedSituacaoCheatSheet.map((line) => (
+            <article className="situacao-card-line" key={line.id}>
+              <button
+                className="icon-button situacao-listen"
+                type="button"
+                onClick={() => speakPortugueseText(line.pt)}
+                aria-label={`${ui.listen}: ${line.pt}`}
+                title={ui.listen}
+              >
+                <Volume2 size={18} aria-hidden="true" />
+              </button>
+              <div>
+                <p className="situacao-card-pt">{line.pt}</p>
+                <p className="situacao-translation">{getPrimarySituacaoTranslation(line)}</p>
+                <p className="situacao-secondary">{getSecondarySituacaoTranslation(line)}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    );
+  }
+
   function renderStudyContent() {
     if (phase === "quiz") {
       return (
@@ -708,56 +1053,22 @@ export default function App() {
             <h1>Azulejo</h1>
             <p className="app-subtitle">your Portuguese, tile by tile</p>
           </div>
+          {renderModeTabs()}
         </header>
 
-        <section className="study-surface">
-          <section className="select-controls" aria-label={ui.studyControls}>
-            <label>
-              {ui.module}
-              <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
-                <option value="all">{ui.allModules}</option>
-                {modulos.map((item) => (
-                  <option key={item} value={item}>
-                    {ui.moduloLabel(item)}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label>
-              {ui.language}
-              <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
-                <option value="pt-en">Portuguese to English</option>
-                <option value="en-pt">English to Portuguese</option>
-                <option value="pt-zh-hans">葡萄牙语 → 简体中文</option>
-                <option value="zh-hans-pt">简体中文 → 葡萄牙语</option>
-                <option value="pt-zh-hant">葡萄牙語 → 繁體中文</option>
-                <option value="zh-hant-pt">繁體中文 → 葡萄牙語</option>
-              </select>
-            </label>
-          </section>
-
-          <div className="study-toggles">
-            {quizScopes.length > 0 && phase !== "quiz" && (
-              <button className="secondary module-quiz-start" type="button" onClick={() => startModuleQuiz("study")}>
-                <Brain size={16} aria-hidden="true" />
-                {ui.startQuiz}
-              </button>
-            )}
-            <label className="toggle auto-audio-toggle">
-              <input
-                type="checkbox"
-                checked={autoPlayPronunciation}
-                onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
-              />
-              {ui.autoPlayPronunciation}
-            </label>
-          </div>
-
-          {renderStudyContent()}
+        <section className={`study-surface ${appMode === "situacoes" ? "situacao-study-surface" : ""}`}>
+          {appMode === "manual" ? renderManualControls() : renderSituacaoControls()}
         </section>
       </section>
 
-      <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} onStartOver={handleStartOver} />
+      <ProgressDashboard
+        entries={appMode === "manual" ? vocabulary : situacaoVocabulary}
+        progress={progress}
+        ui={ui}
+        mode={appMode}
+        situacaoGroups={situacaoGroups}
+        onStartOver={handleStartOver}
+      />
       {renderInstallControl()}
     </main>
   );

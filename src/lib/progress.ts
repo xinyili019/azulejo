@@ -66,6 +66,7 @@ export function summarizeProgress(entries: VocabularyEntry[], progress: Progress
 
 export function summarizeByModulo(entries: VocabularyEntry[], progress: ProgressState) {
   return entries.reduce<Record<string, ReturnType<typeof summarizeProgress>>>((summary, entry) => {
+    if (!entry.modulo) return summary;
     const group = entries.filter((candidate) => candidate.modulo === entry.modulo);
     summary[entry.modulo] = summarizeProgress(group, progress);
     return summary;

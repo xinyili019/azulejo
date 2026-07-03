@@ -121,6 +121,7 @@ export function buildSessionPlan(entries: VocabularyEntry[], options: SessionPla
   const groupedEntries = new Map<string, VocabularyEntry[]>();
 
   for (const entry of entries) {
+    if (!entry.modulo) continue;
     const moduleEntries = groupedEntries.get(entry.modulo) ?? [];
     moduleEntries.push(entry);
     groupedEntries.set(entry.modulo, moduleEntries);
