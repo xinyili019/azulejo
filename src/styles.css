@@ -1429,16 +1429,19 @@ progress::-moz-progress-bar {
     order: 2;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 8px 10px;
+    flex-wrap: wrap;
   }
 
   .install-app-control {
+    order: 4;
     display: flex;
-    justify-content: flex-end;
-    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
+    padding-top: 4px;
   }
 
   .install-app-button {
@@ -1776,18 +1779,18 @@ progress::-moz-progress-bar {
   }
 
   .module-quiz-prompt p {
-    font-size: 1.72rem;
+    font-size: 1.52rem;
   }
 
   .module-quiz-choices {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
   }
 
   .module-quiz-choice {
-    min-height: 46px;
-    padding: 9px 10px;
-    font-size: 0.95rem;
+    min-height: 44px;
+    padding: 8px 9px;
+    font-size: 0.84rem;
   }
 
   .module-quiz-actions > button {

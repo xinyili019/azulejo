@@ -653,25 +653,26 @@ export default function App() {
               />
               {ui.autoPlayPronunciation}
             </label>
-            {!appInstalled && (
-              <div className="install-app-control">
-                <button className="secondary install-app-button" type="button" onClick={handleAddToHomeScreen}>
-                  <Download size={16} aria-hidden="true" />
-                  {ui.addToHomeScreen}
-                </button>
-                {showInstallHelp && (
-                  <div className="install-app-help" role="status">
-                    <p>{ui.addToHomeScreenHelp}</p>
-                    <button className="install-app-dismiss" type="button" onClick={() => setShowInstallHelp(false)}>
-                      {ui.gotIt}
-                    </button>
-                  </div>
-                )}
-              </div>
-            )}
           </div>
 
           {renderStudyContent()}
+
+          {!appInstalled && (
+            <div className="install-app-control">
+              <button className="secondary install-app-button" type="button" onClick={handleAddToHomeScreen}>
+                <Download size={16} aria-hidden="true" />
+                {ui.addToHomeScreen}
+              </button>
+              {showInstallHelp && (
+                <div className="install-app-help" role="status">
+                  <p>{ui.addToHomeScreenHelp}</p>
+                  <button className="install-app-dismiss" type="button" onClick={() => setShowInstallHelp(false)}>
+                    {ui.gotIt}
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
         </section>
       </section>
 
