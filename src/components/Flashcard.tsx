@@ -18,6 +18,7 @@ interface FlashcardProps {
   onPrevious: () => void;
   onAgain: () => void;
   onKnown: () => void;
+  onFirstWordTipDismiss?: () => void;
 }
 
 export function Flashcard({
@@ -30,7 +31,8 @@ export function Flashcard({
   onToggleReveal,
   onPrevious,
   onAgain,
-  onKnown
+  onKnown,
+  onFirstWordTipDismiss
 }: FlashcardProps) {
   const [translationOpen, setTranslationOpen] = useState(false);
   const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(false);
@@ -222,7 +224,14 @@ export function Flashcard({
         {showFirstWordTip && revealed && !firstWordTipDismissed && (
           <div className="first-word-tip" role="status" aria-live="polite">
             <p>{getFirstWordTipText(ui)}</p>
-            <button className="primary first-word-tip-dismiss" type="button" onClick={() => setFirstWordTipDismissed(true)}>
+            <button
+              className="primary first-word-tip-dismiss"
+              type="button"
+              onClick={() => {
+                setFirstWordTipDismissed(true);
+                onFirstWordTipDismiss?.();
+              }}
+            >
               {ui.gotIt}
             </button>
           </div>

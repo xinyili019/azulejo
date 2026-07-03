@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { vocabulary } from "../src/data/vocabulary";
 import {
+  MODULE_QUIZ_AUDIO_MEANING_CHOICE_COUNT,
+  MODULE_QUIZ_CLOZE_SIZE,
   MODULE_QUIZ_SIZE,
   buildClozeAnswer,
   buildClozeSentence,
@@ -10,14 +12,19 @@ import {
 import { createSeededRng } from "../src/lib/retrievalReview";
 
 describe("module quiz", () => {
-  it("creates per-module scopes and splits modules larger than 60 words", () => {
+  it("creates per-module scopes and uses custom split points for modules 1 and 6", () => {
     const scopes = buildModuleQuizScopes(vocabulary);
     const moduleOneScopes = scopes.filter((scope) => scope.modulo === "Módulo 1");
+    const moduleSixScopes = scopes.filter((scope) => scope.modulo === "Módulo 6");
     const moduleTwoScopes = scopes.filter((scope) => scope.modulo === "Módulo 2");
 
     expect(moduleOneScopes).toHaveLength(2);
-    expect(moduleOneScopes.map((scope) => scope.entries.length)).toEqual([60, 36]);
-    expect(moduleOneScopes.map((scope) => scope.label)).toEqual(["Módulo 1 1-60", "Módulo 1 61-96"]);
+    expect(moduleOneScopes.map((scope) => scope.entries.length)).toEqual([50, 46]);
+    expect(moduleOneScopes.map((scope) => scope.label)).toEqual(["Módulo 1 1-50", "Módulo 1 51-96"]);
+
+    expect(moduleSixScopes).toHaveLength(2);
+    expect(moduleSixScopes.map((scope) => scope.entries.length)).toEqual([40, 41]);
+    expect(moduleSixScopes.map((scope) => scope.label)).toEqual(["Módulo 6 1-40", "Módulo 6 41-81"]);
 
     expect(moduleTwoScopes).toHaveLength(1);
     expect(moduleTwoScopes[0].entries.length).toBe(39);
@@ -61,6 +68,10 @@ describe("module quiz", () => {
     expect(questions[0].translation).toBeTruthy();
     expect(questions[0].choices).toHaveLength(4);
     expect(questions[0].choices).toContain(questions[0].answer);
+    expect(questions.slice(0, MODULE_QUIZ_CLOZE_SIZE).every((question) => question.format === "cloze")).toBe(true);
+    expect(questions.slice(MODULE_QUIZ_CLOZE_SIZE).every((question) => question.format === "audioMeaning")).toBe(true);
+    expect(questions.slice(MODULE_QUIZ_CLOZE_SIZE).every((question) => question.choices.length === MODULE_QUIZ_AUDIO_MEANING_CHOICE_COUNT)).toBe(true);
+    expect(new Set(questions.map((question) => question.id)).size).toBe(questions.length);
   });
 
   it("keeps multiple-choice answers inside the active scope when possible", () => {
@@ -72,7 +83,8 @@ describe("module quiz", () => {
       rng: createSeededRng(33)
     });
 
-    expect(questions.every((question) => question.choices.every((choice) => scopeAnswers.has(choice)))).toBe(true);
+    const clozeQuestions = questions.filter((question) => question.format === "cloze");
+    expect(clozeQuestions.every((question) => question.choices.every((choice) => scopeAnswers.has(choice)))).toBe(true);
   });
 
   it("can generate a different randomized 20 for a separate quiz run", () => {

@@ -29,7 +29,8 @@ export interface ModuleQuizScope {
 export interface ModuleQuizQuestion {
   id: string;
   entry: VocabularyEntry;
-  clozeSentence: string;
+  format: "cloze" | "audioMeaning";
+  clozeSentence?: string;
   answer: string;
   choices: string[];
   translation?: string;

@@ -3,7 +3,15 @@ import { createSeededRng, shuffleWithRng, type RandomSource } from "./retrievalR
 
 export const MODULE_QUIZ_CHUNK_SIZE = 60;
 export const MODULE_QUIZ_SIZE = 20;
+export const MODULE_QUIZ_CLOZE_SIZE = 10;
+export const MODULE_QUIZ_AUDIO_MEANING_SIZE = 10;
 export const MODULE_QUIZ_CHOICE_COUNT = 4;
+export const MODULE_QUIZ_AUDIO_MEANING_CHOICE_COUNT = 3;
+
+const MODULE_QUIZ_CUSTOM_SPLITS: Record<string, number[]> = {
+  "Módulo 1": [50],
+  "Módulo 6": [40]
+};
 
 export interface BuildModuleQuizOptions {
   quizSize?: number;
@@ -30,33 +38,15 @@ export function buildModuleQuizScopes(
   }
 
   return Array.from(groupedEntries.entries()).flatMap(([modulo, moduleEntries]) => {
-    if (moduleEntries.length <= chunkSize) {
-      return [
-        {
-          id: createQuizScopeId(modulo, 0, moduleEntries.length),
-          modulo,
-          label: modulo,
-          entries: moduleEntries,
-          startIndex: 0,
-          endIndex: moduleEntries.length
-        }
-      ];
-    }
-
-    const scopes: ModuleQuizScope[] = [];
-    for (let startIndex = 0; startIndex < moduleEntries.length; startIndex += chunkSize) {
-      const endIndex = Math.min(startIndex + chunkSize, moduleEntries.length);
-      scopes.push({
-        id: createQuizScopeId(modulo, startIndex, endIndex),
-        modulo,
-        label: `${modulo} ${startIndex + 1}-${endIndex}`,
-        entries: moduleEntries.slice(startIndex, endIndex),
-        startIndex,
-        endIndex
-      });
-    }
-
-    return scopes;
+    const ranges = getModuleQuizRanges(modulo, moduleEntries.length, chunkSize);
+    return ranges.map(([startIndex, endIndex]) => ({
+      id: createQuizScopeId(modulo, startIndex, endIndex),
+      modulo,
+      label: ranges.length === 1 ? modulo : `${modulo} ${startIndex + 1}-${endIndex}`,
+      entries: moduleEntries.slice(startIndex, endIndex),
+      startIndex,
+      endIndex
+    }));
   });
 }
 
@@ -69,18 +59,37 @@ export function buildModuleQuizQuestions(
   const rng = options.rng ?? createSeededRng(Date.now());
   const quizSize = options.quizSize ?? MODULE_QUIZ_SIZE;
   const choiceCount = options.choiceCount ?? MODULE_QUIZ_CHOICE_COUNT;
+  const clozeSize = Math.min(MODULE_QUIZ_CLOZE_SIZE, quizSize);
+  const audioMeaningSize = Math.max(0, Math.min(MODULE_QUIZ_AUDIO_MEANING_SIZE, quizSize - clozeSize));
   const scopeDrafts = buildQuestionDrafts(scope.entries);
   const allDrafts = buildQuestionDrafts(allEntries);
-  const quizDrafts = shuffleWithRng(scopeDrafts, rng).slice(0, Math.min(quizSize, scopeDrafts.length));
+  const clozeDrafts = shuffleWithRng(scopeDrafts, rng).slice(0, Math.min(clozeSize, scopeDrafts.length));
+  const clozeIds = new Set(clozeDrafts.map((draft) => draft.entry.id));
+  const audioMeaningEntries = shuffleWithRng(scope.entries, rng)
+    .filter((entry) => !clozeIds.has(entry.id) && getMeaningAnswer(entry, direction))
+    .slice(0, audioMeaningSize);
 
-  return quizDrafts.map((draft) => ({
-    id: draft.entry.id,
-    entry: draft.entry,
-    clozeSentence: draft.clozeSentence,
-    answer: draft.answer,
-    choices: buildChoices(draft.answer, scopeDrafts, allDrafts, choiceCount, rng),
-    translation: getQuizTranslation(draft.entry, direction)
-  }));
+  return [
+    ...clozeDrafts.map((draft) => ({
+      id: draft.entry.id,
+      entry: draft.entry,
+      format: "cloze" as const,
+      clozeSentence: draft.clozeSentence,
+      answer: draft.answer,
+      choices: buildChoices(draft.answer, scopeDrafts, allDrafts, choiceCount, rng),
+      translation: getQuizTranslation(draft.entry, direction)
+    })),
+    ...audioMeaningEntries.map((entry) => {
+      const answer = getMeaningAnswer(entry, direction) ?? entry.english;
+      return {
+        id: entry.id,
+        entry,
+        format: "audioMeaning" as const,
+        answer,
+        choices: buildMeaningChoices(answer, scope.entries, allEntries, direction, MODULE_QUIZ_AUDIO_MEANING_CHOICE_COUNT, rng)
+      };
+    })
+  ];
 }
 
 export function buildClozeSentence(entry: VocabularyEntry): string {
@@ -117,6 +126,29 @@ export function getQuizTranslation(entry: VocabularyEntry, direction: Direction)
   return entry.exampleEn;
 }
 
+export function getMeaningAnswer(entry: VocabularyEntry, direction: Direction): string | undefined {
+  if (direction.includes("zh-hans")) return entry.zhHans;
+  if (direction.includes("zh-hant")) return entry.zhHant;
+  return entry.english;
+}
+
+function getModuleQuizRanges(modulo: string, entryCount: number, chunkSize: number): Array<[number, number]> {
+  const customSplits = MODULE_QUIZ_CUSTOM_SPLITS[modulo];
+  if (customSplits) {
+    const boundaries = [0, ...customSplits.filter((split) => split > 0 && split < entryCount), entryCount];
+    return boundaries.slice(0, -1).map((startIndex, index) => [startIndex, boundaries[index + 1]]);
+  }
+
+  if (entryCount <= chunkSize) return [[0, entryCount]];
+
+  const ranges: Array<[number, number]> = [];
+  for (let startIndex = 0; startIndex < entryCount; startIndex += chunkSize) {
+    ranges.push([startIndex, Math.min(startIndex + chunkSize, entryCount)]);
+  }
+
+  return ranges;
+}
+
 function buildChoices(
   answer: string,
   scopeDrafts: readonly ModuleQuizQuestionDraft[],
@@ -135,6 +167,33 @@ function buildChoices(
     if (used.has(key)) continue;
     used.add(key);
     choices.push(draft.answer);
+    if (choices.length >= choiceCount) break;
+  }
+
+  return shuffleWithRng(choices, rng);
+}
+
+function buildMeaningChoices(
+  answer: string,
+  scopeEntries: readonly VocabularyEntry[],
+  allEntries: readonly VocabularyEntry[],
+  direction: Direction,
+  choiceCount: number,
+  rng: RandomSource
+) {
+  const answerKey = normalizeChoice(answer);
+  const scopedDistractors = shuffleWithRng(scopeEntries, rng);
+  const fallbackDistractors = shuffleWithRng(allEntries, rng);
+  const choices = [answer];
+  const used = new Set([answerKey]);
+
+  for (const entry of [...scopedDistractors, ...fallbackDistractors]) {
+    const meaning = getMeaningAnswer(entry, direction);
+    if (!meaning) continue;
+    const key = normalizeChoice(meaning);
+    if (used.has(key)) continue;
+    used.add(key);
+    choices.push(meaning);
     if (choices.length >= choiceCount) break;
   }
 

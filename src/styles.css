@@ -1269,6 +1269,14 @@ progress::-moz-progress-bar {
   text-wrap: balance;
 }
 
+.module-quiz-prompt.is-audio-meaning p {
+  color: #38556e;
+  font-family: "Hanken Grotesque", ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(1.2rem, 2.4vw, 1.65rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 .module-quiz-audio {
   grid-column: 1;
   justify-self: end;

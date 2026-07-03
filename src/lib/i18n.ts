@@ -32,6 +32,7 @@ export interface UiCopy {
   progressDashboard: string;
   moduleQuiz: string;
   quizScope: string;
+  audioMeaningPrompt: string;
   startQuiz: string;
   startNewModule: string;
   freshQuiz: string;
@@ -83,6 +84,7 @@ const copy: Record<UiLocale, UiCopy> = {
     progressDashboard: "Progress dashboard",
     moduleQuiz: "Module quiz",
     quizScope: "Quiz scope",
+    audioMeaningPrompt: "Listen and choose the meaning.",
     startQuiz: "Start quiz",
     startNewModule: "Start new module",
     freshQuiz: "Fresh 20",
@@ -132,6 +134,7 @@ const copy: Record<UiLocale, UiCopy> = {
     progressDashboard: "学习进度",
     moduleQuiz: "模块测验",
     quizScope: "测验范围",
+    audioMeaningPrompt: "听音频，选择意思。",
     startQuiz: "开始测验",
     startNewModule: "开始新模块",
     freshQuiz: "重新抽 20 题",
@@ -181,6 +184,7 @@ const copy: Record<UiLocale, UiCopy> = {
     progressDashboard: "學習進度",
     moduleQuiz: "模組測驗",
     quizScope: "測驗範圍",
+    audioMeaningPrompt: "聽音訊，選擇意思。",
     startQuiz: "開始測驗",
     startNewModule: "開始新模組",
     freshQuiz: "重新抽 20 題",

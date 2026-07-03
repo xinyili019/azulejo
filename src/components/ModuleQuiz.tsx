@@ -98,7 +98,11 @@ export function ModuleQuiz({
 
   function speak() {
     if (!activeQuestion || typeof window === "undefined" || !("Audio" in window)) return;
-    const audio = new Audio(`${import.meta.env.BASE_URL}audio/pt/${activeQuestion.entry.id}.m4a`);
+    const audioPath =
+      activeQuestion.format === "cloze"
+        ? `audio/pt/examples/${activeQuestion.entry.id}.m4a`
+        : `audio/pt/${activeQuestion.entry.id}.m4a`;
+    const audio = new Audio(`${import.meta.env.BASE_URL}${audioPath}`);
     audio.play().catch(() => undefined);
   }
 
@@ -163,14 +167,14 @@ export function ModuleQuiz({
           </select>
         </label>
 
-        <div className="module-quiz-prompt">
+        <div className={`module-quiz-prompt ${activeQuestion.format === "audioMeaning" ? "is-audio-meaning" : ""}`}>
           <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
             <Volume2 size={18} aria-hidden="true" />
           </button>
-          <p>{activeQuestion.clozeSentence}</p>
+          <p>{activeQuestion.format === "cloze" ? activeQuestion.clozeSentence : ui.audioMeaningPrompt}</p>
         </div>
 
-        {activeQuestion.translation && (
+        {activeQuestion.format === "cloze" && activeQuestion.translation && (
           <div className={`module-quiz-translation ${translationOpen ? "open" : ""}`}>
             <button
               className="example-toggle"

@@ -42,6 +42,7 @@ type StudyPhase =
 type QuizReturnPhase = Exclude<StudyPhase, "quiz" | "retrieval">;
 
 type RetrievalContext = "session" | "module" | "final";
+const FIRST_WORD_TIP_DISMISSED_KEY = "azulejo:first-word-tip-dismissed";
 
 interface RetrievalState {
   title: string;
@@ -71,6 +72,10 @@ export default function App() {
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [showInstallHelp, setShowInstallHelp] = useState(false);
   const [appInstalled, setAppInstalled] = useState(false);
+  const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return window.localStorage.getItem(FIRST_WORD_TIP_DISMISSED_KEY) === "true";
+  });
 
   useEffect(() => {
     saveProgress(progress);
@@ -144,6 +149,11 @@ export default function App() {
     setProgress({});
     setModuleQuizResults({});
     resetFlow();
+  }
+
+  function dismissFirstWordTip() {
+    setFirstWordTipDismissed(true);
+    window.localStorage.setItem(FIRST_WORD_TIP_DISMISSED_KEY, "true");
   }
 
   function moveNext() {
@@ -565,6 +575,7 @@ export default function App() {
             autoPlayPronunciation={autoPlayPronunciation}
             showFirstWordTip={false}
             ui={ui}
+            onFirstWordTipDismiss={dismissFirstWordTip}
             onToggleReveal={() => setRevealed((current) => !current)}
             onPrevious={movePrevious}
             onAgain={() => handleReview("again")}
@@ -577,8 +588,9 @@ export default function App() {
           direction={direction}
           revealed={revealed}
           autoPlayPronunciation={autoPlayPronunciation && phase === "study"}
-          showFirstWordTip={phase === "study" && sessionIndex === 0 && cardIndex === 0}
+          showFirstWordTip={phase === "study" && sessionIndex === 0 && cardIndex === 0 && !firstWordTipDismissed}
           ui={ui}
+          onFirstWordTipDismiss={dismissFirstWordTip}
           onToggleReveal={() => setRevealed((current) => !current)}
           onPrevious={movePrevious}
           onAgain={() => handleReview("again")}
