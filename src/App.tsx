@@ -593,6 +593,27 @@ export default function App() {
     );
   }
 
+  function renderInstallControl() {
+    if (appInstalled) return null;
+
+    return (
+      <div className="install-app-control">
+        <button className="secondary install-app-button" type="button" onClick={handleAddToHomeScreen}>
+          <Download size={16} aria-hidden="true" />
+          {ui.addToHomeScreen}
+        </button>
+        {showInstallHelp && (
+          <div className="install-app-help" role="status">
+            <p>{ui.addToHomeScreenHelp}</p>
+            <button className="install-app-dismiss" type="button" onClick={() => setShowInstallHelp(false)}>
+              {ui.gotIt}
+            </button>
+          </div>
+        )}
+      </div>
+    );
+  }
+
   return (
     <main className="app-shell">
       <span
@@ -656,27 +677,11 @@ export default function App() {
           </div>
 
           {renderStudyContent()}
-
-          {!appInstalled && (
-            <div className="install-app-control">
-              <button className="secondary install-app-button" type="button" onClick={handleAddToHomeScreen}>
-                <Download size={16} aria-hidden="true" />
-                {ui.addToHomeScreen}
-              </button>
-              {showInstallHelp && (
-                <div className="install-app-help" role="status">
-                  <p>{ui.addToHomeScreenHelp}</p>
-                  <button className="install-app-dismiss" type="button" onClick={() => setShowInstallHelp(false)}>
-                    {ui.gotIt}
-                  </button>
-                </div>
-              )}
-            </div>
-          )}
         </section>
       </section>
 
       <ProgressDashboard entries={vocabulary} progress={progress} ui={ui} onStartOver={handleStartOver} />
+      {renderInstallControl()}
     </main>
   );
 }
