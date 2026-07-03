@@ -55,10 +55,10 @@ describe("App", () => {
     expect(screen.getByText(/tap share/i)).toBeInTheDocument();
   });
 
-  it("shows a first-word tip on a casa and hides the previous word control there", () => {
+  it("shows a first-word tip on a casa and disables the previous word control there", () => {
     render(<App />);
 
-    expect(screen.queryByRole("button", { name: /previous word/i })).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /previous word/i })).toBeDisabled();
 
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
 
@@ -68,7 +68,7 @@ describe("App", () => {
     fireEvent.click(screen.getByRole("button", { name: /got it/i }));
 
     expect(screen.queryByText(/tap the tile to flip back to the same word/i)).not.toBeInTheDocument();
-    expect(screen.queryByRole("button", { name: /previous word/i })).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /previous word/i })).toBeDisabled();
   });
 
   it("shows the Portuguese example on flip and folds the translation behind a toggle", () => {
@@ -278,6 +278,16 @@ describe("App", () => {
     expect(autoPlayToggle).not.toBeChecked();
 
     fireEvent.click(screen.getByRole("button", { name: /listen/i }));
+    expect(play).toHaveBeenCalledTimes(1);
+  });
+
+  it("plays the Portuguese example sentence from the example audio file", () => {
+    render(<App />);
+    const play = vi.mocked(window.HTMLMediaElement.prototype.play);
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /listen example/i }));
+
     expect(play).toHaveBeenCalledTimes(1);
   });
 

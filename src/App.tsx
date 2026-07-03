@@ -566,7 +566,7 @@ export default function App() {
           </section>
 
           <div className="study-toggles">
-            <label className="toggle">
+            <label className="toggle auto-audio-toggle">
               <input
                 type="checkbox"
                 checked={autoPlayPronunciation}

@@ -6,14 +6,18 @@ import { spawnSync } from "node:child_process";
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const sourcePath = join(root, "src", "data", "vocabulary.ts");
 const outputDir = join(root, "public", "audio", "pt");
+const exampleOutputDir = join(outputDir, "examples");
 const force = process.argv.includes("--force");
 const voice = process.env.AZULEJO_TTS_VOICE ?? "Joana";
 
 const source = readFileSync(sourcePath, "utf8");
-const entries = [...source.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"portuguese":\s*"([^"]+)"/g)].map((match) => ({
-  id: match[1],
-  portuguese: match[2]
-}));
+const entries = [...source.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"portuguese":\s*"([^"]+)"[\s\S]*?"examplePt":\s*"([^"]+)"/g)].map(
+  (match) => ({
+    id: match[1],
+    portuguese: match[2],
+    examplePt: match[3]
+  })
+);
 
 function speechText(term) {
   return term
@@ -34,26 +38,42 @@ function exists(path) {
 }
 
 mkdirSync(outputDir, { recursive: true });
+mkdirSync(exampleOutputDir, { recursive: true });
 
-let generated = 0;
-let skipped = 0;
+let generatedWords = 0;
+let skippedWords = 0;
+let generatedExamples = 0;
+let skippedExamples = 0;
 
 for (const entry of entries) {
   const outputPath = join(outputDir, `${entry.id}.m4a`);
   if (!force && exists(outputPath)) {
-    skipped += 1;
-    continue;
+    skippedWords += 1;
+  } else {
+    generateAudio(outputPath, speechText(entry.portuguese), entry.id);
+    generatedWords += 1;
   }
 
-  const result = spawnSync("say", ["-v", voice, "-o", outputPath, speechText(entry.portuguese)], {
+  const exampleOutputPath = join(exampleOutputDir, `${entry.id}.m4a`);
+  if (!force && exists(exampleOutputPath)) {
+    skippedExamples += 1;
+  } else {
+    generateAudio(exampleOutputPath, speechText(entry.examplePt), `${entry.id} example`);
+    generatedExamples += 1;
+  }
+}
+
+function generateAudio(outputPath, text, label) {
+  const result = spawnSync("say", ["-v", voice, "-o", outputPath, text], {
     encoding: "utf8"
   });
 
   if (result.status !== 0) {
     const details = result.stderr?.trim() || result.stdout?.trim() || `exit ${result.status}`;
-    throw new Error(`Could not generate ${entry.id}: ${details}`);
+    throw new Error(`Could not generate ${label}: ${details}`);
   }
-  generated += 1;
 }
 
-console.log(`Audio ready in public/audio/pt: generated ${generated}, skipped ${skipped}, total ${entries.length}.`);
+console.log(
+  `Audio ready in public/audio/pt: words generated ${generatedWords}, skipped ${skippedWords}; examples generated ${generatedExamples}, skipped ${skippedExamples}; total ${entries.length}.`
+);

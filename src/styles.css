@@ -306,6 +306,14 @@ select {
   height: 18px;
 }
 
+.auto-audio-toggle {
+  color: #1f5fa6;
+}
+
+.auto-audio-toggle input {
+  accent-color: #1f5fa6;
+}
+
 .flashcard {
   --tile-height: 430px;
   display: grid;
@@ -519,9 +527,14 @@ select {
   justify-self: center;
 }
 
-.card-previous.is-hidden {
-  visibility: hidden;
-  pointer-events: none;
+.card-previous.is-unavailable:disabled {
+  background: #edf1f5;
+  color: #7b8794;
+  border-color: #c8d1da;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .tile-face::after,
@@ -700,6 +713,34 @@ select {
   z-index: 1;
   max-width: 760px;
   text-align: center;
+}
+
+.example-with-audio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.example-with-audio > span {
+  min-width: 0;
+}
+
+.example-audio {
+  width: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0;
+  flex: 0 0 auto;
+  color: #1f5fa6;
+  background: rgba(251, 253, 255, 0.72);
+  border-color: rgba(31, 95, 166, 0.28);
+  opacity: 1;
+}
+
+.example-audio:disabled {
+  cursor: default;
+  opacity: 0.54;
 }
 
 .muted {
@@ -1288,8 +1329,8 @@ progress::-moz-progress-bar {
     grid-row: 2;
   }
 
-  .card-previous.is-hidden {
-    display: none;
+  .card-previous.is-unavailable {
+    display: inline-flex;
   }
 
   .card-actions > button {

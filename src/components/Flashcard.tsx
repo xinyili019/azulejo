@@ -57,7 +57,7 @@ export function Flashcard({
     onToggleReveal();
   }
 
-  function speakWithBrowserVoice() {
+  function speakWithBrowserVoice(text: string) {
     if (
       typeof window === "undefined" ||
       !("speechSynthesis" in window) ||
@@ -66,7 +66,7 @@ export function Flashcard({
       return;
     }
 
-    const utterance = new window.SpeechSynthesisUtterance(entry.portuguese);
+    const utterance = new window.SpeechSynthesisUtterance(text);
     const voices = window.speechSynthesis.getVoices();
     const voice =
       voices.find((candidate) => candidate.lang.toLowerCase() === "pt-pt") ??
@@ -79,14 +79,14 @@ export function Flashcard({
     window.speechSynthesis.speak(utterance);
   }
 
-  function handlePronunciation() {
+  function playPortugueseAudio(path: string, fallbackText: string) {
     if (typeof window === "undefined" || !("Audio" in window)) {
-      speakWithBrowserVoice();
+      speakWithBrowserVoice(fallbackText);
       return;
     }
 
     activeAudio?.pause();
-    activeAudio = new Audio(`${import.meta.env.BASE_URL}audio/pt/${entry.id}.m4a`);
+    activeAudio = new Audio(`${import.meta.env.BASE_URL}${path}`);
     activeAudio.preload = "auto";
     let usedFallback = false;
 
@@ -94,7 +94,7 @@ export function Flashcard({
       if (usedFallback) return;
       usedFallback = true;
       activeAudio?.pause();
-      speakWithBrowserVoice();
+      speakWithBrowserVoice(fallbackText);
     };
 
     activeAudio.addEventListener("error", fallbackToBrowserVoice, { once: true });
@@ -104,6 +104,15 @@ export function Flashcard({
     } catch {
       fallbackToBrowserVoice();
     }
+  }
+
+  function handlePronunciation() {
+    playPortugueseAudio(`audio/pt/${entry.id}.m4a`, entry.portuguese);
+  }
+
+  function handleExamplePronunciation() {
+    if (!entry.examplePt) return;
+    playPortugueseAudio(`audio/pt/examples/${entry.id}.m4a`, entry.examplePt);
   }
 
   useEffect(() => {
@@ -165,7 +174,24 @@ export function Flashcard({
                 </span>
                 {(hasExample || hasTranslation) && (
                   <span className={`example-disclosure translation-disclosure ${translationOpen ? "open" : ""}`}>
-                    {entry.examplePt && <span className="example">{entry.examplePt}</span>}
+                    {entry.examplePt && (
+                      <span className="example example-with-audio">
+                        <span>{entry.examplePt}</span>
+                        <button
+                          className="icon-button example-audio"
+                          type="button"
+                          disabled={!revealed}
+                          onClick={(event) => {
+                            event.stopPropagation();
+                            handleExamplePronunciation();
+                          }}
+                          aria-label={`${ui.listen} ${ui.example}`}
+                          title={`${ui.listen} ${ui.example}`}
+                        >
+                          <Volume2 size={16} aria-hidden="true" />
+                        </button>
+                      </span>
+                    )}
                     {exampleTranslation && (
                       <>
                         <button
@@ -204,7 +230,7 @@ export function Flashcard({
       </div>
       <div className={`flashcard-controls ${revealed ? "is-revealed" : ""}`}>
         {isFirstWord ? (
-          <button className="secondary card-previous is-hidden" type="button" tabIndex={-1} aria-hidden="true" disabled>
+          <button className="secondary card-previous is-unavailable" type="button" disabled>
             <ChevronLeft size={18} aria-hidden="true" />
             {ui.previousWord}
           </button>
