@@ -4,10 +4,37 @@ import App from "../src/App";
 import { vocabulary } from "../src/data/vocabulary";
 
 function completeVisibleModuleQuiz() {
+  let missedAnswerTexts: string[] = [];
+
   for (let question = 0; question < 20; question += 1) {
     const choices = within(screen.getByRole("list", { name: /multiple choice answers/i })).getAllByRole("button");
     fireEvent.click(choices[0]);
+    const correctChoice = document.querySelector(".module-quiz-choice.is-correct span")?.textContent ?? "";
+    if (correctChoice && correctChoice !== choices[0].textContent) {
+      missedAnswerTexts.push(correctChoice);
+    }
     fireEvent.click(screen.getByRole("button", { name: question === 19 ? /finish/i : /next/i }));
+  }
+
+  while (screen.queryByRole("button", { name: /retry missed/i })) {
+    fireEvent.click(screen.getByRole("button", { name: /retry missed/i }));
+    const nextMissedAnswerTexts: string[] = [];
+
+    for (let question = 0; question < missedAnswerTexts.length; question += 1) {
+      const choices = within(screen.getByRole("list", { name: /multiple choice answers/i })).getAllByRole("button");
+      const answerText = missedAnswerTexts[question];
+      const choice = choices.find((candidate) => candidate.textContent === answerText) ?? choices[0];
+      fireEvent.click(choice);
+
+      const correctChoice = document.querySelector(".module-quiz-choice.is-correct span")?.textContent ?? "";
+      if (correctChoice && correctChoice !== choice.textContent) {
+        nextMissedAnswerTexts.push(correctChoice);
+      }
+
+      fireEvent.click(screen.getByRole("button", { name: question === missedAnswerTexts.length - 1 ? /finish/i : /next/i }));
+    }
+
+    missedAnswerTexts = nextMissedAnswerTexts;
   }
 }
 
@@ -137,10 +164,17 @@ describe("App", () => {
     expect(screen.getByText("a casa")).toHaveClass("answer");
   });
 
-  it("does not render search controls", () => {
+  it("searches vocabulary across Portuguese, English, and Chinese fields", () => {
     render(<App />);
 
-    expect(screen.queryByPlaceholderText(/term, theme, example/i)).not.toBeInTheDocument();
+    fireEvent.change(screen.getByLabelText(/search/i), { target: { value: "房子" } });
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent("a casa");
+
+    fireEvent.change(screen.getByLabelText(/search/i), { target: { value: "home" } });
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent("a casa");
+
+    fireEvent.change(screen.getByLabelText(/search/i), { target: { value: "casa" } });
+    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent("a casa");
   });
 
   it("labels the direction selector as language", () => {
@@ -170,7 +204,7 @@ describe("App", () => {
   it("explains that the tile can be tapped to check the answer", () => {
     render(<App />);
 
-    expect(screen.getByText(/know this word\? tap the tile to check!/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/know this word\? tap the tile to check!/i).length).toBeGreaterThanOrEqual(1);
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveAccessibleDescription(
       /know this word\? tap the tile to check!/i
     );
@@ -359,6 +393,21 @@ describe("App", () => {
 
     fireEvent.click(screen.getByRole("button", { name: /listen/i }));
     expect(play).toHaveBeenCalledTimes(1);
+  });
+
+  it("uses generated audio for situation-only vocabulary pronunciation", () => {
+    render(<App />);
+    const play = vi.mocked(window.HTMLMediaElement.prototype.play);
+    const speak = vi.mocked(window.speechSynthesis.speak);
+
+    fireEvent.click(screen.getByRole("tab", { name: "Situações" }));
+    fireEvent.change(screen.getByRole("combobox", { name: "Situação" }), { target: { value: "financas" } });
+    play.mockClear();
+    speak.mockClear();
+    fireEvent.click(screen.getByRole("button", { name: /listen/i }));
+
+    expect(play).toHaveBeenCalledTimes(1);
+    expect(speak).not.toHaveBeenCalled();
   });
 
   it("plays the Portuguese example sentence from the example audio file", () => {

@@ -54,8 +54,24 @@ type QuizReturnPhase = Exclude<StudyPhase, "quiz" | "retrieval">;
 type RetrievalContext = "session" | "module" | "final";
 type AppMode = "manual" | "situacoes";
 type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
-const FIRST_WORD_TIP_DISMISSED_KEY = "azulejo:first-word-tip-dismissed";
 const DEFAULT_SITUACAO_ID = situacaoGroups[0]?.items[0]?.id ?? "banco";
+const AUDIO_FADE_STEPS = 6;
+const AUDIO_FADE_INTERVAL_MS = 35;
+const MODULE_THEME_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
+  "Módulo 1": { en: "Basics", zhHans: "基础", zhHant: "基礎" },
+  "Módulo 2": { en: "Daily", zhHans: "日常", zhHant: "日常" },
+  "Módulo 3": { en: "Food", zhHans: "饮食", zhHant: "飲食" },
+  "Módulo 4": { en: "Leisure", zhHans: "休闲", zhHant: "休閒" },
+  "Módulo 5": { en: "Services", zhHans: "办事", zhHant: "辦事" },
+  "Módulo 6": { en: "Health", zhHans: "健康", zhHant: "健康" },
+  "Módulo 7": { en: "Work", zhHans: "工作", zhHant: "工作" },
+  "Módulo 8": { en: "Jobs", zhHans: "求职", zhHant: "求職" },
+  "Módulo 9": { en: "Places", zhHans: "地点", zhHant: "地點" },
+  "Módulo 10": { en: "Habits", zhHans: "习惯", zhHant: "習慣" },
+  "Módulo 11": { en: "Letters", zhHans: "信件", zhHant: "信件" },
+  "Módulo 12": { en: "Civic", zhHans: "公民", zhHant: "公民" }
+};
+let activeSituacaoAudio: HTMLAudioElement | null = null;
 
 interface RetrievalState {
   title: string;
@@ -71,10 +87,12 @@ export default function App() {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
   const [appMode, setAppMode] = useState<AppMode>("manual");
   const [modulo, setModulo] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("");
   const [situacaoId, setSituacaoId] = useState(DEFAULT_SITUACAO_ID);
   const [situacaoTab, setSituacaoTab] = useState<SituacaoTab>("vocabulario");
   const [situacaoCardIndex, setSituacaoCardIndex] = useState(0);
   const [situacaoRevealed, setSituacaoRevealed] = useState(false);
+  const [situacaoVocabularyComplete, setSituacaoVocabularyComplete] = useState(false);
   const [autoPlayPronunciation, setAutoPlayPronunciation] = useState(true);
   const [direction, setDirection] = useState<Direction>("pt-en");
   const [sessionIndex, setSessionIndex] = useState(0);
@@ -90,10 +108,7 @@ export default function App() {
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [showInstallHelp, setShowInstallHelp] = useState(false);
   const [appInstalled, setAppInstalled] = useState(false);
-  const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return window.localStorage.getItem(FIRST_WORD_TIP_DISMISSED_KEY) === "true";
-  });
+  const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(false);
 
   useEffect(() => {
     saveProgress(progress);
@@ -127,8 +142,11 @@ export default function App() {
 
   const modulos = useMemo(() => getModulos(vocabulary), []);
   const selectedEntries = useMemo(
-    () => (modulo === "all" ? vocabulary : vocabulary.filter((entry) => entry.modulo === modulo)),
-    [modulo]
+    () =>
+      vocabulary.filter(
+        (entry) => (modulo === "all" || entry.modulo === modulo) && matchesVocabularySearch(entry, searchQuery)
+      ),
+    [modulo, searchQuery]
   );
   const selectedSituacaoEntries = useMemo(() => getVocabularyForSituacao(situacaoId), [situacaoId]);
   const selectedSituacaoDialogue = useMemo(
@@ -159,11 +177,12 @@ export default function App() {
 
   useEffect(() => {
     resetFlow();
-  }, [modulo, direction]);
+  }, [modulo, direction, searchQuery]);
 
   useEffect(() => {
     setSituacaoCardIndex(0);
     setSituacaoRevealed(false);
+    setSituacaoVocabularyComplete(false);
   }, [situacaoId, direction]);
 
   function resetFlow() {
@@ -189,12 +208,18 @@ export default function App() {
   function moveNextSituacaoCard() {
     if (selectedSituacaoEntries.length === 0) return;
     setSituacaoRevealed(false);
-    setSituacaoCardIndex((current) => (current + 1) % selectedSituacaoEntries.length);
+    const nextIndex = situacaoCardIndex + 1;
+    if (nextIndex >= selectedSituacaoEntries.length) {
+      setSituacaoVocabularyComplete(true);
+      return;
+    }
+    setSituacaoCardIndex(nextIndex);
   }
 
   function movePreviousSituacaoCard() {
     if (selectedSituacaoEntries.length === 0) return;
     setSituacaoRevealed(false);
+    setSituacaoVocabularyComplete(false);
     setSituacaoCardIndex((current) => (current - 1 + selectedSituacaoEntries.length) % selectedSituacaoEntries.length);
   }
 
@@ -203,6 +228,12 @@ export default function App() {
 
     setProgress((current) => recordReview(current, activeSituacaoEntry.id, status));
     moveNextSituacaoCard();
+  }
+
+  function restartSituacaoVocabulary() {
+    setSituacaoCardIndex(0);
+    setSituacaoRevealed(false);
+    setSituacaoVocabularyComplete(false);
   }
 
   function speakPortugueseText(text: string) {
@@ -223,8 +254,51 @@ export default function App() {
 
     utterance.lang = voice?.lang ?? "pt-PT";
     utterance.voice = voice ?? null;
-    window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
+  }
+
+  function fadeOutSituacaoAudio(audio: HTMLAudioElement) {
+    const startVolume = audio.volume;
+    let step = 0;
+
+    const intervalId = window.setInterval(() => {
+      step += 1;
+      audio.volume = Math.max(0, startVolume * (1 - step / AUDIO_FADE_STEPS));
+
+      if (step >= AUDIO_FADE_STEPS) {
+        window.clearInterval(intervalId);
+        audio.pause();
+      }
+    }, AUDIO_FADE_INTERVAL_MS);
+  }
+
+  function playSituacaoAudio(path: string, fallbackText: string) {
+    if (typeof window === "undefined" || !("Audio" in window)) {
+      speakPortugueseText(fallbackText);
+      return;
+    }
+
+    if (activeSituacaoAudio) {
+      fadeOutSituacaoAudio(activeSituacaoAudio);
+    }
+    activeSituacaoAudio = new Audio(`${import.meta.env.BASE_URL}${path}`);
+    activeSituacaoAudio.preload = "auto";
+    activeSituacaoAudio.volume = 0.86;
+
+    let usedFallback = false;
+    const fallbackToBrowserVoice = () => {
+      if (usedFallback) return;
+      usedFallback = true;
+      speakPortugueseText(fallbackText);
+    };
+
+    activeSituacaoAudio.addEventListener("error", fallbackToBrowserVoice, { once: true });
+    try {
+      const playPromise = activeSituacaoAudio.play();
+      playPromise?.catch(fallbackToBrowserVoice);
+    } catch {
+      fallbackToBrowserVoice();
+    }
   }
 
   function saveSituacaoCheatSheet() {
@@ -243,7 +317,6 @@ export default function App() {
 
   function dismissFirstWordTip() {
     setFirstWordTipDismissed(true);
-    window.localStorage.setItem(FIRST_WORD_TIP_DISMISSED_KEY, "true");
   }
 
   function moveNext() {
@@ -625,8 +698,8 @@ export default function App() {
 
   function renderLanguageSelect() {
     return (
-      <label>
-        {ui.language}
+      <label className="language-control" data-label={ui.language}>
+        <span>{ui.language}</span>
         <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
           <option value="pt-en">Portuguese to English</option>
           <option value="en-pt">English to Portuguese</option>
@@ -643,22 +716,39 @@ export default function App() {
     return (
       <>
         <section className="select-controls" aria-label={ui.studyControls}>
-          <label>
-            {ui.module}
+          <label className="module-control" data-label={ui.module}>
+            <span>{ui.module}</span>
             <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
               <option value="all">{ui.allModules}</option>
               {modulos.map((item) => (
                 <option key={item} value={item}>
-                  {ui.moduloLabel(item)}
+                  {formatModuloOptionLabel(ui.moduloLabel(item), getModuleThemeLabel(item, ui.locale))}
                 </option>
               ))}
             </select>
           </label>
           {renderLanguageSelect()}
+          <label className="search-control">
+            <span className="search-label-text">{ui.search}</span>
+            <input
+              type="search"
+              aria-label={ui.search}
+              value={searchQuery}
+              placeholder="search"
+              onChange={(event) => setSearchQuery(event.target.value)}
+            />
+          </label>
         </section>
 
+        {renderStudyContent()}
+
         <div className="study-toggles">
-          {quizScopes.length > 0 && phase !== "quiz" && (
+          {searchQuery && (
+            <button className="secondary search-back" type="button" onClick={() => setSearchQuery("")}>
+              {ui.goBack}
+            </button>
+          )}
+          {quizScopes.length > 0 && phase === "study" && (
             <button className="secondary module-quiz-start" type="button" onClick={() => startModuleQuiz("study")}>
               <Brain size={16} aria-hidden="true" />
               {ui.startQuiz}
@@ -673,8 +763,6 @@ export default function App() {
             {ui.autoPlayPronunciation}
           </label>
         </div>
-
-        {renderStudyContent()}
       </>
     );
   }
@@ -683,8 +771,8 @@ export default function App() {
     return (
       <>
         <section className="select-controls situacao-controls" aria-label="Controlo de Situações">
-          <label>
-            Situação
+          <label className="situacao-select-control" data-label={getSituacaoControlLabel(ui.locale)}>
+            <span>Situação</span>
             <select value={situacaoId} onChange={(event) => setSituacaoId(event.target.value)}>
               {situacaoGroups.map((group) => (
                 <optgroup key={group.label} label={group.label}>
@@ -757,6 +845,21 @@ export default function App() {
   }
 
   function renderSituacaoVocabulary() {
+    if (situacaoVocabularyComplete) {
+      return (
+        <MilestonePanel
+          title={getSituacaoVocabularyCompleteCopy(direction, selectedSituacaoEntries.length).title}
+          actions={[
+            {
+              id: "review-situacao-vocab",
+              label: getSituacaoVocabularyCompleteCopy(direction, selectedSituacaoEntries.length).actionLabel,
+              onClick: restartSituacaoVocabulary
+            }
+          ]}
+        />
+      );
+    }
+
     return activeSituacaoEntry ? (
       <Flashcard
         entry={activeSituacaoEntry}
@@ -786,7 +889,7 @@ export default function App() {
             <button
               className="icon-button situacao-listen"
               type="button"
-              onClick={() => speakPortugueseText(line.pt)}
+              onClick={() => playSituacaoAudio(`audio/pt/situacoes/dialogo/${line.id}.m4a`, line.pt)}
               aria-label={`${ui.listen}: ${line.pt}`}
               title={ui.listen}
             >
@@ -822,7 +925,7 @@ export default function App() {
               <button
                 className="icon-button situacao-listen"
                 type="button"
-                onClick={() => speakPortugueseText(line.pt)}
+                onClick={() => playSituacaoAudio(`audio/pt/situacoes/cartao/${line.id}.m4a`, line.pt)}
                 aria-label={`${ui.listen}: ${line.pt}`}
                 title={ui.listen}
               >
@@ -992,6 +1095,7 @@ export default function App() {
           direction={direction}
           revealed={revealed}
           autoPlayPronunciation={autoPlayPronunciation && phase === "study"}
+          showFirstWordCue={phase === "study" && sessionIndex === 0 && cardIndex === 0}
           showFirstWordTip={phase === "study" && sessionIndex === 0 && cardIndex === 0 && !firstWordTipDismissed}
           ui={ui}
           onFirstWordTipDismiss={dismissFirstWordTip}
@@ -1042,12 +1146,12 @@ export default function App() {
       </span>
       <section className="workspace">
         <header className="app-header">
-          <div>
+          <div className="app-header-top">
             <p className="eyebrow">European Portuguese A1 + A2</p>
-            <h1>Azulejo</h1>
-            <p className="app-subtitle">your Portuguese, tile by tile</p>
+            {renderModeTabs()}
           </div>
-          {renderModeTabs()}
+          <h1>Azulejo</h1>
+          <p className="app-subtitle">your Portuguese, tile by tile</p>
         </header>
 
         <section className={`study-surface ${appMode === "situacoes" ? "situacao-study-surface" : ""}`}>
@@ -1132,4 +1236,59 @@ function renderMilestoneTitle(title: string) {
       {title.slice(countMatch.index + countMatch[0].length)}
     </>
   );
+}
+
+function formatModuloOptionLabel(moduloLabel: string, themeLabel?: string) {
+  return themeLabel ? `${moduloLabel} · ${themeLabel}` : moduloLabel;
+}
+
+function getModuleThemeLabel(modulo: string, locale: "en" | "zhHans" | "zhHant") {
+  return MODULE_THEME_LABELS[modulo]?.[locale];
+}
+
+function getSituacaoControlLabel(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") return "场景";
+  if (locale === "zhHant") return "場景";
+  return "Situation";
+}
+
+function matchesVocabularySearch(entry: VocabularyEntry, query: string) {
+  const normalizedQuery = normalizeSearchText(query);
+  if (!normalizedQuery) return true;
+
+  return [
+    entry.portuguese,
+    entry.english,
+    entry.zhHans,
+    entry.zhHant
+  ].some((value) => normalizeSearchText(value ?? "").includes(normalizedQuery));
+}
+
+function normalizeSearchText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLocaleLowerCase()
+    .trim();
+}
+
+function getSituacaoVocabularyCompleteCopy(direction: Direction, wordCount: number) {
+  if (direction.includes("zh-hans")) {
+    return {
+      title: `恭喜！你已经学完这个场景的 ${wordCount} 个核心词！`,
+      actionLabel: "再复习一遍"
+    };
+  }
+
+  if (direction.includes("zh-hant")) {
+    return {
+      title: `恭喜！你已經學完這個情境的 ${wordCount} 個核心單字！`,
+      actionLabel: "再複習一遍"
+    };
+  }
+
+  return {
+    title: `Congrats! You have learned ${wordCount} essential words for this situation!`,
+    actionLabel: "Review again"
+  };
 }

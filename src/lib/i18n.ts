@@ -7,6 +7,8 @@ export interface UiCopy {
   module: string;
   allModules: string;
   language: string;
+  search: string;
+  searchPlaceholder: string;
   reviewOnlyUnknown: string;
   exportProgress: string;
   importProgress: string;
@@ -61,6 +63,8 @@ const copy: Record<UiLocale, UiCopy> = {
     module: "Module",
     allModules: "All modules",
     language: "Language",
+    search: "Search",
+    searchPlaceholder: "Word",
     reviewOnlyUnknown: "Review only unknown",
     exportProgress: "Export progress",
     importProgress: "Import progress",
@@ -113,6 +117,8 @@ const copy: Record<UiLocale, UiCopy> = {
     module: "模块",
     allModules: "全部模块",
     language: "语言",
+    search: "搜索",
+    searchPlaceholder: "词",
     reviewOnlyUnknown: "只复习未掌握",
     exportProgress: "导出进度",
     importProgress: "导入进度",
@@ -165,6 +171,8 @@ const copy: Record<UiLocale, UiCopy> = {
     module: "模組",
     allModules: "全部模組",
     language: "語言",
+    search: "搜尋",
+    searchPlaceholder: "單字",
     reviewOnlyUnknown: "只複習未掌握",
     exportProgress: "匯出進度",
     importProgress: "匯入進度",

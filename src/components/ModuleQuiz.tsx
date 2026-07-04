@@ -21,6 +21,11 @@ interface QuizResult {
   correct: boolean;
 }
 
+interface MissedQuestion {
+  question: ModuleQuizQuestion;
+  missedCount: number;
+}
+
 export function ModuleQuiz({
   scopes,
   allEntries,
@@ -37,6 +42,9 @@ export function ModuleQuiz({
   const [questionIndex, setQuestionIndex] = useState(0);
   const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
   const [results, setResults] = useState<QuizResult[]>([]);
+  const [missedQuestions, setMissedQuestions] = useState<MissedQuestion[]>([]);
+  const [retryingMissed, setRetryingMissed] = useState(false);
+  const [quizCompleted, setQuizCompleted] = useState(false);
   const [translationOpen, setTranslationOpen] = useState(false);
   const activeAudioRef = useRef<HTMLAudioElement | null>(null);
   const activeScope = useMemo(
@@ -46,8 +54,11 @@ export function ModuleQuiz({
   const activeQuestion = questions[questionIndex];
   const answered = selectedChoice !== null;
   const selectedCorrect = answered && selectedChoice === activeQuestion?.answer;
-  const completed = questions.length > 0 && results.length === questions.length;
+  const completed = quizCompleted && !retryingMissed;
   const correctCount = results.filter((result) => result.correct).length;
+  const totalCount = results.length || questions.length;
+  const missedCount = missedQuestions.length;
+  const hasLongChoices = activeQuestion?.choices.some((choice) => choice.length > 18) ?? false;
 
   useEffect(() => {
     setScopeId(initialScopeId ?? scopes[0]?.id ?? "");
@@ -73,6 +84,9 @@ export function ModuleQuiz({
     setQuestionIndex(0);
     setSelectedChoice(null);
     setResults([]);
+    setMissedQuestions([]);
+    setRetryingMissed(false);
+    setQuizCompleted(false);
     setTranslationOpen(false);
   }
 
@@ -84,14 +98,44 @@ export function ModuleQuiz({
   function continueQuiz() {
     if (!activeQuestion || !answered) return;
 
+    if (retryingMissed) {
+      const currentMiss = missedQuestions.find((item) => item.question.id === activeQuestion.id);
+      const remainingMisses = selectedCorrect
+        ? missedQuestions.filter((item) => item.question.id !== activeQuestion.id)
+        : [
+            ...missedQuestions.filter((item) => item.question.id !== activeQuestion.id),
+            { question: activeQuestion, missedCount: (currentMiss?.missedCount ?? 1) + 1 }
+          ];
+
+      setMissedQuestions(remainingMisses);
+      setSelectedChoice(null);
+      setTranslationOpen(false);
+
+      if (questionIndex < questions.length - 1) {
+        setQuestionIndex((current) => current + 1);
+        return;
+      }
+
+      setRetryingMissed(false);
+      setQuizCompleted(true);
+      setQuestionIndex(0);
+      return;
+    }
+
     const nextResults = [...results, { id: activeQuestion.id, correct: selectedCorrect }];
+    const nextMissedQuestions = selectedCorrect
+      ? missedQuestions
+      : [...missedQuestions, { question: activeQuestion, missedCount: 1 }];
+
     setResults(nextResults);
+    setMissedQuestions(nextMissedQuestions);
     setSelectedChoice(null);
     setTranslationOpen(false);
 
     if (questionIndex < questions.length - 1) {
       setQuestionIndex((current) => current + 1);
     } else if (activeScope) {
+      setQuizCompleted(true);
       onComplete({
         scopeId: activeScope.id,
         modulo: activeScope.modulo,
@@ -101,6 +145,17 @@ export function ModuleQuiz({
         completedAt: new Date().toISOString()
       });
     }
+  }
+
+  function startMissedQuestionRetry() {
+    if (missedQuestions.length === 0) return;
+
+    setQuestions(missedQuestions.map((item) => item.question));
+    setQuestionIndex(0);
+    setSelectedChoice(null);
+    setRetryingMissed(true);
+    setQuizCompleted(false);
+    setTranslationOpen(false);
   }
 
   function prepareAmbientAudioSession() {
@@ -132,7 +187,7 @@ export function ModuleQuiz({
     playQuestionAudio(activeQuestion);
   }
 
-  if (!activeScope || questions.length === 0) {
+  if ((!activeScope || questions.length === 0) && !completed) {
     return (
       <div className="review-switch-shell">
         <button className="review-switch-back" type="button" onClick={onExit}>
@@ -154,15 +209,25 @@ export function ModuleQuiz({
         </button>
         <section className="review-panel module-quiz module-quiz-complete" aria-label={ui.moduleQuiz}>
           <p className="eyebrow">{activeScope.label}</p>
-          <h2>{ui.finalQuizScore(correctCount, questions.length)}</h2>
+          <h2>{ui.finalQuizScore(correctCount, totalCount)}</h2>
+          {missedCount > 0 && <p className="module-quiz-retry-note">{getMissedQuizCopy(direction, missedCount)}</p>}
           <div className="module-quiz-actions">
-            <button className="primary" type="button" onClick={startFreshQuiz}>
-              <RotateCcw size={18} aria-hidden="true" />
-              {ui.freshQuiz}
-            </button>
-            <button className="secondary" type="button" onClick={onCompletionExit}>
-              {completionExitLabel}
-            </button>
+            {missedCount > 0 ? (
+              <button className="primary" type="button" onClick={startMissedQuestionRetry}>
+                <RotateCcw size={18} aria-hidden="true" />
+                {getRetryMissedLabel(direction)}
+              </button>
+            ) : (
+              <button className="primary" type="button" onClick={startFreshQuiz}>
+                <RotateCcw size={18} aria-hidden="true" />
+                {ui.freshQuiz}
+              </button>
+            )}
+            {missedCount === 0 && (
+              <button className="secondary" type="button" onClick={onCompletionExit}>
+                {completionExitLabel}
+              </button>
+            )}
           </div>
         </section>
       </div>
@@ -176,7 +241,7 @@ export function ModuleQuiz({
       </button>
       <section className="review-panel module-quiz" aria-label={ui.moduleQuiz}>
         <div className="review-header">
-          <p className="eyebrow">{ui.moduleQuiz}</p>
+          <p className="eyebrow">{retryingMissed ? getRetryMissedLabel(direction) : ui.moduleQuiz}</p>
           <strong>
             {questionIndex + 1} / {questions.length}
           </strong>
@@ -227,7 +292,7 @@ export function ModuleQuiz({
         )}
 
         <div
-          className={`module-quiz-choices choices-${activeQuestion.choices.length}`}
+          className={`module-quiz-choices choices-${activeQuestion.choices.length}${hasLongChoices ? " has-long-choices" : ""}`}
           role="list"
           aria-label="Multiple choice answers"
         >
@@ -270,4 +335,16 @@ export function ModuleQuiz({
       </section>
     </div>
   );
+}
+
+function getRetryMissedLabel(direction: Direction) {
+  if (direction.includes("zh-hans")) return "重做错题";
+  if (direction.includes("zh-hant")) return "重做錯題";
+  return "Retry missed";
+}
+
+function getMissedQuizCopy(direction: Direction, count: number) {
+  if (direction.includes("zh-hans")) return `请先重做 ${count} 道错题，答对后再继续。`;
+  if (direction.includes("zh-hant")) return `請先重做 ${count} 道錯題，答對後再繼續。`;
+  return `Review ${count} missed ${count === 1 ? "question" : "questions"} before moving on.`;
 }

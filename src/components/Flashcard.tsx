@@ -6,12 +6,15 @@ import type { UiCopy } from "../lib/i18n";
 
 let activeAudio: HTMLAudioElement | null = null;
 const AUTO_PLAY_DELAY_MS = 250;
+const AUDIO_FADE_STEPS = 6;
+const AUDIO_FADE_INTERVAL_MS = 35;
 
 interface FlashcardProps {
   entry: VocabularyEntry;
   direction: Direction;
   revealed: boolean;
   autoPlayPronunciation: boolean;
+  showFirstWordCue?: boolean;
   showFirstWordTip?: boolean;
   ui: UiCopy;
   onToggleReveal: () => void;
@@ -26,6 +29,7 @@ export function Flashcard({
   direction,
   revealed,
   autoPlayPronunciation,
+  showFirstWordCue = false,
   showFirstWordTip = false,
   ui,
   onToggleReveal,
@@ -77,8 +81,22 @@ export function Flashcard({
 
     utterance.lang = voice?.lang ?? "pt-PT";
     utterance.voice = voice ?? null;
-    window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
+  }
+
+  function fadeOutAudio(audio: HTMLAudioElement) {
+    const startVolume = audio.volume;
+    let step = 0;
+
+    const intervalId = window.setInterval(() => {
+      step += 1;
+      audio.volume = Math.max(0, startVolume * (1 - step / AUDIO_FADE_STEPS));
+
+      if (step >= AUDIO_FADE_STEPS) {
+        window.clearInterval(intervalId);
+        audio.pause();
+      }
+    }, AUDIO_FADE_INTERVAL_MS);
   }
 
   function playPortugueseAudio(path: string, fallbackText: string) {
@@ -87,15 +105,17 @@ export function Flashcard({
       return;
     }
 
-    activeAudio?.pause();
+    if (activeAudio) {
+      fadeOutAudio(activeAudio);
+    }
     activeAudio = new Audio(`${import.meta.env.BASE_URL}${path}`);
     activeAudio.preload = "auto";
+    activeAudio.volume = 0.86;
     let usedFallback = false;
 
     const fallbackToBrowserVoice = () => {
       if (usedFallback) return;
       usedFallback = true;
-      activeAudio?.pause();
       speakWithBrowserVoice(fallbackText);
     };
 
@@ -148,9 +168,11 @@ export function Flashcard({
         aria-label={ui.flashcard}
         style={{ "--card-term-size-adjustment": cardTermSize } as CSSProperties}
       >
-      <p id="flashcard-instruction" className="flashcard-instruction">
-        {ui.cardInstruction}
-      </p>
+      {showFirstWordCue && !revealed && (
+        <p id="flashcard-instruction" className="flashcard-instruction">
+          {ui.cardInstruction}
+        </p>
+      )}
       <div className="tile-shell">
         <div className="tile-stage">
           <div
@@ -161,11 +183,12 @@ export function Flashcard({
             onKeyDown={handleTileKeyDown}
             aria-pressed={revealed}
             aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
-            aria-describedby="flashcard-instruction"
+            aria-describedby={showFirstWordCue && !revealed ? "flashcard-instruction" : undefined}
           >
             <span className="tile-face tile-front" aria-hidden={revealed}>
               <span className="tile-content">
                 <span className="prompt">{prompt}</span>
+                {showFirstWordCue && !revealed && <span className="tile-face-hint">{ui.cardInstruction}</span>}
               </span>
             </span>
             <span className={`tile-face tile-back ${translationOpen ? "translation-is-open" : ""}`} aria-hidden={!revealed}>
@@ -288,6 +311,7 @@ function getFirstWordTipText(ui: UiCopy) {
 
   return 'Tap the tile to flip back to the same word. "Known" skips Review and Recall. "Again" sends the word to Review and Recall.';
 }
+
 
 function getCardTermSize(prompt: string) {
   const length = prompt.trim().length;
