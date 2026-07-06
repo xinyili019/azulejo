@@ -1,4 +1,5 @@
 import type { Direction, VocabularyEntry } from "../types";
+import { getPortugueseBareText, getPortugueseDisplayText } from "./portugueseDisplay";
 
 export type RetrievalPromptLanguage = "english" | "zhHans" | "zhHant";
 export type RetrievalReviewOutcome = "correct" | "incorrect" | "revealed-before-typed";
@@ -11,6 +12,7 @@ export interface RetrievalReviewPrompt {
   prompt: string;
   promptLanguage: RetrievalPromptLanguage;
   answer: string;
+  acceptedAnswers: string[];
   cue: string;
 }
 
@@ -83,15 +85,19 @@ export function buildRetrievalReviewPrompts(
 ): RetrievalReviewPrompt[] {
   const promptLanguage = getPromptLanguage(direction);
 
-  return shuffleWithRng(entries, rng).map((entry) => ({
-    id: entry.id,
-    entry,
-    direction,
-    prompt: getRetrievalPrompt(entry, promptLanguage),
-    promptLanguage,
-    answer: entry.portuguese,
-    cue: buildPortugueseCue(entry.portuguese)
-  }));
+  return shuffleWithRng(entries, rng).map((entry) => {
+    const bareAnswer = getPortugueseBareText(entry);
+    return {
+      id: entry.id,
+      entry,
+      direction,
+      prompt: getRetrievalPrompt(entry, promptLanguage),
+      promptLanguage,
+      answer: bareAnswer,
+      acceptedAnswers: uniqueAnswers([bareAnswer, getPortugueseDisplayText(entry), entry.portuguese]),
+      cue: buildPortugueseCue(bareAnswer)
+    };
+  });
 }
 
 export function buildPortugueseCue(portuguese: string): string {
@@ -130,13 +136,25 @@ export function getCharacterFeedback(input: string, expectedPortuguese: string):
 export function getRetrievalOutcome(
   input: string,
   expectedPortuguese: string,
-  revealedBeforeTyped: boolean
+  revealedBeforeTyped: boolean,
+  acceptedAnswers: readonly string[] = [expectedPortuguese]
 ): RetrievalReviewOutcome {
   if (revealedBeforeTyped) return "revealed-before-typed";
 
-  return normalizePortugueseForReview(input) === normalizePortugueseForReview(expectedPortuguese)
+  const normalizedInput = normalizePortugueseForReview(input);
+  return acceptedAnswers.some((answer) => normalizedInput === normalizePortugueseForReview(answer))
     ? "correct"
     : "incorrect";
+}
+
+function uniqueAnswers(values: string[]) {
+  const seen = new Set<string>();
+  return values.filter((value) => {
+    const key = normalizePortugueseForReview(value);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 export function expandRepeatReviewQueue(

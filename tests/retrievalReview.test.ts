@@ -67,6 +67,16 @@ describe("retrievalReview", () => {
     expect(buildPortugueseCue("água-de-colónia d'ouro!")).toBe("____-__-_______ _'____!");
   });
 
+  it("uses bare noun answers for recall while accepting the definite article", () => {
+    const noun = { ...entry("noun", "a ponte", "bridge"), pos: "noun" as const, gender: "f" as const };
+    const prompt = buildRetrievalReviewPrompts([noun], "en-pt", () => 0)[0];
+
+    expect(prompt.answer).toBe("ponte");
+    expect(prompt.cue).toBe("_____");
+    expect(getRetrievalOutcome("ponte", prompt.answer, false, prompt.acceptedAnswers)).toBe("correct");
+    expect(getRetrievalOutcome("a ponte", prompt.answer, false, prompt.acceptedAnswers)).toBe("correct");
+  });
+
   it("normalizes Portuguese input for forgiving comparison while keeping display feedback", () => {
     expect(normalizePortugueseForReview("  ÁGUA   D’ouro  ")).toBe("agua d'ouro");
 

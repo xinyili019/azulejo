@@ -1,5 +1,6 @@
 import type { Direction, ProgressState, VocabularyEntry } from "../types";
 import { getCardProgress } from "./progress";
+import { getPortugueseDisplayText } from "./portugueseDisplay";
 
 export interface FilterOptions {
   modulo: string;
@@ -25,7 +26,7 @@ export function filterEntries(
 }
 
 export function getPrompt(entry: VocabularyEntry, direction: Direction) {
-  if (direction.startsWith("pt-")) return entry.portuguese;
+  if (direction.startsWith("pt-")) return getPortugueseDisplayText(entry);
   if (direction === "en-pt") return entry.english;
   if (direction === "zh-hans-pt") return entry.zhHans;
   return entry.zhHant;
@@ -35,5 +36,5 @@ export function getAnswer(entry: VocabularyEntry, direction: Direction) {
   if (direction === "pt-en") return entry.english;
   if (direction === "pt-zh-hans") return entry.zhHans;
   if (direction === "pt-zh-hant") return entry.zhHant;
-  return entry.portuguese;
+  return getPortugueseDisplayText(entry);
 }

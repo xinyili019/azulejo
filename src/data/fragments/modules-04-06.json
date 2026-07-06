@@ -1,6 +1,6 @@
 [
   {
-    "id": "m4-ouvir-musica",
+    "id": "az-0172",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ouvir música",
@@ -12,10 +12,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "听音乐",
-    "zhHant": "聽音樂"
+    "zhHant": "聽音樂",
+    "legacyIds": [
+      "m4-ouvir-musica"
+    ]
   },
   {
-    "id": "m4-passear",
+    "id": "az-0173",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "passear",
@@ -27,10 +30,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去散步",
-    "zhHant": "去散步"
+    "zhHant": "去散步",
+    "legacyIds": [
+      "m4-passear"
+    ]
   },
   {
-    "id": "m4-ler",
+    "id": "az-0174",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ler",
@@ -42,10 +48,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "阅读",
-    "zhHant": "閱讀"
+    "zhHant": "閱讀",
+    "legacyIds": [
+      "m4-ler"
+    ]
   },
   {
-    "id": "m4-ver-televisao",
+    "id": "az-0175",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ver televisão",
@@ -57,10 +66,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "看电视",
-    "zhHant": "看電視"
+    "zhHant": "看電視",
+    "legacyIds": [
+      "m4-ver-televisao"
+    ]
   },
   {
-    "id": "m4-conversar",
+    "id": "az-0176",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "conversar",
@@ -72,10 +84,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "说话",
-    "zhHant": "說話"
+    "zhHant": "說話",
+    "legacyIds": [
+      "m4-conversar"
+    ]
   },
   {
-    "id": "m4-ir-ao-ginasio",
+    "id": "az-0177",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ir ao ginásio",
@@ -87,10 +102,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去健身房",
-    "zhHant": "去健身房"
+    "zhHant": "去健身房",
+    "legacyIds": [
+      "m4-ir-ao-ginasio"
+    ]
   },
   {
-    "id": "m4-ir-ao-cinema",
+    "id": "az-0178",
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "ir ao cinema",
@@ -102,10 +120,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去电影院",
-    "zhHant": "去電影院"
+    "zhHant": "去電影院",
+    "legacyIds": [
+      "m4-ir-ao-cinema"
+    ]
   },
   {
-    "id": "m4-ir-a-um-bar",
+    "id": "az-0179",
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "ir a um bar",
@@ -117,10 +138,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去酒吧",
-    "zhHant": "去酒吧"
+    "zhHant": "去酒吧",
+    "legacyIds": [
+      "m4-ir-a-um-bar"
+    ]
   },
   {
-    "id": "m4-ir-a-praia",
+    "id": "az-0180",
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "ir à praia",
@@ -132,10 +156,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去海滩",
-    "zhHant": "去海灘"
+    "zhHant": "去海灘",
+    "legacyIds": [
+      "m4-ir-a-praia"
+    ]
   },
   {
-    "id": "m4-viajar",
+    "id": "az-0181",
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "viajar",
@@ -147,10 +174,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去旅行",
-    "zhHant": "去旅行"
+    "zhHant": "去旅行",
+    "legacyIds": [
+      "m4-viajar"
+    ]
   },
   {
-    "id": "m4-filme",
+    "id": "az-0182",
     "modulo": "Módulo 4",
     "theme": "Acontecimentos culturais",
     "portuguese": "o filme",
@@ -162,10 +192,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "电影",
-    "zhHant": "電影"
+    "zhHant": "電影",
+    "legacyIds": [
+      "m4-filme"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-futebol",
+    "id": "az-0183",
     "modulo": "Módulo 4",
     "theme": "Desportos",
     "portuguese": "o futebol",
@@ -177,10 +212,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "足球",
-    "zhHant": "足球"
+    "zhHant": "足球",
+    "legacyIds": [
+      "m4-futebol"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-chuva",
+    "id": "az-0184",
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "a chuva",
@@ -192,10 +232,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "雨",
-    "zhHant": "雨"
+    "zhHant": "雨",
+    "legacyIds": [
+      "m4-chuva"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m4-vento",
+    "id": "az-0185",
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "o vento",
@@ -207,10 +252,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "风",
-    "zhHant": "風"
+    "zhHant": "風",
+    "legacyIds": [
+      "m4-vento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-sol",
+    "id": "az-0186",
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "o sol",
@@ -222,10 +272,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "太阳",
-    "zhHant": "太陽"
+    "zhHant": "太陽",
+    "legacyIds": [
+      "m4-sol"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-outono",
+    "id": "az-0187",
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "o outono",
@@ -237,10 +292,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "秋天",
-    "zhHant": "秋天"
+    "zhHant": "秋天",
+    "legacyIds": [
+      "m4-outono"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-primavera",
+    "id": "az-0188",
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "a primavera",
@@ -252,10 +312,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "春天",
-    "zhHant": "春天"
+    "zhHant": "春天",
+    "legacyIds": [
+      "m4-primavera"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m4-inverno",
+    "id": "az-0189",
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "o inverno",
@@ -267,10 +332,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "冬天",
-    "zhHant": "冬天"
+    "zhHant": "冬天",
+    "legacyIds": [
+      "m4-inverno"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-verao",
+    "id": "az-0190",
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "o verão",
@@ -282,10 +352,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "夏天",
-    "zhHant": "夏天"
+    "zhHant": "夏天",
+    "legacyIds": [
+      "m4-verao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-bilheteira",
+    "id": "az-0191",
     "modulo": "Módulo 4",
     "theme": "Cinema",
     "portuguese": "a bilheteira",
@@ -297,10 +372,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "售票处",
-    "zhHant": "售票處"
+    "zhHant": "售票處",
+    "legacyIds": [
+      "m4-bilheteira"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m4-fim-de-semana",
+    "id": "az-0192",
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "o fim de semana",
@@ -312,10 +392,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "周末",
-    "zhHant": "週末"
+    "zhHant": "週末",
+    "legacyIds": [
+      "m4-fim-de-semana"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-fresco",
+    "id": "az-0193",
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "fresco(a)",
@@ -327,10 +412,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "凉爽/新鲜",
-    "zhHant": "涼爽/新鮮"
+    "zhHant": "涼爽/新鮮",
+    "legacyIds": [
+      "m4-fresco"
+    ]
   },
   {
-    "id": "m4-frio",
+    "id": "az-0194",
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "frio(a)",
@@ -342,10 +430,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "寒冷的",
-    "zhHant": "寒冷的"
+    "zhHant": "寒冷的",
+    "legacyIds": [
+      "m4-frio"
+    ]
   },
   {
-    "id": "m4-pastelaria",
+    "id": "az-0195",
     "modulo": "Módulo 4",
     "theme": "Lugares",
     "portuguese": "a pastelaria",
@@ -357,10 +448,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "糕点店",
-    "zhHant": "糕點店"
+    "zhHant": "糕點店",
+    "legacyIds": [
+      "m4-pastelaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m4-dar-uma-volta",
+    "id": "az-0196",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ir dar uma volta",
@@ -372,10 +468,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去散步",
-    "zhHant": "去散步"
+    "zhHant": "去散步",
+    "legacyIds": [
+      "m4-dar-uma-volta"
+    ]
   },
   {
-    "id": "m4-centro-comercial",
+    "id": "az-0197",
     "modulo": "Módulo 4",
     "theme": "Lugares",
     "portuguese": "o centro comercial",
@@ -387,10 +486,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "购物中心",
-    "zhHant": "購物中心"
+    "zhHant": "購物中心",
+    "legacyIds": [
+      "m4-centro-comercial"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-dizer",
+    "id": "az-0198",
     "modulo": "Módulo 4",
     "theme": "Verbos",
     "portuguese": "dizer",
@@ -402,10 +506,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "说",
-    "zhHant": "說"
+    "zhHant": "說",
+    "legacyIds": [
+      "m4-dizer"
+    ]
   },
   {
-    "id": "m4-amanha",
+    "id": "az-0199",
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "amanhã",
@@ -417,10 +524,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "明天",
-    "zhHant": "明天"
+    "zhHant": "明天",
+    "legacyIds": [
+      "m4-amanha"
+    ]
   },
   {
-    "id": "m4-depois-de-amanha",
+    "id": "az-0200",
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "depois de amanhã",
@@ -432,10 +542,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "后天",
-    "zhHant": "後天"
+    "zhHant": "後天",
+    "legacyIds": [
+      "m4-depois-de-amanha"
+    ]
   },
   {
-    "id": "m4-na-proxima-semana",
+    "id": "az-0201",
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "na próxima semana",
@@ -447,10 +560,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "下周",
-    "zhHant": "下週"
+    "zhHant": "下週",
+    "legacyIds": [
+      "m4-na-proxima-semana"
+    ]
   },
   {
-    "id": "m4-daqui-a-uma-semana",
+    "id": "az-0202",
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "daqui a uma semana",
@@ -462,10 +578,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一周后",
-    "zhHant": "一週後"
+    "zhHant": "一週後",
+    "legacyIds": [
+      "m4-daqui-a-uma-semana"
+    ]
   },
   {
-    "id": "m4-natal",
+    "id": "az-0203",
     "modulo": "Módulo 4",
     "theme": "Épocas festivas",
     "portuguese": "o Natal",
@@ -477,10 +596,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "圣诞节",
-    "zhHant": "聖誕節"
+    "zhHant": "聖誕節",
+    "legacyIds": [
+      "m4-natal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m4-pascoa",
+    "id": "az-0204",
     "modulo": "Módulo 4",
     "theme": "Épocas festivas",
     "portuguese": "a Páscoa",
@@ -492,10 +616,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "复活节",
-    "zhHant": "復活節"
+    "zhHant": "復活節",
+    "legacyIds": [
+      "m4-pascoa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m4-costumar",
+    "id": "az-0205",
     "modulo": "Módulo 4",
     "theme": "Verbos",
     "portuguese": "costumar",
@@ -507,10 +636,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "通常做",
-    "zhHant": "通常做"
+    "zhHant": "通常做",
+    "legacyIds": [
+      "m4-costumar"
+    ]
   },
   {
-    "id": "m4-andar-de-bicicleta",
+    "id": "az-0206",
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "andar de bicicleta",
@@ -522,10 +654,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "骑自行车",
-    "zhHant": "騎自行車"
+    "zhHant": "騎自行車",
+    "legacyIds": [
+      "m4-andar-de-bicicleta"
+    ]
   },
   {
-    "id": "m4-divertir-se",
+    "id": "az-0207",
     "modulo": "Módulo 4",
     "theme": "Verbos",
     "portuguese": "divertir-se",
@@ -537,10 +672,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "玩得开心",
-    "zhHant": "玩得開心"
+    "zhHant": "玩得開心",
+    "legacyIds": [
+      "m4-divertir-se"
+    ]
   },
   {
-    "id": "m4-comigo",
+    "id": "az-0208",
     "modulo": "Módulo 4",
     "theme": "Pronomes",
     "portuguese": "comigo",
@@ -552,10 +690,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "与我一起",
-    "zhHant": "與我一起"
+    "zhHant": "與我一起",
+    "legacyIds": [
+      "m4-comigo"
+    ]
   },
   {
-    "id": "m4-contigo",
+    "id": "az-0209",
     "modulo": "Módulo 4",
     "theme": "Pronomes",
     "portuguese": "contigo",
@@ -567,10 +708,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "与你",
-    "zhHant": "與你"
+    "zhHant": "與你",
+    "legacyIds": [
+      "m4-contigo"
+    ]
   },
   {
-    "id": "m4-consigo",
+    "id": "az-0210",
     "modulo": "Módulo 4",
     "theme": "Pronomes",
     "portuguese": "consigo",
@@ -582,10 +726,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "与您",
-    "zhHant": "與您"
+    "zhHant": "與您",
+    "legacyIds": [
+      "m4-consigo"
+    ]
   },
   {
-    "id": "m5-oficina",
+    "id": "az-0211",
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "a oficina",
@@ -597,10 +744,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "修理店",
-    "zhHant": "修理店"
+    "zhHant": "修理店",
+    "legacyIds": [
+      "m5-oficina"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-bomba-de-gasolina",
+    "id": "az-0212",
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "a bomba de gasolina",
@@ -612,10 +764,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "加油站",
-    "zhHant": "加油站"
+    "zhHant": "加油站",
+    "legacyIds": [
+      "m5-bomba-de-gasolina"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-correios",
+    "id": "az-0213",
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "os Correios",
@@ -627,10 +784,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "邮局",
-    "zhHant": "郵局"
+    "zhHant": "郵局",
+    "legacyIds": [
+      "m5-correios"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m5-banco",
+    "id": "az-0214",
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "o banco",
@@ -642,10 +804,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "银行",
-    "zhHant": "銀行"
+    "zhHant": "銀行",
+    "legacyIds": [
+      "m5-banco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-servico-de-estrangeiros-e-fronteiras",
+    "id": "az-0215",
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "o Serviço de Estrangeiros e Fronteiras",
@@ -657,10 +824,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "外国人和边境服务局",
-    "zhHant": "外國人和邊境服務局"
+    "zhHant": "外國人和邊境服務局",
+    "legacyIds": [
+      "m5-servico-de-estrangeiros-e-fronteiras"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-loja-de-roupa",
+    "id": "az-0216",
     "modulo": "Módulo 5",
     "theme": "Lojas",
     "portuguese": "a loja de roupa",
@@ -672,10 +844,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "服装店",
-    "zhHant": "服飾店"
+    "zhHant": "服飾店",
+    "legacyIds": [
+      "m5-loja-de-roupa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-servico",
+    "id": "az-0217",
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "o serviço",
@@ -687,10 +864,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "服务",
-    "zhHant": "服務"
+    "zhHant": "服務",
+    "legacyIds": [
+      "m5-servico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-lavandaria",
+    "id": "az-0218",
     "modulo": "Módulo 5",
     "theme": "Lojas",
     "portuguese": "a lavandaria",
@@ -702,10 +884,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "洗衣店/自助洗衣店",
-    "zhHant": "洗衣店/自助洗衣店"
+    "zhHant": "洗衣店/自助洗衣店",
+    "legacyIds": [
+      "m5-lavandaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-oculista",
+    "id": "az-0219",
     "modulo": "Módulo 5",
     "theme": "Lojas",
     "portuguese": "oculista",
@@ -717,10 +904,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "配镜师",
-    "zhHant": "配鏡師"
+    "zhHant": "配鏡師",
+    "legacyIds": [
+      "m5-oculista"
+    ]
   },
   {
-    "id": "m5-proibido-fumar",
+    "id": "az-0220",
     "modulo": "Módulo 5",
     "theme": "Avisos",
     "portuguese": "Proibido fumar",
@@ -732,10 +922,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "禁止抽烟",
-    "zhHant": "禁止抽煙"
+    "zhHant": "禁止抽煙",
+    "legacyIds": [
+      "m5-proibido-fumar"
+    ]
   },
   {
-    "id": "m5-fechado-para-ferias",
+    "id": "az-0221",
     "modulo": "Módulo 5",
     "theme": "Avisos",
     "portuguese": "Fechado para férias",
@@ -747,10 +940,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "节假日休息",
-    "zhHant": "假日休息"
+    "zhHant": "假日休息",
+    "legacyIds": [
+      "m5-fechado-para-ferias"
+    ]
   },
   {
-    "id": "m5-encomenda",
+    "id": "az-0222",
     "modulo": "Módulo 5",
     "theme": "Correios",
     "portuguese": "a encomenda",
@@ -762,10 +958,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "包裹",
-    "zhHant": "包裹"
+    "zhHant": "包裹",
+    "legacyIds": [
+      "m5-encomenda"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-a-esquerda",
+    "id": "az-0223",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "à esquerda",
@@ -777,10 +978,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "左边/向左",
-    "zhHant": "左邊/向左"
+    "zhHant": "左邊/向左",
+    "legacyIds": [
+      "m5-a-esquerda"
+    ]
   },
   {
-    "id": "m5-a-direita",
+    "id": "az-0224",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "à direita",
@@ -792,10 +996,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "向右",
-    "zhHant": "向右"
+    "zhHant": "向右",
+    "legacyIds": [
+      "m5-a-direita"
+    ]
   },
   {
-    "id": "m5-seguir-em-frente",
+    "id": "az-0225",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "seguir em frente",
@@ -807,10 +1014,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "直走",
-    "zhHant": "直走"
+    "zhHant": "直走",
+    "legacyIds": [
+      "m5-seguir-em-frente"
+    ]
   },
   {
-    "id": "m5-atravessar",
+    "id": "az-0226",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "atravessar",
@@ -822,10 +1032,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "穿越",
-    "zhHant": "穿越"
+    "zhHant": "穿越",
+    "legacyIds": [
+      "m5-atravessar"
+    ]
   },
   {
-    "id": "m5-passar",
+    "id": "az-0227",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "passar",
@@ -837,10 +1050,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "经过/通过",
-    "zhHant": "經過/通過"
+    "zhHant": "經過/通過",
+    "legacyIds": [
+      "m5-passar"
+    ]
   },
   {
-    "id": "m5-subir",
+    "id": "az-0228",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "subir",
@@ -852,10 +1068,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "上去",
-    "zhHant": "上去"
+    "zhHant": "上去",
+    "legacyIds": [
+      "m5-subir"
+    ]
   },
   {
-    "id": "m5-descer",
+    "id": "az-0229",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "descer",
@@ -867,10 +1086,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "下去",
-    "zhHant": "下去"
+    "zhHant": "下去",
+    "legacyIds": [
+      "m5-descer"
+    ]
   },
   {
-    "id": "m5-enviar-uma-carta",
+    "id": "az-0230",
     "modulo": "Módulo 5",
     "theme": "Correios",
     "portuguese": "enviar uma carta",
@@ -882,10 +1104,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "寄信",
-    "zhHant": "寄信"
+    "zhHant": "寄信",
+    "legacyIds": [
+      "m5-enviar-uma-carta"
+    ]
   },
   {
-    "id": "m5-pagar-a-conta",
+    "id": "az-0231",
     "modulo": "Módulo 5",
     "theme": "Serviços",
     "portuguese": "pagar a conta",
@@ -897,10 +1122,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "支付账单",
-    "zhHant": "支付帳單"
+    "zhHant": "支付帳單",
+    "legacyIds": [
+      "m5-pagar-a-conta"
+    ]
   },
   {
-    "id": "m5-senha",
+    "id": "az-0232",
     "modulo": "Módulo 5",
     "theme": "Serviços",
     "portuguese": "a senha",
@@ -912,10 +1140,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "票号",
-    "zhHant": "票號"
+    "zhHant": "票號",
+    "legacyIds": [
+      "m5-senha"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-carta-registada",
+    "id": "az-0233",
     "modulo": "Módulo 5",
     "theme": "Correios",
     "portuguese": "a carta registada",
@@ -927,10 +1160,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "挂号信",
-    "zhHant": "掛號信"
+    "zhHant": "掛號信",
+    "legacyIds": [
+      "m5-carta-registada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-impresso",
+    "id": "az-0234",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o impresso",
@@ -942,10 +1180,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "表格",
-    "zhHant": "表格"
+    "zhHant": "表格",
+    "legacyIds": [
+      "m5-impresso"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-renovar",
+    "id": "az-0235",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "renovar",
@@ -957,10 +1200,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "续签/更新",
-    "zhHant": "續簽/更新"
+    "zhHant": "續簽/更新",
+    "legacyIds": [
+      "m5-renovar"
+    ]
   },
   {
-    "id": "m5-documentos-necessarios",
+    "id": "az-0236",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "os documentos necessários",
@@ -972,10 +1218,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "所需文件",
-    "zhHant": "所需文件"
+    "zhHant": "所需文件",
+    "legacyIds": [
+      "m5-documentos-necessarios"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m5-requerente",
+    "id": "az-0237",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o requerente",
@@ -987,10 +1238,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "申请人",
-    "zhHant": "申請人"
+    "zhHant": "申請人",
+    "legacyIds": [
+      "m5-requerente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-fotografia-tipo-passe",
+    "id": "az-0238",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "a fotografia tipo passe",
@@ -1002,10 +1258,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "护照照片",
-    "zhHant": "護照照片"
+    "zhHant": "護照照片",
+    "legacyIds": [
+      "m5-fotografia-tipo-passe"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-passaporte",
+    "id": "az-0239",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o passaporte",
@@ -1017,10 +1278,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "护照",
-    "zhHant": "護照"
+    "zhHant": "護照",
+    "legacyIds": [
+      "m5-passaporte"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-registo-criminal",
+    "id": "az-0240",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o registo criminal",
@@ -1032,10 +1298,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "犯罪记录",
-    "zhHant": "犯罪記錄"
+    "zhHant": "犯罪記錄",
+    "legacyIds": [
+      "m5-registo-criminal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-pessoalmente",
+    "id": "az-0241",
     "modulo": "Módulo 5",
     "theme": "Serviços",
     "portuguese": "pessoalmente",
@@ -1047,10 +1318,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "亲自",
-    "zhHant": "親自"
+    "zhHant": "親自",
+    "legacyIds": [
+      "m5-pessoalmente"
+    ]
   },
   {
-    "id": "m5-pneu-furado",
+    "id": "az-0242",
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "o pneu furado",
@@ -1062,10 +1336,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "轮胎漏气",
-    "zhHant": "輪胎漏氣"
+    "zhHant": "輪胎漏氣",
+    "legacyIds": [
+      "m5-pneu-furado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-veiculo",
+    "id": "az-0243",
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "o veículo",
@@ -1077,10 +1356,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "车辆",
-    "zhHant": "車輛"
+    "zhHant": "車輛",
+    "legacyIds": [
+      "m5-veiculo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-estrada",
+    "id": "az-0244",
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "a estrada",
@@ -1092,10 +1376,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "路",
-    "zhHant": "路"
+    "zhHant": "路",
+    "legacyIds": [
+      "m5-estrada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-estacao-de-servico",
+    "id": "az-0245",
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "a estação de serviço",
@@ -1107,10 +1396,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "服务站",
-    "zhHant": "服務站"
+    "zhHant": "服務站",
+    "legacyIds": [
+      "m5-estacao-de-servico"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-poupar",
+    "id": "az-0246",
     "modulo": "Módulo 5",
     "theme": "Compras",
     "portuguese": "poupar",
@@ -1122,10 +1416,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "存钱/省钱",
-    "zhHant": "存錢/省錢"
+    "zhHant": "存錢/省錢",
+    "legacyIds": [
+      "m5-poupar"
+    ]
   },
   {
-    "id": "m5-supermercado",
+    "id": "az-0247",
     "modulo": "Módulo 5",
     "theme": "Compras",
     "portuguese": "o supermercado",
@@ -1137,10 +1434,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "超市",
-    "zhHant": "超級市場"
+    "zhHant": "超級市場",
+    "legacyIds": [
+      "m5-supermercado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-daqui",
+    "id": "az-0248",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "daqui",
@@ -1152,10 +1454,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "从这里",
-    "zhHant": "從這裡"
+    "zhHant": "從這裡",
+    "legacyIds": [
+      "m5-daqui"
+    ]
   },
   {
-    "id": "m5-virar-a-direita",
+    "id": "az-0249",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "virar à direita",
@@ -1167,10 +1472,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "右转",
-    "zhHant": "右轉"
+    "zhHant": "右轉",
+    "legacyIds": [
+      "m5-virar-a-direita"
+    ]
   },
   {
-    "id": "m5-ir-a-pe",
+    "id": "az-0250",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "ir a pé",
@@ -1182,10 +1490,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "步行/走路去",
-    "zhHant": "步行/走路去"
+    "zhHant": "步行/走路去",
+    "legacyIds": [
+      "m5-ir-a-pe"
+    ]
   },
   {
-    "id": "m5-demorar",
+    "id": "az-0251",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "demorar",
@@ -1197,10 +1508,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "需要时间",
-    "zhHant": "需要時間"
+    "zhHant": "需要時間",
+    "legacyIds": [
+      "m5-demorar"
+    ]
   },
   {
-    "id": "m5-saber",
+    "id": "az-0252",
     "modulo": "Módulo 5",
     "theme": "Verbos",
     "portuguese": "saber",
@@ -1212,10 +1526,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "知道/会",
-    "zhHant": "知道/會"
+    "zhHant": "知道/會",
+    "legacyIds": [
+      "m5-saber"
+    ]
   },
   {
-    "id": "m5-guiar",
+    "id": "az-0253",
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "guiar",
@@ -1227,10 +1544,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "开车",
-    "zhHant": "開車"
+    "zhHant": "開車",
+    "legacyIds": [
+      "m5-guiar"
+    ]
   },
   {
-    "id": "m5-atender",
+    "id": "az-0254",
     "modulo": "Módulo 5",
     "theme": "Telefone",
     "portuguese": "atender",
@@ -1242,10 +1562,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "接电话",
-    "zhHant": "接電話"
+    "zhHant": "接電話",
+    "legacyIds": [
+      "m5-atender"
+    ]
   },
   {
-    "id": "m5-desligar",
+    "id": "az-0255",
     "modulo": "Módulo 5",
     "theme": "Telefone",
     "portuguese": "desligar",
@@ -1257,10 +1580,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "关闭",
-    "zhHant": "關閉"
+    "zhHant": "關閉",
+    "legacyIds": [
+      "m5-desligar"
+    ]
   },
   {
-    "id": "m5-esquecer-se",
+    "id": "az-0256",
     "modulo": "Módulo 5",
     "theme": "Verbos",
     "portuguese": "esquecer-se",
@@ -1272,10 +1598,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "忘记",
-    "zhHant": "忘記"
+    "zhHant": "忘記",
+    "legacyIds": [
+      "m5-esquecer-se"
+    ]
   },
   {
-    "id": "m5-rotunda",
+    "id": "az-0257",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "a rotunda",
@@ -1287,10 +1616,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "环岛",
-    "zhHant": "圓環/環形交叉路口"
+    "zhHant": "圓環/環形交叉路口",
+    "legacyIds": [
+      "m5-rotunda"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-semaforo",
+    "id": "az-0258",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "o semáforo",
@@ -1302,10 +1636,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "红绿灯",
-    "zhHant": "紅綠燈"
+    "zhHant": "紅綠燈",
+    "legacyIds": [
+      "m5-semaforo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-cruzamento",
+    "id": "az-0259",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "o cruzamento",
@@ -1317,10 +1656,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "十字路口",
-    "zhHant": "十字路口"
+    "zhHant": "十字路口",
+    "legacyIds": [
+      "m5-cruzamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-troco",
+    "id": "az-0260",
     "modulo": "Módulo 5",
     "theme": "Pagamentos",
     "portuguese": "o troco",
@@ -1332,10 +1676,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "找零",
-    "zhHant": "找零"
+    "zhHant": "找零",
+    "legacyIds": [
+      "m5-troco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-imobiliaria",
+    "id": "az-0261",
     "modulo": "Módulo 5",
     "theme": "Habitação",
     "portuguese": "a imobiliária",
@@ -1347,10 +1696,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "地产代理",
-    "zhHant": "地產代理"
+    "zhHant": "地產代理",
+    "legacyIds": [
+      "m5-imobiliaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-por",
+    "id": "az-0262",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "por",
@@ -1362,10 +1716,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "由/通过/沿着",
-    "zhHant": "由/通過/沿著"
+    "zhHant": "由/通過/沿著",
+    "legacyIds": [
+      "m5-por"
+    ]
   },
   {
-    "id": "m5-pelo",
+    "id": "az-0263",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "por + artigo",
@@ -1377,10 +1734,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "由/通过/沿着",
-    "zhHant": "由/通過/沿著"
+    "zhHant": "由/通過/沿著",
+    "legacyIds": [
+      "m5-pelo"
+    ]
   },
   {
-    "id": "m5-avenida",
+    "id": "az-0264",
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "a avenida",
@@ -1392,10 +1752,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "大街",
-    "zhHant": "大街"
+    "zhHant": "大街",
+    "legacyIds": [
+      "m5-avenida"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m5-ter-de",
+    "id": "az-0265",
     "modulo": "Módulo 5",
     "theme": "Obrigação",
     "portuguese": "ter de",
@@ -1407,10 +1772,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "必须",
-    "zhHant": "必須"
+    "zhHant": "必須",
+    "legacyIds": [
+      "m5-ter-de"
+    ]
   },
   {
-    "id": "m5-precisar-de",
+    "id": "az-0266",
     "modulo": "Módulo 5",
     "theme": "Obrigação",
     "portuguese": "precisar de",
@@ -1422,10 +1790,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "需要",
-    "zhHant": "需要"
+    "zhHant": "需要",
+    "legacyIds": [
+      "m5-precisar-de"
+    ]
   },
   {
-    "id": "m5-dever",
+    "id": "az-0267",
     "modulo": "Módulo 5",
     "theme": "Obrigação",
     "portuguese": "dever",
@@ -1437,10 +1808,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "应该",
-    "zhHant": "應該"
+    "zhHant": "應該",
+    "legacyIds": [
+      "m5-dever"
+    ]
   },
   {
-    "id": "m5-cartao-de-residencia",
+    "id": "az-0268",
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o cartão de residência",
@@ -1452,10 +1826,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "居留卡",
-    "zhHant": "居留卡"
+    "zhHant": "居留卡",
+    "legacyIds": [
+      "m5-cartao-de-residencia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m5-abrir-uma-conta",
+    "id": "az-0269",
     "modulo": "Módulo 5",
     "theme": "Banco",
     "portuguese": "abrir uma conta",
@@ -1467,10 +1846,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "开立账户",
-    "zhHant": "開立帳戶"
+    "zhHant": "開立帳戶",
+    "legacyIds": [
+      "m5-abrir-uma-conta"
+    ]
   },
   {
-    "id": "m5-exercicio-fisico",
+    "id": "az-0270",
     "modulo": "Módulo 5",
     "theme": "Saúde",
     "portuguese": "o exercício físico",
@@ -1482,10 +1864,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "体育锻炼",
-    "zhHant": "體育鍛鍊"
+    "zhHant": "體育鍛鍊",
+    "legacyIds": [
+      "m5-exercicio-fisico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-bombeiros",
+    "id": "az-0271",
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "os bombeiros",
@@ -1497,10 +1884,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "消防员",
-    "zhHant": "消防員"
+    "zhHant": "消防員",
+    "legacyIds": [
+      "m6-bombeiros"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m6-inem",
+    "id": "az-0272",
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o INEM",
@@ -1512,10 +1904,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "紧急医疗服务",
-    "zhHant": "緊急醫療服務"
+    "zhHant": "緊急醫療服務",
+    "legacyIds": [
+      "m6-inem"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-cabeca",
+    "id": "az-0273",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a cabeça",
@@ -1527,10 +1924,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "头",
-    "zhHant": "頭"
+    "zhHant": "頭",
+    "legacyIds": [
+      "m6-cabeca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-olhos",
+    "id": "az-0274",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "os olhos",
@@ -1542,10 +1944,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "眼睛",
-    "zhHant": "眼睛"
+    "zhHant": "眼睛",
+    "legacyIds": [
+      "m6-olhos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m6-nariz",
+    "id": "az-0275",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o nariz",
@@ -1557,10 +1964,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "鼻子",
-    "zhHant": "鼻子"
+    "zhHant": "鼻子",
+    "legacyIds": [
+      "m6-nariz"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-boca",
+    "id": "az-0276",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a boca",
@@ -1572,10 +1984,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "嘴",
-    "zhHant": "嘴"
+    "zhHant": "嘴",
+    "legacyIds": [
+      "m6-boca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-pescoco",
+    "id": "az-0277",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o pescoço",
@@ -1587,10 +2004,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "脖子",
-    "zhHant": "脖子"
+    "zhHant": "脖子",
+    "legacyIds": [
+      "m6-pescoco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-braco",
+    "id": "az-0278",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o braço",
@@ -1602,10 +2024,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "手臂",
-    "zhHant": "手臂"
+    "zhHant": "手臂",
+    "legacyIds": [
+      "m6-braco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-barriga",
+    "id": "az-0279",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a barriga",
@@ -1617,10 +2044,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "腹部",
-    "zhHant": "腹部"
+    "zhHant": "腹部",
+    "legacyIds": [
+      "m6-barriga"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-mao",
+    "id": "az-0280",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a mão",
@@ -1632,10 +2064,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "手",
-    "zhHant": "手"
+    "zhHant": "手",
+    "legacyIds": [
+      "m6-mao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-perna",
+    "id": "az-0281",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a perna",
@@ -1647,10 +2084,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "腿",
-    "zhHant": "腿"
+    "zhHant": "腿",
+    "legacyIds": [
+      "m6-perna"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-joelho",
+    "id": "az-0282",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o joelho",
@@ -1662,10 +2104,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "膝盖",
-    "zhHant": "膝蓋"
+    "zhHant": "膝蓋",
+    "legacyIds": [
+      "m6-joelho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-pe",
+    "id": "az-0283",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o pé",
@@ -1677,10 +2124,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "脚",
-    "zhHant": "腳"
+    "zhHant": "腳",
+    "legacyIds": [
+      "m6-pe"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-hospital",
+    "id": "az-0284",
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "o hospital",
@@ -1692,10 +2144,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "医院",
-    "zhHant": "醫院"
+    "zhHant": "醫院",
+    "legacyIds": [
+      "m6-hospital"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-centro-de-saude",
+    "id": "az-0285",
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "o Centro de Saúde",
@@ -1707,10 +2164,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "健康中心/社区诊所",
-    "zhHant": "健康中心/社區診所"
+    "zhHant": "健康中心/社區診所",
+    "legacyIds": [
+      "m6-centro-de-saude"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-usf",
+    "id": "az-0286",
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "a USF",
@@ -1722,10 +2184,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "家庭保健单位",
-    "zhHant": "家庭健康單位"
+    "zhHant": "家庭健康單位",
+    "legacyIds": [
+      "m6-usf"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-linha-de-emergencia",
+    "id": "az-0287",
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "a linha de emergência",
@@ -1737,10 +2204,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "紧急热线",
-    "zhHant": "緊急熱線"
+    "zhHant": "緊急熱線",
+    "legacyIds": [
+      "m6-linha-de-emergencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-fazer-exercicio",
+    "id": "az-0288",
     "modulo": "Módulo 6",
     "theme": "Cuidados de saúde",
     "portuguese": "fazer exercício",
@@ -1752,10 +2224,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "锻炼身体",
-    "zhHant": "鍛鍊身體"
+    "zhHant": "鍛鍊身體",
+    "legacyIds": [
+      "m6-fazer-exercicio"
+    ]
   },
   {
-    "id": "m6-ter-uma-alimentacao-saudavel",
+    "id": "az-0289",
     "modulo": "Módulo 6",
     "theme": "Cuidados de saúde",
     "portuguese": "ter uma alimentação saudável",
@@ -1767,10 +2242,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "保持健康的饮食",
-    "zhHant": "保持健康的飲食"
+    "zhHant": "保持健康的飲食",
+    "legacyIds": [
+      "m6-ter-uma-alimentacao-saudavel"
+    ]
   },
   {
-    "id": "m6-dentista",
+    "id": "az-0290",
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "dentista",
@@ -1782,10 +2260,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "牙医",
-    "zhHant": "牙醫"
+    "zhHant": "牙醫",
+    "legacyIds": [
+      "m6-dentista"
+    ]
   },
   {
-    "id": "m6-pediatra",
+    "id": "az-0291",
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "pediatra",
@@ -1797,10 +2278,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "儿科医生",
-    "zhHant": "兒科醫生"
+    "zhHant": "兒科醫生",
+    "legacyIds": [
+      "m6-pediatra"
+    ]
   },
   {
-    "id": "m6-medico-de-familia",
+    "id": "az-0292",
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "médico(a) de família",
@@ -1812,10 +2296,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "家庭医生",
-    "zhHant": "家庭醫生"
+    "zhHant": "家庭醫生",
+    "legacyIds": [
+      "m6-medico-de-familia"
+    ]
   },
   {
-    "id": "m6-oftalmologista",
+    "id": "az-0293",
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "oftalmologista",
@@ -1827,10 +2314,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "眼科医生",
-    "zhHant": "眼科醫生"
+    "zhHant": "眼科醫生",
+    "legacyIds": [
+      "m6-oftalmologista"
+    ]
   },
   {
-    "id": "m6-medir-a-tensao",
+    "id": "az-0294",
     "modulo": "Módulo 6",
     "theme": "Exames médicos",
     "portuguese": "medir a tensão",
@@ -1842,10 +2332,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "测量血压",
-    "zhHant": "測量血壓"
+    "zhHant": "測量血壓",
+    "legacyIds": [
+      "m6-medir-a-tensao"
+    ]
   },
   {
-    "id": "m6-fazer-uma-radiografia",
+    "id": "az-0295",
     "modulo": "Módulo 6",
     "theme": "Exames médicos",
     "portuguese": "fazer uma radiografia",
@@ -1857,10 +2350,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "照X光",
-    "zhHant": "照X光"
+    "zhHant": "照X光",
+    "legacyIds": [
+      "m6-fazer-uma-radiografia"
+    ]
   },
   {
-    "id": "m6-fazer-analises",
+    "id": "az-0296",
     "modulo": "Módulo 6",
     "theme": "Exames médicos",
     "portuguese": "fazer análises",
@@ -1872,10 +2368,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "做化验/做检查",
-    "zhHant": "做化驗/做檢查"
+    "zhHant": "做化驗/做檢查",
+    "legacyIds": [
+      "m6-fazer-analises"
+    ]
   },
   {
-    "id": "m6-estar-constipado",
+    "id": "az-0297",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "estar constipado(a)",
@@ -1887,10 +2386,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "感冒了",
-    "zhHant": "感冒了"
+    "zhHant": "感冒了",
+    "legacyIds": [
+      "m6-estar-constipado"
+    ]
   },
   {
-    "id": "m6-ter-febre",
+    "id": "az-0298",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ter febre",
@@ -1902,10 +2404,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "发烧",
-    "zhHant": "發燒"
+    "zhHant": "發燒",
+    "legacyIds": [
+      "m6-ter-febre"
+    ]
   },
   {
-    "id": "m6-ter-tosse",
+    "id": "az-0299",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ter tosse",
@@ -1917,10 +2422,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "咳嗽",
-    "zhHant": "咳嗽"
+    "zhHant": "咳嗽",
+    "legacyIds": [
+      "m6-ter-tosse"
+    ]
   },
   {
-    "id": "m6-ter-uma-intoxicacao",
+    "id": "az-0300",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ter uma intoxicação",
@@ -1932,10 +2440,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "中毒",
-    "zhHant": "中毒"
+    "zhHant": "中毒",
+    "legacyIds": [
+      "m6-ter-uma-intoxicacao"
+    ]
   },
   {
-    "id": "m6-ser-alergico-a",
+    "id": "az-0301",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ser alérgico/a a",
@@ -1947,10 +2458,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "对...过敏",
-    "zhHant": "對...過敏"
+    "zhHant": "對...過敏",
+    "legacyIds": [
+      "m6-ser-alergico-a"
+    ]
   },
   {
-    "id": "m6-ser-alergica-a",
+    "id": "az-0302",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ser alérgica a",
@@ -1962,10 +2476,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "过敏",
-    "zhHant": "過敏"
+    "zhHant": "過敏",
+    "legacyIds": [
+      "m6-ser-alergica-a"
+    ]
   },
   {
-    "id": "m6-estar-enjoado",
+    "id": "az-0303",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "estar enjoado(a)",
@@ -1977,10 +2494,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "感到恶心",
-    "zhHant": "感到噁心"
+    "zhHant": "感到噁心",
+    "legacyIds": [
+      "m6-estar-enjoado"
+    ]
   },
   {
-    "id": "m6-sentar-se",
+    "id": "az-0304",
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "sentar-se",
@@ -1992,10 +2512,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "坐下来",
-    "zhHant": "坐下來"
+    "zhHant": "坐下來",
+    "legacyIds": [
+      "m6-sentar-se"
+    ]
   },
   {
-    "id": "m6-comichao",
+    "id": "az-0305",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "a comichão",
@@ -2007,10 +2530,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "瘙痒",
-    "zhHant": "癢感"
+    "zhHant": "癢感",
+    "legacyIds": [
+      "m6-comichao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-espirrar",
+    "id": "az-0306",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "espirrar",
@@ -2022,10 +2550,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "打喷嚏",
-    "zhHant": "打噴嚏"
+    "zhHant": "打噴嚏",
+    "legacyIds": [
+      "m6-espirrar"
+    ]
   },
   {
-    "id": "m6-sentir-se-cansado",
+    "id": "az-0307",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "sentir-se cansado(a)",
@@ -2037,10 +2568,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "感到疲倦",
-    "zhHant": "感到疲倦"
+    "zhHant": "感到疲倦",
+    "legacyIds": [
+      "m6-sentir-se-cansado"
+    ]
   },
   {
-    "id": "m6-sem-forcas",
+    "id": "az-0308",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "sem forças",
@@ -2052,10 +2586,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "虚弱的",
-    "zhHant": "虛弱的"
+    "zhHant": "虛弱的",
+    "legacyIds": [
+      "m6-sem-forcas"
+    ]
   },
   {
-    "id": "m6-mascara",
+    "id": "az-0309",
     "modulo": "Módulo 6",
     "theme": "Saúde no trabalho",
     "portuguese": "a máscara",
@@ -2067,10 +2604,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "口罩",
-    "zhHant": "口罩"
+    "zhHant": "口罩",
+    "legacyIds": [
+      "m6-mascara"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-alergia",
+    "id": "az-0310",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "a alergia",
@@ -2082,10 +2624,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "过敏",
-    "zhHant": "過敏"
+    "zhHant": "過敏",
+    "legacyIds": [
+      "m6-alergia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-receita",
+    "id": "az-0311",
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "a receita",
@@ -2097,10 +2644,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "处方",
-    "zhHant": "處方"
+    "zhHant": "處方",
+    "legacyIds": [
+      "m6-receita"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-farmacia",
+    "id": "az-0312",
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "a farmácia",
@@ -2112,10 +2664,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "药店",
-    "zhHant": "藥局"
+    "zhHant": "藥局",
+    "legacyIds": [
+      "m6-farmacia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-consultorio-medico",
+    "id": "az-0313",
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "o consultório médico",
@@ -2127,10 +2684,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "医生办公室",
-    "zhHant": "醫生辦公室"
+    "zhHant": "醫生辦公室",
+    "legacyIds": [
+      "m6-consultorio-medico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-farmaceutica",
+    "id": "az-0314",
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "farmacêutico(a)",
@@ -2142,10 +2704,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "药剂师",
-    "zhHant": "藥師"
+    "zhHant": "藥師",
+    "legacyIds": [
+      "m6-farmaceutica"
+    ]
   },
   {
-    "id": "m6-cartao-de-utente",
+    "id": "az-0315",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "o cartão de utente",
@@ -2157,10 +2722,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "医疗用户卡/就诊卡",
-    "zhHant": "醫療用戶卡/就診卡"
+    "zhHant": "醫療用戶卡/就診卡",
+    "legacyIds": [
+      "m6-cartao-de-utente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-ha-quanto-tempo",
+    "id": "az-0316",
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "há quanto tempo?",
@@ -2172,10 +2742,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "多长时间？",
-    "zhHant": "多長時間？"
+    "zhHant": "多長時間？",
+    "legacyIds": [
+      "m6-ha-quanto-tempo"
+    ]
   },
   {
-    "id": "m6-injecao",
+    "id": "az-0317",
     "modulo": "Módulo 6",
     "theme": "Tratamentos",
     "portuguese": "a injeção",
@@ -2187,10 +2760,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "注射",
-    "zhHant": "注射"
+    "zhHant": "注射",
+    "legacyIds": [
+      "m6-injecao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-comprimido",
+    "id": "az-0318",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "o comprimido",
@@ -2202,10 +2780,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "药片",
-    "zhHant": "藥片"
+    "zhHant": "藥片",
+    "legacyIds": [
+      "m6-comprimido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-de-oito-em-oito-horas",
+    "id": "az-0319",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "de oito em oito horas",
@@ -2217,10 +2800,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "每八小时一次",
-    "zhHant": "每八小時一次"
+    "zhHant": "每八小時一次",
+    "legacyIds": [
+      "m6-de-oito-em-oito-horas"
+    ]
   },
   {
-    "id": "m6-numero-europeu-de-emergencia",
+    "id": "az-0320",
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o Número Europeu de Emergência",
@@ -2232,10 +2818,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "欧洲紧急电话号码",
-    "zhHant": "歐洲緊急電話號碼"
+    "zhHant": "歐洲緊急電話號碼",
+    "legacyIds": [
+      "m6-numero-europeu-de-emergencia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-utente",
+    "id": "az-0321",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "o utente",
@@ -2247,10 +2838,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "健康服务使用者",
-    "zhHant": "健康服務使用者"
+    "zhHant": "健康服務使用者",
+    "legacyIds": [
+      "m6-utente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-sns",
+    "id": "az-0322",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "o SNS",
@@ -2262,10 +2858,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "国家卫生服务体系",
-    "zhHant": "國家衛生服務體系"
+    "zhHant": "國家衛生服務體系",
+    "legacyIds": [
+      "m6-sns"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-incendio",
+    "id": "az-0323",
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o incêndio",
@@ -2277,10 +2878,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "火灾",
-    "zhHant": "火災"
+    "zhHant": "火災",
+    "legacyIds": [
+      "m6-incendio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-assalto",
+    "id": "az-0324",
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o assalto",
@@ -2292,10 +2898,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "抢劫",
-    "zhHant": "搶劫"
+    "zhHant": "搶劫",
+    "legacyIds": [
+      "m6-assalto"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-cuidados-de-saude",
+    "id": "az-0325",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "os cuidados de saúde",
@@ -2307,10 +2918,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "卫生保健",
-    "zhHant": "衛生保健"
+    "zhHant": "衛生保健",
+    "legacyIds": [
+      "m6-cuidados-de-saude"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m6-aceder",
+    "id": "az-0326",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "aceder",
@@ -2322,10 +2938,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "取得/登录",
-    "zhHant": "取得/登入"
+    "zhHant": "取得/登入",
+    "legacyIds": [
+      "m6-aceder"
+    ]
   },
   {
-    "id": "m6-legalmente",
+    "id": "az-0327",
     "modulo": "Módulo 6",
     "theme": "Documentos",
     "portuguese": "legalmente",
@@ -2337,10 +2956,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "合法地",
-    "zhHant": "合法地"
+    "zhHant": "合法地",
+    "legacyIds": [
+      "m6-legalmente"
+    ]
   },
   {
-    "id": "m6-direitos-e-deveres",
+    "id": "az-0328",
     "modulo": "Módulo 6",
     "theme": "Cidadania",
     "portuguese": "os direitos e deveres",
@@ -2352,10 +2974,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "权利和义务",
-    "zhHant": "權利和義務"
+    "zhHant": "權利和義務",
+    "legacyIds": [
+      "m6-direitos-e-deveres"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m6-situacao-legalizada",
+    "id": "az-0329",
     "modulo": "Módulo 6",
     "theme": "Documentos",
     "portuguese": "a situação legalizada",
@@ -2367,10 +2994,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "合法化地位",
-    "zhHant": "合法化地位"
+    "zhHant": "合法化地位",
+    "legacyIds": [
+      "m6-situacao-legalizada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-inscricao",
+    "id": "az-0330",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "a inscrição",
@@ -2382,10 +3014,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "登记/注册",
-    "zhHant": "登記/註冊"
+    "zhHant": "登記/註冊",
+    "legacyIds": [
+      "m6-inscricao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-consulta-de-urgencia",
+    "id": "az-0331",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "a consulta de urgência",
@@ -2397,10 +3034,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "急诊",
-    "zhHant": "急診"
+    "zhHant": "急診",
+    "legacyIds": [
+      "m6-consulta-de-urgencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-aviar-uma-receita",
+    "id": "az-0332",
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "aviar uma receita",
@@ -2412,10 +3054,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "配药",
-    "zhHant": "配藥"
+    "zhHant": "配藥",
+    "legacyIds": [
+      "m6-aviar-uma-receita"
+    ]
   },
   {
-    "id": "m6-medicamento",
+    "id": "az-0333",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "o medicamento",
@@ -2427,10 +3072,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "药品",
-    "zhHant": "藥物"
+    "zhHant": "藥物",
+    "legacyIds": [
+      "m6-medicamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-aliviar-a-dor",
+    "id": "az-0334",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "aliviar a dor",
@@ -2442,10 +3092,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "缓解疼痛",
-    "zhHant": "緩解疼痛"
+    "zhHant": "緩解疼痛",
+    "legacyIds": [
+      "m6-aliviar-a-dor"
+    ]
   },
   {
-    "id": "m6-diminuir-a-febre",
+    "id": "az-0335",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "diminuir a febre",
@@ -2457,10 +3110,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "退烧/降烧",
-    "zhHant": "退燒/降燒"
+    "zhHant": "退燒/降燒",
+    "legacyIds": [
+      "m6-diminuir-a-febre"
+    ]
   },
   {
-    "id": "m6-dose-recomendada",
+    "id": "az-0336",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "a dose recomendada",
@@ -2472,10 +3128,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "推荐剂量",
-    "zhHant": "建議劑量"
+    "zhHant": "建議劑量",
+    "legacyIds": [
+      "m6-dose-recomendada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m6-apos-as-refeicoes",
+    "id": "az-0337",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "após as refeições",
@@ -2487,10 +3148,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "饭后",
-    "zhHant": "飯後"
+    "zhHant": "飯後",
+    "legacyIds": [
+      "m6-apos-as-refeicoes"
+    ]
   },
   {
-    "id": "m6-oculos",
+    "id": "az-0338",
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "os óculos",
@@ -2502,10 +3166,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "眼镜",
-    "zhHant": "眼鏡"
+    "zhHant": "眼鏡",
+    "legacyIds": [
+      "m6-oculos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m6-dores-de-dentes",
+    "id": "az-0339",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "as dores de dentes",
@@ -2517,10 +3186,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "牙疼",
-    "zhHant": "牙痛"
+    "zhHant": "牙痛",
+    "legacyIds": [
+      "m6-dores-de-dentes"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m6-marcar-uma-consulta",
+    "id": "az-0340",
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "marcar uma consulta",
@@ -2532,10 +3206,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "预约",
-    "zhHant": "預約"
+    "zhHant": "預約",
+    "legacyIds": [
+      "m6-marcar-uma-consulta"
+    ]
   },
   {
-    "id": "m6-doer",
+    "id": "az-0341",
     "modulo": "Módulo 6",
     "theme": "Verbos",
     "portuguese": "doer",
@@ -2547,10 +3224,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "疼/痛",
-    "zhHant": "疼痛"
+    "zhHant": "疼痛",
+    "legacyIds": [
+      "m6-doer"
+    ]
   },
   {
-    "id": "m6-doi-me",
+    "id": "az-0342",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "dói-me",
@@ -2562,10 +3242,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "我疼/我痛",
-    "zhHant": "我痛/我……痛"
+    "zhHant": "我痛/我……痛",
+    "legacyIds": [
+      "m6-doi-me"
+    ]
   },
   {
-    "id": "m6-doem-me",
+    "id": "az-0343",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "doem-me",
@@ -2577,10 +3260,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "我……疼/我……痛（复数）",
-    "zhHant": "我……疼/我……痛（複數）"
+    "zhHant": "我……疼/我……痛（複數）",
+    "legacyIds": [
+      "m6-doem-me"
+    ]
   },
   {
-    "id": "m6-peito",
+    "id": "az-0344",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o peito",
@@ -2592,10 +3278,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "胸部",
-    "zhHant": "胸部"
+    "zhHant": "胸部",
+    "legacyIds": [
+      "m6-peito"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-ouvidos",
+    "id": "az-0345",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "os ouvidos",
@@ -2607,10 +3298,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "耳朵",
-    "zhHant": "耳朵"
+    "zhHant": "耳朵",
+    "legacyIds": [
+      "m6-ouvidos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m6-estomago",
+    "id": "az-0346",
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o estômago",
@@ -2622,10 +3318,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "胃",
-    "zhHant": "胃"
+    "zhHant": "胃",
+    "legacyIds": [
+      "m6-estomago"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-ter-cuidado",
+    "id": "az-0347",
     "modulo": "Módulo 6",
     "theme": "Conselhos de saúde",
     "portuguese": "ter cuidado",
@@ -2637,10 +3338,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "要小心",
-    "zhHant": "要小心"
+    "zhHant": "要小心",
+    "legacyIds": [
+      "m6-ter-cuidado"
+    ]
   },
   {
-    "id": "m6-consultar-o-medico",
+    "id": "az-0348",
     "modulo": "Módulo 6",
     "theme": "Conselhos de saúde",
     "portuguese": "consultar o médico",
@@ -2652,10 +3356,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "咨询医生",
-    "zhHant": "諮詢醫生"
+    "zhHant": "諮詢醫生",
+    "legacyIds": [
+      "m6-consultar-o-medico"
+    ]
   },
   {
-    "id": "m6-tonto",
+    "id": "az-0349",
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "tonto(a)",
@@ -2667,10 +3374,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "晕眩的",
-    "zhHant": "暈眩的"
+    "zhHant": "暈眩的",
+    "legacyIds": [
+      "m6-tonto"
+    ]
   },
   {
-    "id": "m6-antibiotico",
+    "id": "az-0350",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "o antibiótico",
@@ -2682,10 +3392,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "抗生素",
-    "zhHant": "抗生素"
+    "zhHant": "抗生素",
+    "legacyIds": [
+      "m6-antibiotico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m6-de-doze-em-doze-horas",
+    "id": "az-0351",
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "de 12 em 12 horas",
@@ -2697,6 +3412,9 @@
     "note": "",
     "source": "pdf",
     "zhHans": "每12小时一次",
-    "zhHant": "每12小時一次"
+    "zhHant": "每12小時一次",
+    "legacyIds": [
+      "m6-de-doze-em-doze-horas"
+    ]
   }
 ]

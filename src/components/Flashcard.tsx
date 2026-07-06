@@ -1,13 +1,14 @@
 import { ChevronLeft, ChevronRight, RotateCcw, ThumbsUp, Volume2 } from "lucide-react";
-import { useEffect, useState, type CSSProperties, type KeyboardEvent } from "react";
+import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent } from "react";
 import type { Direction, VocabularyEntry } from "../types";
 import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
+import { getExampleAudioPath, getWordAudioPath } from "../lib/audioPaths";
+import { playPortugueseAudio } from "../lib/portugueseAudio";
+import { getPortugueseBareText, getPortugueseTermParts } from "../lib/portugueseDisplay";
 
-let activeAudio: HTMLAudioElement | null = null;
 const AUTO_PLAY_DELAY_MS = 250;
-const AUDIO_FADE_STEPS = 6;
-const AUDIO_FADE_INTERVAL_MS = 35;
+const FIRST_WORD_IDS = new Set(["az-0077", "m1-casa"]);
 
 interface FlashcardProps {
   entry: VocabularyEntry;
@@ -40,14 +41,16 @@ export function Flashcard({
 }: FlashcardProps) {
   const [translationOpen, setTranslationOpen] = useState(false);
   const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(false);
+  const directAutoPlayRef = useRef<string | null>(null);
   const translationId = `translation-${entry.id}`;
   const prompt = getPrompt(entry, direction);
   const exampleTranslation = getExampleTranslation(entry, direction);
   const hasExample = Boolean(entry.examplePt);
   const hasTranslation = Boolean(exampleTranslation);
-  const isFirstWord = entry.id === "m1-casa";
+  const isFirstWord = FIRST_WORD_IDS.has(entry.id);
   const cardTermSize = getCardTermSize(prompt);
   const portugueseIsFront = isPortugueseFrontDirection(direction);
+  const portugueseIsBackAnswer = !portugueseIsFront;
   const shouldAutoPlayPronunciation = autoPlayPronunciation && (portugueseIsFront || revealed);
   const autoPlayTrigger = portugueseIsFront ? `${entry.id}:${direction}` : `${entry.id}:${direction}:${revealed}`;
 
@@ -60,85 +63,33 @@ export function Flashcard({
     if (event.target !== event.currentTarget) return;
     if (event.key !== "Enter" && event.key !== " ") return;
     event.preventDefault();
+    handleTileToggle();
+  }
+
+  function handleTileToggle() {
+    const willReveal = !revealed;
+    if (willReveal && autoPlayPronunciation && portugueseIsBackAnswer) {
+      directAutoPlayRef.current = `${entry.id}:${direction}:true`;
+      handlePronunciation();
+    }
     onToggleReveal();
   }
 
-  function speakWithBrowserVoice(text: string) {
-    if (
-      typeof window === "undefined" ||
-      !("speechSynthesis" in window) ||
-      !("SpeechSynthesisUtterance" in window)
-    ) {
-      return;
-    }
-
-    const utterance = new window.SpeechSynthesisUtterance(text);
-    const voices = window.speechSynthesis.getVoices();
-    const voice =
-      voices.find((candidate) => candidate.lang.toLowerCase() === "pt-pt") ??
-      voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt-pt")) ??
-      voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt"));
-
-    utterance.lang = voice?.lang ?? "pt-PT";
-    utterance.voice = voice ?? null;
-    window.speechSynthesis.speak(utterance);
-  }
-
-  function fadeOutAudio(audio: HTMLAudioElement) {
-    const startVolume = audio.volume;
-    let step = 0;
-
-    const intervalId = window.setInterval(() => {
-      step += 1;
-      audio.volume = Math.max(0, startVolume * (1 - step / AUDIO_FADE_STEPS));
-
-      if (step >= AUDIO_FADE_STEPS) {
-        window.clearInterval(intervalId);
-        audio.pause();
-      }
-    }, AUDIO_FADE_INTERVAL_MS);
-  }
-
-  function playPortugueseAudio(path: string, fallbackText: string) {
-    if (typeof window === "undefined" || !("Audio" in window)) {
-      speakWithBrowserVoice(fallbackText);
-      return;
-    }
-
-    if (activeAudio) {
-      fadeOutAudio(activeAudio);
-    }
-    activeAudio = new Audio(`${import.meta.env.BASE_URL}${path}`);
-    activeAudio.preload = "auto";
-    activeAudio.volume = 0.86;
-    let usedFallback = false;
-
-    const fallbackToBrowserVoice = () => {
-      if (usedFallback) return;
-      usedFallback = true;
-      speakWithBrowserVoice(fallbackText);
-    };
-
-    activeAudio.addEventListener("error", fallbackToBrowserVoice, { once: true });
-    try {
-      const playPromise = activeAudio.play();
-      playPromise?.catch(fallbackToBrowserVoice);
-    } catch {
-      fallbackToBrowserVoice();
-    }
-  }
-
   function handlePronunciation() {
-    playPortugueseAudio(`audio/pt/${entry.id}.m4a`, entry.portuguese);
+    playPortugueseAudio(getWordAudioPath(entry), getPortugueseBareText(entry));
   }
 
   function handleExamplePronunciation() {
     if (!entry.examplePt) return;
-    playPortugueseAudio(`audio/pt/examples/${entry.id}.m4a`, entry.examplePt);
+    playPortugueseAudio(getExampleAudioPath(entry), entry.examplePt);
   }
 
   useEffect(() => {
     if (!shouldAutoPlayPronunciation) return;
+    if (directAutoPlayRef.current === autoPlayTrigger) {
+      directAutoPlayRef.current = null;
+      return;
+    }
 
     const timeoutId = window.setTimeout(() => {
       handlePronunciation();
@@ -179,7 +130,7 @@ export function Flashcard({
             className={`flip-tile ${revealed ? "is-revealed" : ""}`}
             role="button"
             tabIndex={0}
-            onClick={onToggleReveal}
+            onClick={handleTileToggle}
             onKeyDown={handleTileKeyDown}
             aria-pressed={revealed}
             aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
@@ -187,15 +138,15 @@ export function Flashcard({
           >
             <span className="tile-face tile-front" aria-hidden={revealed}>
               <span className="tile-content">
-                <span className="prompt">{prompt}</span>
+                <span className="prompt">{renderTerm(prompt, portugueseIsFront, entry)}</span>
                 {showFirstWordCue && !revealed && <span className="tile-face-hint">{ui.cardInstruction}</span>}
               </span>
             </span>
             <span className={`tile-face tile-back ${translationOpen ? "translation-is-open" : ""}`} aria-hidden={!revealed}>
               <span className="tile-content tile-content-back">
                 <span className="answer-pair">
-                  <span className="answer-reference">{prompt}</span>
-                  <span className="answer">{getAnswer(entry, direction)}</span>
+                  <span className="answer-reference">{renderTerm(prompt, portugueseIsFront, entry)}</span>
+                  <span className="answer">{renderTerm(getAnswer(entry, direction), portugueseIsBackAnswer, entry)}</span>
                 </span>
                 {(hasExample || hasTranslation) && (
                   <span className={`example-disclosure translation-disclosure ${translationOpen ? "open" : ""}`}>
@@ -287,6 +238,19 @@ export function Flashcard({
         )}
       </div>
     </section>
+  );
+}
+
+function renderTerm(text: string, isPortuguese: boolean, entry: VocabularyEntry) {
+  if (!isPortuguese) return text;
+  const parts = getPortugueseTermParts(entry);
+  if (!parts.article) return parts.word;
+
+  return (
+    <>
+      <span className="pt-article">{parts.article}</span>{" "}
+      <span className="pt-headword">{parts.word}</span>
+    </>
   );
 }
 

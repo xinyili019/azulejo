@@ -2,13 +2,18 @@ import type { VocabularyEntry } from "../types";
 
 export const vocabulary: VocabularyEntry[] = [
   {
-    "id": "m1-casa",
+    "id": "az-0077",
+    "legacyIds": [
+      "m1-casa"
+    ],
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "a casa",
     "english": "house; home",
     "zhHans": "房子/家",
     "zhHant": "房子/家",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A minha casa fica perto.",
     "exampleEn": "My house is nearby.",
     "exampleZhHans": "我家在附近。",
@@ -16,13 +21,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-casa-banho",
+    "id": "az-0080",
+    "legacyIds": [
+      "m1-casa-banho"
+    ],
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "a casa de banho",
     "english": "bathroom",
     "zhHans": "浴室",
     "zhHant": "浴室",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A casa de banho fica perto do quarto.",
     "exampleEn": "The bathroom is near the bedroom.",
     "exampleZhHans": "浴室在卧室附近。",
@@ -30,13 +40,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-cozinha",
+    "id": "az-0081",
+    "legacyIds": [
+      "m1-cozinha"
+    ],
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "a cozinha",
     "english": "kitchen",
     "zhHans": "厨房",
     "zhHant": "廚房",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tomo o pequeno-almoço na cozinha.",
     "exampleEn": "I have breakfast in the kitchen.",
     "exampleZhHans": "我在厨房吃早餐。",
@@ -44,13 +59,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-andar",
+    "id": "az-0078",
+    "legacyIds": [
+      "m1-andar"
+    ],
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "o andar",
     "english": "floor",
     "zhHans": "楼层",
     "zhHant": "樓層",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Moro no segundo andar.",
     "exampleEn": "I live on the second floor.",
     "exampleZhHans": "我住在二楼。",
@@ -58,13 +78,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-quarto",
+    "id": "az-0079",
+    "legacyIds": [
+      "m1-quarto"
+    ],
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "o quarto",
     "english": "bedroom; room",
     "zhHans": "房间/卧室",
     "zhHant": "房間/臥室",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "A cozinha fica entre a sala e o quarto.",
     "exampleEn": "The kitchen is between the living room and the bedroom.",
     "exampleZhHans": "厨房在客厅和卧室之间。",
@@ -72,13 +97,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-telefone",
+    "id": "az-0017",
+    "legacyIds": [
+      "m1-telefone"
+    ],
     "modulo": "Módulo 1",
     "theme": "Contactos",
     "portuguese": "o telefone",
     "english": "telephone",
     "zhHans": "电话",
     "zhHant": "電話",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Qual é o seu número de telefone?",
     "exampleEn": "What is your telephone number?",
     "exampleZhHans": "您的电话号码是多少？",
@@ -86,13 +116,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-telemovel",
+    "id": "az-0018",
+    "legacyIds": [
+      "m1-telemovel"
+    ],
     "modulo": "Módulo 1",
     "theme": "Contactos",
     "portuguese": "o telemóvel",
     "english": "mobile phone",
     "zhHans": "手机/移动电话",
     "zhHant": "手機/行動電話",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O meu telemóvel é novo.",
     "exampleEn": "My mobile phone is new.",
     "exampleZhHans": "我的手机是新的。",
@@ -100,7 +135,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-casado",
+    "id": "az-0012",
+    "legacyIds": [
+      "m1-casado"
+    ],
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "casado(a)",
@@ -114,7 +152,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-divorciado",
+    "id": "az-0013",
+    "legacyIds": [
+      "m1-divorciado"
+    ],
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "divorciado(a)",
@@ -128,7 +169,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-solteiro",
+    "id": "az-0011",
+    "legacyIds": [
+      "m1-solteiro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "solteiro(a)",
@@ -142,7 +186,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-viuvo",
+    "id": "az-0014",
+    "legacyIds": [
+      "m1-viuvo"
+    ],
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "viúvo(a)",
@@ -156,13 +203,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-familia",
+    "id": "az-0060",
+    "legacyIds": [
+      "m1-familia"
+    ],
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "a família",
     "english": "family",
     "zhHans": "家庭",
     "zhHant": "家庭",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A minha família mora em Portugal.",
     "exampleEn": "My family lives in Portugal.",
     "exampleZhHans": "我的家人住在葡萄牙。",
@@ -170,13 +222,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-mae",
+    "id": "az-0064",
+    "legacyIds": [
+      "m1-mae"
+    ],
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "a mãe",
     "english": "mother",
     "zhHans": "母亲",
     "zhHant": "母親",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A minha mãe está bem.",
     "exampleEn": "My mother is well.",
     "exampleZhHans": "我的母亲很好。",
@@ -184,13 +241,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-mulher",
+    "id": "az-0063",
+    "legacyIds": [
+      "m1-mulher"
+    ],
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "a mulher",
     "english": "wife or woman",
     "zhHans": "妻子或女人",
     "zhHant": "妻子或女人",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A minha mulher mora em Portugal.",
     "exampleEn": "My wife lives in Portugal.",
     "exampleZhHans": "我的妻子住在葡萄牙。",
@@ -198,7 +260,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-filho",
+    "id": "az-0062",
+    "legacyIds": [
+      "m1-filho"
+    ],
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "filho(a)",
@@ -212,13 +277,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-irmao",
+    "id": "az-0061",
+    "legacyIds": [
+      "m1-irmao"
+    ],
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "o irmão",
     "english": "brother",
     "zhHans": "兄弟",
     "zhHant": "兄弟",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O meu irmão chama-se José.",
     "exampleEn": "My brother is called José.",
     "exampleZhHans": "我的兄弟叫 José。",
@@ -226,13 +296,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-marido",
+    "id": "az-0065",
+    "legacyIds": [
+      "m1-marido"
+    ],
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "o marido",
     "english": "husband",
     "zhHans": "丈夫",
     "zhHant": "丈夫",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O meu marido trabalha hoje.",
     "exampleEn": "My husband works today.",
     "exampleZhHans": "我的丈夫今天工作。",
@@ -240,13 +315,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-pai",
+    "id": "az-0066",
+    "legacyIds": [
+      "m1-pai"
+    ],
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "o pai",
     "english": "father",
     "zhHans": "父亲",
     "zhHant": "父親",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O meu pai chama-se António.",
     "exampleEn": "My father is called António.",
     "exampleZhHans": "我的父亲叫 António。",
@@ -254,7 +334,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-como",
+    "id": "az-0094",
+    "legacyIds": [
+      "m1-como"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "como",
@@ -268,7 +351,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-estar",
+    "id": "az-0087",
+    "legacyIds": [
+      "m1-estar"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "estar",
@@ -282,7 +368,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-morar",
+    "id": "az-0089",
+    "legacyIds": [
+      "m1-morar"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "morar",
@@ -296,7 +385,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-onde",
+    "id": "az-0093",
+    "legacyIds": [
+      "m1-onde"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "onde",
@@ -310,7 +402,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-qual",
+    "id": "az-0092",
+    "legacyIds": [
+      "m1-qual"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "qual",
@@ -324,7 +419,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-quantos",
+    "id": "az-0096",
+    "legacyIds": [
+      "m1-quantos"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "quantos",
@@ -338,7 +436,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-que",
+    "id": "az-0095",
+    "legacyIds": [
+      "m1-que"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "que",
@@ -352,7 +453,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-quem",
+    "id": "az-0091",
+    "legacyIds": [
+      "m1-quem"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "quem",
@@ -366,7 +470,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-ser",
+    "id": "az-0086",
+    "legacyIds": [
+      "m1-ser"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "ser",
@@ -380,7 +487,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-ter",
+    "id": "az-0088",
+    "legacyIds": [
+      "m1-ter"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "ter",
@@ -394,7 +504,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-trabalhar",
+    "id": "az-0090",
+    "legacyIds": [
+      "m1-trabalhar"
+    ],
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "trabalhar",
@@ -408,13 +521,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-data-nascimento",
+    "id": "az-0006",
+    "legacyIds": [
+      "m1-data-nascimento"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "a data de nascimento",
     "english": "date of birth",
     "zhHans": "出生日期",
     "zhHant": "出生日期",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Qual é a sua data de nascimento?",
     "exampleEn": "What is your date of birth?",
     "exampleZhHans": "您的出生日期是什么？",
@@ -422,13 +540,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-nacionalidade",
+    "id": "az-0004",
+    "legacyIds": [
+      "m1-nacionalidade"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "a nacionalidade",
     "english": "nationality",
     "zhHans": "国籍",
     "zhHant": "國籍",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Qual é a sua nacionalidade?",
     "exampleEn": "What is your nationality?",
     "exampleZhHans": "您的国籍是什么？",
@@ -436,7 +559,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-feminino",
+    "id": "az-0010",
+    "legacyIds": [
+      "m1-feminino"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "feminino",
@@ -450,7 +576,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-masculino",
+    "id": "az-0009",
+    "legacyIds": [
+      "m1-masculino"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "masculino",
@@ -464,13 +593,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-apelido",
+    "id": "az-0002",
+    "legacyIds": [
+      "m1-apelido"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o apelido",
     "english": "surname",
     "zhHans": "姓",
     "zhHant": "姓",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Qual é o seu apelido?",
     "exampleEn": "What is your surname?",
     "exampleZhHans": "您的姓是什么？",
@@ -478,13 +612,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-estado-civil",
+    "id": "az-0008",
+    "legacyIds": [
+      "m1-estado-civil"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o estado civil",
     "english": "marital status",
     "zhHans": "婚姻状况",
     "zhHant": "婚姻狀況",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Qual é o seu estado civil?",
     "exampleEn": "What is your marital status?",
     "exampleZhHans": "您的婚姻状况是什么？",
@@ -492,13 +631,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-local-nascimento",
+    "id": "az-0005",
+    "legacyIds": [
+      "m1-local-nascimento"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o local de nascimento",
     "english": "place of birth",
     "zhHans": "出生地",
     "zhHant": "出生地",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O local de nascimento é Islamabad.",
     "exampleEn": "The place of birth is Islamabad.",
     "exampleZhHans": "出生地是 Islamabad。",
@@ -506,13 +650,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-nome-completo",
+    "id": "az-0003",
+    "legacyIds": [
+      "m1-nome-completo"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o nome completo",
     "english": "full name",
     "zhHans": "姓名",
     "zhHant": "姓名",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Escreva o seu nome completo.",
     "exampleEn": "Write your full name.",
     "exampleZhHans": "请写下您的全名。",
@@ -520,13 +669,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-primeiro-nome",
+    "id": "az-0001",
+    "legacyIds": [
+      "m1-primeiro-nome"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o primeiro nome",
     "english": "first name",
     "zhHans": "名",
     "zhHant": "名",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O meu primeiro nome é Ahmed.",
     "exampleEn": "My first name is Ahmed.",
     "exampleZhHans": "我的名是 Ahmed。",
@@ -534,13 +688,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-sexo",
+    "id": "az-0007",
+    "legacyIds": [
+      "m1-sexo"
+    ],
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o sexo",
     "english": "sex",
     "zhHans": "性别",
     "zhHant": "性別",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O sexo é masculino.",
     "exampleEn": "The sex is male.",
     "exampleZhHans": "性别为男性。",
@@ -548,13 +707,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-cidade",
+    "id": "az-0019",
+    "legacyIds": [
+      "m1-cidade"
+    ],
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "a cidade",
     "english": "city",
     "zhHans": "城市",
     "zhHant": "城市",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Lisboa é uma cidade.",
     "exampleEn": "Lisbon is a city.",
     "exampleZhHans": "里斯本是一座城市。",
@@ -562,13 +726,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-morada",
+    "id": "az-0015",
+    "legacyIds": [
+      "m1-morada"
+    ],
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "a morada",
     "english": "address",
     "zhHans": "地址/住址",
     "zhHant": "地址/住址",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Qual é a sua morada?",
     "exampleEn": "What is your address?",
     "exampleZhHans": "您的住址是什么？",
@@ -576,13 +745,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-rua",
+    "id": "az-0020",
+    "legacyIds": [
+      "m1-rua"
+    ],
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "a rua",
     "english": "street",
     "zhHans": "街道",
     "zhHant": "街道",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A rua tem um supermercado.",
     "exampleEn": "The street has a supermarket.",
     "exampleZhHans": "这条街有一家超市。",
@@ -590,13 +764,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-codigo-postal",
+    "id": "az-0016",
+    "legacyIds": [
+      "m1-codigo-postal"
+    ],
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "o código postal",
     "english": "postal code",
     "zhHans": "邮政编码",
     "zhHant": "郵遞區號",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Qual é o seu código postal?",
     "exampleEn": "What is your postal code?",
     "exampleZhHans": "您的邮政编码是什么？",
@@ -604,7 +783,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-cem",
+    "id": "az-0039",
+    "legacyIds": [
+      "m1-cem"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "cem",
@@ -618,7 +800,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-cinco",
+    "id": "az-0029",
+    "legacyIds": [
+      "m1-cinco"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "cinco",
@@ -632,7 +817,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-cinquenta",
+    "id": "az-0038",
+    "legacyIds": [
+      "m1-cinquenta"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "cinquenta",
@@ -646,7 +834,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-dez",
+    "id": "az-0034",
+    "legacyIds": [
+      "m1-dez"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "dez",
@@ -660,7 +851,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-dois",
+    "id": "az-0026",
+    "legacyIds": [
+      "m1-dois"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "dois",
@@ -674,7 +868,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-mil",
+    "id": "az-0040",
+    "legacyIds": [
+      "m1-mil"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "mil",
@@ -688,7 +885,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-nove",
+    "id": "az-0033",
+    "legacyIds": [
+      "m1-nove"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "nove",
@@ -702,7 +902,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-oito",
+    "id": "az-0032",
+    "legacyIds": [
+      "m1-oito"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "oito",
@@ -716,7 +919,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-quarenta",
+    "id": "az-0037",
+    "legacyIds": [
+      "m1-quarenta"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "quarenta",
@@ -730,7 +936,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-quatro",
+    "id": "az-0028",
+    "legacyIds": [
+      "m1-quatro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "quatro",
@@ -744,7 +953,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-seis",
+    "id": "az-0030",
+    "legacyIds": [
+      "m1-seis"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "seis",
@@ -758,7 +970,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-sete",
+    "id": "az-0031",
+    "legacyIds": [
+      "m1-sete"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "sete",
@@ -772,7 +987,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-tres",
+    "id": "az-0027",
+    "legacyIds": [
+      "m1-tres"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "três",
@@ -786,7 +1004,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-trinta",
+    "id": "az-0036",
+    "legacyIds": [
+      "m1-trinta"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "trinta",
@@ -800,7 +1021,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-um",
+    "id": "az-0025",
+    "legacyIds": [
+      "m1-um"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "um",
@@ -814,7 +1038,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-vinte",
+    "id": "az-0035",
+    "legacyIds": [
+      "m1-vinte"
+    ],
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "vinte",
@@ -828,13 +1055,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-pais",
+    "id": "az-0021",
+    "legacyIds": [
+      "m1-pais"
+    ],
     "modulo": "Módulo 1",
     "theme": "Países e línguas",
     "portuguese": "o país",
     "english": "country",
     "zhHans": "国家",
     "zhHant": "國家",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Portugal é um país.",
     "exampleEn": "Portugal is a country.",
     "exampleZhHans": "葡萄牙是一个国家。",
@@ -842,7 +1074,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-medico",
+    "id": "az-0024",
+    "legacyIds": [
+      "m1-medico"
+    ],
     "modulo": "Módulo 1",
     "theme": "Profissões",
     "portuguese": "médico(a)",
@@ -856,7 +1091,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-motorista",
+    "id": "az-0022",
+    "legacyIds": [
+      "m1-motorista"
+    ],
     "modulo": "Módulo 1",
     "theme": "Profissões",
     "portuguese": "motorista",
@@ -870,7 +1108,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-professor",
+    "id": "az-0023",
+    "legacyIds": [
+      "m1-professor"
+    ],
     "modulo": "Módulo 1",
     "theme": "Profissões",
     "portuguese": "professor(a)",
@@ -884,7 +1125,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-adeus",
+    "id": "az-0075",
+    "legacyIds": [
+      "m1-adeus"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "adeus",
@@ -898,7 +1142,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-ate-amanha",
+    "id": "az-0074",
+    "legacyIds": [
+      "m1-ate-amanha"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "até amanhã",
@@ -912,7 +1159,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-ate-logo",
+    "id": "az-0073",
+    "legacyIds": [
+      "m1-ate-logo"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "até logo",
@@ -926,7 +1176,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-boa-noite",
+    "id": "az-0070",
+    "legacyIds": [
+      "m1-boa-noite"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "boa noite",
@@ -940,7 +1193,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-boa-tarde",
+    "id": "az-0069",
+    "legacyIds": [
+      "m1-boa-tarde"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "boa tarde",
@@ -954,7 +1210,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-bom-dia",
+    "id": "az-0068",
+    "legacyIds": [
+      "m1-bom-dia"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "bom dia",
@@ -968,7 +1227,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-como-esta",
+    "id": "az-0072",
+    "legacyIds": [
+      "m1-como-esta"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "como está?",
@@ -982,7 +1244,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-muito-prazer",
+    "id": "az-0076",
+    "legacyIds": [
+      "m1-muito-prazer"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "muito prazer",
@@ -996,7 +1261,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-ola",
+    "id": "az-0067",
+    "legacyIds": [
+      "m1-ola"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "olá",
@@ -1010,7 +1278,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-tudo-bem",
+    "id": "az-0071",
+    "legacyIds": [
+      "m1-tudo-bem"
+    ],
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "tudo bem?",
@@ -1024,7 +1295,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-abril",
+    "id": "az-0051",
+    "legacyIds": [
+      "m1-abril"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "abril",
@@ -1038,7 +1312,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-agosto",
+    "id": "az-0055",
+    "legacyIds": [
+      "m1-agosto"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "agosto",
@@ -1052,7 +1329,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-dezembro",
+    "id": "az-0059",
+    "legacyIds": [
+      "m1-dezembro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "dezembro",
@@ -1066,7 +1346,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-domingo",
+    "id": "az-0047",
+    "legacyIds": [
+      "m1-domingo"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "domingo",
@@ -1080,7 +1363,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-fevereiro",
+    "id": "az-0049",
+    "legacyIds": [
+      "m1-fevereiro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "fevereiro",
@@ -1094,7 +1380,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-janeiro",
+    "id": "az-0048",
+    "legacyIds": [
+      "m1-janeiro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "janeiro",
@@ -1108,7 +1397,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-julho",
+    "id": "az-0054",
+    "legacyIds": [
+      "m1-julho"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "julho",
@@ -1122,7 +1414,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-junho",
+    "id": "az-0053",
+    "legacyIds": [
+      "m1-junho"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "junho",
@@ -1136,7 +1431,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-maio",
+    "id": "az-0052",
+    "legacyIds": [
+      "m1-maio"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "maio",
@@ -1150,7 +1448,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-marco",
+    "id": "az-0050",
+    "legacyIds": [
+      "m1-marco"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "março",
@@ -1164,7 +1465,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-novembro",
+    "id": "az-0058",
+    "legacyIds": [
+      "m1-novembro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "novembro",
@@ -1178,7 +1482,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-outubro",
+    "id": "az-0057",
+    "legacyIds": [
+      "m1-outubro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "outubro",
@@ -1192,7 +1499,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-quarta-feira",
+    "id": "az-0043",
+    "legacyIds": [
+      "m1-quarta-feira"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "quarta-feira",
@@ -1206,7 +1516,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-quinta-feira",
+    "id": "az-0044",
+    "legacyIds": [
+      "m1-quinta-feira"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "quinta-feira",
@@ -1220,7 +1533,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-sabado",
+    "id": "az-0046",
+    "legacyIds": [
+      "m1-sabado"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "sábado",
@@ -1234,7 +1550,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-segunda-feira",
+    "id": "az-0041",
+    "legacyIds": [
+      "m1-segunda-feira"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "segunda-feira",
@@ -1248,7 +1567,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-setembro",
+    "id": "az-0056",
+    "legacyIds": [
+      "m1-setembro"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "setembro",
@@ -1262,7 +1584,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-sexta-feira",
+    "id": "az-0045",
+    "legacyIds": [
+      "m1-sexta-feira"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "sexta-feira",
@@ -1276,7 +1601,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-terca-feira",
+    "id": "az-0042",
+    "legacyIds": [
+      "m1-terca-feira"
+    ],
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "terça-feira",
@@ -1290,13 +1618,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-renda",
+    "id": "az-0085",
+    "legacyIds": [
+      "m1-renda"
+    ],
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "a renda",
     "english": "rent",
     "zhHans": "房租",
     "zhHant": "租金/房租",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O valor da renda é 200 euros.",
     "exampleEn": "The rent amount is 200 euros.",
     "exampleZhHans": "房租金额是200欧元。",
@@ -1304,7 +1637,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-aluga-se",
+    "id": "az-0084",
+    "legacyIds": [
+      "m1-aluga-se"
+    ],
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "aluga-se",
@@ -1318,13 +1654,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-apartamento",
+    "id": "az-0082",
+    "legacyIds": [
+      "m1-apartamento"
+    ],
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "o apartamento",
     "english": "apartment",
     "zhHans": "公寓",
     "zhHant": "公寓",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Eles moram num apartamento pequeno.",
     "exampleEn": "They live in a small apartment.",
     "exampleZhHans": "他们住在一套小公寓里。",
@@ -1332,13 +1673,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m1-predio",
+    "id": "az-0083",
+    "legacyIds": [
+      "m1-predio"
+    ],
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "o prédio",
     "english": "building",
     "zhHans": "建筑",
     "zhHant": "大樓",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ele mora num prédio.",
     "exampleEn": "He lives in a building.",
     "exampleZhHans": "他住在一栋楼里。",
@@ -1346,7 +1692,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-acordar",
+    "id": "az-0099",
+    "legacyIds": [
+      "m2-acordar"
+    ],
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "acordar",
@@ -1360,7 +1709,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-almocar",
+    "id": "az-0098",
+    "legacyIds": [
+      "m2-almocar"
+    ],
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "almoçar",
@@ -1374,7 +1726,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-apanhar-metro",
+    "id": "az-0097",
+    "legacyIds": [
+      "m2-apanhar-metro"
+    ],
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "apanhar o metro",
@@ -1388,7 +1743,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-ir-trabalho",
+    "id": "az-0101",
+    "legacyIds": [
+      "m2-ir-trabalho"
+    ],
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "ir para o trabalho",
@@ -1402,7 +1760,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-tomar-pequeno-almoco",
+    "id": "az-0100",
+    "legacyIds": [
+      "m2-tomar-pequeno-almoco"
+    ],
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "tomar o pequeno-almoço",
@@ -1416,7 +1777,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-voltar-casa",
+    "id": "az-0102",
+    "legacyIds": [
+      "m2-voltar-casa"
+    ],
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "voltar para casa",
@@ -1430,13 +1794,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-centimo",
+    "id": "az-0118",
+    "legacyIds": [
+      "m2-centimo"
+    ],
     "modulo": "Módulo 2",
     "theme": "Dinheiro",
     "portuguese": "o cêntimo",
     "english": "cent",
     "zhHans": "分",
     "zhHant": "分",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "São vinte cêntimos.",
     "exampleEn": "It is twenty cents.",
     "exampleZhHans": "是二十欧分。",
@@ -1444,13 +1813,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-dinheiro",
+    "id": "az-0117",
+    "legacyIds": [
+      "m2-dinheiro"
+    ],
     "modulo": "Módulo 2",
     "theme": "Dinheiro",
     "portuguese": "o dinheiro",
     "english": "money",
     "zhHans": "钱",
     "zhHant": "錢",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Preciso de transferir dinheiro.",
     "exampleEn": "I need to transfer money.",
     "exampleZhHans": "我需要转账。",
@@ -1458,13 +1832,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-euro",
+    "id": "az-0119",
+    "legacyIds": [
+      "m2-euro"
+    ],
     "modulo": "Módulo 2",
     "theme": "Dinheiro",
     "portuguese": "o euro",
     "english": "euro",
     "zhHans": "欧元",
     "zhHant": "歐元",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "São dois euros.",
     "exampleEn": "It is two euros.",
     "exampleZhHans": "是两欧元。",
@@ -1472,7 +1851,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-abrir",
+    "id": "az-0127",
+    "legacyIds": [
+      "m2-abrir"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "abrir",
@@ -1486,7 +1868,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-ha",
+    "id": "az-0130",
+    "legacyIds": [
+      "m2-ha"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "há",
@@ -1500,7 +1885,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-ir",
+    "id": "az-0128",
+    "legacyIds": [
+      "m2-ir"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "ir",
@@ -1514,7 +1902,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-ir-compras",
+    "id": "az-0134",
+    "legacyIds": [
+      "m2-ir-compras"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "ir às compras",
@@ -1528,7 +1919,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-nunca",
+    "id": "az-0133",
+    "legacyIds": [
+      "m2-nunca"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "nunca",
@@ -1542,13 +1936,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-transito",
+    "id": "az-0131",
+    "legacyIds": [
+      "m2-transito"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "o trânsito",
     "english": "traffic",
     "zhHans": "交通",
     "zhHant": "交通",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Há muito trânsito.",
     "exampleEn": "There is a lot of traffic.",
     "exampleZhHans": "交通很拥堵。",
@@ -1556,7 +1955,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-sair",
+    "id": "az-0129",
+    "legacyIds": [
+      "m2-sair"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "sair",
@@ -1570,7 +1972,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-sempre",
+    "id": "az-0132",
+    "legacyIds": [
+      "m2-sempre"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "sempre",
@@ -1584,7 +1989,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-transferir-dinheiro",
+    "id": "az-0135",
+    "legacyIds": [
+      "m2-transferir-dinheiro"
+    ],
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "transferir dinheiro",
@@ -1598,7 +2006,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-meio-dia",
+    "id": "az-0107",
+    "legacyIds": [
+      "m2-meio-dia"
+    ],
     "modulo": "Módulo 2",
     "theme": "Horas",
     "portuguese": "meio-dia",
@@ -1612,7 +2023,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-horas",
+    "id": "az-0106",
+    "legacyIds": [
+      "m2-horas"
+    ],
     "modulo": "Módulo 2",
     "theme": "Horas",
     "portuguese": "que horas são?",
@@ -1626,13 +2040,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-autocarro",
+    "id": "az-0110",
+    "legacyIds": [
+      "m2-autocarro"
+    ],
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o autocarro",
     "english": "bus",
     "zhHans": "公共汽车",
     "zhHant": "公車",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Apanho o autocarro.",
     "exampleEn": "I take the bus.",
     "exampleZhHans": "我坐公共汽车。",
@@ -1640,13 +2059,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-aviao",
+    "id": "az-0112",
+    "legacyIds": [
+      "m2-aviao"
+    ],
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o avião",
     "english": "plane",
     "zhHans": "飞机",
     "zhHant": "飛機",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O meu avião parte às oito.",
     "exampleEn": "My plane departs at eight.",
     "exampleZhHans": "我的飞机八点起飞。",
@@ -1654,13 +2078,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-comboio",
+    "id": "az-0109",
+    "legacyIds": [
+      "m2-comboio"
+    ],
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o comboio",
     "english": "train",
     "zhHans": "火车",
     "zhHant": "火車",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Apanho o comboio.",
     "exampleEn": "I take the train.",
     "exampleZhHans": "我坐火车。",
@@ -1668,13 +2097,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-metro",
+    "id": "az-0111",
+    "legacyIds": [
+      "m2-metro"
+    ],
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o metro",
     "english": "metro",
     "zhHans": "地铁",
     "zhHant": "捷運",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Uso o metro.",
     "exampleEn": "I use the metro.",
     "exampleZhHans": "我使用地铁。",
@@ -1682,13 +2116,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-taxi",
+    "id": "az-0108",
+    "legacyIds": [
+      "m2-taxi"
+    ],
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o táxi",
     "english": "taxi",
     "zhHans": "出租车",
     "zhHant": "計程車",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "A paragem de táxis fica ali.",
     "exampleEn": "The taxi stand is over there.",
     "exampleZhHans": "出租车站在那里。",
@@ -1696,13 +2135,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-bilhete-simples",
+    "id": "az-0114",
+    "legacyIds": [
+      "m2-bilhete-simples"
+    ],
     "modulo": "Módulo 2",
     "theme": "Passe e bilhetes",
     "portuguese": "o bilhete simples",
     "english": "single ticket",
     "zhHans": "单程票",
     "zhHant": "單程票",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Queria um bilhete simples.",
     "exampleEn": "I would like a single ticket.",
     "exampleZhHans": "我想要一张单程票。",
@@ -1710,13 +2154,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-passe",
+    "id": "az-0113",
+    "legacyIds": [
+      "m2-passe"
+    ],
     "modulo": "Módulo 2",
     "theme": "Passe e bilhetes",
     "portuguese": "o passe",
     "english": "travel pass",
     "zhHans": "交通月票/通行证",
     "zhHant": "交通月票/通行證",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tenho de comprar o passe.",
     "exampleEn": "I have to buy the travel pass.",
     "exampleZhHans": "我必须买交通卡。",
@@ -1724,13 +2173,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-almoco",
+    "id": "az-0104",
+    "legacyIds": [
+      "m2-almoco"
+    ],
     "modulo": "Módulo 2",
     "theme": "Refeições",
     "portuguese": "o almoço",
     "english": "lunch",
     "zhHans": "午餐",
     "zhHant": "午餐",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Levo o almoço de casa.",
     "exampleEn": "I bring lunch from home.",
     "exampleZhHans": "我从家里带午饭。",
@@ -1738,13 +2192,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-jantar",
+    "id": "az-0105",
+    "legacyIds": [
+      "m2-jantar"
+    ],
     "modulo": "Módulo 2",
     "theme": "Refeições",
     "portuguese": "o jantar",
     "english": "dinner",
     "zhHans": "晚餐",
     "zhHant": "晚餐",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Depois das aulas, jantamos.",
     "exampleEn": "After classes, we have dinner.",
     "exampleZhHans": "下课后，我们吃晚饭。",
@@ -1752,13 +2211,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-pequeno-almoco",
+    "id": "az-0103",
+    "legacyIds": [
+      "m2-pequeno-almoco"
+    ],
     "modulo": "Módulo 2",
     "theme": "Refeições",
     "portuguese": "o pequeno-almoço",
     "english": "breakfast",
     "zhHans": "早餐",
     "zhHant": "早餐",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tomo o pequeno-almoço em casa.",
     "exampleEn": "I have breakfast at home.",
     "exampleZhHans": "我在家吃早餐。",
@@ -1766,13 +2230,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-estacao-comboios",
+    "id": "az-0116",
+    "legacyIds": [
+      "m2-estacao-comboios"
+    ],
     "modulo": "Módulo 2",
     "theme": "Símbolos de transportes",
     "portuguese": "a estação de comboios",
     "english": "train station",
     "zhHans": "火车站",
     "zhHant": "火車站",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O metro passa pela estação.",
     "exampleEn": "The metro passes through the station.",
     "exampleZhHans": "地铁经过车站。",
@@ -1780,13 +2249,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-paragem-autocarro",
+    "id": "az-0115",
+    "legacyIds": [
+      "m2-paragem-autocarro"
+    ],
     "modulo": "Módulo 2",
     "theme": "Símbolos de transportes",
     "portuguese": "a paragem de autocarro",
     "english": "bus stop",
     "zhHans": "巴士站",
     "zhHant": "巴士站",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Estou na paragem de autocarro.",
     "exampleEn": "I am at the bus stop.",
     "exampleZhHans": "我在公交车站。",
@@ -1794,13 +2268,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-autorizacao-residencia",
+    "id": "az-0123",
+    "legacyIds": [
+      "m2-autorizacao-residencia"
+    ],
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "a autorização de residência",
     "english": "residence permit",
     "zhHans": "居留证",
     "zhHant": "居留證",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Preciso da renovação da autorização de residência.",
     "exampleEn": "I need to renew the residence permit.",
     "exampleZhHans": "我需要续办居留许可。",
@@ -1808,7 +2287,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-lavar-dentes",
+    "id": "az-0121",
+    "legacyIds": [
+      "m2-lavar-dentes"
+    ],
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "lavar os dentes",
@@ -1822,7 +2304,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-levantar-se",
+    "id": "az-0120",
+    "legacyIds": [
+      "m2-levantar-se"
+    ],
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "levantar-se",
@@ -1836,13 +2321,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-transportes-publicos",
+    "id": "az-0124",
+    "legacyIds": [
+      "m2-transportes-publicos"
+    ],
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "os transportes públicos",
     "english": "public transport",
     "zhHans": "公共交通",
     "zhHant": "大眾運輸",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Usa transportes públicos?",
     "exampleEn": "Do you use public transport?",
     "exampleZhHans": "您使用公共交通吗？",
@@ -1850,7 +2340,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-precisar",
+    "id": "az-0125",
+    "legacyIds": [
+      "m2-precisar"
+    ],
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "precisar",
@@ -1864,7 +2357,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-tomar-duche",
+    "id": "az-0122",
+    "legacyIds": [
+      "m2-tomar-duche"
+    ],
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "tomar um duche",
@@ -1878,7 +2374,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m2-usar",
+    "id": "az-0126",
+    "legacyIds": [
+      "m2-usar"
+    ],
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "usar",
@@ -1892,13 +2391,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-agua",
+    "id": "az-0137",
+    "legacyIds": [
+      "m3-agua"
+    ],
     "modulo": "Módulo 3",
     "theme": "Bebidas",
     "portuguese": "a água",
     "english": "water",
     "zhHans": "水",
     "zhHant": "水",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Ponha água na panela.",
     "exampleEn": "Put water in the pot.",
     "exampleZhHans": "请把水倒进锅里。",
@@ -1906,13 +2410,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-cafe",
+    "id": "az-0136",
+    "legacyIds": [
+      "m3-cafe"
+    ],
     "modulo": "Módulo 3",
     "theme": "Bebidas",
     "portuguese": "o café",
     "english": "coffee; cafe",
     "zhHans": "咖啡/咖啡馆",
     "zhHant": "咖啡/咖啡館",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Queria uma bica.",
     "exampleEn": "I would like an espresso.",
     "exampleZhHans": "我想要一杯意式浓缩咖啡。",
@@ -1920,13 +2429,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-queijo",
+    "id": "az-0148",
+    "legacyIds": [
+      "m3-queijo"
+    ],
     "modulo": "Módulo 3",
     "theme": "Charcutaria",
     "portuguese": "o queijo",
     "english": "cheese",
     "zhHans": "奶酪",
     "zhHant": "起司",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Quero um queijo fresco.",
     "exampleEn": "I want a fresh cheese.",
     "exampleZhHans": "我想要一块新鲜奶酪。",
@@ -1934,13 +2448,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-maquina-lavar-roupa",
+    "id": "az-0152",
+    "legacyIds": [
+      "m3-maquina-lavar-roupa"
+    ],
     "modulo": "Módulo 3",
     "theme": "Equipamentos",
     "portuguese": "a máquina de lavar roupa",
     "english": "washing machine",
     "zhHans": "洗衣机",
     "zhHant": "洗衣機",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A máquina de lavar roupa está na cozinha.",
     "exampleEn": "The washing machine is in the kitchen.",
     "exampleZhHans": "洗衣机在厨房。",
@@ -1948,13 +2467,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-frigorifico",
+    "id": "az-0153",
+    "legacyIds": [
+      "m3-frigorifico"
+    ],
     "modulo": "Módulo 3",
     "theme": "Equipamentos",
     "portuguese": "o frigorífico",
     "english": "fridge",
     "zhHans": "冰箱",
     "zhHant": "冰箱",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O frigorífico está cheio.",
     "exampleEn": "The fridge is full.",
     "exampleZhHans": "冰箱满了。",
@@ -1962,13 +2486,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-cartao-multibanco",
+    "id": "az-0154",
+    "legacyIds": [
+      "m3-cartao-multibanco"
+    ],
     "modulo": "Módulo 3",
     "theme": "Formas de pagamento",
     "portuguese": "o cartão multibanco",
     "english": "debit card",
     "zhHans": "借记卡",
     "zhHant": "金融卡",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Posso pagar com o multibanco?",
     "exampleEn": "Can I pay by debit card?",
     "exampleZhHans": "我可以用借记卡付款吗？",
@@ -1976,13 +2505,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-banana",
+    "id": "az-0147",
+    "legacyIds": [
+      "m3-banana"
+    ],
     "modulo": "Módulo 3",
     "theme": "Frutas",
     "portuguese": "a banana",
     "english": "banana",
     "zhHans": "香蕉",
     "zhHant": "香蕉",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Compro bananas.",
     "exampleEn": "I buy bananas.",
     "exampleZhHans": "我买香蕉。",
@@ -1990,13 +2524,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-maca",
+    "id": "az-0146",
+    "legacyIds": [
+      "m3-maca"
+    ],
     "modulo": "Módulo 3",
     "theme": "Frutas",
     "portuguese": "a maçã",
     "english": "apple",
     "zhHans": "苹果",
     "zhHant": "蘋果",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A maçã é melhor do que as limas.",
     "exampleEn": "The apple is better than the limes.",
     "exampleZhHans": "苹果比青柠更好。",
@@ -2004,7 +2543,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-barato",
+    "id": "az-0170",
+    "legacyIds": [
+      "m3-barato"
+    ],
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "barato",
@@ -2018,7 +2560,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-caro",
+    "id": "az-0169",
+    "legacyIds": [
+      "m3-caro"
+    ],
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "caro",
@@ -2032,7 +2577,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-pedir",
+    "id": "az-0166",
+    "legacyIds": [
+      "m3-pedir"
+    ],
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "pedir",
@@ -2046,7 +2594,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-poder",
+    "id": "az-0168",
+    "legacyIds": [
+      "m3-poder"
+    ],
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "poder",
@@ -2060,7 +2611,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-querer",
+    "id": "az-0167",
+    "legacyIds": [
+      "m3-querer"
+    ],
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "querer",
@@ -2074,7 +2628,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-saudavel",
+    "id": "az-0171",
+    "legacyIds": [
+      "m3-saudavel"
+    ],
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "saudável",
@@ -2088,13 +2645,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-leite",
+    "id": "az-0141",
+    "legacyIds": [
+      "m3-leite"
+    ],
     "modulo": "Módulo 3",
     "theme": "Laticínios",
     "portuguese": "o leite",
     "english": "milk",
     "zhHans": "牛奶",
     "zhHant": "牛奶",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Compro quatro pacotes de leite.",
     "exampleEn": "I buy four cartons of milk.",
     "exampleZhHans": "我买四盒牛奶。",
@@ -2102,13 +2664,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-cebola",
+    "id": "az-0143",
+    "legacyIds": [
+      "m3-cebola"
+    ],
     "modulo": "Módulo 3",
     "theme": "Legumes",
     "portuguese": "a cebola",
     "english": "onion",
     "zhHans": "洋葱",
     "zhHant": "洋蔥",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "As cebolas são baratas.",
     "exampleEn": "The onions are cheap.",
     "exampleZhHans": "洋葱很便宜。",
@@ -2116,13 +2683,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-alho",
+    "id": "az-0144",
+    "legacyIds": [
+      "m3-alho"
+    ],
     "modulo": "Módulo 3",
     "theme": "Legumes",
     "portuguese": "o alho",
     "english": "garlic",
     "zhHans": "蒜",
     "zhHant": "蒜",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Compro alhos no mercado.",
     "exampleEn": "I buy garlic at the market.",
     "exampleZhHans": "我在市场买大蒜。",
@@ -2130,13 +2702,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-tomate",
+    "id": "az-0145",
+    "legacyIds": [
+      "m3-tomate"
+    ],
     "modulo": "Módulo 3",
     "theme": "Legumes",
     "portuguese": "o tomate",
     "english": "tomato",
     "zhHans": "番茄",
     "zhHant": "番茄",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Queria duas latas de tomate pelado.",
     "exampleEn": "I would like two cans of peeled tomatoes.",
     "exampleZhHans": "我想要两罐去皮番茄。",
@@ -2144,13 +2721,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-acucar",
+    "id": "az-0138",
+    "legacyIds": [
+      "m3-acucar"
+    ],
     "modulo": "Módulo 3",
     "theme": "Mercearia",
     "portuguese": "o açúcar",
     "english": "sugar",
     "zhHans": "糖",
     "zhHant": "糖",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Preciso de um pacote de açúcar.",
     "exampleEn": "I need a packet of sugar.",
     "exampleZhHans": "我需要一包糖。",
@@ -2158,13 +2740,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-arroz",
+    "id": "az-0139",
+    "legacyIds": [
+      "m3-arroz"
+    ],
     "modulo": "Módulo 3",
     "theme": "Mercearia",
     "portuguese": "o arroz",
     "english": "rice",
     "zhHans": "米",
     "zhHant": "白飯",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Queria dois quilos de arroz.",
     "exampleEn": "I would like two kilos of rice.",
     "exampleZhHans": "我想要两公斤米。",
@@ -2172,13 +2759,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-azeite",
+    "id": "az-0140",
+    "legacyIds": [
+      "m3-azeite"
+    ],
     "modulo": "Módulo 3",
     "theme": "Mercearia",
     "portuguese": "o azeite",
     "english": "olive oil",
     "zhHans": "橄榄油",
     "zhHant": "橄欖油",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Queria uma garrafa de azeite.",
     "exampleEn": "I would like a bottle of olive oil.",
     "exampleZhHans": "我想要一瓶橄榄油。",
@@ -2186,13 +2778,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-sandes",
+    "id": "az-0151",
+    "legacyIds": [
+      "m3-sandes"
+    ],
     "modulo": "Módulo 3",
     "theme": "Nomes específicos",
     "portuguese": "a sandes",
     "english": "sandwich",
     "zhHans": "三明治",
     "zhHant": "三明治",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Como uma sandes.",
     "exampleEn": "I eat a sandwich.",
     "exampleZhHans": "我吃一个三明治。",
@@ -2200,13 +2797,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-pao-forma",
+    "id": "az-0142",
+    "legacyIds": [
+      "m3-pao-forma"
+    ],
     "modulo": "Módulo 3",
     "theme": "Padaria",
     "portuguese": "o pão de forma",
     "english": "sliced bread",
     "zhHans": "切片面包",
     "zhHant": "切片麵包",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Compro pão de forma.",
     "exampleEn": "I buy sliced bread.",
     "exampleZhHans": "我买切片面包。",
@@ -2214,13 +2816,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-carne-vaca",
+    "id": "az-0149",
+    "legacyIds": [
+      "m3-carne-vaca"
+    ],
     "modulo": "Módulo 3",
     "theme": "Talho",
     "portuguese": "a carne de vaca",
     "english": "beef",
     "zhHans": "牛肉",
     "zhHant": "牛肉",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A carne de vaca está no talho.",
     "exampleEn": "The beef is at the butcher's.",
     "exampleZhHans": "牛肉在肉店。",
@@ -2228,13 +2835,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-frango",
+    "id": "az-0150",
+    "legacyIds": [
+      "m3-frango"
+    ],
     "modulo": "Módulo 3",
     "theme": "Talho",
     "portuguese": "o frango",
     "english": "chicken",
     "zhHans": "鸡肉",
     "zhHant": "雞肉",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Quero frango assado.",
     "exampleEn": "I want roast chicken.",
     "exampleZhHans": "我想要烤鸡。",
@@ -2242,13 +2854,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-conta",
+    "id": "az-0160",
+    "legacyIds": [
+      "m3-conta"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a conta",
     "english": "bill",
     "zhHans": "账单",
     "zhHant": "帳單",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Era a conta, se faz favor.",
     "exampleEn": "The bill, please.",
     "exampleZhHans": "请给我账单。",
@@ -2256,13 +2873,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-ementa",
+    "id": "az-0164",
+    "legacyIds": [
+      "m3-ementa"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a ementa",
     "english": "menu",
     "zhHans": "菜单",
     "zhHant": "選單",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Pode trazer a ementa?",
     "exampleEn": "Can you bring the menu?",
     "exampleZhHans": "可以拿菜单给我吗？",
@@ -2270,13 +2892,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-fatura",
+    "id": "az-0162",
+    "legacyIds": [
+      "m3-fatura"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a fatura",
     "english": "invoice",
     "zhHans": "发票",
     "zhHant": "發票",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Pode dar-me uma fatura?",
     "exampleEn": "Can you give me an invoice?",
     "exampleZhHans": "可以给我一张发票吗？",
@@ -2284,13 +2911,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-mercearia",
+    "id": "az-0155",
+    "legacyIds": [
+      "m3-mercearia"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a mercearia",
     "english": "grocery shop",
     "zhHans": "杂货店",
     "zhHant": "雜貨店",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Vou à mercearia.",
     "exampleEn": "I am going to the grocery shop.",
     "exampleZhHans": "我去杂货店。",
@@ -2298,13 +2930,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-padaria",
+    "id": "az-0156",
+    "legacyIds": [
+      "m3-padaria"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a padaria",
     "english": "bakery",
     "zhHans": "面包店",
     "zhHant": "麵包店",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Compro pão na padaria.",
     "exampleEn": "I buy bread at the bakery.",
     "exampleZhHans": "我在面包店买面包。",
@@ -2312,13 +2949,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-peixaria",
+    "id": "az-0158",
+    "legacyIds": [
+      "m3-peixaria"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a peixaria",
     "english": "fish shop",
     "zhHans": "鱼店",
     "zhHant": "魚店",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Compro peixe na peixaria.",
     "exampleEn": "I buy fish at the fish shop.",
     "exampleZhHans": "我在鱼店买鱼。",
@@ -2326,13 +2968,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-contribuinte",
+    "id": "az-0163",
+    "legacyIds": [
+      "m3-contribuinte"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o número de contribuinte",
     "english": "tax number",
     "zhHans": "税号",
     "zhHant": "稅號",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O meu número de contribuinte é 243 333 218.",
     "exampleEn": "My tax number is 243 333 218.",
     "exampleZhHans": "我的税号是 243 333 218。",
@@ -2340,13 +2987,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-prazo-validade",
+    "id": "az-0165",
+    "legacyIds": [
+      "m3-prazo-validade"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o prazo de validade",
     "english": "expiry date",
     "zhHans": "到期日",
     "zhHant": "到期日",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Qual é o prazo de validade?",
     "exampleEn": "What is the expiry date?",
     "exampleZhHans": "有效期到什么时候？",
@@ -2354,13 +3006,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-restaurante",
+    "id": "az-0159",
+    "legacyIds": [
+      "m3-restaurante"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o restaurante",
     "english": "restaurant",
     "zhHans": "餐厅",
     "zhHant": "餐廳",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Vamos jantar num restaurante português.",
     "exampleEn": "We are going to have dinner at a Portuguese restaurant.",
     "exampleZhHans": "我们去一家葡萄牙餐厅吃晚饭。",
@@ -2368,13 +3025,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-talao",
+    "id": "az-0161",
+    "legacyIds": [
+      "m3-talao"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o talão",
     "english": "receipt",
     "zhHans": "收据",
     "zhHant": "收據",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Aqui tem o talão.",
     "exampleEn": "Here is the receipt.",
     "exampleZhHans": "这是您的收据。",
@@ -2382,13 +3044,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m3-talho",
+    "id": "az-0157",
+    "legacyIds": [
+      "m3-talho"
+    ],
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o talho",
     "english": "butcher's",
     "zhHans": "肉店",
     "zhHant": "肉店",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Compro carne no talho.",
     "exampleEn": "I buy meat at the butcher's.",
     "exampleZhHans": "我在肉店买肉。",
@@ -2396,13 +3063,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-filme",
+    "id": "az-0182",
+    "legacyIds": [
+      "m4-filme"
+    ],
     "modulo": "Módulo 4",
     "theme": "Acontecimentos culturais",
     "portuguese": "o filme",
     "english": "film",
     "zhHans": "电影",
     "zhHant": "電影",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Qual é o filme?",
     "exampleEn": "What is the film?",
     "exampleZhHans": "是哪部电影？",
@@ -2410,13 +3082,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-bilheteira",
+    "id": "az-0191",
+    "legacyIds": [
+      "m4-bilheteira"
+    ],
     "modulo": "Módulo 4",
     "theme": "Cinema",
     "portuguese": "a bilheteira",
     "english": "ticket office",
     "zhHans": "售票处",
     "zhHant": "售票處",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Encontramo-nos na bilheteira.",
     "exampleEn": "We will meet at the ticket office.",
     "exampleZhHans": "我们在售票处见面。",
@@ -2424,13 +3101,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-futebol",
+    "id": "az-0183",
+    "legacyIds": [
+      "m4-futebol"
+    ],
     "modulo": "Módulo 4",
     "theme": "Desportos",
     "portuguese": "o futebol",
     "english": "football",
     "zhHans": "足球",
     "zhHant": "足球",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ele joga futebol ao domingo.",
     "exampleEn": "He plays football on Sundays.",
     "exampleZhHans": "他星期天踢足球。",
@@ -2438,7 +3120,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-ir-a-praia",
+    "id": "az-0180",
+    "legacyIds": [
+      "m4-ir-a-praia"
+    ],
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "ir à praia",
@@ -2452,7 +3137,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-ir-a-um-bar",
+    "id": "az-0179",
+    "legacyIds": [
+      "m4-ir-a-um-bar"
+    ],
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "ir a um bar",
@@ -2466,7 +3154,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-ir-ao-cinema",
+    "id": "az-0178",
+    "legacyIds": [
+      "m4-ir-ao-cinema"
+    ],
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "ir ao cinema",
@@ -2480,7 +3171,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-viajar",
+    "id": "az-0181",
+    "legacyIds": [
+      "m4-viajar"
+    ],
     "modulo": "Módulo 4",
     "theme": "Divertimentos",
     "portuguese": "viajar",
@@ -2494,13 +3188,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-pascoa",
+    "id": "az-0204",
+    "legacyIds": [
+      "m4-pascoa"
+    ],
     "modulo": "Módulo 4",
     "theme": "Épocas festivas",
     "portuguese": "a Páscoa",
     "english": "Easter",
     "zhHans": "复活节",
     "zhHant": "復活節",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Na Páscoa comem-se folares.",
     "exampleEn": "At Easter, folares are eaten.",
     "exampleZhHans": "复活节人们吃复活节甜面包。",
@@ -2508,13 +3207,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-natal",
+    "id": "az-0203",
+    "legacyIds": [
+      "m4-natal"
+    ],
     "modulo": "Módulo 4",
     "theme": "Épocas festivas",
     "portuguese": "o Natal",
     "english": "Christmas",
     "zhHans": "圣诞节",
     "zhHant": "聖誕節",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "No Natal as pessoas reúnem-se.",
     "exampleEn": "At Christmas people get together.",
     "exampleZhHans": "圣诞节人们会聚在一起。",
@@ -2522,13 +3226,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-primavera",
+    "id": "az-0188",
+    "legacyIds": [
+      "m4-primavera"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "a primavera",
     "english": "spring",
     "zhHans": "春天",
     "zhHant": "春天",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Na primavera há muitas flores.",
     "exampleEn": "In spring there are many flowers.",
     "exampleZhHans": "春天有很多花。",
@@ -2536,13 +3245,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-inverno",
+    "id": "az-0189",
+    "legacyIds": [
+      "m4-inverno"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "o inverno",
     "english": "winter",
     "zhHans": "冬天",
     "zhHant": "冬天",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "No inverno faz frio.",
     "exampleEn": "In winter it is cold.",
     "exampleZhHans": "冬天很冷。",
@@ -2550,13 +3264,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-outono",
+    "id": "az-0187",
+    "legacyIds": [
+      "m4-outono"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "o outono",
     "english": "autumn",
     "zhHans": "秋天",
     "zhHant": "秋天",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "No outono as folhas secam.",
     "exampleEn": "In autumn the leaves dry out.",
     "exampleZhHans": "秋天树叶会干枯。",
@@ -2564,13 +3283,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-verao",
+    "id": "az-0190",
+    "legacyIds": [
+      "m4-verao"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estações do ano",
     "portuguese": "o verão",
     "english": "summer",
     "zhHans": "夏天",
     "zhHant": "夏天",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "No verão vou à praia.",
     "exampleEn": "In the summer I go to the beach.",
     "exampleZhHans": "夏天我去海滩。",
@@ -2578,13 +3302,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-chuva",
+    "id": "az-0184",
+    "legacyIds": [
+      "m4-chuva"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "a chuva",
     "english": "rain",
     "zhHans": "雨",
     "zhHant": "雨",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Hoje há chuva.",
     "exampleEn": "Today there is rain.",
     "exampleZhHans": "今天有雨。",
@@ -2592,7 +3321,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-fresco",
+    "id": "az-0193",
+    "legacyIds": [
+      "m4-fresco"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "fresco(a)",
@@ -2606,7 +3338,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-frio",
+    "id": "az-0194",
+    "legacyIds": [
+      "m4-frio"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "frio(a)",
@@ -2620,13 +3355,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-sol",
+    "id": "az-0186",
+    "legacyIds": [
+      "m4-sol"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "o sol",
     "english": "sun",
     "zhHans": "太阳",
     "zhHant": "太陽",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Gosto de apanhar sol.",
     "exampleEn": "I like sunbathing.",
     "exampleZhHans": "我喜欢晒太阳。",
@@ -2634,13 +3374,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-vento",
+    "id": "az-0185",
+    "legacyIds": [
+      "m4-vento"
+    ],
     "modulo": "Módulo 4",
     "theme": "Estado do tempo",
     "portuguese": "o vento",
     "english": "wind",
     "zhHans": "风",
     "zhHant": "風",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Está muito vento.",
     "exampleEn": "It is very windy.",
     "exampleZhHans": "风很大。",
@@ -2648,13 +3393,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-pastelaria",
+    "id": "az-0195",
+    "legacyIds": [
+      "m4-pastelaria"
+    ],
     "modulo": "Módulo 4",
     "theme": "Lugares",
     "portuguese": "a pastelaria",
     "english": "pastry shop",
     "zhHans": "糕点店",
     "zhHant": "糕點店",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Lanchamos na pastelaria.",
     "exampleEn": "We have a snack at the pastry shop.",
     "exampleZhHans": "我们在糕点店吃点心。",
@@ -2662,13 +3412,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-centro-comercial",
+    "id": "az-0197",
+    "legacyIds": [
+      "m4-centro-comercial"
+    ],
     "modulo": "Módulo 4",
     "theme": "Lugares",
     "portuguese": "o centro comercial",
     "english": "shopping centre",
     "zhHans": "购物中心",
     "zhHant": "購物中心",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Vou ao centro comercial.",
     "exampleEn": "I am going to the shopping centre.",
     "exampleZhHans": "我去购物中心。",
@@ -2676,7 +3431,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-comigo",
+    "id": "az-0208",
+    "legacyIds": [
+      "m4-comigo"
+    ],
     "modulo": "Módulo 4",
     "theme": "Pronomes",
     "portuguese": "comigo",
@@ -2690,7 +3448,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-consigo",
+    "id": "az-0210",
+    "legacyIds": [
+      "m4-consigo"
+    ],
     "modulo": "Módulo 4",
     "theme": "Pronomes",
     "portuguese": "consigo",
@@ -2704,7 +3465,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-contigo",
+    "id": "az-0209",
+    "legacyIds": [
+      "m4-contigo"
+    ],
     "modulo": "Módulo 4",
     "theme": "Pronomes",
     "portuguese": "contigo",
@@ -2718,7 +3482,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-amanha",
+    "id": "az-0199",
+    "legacyIds": [
+      "m4-amanha"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "amanhã",
@@ -2732,7 +3499,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-daqui-a-uma-semana",
+    "id": "az-0202",
+    "legacyIds": [
+      "m4-daqui-a-uma-semana"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "daqui a uma semana",
@@ -2746,7 +3516,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-depois-de-amanha",
+    "id": "az-0200",
+    "legacyIds": [
+      "m4-depois-de-amanha"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "depois de amanhã",
@@ -2760,7 +3533,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-na-proxima-semana",
+    "id": "az-0201",
+    "legacyIds": [
+      "m4-na-proxima-semana"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "na próxima semana",
@@ -2774,13 +3550,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-fim-de-semana",
+    "id": "az-0192",
+    "legacyIds": [
+      "m4-fim-de-semana"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempo",
     "portuguese": "o fim de semana",
     "english": "weekend",
     "zhHans": "周末",
     "zhHant": "週末",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "No fim de semana podemos ir a Sintra.",
     "exampleEn": "On the weekend we can go to Sintra.",
     "exampleZhHans": "周末我们可以去辛特拉。",
@@ -2788,7 +3569,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-andar-de-bicicleta",
+    "id": "az-0206",
+    "legacyIds": [
+      "m4-andar-de-bicicleta"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "andar de bicicleta",
@@ -2802,7 +3586,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-conversar",
+    "id": "az-0176",
+    "legacyIds": [
+      "m4-conversar"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "conversar",
@@ -2816,7 +3603,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-ir-ao-ginasio",
+    "id": "az-0177",
+    "legacyIds": [
+      "m4-ir-ao-ginasio"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ir ao ginásio",
@@ -2830,7 +3620,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-dar-uma-volta",
+    "id": "az-0196",
+    "legacyIds": [
+      "m4-dar-uma-volta"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ir dar uma volta",
@@ -2844,7 +3637,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-ler",
+    "id": "az-0174",
+    "legacyIds": [
+      "m4-ler"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ler",
@@ -2858,7 +3654,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-ouvir-musica",
+    "id": "az-0172",
+    "legacyIds": [
+      "m4-ouvir-musica"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ouvir música",
@@ -2872,7 +3671,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-passear",
+    "id": "az-0173",
+    "legacyIds": [
+      "m4-passear"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "passear",
@@ -2886,7 +3688,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-ver-televisao",
+    "id": "az-0175",
+    "legacyIds": [
+      "m4-ver-televisao"
+    ],
     "modulo": "Módulo 4",
     "theme": "Tempos livres",
     "portuguese": "ver televisão",
@@ -2900,7 +3705,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-costumar",
+    "id": "az-0205",
+    "legacyIds": [
+      "m4-costumar"
+    ],
     "modulo": "Módulo 4",
     "theme": "Verbos",
     "portuguese": "costumar",
@@ -2914,7 +3722,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-divertir-se",
+    "id": "az-0207",
+    "legacyIds": [
+      "m4-divertir-se"
+    ],
     "modulo": "Módulo 4",
     "theme": "Verbos",
     "portuguese": "divertir-se",
@@ -2928,7 +3739,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m4-dizer",
+    "id": "az-0198",
+    "legacyIds": [
+      "m4-dizer"
+    ],
     "modulo": "Módulo 4",
     "theme": "Verbos",
     "portuguese": "dizer",
@@ -2942,7 +3756,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-fechado-para-ferias",
+    "id": "az-0221",
+    "legacyIds": [
+      "m5-fechado-para-ferias"
+    ],
     "modulo": "Módulo 5",
     "theme": "Avisos",
     "portuguese": "Fechado para férias",
@@ -2956,7 +3773,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-proibido-fumar",
+    "id": "az-0220",
+    "legacyIds": [
+      "m5-proibido-fumar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Avisos",
     "portuguese": "Proibido fumar",
@@ -2970,7 +3790,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-abrir-uma-conta",
+    "id": "az-0269",
+    "legacyIds": [
+      "m5-abrir-uma-conta"
+    ],
     "modulo": "Módulo 5",
     "theme": "Banco",
     "portuguese": "abrir uma conta",
@@ -2984,13 +3807,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-estacao-de-servico",
+    "id": "az-0245",
+    "legacyIds": [
+      "m5-estacao-de-servico"
+    ],
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "a estação de serviço",
     "english": "service station",
     "zhHans": "服务站",
     "zhHant": "服務站",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Pare na estação de serviço.",
     "exampleEn": "Stop at the service station.",
     "exampleZhHans": "请在服务站停车。",
@@ -2998,13 +3826,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-estrada",
+    "id": "az-0244",
+    "legacyIds": [
+      "m5-estrada"
+    ],
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "a estrada",
     "english": "road",
     "zhHans": "路",
     "zhHant": "路",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O triângulo está na estrada.",
     "exampleEn": "The warning triangle is on the road.",
     "exampleZhHans": "三角警示牌在路上。",
@@ -3012,7 +3845,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-guiar",
+    "id": "az-0253",
+    "legacyIds": [
+      "m5-guiar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "guiar",
@@ -3026,13 +3862,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-pneu-furado",
+    "id": "az-0242",
+    "legacyIds": [
+      "m5-pneu-furado"
+    ],
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "o pneu furado",
     "english": "flat tyre",
     "zhHans": "轮胎漏气",
     "zhHant": "輪胎漏氣",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tenho de trocar um pneu furado.",
     "exampleEn": "I have to change a flat tyre.",
     "exampleZhHans": "我得换一个漏气的轮胎。",
@@ -3040,13 +3881,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-veiculo",
+    "id": "az-0243",
+    "legacyIds": [
+      "m5-veiculo"
+    ],
     "modulo": "Módulo 5",
     "theme": "Carro",
     "portuguese": "o veículo",
     "english": "vehicle",
     "zhHans": "车辆",
     "zhHant": "車輛",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Leve luvas no seu veículo.",
     "exampleEn": "Keep gloves in your vehicle.",
     "exampleZhHans": "请在您的车里带上手套。",
@@ -3054,13 +3900,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-supermercado",
+    "id": "az-0247",
+    "legacyIds": [
+      "m5-supermercado"
+    ],
     "modulo": "Módulo 5",
     "theme": "Compras",
     "portuguese": "o supermercado",
     "english": "supermarket",
     "zhHans": "超市",
     "zhHant": "超級市場",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Vou ao supermercado.",
     "exampleEn": "I am going to the supermarket.",
     "exampleZhHans": "我去超市。",
@@ -3068,7 +3919,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-poupar",
+    "id": "az-0246",
+    "legacyIds": [
+      "m5-poupar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Compras",
     "portuguese": "poupar",
@@ -3082,13 +3936,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-carta-registada",
+    "id": "az-0233",
+    "legacyIds": [
+      "m5-carta-registada"
+    ],
     "modulo": "Módulo 5",
     "theme": "Correios",
     "portuguese": "a carta registada",
     "english": "registered letter",
     "zhHans": "挂号信",
     "zhHant": "掛號信",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A carta é registada.",
     "exampleEn": "The letter is registered.",
     "exampleZhHans": "这封信是挂号信。",
@@ -3096,13 +3955,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-encomenda",
+    "id": "az-0222",
+    "legacyIds": [
+      "m5-encomenda"
+    ],
     "modulo": "Módulo 5",
     "theme": "Correios",
     "portuguese": "a encomenda",
     "english": "parcel",
     "zhHans": "包裹",
     "zhHant": "包裹",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho uma encomenda nos Correios.",
     "exampleEn": "I have a parcel at the post office.",
     "exampleZhHans": "我在邮局有一个包裹。",
@@ -3110,7 +3974,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-enviar-uma-carta",
+    "id": "az-0230",
+    "legacyIds": [
+      "m5-enviar-uma-carta"
+    ],
     "modulo": "Módulo 5",
     "theme": "Correios",
     "portuguese": "enviar uma carta",
@@ -3124,13 +3991,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-avenida",
+    "id": "az-0264",
+    "legacyIds": [
+      "m5-avenida"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "a avenida",
     "english": "avenue",
     "zhHans": "大街",
     "zhHant": "大街",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Siga em frente por esta avenida.",
     "exampleEn": "Go straight ahead along this avenue.",
     "exampleZhHans": "请沿着这条大道一直往前走。",
@@ -3138,7 +4010,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-a-direita",
+    "id": "az-0224",
+    "legacyIds": [
+      "m5-a-direita"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "à direita",
@@ -3152,7 +4027,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-a-esquerda",
+    "id": "az-0223",
+    "legacyIds": [
+      "m5-a-esquerda"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "à esquerda",
@@ -3166,13 +4044,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-rotunda",
+    "id": "az-0257",
+    "legacyIds": [
+      "m5-rotunda"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "a rotunda",
     "english": "roundabout",
     "zhHans": "环岛",
     "zhHant": "圓環/環形交叉路口",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Contorne a rotunda.",
     "exampleEn": "Go around the roundabout.",
     "exampleZhHans": "请绕过环岛。",
@@ -3180,7 +4063,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-atravessar",
+    "id": "az-0226",
+    "legacyIds": [
+      "m5-atravessar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "atravessar",
@@ -3194,7 +4080,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-daqui",
+    "id": "az-0248",
+    "legacyIds": [
+      "m5-daqui"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "daqui",
@@ -3208,7 +4097,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-demorar",
+    "id": "az-0251",
+    "legacyIds": [
+      "m5-demorar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "demorar",
@@ -3222,7 +4114,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-descer",
+    "id": "az-0229",
+    "legacyIds": [
+      "m5-descer"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "descer",
@@ -3236,7 +4131,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-ir-a-pe",
+    "id": "az-0250",
+    "legacyIds": [
+      "m5-ir-a-pe"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "ir a pé",
@@ -3250,13 +4148,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-cruzamento",
+    "id": "az-0259",
+    "legacyIds": [
+      "m5-cruzamento"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "o cruzamento",
     "english": "crossroads",
     "zhHans": "十字路口",
     "zhHant": "十字路口",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Atravesse o cruzamento com cuidado.",
     "exampleEn": "Cross the intersection carefully.",
     "exampleZhHans": "请小心穿过十字路口。",
@@ -3264,13 +4167,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-semaforo",
+    "id": "az-0258",
+    "legacyIds": [
+      "m5-semaforo"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "o semáforo",
     "english": "traffic light",
     "zhHans": "红绿灯",
     "zhHant": "紅綠燈",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O semáforo está avariado.",
     "exampleEn": "The traffic light is broken.",
     "exampleZhHans": "红绿灯坏了。",
@@ -3278,7 +4186,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-passar",
+    "id": "az-0227",
+    "legacyIds": [
+      "m5-passar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "passar",
@@ -3292,7 +4203,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-por",
+    "id": "az-0262",
+    "legacyIds": [
+      "m5-por"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "por",
@@ -3306,7 +4220,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-pelo",
+    "id": "az-0263",
+    "legacyIds": [
+      "m5-pelo"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "por + artigo",
@@ -3320,7 +4237,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-seguir-em-frente",
+    "id": "az-0225",
+    "legacyIds": [
+      "m5-seguir-em-frente"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "seguir em frente",
@@ -3334,7 +4254,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-subir",
+    "id": "az-0228",
+    "legacyIds": [
+      "m5-subir"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "subir",
@@ -3348,7 +4271,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-virar-a-direita",
+    "id": "az-0249",
+    "legacyIds": [
+      "m5-virar-a-direita"
+    ],
     "modulo": "Módulo 5",
     "theme": "Direções",
     "portuguese": "virar à direita",
@@ -3362,13 +4288,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-fotografia-tipo-passe",
+    "id": "az-0238",
+    "legacyIds": [
+      "m5-fotografia-tipo-passe"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "a fotografia tipo passe",
     "english": "passport photo",
     "zhHans": "护照照片",
     "zhHant": "護照照片",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Preciso de duas fotografias tipo passe.",
     "exampleEn": "I need two passport-style photographs.",
     "exampleZhHans": "我需要两张证件照。",
@@ -3376,13 +4307,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-cartao-de-residencia",
+    "id": "az-0268",
+    "legacyIds": [
+      "m5-cartao-de-residencia"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o cartão de residência",
     "english": "residence card",
     "zhHans": "居留卡",
     "zhHant": "居留卡",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Preciso do cartão de residência.",
     "exampleEn": "I need the residence card.",
     "exampleZhHans": "我需要居留卡。",
@@ -3390,13 +4326,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-impresso",
+    "id": "az-0234",
+    "legacyIds": [
+      "m5-impresso"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o impresso",
     "english": "form",
     "zhHans": "表格",
     "zhHant": "表格",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Preencha este impresso.",
     "exampleEn": "Fill in this form.",
     "exampleZhHans": "请填写这张表格。",
@@ -3404,13 +4345,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-passaporte",
+    "id": "az-0239",
+    "legacyIds": [
+      "m5-passaporte"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o passaporte",
     "english": "passport",
     "zhHans": "护照",
     "zhHant": "護照",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Deve levar o passaporte.",
     "exampleEn": "You should take the passport.",
     "exampleZhHans": "您应该带上护照。",
@@ -3418,13 +4364,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-registo-criminal",
+    "id": "az-0240",
+    "legacyIds": [
+      "m5-registo-criminal"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o registo criminal",
     "english": "criminal record",
     "zhHans": "犯罪记录",
     "zhHant": "犯罪記錄",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Preciso de autorização para consulta do registo criminal.",
     "exampleEn": "I need authorisation to consult the criminal record.",
     "exampleZhHans": "我需要授权查询犯罪记录。",
@@ -3432,13 +4383,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-requerente",
+    "id": "az-0237",
+    "legacyIds": [
+      "m5-requerente"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "o requerente",
     "english": "applicant",
     "zhHans": "申请人",
     "zhHant": "申請人",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O requerente assina o pedido.",
     "exampleEn": "The applicant signs the request.",
     "exampleZhHans": "申请人在申请书上签字。",
@@ -3446,13 +4402,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-documentos-necessarios",
+    "id": "az-0236",
+    "legacyIds": [
+      "m5-documentos-necessarios"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "os documentos necessários",
     "english": "required documents",
     "zhHans": "所需文件",
     "zhHant": "所需文件",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Que documentos necessários devo trazer?",
     "exampleEn": "What required documents should I bring?",
     "exampleZhHans": "我应该带哪些必要文件？",
@@ -3460,7 +4421,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-renovar",
+    "id": "az-0235",
+    "legacyIds": [
+      "m5-renovar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Documentos",
     "portuguese": "renovar",
@@ -3474,13 +4438,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-imobiliaria",
+    "id": "az-0261",
+    "legacyIds": [
+      "m5-imobiliaria"
+    ],
     "modulo": "Módulo 5",
     "theme": "Habitação",
     "portuguese": "a imobiliária",
     "english": "estate agency",
     "zhHans": "地产代理",
     "zhHant": "地產代理",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A imobiliária mostra casas.",
     "exampleEn": "The estate agency shows houses.",
     "exampleZhHans": "房地产中介展示房子。",
@@ -3488,13 +4457,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-lavandaria",
+    "id": "az-0218",
+    "legacyIds": [
+      "m5-lavandaria"
+    ],
     "modulo": "Módulo 5",
     "theme": "Lojas",
     "portuguese": "a lavandaria",
     "english": "launderette",
     "zhHans": "洗衣店/自助洗衣店",
     "zhHant": "洗衣店/自助洗衣店",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Levo a roupa à lavandaria.",
     "exampleEn": "I take the clothes to the launderette.",
     "exampleZhHans": "我把衣服送到洗衣店。",
@@ -3502,13 +4476,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-loja-de-roupa",
+    "id": "az-0216",
+    "legacyIds": [
+      "m5-loja-de-roupa"
+    ],
     "modulo": "Módulo 5",
     "theme": "Lojas",
     "portuguese": "a loja de roupa",
     "english": "clothes shop",
     "zhHans": "服装店",
     "zhHant": "服飾店",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A loja de roupa está aberta.",
     "exampleEn": "The clothes shop is open.",
     "exampleZhHans": "服装店开着。",
@@ -3516,7 +4495,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-oculista",
+    "id": "az-0219",
+    "legacyIds": [
+      "m5-oculista"
+    ],
     "modulo": "Módulo 5",
     "theme": "Lojas",
     "portuguese": "oculista",
@@ -3530,7 +4512,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-dever",
+    "id": "az-0267",
+    "legacyIds": [
+      "m5-dever"
+    ],
     "modulo": "Módulo 5",
     "theme": "Obrigação",
     "portuguese": "dever",
@@ -3544,7 +4529,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-precisar-de",
+    "id": "az-0266",
+    "legacyIds": [
+      "m5-precisar-de"
+    ],
     "modulo": "Módulo 5",
     "theme": "Obrigação",
     "portuguese": "precisar de",
@@ -3558,7 +4546,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-ter-de",
+    "id": "az-0265",
+    "legacyIds": [
+      "m5-ter-de"
+    ],
     "modulo": "Módulo 5",
     "theme": "Obrigação",
     "portuguese": "ter de",
@@ -3572,13 +4563,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-troco",
+    "id": "az-0260",
+    "legacyIds": [
+      "m5-troco"
+    ],
     "modulo": "Módulo 5",
     "theme": "Pagamentos",
     "portuguese": "o troco",
     "english": "change",
     "zhHans": "找零",
     "zhHant": "找零",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ele dá-me o troco.",
     "exampleEn": "He gives me the change.",
     "exampleZhHans": "他把零钱找给我。",
@@ -3586,13 +4582,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-exercicio-fisico",
+    "id": "az-0270",
+    "legacyIds": [
+      "m5-exercicio-fisico"
+    ],
     "modulo": "Módulo 5",
     "theme": "Saúde",
     "portuguese": "o exercício físico",
     "english": "physical exercise",
     "zhHans": "体育锻炼",
     "zhHant": "體育鍛鍊",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Deve fazer exercício físico.",
     "exampleEn": "You should do physical exercise.",
     "exampleZhHans": "您应该进行体育锻炼。",
@@ -3600,13 +4601,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-senha",
+    "id": "az-0232",
+    "legacyIds": [
+      "m5-senha"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços",
     "portuguese": "a senha",
     "english": "ticket number",
     "zhHans": "票号",
     "zhHant": "票號",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Pode dar-me a sua senha?",
     "exampleEn": "Can you give me your ticket number?",
     "exampleZhHans": "您可以给我您的号码票吗？",
@@ -3614,7 +4620,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-pagar-a-conta",
+    "id": "az-0231",
+    "legacyIds": [
+      "m5-pagar-a-conta"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços",
     "portuguese": "pagar a conta",
@@ -3628,7 +4637,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-pessoalmente",
+    "id": "az-0241",
+    "legacyIds": [
+      "m5-pessoalmente"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços",
     "portuguese": "pessoalmente",
@@ -3642,13 +4654,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-bomba-de-gasolina",
+    "id": "az-0212",
+    "legacyIds": [
+      "m5-bomba-de-gasolina"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "a bomba de gasolina",
     "english": "petrol station",
     "zhHans": "加油站",
     "zhHant": "加油站",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A bomba de gasolina fica perto.",
     "exampleEn": "The petrol station is nearby.",
     "exampleZhHans": "加油站就在附近。",
@@ -3656,13 +4673,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-oficina",
+    "id": "az-0211",
+    "legacyIds": [
+      "m5-oficina"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "a oficina",
     "english": "repair shop",
     "zhHans": "修理店",
     "zhHant": "修理店",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O carro está na oficina.",
     "exampleEn": "The car is at the repair shop.",
     "exampleZhHans": "汽车在修理厂。",
@@ -3670,13 +4692,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-banco",
+    "id": "az-0214",
+    "legacyIds": [
+      "m5-banco"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "o banco",
     "english": "bank",
     "zhHans": "银行",
     "zhHant": "銀行",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O banco fica atrás dos Correios.",
     "exampleEn": "The bank is behind the post office.",
     "exampleZhHans": "银行在邮局后面。",
@@ -3684,13 +4711,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-servico",
+    "id": "az-0217",
+    "legacyIds": [
+      "m5-servico"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "o serviço",
     "english": "service",
     "zhHans": "服务",
     "zhHant": "服務",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Este serviço ajuda os utentes.",
     "exampleEn": "This service helps users.",
     "exampleZhHans": "这项服务帮助用户。",
@@ -3698,13 +4730,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-servico-de-estrangeiros-e-fronteiras",
+    "id": "az-0215",
+    "legacyIds": [
+      "m5-servico-de-estrangeiros-e-fronteiras"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "o Serviço de Estrangeiros e Fronteiras",
     "english": "foreigners and borders service",
     "zhHans": "外国人和边境服务局",
     "zhHant": "外國人和邊境服務局",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tenho marcação no Serviço de Estrangeiros e Fronteiras.",
     "exampleEn": "I have an appointment at the Foreigners and Borders Service.",
     "exampleZhHans": "我在移民和边境服务局有预约。",
@@ -3712,13 +4749,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-correios",
+    "id": "az-0213",
+    "legacyIds": [
+      "m5-correios"
+    ],
     "modulo": "Módulo 5",
     "theme": "Serviços e comércio",
     "portuguese": "os Correios",
     "english": "post office",
     "zhHans": "邮局",
     "zhHant": "郵局",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Vou aos Correios enviar uma carta.",
     "exampleEn": "I am going to the post office to send a letter.",
     "exampleZhHans": "我要去邮局寄一封信。",
@@ -3726,7 +4768,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-atender",
+    "id": "az-0254",
+    "legacyIds": [
+      "m5-atender"
+    ],
     "modulo": "Módulo 5",
     "theme": "Telefone",
     "portuguese": "atender",
@@ -3740,7 +4785,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-desligar",
+    "id": "az-0255",
+    "legacyIds": [
+      "m5-desligar"
+    ],
     "modulo": "Módulo 5",
     "theme": "Telefone",
     "portuguese": "desligar",
@@ -3754,7 +4802,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-esquecer-se",
+    "id": "az-0256",
+    "legacyIds": [
+      "m5-esquecer-se"
+    ],
     "modulo": "Módulo 5",
     "theme": "Verbos",
     "portuguese": "esquecer-se",
@@ -3768,7 +4819,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m5-saber",
+    "id": "az-0252",
+    "legacyIds": [
+      "m5-saber"
+    ],
     "modulo": "Módulo 5",
     "theme": "Verbos",
     "portuguese": "saber",
@@ -3782,13 +4836,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-direitos-e-deveres",
+    "id": "az-0328",
+    "legacyIds": [
+      "m6-direitos-e-deveres"
+    ],
     "modulo": "Módulo 6",
     "theme": "Cidadania",
     "portuguese": "os direitos e deveres",
     "english": "rights and duties",
     "zhHans": "权利和义务",
     "zhHant": "權利和義務",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Têm os mesmos direitos e deveres.",
     "exampleEn": "They have the same rights and duties.",
     "exampleZhHans": "他们有相同的权利和义务。",
@@ -3796,7 +4855,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-consultar-o-medico",
+    "id": "az-0348",
+    "legacyIds": [
+      "m6-consultar-o-medico"
+    ],
     "modulo": "Módulo 6",
     "theme": "Conselhos de saúde",
     "portuguese": "consultar o médico",
@@ -3810,7 +4872,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ter-cuidado",
+    "id": "az-0347",
+    "legacyIds": [
+      "m6-ter-cuidado"
+    ],
     "modulo": "Módulo 6",
     "theme": "Conselhos de saúde",
     "portuguese": "ter cuidado",
@@ -3824,7 +4889,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ha-quanto-tempo",
+    "id": "az-0316",
+    "legacyIds": [
+      "m6-ha-quanto-tempo"
+    ],
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "há quanto tempo?",
@@ -3838,7 +4906,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-marcar-uma-consulta",
+    "id": "az-0340",
+    "legacyIds": [
+      "m6-marcar-uma-consulta"
+    ],
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "marcar uma consulta",
@@ -3852,13 +4923,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-consultorio-medico",
+    "id": "az-0313",
+    "legacyIds": [
+      "m6-consultorio-medico"
+    ],
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "o consultório médico",
     "english": "doctor's office",
     "zhHans": "医生办公室",
     "zhHant": "醫生辦公室",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Estou no consultório médico.",
     "exampleEn": "I am at the doctor's office.",
     "exampleZhHans": "我在医生诊所。",
@@ -3866,7 +4942,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-sentar-se",
+    "id": "az-0304",
+    "legacyIds": [
+      "m6-sentar-se"
+    ],
     "modulo": "Módulo 6",
     "theme": "Consulta médica",
     "portuguese": "sentar-se",
@@ -3880,13 +4959,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-barriga",
+    "id": "az-0279",
+    "legacyIds": [
+      "m6-barriga"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a barriga",
     "english": "belly",
     "zhHans": "腹部",
     "zhHant": "腹部",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Dói-me a barriga.",
     "exampleEn": "My belly hurts.",
     "exampleZhHans": "我肚子疼。",
@@ -3894,13 +4978,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-boca",
+    "id": "az-0276",
+    "legacyIds": [
+      "m6-boca"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a boca",
     "english": "mouth",
     "zhHans": "嘴",
     "zhHant": "嘴",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Abra a boca, por favor.",
     "exampleEn": "Open your mouth, please.",
     "exampleZhHans": "请张开嘴。",
@@ -3908,13 +4997,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-cabeca",
+    "id": "az-0273",
+    "legacyIds": [
+      "m6-cabeca"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a cabeça",
     "english": "head",
     "zhHans": "头",
     "zhHant": "頭",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Dói-me a cabeça.",
     "exampleEn": "My head hurts.",
     "exampleZhHans": "我头疼。",
@@ -3922,13 +5016,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-mao",
+    "id": "az-0280",
+    "legacyIds": [
+      "m6-mao"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a mão",
     "english": "hand",
     "zhHans": "手",
     "zhHant": "手",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Lave as mãos.",
     "exampleEn": "Wash your hands.",
     "exampleZhHans": "请洗手。",
@@ -3936,13 +5035,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-perna",
+    "id": "az-0281",
+    "legacyIds": [
+      "m6-perna"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "a perna",
     "english": "leg",
     "zhHans": "腿",
     "zhHant": "腿",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Doem-me as pernas.",
     "exampleEn": "My legs hurt.",
     "exampleZhHans": "我腿疼。",
@@ -3950,13 +5054,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-braco",
+    "id": "az-0278",
+    "legacyIds": [
+      "m6-braco"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o braço",
     "english": "arm",
     "zhHans": "手臂",
     "zhHant": "手臂",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Dói-me o braço.",
     "exampleEn": "My arm hurts.",
     "exampleZhHans": "我胳膊疼。",
@@ -3964,13 +5073,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-estomago",
+    "id": "az-0346",
+    "legacyIds": [
+      "m6-estomago"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o estômago",
     "english": "stomach",
     "zhHans": "胃",
     "zhHant": "胃",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Dói-me o estômago.",
     "exampleEn": "My stomach hurts.",
     "exampleZhHans": "我胃疼。",
@@ -3978,13 +5092,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-joelho",
+    "id": "az-0282",
+    "legacyIds": [
+      "m6-joelho"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o joelho",
     "english": "knee",
     "zhHans": "膝盖",
     "zhHant": "膝蓋",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Doem-me os joelhos.",
     "exampleEn": "My knees hurt.",
     "exampleZhHans": "我膝盖疼。",
@@ -3992,13 +5111,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-nariz",
+    "id": "az-0275",
+    "legacyIds": [
+      "m6-nariz"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o nariz",
     "english": "nose",
     "zhHans": "鼻子",
     "zhHant": "鼻子",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Dói-me o nariz.",
     "exampleEn": "My nose hurts.",
     "exampleZhHans": "我鼻子疼。",
@@ -4006,13 +5130,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-pe",
+    "id": "az-0283",
+    "legacyIds": [
+      "m6-pe"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o pé",
     "english": "foot",
     "zhHans": "脚",
     "zhHant": "腳",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Doem-me os pés.",
     "exampleEn": "My feet hurt.",
     "exampleZhHans": "我脚疼。",
@@ -4020,13 +5149,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-peito",
+    "id": "az-0344",
+    "legacyIds": [
+      "m6-peito"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o peito",
     "english": "chest",
     "zhHans": "胸部",
     "zhHant": "胸部",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Dói-te o peito?",
     "exampleEn": "Does your chest hurt?",
     "exampleZhHans": "你胸口疼吗？",
@@ -4034,13 +5168,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-pescoco",
+    "id": "az-0277",
+    "legacyIds": [
+      "m6-pescoco"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "o pescoço",
     "english": "neck",
     "zhHans": "脖子",
     "zhHant": "脖子",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Não me dói o pescoço.",
     "exampleEn": "My neck does not hurt.",
     "exampleZhHans": "我脖子不疼。",
@@ -4048,13 +5187,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-olhos",
+    "id": "az-0274",
+    "legacyIds": [
+      "m6-olhos"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "os olhos",
     "english": "eyes",
     "zhHans": "眼睛",
     "zhHant": "眼睛",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Tenho os olhos vermelhos.",
     "exampleEn": "My eyes are red.",
     "exampleZhHans": "我的眼睛红了。",
@@ -4062,13 +5206,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ouvidos",
+    "id": "az-0345",
+    "legacyIds": [
+      "m6-ouvidos"
+    ],
     "modulo": "Módulo 6",
     "theme": "Corpo humano",
     "portuguese": "os ouvidos",
     "english": "ears",
     "zhHans": "耳朵",
     "zhHant": "耳朵",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Doem-me os ouvidos.",
     "exampleEn": "My ears hurt.",
     "exampleZhHans": "我耳朵疼。",
@@ -4076,7 +5225,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-fazer-exercicio",
+    "id": "az-0288",
+    "legacyIds": [
+      "m6-fazer-exercicio"
+    ],
     "modulo": "Módulo 6",
     "theme": "Cuidados de saúde",
     "portuguese": "fazer exercício",
@@ -4090,7 +5242,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ter-uma-alimentacao-saudavel",
+    "id": "az-0289",
+    "legacyIds": [
+      "m6-ter-uma-alimentacao-saudavel"
+    ],
     "modulo": "Módulo 6",
     "theme": "Cuidados de saúde",
     "portuguese": "ter uma alimentação saudável",
@@ -4104,13 +5259,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-situacao-legalizada",
+    "id": "az-0329",
+    "legacyIds": [
+      "m6-situacao-legalizada"
+    ],
     "modulo": "Módulo 6",
     "theme": "Documentos",
     "portuguese": "a situação legalizada",
     "english": "legalized status",
     "zhHans": "合法化地位",
     "zhHant": "合法化地位",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Ainda não têm a situação legalizada.",
     "exampleEn": "They still do not have their situation legalised.",
     "exampleZhHans": "他们的法律身份尚未合法化。",
@@ -4118,7 +5278,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-legalmente",
+    "id": "az-0327",
+    "legacyIds": [
+      "m6-legalmente"
+    ],
     "modulo": "Módulo 6",
     "theme": "Documentos",
     "portuguese": "legalmente",
@@ -4132,13 +5295,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-assalto",
+    "id": "az-0324",
+    "legacyIds": [
+      "m6-assalto"
+    ],
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o assalto",
     "english": "robbery",
     "zhHans": "抢劫",
     "zhHant": "搶劫",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O 112 atende situações de assalto.",
     "exampleEn": "112 handles robbery situations.",
     "exampleZhHans": "112 处理抢劫情况。",
@@ -4146,13 +5314,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-incendio",
+    "id": "az-0323",
+    "legacyIds": [
+      "m6-incendio"
+    ],
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o incêndio",
     "english": "fire",
     "zhHans": "火灾",
     "zhHant": "火災",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O 112 atende situações de incêndio.",
     "exampleEn": "112 handles fire situations.",
     "exampleZhHans": "112 处理火灾情况。",
@@ -4160,13 +5333,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-inem",
+    "id": "az-0272",
+    "legacyIds": [
+      "m6-inem"
+    ],
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o INEM",
     "english": "emergency medical service",
     "zhHans": "紧急医疗服务",
     "zhHant": "緊急醫療服務",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O INEM presta socorro médico.",
     "exampleEn": "INEM provides medical assistance.",
     "exampleZhHans": "INEM 提供医疗救助。",
@@ -4174,13 +5352,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-numero-europeu-de-emergencia",
+    "id": "az-0320",
+    "legacyIds": [
+      "m6-numero-europeu-de-emergencia"
+    ],
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "o Número Europeu de Emergência",
     "english": "European emergency number",
     "zhHans": "欧洲紧急电话号码",
     "zhHant": "歐洲緊急電話號碼",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O 112 é o Número Europeu de Emergência.",
     "exampleEn": "112 is the European Emergency Number.",
     "exampleZhHans": "112 是欧洲紧急电话号码。",
@@ -4188,13 +5371,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-bombeiros",
+    "id": "az-0271",
+    "legacyIds": [
+      "m6-bombeiros"
+    ],
     "modulo": "Módulo 6",
     "theme": "Emergência",
     "portuguese": "os bombeiros",
     "english": "firefighters",
     "zhHans": "消防员",
     "zhHant": "消防員",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Os bombeiros ajudam nas emergências.",
     "exampleEn": "Firefighters help in emergencies.",
     "exampleZhHans": "消防员在紧急情况下提供帮助。",
@@ -4202,7 +5390,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-dentista",
+    "id": "az-0290",
+    "legacyIds": [
+      "m6-dentista"
+    ],
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "dentista",
@@ -4216,7 +5407,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-medico-de-familia",
+    "id": "az-0292",
+    "legacyIds": [
+      "m6-medico-de-familia"
+    ],
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "médico(a) de família",
@@ -4230,7 +5424,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-oftalmologista",
+    "id": "az-0293",
+    "legacyIds": [
+      "m6-oftalmologista"
+    ],
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "oftalmologista",
@@ -4244,7 +5441,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-pediatra",
+    "id": "az-0291",
+    "legacyIds": [
+      "m6-pediatra"
+    ],
     "modulo": "Módulo 6",
     "theme": "Especialidades médicas",
     "portuguese": "pediatra",
@@ -4258,7 +5458,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-fazer-analises",
+    "id": "az-0296",
+    "legacyIds": [
+      "m6-fazer-analises"
+    ],
     "modulo": "Módulo 6",
     "theme": "Exames médicos",
     "portuguese": "fazer análises",
@@ -4272,7 +5475,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-fazer-uma-radiografia",
+    "id": "az-0295",
+    "legacyIds": [
+      "m6-fazer-uma-radiografia"
+    ],
     "modulo": "Módulo 6",
     "theme": "Exames médicos",
     "portuguese": "fazer uma radiografia",
@@ -4286,7 +5492,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-medir-a-tensao",
+    "id": "az-0294",
+    "legacyIds": [
+      "m6-medir-a-tensao"
+    ],
     "modulo": "Módulo 6",
     "theme": "Exames médicos",
     "portuguese": "medir a tensão",
@@ -4300,13 +5509,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-farmacia",
+    "id": "az-0312",
+    "legacyIds": [
+      "m6-farmacia"
+    ],
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "a farmácia",
     "english": "pharmacy",
     "zhHans": "药店",
     "zhHant": "藥局",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Vou à farmácia comprar medicamentos.",
     "exampleEn": "I am going to the pharmacy to buy medicines.",
     "exampleZhHans": "我要去药房买药。",
@@ -4314,13 +5528,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-receita",
+    "id": "az-0311",
+    "legacyIds": [
+      "m6-receita"
+    ],
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "a receita",
     "english": "prescription",
     "zhHans": "处方",
     "zhHant": "處方",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Aqui está a receita.",
     "exampleEn": "Here is the prescription.",
     "exampleZhHans": "处方在这里。",
@@ -4328,7 +5547,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-aviar-uma-receita",
+    "id": "az-0332",
+    "legacyIds": [
+      "m6-aviar-uma-receita"
+    ],
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "aviar uma receita",
@@ -4342,7 +5564,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-farmaceutica",
+    "id": "az-0314",
+    "legacyIds": [
+      "m6-farmaceutica"
+    ],
     "modulo": "Módulo 6",
     "theme": "Farmácia",
     "portuguese": "farmacêutico(a)",
@@ -4356,13 +5581,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-dose-recomendada",
+    "id": "az-0336",
+    "legacyIds": [
+      "m6-dose-recomendada"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "a dose recomendada",
     "english": "recommended dose",
     "zhHans": "推荐剂量",
     "zhHant": "建議劑量",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A dose recomendada é um comprimido por dia.",
     "exampleEn": "The recommended dose is one tablet per day.",
     "exampleZhHans": "推荐剂量是每天一片。",
@@ -4370,7 +5600,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-aliviar-a-dor",
+    "id": "az-0334",
+    "legacyIds": [
+      "m6-aliviar-a-dor"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "aliviar a dor",
@@ -4384,7 +5617,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-apos-as-refeicoes",
+    "id": "az-0337",
+    "legacyIds": [
+      "m6-apos-as-refeicoes"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "após as refeições",
@@ -4398,7 +5634,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-de-doze-em-doze-horas",
+    "id": "az-0351",
+    "legacyIds": [
+      "m6-de-doze-em-doze-horas"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "de 12 em 12 horas",
@@ -4412,7 +5651,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-de-oito-em-oito-horas",
+    "id": "az-0319",
+    "legacyIds": [
+      "m6-de-oito-em-oito-horas"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "de oito em oito horas",
@@ -4426,7 +5668,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-diminuir-a-febre",
+    "id": "az-0335",
+    "legacyIds": [
+      "m6-diminuir-a-febre"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "diminuir a febre",
@@ -4440,13 +5685,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-antibiotico",
+    "id": "az-0350",
+    "legacyIds": [
+      "m6-antibiotico"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "o antibiótico",
     "english": "antibiotic",
     "zhHans": "抗生素",
     "zhHant": "抗生素",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Deve tomar o antibiótico de 12 em 12 horas.",
     "exampleEn": "You should take the antibiotic every 12 hours.",
     "exampleZhHans": "您应该每 12 小时服用一次抗生素。",
@@ -4454,13 +5704,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-comprimido",
+    "id": "az-0318",
+    "legacyIds": [
+      "m6-comprimido"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "o comprimido",
     "english": "tablet",
     "zhHans": "药片",
     "zhHant": "藥片",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tome estes comprimidos.",
     "exampleEn": "Take these tablets.",
     "exampleZhHans": "请服用这些药片。",
@@ -4468,13 +5723,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-medicamento",
+    "id": "az-0333",
+    "legacyIds": [
+      "m6-medicamento"
+    ],
     "modulo": "Módulo 6",
     "theme": "Medicamentos",
     "portuguese": "o medicamento",
     "english": "medicine",
     "zhHans": "药品",
     "zhHant": "藥物",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Não tome este medicamento.",
     "exampleEn": "Do not take this medicine.",
     "exampleZhHans": "不要服用这种药。",
@@ -4482,13 +5742,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-consulta-de-urgencia",
+    "id": "az-0331",
+    "legacyIds": [
+      "m6-consulta-de-urgencia"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "a consulta de urgência",
     "english": "emergency consultation",
     "zhHans": "急诊",
     "zhHant": "急診",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A consulta de urgência é no hospital.",
     "exampleEn": "The emergency consultation is at the hospital.",
     "exampleZhHans": "急诊看诊在医院。",
@@ -4496,13 +5761,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-inscricao",
+    "id": "az-0330",
+    "legacyIds": [
+      "m6-inscricao"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "a inscrição",
     "english": "registration",
     "zhHans": "登记/注册",
     "zhHant": "登記/註冊",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Fazem a inscrição na consulta.",
     "exampleEn": "They register for the appointment.",
     "exampleZhHans": "他们在看诊时登记。",
@@ -4510,7 +5780,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-aceder",
+    "id": "az-0326",
+    "legacyIds": [
+      "m6-aceder"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "aceder",
@@ -4524,13 +5797,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-cartao-de-utente",
+    "id": "az-0315",
+    "legacyIds": [
+      "m6-cartao-de-utente"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "o cartão de utente",
     "english": "health user card",
     "zhHans": "医疗用户卡/就诊卡",
     "zhHant": "醫療用戶卡/就診卡",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Dê-me o seu cartão de utente.",
     "exampleEn": "Give me your health user card.",
     "exampleZhHans": "请给我您的医疗用户卡。",
@@ -4538,13 +5816,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-sns",
+    "id": "az-0322",
+    "legacyIds": [
+      "m6-sns"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "o SNS",
     "english": "National Health Service",
     "zhHans": "国家卫生服务体系",
     "zhHant": "國家衛生服務體系",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "SNS significa Serviço Nacional de Saúde.",
     "exampleEn": "SNS means National Health Service.",
     "exampleZhHans": "SNS 的意思是国家卫生服务。",
@@ -4552,13 +5835,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-utente",
+    "id": "az-0321",
+    "legacyIds": [
+      "m6-utente"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "o utente",
     "english": "health service user",
     "zhHans": "健康服务使用者",
     "zhHant": "健康服務使用者",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O serviço é para todos os utentes.",
     "exampleEn": "The service is for all users.",
     "exampleZhHans": "这项服务面向所有用户。",
@@ -4566,13 +5854,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-cuidados-de-saude",
+    "id": "az-0325",
+    "legacyIds": [
+      "m6-cuidados-de-saude"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "os cuidados de saúde",
     "english": "health care",
     "zhHans": "卫生保健",
     "zhHant": "衛生保健",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Os estrangeiros podem aceder a cuidados de saúde.",
     "exampleEn": "Foreigners can access health care.",
     "exampleZhHans": "外国人可以获得医疗护理。",
@@ -4580,13 +5873,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-oculos",
+    "id": "az-0338",
+    "legacyIds": [
+      "m6-oculos"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde",
     "portuguese": "os óculos",
     "english": "glasses",
     "zhHans": "眼镜",
     "zhHant": "眼鏡",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Preciso de óculos para ler.",
     "exampleEn": "I need glasses to read.",
     "exampleZhHans": "我需要眼镜来看书。",
@@ -4594,13 +5892,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-mascara",
+    "id": "az-0309",
+    "legacyIds": [
+      "m6-mascara"
+    ],
     "modulo": "Módulo 6",
     "theme": "Saúde no trabalho",
     "portuguese": "a máscara",
     "english": "mask",
     "zhHans": "口罩",
     "zhHant": "口罩",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Use máscara durante o trabalho.",
     "exampleEn": "Wear a mask during work.",
     "exampleZhHans": "工作期间请戴口罩。",
@@ -4608,13 +5911,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-linha-de-emergencia",
+    "id": "az-0287",
+    "legacyIds": [
+      "m6-linha-de-emergencia"
+    ],
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "a linha de emergência",
     "english": "emergency line",
     "zhHans": "紧急热线",
     "zhHant": "緊急熱線",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Ligue para a linha de emergência.",
     "exampleEn": "Call the emergency line.",
     "exampleZhHans": "请拨打紧急热线。",
@@ -4622,13 +5930,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-usf",
+    "id": "az-0286",
+    "legacyIds": [
+      "m6-usf"
+    ],
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "a USF",
     "english": "family health unit",
     "zhHans": "家庭保健单位",
     "zhHant": "家庭健康單位",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A USF é uma Unidade de Saúde Familiar.",
     "exampleEn": "The USF is a Family Health Unit.",
     "exampleZhHans": "USF 是家庭健康单位。",
@@ -4636,13 +5949,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-centro-de-saude",
+    "id": "az-0285",
+    "legacyIds": [
+      "m6-centro-de-saude"
+    ],
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "o Centro de Saúde",
     "english": "health centre",
     "zhHans": "健康中心/社区诊所",
     "zhHant": "健康中心/社區診所",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Vou ao Centro de Saúde da minha área.",
     "exampleEn": "I am going to the health centre in my area.",
     "exampleZhHans": "我去我所在区域的健康中心。",
@@ -4650,13 +5968,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-hospital",
+    "id": "az-0284",
+    "legacyIds": [
+      "m6-hospital"
+    ],
     "modulo": "Módulo 6",
     "theme": "Serviços de saúde",
     "portuguese": "o hospital",
     "english": "hospital",
     "zhHans": "医院",
     "zhHant": "醫院",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Vou ao hospital.",
     "exampleEn": "I am going to the hospital.",
     "exampleZhHans": "我去医院。",
@@ -4664,13 +5987,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-alergia",
+    "id": "az-0310",
+    "legacyIds": [
+      "m6-alergia"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "a alergia",
     "english": "allergy",
     "zhHans": "过敏",
     "zhHant": "過敏",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O senhor está com uma alergia.",
     "exampleEn": "You have an allergy, sir.",
     "exampleZhHans": "先生，您有过敏症状。",
@@ -4678,13 +6006,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-comichao",
+    "id": "az-0305",
+    "legacyIds": [
+      "m6-comichao"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "a comichão",
     "english": "itching",
     "zhHans": "瘙痒",
     "zhHant": "癢感",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho muita comichão.",
     "exampleEn": "I have a lot of itching.",
     "exampleZhHans": "我很痒。",
@@ -4692,13 +6025,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-dores-de-dentes",
+    "id": "az-0339",
+    "legacyIds": [
+      "m6-dores-de-dentes"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "as dores de dentes",
     "english": "toothache",
     "zhHans": "牙疼",
     "zhHant": "牙痛",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Estou com dores de dentes.",
     "exampleEn": "I have toothache.",
     "exampleZhHans": "我牙疼。",
@@ -4706,7 +6044,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-doem-me",
+    "id": "az-0343",
+    "legacyIds": [
+      "m6-doem-me"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "doem-me",
@@ -4720,7 +6061,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-doi-me",
+    "id": "az-0342",
+    "legacyIds": [
+      "m6-doi-me"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "dói-me",
@@ -4734,7 +6078,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-espirrar",
+    "id": "az-0306",
+    "legacyIds": [
+      "m6-espirrar"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "espirrar",
@@ -4748,7 +6095,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-estar-constipado",
+    "id": "az-0297",
+    "legacyIds": [
+      "m6-estar-constipado"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "estar constipado(a)",
@@ -4762,7 +6112,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-estar-enjoado",
+    "id": "az-0303",
+    "legacyIds": [
+      "m6-estar-enjoado"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "estar enjoado(a)",
@@ -4776,7 +6129,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-sem-forcas",
+    "id": "az-0308",
+    "legacyIds": [
+      "m6-sem-forcas"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "sem forças",
@@ -4790,7 +6146,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-sentir-se-cansado",
+    "id": "az-0307",
+    "legacyIds": [
+      "m6-sentir-se-cansado"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "sentir-se cansado(a)",
@@ -4804,7 +6163,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ser-alergica-a",
+    "id": "az-0302",
+    "legacyIds": [
+      "m6-ser-alergica-a"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ser alérgica a",
@@ -4818,7 +6180,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ser-alergico-a",
+    "id": "az-0301",
+    "legacyIds": [
+      "m6-ser-alergico-a"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ser alérgico/a a",
@@ -4832,7 +6197,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ter-febre",
+    "id": "az-0298",
+    "legacyIds": [
+      "m6-ter-febre"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ter febre",
@@ -4846,7 +6214,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ter-tosse",
+    "id": "az-0299",
+    "legacyIds": [
+      "m6-ter-tosse"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ter tosse",
@@ -4860,7 +6231,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-ter-uma-intoxicacao",
+    "id": "az-0300",
+    "legacyIds": [
+      "m6-ter-uma-intoxicacao"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "ter uma intoxicação",
@@ -4874,7 +6248,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-tonto",
+    "id": "az-0349",
+    "legacyIds": [
+      "m6-tonto"
+    ],
     "modulo": "Módulo 6",
     "theme": "Sintomas",
     "portuguese": "tonto(a)",
@@ -4888,13 +6265,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-injecao",
+    "id": "az-0317",
+    "legacyIds": [
+      "m6-injecao"
+    ],
     "modulo": "Módulo 6",
     "theme": "Tratamentos",
     "portuguese": "a injeção",
     "english": "injection",
     "zhHans": "注射",
     "zhHant": "注射",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho de levar uma injeção.",
     "exampleEn": "I have to get an injection.",
     "exampleZhHans": "我得打一针。",
@@ -4902,7 +6284,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m6-doer",
+    "id": "az-0341",
+    "legacyIds": [
+      "m6-doer"
+    ],
     "modulo": "Módulo 6",
     "theme": "Verbos",
     "portuguese": "doer",
@@ -4916,13 +6301,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-horas-extraordinarias",
+    "id": "az-0392",
+    "legacyIds": [
+      "m7-horas-extraordinarias"
+    ],
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "as horas extraordinárias",
     "english": "overtime",
     "zhHans": "加班时间",
     "zhHant": "加班/加班時間",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Recebi as horas extraordinárias.",
     "exampleEn": "I received the overtime pay.",
     "exampleZhHans": "我收到了加班费。",
@@ -4930,13 +6320,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-contrato-trabalho",
+    "id": "az-0391",
+    "legacyIds": [
+      "m7-contrato-trabalho"
+    ],
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o contrato de trabalho",
     "english": "employment contract",
     "zhHans": "雇佣合同",
     "zhHant": "僱傭合約",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "É importante ler o contrato de trabalho.",
     "exampleEn": "It is important to read the employment contract.",
     "exampleZhHans": "阅读劳动合同很重要。",
@@ -4944,13 +6339,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-salario-bruto",
+    "id": "az-0393",
+    "legacyIds": [
+      "m7-salario-bruto"
+    ],
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o salário bruto",
     "english": "gross salary",
     "zhHans": "工资总额",
     "zhHant": "薪資總額",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O salário bruto não tem descontos.",
     "exampleEn": "The gross salary has no deductions.",
     "exampleZhHans": "税前工资没有扣除项。",
@@ -4958,13 +6358,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-salario-liquido",
+    "id": "az-0394",
+    "legacyIds": [
+      "m7-salario-liquido"
+    ],
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o salário líquido",
     "english": "net salary",
     "zhHans": "净工资",
     "zhHant": "淨工資",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O salário líquido já tem descontos.",
     "exampleEn": "The net salary already has deductions.",
     "exampleZhHans": "净工资已经扣除各项费用。",
@@ -4972,13 +6377,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-subsidio",
+    "id": "az-0395",
+    "legacyIds": [
+      "m7-subsidio"
+    ],
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o subsídio",
     "english": "benefit",
     "zhHans": "补贴/津贴",
     "zhHant": "津貼/補助",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Recebeu um subsídio.",
     "exampleEn": "He or she received a benefit.",
     "exampleZhHans": "收到了一笔补助。",
@@ -4986,13 +6396,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-direitos-laborais",
+    "id": "az-0390",
+    "legacyIds": [
+      "m7-direitos-laborais"
+    ],
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "os direitos laborais",
     "english": "labour rights",
     "zhHans": "劳工权利",
     "zhHant": "勞工權利",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Os trabalhadores imigrantes têm direitos laborais.",
     "exampleEn": "Immigrant workers have labor rights.",
     "exampleZhHans": "移民工人有劳动权利。",
@@ -5000,13 +6415,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-escova",
+    "id": "az-0363",
+    "legacyIds": [
+      "m7-escova"
+    ],
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "a escova",
     "english": "brush",
     "zhHans": "刷子",
     "zhHant": "刷子",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A escova está na mesa.",
     "exampleEn": "The brush is on the table.",
     "exampleZhHans": "刷子在桌子上。",
@@ -5014,13 +6434,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-tesoura",
+    "id": "az-0364",
+    "legacyIds": [
+      "m7-tesoura"
+    ],
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "a tesoura",
     "english": "scissors",
     "zhHans": "剪刀",
     "zhHant": "剪刀",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A tesoura corta o cabelo.",
     "exampleEn": "The scissors cut hair.",
     "exampleZhHans": "剪刀剪头发。",
@@ -5028,13 +6453,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-vassoura",
+    "id": "az-0371",
+    "legacyIds": [
+      "m7-vassoura"
+    ],
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "a vassoura",
     "english": "broom",
     "zhHans": "扫帚",
     "zhHant": "掃帚",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A vassoura está atrás da porta.",
     "exampleEn": "The broom is behind the door.",
     "exampleZhHans": "扫帚在门后面。",
@@ -5042,13 +6472,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-luvas",
+    "id": "az-0354",
+    "legacyIds": [
+      "m7-luvas"
+    ],
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "as luvas",
     "english": "gloves",
     "zhHans": "手套",
     "zhHant": "手套",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Use luvas no trabalho.",
     "exampleEn": "Wear gloves at work.",
     "exampleZhHans": "工作时请戴手套。",
@@ -5056,13 +6491,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-avental",
+    "id": "az-0355",
+    "legacyIds": [
+      "m7-avental"
+    ],
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "o avental",
     "english": "apron",
     "zhHans": "围裙",
     "zhHant": "圍裙",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ela põe o avental na cozinha.",
     "exampleEn": "She puts on the apron in the kitchen.",
     "exampleZhHans": "她在厨房穿上围裙。",
@@ -5070,13 +6510,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-computador",
+    "id": "az-0378",
+    "legacyIds": [
+      "m7-computador"
+    ],
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "o computador",
     "english": "computer",
     "zhHans": "电脑",
     "zhHant": "電腦",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Uso o computador no escritório.",
     "exampleEn": "I use the computer in the office.",
     "exampleZhHans": "我在办公室使用电脑。",
@@ -5084,13 +6529,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-papel",
+    "id": "az-0379",
+    "legacyIds": [
+      "m7-papel"
+    ],
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "o papel",
     "english": "paper",
     "zhHans": "纸",
     "zhHant": "紙",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Preciso de papel para imprimir.",
     "exampleEn": "I need paper to print.",
     "exampleZhHans": "我需要纸来打印。",
@@ -5098,13 +6548,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-detergentes",
+    "id": "az-0388",
+    "legacyIds": [
+      "m7-detergentes"
+    ],
     "modulo": "Módulo 7",
     "theme": "Limpeza",
     "portuguese": "os detergentes",
     "english": "cleaning products",
     "zhHans": "清洁产品",
     "zhHant": "清潔產品",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Vou buscar os detergentes.",
     "exampleEn": "I am going to get the detergents.",
     "exampleZhHans": "我去拿清洁剂。",
@@ -5112,13 +6567,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-escola",
+    "id": "az-0386",
+    "legacyIds": [
+      "m7-escola"
+    ],
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "a escola",
     "english": "school",
     "zhHans": "学校",
     "zhHant": "學校",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "As crianças entraram na escola.",
     "exampleEn": "The children entered the school.",
     "exampleZhHans": "孩子们进了学校。",
@@ -5126,13 +6586,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-casas-particulares",
+    "id": "az-0369",
+    "legacyIds": [
+      "m7-casas-particulares"
+    ],
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "as casas particulares",
     "english": "private homes",
     "zhHans": "私人住宅",
     "zhHant": "私人住宅",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Ela limpa casas particulares.",
     "exampleEn": "She cleans private homes.",
     "exampleZhHans": "她打扫私人住宅。",
@@ -5140,13 +6605,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-empresas",
+    "id": "az-0370",
+    "legacyIds": [
+      "m7-empresas"
+    ],
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "as empresas",
     "english": "companies",
     "zhHans": "公司",
     "zhHant": "公司",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Muitas pessoas trabalham em empresas.",
     "exampleEn": "Many people work in companies.",
     "exampleZhHans": "很多人在公司工作。",
@@ -5154,13 +6624,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-obras",
+    "id": "az-0359",
+    "legacyIds": [
+      "m7-obras"
+    ],
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "as obras",
     "english": "building site",
     "zhHans": "建筑工地",
     "zhHant": "建築工地",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Ele trabalha nas obras.",
     "exampleEn": "He works on construction sites.",
     "exampleZhHans": "他在建筑工地工作。",
@@ -5168,13 +6643,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-salao-cabeleireiro",
+    "id": "az-0362",
+    "legacyIds": [
+      "m7-salao-cabeleireiro"
+    ],
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "o salão de cabeleireiro",
     "english": "hair salon",
     "zhHans": "美发沙龙",
     "zhHant": "美髮沙龍",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ela trabalha num salão de cabeleireiro.",
     "exampleEn": "She works in a hair salon.",
     "exampleZhHans": "她在一家美发沙龙工作。",
@@ -5182,13 +6662,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-escritorios",
+    "id": "az-0377",
+    "legacyIds": [
+      "m7-escritorios"
+    ],
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "os escritórios",
     "english": "offices",
     "zhHans": "办公室",
     "zhHant": "辦公室",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Os escritórios abrem às nove.",
     "exampleEn": "The offices open at nine.",
     "exampleZhHans": "办公室九点开门。",
@@ -5196,13 +6681,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-cimento",
+    "id": "az-0360",
+    "legacyIds": [
+      "m7-cimento"
+    ],
     "modulo": "Módulo 7",
     "theme": "Materiais",
     "portuguese": "o cimento",
     "english": "cement",
     "zhHans": "水泥",
     "zhHant": "水泥",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Precisamos de dois sacos de cimento.",
     "exampleEn": "We need two bags of cement.",
     "exampleZhHans": "我们需要两袋水泥。",
@@ -5210,7 +6700,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-agricultor",
+    "id": "az-0375",
+    "legacyIds": [
+      "m7-agricultor"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "agricultor(a)",
@@ -5224,7 +6717,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-cabeleireira",
+    "id": "az-0361",
+    "legacyIds": [
+      "m7-cabeleireira"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "cabeleireiro(a)",
@@ -5238,7 +6734,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-cozinheiro",
+    "id": "az-0353",
+    "legacyIds": [
+      "m7-cozinheiro"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "cozinheiro(a)",
@@ -5252,7 +6751,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-empregada-limpeza",
+    "id": "az-0368",
+    "legacyIds": [
+      "m7-empregada-limpeza"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "empregado(a) de limpeza",
@@ -5266,7 +6768,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-medico",
+    "id": "az-0381",
+    "legacyIds": [
+      "m7-medico"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "médico(a)",
@@ -5280,7 +6785,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-pedreiro",
+    "id": "az-0358",
+    "legacyIds": [
+      "m7-pedreiro"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "pedreiro(a)",
@@ -5294,7 +6802,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-professora",
+    "id": "az-0385",
+    "legacyIds": [
+      "m7-professora"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "professor(a)",
@@ -5308,7 +6819,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-secretaria",
+    "id": "az-0376",
+    "legacyIds": [
+      "m7-secretaria"
+    ],
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "secretário(a)",
@@ -5322,7 +6836,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-chegar-a",
+    "id": "az-0402",
+    "legacyIds": [
+      "m7-chegar-a"
+    ],
     "modulo": "Módulo 7",
     "theme": "Regência verbal",
     "portuguese": "chegar a",
@@ -5336,7 +6853,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-entrar-em",
+    "id": "az-0404",
+    "legacyIds": [
+      "m7-entrar-em"
+    ],
     "modulo": "Módulo 7",
     "theme": "Regência verbal",
     "portuguese": "entrar em",
@@ -5350,7 +6870,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-sair-de",
+    "id": "az-0403",
+    "legacyIds": [
+      "m7-sair-de"
+    ],
     "modulo": "Módulo 7",
     "theme": "Regência verbal",
     "portuguese": "sair de",
@@ -5364,13 +6887,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-capacete",
+    "id": "az-0389",
+    "legacyIds": [
+      "m7-capacete"
+    ],
     "modulo": "Módulo 7",
     "theme": "Segurança no trabalho",
     "portuguese": "o capacete",
     "english": "helmet",
     "zhHans": "头盔",
     "zhHant": "頭盔",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Usa o capacete nas obras.",
     "exampleEn": "Wear the helmet on the construction site.",
     "exampleZhHans": "在工地要戴安全帽。",
@@ -5378,7 +6906,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-armazenar",
+    "id": "az-0398",
+    "legacyIds": [
+      "m7-armazenar"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "armazenar",
@@ -5392,7 +6923,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-aspirar",
+    "id": "az-0373",
+    "legacyIds": [
+      "m7-aspirar"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "aspirar",
@@ -5406,7 +6940,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-carregar",
+    "id": "az-0396",
+    "legacyIds": [
+      "m7-carregar"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "carregar",
@@ -5420,7 +6957,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-cortar-cabelo",
+    "id": "az-0366",
+    "legacyIds": [
+      "m7-cortar-cabelo"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "cortar o cabelo",
@@ -5434,7 +6974,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-cozinhar",
+    "id": "az-0357",
+    "legacyIds": [
+      "m7-cozinhar"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "cozinhar",
@@ -5448,7 +6991,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-descarregar",
+    "id": "az-0397",
+    "legacyIds": [
+      "m7-descarregar"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "descarregar",
@@ -5462,7 +7008,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-ensinar",
+    "id": "az-0387",
+    "legacyIds": [
+      "m7-ensinar"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "ensinar",
@@ -5476,7 +7025,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-fazer-exames",
+    "id": "az-0383",
+    "legacyIds": [
+      "m7-fazer-exames"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "fazer exames",
@@ -5490,7 +7042,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-lavar-cabeca",
+    "id": "az-0365",
+    "legacyIds": [
+      "m7-lavar-cabeca"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "lavar a cabeça",
@@ -5504,7 +7059,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-lavar-chao",
+    "id": "az-0374",
+    "legacyIds": [
+      "m7-lavar-chao"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "lavar o chão",
@@ -5518,7 +7076,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-limpar-po",
+    "id": "az-0372",
+    "legacyIds": [
+      "m7-limpar-po"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "limpar o pó",
@@ -5532,7 +7093,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-marcar-reuniao",
+    "id": "az-0380",
+    "legacyIds": [
+      "m7-marcar-reuniao"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "marcar uma reunião",
@@ -5546,7 +7110,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-observar-doente",
+    "id": "az-0382",
+    "legacyIds": [
+      "m7-observar-doente"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "observar o doente",
@@ -5560,7 +7127,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-passar-receitas",
+    "id": "az-0384",
+    "legacyIds": [
+      "m7-passar-receitas"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "passar receitas",
@@ -5574,7 +7144,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-pentear",
+    "id": "az-0367",
+    "legacyIds": [
+      "m7-pentear"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "pentear",
@@ -5588,7 +7161,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-preparar-alimentos",
+    "id": "az-0356",
+    "legacyIds": [
+      "m7-preparar-alimentos"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "preparar os alimentos",
@@ -5602,7 +7178,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-servir-mesa",
+    "id": "az-0352",
+    "legacyIds": [
+      "m7-servir-mesa"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "servir à mesa",
@@ -5616,7 +7195,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-anteontem",
+    "id": "az-0400",
+    "legacyIds": [
+      "m7-anteontem"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tempo",
     "portuguese": "anteontem",
@@ -5630,7 +7212,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-ha-bocado",
+    "id": "az-0401",
+    "legacyIds": [
+      "m7-ha-bocado"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tempo",
     "portuguese": "há bocado",
@@ -5644,7 +7229,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m7-ontem",
+    "id": "az-0399",
+    "legacyIds": [
+      "m7-ontem"
+    ],
     "modulo": "Módulo 7",
     "theme": "Tempo",
     "portuguese": "ontem",
@@ -5658,7 +7246,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-oferece-se",
+    "id": "az-0422",
+    "legacyIds": [
+      "m8-oferece-se"
+    ],
     "modulo": "Módulo 8",
     "theme": "Anúncios",
     "portuguese": "oferece-se",
@@ -5672,13 +7263,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-requisitos",
+    "id": "az-0432",
+    "legacyIds": [
+      "m8-requisitos"
+    ],
     "modulo": "Módulo 8",
     "theme": "Anúncios",
     "portuguese": "os requisitos",
     "english": "requirements",
     "zhHans": "要求",
     "zhHant": "要求",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "O anúncio tem vários requisitos.",
     "exampleEn": "The advertisement has several requirements.",
     "exampleZhHans": "广告有多项要求。",
@@ -5686,7 +7282,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-procuro-trabalho",
+    "id": "az-0423",
+    "legacyIds": [
+      "m8-procuro-trabalho"
+    ],
     "modulo": "Módulo 8",
     "theme": "Anúncios",
     "portuguese": "procuro trabalho",
@@ -5700,7 +7299,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-conhecer",
+    "id": "az-0441",
+    "legacyIds": [
+      "m8-conhecer"
+    ],
     "modulo": "Módulo 8",
     "theme": "Capacidade",
     "portuguese": "conhecer",
@@ -5714,7 +7316,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-conseguir",
+    "id": "az-0442",
+    "legacyIds": [
+      "m8-conseguir"
+    ],
     "modulo": "Módulo 8",
     "theme": "Capacidade",
     "portuguese": "conseguir",
@@ -5728,7 +7333,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-adquirir-nacionalidade",
+    "id": "az-0416",
+    "legacyIds": [
+      "m8-adquirir-nacionalidade"
+    ],
     "modulo": "Módulo 8",
     "theme": "Cidadania",
     "portuguese": "adquirir a nacionalidade",
@@ -5742,13 +7350,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-experiencia-profissional",
+    "id": "az-0412",
+    "legacyIds": [
+      "m8-experiencia-profissional"
+    ],
     "modulo": "Módulo 8",
     "theme": "Currículo",
     "portuguese": "a experiência profissional",
     "english": "work experience",
     "zhHans": "工作经验",
     "zhHant": "工作經驗",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho experiência profissional em pastelaria.",
     "exampleEn": "I have professional experience in pastry making.",
     "exampleZhHans": "我有糕点制作方面的工作经验。",
@@ -5756,13 +7369,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-formacao-academica",
+    "id": "az-0413",
+    "legacyIds": [
+      "m8-formacao-academica"
+    ],
     "modulo": "Módulo 8",
     "theme": "Currículo",
     "portuguese": "a formação académica",
     "english": "education",
     "zhHans": "教育",
     "zhHant": "教育",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A formação académica está no CV.",
     "exampleEn": "The academic background is on the CV.",
     "exampleZhHans": "学历在简历上。",
@@ -5770,13 +7388,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-dados-identificacao",
+    "id": "az-0411",
+    "legacyIds": [
+      "m8-dados-identificacao"
+    ],
     "modulo": "Módulo 8",
     "theme": "Currículo",
     "portuguese": "os dados de identificação",
     "english": "personal details",
     "zhHans": "个人资料",
     "zhHant": "個人資料",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "O currículo tem dados de identificação.",
     "exampleEn": "The resume has personal identification details.",
     "exampleZhHans": "简历上有身份资料。",
@@ -5784,13 +7407,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-carta-apresentacao",
+    "id": "az-0406",
+    "legacyIds": [
+      "m8-carta-apresentacao"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a carta de apresentação",
     "english": "cover letter",
     "zhHans": "求职信",
     "zhHant": "求職信",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Envio uma carta de apresentação.",
     "exampleEn": "I am sending a cover letter.",
     "exampleZhHans": "我寄出一封求职信。",
@@ -5798,13 +7426,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-carta-conducao",
+    "id": "az-0428",
+    "legacyIds": [
+      "m8-carta-conducao"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a carta de condução",
     "english": "driving licence",
     "zhHans": "驾驶执照",
     "zhHant": "駕駛執照",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho carta de condução.",
     "exampleEn": "I have a driving licence.",
     "exampleZhHans": "我有驾驶执照。",
@@ -5812,13 +7445,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-disponibilidade",
+    "id": "az-0420",
+    "legacyIds": [
+      "m8-disponibilidade"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a disponibilidade",
     "english": "availability",
     "zhHans": "可上班时间",
     "zhHant": "可上班時間",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho disponibilidade para entrada imediata.",
     "exampleEn": "I am available for an immediate start.",
     "exampleZhHans": "我可以立即入职。",
@@ -5826,13 +7464,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-entrada-imediata",
+    "id": "az-0421",
+    "legacyIds": [
+      "m8-entrada-imediata"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a entrada imediata",
     "english": "immediate start",
     "zhHans": "立即开始",
     "zhHant": "立即開始",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O anúncio pede entrada imediata.",
     "exampleEn": "The advertisement asks for an immediate start.",
     "exampleZhHans": "广告要求立即入职。",
@@ -5840,13 +7483,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-entrevista-trabalho",
+    "id": "az-0414",
+    "legacyIds": [
+      "m8-entrevista-trabalho"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a entrevista de trabalho",
     "english": "job interview",
     "zhHans": "工作面试",
     "zhHant": "工作面試",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Fui a uma entrevista de trabalho.",
     "exampleEn": "I went to a job interview.",
     "exampleZhHans": "我去参加了一次工作面试。",
@@ -5854,13 +7502,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-flexibilidade-horario",
+    "id": "az-0429",
+    "legacyIds": [
+      "m8-flexibilidade-horario"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a flexibilidade de horário",
     "english": "schedule flexibility",
     "zhHans": "日程安排的灵活性",
     "zhHant": "日程安排的彈性",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O emprego pede flexibilidade de horário.",
     "exampleEn": "The job requires schedule flexibility.",
     "exampleZhHans": "这份工作要求时间安排灵活。",
@@ -5868,13 +7521,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-funcao",
+    "id": "az-0417",
+    "legacyIds": [
+      "m8-funcao"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a função",
     "english": "role",
     "zhHans": "角色/功能",
     "zhHant": "角色/功能",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Apresento a minha candidatura para esta função.",
     "exampleEn": "I am submitting my application for this role.",
     "exampleZhHans": "我提交对这个职务的申请。",
@@ -5882,13 +7540,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-oportunidade-trabalho",
+    "id": "az-0415",
+    "legacyIds": [
+      "m8-oportunidade-trabalho"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a oportunidade de trabalho",
     "english": "job opportunity",
     "zhHans": "工作机会",
     "zhHant": "工作機會",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Parece uma boa oportunidade de trabalho.",
     "exampleEn": "It seems like a good job opportunity.",
     "exampleZhHans": "这看起来是一个好的工作机会。",
@@ -5896,13 +7559,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-remuneracao",
+    "id": "az-0434",
+    "legacyIds": [
+      "m8-remuneracao"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a remuneração",
     "english": "pay",
     "zhHans": "薪酬/报酬",
     "zhHant": "薪酬/報酬",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A remuneração é compatível com as funções.",
     "exampleEn": "The remuneration is compatible with the duties.",
     "exampleZhHans": "报酬与职能相符。",
@@ -5910,13 +7578,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-vaga",
+    "id": "az-0408",
+    "legacyIds": [
+      "m8-vaga"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a vaga",
     "english": "vacancy",
     "zhHans": "空缺",
     "zhHant": "空缺",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Há uma vaga de tradutor.",
     "exampleEn": "There is a translator vacancy.",
     "exampleZhHans": "有一个翻译职位空缺。",
@@ -5924,7 +7597,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-candidatar-se",
+    "id": "az-0407",
+    "legacyIds": [
+      "m8-candidatar-se"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "candidatar-se",
@@ -5938,7 +7614,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-desempregado",
+    "id": "az-0424",
+    "legacyIds": [
+      "m8-desempregado"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "desempregado",
@@ -5952,7 +7631,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-despedir-se",
+    "id": "az-0437",
+    "legacyIds": [
+      "m8-despedir-se"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "despedir-se",
@@ -5966,13 +7648,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-anuncio-trabalho",
+    "id": "az-0405",
+    "legacyIds": [
+      "m8-anuncio-trabalho"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o anúncio de trabalho",
     "english": "job ad",
     "zhHans": "招聘广告",
     "zhHant": "徵才廣告",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Li um anúncio de trabalho.",
     "exampleEn": "I read a job advertisement.",
     "exampleZhHans": "我读了一则招聘广告。",
@@ -5980,13 +7667,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-aumento-salario",
+    "id": "az-0438",
+    "legacyIds": [
+      "m8-aumento-salario"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o aumento no salário",
     "english": "pay rise",
     "zhHans": "加薪",
     "zhHant": "加薪",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Recebeu um aumento no salário.",
     "exampleEn": "He or she received a salary increase.",
     "exampleZhHans": "得到了加薪。",
@@ -5994,13 +7686,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-cargo",
+    "id": "az-0435",
+    "legacyIds": [
+      "m8-cargo"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o cargo",
     "english": "position",
     "zhHans": "职位",
     "zhHant": "職位",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ele tem um cargo na associação.",
     "exampleEn": "He has a position in the association.",
     "exampleZhHans": "他在协会里有一个职位。",
@@ -6008,13 +7705,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-curriculo",
+    "id": "az-0409",
+    "legacyIds": [
+      "m8-curriculo"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o currículo",
     "english": "resume",
     "zhHans": "简历/履历",
     "zhHant": "履歷/簡歷",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Enviei o meu currículo para a empresa.",
     "exampleEn": "I sent my resume to the company.",
     "exampleZhHans": "我把我的简历寄给了公司。",
@@ -6022,13 +7724,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-cv",
+    "id": "az-0410",
+    "legacyIds": [
+      "m8-cv"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o CV",
     "english": "CV",
     "zhHans": "简历",
     "zhHant": "履歷",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Enviei o meu CV para a empresa.",
     "exampleEn": "I sent my CV to the company.",
     "exampleZhHans": "我把我的简历寄给了公司。",
@@ -6036,13 +7743,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-ordenado",
+    "id": "az-0419",
+    "legacyIds": [
+      "m8-ordenado"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o ordenado",
     "english": "salary",
     "zhHans": "工资/薪水",
     "zhHant": "工資/薪水",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O ordenado é compatível com as funções.",
     "exampleEn": "The salary is compatible with the duties.",
     "exampleZhHans": "薪水与职能相符。",
@@ -6050,13 +7762,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-subsidio-desemprego",
+    "id": "az-0440",
+    "legacyIds": [
+      "m8-subsidio-desemprego"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o subsídio de desemprego",
     "english": "unemployment benefit",
     "zhHans": "失业救济金",
     "zhHant": "失業救濟金",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Recebeu um subsídio de desemprego.",
     "exampleEn": "He or she received unemployment benefit.",
     "exampleZhHans": "收到了失业补助金。",
@@ -6064,13 +7781,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-vencimento",
+    "id": "az-0430",
+    "legacyIds": [
+      "m8-vencimento"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o vencimento",
     "english": "pay",
     "zhHans": "薪资/工资",
     "zhHant": "薪資/工資",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O vencimento é de 580 euros.",
     "exampleEn": "The pay is 580 euros.",
     "exampleZhHans": "工资是580欧元。",
@@ -6078,13 +7800,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-impostos",
+    "id": "az-0431",
+    "legacyIds": [
+      "m8-impostos"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "os impostos",
     "english": "taxes",
     "zhHans": "税收",
     "zhHant": "稅收",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "O vencimento está sujeito a impostos.",
     "exampleEn": "The pay is subject to taxes.",
     "exampleZhHans": "工资需缴税。",
@@ -6092,13 +7819,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-recibos-verdes",
+    "id": "az-0439",
+    "legacyIds": [
+      "m8-recibos-verdes"
+    ],
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "os recibos verdes",
     "english": "freelance tax receipts",
     "zhHans": "绿色收据/自由职业发票",
     "zhHant": "綠色收據/自由職業收據",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Trabalhou a recibos verdes.",
     "exampleEn": "He or she worked on green receipts.",
     "exampleZhHans": "曾以绿色收据形式工作。",
@@ -6106,13 +7838,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-jardinagem",
+    "id": "az-0425",
+    "legacyIds": [
+      "m8-jardinagem"
+    ],
     "modulo": "Módulo 8",
     "theme": "Profissões",
     "portuguese": "a jardinagem",
     "english": "gardening",
     "zhHans": "园艺",
     "zhHant": "園藝",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Ele tem experiência em jardinagem.",
     "exampleEn": "He has experience in gardening.",
     "exampleZhHans": "他有园艺经验。",
@@ -6120,7 +7857,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-empregada-domestica",
+    "id": "az-0418",
+    "legacyIds": [
+      "m8-empregada-domestica"
+    ],
     "modulo": "Módulo 8",
     "theme": "Profissões",
     "portuguese": "empregado(a) doméstico(a)",
@@ -6134,13 +7874,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-assiduidade",
+    "id": "az-0433",
+    "legacyIds": [
+      "m8-assiduidade"
+    ],
     "modulo": "Módulo 8",
     "theme": "Qualidades",
     "portuguese": "a assiduidade",
     "english": "attendance",
     "zhHans": "出席率",
     "zhHant": "出席率",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A assiduidade é importante no trabalho.",
     "exampleEn": "Attendance is important at work.",
     "exampleZhHans": "出勤在工作中很重要。",
@@ -6148,7 +7893,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-pontual",
+    "id": "az-0427",
+    "legacyIds": [
+      "m8-pontual"
+    ],
     "modulo": "Módulo 8",
     "theme": "Qualidades",
     "portuguese": "pontual",
@@ -6162,7 +7910,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-responsavel",
+    "id": "az-0426",
+    "legacyIds": [
+      "m8-responsavel"
+    ],
     "modulo": "Módulo 8",
     "theme": "Qualidades",
     "portuguese": "responsável",
@@ -6176,7 +7927,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-e-permitido",
+    "id": "az-0444",
+    "legacyIds": [
+      "m8-e-permitido"
+    ],
     "modulo": "Módulo 8",
     "theme": "Regras",
     "portuguese": "é permitido",
@@ -6190,7 +7944,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-e-proibido",
+    "id": "az-0443",
+    "legacyIds": [
+      "m8-e-proibido"
+    ],
     "modulo": "Módulo 8",
     "theme": "Regras",
     "portuguese": "é proibido",
@@ -6204,13 +7961,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-local-trabalho",
+    "id": "az-0445",
+    "legacyIds": [
+      "m8-local-trabalho"
+    ],
     "modulo": "Módulo 8",
     "theme": "Regras",
     "portuguese": "o local de trabalho",
     "english": "workplace",
     "zhHans": "工作场所",
     "zhHant": "工作場所",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Não se pode fumar no local de trabalho.",
     "exampleEn": "You cannot smoke in the workplace.",
     "exampleZhHans": "工作场所内不能吸烟。",
@@ -6218,7 +7980,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m8-desde",
+    "id": "az-0436",
+    "legacyIds": [
+      "m8-desde"
+    ],
     "modulo": "Módulo 8",
     "theme": "Tempo",
     "portuguese": "desde",
@@ -6232,13 +7997,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-mais-barato",
+    "id": "az-0472",
+    "legacyIds": [
+      "m9-mais-barato"
+    ],
     "modulo": "Módulo 9",
     "theme": "Compras",
     "portuguese": "o mais barato",
     "english": "the cheapest",
     "zhHans": "最便宜的",
     "zhHant": "最便宜的",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O produto mais barato é a consola.",
     "exampleEn": "The cheapest product is the game console.",
     "exampleZhHans": "最便宜的产品是游戏机。",
@@ -6246,13 +8016,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-mais-caro",
+    "id": "az-0471",
+    "legacyIds": [
+      "m9-mais-caro"
+    ],
     "modulo": "Módulo 9",
     "theme": "Compras",
     "portuguese": "o mais caro",
     "english": "the most expensive",
     "zhHans": "最贵的",
     "zhHant": "最貴的",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O produto mais caro é a televisão.",
     "exampleEn": "The most expensive product is the television.",
     "exampleZhHans": "最贵的产品是电视。",
@@ -6260,7 +8035,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-otimo",
+    "id": "az-0473",
+    "legacyIds": [
+      "m9-otimo"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição",
     "portuguese": "ótimo",
@@ -6274,7 +8052,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-pessimo",
+    "id": "az-0474",
+    "legacyIds": [
+      "m9-pessimo"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição",
     "portuguese": "péssimo",
@@ -6288,7 +8069,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-antigo",
+    "id": "az-0452",
+    "legacyIds": [
+      "m9-antigo"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "antigo",
@@ -6302,7 +8086,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-barulhento",
+    "id": "az-0451",
+    "legacyIds": [
+      "m9-barulhento"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "barulhento",
@@ -6316,7 +8103,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-calmo",
+    "id": "az-0454",
+    "legacyIds": [
+      "m9-calmo"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "calmo",
@@ -6330,7 +8120,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-moderno",
+    "id": "az-0455",
+    "legacyIds": [
+      "m9-moderno"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "moderno",
@@ -6344,7 +8137,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-movimentado",
+    "id": "az-0453",
+    "legacyIds": [
+      "m9-movimentado"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "movimentado",
@@ -6358,7 +8154,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-muito-transito",
+    "id": "az-0458",
+    "legacyIds": [
+      "m9-muito-transito"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "muito trânsito",
@@ -6372,7 +8171,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-poluido",
+    "id": "az-0456",
+    "legacyIds": [
+      "m9-poluido"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "poluído",
@@ -6386,7 +8188,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-pouco-transito",
+    "id": "az-0457",
+    "legacyIds": [
+      "m9-pouco-transito"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "pouco trânsito",
@@ -6400,7 +8205,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-magro",
+    "id": "az-0449",
+    "legacyIds": [
+      "m9-magro"
+    ],
     "modulo": "Módulo 9",
     "theme": "Descrição de pessoas",
     "portuguese": "magro",
@@ -6414,13 +8222,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-cedula",
+    "id": "az-0463",
+    "legacyIds": [
+      "m9-cedula"
+    ],
     "modulo": "Módulo 9",
     "theme": "Escola",
     "portuguese": "a cédula",
     "english": "birth certificate",
     "zhHans": "出生证明",
     "zhHant": "出生證明",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A escola pede a cédula da criança.",
     "exampleEn": "The school asks for the child's birth certificate.",
     "exampleZhHans": "学校要求提供孩子的出生证明。",
@@ -6428,7 +8241,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-matricular",
+    "id": "az-0462",
+    "legacyIds": [
+      "m9-matricular"
+    ],
     "modulo": "Módulo 9",
     "theme": "Escola",
     "portuguese": "matricular",
@@ -6442,13 +8258,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-agua-corrente",
+    "id": "az-0459",
+    "legacyIds": [
+      "m9-agua-corrente"
+    ],
     "modulo": "Módulo 9",
     "theme": "Hábitos",
     "portuguese": "a água corrente",
     "english": "running water",
     "zhHans": "自来水",
     "zhHant": "自來水",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "As pessoas usam água corrente.",
     "exampleEn": "People use running water.",
     "exampleZhHans": "人们使用自来水。",
@@ -6456,7 +8277,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-falar-telemovel",
+    "id": "az-0460",
+    "legacyIds": [
+      "m9-falar-telemovel"
+    ],
     "modulo": "Módulo 9",
     "theme": "Hábitos",
     "portuguese": "falar ao telemóvel",
@@ -6470,7 +8294,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-procura-vida-melhor",
+    "id": "az-0466",
+    "legacyIds": [
+      "m9-procura-vida-melhor"
+    ],
     "modulo": "Módulo 9",
     "theme": "Migração",
     "portuguese": "à procura de uma vida melhor",
@@ -6484,7 +8311,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-emigrar",
+    "id": "az-0467",
+    "legacyIds": [
+      "m9-emigrar"
+    ],
     "modulo": "Módulo 9",
     "theme": "Migração",
     "portuguese": "emigrar",
@@ -6498,7 +8328,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-agora",
+    "id": "az-0446",
+    "legacyIds": [
+      "m9-agora"
+    ],
     "modulo": "Módulo 9",
     "theme": "Passado / Presente",
     "portuguese": "agora",
@@ -6512,7 +8345,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-antigamente",
+    "id": "az-0447",
+    "legacyIds": [
+      "m9-antigamente"
+    ],
     "modulo": "Módulo 9",
     "theme": "Passado / Presente",
     "portuguese": "antigamente",
@@ -6526,7 +8362,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-dantes",
+    "id": "az-0448",
+    "legacyIds": [
+      "m9-dantes"
+    ],
     "modulo": "Módulo 9",
     "theme": "Passado / Presente",
     "portuguese": "dantes",
@@ -6540,13 +8379,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-vizinhos",
+    "id": "az-0468",
+    "legacyIds": [
+      "m9-vizinhos"
+    ],
     "modulo": "Módulo 9",
     "theme": "Pessoas",
     "portuguese": "os vizinhos",
     "english": "neighbours",
     "zhHans": "邻居",
     "zhHant": "鄰居",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Os vizinhos são portugueses.",
     "exampleEn": "The neighbours are Portuguese.",
     "exampleZhHans": "邻居们是葡萄牙人。",
@@ -6554,13 +8398,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-calcas-ganga",
+    "id": "az-0450",
+    "legacyIds": [
+      "m9-calcas-ganga"
+    ],
     "modulo": "Módulo 9",
     "theme": "Roupa e acessórios",
     "portuguese": "as calças de ganga",
     "english": "jeans",
     "zhHans": "牛仔裤",
     "zhHant": "牛仔褲",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Ele usava calças de ganga.",
     "exampleEn": "He used to wear jeans.",
     "exampleZhHans": "他以前穿牛仔裤。",
@@ -6568,13 +8417,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-boletim-vacinas",
+    "id": "az-0464",
+    "legacyIds": [
+      "m9-boletim-vacinas"
+    ],
     "modulo": "Módulo 9",
     "theme": "Saúde",
     "portuguese": "o boletim de vacinas",
     "english": "vaccination record",
     "zhHans": "疫苗接种记录",
     "zhHant": "疫苗接種記錄",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "A escola pede o boletim de vacinas.",
     "exampleEn": "The school asks for the vaccination record.",
     "exampleZhHans": "学校要求提供疫苗接种记录。",
@@ -6582,13 +8436,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-problemas-visuais-auditivos",
+    "id": "az-0465",
+    "legacyIds": [
+      "m9-problemas-visuais-auditivos"
+    ],
     "modulo": "Módulo 9",
     "theme": "Saúde",
     "portuguese": "os problemas visuais e auditivos",
     "english": "vision and hearing problems",
     "zhHans": "视力和听力问题",
     "zhHant": "視力和聽力問題",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "A ficha permite detetar problemas visuais e auditivos.",
     "exampleEn": "The form makes it possible to detect vision and hearing problems.",
     "exampleZhHans": "表格可以帮助发现视力和听力问题。",
@@ -6596,7 +8455,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-naquela-epoca",
+    "id": "az-0469",
+    "legacyIds": [
+      "m9-naquela-epoca"
+    ],
     "modulo": "Módulo 9",
     "theme": "Tempo",
     "portuguese": "naquela época",
@@ -6610,7 +8472,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-naquele-tempo",
+    "id": "az-0470",
+    "legacyIds": [
+      "m9-naquele-tempo"
+    ],
     "modulo": "Módulo 9",
     "theme": "Tempo",
     "portuguese": "naquele tempo",
@@ -6624,7 +8489,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m9-andar-carro",
+    "id": "az-0461",
+    "legacyIds": [
+      "m9-andar-carro"
+    ],
     "modulo": "Módulo 9",
     "theme": "Transportes",
     "portuguese": "andar de carro",
@@ -6638,13 +8506,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-alimentacao-saudavel",
+    "id": "az-0496",
+    "legacyIds": [
+      "m10-alimentacao-saudavel"
+    ],
     "modulo": "Módulo 10",
     "theme": "Alimentação",
     "portuguese": "a alimentação saudável",
     "english": "healthy diet",
     "zhHans": "健康的饮食",
     "zhHant": "健康的飲食",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tem tido uma alimentação saudável?",
     "exampleEn": "Have you been eating a healthy diet?",
     "exampleZhHans": "您一直有健康饮食吗？",
@@ -6652,13 +8525,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-refeicao",
+    "id": "az-0495",
+    "legacyIds": [
+      "m10-refeicao"
+    ],
     "modulo": "Módulo 10",
     "theme": "Alimentação",
     "portuguese": "a refeição",
     "english": "meal",
     "zhHans": "一顿饭",
     "zhHant": "一頓飯",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Come as refeições a horas?",
     "exampleEn": "Do you eat your meals on time?",
     "exampleZhHans": "您按时吃饭吗？",
@@ -6666,13 +8544,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-construcao-civil",
+    "id": "az-0504",
+    "legacyIds": [
+      "m10-construcao-civil"
+    ],
     "modulo": "Módulo 10",
     "theme": "Emprego",
     "portuguese": "a construção civil",
     "english": "construction work",
     "zhHans": "建筑工程",
     "zhHant": "建築工程",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Ultimamente eles têm trabalhado na construção civil.",
     "exampleEn": "Lately, they have been working in construction.",
     "exampleZhHans": "最近他们一直在建筑行业工作。",
@@ -6680,7 +8563,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-perder-o-emprego",
+    "id": "az-0485",
+    "legacyIds": [
+      "m10-perder-o-emprego"
+    ],
     "modulo": "Módulo 10",
     "theme": "Emprego",
     "portuguese": "perder o emprego",
@@ -6694,7 +8580,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-procurar-emprego",
+    "id": "az-0486",
+    "legacyIds": [
+      "m10-procurar-emprego"
+    ],
     "modulo": "Módulo 10",
     "theme": "Emprego",
     "portuguese": "procurar emprego",
@@ -6708,7 +8597,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-estar-ocupado",
+    "id": "az-0487",
+    "legacyIds": [
+      "m10-estar-ocupado"
+    ],
     "modulo": "Módulo 10",
     "theme": "Estado",
     "portuguese": "estar ocupado(a)",
@@ -6722,7 +8614,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-depender-de",
+    "id": "az-0494",
+    "legacyIds": [
+      "m10-depender-de"
+    ],
     "modulo": "Módulo 10",
     "theme": "Família",
     "portuguese": "depender de",
@@ -6736,7 +8631,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-navegar-na-net",
+    "id": "az-0482",
+    "legacyIds": [
+      "m10-navegar-na-net"
+    ],
     "modulo": "Módulo 10",
     "theme": "Hábitos",
     "portuguese": "navegar na net",
@@ -6750,7 +8648,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-descansar",
+    "id": "az-0489",
+    "legacyIds": [
+      "m10-descansar"
+    ],
     "modulo": "Módulo 10",
     "theme": "Lazer",
     "portuguese": "descansar",
@@ -6764,7 +8665,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-tirar-ferias",
+    "id": "az-0488",
+    "legacyIds": [
+      "m10-tirar-ferias"
+    ],
     "modulo": "Módulo 10",
     "theme": "Lazer",
     "portuguese": "tirar férias",
@@ -6778,13 +8682,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-doenca",
+    "id": "az-0493",
+    "legacyIds": [
+      "m10-doenca"
+    ],
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "a doença",
     "english": "illness",
     "zhHans": "疾病",
     "zhHant": "疾病",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Sofre de alguma doença?",
     "exampleEn": "Do you suffer from any illness?",
     "exampleZhHans": "您患有什么疾病吗？",
@@ -6792,13 +8701,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-dor-de-cabeca",
+    "id": "az-0492",
+    "legacyIds": [
+      "m10-dor-de-cabeca"
+    ],
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "a dor de cabeça",
     "english": "headache",
     "zhHans": "头痛",
     "zhHant": "頭痛",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho tido muitas dores de cabeça.",
     "exampleEn": "I have been having many headaches.",
     "exampleZhHans": "我最近经常头痛。",
@@ -6806,13 +8720,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-consultorio",
+    "id": "az-0490",
+    "legacyIds": [
+      "m10-consultorio"
+    ],
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "o consultório",
     "english": "doctor's office",
     "zhHans": "医生办公室",
     "zhHant": "醫生辦公室",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O Manuel está no consultório.",
     "exampleEn": "Manuel is at the doctor's office.",
     "exampleZhHans": "Manuel 在诊所。",
@@ -6820,13 +8739,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-stress",
+    "id": "az-0497",
+    "legacyIds": [
+      "m10-stress"
+    ],
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "o stresse",
     "english": "stress",
     "zhHans": "压力",
     "zhHant": "壓力",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tem de ter uma vida mais moderada.",
     "exampleEn": "You have to lead a more moderate life.",
     "exampleZhHans": "您必须过更有节制的生活。",
@@ -6834,7 +8758,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-sentir-se-bem",
+    "id": "az-0491",
+    "legacyIds": [
+      "m10-sentir-se-bem"
+    ],
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "sentir-se bem",
@@ -6848,13 +8775,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-saudades",
+    "id": "az-0501",
+    "legacyIds": [
+      "m10-saudades"
+    ],
     "modulo": "Módulo 10",
     "theme": "Sentimentos",
     "portuguese": "as saudades",
     "english": "longing; missing someone",
     "zhHans": "思念/想念",
     "zhHant": "思念/想念",
+    "pos": "noun",
+    "gender": "f-pl",
     "examplePt": "Têm saudades do peixe fresco.",
     "exampleEn": "They miss fresh fish.",
     "exampleZhHans": "他们想念新鲜的鱼。",
@@ -6862,7 +8794,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-sentir-falta-de",
+    "id": "az-0498",
+    "legacyIds": [
+      "m10-sentir-falta-de"
+    ],
     "modulo": "Módulo 10",
     "theme": "Sentimentos",
     "portuguese": "sentir falta de",
@@ -6876,13 +8811,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-agencia-de-viagens",
+    "id": "az-0499",
+    "legacyIds": [
+      "m10-agencia-de-viagens"
+    ],
     "modulo": "Módulo 10",
     "theme": "Serviços",
     "portuguese": "a agência de viagens",
     "english": "travel agency",
     "zhHans": "旅行社",
     "zhHant": "旅行社",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Ela trabalha numa agência de viagens.",
     "exampleEn": "She works at a travel agency.",
     "exampleZhHans": "她在一家旅行社工作。",
@@ -6890,7 +8830,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-ate-agora",
+    "id": "az-0502",
+    "legacyIds": [
+      "m10-ate-agora"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "até agora",
@@ -6904,7 +8847,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-cedo",
+    "id": "az-0483",
+    "legacyIds": [
+      "m10-cedo"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "cedo",
@@ -6918,7 +8864,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-desde-que",
+    "id": "az-0503",
+    "legacyIds": [
+      "m10-desde-que"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "desde que",
@@ -6932,7 +8881,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-ha-dois-dias",
+    "id": "az-0477",
+    "legacyIds": [
+      "m10-ha-dois-dias"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "há dois dias",
@@ -6946,7 +8898,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-ha-um-mes",
+    "id": "az-0476",
+    "legacyIds": [
+      "m10-ha-um-mes"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "há um mês",
@@ -6960,7 +8915,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-no-mes-passado",
+    "id": "az-0479",
+    "legacyIds": [
+      "m10-no-mes-passado"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "no mês passado",
@@ -6974,7 +8932,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-recente",
+    "id": "az-0475",
+    "legacyIds": [
+      "m10-recente"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "recente",
@@ -6988,7 +8949,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-tarde",
+    "id": "az-0484",
+    "legacyIds": [
+      "m10-tarde"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "tarde",
@@ -7002,7 +8966,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-ultimamente",
+    "id": "az-0478",
+    "legacyIds": [
+      "m10-ultimamente"
+    ],
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "ultimamente",
@@ -7016,7 +8983,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-a-pe",
+    "id": "az-0480",
+    "legacyIds": [
+      "m10-a-pe"
+    ],
     "modulo": "Módulo 10",
     "theme": "Transportes",
     "portuguese": "a pé",
@@ -7030,7 +9000,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-de-carro",
+    "id": "az-0481",
+    "legacyIds": [
+      "m10-de-carro"
+    ],
     "modulo": "Módulo 10",
     "theme": "Transportes",
     "portuguese": "de carro",
@@ -7044,13 +9017,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m10-bilhete-de-aviao",
+    "id": "az-0500",
+    "legacyIds": [
+      "m10-bilhete-de-aviao"
+    ],
     "modulo": "Módulo 10",
     "theme": "Viagens",
     "portuguese": "o bilhete de avião",
     "english": "plane ticket",
     "zhHans": "机票",
     "zhHant": "機票",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Vendemos bilhetes de avião.",
     "exampleEn": "We sell plane tickets.",
     "exampleZhHans": "我们出售机票。",
@@ -7058,13 +9036,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-especialidade",
+    "id": "az-0540",
+    "legacyIds": [
+      "m11-especialidade"
+    ],
     "modulo": "Módulo 11",
     "theme": "Alimentação",
     "portuguese": "a especialidade",
     "english": "specialty",
     "zhHans": "特色菜/专长",
     "zhHant": "特色菜",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A especialidade são os bolinhos de bacalhau.",
     "exampleEn": "The specialty is codfish cakes.",
     "exampleZhHans": "特色菜是鳕鱼小丸子。",
@@ -7072,13 +9055,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-pastel-de-bacalhau",
+    "id": "az-0539",
+    "legacyIds": [
+      "m11-pastel-de-bacalhau"
+    ],
     "modulo": "Módulo 11",
     "theme": "Alimentação",
     "portuguese": "o pastel de bacalhau",
     "english": "codfish cake",
     "zhHans": "鳕鱼饼",
     "zhHant": "鱈魚餅",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tens de explicar como se fazem os pastéis de bacalhau.",
     "exampleEn": "You have to explain how codfish cakes are made.",
     "exampleZhHans": "你得解释鳕鱼饼是怎么做的。",
@@ -7086,13 +9074,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-marca",
+    "id": "az-0511",
+    "legacyIds": [
+      "m11-marca"
+    ],
     "modulo": "Módulo 11",
     "theme": "Compras",
     "portuguese": "a marca",
     "english": "brand",
     "zhHans": "品牌",
     "zhHant": "品牌",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O telemóvel é da marca Vodafone.",
     "exampleEn": "The mobile phone is from the Vodafone brand.",
     "exampleZhHans": "这部手机是 Vodafone 品牌的。",
@@ -7100,13 +9093,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-recibo",
+    "id": "az-0528",
+    "legacyIds": [
+      "m11-recibo"
+    ],
     "modulo": "Módulo 11",
     "theme": "Compras",
     "portuguese": "o recibo",
     "english": "receipt",
     "zhHans": "收据/付款凭证",
     "zhHant": "收據/付款憑證",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Junto cópia do recibo de compra.",
     "exampleEn": "I am enclosing a copy of the purchase receipt.",
     "exampleZhHans": "我附上购买收据的副本。",
@@ -7114,13 +9112,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-ferramenta",
+    "id": "az-0541",
+    "legacyIds": [
+      "m11-ferramenta"
+    ],
     "modulo": "Módulo 11",
     "theme": "Comunicação",
     "portuguese": "a ferramenta",
     "english": "tool",
     "zhHans": "工具",
     "zhHant": "工具",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Esta ferramenta tem regras próprias.",
     "exampleEn": "This tool has its own rules.",
     "exampleZhHans": "这个工具有自己的规则。",
@@ -7128,13 +9131,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-ombro",
+    "id": "az-0548",
+    "legacyIds": [
+      "m11-ombro"
+    ],
     "modulo": "Módulo 11",
     "theme": "Corpo humano",
     "portuguese": "o ombro",
     "english": "shoulder",
     "zhHans": "肩膀",
     "zhHant": "肩膀",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tinha dores no ombro direito.",
     "exampleEn": "He had pain in his right shoulder.",
     "exampleZhHans": "他右肩疼痛。",
@@ -7142,13 +9150,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-rececao",
+    "id": "az-0513",
+    "legacyIds": [
+      "m11-rececao"
+    ],
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "a receção",
     "english": "receipt; reception",
     "zhHans": "接待处/接待",
     "zhHant": "接待處/接待",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A receção da encomenda foi rápida.",
     "exampleEn": "The order was received quickly.",
     "exampleZhHans": "包裹接收得很快。",
@@ -7156,13 +9169,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-urgencia",
+    "id": "az-0512",
+    "legacyIds": [
+      "m11-urgencia"
+    ],
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "a urgência",
     "english": "urgency",
     "zhHans": "紧迫性",
     "zhHant": "緊迫性",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Tenho muita urgência na receção do mesmo.",
     "exampleEn": "I urgently need to receive it.",
     "exampleZhHans": "我非常急需收到该物品。",
@@ -7170,7 +9188,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-dar-noticias",
+    "id": "az-0514",
+    "legacyIds": [
+      "m11-dar-noticias"
+    ],
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "dar notícias",
@@ -7184,7 +9205,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-exmo-senhor",
+    "id": "az-0510",
+    "legacyIds": [
+      "m11-exmo-senhor"
+    ],
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "Ex.mo Senhor",
@@ -7198,13 +9222,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-anexo",
+    "id": "az-0520",
+    "legacyIds": [
+      "m11-anexo"
+    ],
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "o anexo",
     "english": "attachment; enclosure",
     "zhHans": "附件/附录",
     "zhHant": "附件/附錄",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Anexo: Currículo.",
     "exampleEn": "Attachment: Resume.",
     "exampleZhHans": "附件：简历。",
@@ -7212,13 +9241,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-assunto",
+    "id": "az-0521",
+    "legacyIds": [
+      "m11-assunto"
+    ],
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "o assunto",
     "english": "subject",
     "zhHans": "主题",
     "zhHant": "主題",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Assunto: Reclamação por roupa estragada.",
     "exampleEn": "Subject: Complaint about damaged clothing.",
     "exampleZhHans": "主题：关于衣物损坏的投诉。",
@@ -7226,13 +9260,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-destinatario",
+    "id": "az-0542",
+    "legacyIds": [
+      "m11-destinatario"
+    ],
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "o destinatário",
     "english": "recipient",
     "zhHans": "接受者",
     "zhHant": "接受者",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Não conhecemos o destinatário.",
     "exampleEn": "We do not know the recipient.",
     "exampleZhHans": "我们不认识收件人。",
@@ -7240,13 +9279,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-nota-de-dez-euros",
+    "id": "az-0544",
+    "legacyIds": [
+      "m11-nota-de-dez-euros"
+    ],
     "modulo": "Módulo 11",
     "theme": "Dinheiro",
     "portuguese": "a nota de 10 euros",
     "english": "10-euro banknote",
     "zhHans": "10欧元纸币",
     "zhHant": "10歐元紙幣",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A nova nota de 10 euros é apresentada segunda-feira.",
     "exampleEn": "The new 10-euro banknote will be presented on Monday.",
     "exampleZhHans": "新版 10 欧元纸币将于星期一发布。",
@@ -7254,13 +9298,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-diploma",
+    "id": "az-0517",
+    "legacyIds": [
+      "m11-diploma"
+    ],
     "modulo": "Módulo 11",
     "theme": "Educação",
     "portuguese": "o diploma",
     "english": "diploma",
     "zhHans": "文凭",
     "zhHant": "文憑",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Recebi o meu diploma de Informática.",
     "exampleEn": "I received my diploma in Computer Science.",
     "exampleZhHans": "我收到了我的信息学文凭。",
@@ -7268,13 +9317,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-candidatura",
+    "id": "az-0536",
+    "legacyIds": [
+      "m11-candidatura"
+    ],
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "a candidatura",
     "english": "application",
     "zhHans": "申请",
     "zhHant": "申請/求職申請",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Saiu o resultado das candidaturas.",
     "exampleEn": "The application results have been released.",
     "exampleZhHans": "申请结果出来了。",
@@ -7282,13 +9336,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-competencia",
+    "id": "az-0518",
+    "legacyIds": [
+      "m11-competencia"
+    ],
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "a competência",
     "english": "skill; competence",
     "zhHans": "能力/技能",
     "zhHant": "能力/技能",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Desenvolvi competências na minha formação.",
     "exampleEn": "I developed skills during my training.",
     "exampleZhHans": "我在培训中培养了技能。",
@@ -7296,13 +9355,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-entrevista",
+    "id": "az-0519",
+    "legacyIds": [
+      "m11-entrevista"
+    ],
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "a entrevista",
     "english": "interview",
     "zhHans": "面试/采访",
     "zhHant": "面試/採訪",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Gostaria de uma entrevista pessoal.",
     "exampleEn": "I would like a personal interview.",
     "exampleZhHans": "我希望进行一次面谈。",
@@ -7310,7 +9374,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-diretor",
+    "id": "az-0515",
+    "legacyIds": [
+      "m11-diretor"
+    ],
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "diretor(a)",
@@ -7324,13 +9391,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-recursos-humanos",
+    "id": "az-0516",
+    "legacyIds": [
+      "m11-recursos-humanos"
+    ],
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "os recursos humanos",
     "english": "human resources",
     "zhHans": "人力资源",
     "zhHant": "人力資源",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Falei com os Recursos Humanos.",
     "exampleEn": "I spoke with Human Resources.",
     "exampleZhHans": "我和人力资源部谈过了。",
@@ -7338,7 +9410,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-ser-contactado",
+    "id": "az-0538",
+    "legacyIds": [
+      "m11-ser-contactado"
+    ],
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "ser contactado(a)",
@@ -7352,7 +9427,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-alguem",
+    "id": "az-0553",
+    "legacyIds": [
+      "m11-alguem"
+    ],
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "alguém",
@@ -7366,7 +9444,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-nada",
+    "id": "az-0556",
+    "legacyIds": [
+      "m11-nada"
+    ],
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "nada",
@@ -7380,7 +9461,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-ninguem",
+    "id": "az-0554",
+    "legacyIds": [
+      "m11-ninguem"
+    ],
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "ninguém",
@@ -7394,7 +9478,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-tudo",
+    "id": "az-0555",
+    "legacyIds": [
+      "m11-tudo"
+    ],
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "tudo",
@@ -7408,7 +9495,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-varias",
+    "id": "az-0558",
+    "legacyIds": [
+      "m11-varias"
+    ],
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "várias",
@@ -7422,7 +9512,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-varios",
+    "id": "az-0557",
+    "legacyIds": [
+      "m11-varios"
+    ],
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "vários",
@@ -7436,7 +9529,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-residente",
+    "id": "az-0546",
+    "legacyIds": [
+      "m11-residente"
+    ],
     "modulo": "Módulo 11",
     "theme": "Identificação",
     "portuguese": "residente",
@@ -7450,13 +9546,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-preferencia",
+    "id": "az-0551",
+    "legacyIds": [
+      "m11-preferencia"
+    ],
     "modulo": "Módulo 11",
     "theme": "Opiniões",
     "portuguese": "a preferência",
     "english": "preference",
     "zhHans": "偏爱",
     "zhHant": "偏愛",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O futebol está em primeiro lugar na preferência.",
     "exampleEn": "Football is the top preference.",
     "exampleZhHans": "足球在偏好中位居第一。",
@@ -7464,7 +9565,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-tradutor",
+    "id": "az-0537",
+    "legacyIds": [
+      "m11-tradutor"
+    ],
     "modulo": "Módulo 11",
     "theme": "Profissões",
     "portuguese": "tradutor(a)",
@@ -7478,13 +9582,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-chavena",
+    "id": "az-0532",
+    "legacyIds": [
+      "m11-chavena"
+    ],
     "modulo": "Módulo 11",
     "theme": "Receitas",
     "portuguese": "a chávena",
     "english": "cup",
     "zhHans": "杯子",
     "zhHant": "杯子",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Use uma chávena de açúcar.",
     "exampleEn": "Use a cup of sugar.",
     "exampleZhHans": "使用一杯糖。",
@@ -7492,13 +9601,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-ingrediente",
+    "id": "az-0531",
+    "legacyIds": [
+      "m11-ingrediente"
+    ],
     "modulo": "Módulo 11",
     "theme": "Receitas",
     "portuguese": "o ingrediente",
     "english": "ingredient",
     "zhHans": "成分",
     "zhHant": "成分",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Misture os ingredientes.",
     "exampleEn": "Mix the ingredients.",
     "exampleZhHans": "把这些食材混合起来。",
@@ -7506,13 +9620,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-indemnizacao",
+    "id": "az-0527",
+    "legacyIds": [
+      "m11-indemnizacao"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a indemnização",
     "english": "compensation",
     "zhHans": "赔偿",
     "zhHant": "賠償",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Exijo uma indemnização de 150 euros.",
     "exampleEn": "I demand compensation of 150 euros.",
     "exampleZhHans": "我要求 150 欧元的赔偿。",
@@ -7520,13 +9639,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-negligencia",
+    "id": "az-0545",
+    "legacyIds": [
+      "m11-negligencia"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a negligência",
     "english": "negligence",
     "zhHans": "疏忽",
     "zhHant": "疏忽",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Assunto: Negligência dos serviços do Centro de Saúde.",
     "exampleEn": "Subject: Negligence in the services of the Health Center.",
     "exampleZhHans": "主题：卫生中心服务疏忽。",
@@ -7534,13 +9658,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-queixa",
+    "id": "az-0534",
+    "legacyIds": [
+      "m11-queixa"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a queixa",
     "english": "complaint",
     "zhHans": "抱怨/投诉",
     "zhHant": "抱怨/投訴",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A DECO tem recebido queixas de consumidores.",
     "exampleEn": "DECO has received complaints from consumers.",
     "exampleZhHans": "DECO 一直收到消费者的投诉。",
@@ -7548,13 +9677,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-roupa-estragada",
+    "id": "az-0522",
+    "legacyIds": [
+      "m11-roupa-estragada"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a roupa estragada",
     "english": "damaged clothing",
     "zhHans": "损坏的衣服",
     "zhHant": "損壞的衣服",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A reclamação é por roupa estragada.",
     "exampleEn": "The complaint is about damaged clothing.",
     "exampleZhHans": "投诉是因为衣物损坏。",
@@ -7562,7 +9696,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-exigir",
+    "id": "az-0526",
+    "legacyIds": [
+      "m11-exigir"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "exigir",
@@ -7576,13 +9713,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-consumidor",
+    "id": "az-0535",
+    "legacyIds": [
+      "m11-consumidor"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "o consumidor",
     "english": "consumer",
     "zhHans": "消费者",
     "zhHant": "消費者",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Os consumidores fizeram queixas.",
     "exampleEn": "Consumers made complaints.",
     "exampleZhHans": "消费者提出了投诉。",
@@ -7590,13 +9732,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-estrago",
+    "id": "az-0525",
+    "legacyIds": [
+      "m11-estrago"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "o estrago",
     "english": "damage",
     "zhHans": "损害",
     "zhHant": "損害",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "A empresa é responsável pelos estragos.",
     "exampleEn": "The company is responsible for the damage.",
     "exampleZhHans": "该公司应对损坏负责。",
@@ -7604,7 +9751,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-reclamar",
+    "id": "az-0533",
+    "legacyIds": [
+      "m11-reclamar"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "reclamar",
@@ -7618,7 +9768,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-recorrer",
+    "id": "az-0530",
+    "legacyIds": [
+      "m11-recorrer"
+    ],
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "recorrer",
@@ -7632,13 +9785,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-fato",
+    "id": "az-0524",
+    "legacyIds": [
+      "m11-fato"
+    ],
     "modulo": "Módulo 11",
     "theme": "Roupa",
     "portuguese": "o fato",
     "english": "suit",
     "zhHans": "套装",
     "zhHant": "套裝",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Entreguei um fato cinzento escuro.",
     "exampleEn": "I delivered a dark gray suit.",
     "exampleZhHans": "我交了一套深灰色西装。",
@@ -7646,13 +9804,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-fratura",
+    "id": "az-0549",
+    "legacyIds": [
+      "m11-fratura"
+    ],
     "modulo": "Módulo 11",
     "theme": "Saúde",
     "portuguese": "a fratura",
     "english": "fracture",
     "zhHans": "骨折",
     "zhHant": "骨折",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Ele tinha uma fratura muito grave.",
     "exampleEn": "He had a very serious fracture.",
     "exampleZhHans": "他有一处非常严重的骨折。",
@@ -7660,7 +9823,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-grave",
+    "id": "az-0550",
+    "legacyIds": [
+      "m11-grave"
+    ],
     "modulo": "Módulo 11",
     "theme": "Saúde",
     "portuguese": "grave",
@@ -7674,7 +9840,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-queixar-se",
+    "id": "az-0547",
+    "legacyIds": [
+      "m11-queixar-se"
+    ],
     "modulo": "Módulo 11",
     "theme": "Saúde",
     "portuguese": "queixar-se de",
@@ -7688,7 +9857,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-assaltar",
+    "id": "az-0552",
+    "legacyIds": [
+      "m11-assaltar"
+    ],
     "modulo": "Módulo 11",
     "theme": "Segurança",
     "portuguese": "assaltar",
@@ -7702,13 +9874,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-estabelecimento",
+    "id": "az-0523",
+    "legacyIds": [
+      "m11-estabelecimento"
+    ],
     "modulo": "Módulo 11",
     "theme": "Serviços",
     "portuguese": "o estabelecimento",
     "english": "establishment; shop",
     "zhHans": "机构/商店",
     "zhHant": "機構/商店",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Entreguei a roupa no vosso estabelecimento.",
     "exampleEn": "I delivered the clothing to your establishment.",
     "exampleZhHans": "我把衣服交到了贵店。",
@@ -7716,13 +9893,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-prazo",
+    "id": "az-0529",
+    "legacyIds": [
+      "m11-prazo"
+    ],
     "modulo": "Módulo 11",
     "theme": "Tempo",
     "portuguese": "o prazo",
     "english": "deadline",
     "zhHans": "最后期限",
     "zhHant": "最後期限",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
     "exampleEn": "The amount must be delivered within eight days.",
     "exampleZhHans": "该金额应在八天期限内交付。",
@@ -7730,13 +9912,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-carta-de-reclamacao",
+    "id": "az-0508",
+    "legacyIds": [
+      "m11-carta-de-reclamacao"
+    ],
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a carta de reclamação",
     "english": "complaint letter",
     "zhHans": "投诉信",
     "zhHant": "投訴信",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Devemos escrever uma carta de reclamação.",
     "exampleEn": "We should write a complaint letter.",
     "exampleZhHans": "我们应该写一封投诉信。",
@@ -7744,13 +9931,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-carta-formal",
+    "id": "az-0507",
+    "legacyIds": [
+      "m11-carta-formal"
+    ],
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a carta formal",
     "english": "formal letter",
     "zhHans": "正式信函",
     "zhHant": "正式信函",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Escrevi uma carta formal.",
     "exampleEn": "I wrote a formal letter.",
     "exampleZhHans": "我写了一封正式信函。",
@@ -7758,13 +9950,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-mensagem",
+    "id": "az-0506",
+    "legacyIds": [
+      "m11-mensagem"
+    ],
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a mensagem",
     "english": "message",
     "zhHans": "信息",
     "zhHant": "訊息",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Mandei uma mensagem.",
     "exampleEn": "I sent a message.",
     "exampleZhHans": "我发了一条消息。",
@@ -7772,13 +9969,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-noticia",
+    "id": "az-0505",
+    "legacyIds": [
+      "m11-noticia"
+    ],
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a notícia",
     "english": "news item",
     "zhHans": "新闻/消息",
     "zhHant": "新聞/消息",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Leia a notícia no jornal.",
     "exampleEn": "Read the news item in the newspaper.",
     "exampleZhHans": "请在报纸上读这则新闻。",
@@ -7786,13 +9988,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-email",
+    "id": "az-0509",
+    "legacyIds": [
+      "m11-email"
+    ],
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "o e-mail",
     "english": "email",
     "zhHans": "电子邮件",
     "zhHant": "電子郵件",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Enviei o currículo por e-mail.",
     "exampleEn": "I sent the resume by email.",
     "exampleZhHans": "我通过电子邮件发送了简历。",
@@ -7800,13 +10007,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m11-quotidiano",
+    "id": "az-0543",
+    "legacyIds": [
+      "m11-quotidiano"
+    ],
     "modulo": "Módulo 11",
     "theme": "Vida diária",
     "portuguese": "o quotidiano",
     "english": "daily life",
     "zhHans": "日常生活",
     "zhHant": "日常生活",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O e-mail faz parte do nosso quotidiano.",
     "exampleEn": "Email is part of our daily life.",
     "exampleZhHans": "电子邮件是我们日常生活的一部分。",
@@ -7814,7 +10026,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-informar-se",
+    "id": "az-0596",
+    "legacyIds": [
+      "m12-informar-se"
+    ],
     "modulo": "Módulo 12",
     "theme": "Ações",
     "portuguese": "informar-se",
@@ -7828,7 +10043,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-proteger",
+    "id": "az-0572",
+    "legacyIds": [
+      "m12-proteger"
+    ],
     "modulo": "Módulo 12",
     "theme": "Ações",
     "portuguese": "proteger",
@@ -7842,13 +10060,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-cidadania",
+    "id": "az-0559",
+    "legacyIds": [
+      "m12-cidadania"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a cidadania",
     "english": "citizenship",
     "zhHans": "公民身份/公民权",
     "zhHant": "公民身分/公民權",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Cidadania é a qualidade ou direito do cidadão.",
     "exampleEn": "Citizenship is the status or right of the citizen.",
     "exampleZhHans": "公民身份是公民的资格或权利。",
@@ -7856,13 +10079,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-democracia",
+    "id": "az-0582",
+    "legacyIds": [
+      "m12-democracia"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a democracia",
     "english": "democracy",
     "zhHans": "民主",
     "zhHant": "民主",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Vivemos em democracias.",
     "exampleEn": "We live in democracies.",
     "exampleZhHans": "我们生活在民主制度中。",
@@ -7870,13 +10098,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-discriminacao",
+    "id": "az-0584",
+    "legacyIds": [
+      "m12-discriminacao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a discriminação",
     "english": "discrimination",
     "zhHans": "歧视",
     "zhHant": "歧視",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Devemos combater a discriminação.",
     "exampleEn": "We must combat discrimination.",
     "exampleZhHans": "我们应当反对歧视。",
@@ -7884,13 +10117,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-eleicao",
+    "id": "az-0590",
+    "legacyIds": [
+      "m12-eleicao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a eleição",
     "english": "election",
     "zhHans": "选举",
     "zhHant": "選舉",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Pode votar em eleições europeias.",
     "exampleEn": "You can vote in European elections.",
     "exampleZhHans": "可以在欧洲选举中投票。",
@@ -7898,13 +10136,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-peticao",
+    "id": "az-0591",
+    "legacyIds": [
+      "m12-peticao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a petição",
     "english": "petition",
     "zhHans": "请愿",
     "zhHant": "請願",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Pode apresentar petições.",
     "exampleEn": "You can submit petitions.",
     "exampleZhHans": "可以提交请愿书。",
@@ -7912,13 +10155,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-sugestao",
+    "id": "az-0592",
+    "legacyIds": [
+      "m12-sugestao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a sugestão",
     "english": "suggestion",
     "zhHans": "建议",
     "zhHant": "建議",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Pode apresentar sugestões.",
     "exampleEn": "You can make suggestions.",
     "exampleZhHans": "可以提出建议。",
@@ -7926,7 +10174,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-adquirir",
+    "id": "az-0576",
+    "legacyIds": [
+      "m12-adquirir"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "adquirir",
@@ -7940,13 +10191,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-cidadao",
+    "id": "az-0560",
+    "legacyIds": [
+      "m12-cidadao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "o cidadão",
     "english": "citizen",
     "zhHans": "公民",
     "zhHant": "公民",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ser cidadão significa envolver-se na comunidade.",
     "exampleEn": "Being a citizen means getting involved in the community.",
     "exampleZhHans": "作为公民意味着参与社区事务。",
@@ -7954,13 +10210,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-cidadao-europeu",
+    "id": "az-0585",
+    "legacyIds": [
+      "m12-cidadao-europeu"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "o cidadão europeu",
     "english": "European citizen",
     "zhHans": "欧洲公民",
     "zhHant": "歐洲公民",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Ser cidadão europeu permite viajar e trabalhar.",
     "exampleEn": "Being a European citizen allows you to travel and work.",
     "exampleZhHans": "作为欧洲公民可以旅行和工作。",
@@ -7968,13 +10229,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-direitos-civis",
+    "id": "az-0561",
+    "legacyIds": [
+      "m12-direitos-civis"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "os direitos civis",
     "english": "civil rights",
     "zhHans": "公民权利",
     "zhHant": "公民權利",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "O cidadão tem direitos civis.",
     "exampleEn": "The citizen has civil rights.",
     "exampleZhHans": "公民拥有公民权利。",
@@ -7982,13 +10248,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-direitos-humanos",
+    "id": "az-0583",
+    "legacyIds": [
+      "m12-direitos-humanos"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "os direitos humanos",
     "english": "human rights",
     "zhHans": "人权",
     "zhHant": "人權",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "As democracias respeitam os direitos humanos.",
     "exampleEn": "Democracies respect human rights.",
     "exampleZhHans": "民主制度尊重人权。",
@@ -7996,7 +10267,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-voluntario",
+    "id": "az-0588",
+    "legacyIds": [
+      "m12-voluntario"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "voluntário(a)",
@@ -8010,7 +10284,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-votar",
+    "id": "az-0589",
+    "legacyIds": [
+      "m12-votar"
+    ],
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "votar",
@@ -8024,13 +10301,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-certificado",
+    "id": "az-0578",
+    "legacyIds": [
+      "m12-certificado"
+    ],
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "o certificado",
     "english": "certificate",
     "zhHans": "证书",
     "zhHant": "證書",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
     "exampleEn": "You have to present a Portuguese Language Certificate.",
     "exampleZhHans": "必须提交一份葡萄牙语证书。",
@@ -8038,13 +10320,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-requerimento",
+    "id": "az-0577",
+    "legacyIds": [
+      "m12-requerimento"
+    ],
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "o requerimento",
     "english": "application form",
     "zhHans": "申请表",
     "zhHant": "申請表",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Deve juntar documentos ao requerimento.",
     "exampleEn": "You must attach documents to the application form.",
     "exampleZhHans": "应把文件附在申请表上。",
@@ -8052,7 +10339,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-preencher",
+    "id": "az-0579",
+    "legacyIds": [
+      "m12-preencher"
+    ],
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "preencher",
@@ -8066,7 +10356,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-tratar-de",
+    "id": "az-0580",
+    "legacyIds": [
+      "m12-tratar-de"
+    ],
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "tratar de",
@@ -8080,7 +10373,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-empregador",
+    "id": "az-0598",
+    "legacyIds": [
+      "m12-empregador"
+    ],
     "modulo": "Módulo 12",
     "theme": "Emprego",
     "portuguese": "empregador(a)",
@@ -8094,13 +10390,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-direitos-e-deveres-laborais",
+    "id": "az-0599",
+    "legacyIds": [
+      "m12-direitos-e-deveres-laborais"
+    ],
     "modulo": "Módulo 12",
     "theme": "Emprego",
     "portuguese": "os direitos e deveres laborais",
     "english": "labour rights and duties",
     "zhHans": "劳工权利和义务",
     "zhHant": "勞工權利和義務",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Devemos informar-nos sobre os direitos e deveres laborais.",
     "exampleEn": "We should inform ourselves about labor rights and duties.",
     "exampleZhHans": "我们应当了解劳动权利和义务。",
@@ -8108,13 +10409,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-renda-elevada",
+    "id": "az-0597",
+    "legacyIds": [
+      "m12-renda-elevada"
+    ],
     "modulo": "Módulo 12",
     "theme": "Habitação",
     "portuguese": "a renda elevada",
     "english": "high rent",
     "zhHans": "高租金",
     "zhHant": "高租金",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Há dificuldades devido às rendas elevadas.",
     "exampleEn": "There are difficulties due to high rents.",
     "exampleZhHans": "由于租金高昂，存在困难。",
@@ -8122,7 +10428,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-fixar-se",
+    "id": "az-0593",
+    "legacyIds": [
+      "m12-fixar-se"
+    ],
     "modulo": "Módulo 12",
     "theme": "Habitação",
     "portuguese": "fixar-se",
@@ -8136,7 +10445,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-residir",
+    "id": "az-0586",
+    "legacyIds": [
+      "m12-residir"
+    ],
     "modulo": "Módulo 12",
     "theme": "Habitação",
     "portuguese": "residir",
@@ -8150,13 +10462,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-associacao-de-imigrantes",
+    "id": "az-0571",
+    "legacyIds": [
+      "m12-associacao-de-imigrantes"
+    ],
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a associação de imigrantes",
     "english": "immigrant association",
     "zhHans": "移民协会",
     "zhHant": "移民協會",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "A associação de imigrantes protege direitos.",
     "exampleEn": "The immigrant association protects rights.",
     "exampleZhHans": "移民协会保护权利。",
@@ -8164,13 +10481,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-camara-municipal",
+    "id": "az-0594",
+    "legacyIds": [
+      "m12-camara-municipal"
+    ],
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a Câmara Municipal",
     "english": "city council",
     "zhHans": "市议会",
     "zhHant": "市議會",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "É candidato à presidência da Câmara Municipal.",
     "exampleEn": "He is a candidate for president of the City Council.",
     "exampleZhHans": "他是市政厅主席职位的候选人。",
@@ -8178,13 +10500,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-instituicao",
+    "id": "az-0573",
+    "legacyIds": [
+      "m12-instituicao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a instituição",
     "english": "institution",
     "zhHans": "机构",
     "zhHant": "機構",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O CNAI reúne diferentes instituições.",
     "exampleEn": "CNAI brings together different institutions.",
     "exampleZhHans": "CNAI 汇集了不同机构。",
@@ -8192,13 +10519,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-seguranca-social",
+    "id": "az-0568",
+    "legacyIds": [
+      "m12-seguranca-social"
+    ],
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a segurança social",
     "english": "social security",
     "zhHans": "社会保障/社保",
     "zhHant": "社會保障/社保",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O serviço apoia questões de segurança social.",
     "exampleEn": "The service supports social security matters.",
     "exampleZhHans": "该服务支持社会保障相关问题。",
@@ -8206,13 +10538,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-gabinete-de-apoio",
+    "id": "az-0574",
+    "legacyIds": [
+      "m12-gabinete-de-apoio"
+    ],
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "o gabinete de apoio",
     "english": "support office",
     "zhHans": "援助办公室/咨询处",
     "zhHant": "援助辦公室/諮詢處",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Existem gabinetes de apoio ao cidadão imigrante.",
     "exampleEn": "There are support offices for immigrant citizens.",
     "exampleZhHans": "有为移民公民提供支持的办公室。",
@@ -8220,13 +10557,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-imigracao",
+    "id": "az-0575",
+    "legacyIds": [
+      "m12-imigracao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "a imigração",
     "english": "immigration",
     "zhHans": "移（入）民",
     "zhHant": "移（入）民",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O tema é a imigração.",
     "exampleEn": "The topic is immigration.",
     "exampleZhHans": "主题是移民。",
@@ -8234,13 +10576,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-regularizacao",
+    "id": "az-0564",
+    "legacyIds": [
+      "m12-regularizacao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "a regularização",
     "english": "regularisation",
     "zhHans": "身份合法化/手续正规化",
     "zhHant": "身分合法化/手續正規化",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O serviço apoia a regularização da situação legal.",
     "exampleEn": "The service supports regularizing legal status.",
     "exampleZhHans": "该服务支持法律状态的正规化。",
@@ -8248,13 +10595,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-situacao-legal",
+    "id": "az-0565",
+    "legacyIds": [
+      "m12-situacao-legal"
+    ],
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "a situação legal",
     "english": "legal status",
     "zhHans": "法律地位",
     "zhHant": "法律地位",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "É importante legalizar a sua situação.",
     "exampleEn": "It is important to legalize your situation.",
     "exampleZhHans": "使您的状况合法化很重要。",
@@ -8262,7 +10614,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-imigrante",
+    "id": "az-0563",
+    "legacyIds": [
+      "m12-imigrante"
+    ],
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "imigrante",
@@ -8276,7 +10631,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-legalizar",
+    "id": "az-0600",
+    "legacyIds": [
+      "m12-legalizar"
+    ],
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "legalizar",
@@ -8290,13 +10648,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-reagrupamento-familiar",
+    "id": "az-0566",
+    "legacyIds": [
+      "m12-reagrupamento-familiar"
+    ],
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "o reagrupamento familiar",
     "english": "family reunification",
     "zhHans": "家庭团聚",
     "zhHant": "家庭團聚",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O CLAII apoia o reagrupamento familiar.",
     "exampleEn": "CLAII supports family reunification.",
     "exampleZhHans": "CLAII 支持家庭团聚。",
@@ -8304,13 +10667,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-retorno-voluntario",
+    "id": "az-0567",
+    "legacyIds": [
+      "m12-retorno-voluntario"
+    ],
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "o retorno voluntário",
     "english": "voluntary return",
     "zhHans": "自愿返国/自愿返回",
     "zhHant": "自願返國/自願返回",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "O serviço informa sobre retorno voluntário.",
     "exampleEn": "The service provides information about voluntary return.",
     "exampleZhHans": "该服务提供关于自愿返回的信息。",
@@ -8318,13 +10686,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-cuidados-medicos",
+    "id": "az-0587",
+    "legacyIds": [
+      "m12-cuidados-medicos"
+    ],
     "modulo": "Módulo 12",
     "theme": "Saúde",
     "portuguese": "os cuidados médicos",
     "english": "medical care",
     "zhHans": "医疗保健",
     "zhHant": "醫療保健",
+    "pos": "noun",
+    "gender": "m-pl",
     "examplePt": "Pode receber cuidados médicos.",
     "exampleEn": "You can receive medical care.",
     "exampleZhHans": "可以接受医疗护理。",
@@ -8332,7 +10705,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-confidencial",
+    "id": "az-0569",
+    "legacyIds": [
+      "m12-confidencial"
+    ],
     "modulo": "Módulo 12",
     "theme": "Serviços",
     "portuguese": "confidencial",
@@ -8346,7 +10722,10 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-gratuito",
+    "id": "az-0570",
+    "legacyIds": [
+      "m12-gratuito"
+    ],
     "modulo": "Módulo 12",
     "theme": "Serviços",
     "portuguese": "gratuito(a)",
@@ -8360,13 +10739,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-balcao",
+    "id": "az-0595",
+    "legacyIds": [
+      "m12-balcao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Serviços",
     "portuguese": "o balcão",
     "english": "counter",
     "zhHans": "柜台/服务台",
     "zhHant": "櫃台/服務台",
+    "pos": "noun",
+    "gender": "m",
     "examplePt": "Falou do outro lado do balcão.",
     "exampleEn": "He spoke from the other side of the counter.",
     "exampleZhHans": "他在柜台的另一边说话。",
@@ -8374,13 +10758,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-comunidade",
+    "id": "az-0581",
+    "legacyIds": [
+      "m12-comunidade"
+    ],
     "modulo": "Módulo 12",
     "theme": "Sociedade",
     "portuguese": "a comunidade",
     "english": "community",
     "zhHans": "社区/共同体",
     "zhHant": "社區/共同體",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "Participa na vida da comunidade.",
     "exampleEn": "Participate in community life.",
     "exampleZhHans": "参与社区生活。",
@@ -8388,13 +10777,18 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
-    "id": "m12-integracao",
+    "id": "az-0562",
+    "legacyIds": [
+      "m12-integracao"
+    ],
     "modulo": "Módulo 12",
     "theme": "Sociedade",
     "portuguese": "a integração",
     "english": "integration",
     "zhHans": "融入/融合",
     "zhHant": "融入/融合",
+    "pos": "noun",
+    "gender": "f",
     "examplePt": "O serviço apoia a integração dos imigrantes.",
     "exampleEn": "The service supports the integration of immigrants.",
     "exampleZhHans": "该服务支持移民融入。",

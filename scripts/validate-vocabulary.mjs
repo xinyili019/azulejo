@@ -26,6 +26,16 @@ for (const entry of entries) {
     errors.push(`Missing required field near id: ${id || "(unknown)"}`);
     continue;
   }
+  if (!/^az-\d{4,}$/.test(id)) errors.push(`Stable id must use az-0001 format: ${id}`);
+  if (entry.pos && !/^(noun|verb|adj|adv|expr|prep|pron|num|det|other)$/.test(entry.pos)) {
+    errors.push(`Invalid part of speech for ${id}: ${entry.pos}`);
+  }
+  if (entry.gender && !/^(m|f|m-pl|f-pl)$/.test(entry.gender)) {
+    errors.push(`Invalid gender for ${id}: ${entry.gender}`);
+  }
+  if (entry.gender && entry.pos !== "noun") {
+    errors.push(`Gender requires pos noun for ${id}`);
+  }
   if (entry.examplePt && (!entry.exampleEn || !entry.exampleZhHans || !entry.exampleZhHant)) {
     errors.push(`Example translations must include English, Simplified Chinese, and Traditional Chinese: ${id}`);
   }

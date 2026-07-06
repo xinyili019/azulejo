@@ -1,6 +1,6 @@
 [
   {
-    "id": "m7-servir-mesa",
+    "id": "az-0352",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "servir à mesa",
@@ -12,10 +12,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "餐桌服务/当服务员",
-    "zhHant": "端菜服務/餐桌服務"
+    "zhHant": "端菜服務/餐桌服務",
+    "legacyIds": [
+      "m7-servir-mesa"
+    ]
   },
   {
-    "id": "m7-cozinheiro",
+    "id": "az-0353",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "cozinheiro(a)",
@@ -27,10 +30,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "厨师",
-    "zhHant": "廚師"
+    "zhHant": "廚師",
+    "legacyIds": [
+      "m7-cozinheiro"
+    ]
   },
   {
-    "id": "m7-luvas",
+    "id": "az-0354",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "as luvas",
@@ -42,10 +48,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "手套",
-    "zhHant": "手套"
+    "zhHant": "手套",
+    "legacyIds": [
+      "m7-luvas"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m7-avental",
+    "id": "az-0355",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "o avental",
@@ -57,10 +68,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "围裙",
-    "zhHant": "圍裙"
+    "zhHant": "圍裙",
+    "legacyIds": [
+      "m7-avental"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-preparar-alimentos",
+    "id": "az-0356",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "preparar os alimentos",
@@ -72,10 +88,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "准备食物",
-    "zhHant": "準備食物"
+    "zhHant": "準備食物",
+    "legacyIds": [
+      "m7-preparar-alimentos"
+    ]
   },
   {
-    "id": "m7-cozinhar",
+    "id": "az-0357",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "cozinhar",
@@ -87,10 +106,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "做饭",
-    "zhHant": "煮飯"
+    "zhHant": "煮飯",
+    "legacyIds": [
+      "m7-cozinhar"
+    ]
   },
   {
-    "id": "m7-pedreiro",
+    "id": "az-0358",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "pedreiro(a)",
@@ -102,10 +124,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "瓦工",
-    "zhHant": "瓦工"
+    "zhHant": "瓦工",
+    "legacyIds": [
+      "m7-pedreiro"
+    ]
   },
   {
-    "id": "m7-obras",
+    "id": "az-0359",
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "as obras",
@@ -117,10 +142,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "建筑工地",
-    "zhHant": "建築工地"
+    "zhHant": "建築工地",
+    "legacyIds": [
+      "m7-obras"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m7-cimento",
+    "id": "az-0360",
     "modulo": "Módulo 7",
     "theme": "Materiais",
     "portuguese": "o cimento",
@@ -132,10 +162,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "水泥",
-    "zhHant": "水泥"
+    "zhHant": "水泥",
+    "legacyIds": [
+      "m7-cimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-cabeleireira",
+    "id": "az-0361",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "cabeleireiro(a)",
@@ -147,10 +182,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "理发师",
-    "zhHant": "理髮師"
+    "zhHant": "理髮師",
+    "legacyIds": [
+      "m7-cabeleireira"
+    ]
   },
   {
-    "id": "m7-salao-cabeleireiro",
+    "id": "az-0362",
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "o salão de cabeleireiro",
@@ -162,10 +200,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "美发沙龙",
-    "zhHant": "美髮沙龍"
+    "zhHant": "美髮沙龍",
+    "legacyIds": [
+      "m7-salao-cabeleireiro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-escova",
+    "id": "az-0363",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "a escova",
@@ -177,10 +220,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "刷子",
-    "zhHant": "刷子"
+    "zhHant": "刷子",
+    "legacyIds": [
+      "m7-escova"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m7-tesoura",
+    "id": "az-0364",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "a tesoura",
@@ -192,10 +240,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "剪刀",
-    "zhHant": "剪刀"
+    "zhHant": "剪刀",
+    "legacyIds": [
+      "m7-tesoura"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m7-lavar-cabeca",
+    "id": "az-0365",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "lavar a cabeça",
@@ -207,10 +260,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "洗头发",
-    "zhHant": "洗頭髮"
+    "zhHant": "洗頭髮",
+    "legacyIds": [
+      "m7-lavar-cabeca"
+    ]
   },
   {
-    "id": "m7-cortar-cabelo",
+    "id": "az-0366",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "cortar o cabelo",
@@ -222,10 +278,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "剪头发",
-    "zhHant": "剪頭髮"
+    "zhHant": "剪頭髮",
+    "legacyIds": [
+      "m7-cortar-cabelo"
+    ]
   },
   {
-    "id": "m7-pentear",
+    "id": "az-0367",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "pentear",
@@ -237,10 +296,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "梳理",
-    "zhHant": "梳理"
+    "zhHant": "梳理",
+    "legacyIds": [
+      "m7-pentear"
+    ]
   },
   {
-    "id": "m7-empregada-limpeza",
+    "id": "az-0368",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "empregado(a) de limpeza",
@@ -252,10 +314,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "清洁工",
-    "zhHant": "清潔工"
+    "zhHant": "清潔工",
+    "legacyIds": [
+      "m7-empregada-limpeza"
+    ]
   },
   {
-    "id": "m7-casas-particulares",
+    "id": "az-0369",
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "as casas particulares",
@@ -267,10 +332,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "私人住宅",
-    "zhHant": "私人住宅"
+    "zhHant": "私人住宅",
+    "legacyIds": [
+      "m7-casas-particulares"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m7-empresas",
+    "id": "az-0370",
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "as empresas",
@@ -282,10 +352,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公司",
-    "zhHant": "公司"
+    "zhHant": "公司",
+    "legacyIds": [
+      "m7-empresas"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m7-vassoura",
+    "id": "az-0371",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "a vassoura",
@@ -297,10 +372,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "扫帚",
-    "zhHant": "掃帚"
+    "zhHant": "掃帚",
+    "legacyIds": [
+      "m7-vassoura"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m7-limpar-po",
+    "id": "az-0372",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "limpar o pó",
@@ -312,10 +392,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去灰尘",
-    "zhHant": "去灰塵"
+    "zhHant": "去灰塵",
+    "legacyIds": [
+      "m7-limpar-po"
+    ]
   },
   {
-    "id": "m7-aspirar",
+    "id": "az-0373",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "aspirar",
@@ -327,10 +410,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "吸尘",
-    "zhHant": "吸塵"
+    "zhHant": "吸塵",
+    "legacyIds": [
+      "m7-aspirar"
+    ]
   },
   {
-    "id": "m7-lavar-chao",
+    "id": "az-0374",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "lavar o chão",
@@ -342,10 +428,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "拖地",
-    "zhHant": "拖地"
+    "zhHant": "拖地",
+    "legacyIds": [
+      "m7-lavar-chao"
+    ]
   },
   {
-    "id": "m7-agricultor",
+    "id": "az-0375",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "agricultor(a)",
@@ -357,10 +446,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "农民",
-    "zhHant": "農民"
+    "zhHant": "農民",
+    "legacyIds": [
+      "m7-agricultor"
+    ]
   },
   {
-    "id": "m7-secretaria",
+    "id": "az-0376",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "secretário(a)",
@@ -372,10 +464,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "秘书",
-    "zhHant": "秘書"
+    "zhHant": "秘書",
+    "legacyIds": [
+      "m7-secretaria"
+    ]
   },
   {
-    "id": "m7-escritorios",
+    "id": "az-0377",
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "os escritórios",
@@ -387,10 +482,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "办公室",
-    "zhHant": "辦公室"
+    "zhHant": "辦公室",
+    "legacyIds": [
+      "m7-escritorios"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m7-computador",
+    "id": "az-0378",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "o computador",
@@ -402,10 +502,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "电脑",
-    "zhHant": "電腦"
+    "zhHant": "電腦",
+    "legacyIds": [
+      "m7-computador"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-papel",
+    "id": "az-0379",
     "modulo": "Módulo 7",
     "theme": "Instrumentos de trabalho",
     "portuguese": "o papel",
@@ -417,10 +522,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "纸",
-    "zhHant": "紙"
+    "zhHant": "紙",
+    "legacyIds": [
+      "m7-papel"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-marcar-reuniao",
+    "id": "az-0380",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "marcar uma reunião",
@@ -432,10 +542,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "安排会议",
-    "zhHant": "安排會議"
+    "zhHant": "安排會議",
+    "legacyIds": [
+      "m7-marcar-reuniao"
+    ]
   },
   {
-    "id": "m7-medico",
+    "id": "az-0381",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "médico(a)",
@@ -447,10 +560,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "医生",
-    "zhHant": "醫生"
+    "zhHant": "醫生",
+    "legacyIds": [
+      "m7-medico"
+    ]
   },
   {
-    "id": "m7-observar-doente",
+    "id": "az-0382",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "observar o doente",
@@ -462,10 +578,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "检查病人",
-    "zhHant": "檢查病人"
+    "zhHant": "檢查病人",
+    "legacyIds": [
+      "m7-observar-doente"
+    ]
   },
   {
-    "id": "m7-fazer-exames",
+    "id": "az-0383",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "fazer exames",
@@ -477,10 +596,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "做测试",
-    "zhHant": "做測試"
+    "zhHant": "做測試",
+    "legacyIds": [
+      "m7-fazer-exames"
+    ]
   },
   {
-    "id": "m7-passar-receitas",
+    "id": "az-0384",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "passar receitas",
@@ -492,10 +614,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "开处方",
-    "zhHant": "開處方"
+    "zhHant": "開處方",
+    "legacyIds": [
+      "m7-passar-receitas"
+    ]
   },
   {
-    "id": "m7-professora",
+    "id": "az-0385",
     "modulo": "Módulo 7",
     "theme": "Profissões",
     "portuguese": "professor(a)",
@@ -507,10 +632,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "老师",
-    "zhHant": "老師"
+    "zhHant": "老師",
+    "legacyIds": [
+      "m7-professora"
+    ]
   },
   {
-    "id": "m7-escola",
+    "id": "az-0386",
     "modulo": "Módulo 7",
     "theme": "Locais de trabalho",
     "portuguese": "a escola",
@@ -522,10 +650,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "学校",
-    "zhHant": "學校"
+    "zhHant": "學校",
+    "legacyIds": [
+      "m7-escola"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m7-ensinar",
+    "id": "az-0387",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "ensinar",
@@ -537,10 +670,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "教导",
-    "zhHant": "教導"
+    "zhHant": "教導",
+    "legacyIds": [
+      "m7-ensinar"
+    ]
   },
   {
-    "id": "m7-detergentes",
+    "id": "az-0388",
     "modulo": "Módulo 7",
     "theme": "Limpeza",
     "portuguese": "os detergentes",
@@ -552,10 +688,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "清洁产品",
-    "zhHant": "清潔產品"
+    "zhHant": "清潔產品",
+    "legacyIds": [
+      "m7-detergentes"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m7-capacete",
+    "id": "az-0389",
     "modulo": "Módulo 7",
     "theme": "Segurança no trabalho",
     "portuguese": "o capacete",
@@ -567,10 +708,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "头盔",
-    "zhHant": "頭盔"
+    "zhHant": "頭盔",
+    "legacyIds": [
+      "m7-capacete"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-direitos-laborais",
+    "id": "az-0390",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "os direitos laborais",
@@ -582,10 +728,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "劳工权利",
-    "zhHant": "勞工權利"
+    "zhHant": "勞工權利",
+    "legacyIds": [
+      "m7-direitos-laborais"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m7-contrato-trabalho",
+    "id": "az-0391",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o contrato de trabalho",
@@ -597,10 +748,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "雇佣合同",
-    "zhHant": "僱傭合約"
+    "zhHant": "僱傭合約",
+    "legacyIds": [
+      "m7-contrato-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-horas-extraordinarias",
+    "id": "az-0392",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "as horas extraordinárias",
@@ -612,10 +768,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "加班时间",
-    "zhHant": "加班/加班時間"
+    "zhHant": "加班/加班時間",
+    "legacyIds": [
+      "m7-horas-extraordinarias"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m7-salario-bruto",
+    "id": "az-0393",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o salário bruto",
@@ -627,10 +788,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工资总额",
-    "zhHant": "薪資總額"
+    "zhHant": "薪資總額",
+    "legacyIds": [
+      "m7-salario-bruto"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-salario-liquido",
+    "id": "az-0394",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o salário líquido",
@@ -642,10 +808,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "净工资",
-    "zhHant": "淨工資"
+    "zhHant": "淨工資",
+    "legacyIds": [
+      "m7-salario-liquido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-subsidio",
+    "id": "az-0395",
     "modulo": "Módulo 7",
     "theme": "Direitos e deveres",
     "portuguese": "o subsídio",
@@ -657,10 +828,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "补贴/津贴",
-    "zhHant": "津貼/補助"
+    "zhHant": "津貼/補助",
+    "legacyIds": [
+      "m7-subsidio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m7-carregar",
+    "id": "az-0396",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "carregar",
@@ -672,10 +848,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "搬运/装载",
-    "zhHant": "搬運/裝載"
+    "zhHant": "搬運/裝載",
+    "legacyIds": [
+      "m7-carregar"
+    ]
   },
   {
-    "id": "m7-descarregar",
+    "id": "az-0397",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "descarregar",
@@ -687,10 +866,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "卸货/下载",
-    "zhHant": "卸貨/下載"
+    "zhHant": "卸貨/下載",
+    "legacyIds": [
+      "m7-descarregar"
+    ]
   },
   {
-    "id": "m7-armazenar",
+    "id": "az-0398",
     "modulo": "Módulo 7",
     "theme": "Tarefas",
     "portuguese": "armazenar",
@@ -702,10 +884,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "储存",
-    "zhHant": "儲存"
+    "zhHant": "儲存",
+    "legacyIds": [
+      "m7-armazenar"
+    ]
   },
   {
-    "id": "m7-ontem",
+    "id": "az-0399",
     "modulo": "Módulo 7",
     "theme": "Tempo",
     "portuguese": "ontem",
@@ -717,10 +902,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "昨天",
-    "zhHant": "昨天"
+    "zhHant": "昨天",
+    "legacyIds": [
+      "m7-ontem"
+    ]
   },
   {
-    "id": "m7-anteontem",
+    "id": "az-0400",
     "modulo": "Módulo 7",
     "theme": "Tempo",
     "portuguese": "anteontem",
@@ -732,10 +920,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "前天",
-    "zhHant": "前天"
+    "zhHant": "前天",
+    "legacyIds": [
+      "m7-anteontem"
+    ]
   },
   {
-    "id": "m7-ha-bocado",
+    "id": "az-0401",
     "modulo": "Módulo 7",
     "theme": "Tempo",
     "portuguese": "há bocado",
@@ -747,10 +938,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "不久前",
-    "zhHant": "不久前"
+    "zhHant": "不久前",
+    "legacyIds": [
+      "m7-ha-bocado"
+    ]
   },
   {
-    "id": "m7-chegar-a",
+    "id": "az-0402",
     "modulo": "Módulo 7",
     "theme": "Regência verbal",
     "portuguese": "chegar a",
@@ -762,10 +956,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "到达",
-    "zhHant": "到達"
+    "zhHant": "到達",
+    "legacyIds": [
+      "m7-chegar-a"
+    ]
   },
   {
-    "id": "m7-sair-de",
+    "id": "az-0403",
     "modulo": "Módulo 7",
     "theme": "Regência verbal",
     "portuguese": "sair de",
@@ -777,10 +974,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "离开",
-    "zhHant": "離開"
+    "zhHant": "離開",
+    "legacyIds": [
+      "m7-sair-de"
+    ]
   },
   {
-    "id": "m7-entrar-em",
+    "id": "az-0404",
     "modulo": "Módulo 7",
     "theme": "Regência verbal",
     "portuguese": "entrar em",
@@ -792,10 +992,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "进入",
-    "zhHant": "進入"
+    "zhHant": "進入",
+    "legacyIds": [
+      "m7-entrar-em"
+    ]
   },
   {
-    "id": "m8-anuncio-trabalho",
+    "id": "az-0405",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o anúncio de trabalho",
@@ -807,10 +1010,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "招聘广告",
-    "zhHant": "徵才廣告"
+    "zhHant": "徵才廣告",
+    "legacyIds": [
+      "m8-anuncio-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-carta-apresentacao",
+    "id": "az-0406",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a carta de apresentação",
@@ -822,10 +1030,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "求职信",
-    "zhHant": "求職信"
+    "zhHant": "求職信",
+    "legacyIds": [
+      "m8-carta-apresentacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-candidatar-se",
+    "id": "az-0407",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "candidatar-se",
@@ -837,10 +1050,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "申请",
-    "zhHant": "申請"
+    "zhHant": "申請",
+    "legacyIds": [
+      "m8-candidatar-se"
+    ]
   },
   {
-    "id": "m8-vaga",
+    "id": "az-0408",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a vaga",
@@ -852,10 +1068,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "空缺",
-    "zhHant": "空缺"
+    "zhHant": "空缺",
+    "legacyIds": [
+      "m8-vaga"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-curriculo",
+    "id": "az-0409",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o currículo",
@@ -867,10 +1088,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "简历/履历",
-    "zhHant": "履歷/簡歷"
+    "zhHant": "履歷/簡歷",
+    "legacyIds": [
+      "m8-curriculo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-cv",
+    "id": "az-0410",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o CV",
@@ -882,10 +1108,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "简历",
-    "zhHant": "履歷"
+    "zhHant": "履歷",
+    "legacyIds": [
+      "m8-cv"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-dados-identificacao",
+    "id": "az-0411",
     "modulo": "Módulo 8",
     "theme": "Currículo",
     "portuguese": "os dados de identificação",
@@ -897,10 +1128,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "个人资料",
-    "zhHant": "個人資料"
+    "zhHant": "個人資料",
+    "legacyIds": [
+      "m8-dados-identificacao"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m8-experiencia-profissional",
+    "id": "az-0412",
     "modulo": "Módulo 8",
     "theme": "Currículo",
     "portuguese": "a experiência profissional",
@@ -912,10 +1148,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工作经验",
-    "zhHant": "工作經驗"
+    "zhHant": "工作經驗",
+    "legacyIds": [
+      "m8-experiencia-profissional"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-formacao-academica",
+    "id": "az-0413",
     "modulo": "Módulo 8",
     "theme": "Currículo",
     "portuguese": "a formação académica",
@@ -927,10 +1168,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "教育",
-    "zhHant": "教育"
+    "zhHant": "教育",
+    "legacyIds": [
+      "m8-formacao-academica"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-entrevista-trabalho",
+    "id": "az-0414",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a entrevista de trabalho",
@@ -942,10 +1188,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工作面试",
-    "zhHant": "工作面試"
+    "zhHant": "工作面試",
+    "legacyIds": [
+      "m8-entrevista-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-oportunidade-trabalho",
+    "id": "az-0415",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a oportunidade de trabalho",
@@ -957,10 +1208,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工作机会",
-    "zhHant": "工作機會"
+    "zhHant": "工作機會",
+    "legacyIds": [
+      "m8-oportunidade-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-adquirir-nacionalidade",
+    "id": "az-0416",
     "modulo": "Módulo 8",
     "theme": "Cidadania",
     "portuguese": "adquirir a nacionalidade",
@@ -972,10 +1228,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "获得国籍",
-    "zhHant": "獲得國籍"
+    "zhHant": "獲得國籍",
+    "legacyIds": [
+      "m8-adquirir-nacionalidade"
+    ]
   },
   {
-    "id": "m8-funcao",
+    "id": "az-0417",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a função",
@@ -987,10 +1246,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "角色/功能",
-    "zhHant": "角色/功能"
+    "zhHant": "角色/功能",
+    "legacyIds": [
+      "m8-funcao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-empregada-domestica",
+    "id": "az-0418",
     "modulo": "Módulo 8",
     "theme": "Profissões",
     "portuguese": "empregado(a) doméstico(a)",
@@ -1002,10 +1266,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "家政工人",
-    "zhHant": "家事勞工"
+    "zhHant": "家事勞工",
+    "legacyIds": [
+      "m8-empregada-domestica"
+    ]
   },
   {
-    "id": "m8-ordenado",
+    "id": "az-0419",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o ordenado",
@@ -1017,10 +1284,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工资/薪水",
-    "zhHant": "工資/薪水"
+    "zhHant": "工資/薪水",
+    "legacyIds": [
+      "m8-ordenado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-disponibilidade",
+    "id": "az-0420",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a disponibilidade",
@@ -1032,10 +1304,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "可上班时间",
-    "zhHant": "可上班時間"
+    "zhHant": "可上班時間",
+    "legacyIds": [
+      "m8-disponibilidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-entrada-imediata",
+    "id": "az-0421",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a entrada imediata",
@@ -1047,10 +1324,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "立即开始",
-    "zhHant": "立即開始"
+    "zhHant": "立即開始",
+    "legacyIds": [
+      "m8-entrada-imediata"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-oferece-se",
+    "id": "az-0422",
     "modulo": "Módulo 8",
     "theme": "Anúncios",
     "portuguese": "oferece-se",
@@ -1062,10 +1344,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "求职/可应聘",
-    "zhHant": "求職/可應聘"
+    "zhHant": "求職/可應聘",
+    "legacyIds": [
+      "m8-oferece-se"
+    ]
   },
   {
-    "id": "m8-procuro-trabalho",
+    "id": "az-0423",
     "modulo": "Módulo 8",
     "theme": "Anúncios",
     "portuguese": "procuro trabalho",
@@ -1077,10 +1362,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "我正在找工作",
-    "zhHant": "我正在找工作"
+    "zhHant": "我正在找工作",
+    "legacyIds": [
+      "m8-procuro-trabalho"
+    ]
   },
   {
-    "id": "m8-desempregado",
+    "id": "az-0424",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "desempregado",
@@ -1092,10 +1380,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "失业的",
-    "zhHant": "失業的"
+    "zhHant": "失業的",
+    "legacyIds": [
+      "m8-desempregado"
+    ]
   },
   {
-    "id": "m8-jardinagem",
+    "id": "az-0425",
     "modulo": "Módulo 8",
     "theme": "Profissões",
     "portuguese": "a jardinagem",
@@ -1107,10 +1398,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "园艺",
-    "zhHant": "園藝"
+    "zhHant": "園藝",
+    "legacyIds": [
+      "m8-jardinagem"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-responsavel",
+    "id": "az-0426",
     "modulo": "Módulo 8",
     "theme": "Qualidades",
     "portuguese": "responsável",
@@ -1122,10 +1418,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "负责任的",
-    "zhHant": "負責任的"
+    "zhHant": "負責任的",
+    "legacyIds": [
+      "m8-responsavel"
+    ]
   },
   {
-    "id": "m8-pontual",
+    "id": "az-0427",
     "modulo": "Módulo 8",
     "theme": "Qualidades",
     "portuguese": "pontual",
@@ -1137,10 +1436,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "准时",
-    "zhHant": "準時"
+    "zhHant": "準時",
+    "legacyIds": [
+      "m8-pontual"
+    ]
   },
   {
-    "id": "m8-carta-conducao",
+    "id": "az-0428",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a carta de condução",
@@ -1152,10 +1454,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "驾驶执照",
-    "zhHant": "駕駛執照"
+    "zhHant": "駕駛執照",
+    "legacyIds": [
+      "m8-carta-conducao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-flexibilidade-horario",
+    "id": "az-0429",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a flexibilidade de horário",
@@ -1167,10 +1474,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "日程安排的灵活性",
-    "zhHant": "日程安排的彈性"
+    "zhHant": "日程安排的彈性",
+    "legacyIds": [
+      "m8-flexibilidade-horario"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-vencimento",
+    "id": "az-0430",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o vencimento",
@@ -1182,10 +1494,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "薪资/工资",
-    "zhHant": "薪資/工資"
+    "zhHant": "薪資/工資",
+    "legacyIds": [
+      "m8-vencimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-impostos",
+    "id": "az-0431",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "os impostos",
@@ -1197,10 +1514,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "税收",
-    "zhHant": "稅收"
+    "zhHant": "稅收",
+    "legacyIds": [
+      "m8-impostos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m8-requisitos",
+    "id": "az-0432",
     "modulo": "Módulo 8",
     "theme": "Anúncios",
     "portuguese": "os requisitos",
@@ -1212,10 +1534,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "要求",
-    "zhHant": "要求"
+    "zhHant": "要求",
+    "legacyIds": [
+      "m8-requisitos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m8-assiduidade",
+    "id": "az-0433",
     "modulo": "Módulo 8",
     "theme": "Qualidades",
     "portuguese": "a assiduidade",
@@ -1227,10 +1554,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "出席率",
-    "zhHant": "出席率"
+    "zhHant": "出席率",
+    "legacyIds": [
+      "m8-assiduidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-remuneracao",
+    "id": "az-0434",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "a remuneração",
@@ -1242,10 +1574,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "薪酬/报酬",
-    "zhHant": "薪酬/報酬"
+    "zhHant": "薪酬/報酬",
+    "legacyIds": [
+      "m8-remuneracao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m8-cargo",
+    "id": "az-0435",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o cargo",
@@ -1257,10 +1594,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "职位",
-    "zhHant": "職位"
+    "zhHant": "職位",
+    "legacyIds": [
+      "m8-cargo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-desde",
+    "id": "az-0436",
     "modulo": "Módulo 8",
     "theme": "Tempo",
     "portuguese": "desde",
@@ -1272,10 +1614,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "自从",
-    "zhHant": "自從"
+    "zhHant": "自從",
+    "legacyIds": [
+      "m8-desde"
+    ]
   },
   {
-    "id": "m8-despedir-se",
+    "id": "az-0437",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "despedir-se",
@@ -1287,10 +1632,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "辞职",
-    "zhHant": "辭職"
+    "zhHant": "辭職",
+    "legacyIds": [
+      "m8-despedir-se"
+    ]
   },
   {
-    "id": "m8-aumento-salario",
+    "id": "az-0438",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o aumento no salário",
@@ -1302,10 +1650,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "加薪",
-    "zhHant": "加薪"
+    "zhHant": "加薪",
+    "legacyIds": [
+      "m8-aumento-salario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-recibos-verdes",
+    "id": "az-0439",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "os recibos verdes",
@@ -1317,10 +1670,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "绿色收据/自由职业发票",
-    "zhHant": "綠色收據/自由職業收據"
+    "zhHant": "綠色收據/自由職業收據",
+    "legacyIds": [
+      "m8-recibos-verdes"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m8-subsidio-desemprego",
+    "id": "az-0440",
     "modulo": "Módulo 8",
     "theme": "Emprego",
     "portuguese": "o subsídio de desemprego",
@@ -1332,10 +1690,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "失业救济金",
-    "zhHant": "失業救濟金"
+    "zhHant": "失業救濟金",
+    "legacyIds": [
+      "m8-subsidio-desemprego"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m8-conhecer",
+    "id": "az-0441",
     "modulo": "Módulo 8",
     "theme": "Capacidade",
     "portuguese": "conhecer",
@@ -1347,10 +1710,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "认识/相遇",
-    "zhHant": "認識/相遇"
+    "zhHant": "認識/相遇",
+    "legacyIds": [
+      "m8-conhecer"
+    ]
   },
   {
-    "id": "m8-conseguir",
+    "id": "az-0442",
     "modulo": "Módulo 8",
     "theme": "Capacidade",
     "portuguese": "conseguir",
@@ -1362,10 +1728,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "能够/成功做到",
-    "zhHant": "能夠/成功做到"
+    "zhHant": "能夠/成功做到",
+    "legacyIds": [
+      "m8-conseguir"
+    ]
   },
   {
-    "id": "m8-e-proibido",
+    "id": "az-0443",
     "modulo": "Módulo 8",
     "theme": "Regras",
     "portuguese": "é proibido",
@@ -1377,10 +1746,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "这是禁止的",
-    "zhHant": "這是禁止的"
+    "zhHant": "這是禁止的",
+    "legacyIds": [
+      "m8-e-proibido"
+    ]
   },
   {
-    "id": "m8-e-permitido",
+    "id": "az-0444",
     "modulo": "Módulo 8",
     "theme": "Regras",
     "portuguese": "é permitido",
@@ -1392,10 +1764,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "这是允许的",
-    "zhHant": "這是允許的"
+    "zhHant": "這是允許的",
+    "legacyIds": [
+      "m8-e-permitido"
+    ]
   },
   {
-    "id": "m8-local-trabalho",
+    "id": "az-0445",
     "modulo": "Módulo 8",
     "theme": "Regras",
     "portuguese": "o local de trabalho",
@@ -1407,10 +1782,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工作场所",
-    "zhHant": "工作場所"
+    "zhHant": "工作場所",
+    "legacyIds": [
+      "m8-local-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m9-agora",
+    "id": "az-0446",
     "modulo": "Módulo 9",
     "theme": "Passado / Presente",
     "portuguese": "agora",
@@ -1422,10 +1802,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "现在",
-    "zhHant": "現在"
+    "zhHant": "現在",
+    "legacyIds": [
+      "m9-agora"
+    ]
   },
   {
-    "id": "m9-antigamente",
+    "id": "az-0447",
     "modulo": "Módulo 9",
     "theme": "Passado / Presente",
     "portuguese": "antigamente",
@@ -1437,10 +1820,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "在过去",
-    "zhHant": "在過去"
+    "zhHant": "在過去",
+    "legacyIds": [
+      "m9-antigamente"
+    ]
   },
   {
-    "id": "m9-dantes",
+    "id": "az-0448",
     "modulo": "Módulo 9",
     "theme": "Passado / Presente",
     "portuguese": "dantes",
@@ -1452,10 +1838,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "在过去",
-    "zhHant": "在過去"
+    "zhHant": "在過去",
+    "legacyIds": [
+      "m9-dantes"
+    ]
   },
   {
-    "id": "m9-magro",
+    "id": "az-0449",
     "modulo": "Módulo 9",
     "theme": "Descrição de pessoas",
     "portuguese": "magro",
@@ -1467,10 +1856,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "瘦的",
-    "zhHant": "瘦的"
+    "zhHant": "瘦的",
+    "legacyIds": [
+      "m9-magro"
+    ]
   },
   {
-    "id": "m9-calcas-ganga",
+    "id": "az-0450",
     "modulo": "Módulo 9",
     "theme": "Roupa e acessórios",
     "portuguese": "as calças de ganga",
@@ -1482,10 +1874,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "牛仔裤",
-    "zhHant": "牛仔褲"
+    "zhHant": "牛仔褲",
+    "legacyIds": [
+      "m9-calcas-ganga"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m9-barulhento",
+    "id": "az-0451",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "barulhento",
@@ -1497,10 +1894,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "嘈杂",
-    "zhHant": "吵雜"
+    "zhHant": "吵雜",
+    "legacyIds": [
+      "m9-barulhento"
+    ]
   },
   {
-    "id": "m9-antigo",
+    "id": "az-0452",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "antigo",
@@ -1512,10 +1912,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "古老的",
-    "zhHant": "古老的"
+    "zhHant": "古老的",
+    "legacyIds": [
+      "m9-antigo"
+    ]
   },
   {
-    "id": "m9-movimentado",
+    "id": "az-0453",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "movimentado",
@@ -1527,10 +1930,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "忙碌的",
-    "zhHant": "忙碌的"
+    "zhHant": "忙碌的",
+    "legacyIds": [
+      "m9-movimentado"
+    ]
   },
   {
-    "id": "m9-calmo",
+    "id": "az-0454",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "calmo",
@@ -1542,10 +1948,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "安静的；冷静的",
-    "zhHant": "安静的；冷静的"
+    "zhHant": "安静的；冷静的",
+    "legacyIds": [
+      "m9-calmo"
+    ]
   },
   {
-    "id": "m9-moderno",
+    "id": "az-0455",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "moderno",
@@ -1557,10 +1966,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "现代的",
-    "zhHant": "現代的"
+    "zhHant": "現代的",
+    "legacyIds": [
+      "m9-moderno"
+    ]
   },
   {
-    "id": "m9-poluido",
+    "id": "az-0456",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "poluído",
@@ -1572,10 +1984,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "被污染的",
-    "zhHant": "被污染的"
+    "zhHant": "被污染的",
+    "legacyIds": [
+      "m9-poluido"
+    ]
   },
   {
-    "id": "m9-pouco-transito",
+    "id": "az-0457",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "pouco trânsito",
@@ -1587,10 +2002,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "交通很少",
-    "zhHant": "交通很少"
+    "zhHant": "交通很少",
+    "legacyIds": [
+      "m9-pouco-transito"
+    ]
   },
   {
-    "id": "m9-muito-transito",
+    "id": "az-0458",
     "modulo": "Módulo 9",
     "theme": "Descrição de lugares",
     "portuguese": "muito trânsito",
@@ -1602,10 +2020,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "交通繁忙",
-    "zhHant": "交通繁忙"
+    "zhHant": "交通繁忙",
+    "legacyIds": [
+      "m9-muito-transito"
+    ]
   },
   {
-    "id": "m9-agua-corrente",
+    "id": "az-0459",
     "modulo": "Módulo 9",
     "theme": "Hábitos",
     "portuguese": "a água corrente",
@@ -1617,10 +2038,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "自来水",
-    "zhHant": "自來水"
+    "zhHant": "自來水",
+    "legacyIds": [
+      "m9-agua-corrente"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m9-falar-telemovel",
+    "id": "az-0460",
     "modulo": "Módulo 9",
     "theme": "Hábitos",
     "portuguese": "falar ao telemóvel",
@@ -1632,10 +2058,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "用手机通话",
-    "zhHant": "用手機通話"
+    "zhHant": "用手機通話",
+    "legacyIds": [
+      "m9-falar-telemovel"
+    ]
   },
   {
-    "id": "m9-andar-carro",
+    "id": "az-0461",
     "modulo": "Módulo 9",
     "theme": "Transportes",
     "portuguese": "andar de carro",
@@ -1647,10 +2076,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "开车去",
-    "zhHant": "開車去"
+    "zhHant": "開車去",
+    "legacyIds": [
+      "m9-andar-carro"
+    ]
   },
   {
-    "id": "m9-matricular",
+    "id": "az-0462",
     "modulo": "Módulo 9",
     "theme": "Escola",
     "portuguese": "matricular",
@@ -1662,10 +2094,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "报名",
-    "zhHant": "報名"
+    "zhHant": "報名",
+    "legacyIds": [
+      "m9-matricular"
+    ]
   },
   {
-    "id": "m9-cedula",
+    "id": "az-0463",
     "modulo": "Módulo 9",
     "theme": "Escola",
     "portuguese": "a cédula",
@@ -1677,10 +2112,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "出生证明",
-    "zhHant": "出生證明"
+    "zhHant": "出生證明",
+    "legacyIds": [
+      "m9-cedula"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m9-boletim-vacinas",
+    "id": "az-0464",
     "modulo": "Módulo 9",
     "theme": "Saúde",
     "portuguese": "o boletim de vacinas",
@@ -1692,10 +2132,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "疫苗接种记录",
-    "zhHant": "疫苗接種記錄"
+    "zhHant": "疫苗接種記錄",
+    "legacyIds": [
+      "m9-boletim-vacinas"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m9-problemas-visuais-auditivos",
+    "id": "az-0465",
     "modulo": "Módulo 9",
     "theme": "Saúde",
     "portuguese": "os problemas visuais e auditivos",
@@ -1707,10 +2152,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "视力和听力问题",
-    "zhHant": "視力和聽力問題"
+    "zhHant": "視力和聽力問題",
+    "legacyIds": [
+      "m9-problemas-visuais-auditivos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m9-procura-vida-melhor",
+    "id": "az-0466",
     "modulo": "Módulo 9",
     "theme": "Migração",
     "portuguese": "à procura de uma vida melhor",
@@ -1722,10 +2172,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "寻找更好的生活",
-    "zhHant": "尋找更好的生活"
+    "zhHant": "尋找更好的生活",
+    "legacyIds": [
+      "m9-procura-vida-melhor"
+    ]
   },
   {
-    "id": "m9-emigrar",
+    "id": "az-0467",
     "modulo": "Módulo 9",
     "theme": "Migração",
     "portuguese": "emigrar",
@@ -1737,10 +2190,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "移民海外",
-    "zhHant": "移民海外"
+    "zhHant": "移民海外",
+    "legacyIds": [
+      "m9-emigrar"
+    ]
   },
   {
-    "id": "m9-vizinhos",
+    "id": "az-0468",
     "modulo": "Módulo 9",
     "theme": "Pessoas",
     "portuguese": "os vizinhos",
@@ -1752,10 +2208,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "邻居",
-    "zhHant": "鄰居"
+    "zhHant": "鄰居",
+    "legacyIds": [
+      "m9-vizinhos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m9-naquela-epoca",
+    "id": "az-0469",
     "modulo": "Módulo 9",
     "theme": "Tempo",
     "portuguese": "naquela época",
@@ -1767,10 +2228,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "当时",
-    "zhHant": "當時"
+    "zhHant": "當時",
+    "legacyIds": [
+      "m9-naquela-epoca"
+    ]
   },
   {
-    "id": "m9-naquele-tempo",
+    "id": "az-0470",
     "modulo": "Módulo 9",
     "theme": "Tempo",
     "portuguese": "naquele tempo",
@@ -1782,10 +2246,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "当年",
-    "zhHant": "當年"
+    "zhHant": "當年",
+    "legacyIds": [
+      "m9-naquele-tempo"
+    ]
   },
   {
-    "id": "m9-mais-caro",
+    "id": "az-0471",
     "modulo": "Módulo 9",
     "theme": "Compras",
     "portuguese": "o mais caro",
@@ -1797,10 +2264,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "最贵的",
-    "zhHant": "最貴的"
+    "zhHant": "最貴的",
+    "legacyIds": [
+      "m9-mais-caro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m9-mais-barato",
+    "id": "az-0472",
     "modulo": "Módulo 9",
     "theme": "Compras",
     "portuguese": "o mais barato",
@@ -1812,10 +2284,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "最便宜的",
-    "zhHant": "最便宜的"
+    "zhHant": "最便宜的",
+    "legacyIds": [
+      "m9-mais-barato"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m9-otimo",
+    "id": "az-0473",
     "modulo": "Módulo 9",
     "theme": "Descrição",
     "portuguese": "ótimo",
@@ -1827,10 +2304,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "出色的",
-    "zhHant": "出色的"
+    "zhHant": "出色的",
+    "legacyIds": [
+      "m9-otimo"
+    ]
   },
   {
-    "id": "m9-pessimo",
+    "id": "az-0474",
     "modulo": "Módulo 9",
     "theme": "Descrição",
     "portuguese": "péssimo",
@@ -1842,6 +2322,9 @@
     "note": "",
     "source": "pdf",
     "zhHans": "糟糕的",
-    "zhHant": "糟糕的"
+    "zhHant": "糟糕的",
+    "legacyIds": [
+      "m9-pessimo"
+    ]
   }
 ]

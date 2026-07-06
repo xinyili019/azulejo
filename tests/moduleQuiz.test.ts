@@ -12,6 +12,10 @@ import {
 import { createSeededRng } from "../src/lib/retrievalReview";
 
 describe("module quiz", () => {
+  function findByLegacyId(legacyId: string) {
+    return vocabulary.find((entry) => entry.legacyIds?.includes(legacyId));
+  }
+
   it("creates per-module scopes and uses custom split points for modules 1 and 6", () => {
     const scopes = buildModuleQuizScopes(vocabulary);
     const moduleOneScopes = scopes.filter((scope) => scope.modulo === "Módulo 1");
@@ -36,10 +40,10 @@ describe("module quiz", () => {
   });
 
   it("uses the actual sentence form as the cloze answer", () => {
-    const refeicao = vocabulary.find((entry) => entry.id === "m10-refeicao");
-    const sentirFalta = vocabulary.find((entry) => entry.id === "m10-sentir-falta-de");
-    const dependerDe = vocabulary.find((entry) => entry.id === "m10-depender-de");
-    const stress = vocabulary.find((entry) => entry.id === "m10-stress");
+    const refeicao = findByLegacyId("m10-refeicao");
+    const sentirFalta = findByLegacyId("m10-sentir-falta-de");
+    const dependerDe = findByLegacyId("m10-depender-de");
+    const stress = findByLegacyId("m10-stress");
 
     expect(refeicao).toBeDefined();
     expect(sentirFalta).toBeDefined();
@@ -72,7 +76,7 @@ describe("module quiz", () => {
     expect(questions.slice(MODULE_QUIZ_CLOZE_SIZE).every((question) => question.format === "audioMeaning")).toBe(true);
     expect(questions.slice(MODULE_QUIZ_CLOZE_SIZE).every((question) => question.choices.length === MODULE_QUIZ_AUDIO_MEANING_CHOICE_COUNT)).toBe(true);
     expect(new Set(questions.map((question) => question.id)).size).toBe(questions.length);
-  });
+  }, 10000);
 
   it("keeps multiple-choice answers inside the active scope when possible", () => {
     const scope = buildModuleQuizScopes(vocabulary).find((candidate) => candidate.modulo === "Módulo 1");

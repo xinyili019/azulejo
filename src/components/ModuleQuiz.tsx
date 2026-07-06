@@ -2,6 +2,9 @@ import { Check, ChevronRight, RotateCcw, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { buildModuleQuizQuestions } from "../lib/moduleQuiz";
 import type { UiCopy } from "../lib/i18n";
+import { getExampleAudioPath, getWordAudioPath } from "../lib/audioPaths";
+import { playPortugueseAudio } from "../lib/portugueseAudio";
+import { getPortugueseBareText, getPortugueseTermParts } from "../lib/portugueseDisplay";
 import type { Direction, ModuleQuizQuestion, ModuleQuizResult, ModuleQuizScope, VocabularyEntry } from "../types";
 
 interface ModuleQuizProps {
@@ -46,7 +49,7 @@ export function ModuleQuiz({
   const [retryingMissed, setRetryingMissed] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [translationOpen, setTranslationOpen] = useState(false);
-  const activeAudioRef = useRef<HTMLAudioElement | null>(null);
+  const autoPlayedQuestionRef = useRef<string | null>(null);
   const activeScope = useMemo(
     () => scopes.find((scope) => scope.id === scopeId) ?? scopes[0],
     [scopeId, scopes]
@@ -69,10 +72,12 @@ export function ModuleQuiz({
   }, [activeScope?.id, direction]);
 
   useEffect(() => {
-    if (activeQuestion?.format === "audioMeaning") {
+    const autoPlayKey = activeQuestion ? `${scopeId}:${activeQuestion.id}:${retryingMissed ? "retry" : "quiz"}` : null;
+    if (activeQuestion?.format === "audioMeaning" && autoPlayKey && autoPlayedQuestionRef.current !== autoPlayKey) {
+      autoPlayedQuestionRef.current = autoPlayKey;
       playQuestionAudio(activeQuestion);
     }
-  }, [activeQuestion?.id, activeQuestion?.format]);
+  }, [activeQuestion?.id, activeQuestion?.format, retryingMissed, scopeId]);
 
   function startFreshQuiz() {
     if (!activeScope) {
@@ -88,6 +93,7 @@ export function ModuleQuiz({
     setRetryingMissed(false);
     setQuizCompleted(false);
     setTranslationOpen(false);
+    autoPlayedQuestionRef.current = null;
   }
 
   function selectChoice(choice: string) {
@@ -156,30 +162,17 @@ export function ModuleQuiz({
     setRetryingMissed(true);
     setQuizCompleted(false);
     setTranslationOpen(false);
-  }
-
-  function prepareAmbientAudioSession() {
-    const audioSession = (navigator as Navigator & { audioSession?: { type?: string } }).audioSession;
-    if (audioSession && "type" in audioSession) {
-      try {
-        audioSession.type = "ambient";
-      } catch {
-        // Some browsers expose audioSession but keep the type read-only.
-      }
-    }
+    autoPlayedQuestionRef.current = null;
   }
 
   function playQuestionAudio(question: ModuleQuizQuestion) {
-    if (typeof window === "undefined" || !("Audio" in window)) return;
     const audioPath =
       question.format === "cloze"
-        ? `audio/pt/examples/${question.entry.id}.m4a`
-        : `audio/pt/${question.entry.id}.m4a`;
-    prepareAmbientAudioSession();
-    activeAudioRef.current?.pause();
-    const audio = new Audio(`${import.meta.env.BASE_URL}${audioPath}`);
-    activeAudioRef.current = audio;
-    audio.play().catch(() => undefined);
+        ? getExampleAudioPath(question.entry)
+        : getWordAudioPath(question.entry);
+    const fallbackText =
+      question.format === "cloze" ? question.entry.examplePt ?? getPortugueseBareText(question.entry) : getPortugueseBareText(question.entry);
+    playPortugueseAudio(audioPath, fallbackText);
   }
 
   function speak() {
@@ -329,11 +322,23 @@ export function ModuleQuiz({
         </div>
         {answered && activeQuestion.format === "audioMeaning" && (
           <p className="module-quiz-target-word" aria-live="polite">
-            {activeQuestion.entry.portuguese}
+            {renderPortugueseTerm(activeQuestion.entry)}
           </p>
         )}
       </section>
     </div>
+  );
+}
+
+function renderPortugueseTerm(entry: VocabularyEntry) {
+  const parts = getPortugueseTermParts(entry);
+  if (!parts.article) return parts.word;
+
+  return (
+    <>
+      <span className="pt-article">{parts.article}</span>{" "}
+      <span className="pt-headword">{parts.word}</span>
+    </>
   );
 }
 

@@ -6,6 +6,9 @@ import {
   type RetrievalReviewPrompt,
   type RetrievalReviewResult
 } from "../lib/retrievalReview";
+import { getPortugueseTermParts } from "../lib/portugueseDisplay";
+import { playPortugueseAudio } from "../lib/portugueseAudio";
+import { getWordAudioPath } from "../lib/audioPaths";
 import type { Direction } from "../types";
 import type { UiCopy } from "../lib/i18n";
 
@@ -42,7 +45,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
   const hiddenSlotCount = activePrompt ? getHiddenCueSlotCount(activePrompt.cue) : 0;
   const scoredInput = activePrompt ? buildAnswerFromCueInput(input, activePrompt.cue) : input;
   const feedback = activePrompt && submitted ? getCharacterFeedback(scoredInput, activePrompt.answer) : [];
-  const outcome = activePrompt && submitted ? getRetrievalOutcome(scoredInput, activePrompt.answer, revealedBeforeTyped) : null;
+  const outcome = activePrompt && submitted ? getRetrievalOutcome(scoredInput, activePrompt.answer, revealedBeforeTyped, activePrompt.acceptedAnswers) : null;
   const targetExample = activePrompt ? getExampleTranslation(activePrompt.entry, direction) : undefined;
   const hasInput = Array.from(input).length > 0;
   const revealLabel = ui.revealAnswer;
@@ -76,9 +79,8 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
   }
 
   function speak() {
-    if (!activePrompt || typeof window === "undefined" || !("Audio" in window)) return;
-    const audio = new Audio(`${import.meta.env.BASE_URL}audio/pt/${activePrompt.entry.id}.m4a`);
-    audio.play().catch(() => undefined);
+    if (!activePrompt) return;
+    playPortugueseAudio(getWordAudioPath(activePrompt.entry), activePrompt.answer);
   }
 
   function submitAnswer(revealed: boolean) {
@@ -107,7 +109,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
     const result: RetrievalReviewResult = {
       id: activePrompt.id,
       entry: activePrompt.entry,
-      outcome: getRetrievalOutcome(scoredInput, activePrompt.answer, revealedBeforeTyped)
+      outcome: getRetrievalOutcome(scoredInput, activePrompt.answer, revealedBeforeTyped, activePrompt.acceptedAnswers)
     };
     const nextResults = [...results, result];
 
@@ -173,6 +175,12 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
           />
         </div>
 
+        {submitted && (
+          <p className="retrieval-answer-display" aria-live="polite">
+            {renderPortugueseTerm(activePrompt.entry)}
+          </p>
+        )}
+
         <div className="retrieval-actions">
           {!submitted ? (
             <>
@@ -228,6 +236,18 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
         )}
       </section>
     </div>
+  );
+}
+
+function renderPortugueseTerm(entry: RetrievalReviewPrompt["entry"]) {
+  const parts = getPortugueseTermParts(entry);
+  if (!parts.article) return parts.word;
+
+  return (
+    <>
+      <span className="pt-article">{parts.article}</span>{" "}
+      <span className="pt-headword">{parts.word}</span>
+    </>
   );
 }
 

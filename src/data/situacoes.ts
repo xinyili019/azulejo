@@ -107,7 +107,11 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "pt": "abrir uma conta à ordem",
     "en": "to open a current account",
     "zhHans": "开一个活期账户",
-    "zhHant": "開一個活期帳戶"
+    "zhHant": "開一個活期帳戶",
+    "id": "az-0601",
+    "legacyIds": [
+      "situacao-abrir-uma-conta-a-ordem"
+    ]
   },
   {
     "situacao": "banco",
@@ -115,21 +119,39 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "IBAN (bank account number)",
     "zhHans": "IBAN（國际银行账号）",
     "zhHant": "IBAN（國際銀行帳號）",
-    "note": "Needed for salary, rent, utilities"
+    "note": "Needed for salary, rent, utilities",
+    "id": "az-0602",
+    "legacyIds": [
+      "situacao-o-iban"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o cartão multibanco",
     "en": "debit card (Multibanco)",
     "zhHans": "多功能提款卡（Multibanco）",
-    "zhHant": "多功能提款卡（Multibanco）"
+    "zhHant": "多功能提款卡（Multibanco）",
+    "id": "az-0154",
+    "legacyIds": [
+      "situacao-o-cartao-multibanco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o cartão de débito / de crédito",
     "en": "debit card / credit card",
     "zhHans": "扣账卡／信用卡",
-    "zhHant": "扣賬卡／信用卡"
+    "zhHant": "扣賬卡／信用卡",
+    "id": "az-0604",
+    "legacyIds": [
+      "situacao-o-cartao-de-debito-de-credito"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
@@ -137,42 +159,74 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "bank statement",
     "zhHans": "银行对账单",
     "zhHant": "銀行對帳單",
-    "note": "Often requested as proof of funds"
+    "note": "Often requested as proof of funds",
+    "id": "az-0605",
+    "legacyIds": [
+      "situacao-o-extrato-bancario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "a transferência bancária",
     "en": "bank transfer",
     "zhHans": "银行转账",
-    "zhHant": "銀行轉帳"
+    "zhHant": "銀行轉帳",
+    "id": "az-0606",
+    "legacyIds": [
+      "situacao-a-transferencia-bancaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
     "pt": "levantar dinheiro",
     "en": "to withdraw money",
     "zhHans": "提款",
-    "zhHant": "提款"
+    "zhHant": "提款",
+    "id": "az-0607",
+    "legacyIds": [
+      "situacao-levantar-dinheiro"
+    ]
   },
   {
     "situacao": "banco",
     "pt": "depositar dinheiro",
     "en": "to deposit money",
     "zhHans": "存款",
-    "zhHant": "存款"
+    "zhHant": "存款",
+    "id": "az-0608",
+    "legacyIds": [
+      "situacao-depositar-dinheiro"
+    ]
   },
   {
     "situacao": "banco",
     "pt": "o saldo",
     "en": "account balance",
     "zhHans": "账户余额",
-    "zhHant": "帳戶餘額"
+    "zhHant": "帳戶餘額",
+    "id": "az-0609",
+    "legacyIds": [
+      "situacao-o-saldo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "a comissão de manutenção",
     "en": "account maintenance fee",
     "zhHans": "账户管理费",
-    "zhHant": "帳戶管理費"
+    "zhHant": "帳戶管理費",
+    "id": "az-0610",
+    "legacyIds": [
+      "situacao-a-comissao-de-manutencao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
@@ -180,28 +234,52 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "proof of address",
     "zhHans": "住址证明",
     "zhHant": "住址證明",
-    "note": "Utility bill, rental contract or junta attestation"
+    "note": "Utility bill, rental contract or junta attestation",
+    "id": "az-0611",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-morada"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o titular da conta",
     "en": "account holder",
     "zhHans": "账户持有人",
-    "zhHant": "帳戶持有人"
+    "zhHant": "帳戶持有人",
+    "id": "az-0612",
+    "legacyIds": [
+      "situacao-o-titular-da-conta"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o homebanking / a app do banco",
     "en": "online banking / banking app",
     "zhHans": "网上银行／银行应用程式",
-    "zhHant": "網上銀行／銀行應用程式"
+    "zhHant": "網上銀行／銀行應用程式",
+    "id": "az-0613",
+    "legacyIds": [
+      "situacao-o-homebanking-a-app-do-banco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o código PIN",
     "en": "PIN code",
     "zhHans": "密码（PIN码）",
-    "zhHant": "密碼（PIN碼）"
+    "zhHant": "密碼（PIN碼）",
+    "id": "az-0614",
+    "legacyIds": [
+      "situacao-o-codigo-pin"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
@@ -209,14 +287,24 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "NIF (tax identification number)",
     "zhHans": "NIF（税务识別号码）",
     "zhHant": "NIF（稅務識別號碼）",
-    "note": "First document most newcomers need"
+    "note": "First document most newcomers need",
+    "id": "az-0615",
+    "legacyIds": [
+      "situacao-o-nif-numero-de-identificacao-fiscal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "pedir o NIF",
     "en": "to apply for a NIF",
     "zhHans": "申请税号",
-    "zhHant": "申請稅號"
+    "zhHant": "申請稅號",
+    "id": "az-0616",
+    "legacyIds": [
+      "situacao-pedir-o-nif"
+    ]
   },
   {
     "situacao": "financas",
@@ -224,14 +312,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "tax representative",
     "zhHans": "税务代表",
     "zhHant": "稅務代表",
-    "note": "Only required for non-EU residents without PT address"
+    "note": "Only required for non-EU residents without PT address",
+    "id": "az-0617",
+    "legacyIds": [
+      "situacao-o-representante-fiscal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "a Autoridade Tributária (AT)",
     "en": "Tax Authority",
     "zhHans": "税务局",
-    "zhHant": "稅務局"
+    "zhHant": "稅務局",
+    "id": "az-0618",
+    "legacyIds": [
+      "situacao-a-autoridade-tributaria-at"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
@@ -239,14 +339,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "the Finanças online portal",
     "zhHans": "财政入口网站",
     "zhHant": "財政入口網站",
-    "note": "Password sent by post after registration"
+    "note": "Password sent by post after registration",
+    "id": "az-0619",
+    "legacyIds": [
+      "situacao-o-portal-das-financas"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "a senha de acesso",
     "en": "access password (portal login)",
     "zhHans": "登入密码",
-    "zhHant": "登入密碼"
+    "zhHant": "登入密碼",
+    "id": "az-0620",
+    "legacyIds": [
+      "situacao-a-senha-de-acesso"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
@@ -254,56 +366,100 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to take a queue ticket",
     "zhHans": "取号（排队票）",
     "zhHant": "取號（排隊票）",
-    "note": "Same word 'senha' = ticket AND password"
+    "note": "Same word 'senha' = ticket AND password",
+    "id": "az-0621",
+    "legacyIds": [
+      "situacao-tirar-a-senha"
+    ]
   },
   {
     "situacao": "financas",
     "pt": "a declaração de IRS",
     "en": "income tax return",
     "zhHans": "个人所得税申報表",
-    "zhHant": "個人所得稅申報表"
+    "zhHant": "個人所得稅申報表",
+    "id": "az-0622",
+    "legacyIds": [
+      "situacao-a-declaracao-de-irs"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "o domicílio fiscal",
     "en": "registered tax address",
     "zhHans": "税务登记地址",
-    "zhHant": "稅務登記地址"
+    "zhHant": "稅務登記地址",
+    "id": "az-0623",
+    "legacyIds": [
+      "situacao-o-domicilio-fiscal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "atualizar a morada",
     "en": "to update one's address",
     "zhHans": "更新地址",
-    "zhHant": "更新地址"
+    "zhHant": "更新地址",
+    "id": "az-0624",
+    "legacyIds": [
+      "situacao-atualizar-a-morada"
+    ]
   },
   {
     "situacao": "financas",
     "pt": "o comprovativo de morada",
     "en": "proof of address",
     "zhHans": "住址证明",
-    "zhHant": "住址證明"
+    "zhHant": "住址證明",
+    "id": "az-0611",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-morada"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "a certidão de residência fiscal",
     "en": "certificate of tax residency",
     "zhHans": "税务居民证明",
-    "zhHant": "稅務居民證明"
+    "zhHant": "稅務居民證明",
+    "id": "az-0625",
+    "legacyIds": [
+      "situacao-a-certidao-de-residencia-fiscal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "as guias de pagamento",
     "en": "payment slips",
     "zhHans": "缴费单",
-    "zhHant": "繳費單"
+    "zhHant": "繳費單",
+    "id": "az-0626",
+    "legacyIds": [
+      "situacao-as-guias-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "correios",
     "pt": "os correios / os CTT",
     "en": "the post office / CTT",
     "zhHans": "邮局（CTT）",
-    "zhHant": "郵局（CTT）"
+    "zhHant": "郵局（CTT）",
+    "id": "az-0627",
+    "legacyIds": [
+      "situacao-os-correios-os-ctt"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "correios",
@@ -311,77 +467,133 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "registered letter",
     "zhHans": "挂号信",
     "zhHant": "掛號信",
-    "note": "How official documents usually arrive"
+    "note": "How official documents usually arrive",
+    "id": "az-0233",
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "o aviso de receção",
     "en": "proof of delivery (return receipt)",
     "zhHans": "回执（签收证明）",
-    "zhHant": "回執（簽收證明）"
+    "zhHant": "回執（簽收證明）",
+    "id": "az-0628",
+    "legacyIds": [
+      "situacao-o-aviso-de-rececao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "a encomenda",
     "en": "parcel",
     "zhHans": "包裹",
-    "zhHant": "包裹"
+    "zhHant": "包裹",
+    "id": "az-0222",
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "levantar uma encomenda",
     "en": "to collect a parcel",
     "zhHans": "领取包裹",
-    "zhHant": "領取包裹"
+    "zhHant": "領取包裹",
+    "id": "az-0629",
+    "legacyIds": [
+      "situacao-levantar-uma-encomenda"
+    ]
   },
   {
     "situacao": "correios",
     "pt": "o aviso de levantamento",
     "en": "collection notice (left in mailbox)",
     "zhHans": "取件通知单",
-    "zhHant": "取件通知單"
+    "zhHant": "取件通知單",
+    "id": "az-0630",
+    "legacyIds": [
+      "situacao-o-aviso-de-levantamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "o código de rastreio",
     "en": "tracking number",
     "zhHans": "追踪編号",
-    "zhHant": "追蹤編號"
+    "zhHant": "追蹤編號",
+    "id": "az-0631",
+    "legacyIds": [
+      "situacao-o-codigo-de-rastreio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "o selo",
     "en": "stamp",
     "zhHans": "邮票",
-    "zhHant": "郵票"
+    "zhHant": "郵票",
+    "id": "az-0632",
+    "legacyIds": [
+      "situacao-o-selo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "o correio azul",
     "en": "priority mail",
     "zhHans": "蓝色优先邮件（快件）",
-    "zhHant": "藍色優先郵件（快件）"
+    "zhHant": "藍色優先郵件（快件）",
+    "id": "az-0633",
+    "legacyIds": [
+      "situacao-o-correio-azul"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "enviar para o estrangeiro",
     "en": "to send abroad",
     "zhHans": "寄往國外",
-    "zhHant": "寄往國外"
+    "zhHant": "寄往國外",
+    "id": "az-0634",
+    "legacyIds": [
+      "situacao-enviar-para-o-estrangeiro"
+    ]
   },
   {
     "situacao": "correios",
     "pt": "a caixa de correio",
     "en": "mailbox",
     "zhHans": "信箱",
-    "zhHant": "信箱"
+    "zhHant": "信箱",
+    "id": "az-0635",
+    "legacyIds": [
+      "situacao-a-caixa-de-correio"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "o remetente / o destinatário",
     "en": "sender / recipient",
     "zhHans": "寄件人／收件人",
-    "zhHant": "寄件人／收件人"
+    "zhHant": "寄件人／收件人",
+    "id": "az-0636",
+    "legacyIds": [
+      "situacao-o-remetente-o-destinatario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
@@ -389,7 +601,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "parish council office",
     "zhHans": "堂区行政委员会（社区办事处）",
     "zhHant": "堂區行政委員會（社區辦事處）",
-    "note": "Most local level of government"
+    "note": "Most local level of government",
+    "id": "az-0637",
+    "legacyIds": [
+      "situacao-a-junta-de-freguesia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
@@ -397,7 +615,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "certificate of residence",
     "zhHans": "居住证明书",
     "zhHant": "居住證明書",
-    "note": "Key doc for SNS number without residence permit"
+    "note": "Key doc for SNS number without residence permit",
+    "id": "az-0638",
+    "legacyIds": [
+      "situacao-o-atestado-de-residencia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
@@ -405,56 +629,100 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "two witnesses",
     "zhHans": "两名证人",
     "zhHant": "兩名證人",
-    "note": "Neighbours registered in the same freguesia"
+    "note": "Neighbours registered in the same freguesia",
+    "id": "az-0639",
+    "legacyIds": [
+      "situacao-as-duas-testemunhas"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "recenseado na freguesia",
     "en": "registered (on the electoral roll) in the parish",
     "zhHans": "在本堂区登记在册的",
-    "zhHant": "在本堂區登記在冊的"
+    "zhHant": "在本堂區登記在冊的",
+    "id": "az-0640",
+    "legacyIds": [
+      "situacao-recenseado-na-freguesia"
+    ]
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o agregado familiar",
     "en": "household",
     "zhHans": "家庭成员（同户）",
-    "zhHant": "家庭成員（同戶）"
+    "zhHant": "家庭成員（同戶）",
+    "id": "az-0641",
+    "legacyIds": [
+      "situacao-o-agregado-familiar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a declaração sob compromisso de honra",
     "en": "sworn declaration",
     "zhHans": "誓词声明（保证声明）",
-    "zhHant": "誓詞聲明（保證聲明）"
+    "zhHant": "誓詞聲明（保證聲明）",
+    "id": "az-0642",
+    "legacyIds": [
+      "situacao-a-declaracao-sob-compromisso-de-honra"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o contrato de arrendamento",
     "en": "rental contract",
     "zhHans": "租赁合同",
-    "zhHant": "租賃合同"
+    "zhHant": "租賃合同",
+    "id": "az-0643",
+    "legacyIds": [
+      "situacao-o-contrato-de-arrendamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a certidão",
     "en": "certificate / official copy",
     "zhHans": "证明书／正式副本",
-    "zhHant": "證明書／正式副本"
+    "zhHant": "證明書／正式副本",
+    "id": "az-0644",
+    "legacyIds": [
+      "situacao-a-certidao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o carimbo",
     "en": "official stamp",
     "zhHans": "公章",
-    "zhHant": "公章"
+    "zhHant": "公章",
+    "id": "az-0645",
+    "legacyIds": [
+      "situacao-o-carimbo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "pagar uma taxa",
     "en": "to pay a fee",
     "zhHans": "缴納费用",
-    "zhHant": "繳納費用"
+    "zhHant": "繳納費用",
+    "id": "az-0646",
+    "legacyIds": [
+      "situacao-pagar-uma-taxa"
+    ]
   },
   {
     "situacao": "saude",
@@ -462,14 +730,24 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "SNS user number",
     "zhHans": "医疗用户号（Utente号）",
     "zhHant": "醫療用戶號（Utente號）",
-    "note": "Assigned at your local centro de saúde"
+    "note": "Assigned at your local centro de saúde",
+    "id": "az-0647",
+    "legacyIds": [
+      "situacao-o-numero-de-utente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "inscrever-se no centro de saúde",
     "en": "to register at the health centre",
     "zhHans": "在卫生中心登记",
-    "zhHant": "在衛生中心登記"
+    "zhHant": "在衛生中心登記",
+    "id": "az-0648",
+    "legacyIds": [
+      "situacao-inscrever-se-no-centro-de-saude"
+    ]
   },
   {
     "situacao": "saude",
@@ -477,14 +755,21 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "family doctor (GP)",
     "zhHans": "家庭医生",
     "zhHant": "家庭醫生",
-    "note": "May be waitlisted; you're assigned, not chosen"
+    "note": "May be waitlisted; you're assigned, not chosen",
+    "id": "az-0649",
+    "legacyIds": [
+      "situacao-o-medico-de-familia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "marcar uma consulta",
     "en": "to book an appointment",
     "zhHans": "预约门诊",
-    "zhHant": "預約門診"
+    "zhHant": "預約門診",
+    "id": "az-0340"
   },
   {
     "situacao": "saude",
@@ -492,14 +777,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "(electronic) prescription",
     "zhHans": "（电子）处方",
     "zhHant": "（電子）處方",
-    "note": "Sent by SMS; show code at pharmacy"
+    "note": "Sent by SMS; show code at pharmacy",
+    "id": "az-0650",
+    "legacyIds": [
+      "situacao-a-receita-eletronica"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "a urgência",
     "en": "A&E / emergency department",
     "zhHans": "急诊",
-    "zhHant": "急診"
+    "zhHant": "急診",
+    "id": "az-0512",
+    "legacyIds": [
+      "situacao-a-urgencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
@@ -507,14 +804,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "SNS 24 health line",
     "zhHans": "SNS 24健康热线（808 24 24 24）",
     "zhHant": "SNS 24健康熱線（808 24 24 24）",
-    "note": "Call BEFORE going to A&E for triage advice"
+    "note": "Call BEFORE going to A&E for triage advice",
+    "id": "az-0652",
+    "legacyIds": [
+      "situacao-o-sns-24-808-24-24-24"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "o 112",
     "en": "112 (emergency number)",
     "zhHans": "112（紧急救援电话）",
-    "zhHant": "112（緊急救援電話）"
+    "zhHant": "112（緊急救援電話）",
+    "id": "az-0653",
+    "legacyIds": [
+      "situacao-o-112"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
@@ -522,42 +831,68 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "triage (coloured wristband)",
     "zhHans": "分诊（颜色手环）",
     "zhHant": "分診（顏色手環）",
-    "note": "Wristband colour = urgency level, sets your wait"
+    "note": "Wristband colour = urgency level, sets your wait",
+    "id": "az-0654",
+    "legacyIds": [
+      "situacao-a-triagem-pulseira"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "a baixa médica",
     "en": "sick leave certificate",
     "zhHans": "病假证明",
-    "zhHant": "病假證明"
+    "zhHant": "病假證明",
+    "id": "az-0655",
+    "legacyIds": [
+      "situacao-a-baixa-medica"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "a farmácia",
     "en": "pharmacy",
     "zhHans": "药房",
-    "zhHant": "藥房"
+    "zhHant": "藥房",
+    "id": "az-0312",
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "o boletim de vacinas",
     "en": "vaccination record",
     "zhHans": "疫苗接种记录",
-    "zhHant": "疫苗接種記錄"
+    "zhHant": "疫苗接種記錄",
+    "id": "az-0464",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "Dói-me…",
     "en": "… hurts / I have pain in…",
     "zhHans": "我……痛",
-    "zhHant": "我……痛"
+    "zhHant": "我……痛",
+    "id": "az-0656",
+    "legacyIds": [
+      "situacao-doi-me"
+    ]
   },
   {
     "situacao": "saude",
     "pt": "sou alérgico/a a…",
     "en": "I'm allergic to…",
     "zhHans": "我对……过敏",
-    "zhHant": "我對……過敏"
+    "zhHant": "我對……過敏",
+    "id": "az-0657",
+    "legacyIds": [
+      "situacao-sou-alergico-a-a"
+    ]
   },
   {
     "situacao": "aima",
@@ -565,21 +900,39 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "AIMA (Agency for Integration, Migration and Asylum)",
     "zhHans": "移民与庇护融合署（AIMA）",
     "zhHant": "移民與庇護融合署（AIMA）",
-    "note": "Replaced SEF in Oct 2023"
+    "note": "Replaced SEF in Oct 2023",
+    "id": "az-0658",
+    "legacyIds": [
+      "situacao-a-aima"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "a autorização de residência (AR)",
     "en": "residence permit",
     "zhHans": "居留許可",
-    "zhHant": "居留許可"
+    "zhHant": "居留許可",
+    "id": "az-0659",
+    "legacyIds": [
+      "situacao-a-autorizacao-de-residencia-ar"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "o título de residência",
     "en": "residence card (the physical document)",
     "zhHans": "居留证（实体证件）",
-    "zhHant": "居留證（實體證件）"
+    "zhHant": "居留證（實體證件）",
+    "id": "az-0660",
+    "legacyIds": [
+      "situacao-o-titulo-de-residencia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
@@ -587,7 +940,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "renewal",
     "zhHans": "续期",
     "zhHant": "續期",
-    "note": "Apply from 90 days, up to 30 days before expiry"
+    "note": "Apply from 90 days, up to 30 days before expiry",
+    "id": "az-0661",
+    "legacyIds": [
+      "situacao-a-renovacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
@@ -595,21 +954,39 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "the online Renewals Portal",
     "zhHans": "线上续期平台",
     "zhHant": "線上續期平台",
-    "note": "portal-renovacoes.aima.gov.pt; opened month by month"
+    "note": "portal-renovacoes.aima.gov.pt; opened month by month",
+    "id": "az-0662",
+    "legacyIds": [
+      "situacao-o-portal-das-renovacoes"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "a marcação / o agendamento",
     "en": "appointment / booking",
     "zhHans": "预约",
-    "zhHant": "預約"
+    "zhHant": "預約",
+    "id": "az-0663",
+    "legacyIds": [
+      "situacao-a-marcacao-o-agendamento"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "a recolha de dados biométricos",
     "en": "biometric data collection",
     "zhHans": "採集生物识別资料（按指紋等）",
-    "zhHant": "採集生物識別資料（按指紋等）"
+    "zhHant": "採集生物識別資料（按指紋等）",
+    "id": "az-0664",
+    "legacyIds": [
+      "situacao-a-recolha-de-dados-biometricos"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
@@ -617,7 +994,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "proof of means of subsistence",
     "zhHans": "生活來源证明",
     "zhHant": "生活來源證明",
-    "note": "Work contract, payslips or bank statement"
+    "note": "Work contract, payslips or bank statement",
+    "id": "az-0665",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-meios-de-subsistencia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
@@ -625,21 +1008,36 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "criminal record (check)",
     "zhHans": "无犯罪记录",
     "zhHant": "無犯罪記錄",
-    "note": "Consent for lookup usually given at the counter"
+    "note": "Consent for lookup usually given at the counter",
+    "id": "az-0240",
+    "legacyIds": [
+      "situacao-o-registo-criminal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "o reagrupamento familiar",
     "en": "family reunification",
     "zhHans": "家庭团聚",
-    "zhHant": "家庭團聚"
+    "zhHant": "家庭團聚",
+    "id": "az-0566",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "o processo pendente",
     "en": "pending case/process",
     "zhHans": "待处理的申请",
-    "zhHant": "待處理的申請"
+    "zhHant": "待處理的申請",
+    "id": "az-0667",
+    "legacyIds": [
+      "situacao-o-processo-pendente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
@@ -647,21 +1045,37 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "expired",
     "zhHans": "已过期",
     "zhHant": "已過期",
-    "note": "AR expired <6 months can still renew"
+    "note": "AR expired <6 months can still renew",
+    "id": "az-0668",
+    "legacyIds": [
+      "situacao-caducado-a"
+    ]
   },
   {
     "situacao": "aima",
     "pt": "as taxas",
     "en": "fees",
     "zhHans": "费用",
-    "zhHant": "費用"
+    "zhHant": "費用",
+    "id": "az-0669",
+    "legacyIds": [
+      "situacao-as-taxas"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "escola",
     "pt": "a matrícula",
     "en": "enrolment",
     "zhHans": "入学註册",
-    "zhHant": "入學註冊"
+    "zhHant": "入學註冊",
+    "id": "az-0670",
+    "legacyIds": [
+      "situacao-a-matricula"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
@@ -669,7 +1083,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "the online enrolment portal",
     "zhHans": "入学註册网站",
     "zhHant": "入學註冊網站",
-    "note": "portaldasmatriculas.edu.gov.pt"
+    "note": "portaldasmatriculas.edu.gov.pt",
+    "id": "az-0671",
+    "legacyIds": [
+      "situacao-o-portal-das-matriculas"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
@@ -677,35 +1097,62 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "legal guardian (for school purposes)",
     "zhHans": "教育监护人",
     "zhHant": "教育監護人",
-    "note": "Usually a parent; the school's official contact"
+    "note": "Usually a parent; the school's official contact",
+    "id": "az-0672",
+    "legacyIds": [
+      "situacao-o-encarregado-de-educacao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "o agrupamento de escolas",
     "en": "school cluster",
     "zhHans": "学校群（校区联盟）",
-    "zhHant": "學校群（校區聯盟）"
+    "zhHant": "學校群（校區聯盟）",
+    "id": "az-0673",
+    "legacyIds": [
+      "situacao-o-agrupamento-de-escolas"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "a escola da área de residência",
     "en": "the school for your home address",
     "zhHans": "居住地划片学校",
-    "zhHant": "居住地劃片學校"
+    "zhHant": "居住地劃片學校",
+    "id": "az-0674",
+    "legacyIds": [
+      "situacao-a-escola-da-area-de-residencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "o ano letivo",
     "en": "school year",
     "zhHans": "学年",
-    "zhHant": "學年"
+    "zhHant": "學年",
+    "id": "az-0675",
+    "legacyIds": [
+      "situacao-o-ano-letivo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "o boletim de vacinas",
     "en": "vaccination record",
     "zhHans": "疫苗接种记录",
-    "zhHant": "疫苗接種記錄"
+    "zhHant": "疫苗接種記錄",
+    "id": "az-0464",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
@@ -713,14 +1160,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "school social support (meals/books subsidy)",
     "zhHans": "学校社会援助（餐费/教材补助）",
     "zhHant": "學校社會援助（餐費/教材補助）",
-    "note": "Linked to abono de família escalão; needs NISS"
+    "note": "Linked to abono de família escalão; needs NISS",
+    "id": "az-0676",
+    "legacyIds": [
+      "situacao-a-acao-social-escolar-ase"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "o abono de família",
     "en": "family allowance",
     "zhHans": "家庭津贴",
-    "zhHant": "家庭津貼"
+    "zhHant": "家庭津貼",
+    "id": "az-0677",
+    "legacyIds": [
+      "situacao-o-abono-de-familia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
@@ -728,42 +1187,78 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "textbooks",
     "zhHans": "教科书",
     "zhHant": "教科書",
-    "note": "Free in public schooling"
+    "note": "Free in public schooling",
+    "id": "az-0678",
+    "legacyIds": [
+      "situacao-os-manuais-escolares"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "escola",
     "pt": "o horário",
     "en": "timetable",
     "zhHans": "课程表",
-    "zhHant": "課程表"
+    "zhHant": "課程表",
+    "id": "az-0679",
+    "legacyIds": [
+      "situacao-o-horario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "a reunião de pais",
     "en": "parents' meeting",
     "zhHans": "家长会",
-    "zhHant": "家長會"
+    "zhHant": "家長會",
+    "id": "az-0680",
+    "legacyIds": [
+      "situacao-a-reuniao-de-pais"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "o ATL",
     "en": "after-school care",
     "zhHans": "课后託管",
-    "zhHant": "課後託管"
+    "zhHant": "課後託管",
+    "id": "az-0681",
+    "legacyIds": [
+      "situacao-o-atl"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "a cantina / o refeitório",
     "en": "school canteen",
     "zhHans": "学校食堂",
-    "zhHant": "學校食堂"
+    "zhHant": "學校食堂",
+    "id": "az-0682",
+    "legacyIds": [
+      "situacao-a-cantina-o-refeitorio"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "o IEFP / o centro de emprego",
     "en": "IEFP / job centre",
     "zhHans": "就业与职业培训局（就业中心）",
-    "zhHant": "就業與職業培訓局（就業中心）"
+    "zhHant": "就業與職業培訓局（就業中心）",
+    "id": "az-0683",
+    "legacyIds": [
+      "situacao-o-iefp-o-centro-de-emprego"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
@@ -771,14 +1266,24 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to register as a jobseeker",
     "zhHans": "登记为求职者",
     "zhHant": "登記為求職者",
-    "note": "Online via iefponline or in person"
+    "note": "Online via iefponline or in person",
+    "id": "az-0684",
+    "legacyIds": [
+      "situacao-inscrever-se-como-candidato-a-emprego"
+    ]
   },
   {
     "situacao": "iefp",
     "pt": "o iefponline",
     "en": "the IEFP online portal",
     "zhHans": "IEFP线上平台",
-    "zhHant": "IEFP線上平台"
+    "zhHant": "IEFP線上平台",
+    "id": "az-0685",
+    "legacyIds": [
+      "situacao-o-iefponline"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
@@ -786,35 +1291,62 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "unemployment benefit",
     "zhHans": "失业救济金",
     "zhHant": "失業救濟金",
-    "note": "Register within 90 days of losing your job"
+    "note": "Register within 90 days of losing your job",
+    "id": "az-0440",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "a declaração da entidade empregadora",
     "en": "employer's declaration (of dismissal)",
     "zhHans": "雇主解雇声明",
-    "zhHant": "僱主解僱聲明"
+    "zhHant": "僱主解僱聲明",
+    "id": "az-0686",
+    "legacyIds": [
+      "situacao-a-declaracao-da-entidade-empregadora"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "o Plano Pessoal de Emprego",
     "en": "Personal Employment Plan",
     "zhHans": "个人就业计划",
-    "zhHant": "個人就業計劃"
+    "zhHant": "個人就業計劃",
+    "id": "az-0687",
+    "legacyIds": [
+      "situacao-o-plano-pessoal-de-emprego"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "o gestor pessoal",
     "en": "personal case officer",
     "zhHans": "个人专员",
-    "zhHant": "個人專員"
+    "zhHant": "個人專員",
+    "id": "az-0688",
+    "legacyIds": [
+      "situacao-o-gestor-pessoal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "a oferta de emprego",
     "en": "job offer / vacancy",
     "zhHans": "职位空缺",
-    "zhHant": "職位空缺"
+    "zhHant": "職位空缺",
+    "id": "az-0689",
+    "legacyIds": [
+      "situacao-a-oferta-de-emprego"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
@@ -822,14 +1354,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "vocational training",
     "zhHans": "职业培训",
     "zhHant": "職業培訓",
-    "note": "Free courses, some with allowance"
+    "note": "Free courses, some with allowance",
+    "id": "az-0690",
+    "legacyIds": [
+      "situacao-a-formacao-profissional"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "o NISS (segurança social)",
     "en": "social security number",
     "zhHans": "社会保障号码（NISS）",
-    "zhHant": "社會保障號碼（NISS）"
+    "zhHant": "社會保障號碼（NISS）",
+    "id": "az-0691",
+    "legacyIds": [
+      "situacao-o-niss-seguranca-social"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
@@ -837,28 +1381,47 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "summons / official call-in",
     "zhHans": "（官方）约谈通知",
     "zhHant": "（官方）約談通知",
-    "note": "Missing one can suspend your benefit"
+    "note": "Missing one can suspend your benefit",
+    "id": "az-0692",
+    "legacyIds": [
+      "situacao-a-convocatoria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "apresentar-se no centro de emprego",
     "en": "to report to the job centre",
     "zhHans": "到就业中心報到",
-    "zhHant": "到就業中心報到"
+    "zhHant": "到就業中心報到",
+    "id": "az-0693",
+    "legacyIds": [
+      "situacao-apresentar-se-no-centro-de-emprego"
+    ]
   },
   {
     "situacao": "iefp",
     "pt": "o certificado de habilitações",
     "en": "qualifications certificate",
     "zhHans": "学历证明",
-    "zhHant": "學歷證明"
+    "zhHant": "學歷證明",
+    "id": "az-0694",
+    "legacyIds": [
+      "situacao-o-certificado-de-habilitacoes"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a Segurança Social",
     "en": "Social Security",
     "zhHans": "社会保障局",
-    "zhHant": "社會保障局"
+    "zhHant": "社會保障局",
+    "id": "az-0568",
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
@@ -866,42 +1429,76 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "social security number (NISS)",
     "zhHans": "社会保障号码（NISS）",
     "zhHant": "社會保障號碼（NISS）",
-    "note": "Needed to work legally and for benefits"
+    "note": "Needed to work legally and for benefits",
+    "id": "az-0695",
+    "legacyIds": [
+      "situacao-o-niss"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "pedir o NISS",
     "en": "to apply for a NISS",
     "zhHans": "申请社保号",
-    "zhHant": "申請社保號"
+    "zhHant": "申請社保號",
+    "id": "az-0696",
+    "legacyIds": [
+      "situacao-pedir-o-niss"
+    ]
   },
   {
     "situacao": "seguranca_social",
     "pt": "a Segurança Social Direta",
     "en": "the Social Security online portal",
     "zhHans": "社保线上平台",
-    "zhHant": "社保線上平台"
+    "zhHant": "社保線上平台",
+    "id": "az-0697",
+    "legacyIds": [
+      "situacao-a-seguranca-social-direta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "os descontos",
     "en": "(social security) contributions",
     "zhHans": "社保供款（扣缴）",
-    "zhHant": "社保供款（扣繳）"
+    "zhHant": "社保供款（扣繳）",
+    "id": "az-0698",
+    "legacyIds": [
+      "situacao-os-descontos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o trabalhador por conta de outrem",
     "en": "employee (salaried worker)",
     "zhHans": "受雇员工",
-    "zhHant": "受僱員工"
+    "zhHant": "受僱員工",
+    "id": "az-0699",
+    "legacyIds": [
+      "situacao-o-trabalhador-por-conta-de-outrem"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o trabalhador independente",
     "en": "self-employed worker",
     "zhHans": "自雇人士",
-    "zhHant": "自僱人士"
+    "zhHant": "自僱人士",
+    "id": "az-0700",
+    "legacyIds": [
+      "situacao-o-trabalhador-independente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
@@ -909,21 +1506,39 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "'green receipts' (freelance invoicing)",
     "zhHans": "綠色收据（自雇开票制度）",
     "zhHant": "綠色收據（自僱開票制度）",
-    "note": "How cleaners, riders etc. often invoice"
+    "note": "How cleaners, riders etc. often invoice",
+    "id": "az-0439",
+    "legacyIds": [
+      "situacao-os-recibos-verdes"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o abono de família",
     "en": "family allowance",
     "zhHans": "家庭津贴",
-    "zhHant": "家庭津貼"
+    "zhHant": "家庭津貼",
+    "id": "az-0677",
+    "legacyIds": [
+      "situacao-o-abono-de-familia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a baixa por doença",
     "en": "paid sick leave",
     "zhHans": "病假津贴",
-    "zhHant": "病假津貼"
+    "zhHant": "病假津貼",
+    "id": "az-0702",
+    "legacyIds": [
+      "situacao-a-baixa-por-doenca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
@@ -931,21 +1546,37 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "statement of contributions status",
     "zhHans": "供款状况声明",
     "zhHant": "供款狀況聲明",
-    "note": "Often requested for AR renewal"
+    "note": "Often requested for AR renewal",
+    "id": "az-0703",
+    "legacyIds": [
+      "situacao-a-declaracao-de-situacao-contributiva"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o comprovativo",
     "en": "proof / receipt (of application)",
     "zhHans": "申请憑证",
-    "zhHant": "申請憑證"
+    "zhHant": "申請憑證",
+    "id": "az-0704",
+    "legacyIds": [
+      "situacao-o-comprovativo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "arrendar um quarto / um apartamento",
     "en": "to rent a room / a flat",
     "zhHans": "租一个房间／一套公寓",
-    "zhHant": "租一個房間／一套公寓"
+    "zhHant": "租一個房間／一套公寓",
+    "id": "az-0705",
+    "legacyIds": [
+      "situacao-arrendar-um-quarto-um-apartamento"
+    ]
   },
   {
     "situacao": "arrendamento",
@@ -953,28 +1584,52 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "studio / 1-bed / 2-bed flat",
     "zhHans": "开间／一房／两房公寓",
     "zhHant": "開間／一房／兩房公寓",
-    "note": "T = number of bedrooms"
+    "note": "T = number of bedrooms",
+    "id": "az-0706",
+    "legacyIds": [
+      "situacao-o-t0-t1-t2"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "o senhorio / a senhoria",
     "en": "landlord / landlady",
     "zhHans": "房东",
-    "zhHant": "房東"
+    "zhHant": "房東",
+    "id": "az-0707",
+    "legacyIds": [
+      "situacao-o-senhorio-a-senhoria"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "o inquilino / a inquilina",
     "en": "tenant",
     "zhHans": "房客",
-    "zhHant": "房客"
+    "zhHant": "房客",
+    "id": "az-0708",
+    "legacyIds": [
+      "situacao-o-inquilino-a-inquilina"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "a renda",
     "en": "the rent",
     "zhHans": "租金",
-    "zhHant": "租金"
+    "zhHant": "租金",
+    "id": "az-0085",
+    "legacyIds": [
+      "situacao-a-renda"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
@@ -982,7 +1637,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "deposit",
     "zhHans": "押金",
     "zhHant": "押金",
-    "note": "Usually 1–2 months' rent"
+    "note": "Usually 1–2 months' rent",
+    "id": "az-0710",
+    "legacyIds": [
+      "situacao-a-caucao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
@@ -990,7 +1651,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "guarantor",
     "zhHans": "担保人",
     "zhHant": "擔保人",
-    "note": "Often asked of newcomers without payslips"
+    "note": "Often asked of newcomers without payslips",
+    "id": "az-0711",
+    "legacyIds": [
+      "situacao-o-fiador"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
@@ -998,7 +1665,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "rental contract",
     "zhHans": "租赁合同",
     "zhHant": "租賃合同",
-    "note": "Needed as proof of address everywhere"
+    "note": "Needed as proof of address everywhere",
+    "id": "az-0643",
+    "legacyIds": [
+      "situacao-o-contrato-de-arrendamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
@@ -1006,42 +1679,72 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "(electronic) rent receipt",
     "zhHans": "（电子）租金收据",
     "zhHant": "（電子）租金收據",
-    "note": "Ask for it — proves address and protects you"
+    "note": "Ask for it — proves address and protects you",
+    "id": "az-0712",
+    "legacyIds": [
+      "situacao-o-recibo-de-renda-eletronico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "despesas incluídas",
     "en": "bills included",
     "zhHans": "包水电杂费",
-    "zhHant": "包水電雜費"
+    "zhHant": "包水電雜費",
+    "id": "az-0713",
+    "legacyIds": [
+      "situacao-despesas-incluidas"
+    ]
   },
   {
     "situacao": "arrendamento",
     "pt": "mobilado / sem mobília",
     "en": "furnished / unfurnished",
     "zhHans": "带家私／不带家私",
-    "zhHant": "帶傢俬／不帶傢俬"
+    "zhHant": "帶傢俬／不帶傢俬",
+    "id": "az-0714",
+    "legacyIds": [
+      "situacao-mobilado-sem-mobilia"
+    ]
   },
   {
     "situacao": "arrendamento",
     "pt": "o condomínio",
     "en": "building service charge",
     "zhHans": "大厦管理费",
-    "zhHant": "大廈管理費"
+    "zhHant": "大廈管理費",
+    "id": "az-0715",
+    "legacyIds": [
+      "situacao-o-condominio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "rescindir o contrato",
     "en": "to terminate the contract",
     "zhHans": "解除合同",
-    "zhHant": "解除合同"
+    "zhHant": "解除合同",
+    "id": "az-0716",
+    "legacyIds": [
+      "situacao-rescindir-o-contrato"
+    ]
   },
   {
     "situacao": "arrendamento",
     "pt": "a visita (ao imóvel)",
     "en": "viewing",
     "zhHans": "看房",
-    "zhHant": "看房"
+    "zhHant": "看房",
+    "id": "az-0717",
+    "legacyIds": [
+      "situacao-a-visita-ao-imovel"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
@@ -1049,14 +1752,24 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "travel pass (navegante)",
     "zhHans": "月票（navegante卡）",
     "zhHant": "月票（navegante卡）",
-    "note": "Lisbon area system; Porto uses Andante"
+    "note": "Lisbon area system; Porto uses Andante",
+    "id": "az-0718",
+    "legacyIds": [
+      "situacao-o-passe-navegante"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "carregar o passe",
     "en": "to top up the pass",
     "zhHans": "给月票充值",
-    "zhHant": "給月票充值"
+    "zhHant": "給月票充值",
+    "id": "az-0719",
+    "legacyIds": [
+      "situacao-carregar-o-passe"
+    ]
   },
   {
     "situacao": "transportes",
@@ -1064,329 +1777,582 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to validate the ticket",
     "zhHans": "打卡验票",
     "zhHant": "打卡驗票",
-    "note": "Always validate — fines are heavy"
+    "note": "Always validate — fines are heavy",
+    "id": "az-0720",
+    "legacyIds": [
+      "situacao-validar-o-bilhete"
+    ]
   },
   {
     "situacao": "transportes",
     "pt": "a máquina de venda",
     "en": "ticket machine",
     "zhHans": "售票机",
-    "zhHant": "售票機"
+    "zhHant": "售票機",
+    "id": "az-0721",
+    "legacyIds": [
+      "situacao-a-maquina-de-venda"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "a carreira / a linha",
     "en": "bus route / line",
     "zhHans": "公交线路",
-    "zhHant": "公交線路"
+    "zhHant": "公交線路",
+    "id": "az-0722",
+    "legacyIds": [
+      "situacao-a-carreira-a-linha"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "a paragem",
     "en": "stop",
     "zhHans": "车站（站点）",
-    "zhHant": "車站（站點）"
+    "zhHant": "車站（站點）",
+    "id": "az-0723",
+    "legacyIds": [
+      "situacao-a-paragem"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "a estação",
     "en": "station",
     "zhHans": "车站（火车/地铁站）",
-    "zhHant": "車站（火車/地鐵站）"
+    "zhHant": "車站（火車/地鐵站）",
+    "id": "az-0724",
+    "legacyIds": [
+      "situacao-a-estacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "o fiscal",
     "en": "ticket inspector",
     "zhHans": "查票员",
-    "zhHant": "查票員"
+    "zhHant": "查票員",
+    "id": "az-0725",
+    "legacyIds": [
+      "situacao-o-fiscal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "a multa",
     "en": "fine",
     "zhHans": "罚款",
-    "zhHant": "罰款"
+    "zhHant": "罰款",
+    "id": "az-0726",
+    "legacyIds": [
+      "situacao-a-multa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "o horário",
     "en": "timetable",
     "zhHans": "时刻表",
-    "zhHant": "時刻表"
+    "zhHant": "時刻表",
+    "id": "az-0679",
+    "legacyIds": [
+      "situacao-o-horario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "a zona",
     "en": "fare zone",
     "zhHans": "票价区",
-    "zhHant": "票價區"
+    "zhHant": "票價區",
+    "id": "az-0727",
+    "legacyIds": [
+      "situacao-a-zona"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "o elétrico",
     "en": "tram",
     "zhHans": "有轨电车",
-    "zhHant": "有軌電車"
+    "zhHant": "有軌電車",
+    "id": "az-0728",
+    "legacyIds": [
+      "situacao-o-eletrico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o turno (da manhã / da tarde / da noite)",
     "en": "shift (morning / afternoon / night)",
     "zhHans": "班次（早班／午班／夜班）",
-    "zhHant": "班次（早班／午班／夜班）"
+    "zhHant": "班次（早班／午班／夜班）",
+    "id": "az-0729",
+    "legacyIds": [
+      "situacao-o-turno-da-manha-da-tarde-da-noite"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a governanta",
     "en": "head housekeeper",
     "zhHans": "客房部主管",
-    "zhHant": "客房部主管"
+    "zhHant": "客房部主管",
+    "id": "az-0730",
+    "legacyIds": [
+      "situacao-a-governanta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "arrumar os quartos",
     "en": "to make up the rooms",
     "zhHans": "整理客房",
-    "zhHant": "整理客房"
+    "zhHant": "整理客房",
+    "id": "az-0731",
+    "legacyIds": [
+      "situacao-arrumar-os-quartos"
+    ]
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "mudar os lençóis / as toalhas",
     "en": "to change the sheets / towels",
     "zhHans": "更换床单／毛巾",
-    "zhHant": "更換床單／毛巾"
+    "zhHant": "更換床單／毛巾",
+    "id": "az-0732",
+    "legacyIds": [
+      "situacao-mudar-os-lencois-as-toalhas"
+    ]
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o carrinho de limpeza",
     "en": "housekeeping cart",
     "zhHans": "清洁工作车",
-    "zhHant": "清潔工作車"
+    "zhHant": "清潔工作車",
+    "id": "az-0733",
+    "legacyIds": [
+      "situacao-o-carrinho-de-limpeza"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o hóspede",
     "en": "guest",
     "zhHans": "住客",
-    "zhHant": "住客"
+    "zhHant": "住客",
+    "id": "az-0734",
+    "legacyIds": [
+      "situacao-o-hospede"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a receção",
     "en": "reception / front desk",
     "zhHans": "前台",
-    "zhHant": "前台"
+    "zhHant": "前台",
+    "id": "az-0513",
+    "legacyIds": [
+      "situacao-a-rececao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o check-in / o check-out",
     "en": "check-in / check-out",
     "zhHans": "入住／退房",
-    "zhHant": "入住／退房"
+    "zhHant": "入住／退房",
+    "id": "az-0736",
+    "legacyIds": [
+      "situacao-o-check-in-o-check-out"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o cartão do quarto",
     "en": "room key card",
     "zhHans": "房卡",
-    "zhHant": "房卡"
+    "zhHant": "房卡",
+    "id": "az-0737",
+    "legacyIds": [
+      "situacao-o-cartao-do-quarto"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a folga",
     "en": "day off",
     "zhHans": "休息日",
-    "zhHant": "休息日"
+    "zhHant": "休息日",
+    "id": "az-0738",
+    "legacyIds": [
+      "situacao-a-folga"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "as horas extra",
     "en": "overtime",
     "zhHans": "加班",
-    "zhHant": "加班"
+    "zhHant": "加班",
+    "id": "az-0739",
+    "legacyIds": [
+      "situacao-as-horas-extra"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o uniforme",
     "en": "uniform",
     "zhHans": "制服",
-    "zhHant": "制服"
+    "zhHant": "制服",
+    "id": "az-0740",
+    "legacyIds": [
+      "situacao-o-uniforme"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o andar",
     "en": "floor (storey)",
     "zhHans": "楼层",
-    "zhHant": "樓層"
+    "zhHant": "樓層",
+    "id": "az-0078",
+    "legacyIds": [
+      "situacao-o-andar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o empregado / a empregada de mesa",
     "en": "waiter / waitress",
     "zhHans": "服务员",
-    "zhHant": "服務員"
+    "zhHant": "服務員",
+    "id": "az-0742",
+    "legacyIds": [
+      "situacao-o-empregado-a-empregada-de-mesa"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o ajudante de cozinha",
     "en": "kitchen assistant",
     "zhHans": "厨房帮工",
-    "zhHant": "廚房幫工"
+    "zhHant": "廚房幫工",
+    "id": "az-0743",
+    "legacyIds": [
+      "situacao-o-ajudante-de-cozinha"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a ementa / o menu",
     "en": "menu",
     "zhHans": "菜单",
-    "zhHant": "菜單"
+    "zhHant": "菜單",
+    "id": "az-0744",
+    "legacyIds": [
+      "situacao-a-ementa-o-menu"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o prato do dia",
     "en": "dish of the day",
     "zhHans": "今日特餐",
-    "zhHant": "今日特餐"
+    "zhHant": "今日特餐",
+    "id": "az-0745",
+    "legacyIds": [
+      "situacao-o-prato-do-dia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "anotar o pedido",
     "en": "to take the order",
     "zhHans": "记录点单",
-    "zhHant": "記錄點單"
+    "zhHant": "記錄點單",
+    "id": "az-0746",
+    "legacyIds": [
+      "situacao-anotar-o-pedido"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a esplanada",
     "en": "outdoor terrace",
     "zhHans": "露天座位",
-    "zhHant": "露天座位"
+    "zhHant": "露天座位",
+    "id": "az-0747",
+    "legacyIds": [
+      "situacao-a-esplanada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o balcão",
     "en": "the counter / bar",
     "zhHans": "吧台／柜台",
-    "zhHant": "吧台／櫃檯"
+    "zhHant": "吧台／櫃檯",
+    "id": "az-0595",
+    "legacyIds": [
+      "situacao-o-balcao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "os talheres / o guardanapo",
     "en": "cutlery / napkin",
     "zhHans": "餐具／餐巾",
-    "zhHant": "餐具／餐巾"
+    "zhHant": "餐具／餐巾",
+    "id": "az-0749",
+    "legacyIds": [
+      "situacao-os-talheres-o-guardanapo"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a conta",
     "en": "the bill",
     "zhHans": "账单",
-    "zhHant": "賬單"
+    "zhHant": "賬單",
+    "id": "az-0160",
+    "legacyIds": [
+      "situacao-a-conta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a gorjeta",
     "en": "tip",
     "zhHans": "小费",
-    "zhHant": "小費"
+    "zhHant": "小費",
+    "id": "az-0751",
+    "legacyIds": [
+      "situacao-a-gorjeta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "lavar a loiça",
     "en": "to wash the dishes",
     "zhHans": "洗碗",
-    "zhHant": "洗碗"
+    "zhHant": "洗碗",
+    "id": "az-0752",
+    "legacyIds": [
+      "situacao-lavar-a-loica"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a comanda",
     "en": "order slip",
     "zhHans": "点菜单",
-    "zhHant": "點菜單"
+    "zhHant": "點菜單",
+    "id": "az-0753",
+    "legacyIds": [
+      "situacao-a-comanda"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "Bom proveito!",
     "en": "Enjoy your meal!",
     "zhHans": "请慢用！",
-    "zhHant": "請慢用！"
+    "zhHant": "請慢用！",
+    "id": "az-0754",
+    "legacyIds": [
+      "situacao-bom-proveito"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a empregada / o empregado de limpeza",
     "en": "cleaner",
     "zhHans": "清洁工",
-    "zhHant": "清潔工"
+    "zhHant": "清潔工",
+    "id": "az-0755",
+    "legacyIds": [
+      "situacao-a-empregada-o-empregado-de-limpeza"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o produto de limpeza",
     "en": "cleaning product",
     "zhHans": "清洁剂",
-    "zhHant": "清潔劑"
+    "zhHant": "清潔劑",
+    "id": "az-0756",
+    "legacyIds": [
+      "situacao-o-produto-de-limpeza"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a lixívia",
     "en": "bleach",
     "zhHans": "漂白水",
-    "zhHant": "漂白水"
+    "zhHant": "漂白水",
+    "id": "az-0757",
+    "legacyIds": [
+      "situacao-a-lixivia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a esfregona e o balde",
     "en": "mop and bucket",
     "zhHans": "拖把和水桶",
-    "zhHant": "拖把和水桶"
+    "zhHant": "拖把和水桶",
+    "id": "az-0758",
+    "legacyIds": [
+      "situacao-a-esfregona-e-o-balde"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "aspirar",
     "en": "to vacuum",
     "zhHans": "吸塵",
-    "zhHant": "吸塵"
+    "zhHant": "吸塵",
+    "id": "az-0373"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "limpar o pó",
     "en": "to dust",
     "zhHans": "擦灰塵",
-    "zhHant": "擦灰塵"
+    "zhHant": "擦灰塵",
+    "id": "az-0372"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "esfregar o chão",
     "en": "to mop/scrub the floor",
     "zhHans": "拖地／擦地",
-    "zhHant": "拖地／擦地"
+    "zhHant": "拖地／擦地",
+    "id": "az-0759",
+    "legacyIds": [
+      "situacao-esfregar-o-chao"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o lixo / a reciclagem",
     "en": "rubbish / recycling",
     "zhHans": "垃圾／回收",
-    "zhHant": "垃圾／回收"
+    "zhHant": "垃圾／回收",
+    "id": "az-0760",
+    "legacyIds": [
+      "situacao-o-lixo-a-reciclagem"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "as luvas",
     "en": "gloves",
     "zhHans": "手套",
-    "zhHant": "手套"
+    "zhHant": "手套",
+    "id": "az-0354",
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "à hora / por horas",
     "en": "paid by the hour",
     "zhHans": "按小时计酬",
-    "zhHant": "按小時計酬"
+    "zhHant": "按小時計酬",
+    "id": "az-0761",
+    "legacyIds": [
+      "situacao-a-hora-por-horas"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a patroa / o patrão",
     "en": "employer (informal)",
     "zhHans": "雇主（东家）",
-    "zhHant": "僱主（東家）"
+    "zhHant": "僱主（東家）",
+    "id": "az-0762",
+    "legacyIds": [
+      "situacao-a-patroa-o-patrao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
@@ -1394,56 +2360,104 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "freelance receipts",
     "zhHans": "綠色收据（自雇开票）",
     "zhHant": "綠色收據（自僱開票）",
-    "note": "Very common in domestic cleaning"
+    "note": "Very common in domestic cleaning",
+    "id": "az-0439",
+    "legacyIds": [
+      "situacao-os-recibos-verdes"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a obra / o estaleiro",
     "en": "building site",
     "zhHans": "工地",
-    "zhHant": "工地"
+    "zhHant": "工地",
+    "id": "az-0764",
+    "legacyIds": [
+      "situacao-a-obra-o-estaleiro"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o servente",
     "en": "labourer",
     "zhHans": "小工（杂工）",
-    "zhHant": "小工（雜工）"
+    "zhHant": "小工（雜工）",
+    "id": "az-0765",
+    "legacyIds": [
+      "situacao-o-servente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o pedreiro",
     "en": "bricklayer / mason",
     "zhHans": "泥瓦工",
-    "zhHant": "泥瓦工"
+    "zhHant": "泥瓦工",
+    "id": "az-0766",
+    "legacyIds": [
+      "situacao-o-pedreiro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o encarregado da obra",
     "en": "site foreman",
     "zhHans": "工地领班",
-    "zhHant": "工地領班"
+    "zhHant": "工地領班",
+    "id": "az-0767",
+    "legacyIds": [
+      "situacao-o-encarregado-da-obra"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o capacete",
     "en": "hard hat",
     "zhHans": "安全帽",
-    "zhHant": "安全帽"
+    "zhHant": "安全帽",
+    "id": "az-0389",
+    "legacyIds": [
+      "situacao-o-capacete"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "as botas de proteção",
     "en": "safety boots",
     "zhHans": "安全鞋",
-    "zhHant": "安全鞋"
+    "zhHant": "安全鞋",
+    "id": "az-0769",
+    "legacyIds": [
+      "situacao-as-botas-de-protecao"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o colete refletor",
     "en": "hi-vis vest",
     "zhHans": "反光背心",
-    "zhHant": "反光背心"
+    "zhHant": "反光背心",
+    "id": "az-0770",
+    "legacyIds": [
+      "situacao-o-colete-refletor"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
@@ -1451,35 +2465,65 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "PPE (personal protective equipment)",
     "zhHans": "个人防护装備",
     "zhHant": "個人防護裝備",
-    "note": "Mandatory; refusing unsafe work is your right"
+    "note": "Mandatory; refusing unsafe work is your right",
+    "id": "az-0771",
+    "legacyIds": [
+      "situacao-o-epi-equipamento-de-protecao-individual"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o andaime",
     "en": "scaffolding",
     "zhHans": "腳手架",
-    "zhHant": "腳手架"
+    "zhHant": "腳手架",
+    "id": "az-0772",
+    "legacyIds": [
+      "situacao-o-andaime"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o cimento / o betão",
     "en": "cement / concrete",
     "zhHans": "水泥／混凝土",
-    "zhHant": "水泥／混凝土"
+    "zhHant": "水泥／混凝土",
+    "id": "az-0773",
+    "legacyIds": [
+      "situacao-o-cimento-o-betao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o tijolo",
     "en": "brick",
     "zhHans": "砖",
-    "zhHant": "磚"
+    "zhHant": "磚",
+    "id": "az-0774",
+    "legacyIds": [
+      "situacao-o-tijolo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a betoneira",
     "en": "cement mixer",
     "zhHans": "搅拌机",
-    "zhHant": "攪拌機"
+    "zhHant": "攪拌機",
+    "id": "az-0775",
+    "legacyIds": [
+      "situacao-a-betoneira"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
@@ -1487,126 +2531,226 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "work contract",
     "zhHans": "劳动合同",
     "zhHant": "勞動合同",
-    "note": "Insist on one — protects wages and NISS"
+    "note": "Insist on one — protects wages and NISS",
+    "id": "az-0391",
+    "legacyIds": [
+      "situacao-o-contrato-de-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o estafeta",
     "en": "delivery rider/courier",
     "zhHans": "外卖员／快递员",
-    "zhHant": "外賣員／快遞員"
+    "zhHant": "外賣員／快遞員",
+    "id": "az-0777",
+    "legacyIds": [
+      "situacao-o-estafeta"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a entrega",
     "en": "delivery",
     "zhHans": "配送",
-    "zhHant": "配送"
+    "zhHant": "配送",
+    "id": "az-0778",
+    "legacyIds": [
+      "situacao-a-entrega"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o pedido",
     "en": "the order",
     "zhHans": "订单",
-    "zhHant": "訂單"
+    "zhHant": "訂單",
+    "id": "az-0779",
+    "legacyIds": [
+      "situacao-o-pedido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a mochila térmica",
     "en": "thermal delivery bag",
     "zhHans": "保溫配送箱",
-    "zhHant": "保溫配送箱"
+    "zhHant": "保溫配送箱",
+    "id": "az-0780",
+    "legacyIds": [
+      "situacao-a-mochila-termica"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a aplicação / a app",
     "en": "the app",
     "zhHans": "应用程式",
-    "zhHant": "應用程式"
+    "zhHant": "應用程式",
+    "id": "az-0781",
+    "legacyIds": [
+      "situacao-a-aplicacao-a-app"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a morada",
     "en": "address",
     "zhHans": "地址",
-    "zhHant": "地址"
+    "zhHant": "地址",
+    "id": "az-0015",
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o código da porta",
     "en": "door/entry code",
     "zhHans": "门禁密码",
-    "zhHant": "門禁密碼"
+    "zhHant": "門禁密碼",
+    "id": "az-0782",
+    "legacyIds": [
+      "situacao-o-codigo-da-porta"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o interfone / a campainha",
     "en": "intercom / doorbell",
     "zhHans": "对讲机／门鈴",
-    "zhHant": "對講機／門鈴"
+    "zhHant": "對講機／門鈴",
+    "id": "az-0783",
+    "legacyIds": [
+      "situacao-o-interfone-a-campainha"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "ligar ao cliente",
     "en": "to call the customer",
     "zhHans": "给顾客打电话",
-    "zhHant": "給顧客打電話"
+    "zhHant": "給顧客打電話",
+    "id": "az-0784",
+    "legacyIds": [
+      "situacao-ligar-ao-cliente"
+    ]
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o rés-do-chão / o andar",
     "en": "ground floor / floor",
     "zhHans": "一楼（地面层）／楼层",
-    "zhHant": "一樓（地面層）／樓層"
+    "zhHant": "一樓（地面層）／樓層",
+    "id": "az-0785",
+    "legacyIds": [
+      "situacao-o-res-do-chao-o-andar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a mota / a bicicleta",
     "en": "motorbike / bicycle",
     "zhHans": "摩托车／自行车",
-    "zhHant": "摩托車／自行車"
+    "zhHant": "摩托車／自行車",
+    "id": "az-0786",
+    "legacyIds": [
+      "situacao-a-mota-a-bicicleta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o trânsito",
     "en": "traffic",
     "zhHans": "交通（堵车）",
-    "zhHant": "交通（堵車）"
+    "zhHant": "交通（堵車）",
+    "id": "az-0131",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "a conta poupança",
     "en": "savings account",
     "zhHans": "储蓄账户",
-    "zhHant": "儲蓄帳戶"
+    "zhHant": "儲蓄帳戶",
+    "id": "az-0787",
+    "legacyIds": [
+      "situacao-a-conta-poupanca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
     "pt": "o empréstimo",
     "en": "loan",
     "zhHans": "貸款",
-    "zhHant": "貸款"
+    "zhHant": "貸款",
+    "id": "az-0788",
+    "legacyIds": [
+      "situacao-o-emprestimo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o crédito habitação",
     "en": "mortgage",
     "zhHans": "房屋貸款",
-    "zhHant": "房屋貸款"
+    "zhHant": "房屋貸款",
+    "id": "az-0789",
+    "legacyIds": [
+      "situacao-o-credito-habitacao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "a taxa de juro",
     "en": "interest rate",
     "zhHans": "利率",
-    "zhHant": "利率"
+    "zhHant": "利率",
+    "id": "az-0790",
+    "legacyIds": [
+      "situacao-a-taxa-de-juro"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
     "pt": "a prestação",
     "en": "monthly instalment",
     "zhHans": "每月分期还款",
-    "zhHant": "每月分期還款"
+    "zhHant": "每月分期還款",
+    "id": "az-0791",
+    "legacyIds": [
+      "situacao-a-prestacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
@@ -1614,28 +2758,52 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "MB Way (mobile payment app)",
     "zhHans": "MB Way（手机支付应用）",
     "zhHant": "MB Way（手機支付應用）",
-    "note": "Ubiquitous in PT; ask the bank to activate it"
+    "note": "Ubiquitous in PT; ask the bank to activate it",
+    "id": "az-0792",
+    "legacyIds": [
+      "situacao-o-mb-way"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o multibanco / a caixa automática",
     "en": "ATM",
     "zhHans": "自动柜员机（ATM）",
-    "zhHant": "自動櫃員機（ATM）"
+    "zhHant": "自動櫃員機（ATM）",
+    "id": "az-0793",
+    "legacyIds": [
+      "situacao-o-multibanco-a-caixa-automatica"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o talão",
     "en": "receipt slip (from ATM)",
     "zhHans": "（柜员机）憑条",
-    "zhHant": "（櫃員機）憑條"
+    "zhHant": "（櫃員機）憑條",
+    "id": "az-0161",
+    "legacyIds": [
+      "situacao-o-talao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o movimento",
     "en": "account transaction",
     "zhHans": "账户交易记录",
-    "zhHant": "帳戶交易記錄"
+    "zhHant": "帳戶交易記錄",
+    "id": "az-0795",
+    "legacyIds": [
+      "situacao-o-movimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
@@ -1643,84 +2811,152 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "direct debit",
     "zhHans": "自动扣款",
     "zhHant": "自動扣款",
-    "note": "How utilities are usually paid"
+    "note": "How utilities are usually paid",
+    "id": "az-0796",
+    "legacyIds": [
+      "situacao-o-debito-direto"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "a transferência imediata",
     "en": "instant transfer",
     "zhHans": "即时转账",
-    "zhHant": "即時轉帳"
+    "zhHant": "即時轉帳",
+    "id": "az-0797",
+    "legacyIds": [
+      "situacao-a-transferencia-imediata"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
     "pt": "o pagamento sem contacto / contactless",
     "en": "contactless payment",
     "zhHans": "感应式支付",
-    "zhHant": "感應式支付"
+    "zhHant": "感應式支付",
+    "id": "az-0798",
+    "legacyIds": [
+      "situacao-o-pagamento-sem-contacto-contactless"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "o limite de levantamento",
     "en": "withdrawal limit",
     "zhHans": "提款限额",
-    "zhHant": "提款限額"
+    "zhHant": "提款限額",
+    "id": "az-0799",
+    "legacyIds": [
+      "situacao-o-limite-de-levantamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "bloquear o cartão",
     "en": "to block the card",
     "zhHans": "挂失／冻结银行卡",
-    "zhHant": "掛失／凍結銀行卡"
+    "zhHant": "掛失／凍結銀行卡",
+    "id": "az-0800",
+    "legacyIds": [
+      "situacao-bloquear-o-cartao"
+    ]
   },
   {
     "situacao": "banco",
     "pt": "o cartão foi retido",
     "en": "the card was retained (by the ATM)",
     "zhHans": "卡被柜员机吞了",
-    "zhHant": "卡被櫃員機吞了"
+    "zhHant": "卡被櫃員機吞了",
+    "id": "az-0801",
+    "legacyIds": [
+      "situacao-o-cartao-foi-retido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "a assinatura",
     "en": "signature",
     "zhHans": "签名",
-    "zhHant": "簽名"
+    "zhHant": "簽名",
+    "id": "az-0802",
+    "legacyIds": [
+      "situacao-a-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
     "pt": "o gestor de conta",
     "en": "account manager",
     "zhHans": "客户经理",
-    "zhHant": "客戶經理"
+    "zhHant": "客戶經理",
+    "id": "az-0803",
+    "legacyIds": [
+      "situacao-o-gestor-de-conta"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "banco",
     "pt": "a agência / o balcão",
     "en": "branch / counter",
     "zhHans": "分行／柜台",
-    "zhHant": "分行／櫃檯"
+    "zhHant": "分行／櫃檯",
+    "id": "az-0804",
+    "legacyIds": [
+      "situacao-a-agencia-o-balcao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
     "pt": "a comissão",
     "en": "fee / charge",
     "zhHans": "手续费",
-    "zhHant": "手續費"
+    "zhHant": "手續費",
+    "id": "az-0805",
+    "legacyIds": [
+      "situacao-a-comissao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "banco",
     "pt": "levantar sem cartão (MB Way)",
     "en": "cardless withdrawal",
     "zhHans": "无卡提款",
-    "zhHant": "無卡提款"
+    "zhHant": "無卡提款",
+    "id": "az-0806",
+    "legacyIds": [
+      "situacao-levantar-sem-cartao-mb-way"
+    ]
   },
   {
     "situacao": "financas",
     "pt": "o IRS",
     "en": "personal income tax",
     "zhHans": "个人所得税（IRS）",
-    "zhHant": "個人所得稅（IRS）"
+    "zhHant": "個人所得稅（IRS）",
+    "id": "az-0807",
+    "legacyIds": [
+      "situacao-o-irs"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
@@ -1728,77 +2964,141 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "receipt with your tax number",
     "zhHans": "带税号的发票",
     "zhHant": "帶稅號的發票",
-    "note": "Asked at every shop: 'Quer fatura com contribuinte?'"
+    "note": "Asked at every shop: 'Quer fatura com contribuinte?'",
+    "id": "az-0808",
+    "legacyIds": [
+      "situacao-a-fatura-com-nif-com-contribuinte"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "o e-Fatura",
     "en": "e-Fatura (invoice portal)",
     "zhHans": "电子发票平台（e-Fatura）",
-    "zhHant": "電子發票平台（e-Fatura）"
+    "zhHant": "電子發票平台（e-Fatura）",
+    "id": "az-0809",
+    "legacyIds": [
+      "situacao-o-e-fatura"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "o reembolso",
     "en": "tax refund",
     "zhHans": "退税",
-    "zhHant": "退稅"
+    "zhHant": "退稅",
+    "id": "az-0810",
+    "legacyIds": [
+      "situacao-o-reembolso"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "pagar em prestações",
     "en": "to pay in instalments",
     "zhHans": "分期缴納",
-    "zhHant": "分期繳納"
+    "zhHant": "分期繳納",
+    "id": "az-0811",
+    "legacyIds": [
+      "situacao-pagar-em-prestacoes"
+    ]
   },
   {
     "situacao": "financas",
     "pt": "a dívida fiscal",
     "en": "tax debt",
     "zhHans": "税务欠款",
-    "zhHant": "稅務欠款"
+    "zhHant": "稅務欠款",
+    "id": "az-0812",
+    "legacyIds": [
+      "situacao-a-divida-fiscal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "o IMI",
     "en": "property tax",
     "zhHans": "房产税（IMI）",
-    "zhHant": "房產稅（IMI）"
+    "zhHant": "房產稅（IMI）",
+    "id": "az-0813",
+    "legacyIds": [
+      "situacao-o-imi"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "o IUC",
     "en": "road tax",
     "zhHans": "车辆税（IUC）",
-    "zhHant": "車輛稅（IUC）"
+    "zhHant": "車輛稅（IUC）",
+    "id": "az-0814",
+    "legacyIds": [
+      "situacao-o-iuc"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "o IVA",
     "en": "VAT",
     "zhHans": "增值税（IVA）",
-    "zhHant": "增值稅（IVA）"
+    "zhHant": "增值稅（IVA）",
+    "id": "az-0815",
+    "legacyIds": [
+      "situacao-o-iva"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "a isenção",
     "en": "exemption",
     "zhHans": "免税／豁免",
-    "zhHant": "免稅／豁免"
+    "zhHant": "免稅／豁免",
+    "id": "az-0816",
+    "legacyIds": [
+      "situacao-a-isencao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "o escalão",
     "en": "income bracket",
     "zhHans": "收入级距",
-    "zhHant": "收入級距"
+    "zhHant": "收入級距",
+    "id": "az-0817",
+    "legacyIds": [
+      "situacao-o-escalao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
     "pt": "o rendimento",
     "en": "income",
     "zhHans": "收入",
-    "zhHant": "收入"
+    "zhHant": "收入",
+    "id": "az-0818",
+    "legacyIds": [
+      "situacao-o-rendimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
@@ -1806,35 +3106,61 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to register as self-employed",
     "zhHans": "开业登记（自雇）",
     "zhHant": "開業登記（自僱）",
-    "note": "Required before issuing recibos verdes"
+    "note": "Required before issuing recibos verdes",
+    "id": "az-0819",
+    "legacyIds": [
+      "situacao-abrir-atividade"
+    ]
   },
   {
     "situacao": "financas",
     "pt": "cessar atividade",
     "en": "to close self-employed activity",
     "zhHans": "停业登记",
-    "zhHant": "停業登記"
+    "zhHant": "停業登記",
+    "id": "az-0820",
+    "legacyIds": [
+      "situacao-cessar-atividade"
+    ]
   },
   {
     "situacao": "financas",
     "pt": "a categoria B",
     "en": "category B (self-employment income)",
     "zhHans": "B类收入（自雇所得）",
-    "zhHant": "B類收入（自僱所得）"
+    "zhHant": "B類收入（自僱所得）",
+    "id": "az-0821",
+    "legacyIds": [
+      "situacao-a-categoria-b"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "a retenção na fonte",
     "en": "withholding tax",
     "zhHans": "源头扣缴（预扣税）",
-    "zhHant": "源頭扣繳（預扣稅）"
+    "zhHant": "源頭扣繳（預扣稅）",
+    "id": "az-0822",
+    "legacyIds": [
+      "situacao-a-retencao-na-fonte"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "o recibo verde eletrónico",
     "en": "electronic freelance receipt",
     "zhHans": "电子綠色收据",
-    "zhHant": "電子綠色收據"
+    "zhHant": "電子綠色收據",
+    "id": "az-0823",
+    "legacyIds": [
+      "situacao-o-recibo-verde-eletronico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
@@ -1842,14 +3168,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "Digital Mobile Key (gov. login)",
     "zhHans": "数字移动密钥（政府通用登录）",
     "zhHant": "數字移動密鑰（政府通用登錄）",
-    "note": "One login for Finanças, SS, SNS portals"
+    "note": "One login for Finanças, SS, SNS portals",
+    "id": "az-0824",
+    "legacyIds": [
+      "situacao-a-chave-movel-digital-cmd"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "financas",
     "pt": "o certificado digital",
     "en": "digital certificate",
     "zhHans": "数字证书",
-    "zhHant": "數字證書"
+    "zhHant": "數字證書",
+    "id": "az-0825",
+    "legacyIds": [
+      "situacao-o-certificado-digital"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "financas",
@@ -1857,63 +3195,113 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "tax assessment notice",
     "zhHans": "税款结算单",
     "zhHant": "稅款結算單",
-    "note": "Proof of income for AR renewals"
+    "note": "Proof of income for AR renewals",
+    "id": "az-0826",
+    "legacyIds": [
+      "situacao-a-nota-de-liquidacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "o envelope",
     "en": "envelope",
     "zhHans": "信封",
-    "zhHant": "信封"
+    "zhHant": "信封",
+    "id": "az-0827",
+    "legacyIds": [
+      "situacao-o-envelope"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "a caixa / a embalagem",
     "en": "box / packaging",
     "zhHans": "纸箱／包装",
-    "zhHant": "紙箱／包裝"
+    "zhHant": "紙箱／包裝",
+    "id": "az-0828",
+    "legacyIds": [
+      "situacao-a-caixa-a-embalagem"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "pesar",
     "en": "to weigh",
     "zhHans": "稱重",
-    "zhHant": "稱重"
+    "zhHant": "稱重",
+    "id": "az-0829",
+    "legacyIds": [
+      "situacao-pesar"
+    ]
   },
   {
     "situacao": "correios",
     "pt": "o peso",
     "en": "weight",
     "zhHans": "重量",
-    "zhHant": "重量"
+    "zhHant": "重量",
+    "id": "az-0830",
+    "legacyIds": [
+      "situacao-o-peso"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "frágil",
     "en": "fragile",
     "zhHans": "易碎",
-    "zhHant": "易碎"
+    "zhHant": "易碎",
+    "id": "az-0831",
+    "legacyIds": [
+      "situacao-fragil"
+    ]
   },
   {
     "situacao": "correios",
     "pt": "o correio normal",
     "en": "standard mail",
     "zhHans": "平邮",
-    "zhHant": "平郵"
+    "zhHant": "平郵",
+    "id": "az-0832",
+    "legacyIds": [
+      "situacao-o-correio-normal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "o correio expresso",
     "en": "express mail",
     "zhHans": "快递",
-    "zhHant": "快遞"
+    "zhHant": "快遞",
+    "id": "az-0833",
+    "legacyIds": [
+      "situacao-o-correio-expresso"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "o prazo de entrega",
     "en": "delivery time",
     "zhHans": "送达时间",
-    "zhHant": "送達時間"
+    "zhHant": "送達時間",
+    "id": "az-0834",
+    "legacyIds": [
+      "situacao-o-prazo-de-entrega"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
@@ -1921,84 +3309,150 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "customs",
     "zhHans": "海关",
     "zhHant": "海關",
-    "note": "Parcels from outside the EU often get held here"
+    "note": "Parcels from outside the EU often get held here",
+    "id": "az-0835",
+    "legacyIds": [
+      "situacao-a-alfandega"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "a taxa alfandegária",
     "en": "customs fee",
     "zhHans": "关税",
-    "zhHant": "關稅"
+    "zhHant": "關稅",
+    "id": "az-0836",
+    "legacyIds": [
+      "situacao-a-taxa-alfandegaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "o formulário aduaneiro",
     "en": "customs form",
     "zhHans": "報关单",
-    "zhHant": "報關單"
+    "zhHant": "報關單",
+    "id": "az-0837",
+    "legacyIds": [
+      "situacao-o-formulario-aduaneiro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "a segunda tentativa de entrega",
     "en": "second delivery attempt",
     "zhHans": "第二次派送",
-    "zhHant": "第二次派送"
+    "zhHant": "第二次派送",
+    "id": "az-0838",
+    "legacyIds": [
+      "situacao-a-segunda-tentativa-de-entrega"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "o cacifo / o locker",
     "en": "parcel locker",
     "zhHans": "快递柜",
-    "zhHant": "快遞櫃"
+    "zhHant": "快遞櫃",
+    "id": "az-0839",
+    "legacyIds": [
+      "situacao-o-cacifo-o-locker"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "reencaminhar",
     "en": "to forward (mail)",
     "zhHans": "转寄",
-    "zhHant": "轉寄"
+    "zhHant": "轉寄",
+    "id": "az-0840",
+    "legacyIds": [
+      "situacao-reencaminhar"
+    ]
   },
   {
     "situacao": "correios",
     "pt": "devolver ao remetente",
     "en": "to return to sender",
     "zhHans": "退回寄件人",
-    "zhHant": "退回寄件人"
+    "zhHant": "退回寄件人",
+    "id": "az-0841",
+    "legacyIds": [
+      "situacao-devolver-ao-remetente"
+    ]
   },
   {
     "situacao": "correios",
     "pt": "a entrega ao domicílio",
     "en": "home delivery",
     "zhHans": "送货上门",
-    "zhHant": "送貨上門"
+    "zhHant": "送貨上門",
+    "id": "az-0842",
+    "legacyIds": [
+      "situacao-a-entrega-ao-domicilio"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "a assinatura na entrega",
     "en": "signature on delivery",
     "zhHans": "签收",
-    "zhHant": "簽收"
+    "zhHant": "簽收",
+    "id": "az-0843",
+    "legacyIds": [
+      "situacao-a-assinatura-na-entrega"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "correios",
     "pt": "o vale postal",
     "en": "postal money order",
     "zhHans": "邮政汇票",
-    "zhHant": "郵政匯票"
+    "zhHant": "郵政匯票",
+    "id": "az-0844",
+    "legacyIds": [
+      "situacao-o-vale-postal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "correios",
     "pt": "levantar na loja",
     "en": "to collect in store",
     "zhHans": "到店自取",
-    "zhHant": "到店自取"
+    "zhHant": "到店自取",
+    "id": "az-0845",
+    "legacyIds": [
+      "situacao-levantar-na-loja"
+    ]
   },
   {
     "situacao": "correios",
     "pt": "o horário de funcionamento",
     "en": "opening hours",
     "zhHans": "營业时间",
-    "zhHant": "營業時間"
+    "zhHant": "營業時間",
+    "id": "az-0846",
+    "legacyIds": [
+      "situacao-o-horario-de-funcionamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
@@ -2006,21 +3460,39 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "Citizen's Desk (one-stop services)",
     "zhHans": "公民服务站",
     "zhHant": "公民服務站",
-    "note": "Renew CC, CMD activation, IRS help — often inside the junta"
+    "note": "Renew CC, CMD activation, IRS help — often inside the junta",
+    "id": "az-0847",
+    "legacyIds": [
+      "situacao-o-espaco-cidadao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o recenseamento eleitoral",
     "en": "electoral registration",
     "zhHans": "选民登记",
-    "zhHant": "選民登記"
+    "zhHant": "選民登記",
+    "id": "az-0848",
+    "legacyIds": [
+      "situacao-o-recenseamento-eleitoral"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a prova de vida",
     "en": "proof of life (for pensions)",
     "zhHans": "生存证明（领养老金用）",
-    "zhHant": "生存證明（領養老金用）"
+    "zhHant": "生存證明（領養老金用）",
+    "id": "az-0849",
+    "legacyIds": [
+      "situacao-a-prova-de-vida"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
@@ -2028,42 +3500,78 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "household certificate",
     "zhHans": "家庭成员证明",
     "zhHant": "家庭成員證明",
-    "note": "Often needed for family reunification"
+    "note": "Often needed for family reunification",
+    "id": "az-0850",
+    "legacyIds": [
+      "situacao-o-atestado-de-agregado-familiar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a fotocópia autenticada",
     "en": "certified photocopy",
     "zhHans": "认证副本",
-    "zhHant": "認證副本"
+    "zhHant": "認證副本",
+    "id": "az-0851",
+    "legacyIds": [
+      "situacao-a-fotocopia-autenticada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o reconhecimento de assinatura",
     "en": "signature certification",
     "zhHans": "签名认证",
-    "zhHant": "簽名認證"
+    "zhHant": "簽名認證",
+    "id": "az-0852",
+    "legacyIds": [
+      "situacao-o-reconhecimento-de-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a taxa de emissão",
     "en": "issuance fee",
     "zhHans": "办理费用",
-    "zhHant": "辦理費用"
+    "zhHant": "辦理費用",
+    "id": "az-0853",
+    "legacyIds": [
+      "situacao-a-taxa-de-emissao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o horário de atendimento",
     "en": "office hours",
     "zhHans": "办公时间",
-    "zhHant": "辦公時間"
+    "zhHant": "辦公時間",
+    "id": "az-0854",
+    "legacyIds": [
+      "situacao-o-horario-de-atendimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a senha de atendimento",
     "en": "queue ticket",
     "zhHans": "排队取号",
-    "zhHant": "排隊取號"
+    "zhHant": "排隊取號",
+    "id": "az-0855",
+    "legacyIds": [
+      "situacao-a-senha-de-atendimento"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
@@ -2071,140 +3579,245 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "valid for three months",
     "zhHans": "三个月有效",
     "zhHant": "三個月有效",
-    "note": "Most junta certificates expire quickly"
+    "note": "Most junta certificates expire quickly",
+    "id": "az-0856",
+    "legacyIds": [
+      "situacao-valido-por-tres-meses"
+    ]
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a declaração",
     "en": "declaration / statement",
     "zhHans": "声明书",
-    "zhHant": "聲明書"
+    "zhHant": "聲明書",
+    "id": "az-0857",
+    "legacyIds": [
+      "situacao-a-declaracao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "morar / residir",
     "en": "to live / to reside",
     "zhHans": "居住",
-    "zhHant": "居住"
+    "zhHant": "居住",
+    "id": "az-0858",
+    "legacyIds": [
+      "situacao-morar-residir"
+    ]
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a freguesia",
     "en": "parish (administrative area)",
     "zhHans": "堂区（行政区）",
-    "zhHant": "堂區（行政區）"
+    "zhHant": "堂區（行政區）",
+    "id": "az-0859",
+    "legacyIds": [
+      "situacao-a-freguesia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o munícipe / o morador",
     "en": "resident",
     "zhHans": "居民",
-    "zhHant": "居民"
+    "zhHant": "居民",
+    "id": "az-0860",
+    "legacyIds": [
+      "situacao-o-municipe-o-morador"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "a câmara municipal",
     "en": "city hall",
     "zhHans": "市政厅",
-    "zhHant": "市政廳"
+    "zhHant": "市政廳",
+    "id": "az-0594",
+    "legacyIds": [
+      "situacao-a-camara-municipal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o formulário",
     "en": "form",
     "zhHans": "表格",
-    "zhHant": "表格"
+    "zhHant": "表格",
+    "id": "az-0862",
+    "legacyIds": [
+      "situacao-o-formulario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "preencher",
     "en": "to fill in",
     "zhHans": "填写",
-    "zhHant": "填寫"
+    "zhHant": "填寫",
+    "id": "az-0579"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "assinar",
     "en": "to sign",
     "zhHans": "签名",
-    "zhHant": "簽名"
+    "zhHant": "簽名",
+    "id": "az-0863",
+    "legacyIds": [
+      "situacao-assinar"
+    ]
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "o comprovativo de pagamento",
     "en": "proof of payment",
     "zhHans": "缴费憑证",
-    "zhHant": "繳費憑證"
+    "zhHant": "繳費憑證",
+    "id": "az-0864",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "junta_de_freguesia",
     "pt": "levantar o documento",
     "en": "to collect the document",
     "zhHans": "领取文件",
-    "zhHant": "領取文件"
+    "zhHant": "領取文件",
+    "id": "az-0865",
+    "legacyIds": [
+      "situacao-levantar-o-documento"
+    ]
   },
   {
     "situacao": "saude",
     "pt": "a consulta aberta / do dia",
     "en": "same-day walk-in appointment",
     "zhHans": "当日门诊",
-    "zhHant": "當日門診"
+    "zhHant": "當日門診",
+    "id": "az-0866",
+    "legacyIds": [
+      "situacao-a-consulta-aberta-do-dia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "a dor de cabeça / de garganta / de dentes",
     "en": "headache / sore throat / toothache",
     "zhHans": "头痛／喉咙痛／牙痛",
-    "zhHant": "頭痛／喉嚨痛／牙痛"
+    "zhHant": "頭痛／喉嚨痛／牙痛",
+    "id": "az-0867",
+    "legacyIds": [
+      "situacao-a-dor-de-cabeca-de-garganta-de-dentes"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "a gripe / a constipação",
     "en": "flu / cold",
     "zhHans": "流感／感冒",
-    "zhHant": "流感／感冒"
+    "zhHant": "流感／感冒",
+    "id": "az-0868",
+    "legacyIds": [
+      "situacao-a-gripe-a-constipacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "a tensão alta",
     "en": "high blood pressure",
     "zhHans": "高血压",
-    "zhHant": "高血壓"
+    "zhHant": "高血壓",
+    "id": "az-0869",
+    "legacyIds": [
+      "situacao-a-tensao-alta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "a diabetes",
     "en": "diabetes",
     "zhHans": "糖尿病",
-    "zhHant": "糖尿病"
+    "zhHant": "糖尿病",
+    "id": "az-0870",
+    "legacyIds": [
+      "situacao-a-diabetes"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "estar grávida",
     "en": "to be pregnant",
     "zhHans": "懷孕",
-    "zhHant": "懷孕"
+    "zhHant": "懷孕",
+    "id": "az-0871",
+    "legacyIds": [
+      "situacao-estar-gravida"
+    ]
   },
   {
     "situacao": "saude",
     "pt": "a vacina",
     "en": "vaccine",
     "zhHans": "疫苗",
-    "zhHant": "疫苗"
+    "zhHant": "疫苗",
+    "id": "az-0872",
+    "legacyIds": [
+      "situacao-a-vacina"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
     "pt": "o raio-X",
     "en": "X-ray",
     "zhHans": "X光",
-    "zhHant": "X光"
+    "zhHant": "X光",
+    "id": "az-0873",
+    "legacyIds": [
+      "situacao-o-raio-x"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "a análise ao sangue",
     "en": "blood test",
     "zhHans": "验血",
-    "zhHant": "驗血"
+    "zhHant": "驗血",
+    "id": "az-0874",
+    "legacyIds": [
+      "situacao-a-analise-ao-sangue"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
@@ -2212,21 +3825,37 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "fasting (before a test)",
     "zhHans": "空腹",
     "zhHant": "空腹",
-    "note": "Blood tests usually require it"
+    "note": "Blood tests usually require it",
+    "id": "az-0875",
+    "legacyIds": [
+      "situacao-em-jejum"
+    ]
   },
   {
     "situacao": "saude",
     "pt": "o resultado",
     "en": "result",
     "zhHans": "结果",
-    "zhHant": "結果"
+    "zhHant": "結果",
+    "id": "az-0876",
+    "legacyIds": [
+      "situacao-o-resultado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "o médico especialista",
     "en": "specialist doctor",
     "zhHans": "专科医生",
-    "zhHant": "專科醫生"
+    "zhHant": "專科醫生",
+    "id": "az-0877",
+    "legacyIds": [
+      "situacao-o-medico-especialista"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
@@ -2234,35 +3863,61 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "referral",
     "zhHans": "转诊",
     "zhHant": "轉診",
-    "note": "GP referral needed for SNS specialists"
+    "note": "GP referral needed for SNS specialists",
+    "id": "az-0878",
+    "legacyIds": [
+      "situacao-o-encaminhamento-a-referenciacao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "o seguro de saúde",
     "en": "health insurance",
     "zhHans": "医疗保险",
-    "zhHant": "醫療保險"
+    "zhHant": "醫療保險",
+    "id": "az-0879",
+    "legacyIds": [
+      "situacao-o-seguro-de-saude"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "tomar o medicamento",
     "en": "to take the medicine",
     "zhHans": "服药",
-    "zhHant": "服藥"
+    "zhHant": "服藥",
+    "id": "az-0880",
+    "legacyIds": [
+      "situacao-tomar-o-medicamento"
+    ]
   },
   {
     "situacao": "saude",
     "pt": "de 8 em 8 horas",
     "en": "every 8 hours",
     "zhHans": "每8小时一次",
-    "zhHant": "每8小時一次"
+    "zhHant": "每8小時一次",
+    "id": "az-0881",
+    "legacyIds": [
+      "situacao-de-8-em-8-horas"
+    ]
   },
   {
     "situacao": "saude",
     "pt": "a dose",
     "en": "dose",
     "zhHans": "剂量",
-    "zhHant": "劑量"
+    "zhHant": "劑量",
+    "id": "az-0882",
+    "legacyIds": [
+      "situacao-a-dose"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "saude",
@@ -2270,28 +3925,52 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "generic medicine",
     "zhHans": "仿制药（平价替代药）",
     "zhHant": "仿製藥（平價替代藥）",
-    "note": "Cheaper; ask 'há genérico?' at the pharmacy"
+    "note": "Cheaper; ask 'há genérico?' at the pharmacy",
+    "id": "az-0883",
+    "legacyIds": [
+      "situacao-o-medicamento-generico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "o atestado médico",
     "en": "medical certificate",
     "zhHans": "医生证明",
-    "zhHant": "醫生證明"
+    "zhHant": "醫生證明",
+    "id": "az-0884",
+    "legacyIds": [
+      "situacao-o-atestado-medico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "saude",
     "pt": "a urgência pediátrica",
     "en": "paediatric A&E",
     "zhHans": "儿科急诊",
-    "zhHant": "兒科急診"
+    "zhHant": "兒科急診",
+    "id": "az-0885",
+    "legacyIds": [
+      "situacao-a-urgencia-pediatrica"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "o pedido de nacionalidade",
     "en": "citizenship application",
     "zhHans": "入籍申请",
-    "zhHant": "入籍申請"
+    "zhHant": "入籍申請",
+    "id": "az-0886",
+    "legacyIds": [
+      "situacao-o-pedido-de-nacionalidade"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
@@ -2299,168 +3978,305 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "(Hague) apostille",
     "zhHans": "海牙认证",
     "zhHant": "海牙認證",
-    "note": "Foreign documents must be apostilled"
+    "note": "Foreign documents must be apostilled",
+    "id": "az-0887",
+    "legacyIds": [
+      "situacao-a-apostila-de-haia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "a tradução certificada",
     "en": "certified translation",
     "zhHans": "认证翻译",
-    "zhHant": "認證翻譯"
+    "zhHant": "認證翻譯",
+    "id": "az-0888",
+    "legacyIds": [
+      "situacao-a-traducao-certificada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "a certidão de nascimento",
     "en": "birth certificate",
     "zhHans": "出生证明",
-    "zhHant": "出生證明"
+    "zhHant": "出生證明",
+    "id": "az-0889",
+    "legacyIds": [
+      "situacao-a-certidao-de-nascimento"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "o registo criminal do país de origem",
     "en": "criminal record from home country",
     "zhHans": "原籍國无犯罪记录",
-    "zhHant": "原籍國無犯罪記錄"
+    "zhHant": "原籍國無犯罪記錄",
+    "id": "az-0890",
+    "legacyIds": [
+      "situacao-o-registo-criminal-do-pais-de-origem"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "o visto de trabalho / de estudo",
     "en": "work / study visa",
     "zhHans": "工作签证／学生签证",
-    "zhHant": "工作簽證／學生簽證"
+    "zhHant": "工作簽證／學生簽證",
+    "id": "az-0891",
+    "legacyIds": [
+      "situacao-o-visto-de-trabalho-de-estudo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "a prorrogação de permanência",
     "en": "extension of stay",
     "zhHans": "延期居留",
-    "zhHant": "延期居留"
+    "zhHant": "延期居留",
+    "id": "az-0892",
+    "legacyIds": [
+      "situacao-a-prorrogacao-de-permanencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "o comprovativo de agendamento",
     "en": "proof of appointment",
     "zhHans": "预约憑证",
-    "zhHant": "預約憑證"
+    "zhHant": "預約憑證",
+    "id": "az-0893",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-agendamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "o número de processo",
     "en": "case number",
     "zhHans": "案件編号",
-    "zhHant": "案件編號"
+    "zhHant": "案件編號",
+    "id": "az-0894",
+    "legacyIds": [
+      "situacao-o-numero-de-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "o estado do processo",
     "en": "case status",
     "zhHans": "案件状态",
-    "zhHant": "案件狀態"
+    "zhHant": "案件狀態",
+    "id": "az-0895",
+    "legacyIds": [
+      "situacao-o-estado-do-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "a notificação",
     "en": "official notification",
     "zhHans": "官方通知",
-    "zhHant": "官方通知"
+    "zhHant": "官方通知",
+    "id": "az-0896",
+    "legacyIds": [
+      "situacao-a-notificacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "o prazo",
     "en": "deadline",
     "zhHans": "期限",
-    "zhHant": "期限"
+    "zhHant": "期限",
+    "id": "az-0529",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "em análise",
     "en": "under review",
     "zhHans": "审核中",
-    "zhHant": "審核中"
+    "zhHant": "審核中",
+    "id": "az-0897",
+    "legacyIds": [
+      "situacao-em-analise"
+    ]
   },
   {
     "situacao": "aima",
     "pt": "deferido / indeferido",
     "en": "approved / rejected",
     "zhHans": "获批／被拒",
-    "zhHant": "獲批／被拒"
+    "zhHant": "獲批／被拒",
+    "id": "az-0898",
+    "legacyIds": [
+      "situacao-deferido-indeferido"
+    ]
   },
   {
     "situacao": "aima",
     "pt": "o vínculo laboral",
     "en": "employment relationship",
     "zhHans": "劳动关係（在职证明）",
-    "zhHant": "勞動關係（在職證明）"
+    "zhHant": "勞動關係（在職證明）",
+    "id": "az-0899",
+    "legacyIds": [
+      "situacao-o-vinculo-laboral"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "o seguro de viagem / de saúde",
     "en": "travel / health insurance",
     "zhHans": "旅行保险／医疗保险",
-    "zhHant": "旅行保險／醫療保險"
+    "zhHant": "旅行保險／醫療保險",
+    "id": "az-0900",
+    "legacyIds": [
+      "situacao-o-seguro-de-viagem-de-saude"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "a declaração da entidade patronal",
     "en": "employer's declaration",
     "zhHans": "雇主声明",
-    "zhHant": "僱主聲明"
+    "zhHant": "僱主聲明",
+    "id": "az-0901",
+    "legacyIds": [
+      "situacao-a-declaracao-da-entidade-patronal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "o agregado familiar",
     "en": "household / family unit",
     "zhHans": "家庭成员",
-    "zhHant": "家庭成員"
+    "zhHant": "家庭成員",
+    "id": "az-0902",
+    "legacyIds": [
+      "situacao-o-agregado-familiar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "aima",
     "pt": "a residência legal",
     "en": "legal residence",
     "zhHans": "合法居留",
-    "zhHant": "合法居留"
+    "zhHant": "合法居留",
+    "id": "az-0903",
+    "legacyIds": [
+      "situacao-a-residencia-legal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "aima",
     "pt": "o atendimento presencial",
     "en": "in-person service",
     "zhHans": "现场办理",
-    "zhHant": "現場辦理"
+    "zhHant": "現場辦理",
+    "id": "az-0904",
+    "legacyIds": [
+      "situacao-o-atendimento-presencial"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "a creche",
     "en": "nursery (0-3)",
     "zhHans": "託儿所",
-    "zhHant": "託兒所"
+    "zhHant": "託兒所",
+    "id": "az-0905",
+    "legacyIds": [
+      "situacao-a-creche"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "o jardim de infância / o pré-escolar",
     "en": "kindergarten / preschool",
     "zhHans": "幼儿园",
-    "zhHant": "幼兒園"
+    "zhHant": "幼兒園",
+    "id": "az-0906",
+    "legacyIds": [
+      "situacao-o-jardim-de-infancia-o-pre-escolar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "o 1.º / 2.º / 3.º ciclo",
     "en": "primary / middle school cycles",
     "zhHans": "小学低／中／高年级段",
-    "zhHant": "小學低／中／高年級段"
+    "zhHant": "小學低／中／高年級段",
+    "id": "az-0907",
+    "legacyIds": [
+      "situacao-o-1-2-3-ciclo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "o ensino secundário",
     "en": "secondary school",
     "zhHans": "高中",
-    "zhHant": "高中"
+    "zhHant": "高中",
+    "id": "az-0908",
+    "legacyIds": [
+      "situacao-o-ensino-secundario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "a turma",
     "en": "class (group)",
     "zhHans": "班级",
-    "zhHant": "班級"
+    "zhHant": "班級",
+    "id": "az-0909",
+    "legacyIds": [
+      "situacao-a-turma"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
@@ -2468,7 +4284,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "form tutor / homeroom teacher",
     "zhHans": "班主任",
     "zhHant": "班主任",
-    "note": "Your main contact at the school"
+    "note": "Your main contact at the school",
+    "id": "az-0910",
+    "legacyIds": [
+      "situacao-o-diretor-de-turma"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
@@ -2476,35 +4298,65 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "student's home-school book",
     "zhHans": "学生联络手册",
     "zhHant": "學生聯絡手冊",
-    "note": "Where school-home messages are written"
+    "note": "Where school-home messages are written",
+    "id": "az-0911",
+    "legacyIds": [
+      "situacao-a-caderneta-do-aluno"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "o intervalo / o recreio",
     "en": "break / playground",
     "zhHans": "课间休息／操场",
-    "zhHant": "課間休息／操場"
+    "zhHant": "課間休息／操場",
+    "id": "az-0912",
+    "legacyIds": [
+      "situacao-o-intervalo-o-recreio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "a visita de estudo",
     "en": "school trip",
     "zhHans": "校外教学",
-    "zhHant": "校外教學"
+    "zhHant": "校外教學",
+    "id": "az-0913",
+    "legacyIds": [
+      "situacao-a-visita-de-estudo"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "a autorização",
     "en": "permission slip",
     "zhHans": "家长同意书",
-    "zhHant": "家長同意書"
+    "zhHant": "家長同意書",
+    "id": "az-0914",
+    "legacyIds": [
+      "situacao-a-autorizacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "a falta",
     "en": "absence",
     "zhHans": "缺勤",
-    "zhHant": "缺勤"
+    "zhHant": "缺勤",
+    "id": "az-0915",
+    "legacyIds": [
+      "situacao-a-falta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
@@ -2512,28 +4364,50 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to justify an absence",
     "zhHans": "为缺勤提交说明",
     "zhHant": "為缺勤提交說明",
-    "note": "Must be done within days, via caderneta or portal"
+    "note": "Must be done within days, via caderneta or portal",
+    "id": "az-0916",
+    "legacyIds": [
+      "situacao-justificar-a-falta"
+    ]
   },
   {
     "situacao": "escola",
     "pt": "o teste / a avaliação",
     "en": "test / assessment",
     "zhHans": "测验／评估",
-    "zhHant": "測驗／評估"
+    "zhHant": "測驗／評估",
+    "id": "az-0917",
+    "legacyIds": [
+      "situacao-o-teste-a-avaliacao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "as notas",
     "en": "grades",
     "zhHans": "成绩",
-    "zhHant": "成績"
+    "zhHant": "成績",
+    "id": "az-0918",
+    "legacyIds": [
+      "situacao-as-notas"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "escola",
     "pt": "o apoio ao estudo",
     "en": "study support",
     "zhHans": "课后輔导",
-    "zhHant": "課後輔導"
+    "zhHant": "課後輔導",
+    "id": "az-0919",
+    "legacyIds": [
+      "situacao-o-apoio-ao-estudo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
@@ -2541,7 +4415,13 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "Portuguese as a non-native language",
     "zhHans": "葡语非母语课程（PLNM）",
     "zhHant": "葡語非母語課程（PLNM）",
-    "note": "Extra Portuguese support — ask for it"
+    "note": "Extra Portuguese support — ask for it",
+    "id": "az-0920",
+    "legacyIds": [
+      "situacao-o-plnm-portugues-lingua-nao-materna"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
@@ -2549,63 +4429,115 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "recognition of foreign studies",
     "zhHans": "学历同等认证",
     "zhHant": "學歷同等認證",
-    "note": "For children schooled abroad"
+    "note": "For children schooled abroad",
+    "id": "az-0921",
+    "legacyIds": [
+      "situacao-a-equivalencia-de-estudos"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "escola",
     "pt": "o cartão do aluno",
     "en": "student card",
     "zhHans": "学生卡",
-    "zhHant": "學生卡"
+    "zhHant": "學生卡",
+    "id": "az-0922",
+    "legacyIds": [
+      "situacao-o-cartao-do-aluno"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "escola",
     "pt": "carregar o cartão",
     "en": "to top up the card (canteen)",
     "zhHans": "给学生卡充值",
-    "zhHant": "給學生卡充值"
+    "zhHant": "給學生卡充值",
+    "id": "az-0923",
+    "legacyIds": [
+      "situacao-carregar-o-cartao"
+    ]
   },
   {
     "situacao": "escola",
     "pt": "o transporte escolar",
     "en": "school transport",
     "zhHans": "校车",
-    "zhHant": "校車"
+    "zhHant": "校車",
+    "id": "az-0924",
+    "legacyIds": [
+      "situacao-o-transporte-escolar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "o salário mínimo",
     "en": "minimum wage",
     "zhHans": "最低工资",
-    "zhHant": "最低工資"
+    "zhHant": "最低工資",
+    "id": "az-0925",
+    "legacyIds": [
+      "situacao-o-salario-minimo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "o recibo de vencimento",
     "en": "payslip",
     "zhHans": "工资单",
-    "zhHant": "工資單"
+    "zhHant": "工資單",
+    "id": "az-0926",
+    "legacyIds": [
+      "situacao-o-recibo-de-vencimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "o contrato a termo / sem termo",
     "en": "fixed-term / permanent contract",
     "zhHans": "固定期限合同／无固定期限合同",
-    "zhHant": "固定期限合同／無固定期限合同"
+    "zhHant": "固定期限合同／無固定期限合同",
+    "id": "az-0927",
+    "legacyIds": [
+      "situacao-o-contrato-a-termo-sem-termo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "o período experimental",
     "en": "probation period",
     "zhHans": "试用期",
-    "zhHant": "試用期"
+    "zhHant": "試用期",
+    "id": "az-0928",
+    "legacyIds": [
+      "situacao-o-periodo-experimental"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "as férias pagas",
     "en": "paid holidays",
     "zhHans": "带薪年假",
-    "zhHant": "帶薪年假"
+    "zhHant": "帶薪年假",
+    "id": "az-0929",
+    "legacyIds": [
+      "situacao-as-ferias-pagas"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "iefp",
@@ -2613,42 +4545,75 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "holiday / Christmas bonus (13th/14th month)",
     "zhHans": "假期津贴／圣诞津贴（双粮）",
     "zhHant": "假期津貼／聖誕津貼（雙糧）",
-    "note": "Legally owed — 14 payments per year is standard"
+    "note": "Legally owed — 14 payments per year is standard",
+    "id": "az-0930",
+    "legacyIds": [
+      "situacao-o-subsidio-de-ferias-de-natal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "as horas extraordinárias",
     "en": "overtime",
     "zhHans": "加班",
-    "zhHant": "加班"
+    "zhHant": "加班",
+    "id": "az-0392",
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
     "situacao": "iefp",
     "pt": "o despedimento",
     "en": "dismissal",
     "zhHans": "解雇",
-    "zhHant": "解僱"
+    "zhHant": "解僱",
+    "id": "az-0931",
+    "legacyIds": [
+      "situacao-o-despedimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "a rescisão do contrato",
     "en": "contract termination",
     "zhHans": "解除合同",
-    "zhHant": "解除合同"
+    "zhHant": "解除合同",
+    "id": "az-0932",
+    "legacyIds": [
+      "situacao-a-rescisao-do-contrato"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "o pré-aviso",
     "en": "notice period",
     "zhHans": "预先通知期",
-    "zhHant": "預先通知期"
+    "zhHant": "預先通知期",
+    "id": "az-0933",
+    "legacyIds": [
+      "situacao-o-pre-aviso"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "a indemnização / a compensação",
     "en": "severance / compensation",
     "zhHans": "赔偿金／补偿金",
-    "zhHant": "賠償金／補償金"
+    "zhHant": "賠償金／補償金",
+    "id": "az-0934",
+    "legacyIds": [
+      "situacao-a-indemnizacao-a-compensacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
@@ -2656,49 +4621,89 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "Labour Conditions Authority",
     "zhHans": "劳动监察局（ACT）",
     "zhHant": "勞動監察局（ACT）",
-    "note": "Where to report unpaid wages or abuse"
+    "note": "Where to report unpaid wages or abuse",
+    "id": "az-0935",
+    "legacyIds": [
+      "situacao-a-act-autoridade-para-as-condicoes-do-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "apresentar queixa",
     "en": "to file a complaint",
     "zhHans": "投诉／申诉",
-    "zhHant": "投訴／申訴"
+    "zhHant": "投訴／申訴",
+    "id": "az-0936",
+    "legacyIds": [
+      "situacao-apresentar-queixa"
+    ]
   },
   {
     "situacao": "iefp",
     "pt": "o sindicato",
     "en": "trade union",
     "zhHans": "工会",
-    "zhHant": "工會"
+    "zhHant": "工會",
+    "id": "az-0937",
+    "legacyIds": [
+      "situacao-o-sindicato"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "a agência de trabalho temporário",
     "en": "temp agency",
     "zhHans": "劳务派遣公司",
-    "zhHant": "勞務派遣公司"
+    "zhHant": "勞務派遣公司",
+    "id": "az-0938",
+    "legacyIds": [
+      "situacao-a-agencia-de-trabalho-temporario"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "a candidatura espontânea",
     "en": "unsolicited application",
     "zhHans": "主动求职申请",
-    "zhHant": "主動求職申請"
+    "zhHant": "主動求職申請",
+    "id": "az-0939",
+    "legacyIds": [
+      "situacao-a-candidatura-espontanea"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "a entrevista de emprego",
     "en": "job interview",
     "zhHans": "求职面试",
-    "zhHant": "求職面試"
+    "zhHant": "求職面試",
+    "id": "az-0940",
+    "legacyIds": [
+      "situacao-a-entrevista-de-emprego"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "iefp",
     "pt": "o estágio profissional",
     "en": "professional internship (IEFP measure)",
     "zhHans": "职业实习（IEFP项目）",
-    "zhHant": "職業實習（IEFP項目）"
+    "zhHant": "職業實習（IEFP項目）",
+    "id": "az-0941",
+    "legacyIds": [
+      "situacao-o-estagio-profissional"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
@@ -2706,63 +4711,117 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "Portuguese course for foreigners",
     "zhHans": "对外葡语课程",
     "zhHant": "對外葡語課程",
-    "note": "Free via IEFP/schools — ask to enrol"
+    "note": "Free via IEFP/schools — ask to enrol",
+    "id": "az-0942",
+    "legacyIds": [
+      "situacao-o-curso-de-portugues-para-estrangeiros"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "iefp",
     "pt": "o certificado de formação",
     "en": "training certificate",
     "zhHans": "培训证书",
-    "zhHant": "培訓證書"
+    "zhHant": "培訓證書",
+    "id": "az-0943",
+    "legacyIds": [
+      "situacao-o-certificado-de-formacao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a pensão / a reforma",
     "en": "pension / retirement",
     "zhHans": "养老金／退休",
-    "zhHant": "養老金／退休"
+    "zhHant": "養老金／退休",
+    "id": "az-0944",
+    "legacyIds": [
+      "situacao-a-pensao-a-reforma"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o subsídio de doença",
     "en": "sickness benefit",
     "zhHans": "疾病津贴",
-    "zhHant": "疾病津貼"
+    "zhHant": "疾病津貼",
+    "id": "az-0945",
+    "legacyIds": [
+      "situacao-o-subsidio-de-doenca"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a licença de maternidade / paternidade",
     "en": "maternity / paternity leave",
     "zhHans": "产假／陪产假",
-    "zhHant": "產假／陪產假"
+    "zhHant": "產假／陪產假",
+    "id": "az-0946",
+    "legacyIds": [
+      "situacao-a-licenca-de-maternidade-paternidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o subsídio parental",
     "en": "parental benefit",
     "zhHans": "育儿津贴",
-    "zhHant": "育兒津貼"
+    "zhHant": "育兒津貼",
+    "id": "az-0947",
+    "legacyIds": [
+      "situacao-o-subsidio-parental"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o abono pré-natal",
     "en": "prenatal allowance",
     "zhHans": "产前津贴",
-    "zhHant": "產前津貼"
+    "zhHant": "產前津貼",
+    "id": "az-0948",
+    "legacyIds": [
+      "situacao-o-abono-pre-natal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a prestação social",
     "en": "social benefit / welfare payment",
     "zhHans": "社会福利金",
-    "zhHant": "社會福利金"
+    "zhHant": "社會福利金",
+    "id": "az-0949",
+    "legacyIds": [
+      "situacao-a-prestacao-social"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o escalão de rendimentos",
     "en": "income bracket",
     "zhHans": "收入级距",
-    "zhHant": "收入級距"
+    "zhHant": "收入級距",
+    "id": "az-0950",
+    "legacyIds": [
+      "situacao-o-escalao-de-rendimentos"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
@@ -2770,14 +4829,26 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "quarterly declaration (self-employed)",
     "zhHans": "季度申報（自雇）",
     "zhHant": "季度申報（自僱）",
-    "note": "Due in Jan, Apr, Jul, Oct"
+    "note": "Due in Jan, Apr, Jul, Oct",
+    "id": "az-0951",
+    "legacyIds": [
+      "situacao-a-declaracao-trimestral"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a taxa contributiva",
     "en": "contribution rate",
     "zhHans": "供款费率",
-    "zhHant": "供款費率"
+    "zhHant": "供款費率",
+    "id": "az-0952",
+    "legacyIds": [
+      "situacao-a-taxa-contributiva"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
@@ -2785,112 +4856,201 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "contributions exemption",
     "zhHans": "供款豁免",
     "zhHant": "供款豁免",
-    "note": "First 12 months for new freelancers"
+    "note": "First 12 months for new freelancers",
+    "id": "az-0953",
+    "legacyIds": [
+      "situacao-a-isencao-de-contribuicoes"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o primeiro ano de atividade",
     "en": "first year of activity",
     "zhHans": "开业第一年",
-    "zhHant": "開業第一年"
+    "zhHant": "開業第一年",
+    "id": "az-0954",
+    "legacyIds": [
+      "situacao-o-primeiro-ano-de-atividade"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a dívida à Segurança Social",
     "en": "social security debt",
     "zhHans": "社保欠款",
-    "zhHant": "社保欠款"
+    "zhHant": "社保欠款",
+    "id": "az-0955",
+    "legacyIds": [
+      "situacao-a-divida-a-seguranca-social"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o plano prestacional",
     "en": "instalment plan",
     "zhHans": "分期还款计划",
-    "zhHant": "分期還款計劃"
+    "zhHant": "分期還款計劃",
+    "id": "az-0956",
+    "legacyIds": [
+      "situacao-o-plano-prestacional"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "atualizar o IBAN",
     "en": "to update the IBAN (for payments)",
     "zhHans": "更新收款账户（IBAN）",
-    "zhHant": "更新收款帳戶（IBAN）"
+    "zhHant": "更新收款帳戶（IBAN）",
+    "id": "az-0957",
+    "legacyIds": [
+      "situacao-atualizar-o-iban"
+    ]
   },
   {
     "situacao": "seguranca_social",
     "pt": "o requerimento",
     "en": "application form",
     "zhHans": "申请表",
-    "zhHant": "申請表"
+    "zhHant": "申請表",
+    "id": "az-0577",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "submeter online",
     "en": "to submit online",
     "zhHans": "在线提交",
-    "zhHant": "在線提交"
+    "zhHant": "在線提交",
+    "id": "az-0958",
+    "legacyIds": [
+      "situacao-submeter-online"
+    ]
   },
   {
     "situacao": "seguranca_social",
     "pt": "a certidão de nascimento do bebé",
     "en": "baby's birth certificate",
     "zhHans": "婴儿出生证明",
-    "zhHant": "嬰兒出生證明"
+    "zhHant": "嬰兒出生證明",
+    "id": "az-0959",
+    "legacyIds": [
+      "situacao-a-certidao-de-nascimento-do-bebe"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o registo do nascimento",
     "en": "birth registration",
     "zhHans": "出生登记",
-    "zhHant": "出生登記"
+    "zhHant": "出生登記",
+    "id": "az-0960",
+    "legacyIds": [
+      "situacao-o-registo-do-nascimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "seguranca_social",
     "pt": "a morada registada",
     "en": "registered address",
     "zhHans": "登记地址",
-    "zhHant": "登記地址"
+    "zhHant": "登記地址",
+    "id": "az-0961",
+    "legacyIds": [
+      "situacao-a-morada-registada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "seguranca_social",
     "pt": "o balcão da Segurança Social",
     "en": "Social Security counter",
     "zhHans": "社保局柜台",
-    "zhHant": "社保局櫃檯"
+    "zhHant": "社保局櫃檯",
+    "id": "az-0962",
+    "legacyIds": [
+      "situacao-o-balcao-da-seguranca-social"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "o anúncio",
     "en": "listing / advert",
     "zhHans": "租房广告",
-    "zhHant": "租房廣告"
+    "zhHant": "租房廣告",
+    "id": "az-0963",
+    "legacyIds": [
+      "situacao-o-anuncio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "a imobiliária",
     "en": "real estate agency",
     "zhHans": "房产中介公司",
-    "zhHant": "房產中介公司"
+    "zhHant": "房產中介公司",
+    "id": "az-0261",
+    "legacyIds": [
+      "situacao-a-imobiliaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "o agente imobiliário",
     "en": "real estate agent",
     "zhHans": "房产中介",
-    "zhHant": "房產中介"
+    "zhHant": "房產中介",
+    "id": "az-0965",
+    "legacyIds": [
+      "situacao-o-agente-imobiliario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "o quarto individual / duplo",
     "en": "single / double room",
     "zhHans": "单人房／双人房",
-    "zhHant": "單人房／雙人房"
+    "zhHant": "單人房／雙人房",
+    "id": "az-0966",
+    "legacyIds": [
+      "situacao-o-quarto-individual-duplo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "o aquecimento",
     "en": "heating",
     "zhHans": "暖气",
-    "zhHant": "暖氣"
+    "zhHant": "暖氣",
+    "id": "az-0967",
+    "legacyIds": [
+      "situacao-o-aquecimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
@@ -2898,42 +5058,76 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "gas water heater",
     "zhHans": "燃气热水器",
     "zhHant": "燃氣熱水器",
-    "note": "Very common in PT flats; learn this word"
+    "note": "Very common in PT flats; learn this word",
+    "id": "az-0968",
+    "legacyIds": [
+      "situacao-o-esquentador"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "a caldeira",
     "en": "boiler",
     "zhHans": "锅炉",
-    "zhHant": "鍋爐"
+    "zhHant": "鍋爐",
+    "id": "az-0969",
+    "legacyIds": [
+      "situacao-a-caldeira"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "o eletrodoméstico",
     "en": "household appliance",
     "zhHans": "家用电器",
-    "zhHant": "家用電器"
+    "zhHant": "家用電器",
+    "id": "az-0970",
+    "legacyIds": [
+      "situacao-o-eletrodomestico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "a máquina de lavar roupa / loiça",
     "en": "washing machine / dishwasher",
     "zhHans": "洗衣机／洗碗机",
-    "zhHant": "洗衣機／洗碗機"
+    "zhHant": "洗衣機／洗碗機",
+    "id": "az-0971",
+    "legacyIds": [
+      "situacao-a-maquina-de-lavar-roupa-loica"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "avariado/a",
     "en": "broken / out of order",
     "zhHans": "坏了／故障",
-    "zhHant": "壞了／故障"
+    "zhHant": "壞了／故障",
+    "id": "az-0972",
+    "legacyIds": [
+      "situacao-avariado-a"
+    ]
   },
   {
     "situacao": "arrendamento",
     "pt": "a reparação / o arranjo",
     "en": "repair",
     "zhHans": "维修",
-    "zhHant": "維修"
+    "zhHant": "維修",
+    "id": "az-0973",
+    "legacyIds": [
+      "situacao-a-reparacao-o-arranjo"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
@@ -2941,119 +5135,219 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "damp",
     "zhHans": "潮湿",
     "zhHant": "潮濕",
-    "note": "Chronic issue in Portuguese housing"
+    "note": "Chronic issue in Portuguese housing",
+    "id": "az-0974",
+    "legacyIds": [
+      "situacao-a-humidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "o bolor / o mofo",
     "en": "mould",
     "zhHans": "霉菌",
-    "zhHant": "霉菌"
+    "zhHant": "霉菌",
+    "id": "az-0975",
+    "legacyIds": [
+      "situacao-o-bolor-o-mofo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "a renda em atraso",
     "en": "overdue rent",
     "zhHans": "拖欠租金",
-    "zhHant": "拖欠租金"
+    "zhHant": "拖欠租金",
+    "id": "az-0976",
+    "legacyIds": [
+      "situacao-a-renda-em-atraso"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "o aumento da renda",
     "en": "rent increase",
     "zhHans": "租金上涨",
-    "zhHant": "租金上漲"
+    "zhHant": "租金上漲",
+    "id": "az-0977",
+    "legacyIds": [
+      "situacao-o-aumento-da-renda"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "arrendamento",
     "pt": "a vistoria / o inventário",
     "en": "inspection / inventory",
     "zhHans": "验房／物品清单",
-    "zhHant": "驗房／物品清單"
+    "zhHant": "驗房／物品清單",
+    "id": "az-0978",
+    "legacyIds": [
+      "situacao-a-vistoria-o-inventario"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "entregar as chaves",
     "en": "to hand over the keys",
     "zhHans": "交还钥匙",
-    "zhHant": "交還鑰匙"
+    "zhHant": "交還鑰匙",
+    "id": "az-0979",
+    "legacyIds": [
+      "situacao-entregar-as-chaves"
+    ]
   },
   {
     "situacao": "arrendamento",
     "pt": "a denúncia do contrato",
     "en": "termination notice (of tenancy)",
     "zhHans": "解约通知",
-    "zhHant": "解約通知"
+    "zhHant": "解約通知",
+    "id": "az-0980",
+    "legacyIds": [
+      "situacao-a-denuncia-do-contrato"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "a devolução da caução",
     "en": "return of the deposit",
     "zhHans": "退还押金",
-    "zhHant": "退還押金"
+    "zhHant": "退還押金",
+    "id": "az-0981",
+    "legacyIds": [
+      "situacao-a-devolucao-da-caucao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "arrendamento",
     "pt": "o colega de casa",
     "en": "flatmate",
     "zhHans": "室友",
-    "zhHant": "室友"
+    "zhHant": "室友",
+    "id": "az-0982",
+    "legacyIds": [
+      "situacao-o-colega-de-casa"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "o passe mensal",
     "en": "monthly pass",
     "zhHans": "月票",
-    "zhHant": "月票"
+    "zhHant": "月票",
+    "id": "az-0983",
+    "legacyIds": [
+      "situacao-o-passe-mensal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "o carregamento",
     "en": "top-up",
     "zhHans": "充值",
-    "zhHant": "充值"
+    "zhHant": "充值",
+    "id": "az-0984",
+    "legacyIds": [
+      "situacao-o-carregamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "o comboio urbano / regional / intercidades",
     "en": "suburban / regional / intercity train",
     "zhHans": "市郊火车／区域火车／城际火车",
-    "zhHant": "市郊火車／區域火車／城際火車"
+    "zhHant": "市郊火車／區域火車／城際火車",
+    "id": "az-0985",
+    "legacyIds": [
+      "situacao-o-comboio-urbano-regional-intercidades"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "a plataforma / a linha",
     "en": "platform / track",
     "zhHans": "月台／站台",
-    "zhHant": "月台／站台"
+    "zhHant": "月台／站台",
+    "id": "az-0986",
+    "legacyIds": [
+      "situacao-a-plataforma-a-linha"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "o sentido",
     "en": "direction",
     "zhHans": "方向",
-    "zhHant": "方向"
+    "zhHant": "方向",
+    "id": "az-0987",
+    "legacyIds": [
+      "situacao-o-sentido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "o transbordo / a correspondência",
     "en": "transfer / connection",
     "zhHans": "换乘",
-    "zhHant": "換乘"
+    "zhHant": "換乘",
+    "id": "az-0988",
+    "legacyIds": [
+      "situacao-o-transbordo-a-correspondencia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "a hora de ponta",
     "en": "rush hour",
     "zhHans": "高峰时段",
-    "zhHant": "高峰時段"
+    "zhHant": "高峰時段",
+    "id": "az-0989",
+    "legacyIds": [
+      "situacao-a-hora-de-ponta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "o título de transporte",
     "en": "valid ticket / travel document",
     "zhHans": "有效车票",
-    "zhHant": "有效車票"
+    "zhHant": "有效車票",
+    "id": "az-0990",
+    "legacyIds": [
+      "situacao-o-titulo-de-transporte"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
@@ -3061,14 +5355,24 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to travel without a valid ticket",
     "zhHans": "无票乘车",
     "zhHant": "無票乘車",
-    "note": "Fines are many times the fare"
+    "note": "Fines are many times the fare",
+    "id": "az-0991",
+    "legacyIds": [
+      "situacao-viajar-sem-titulo"
+    ]
   },
   {
     "situacao": "transportes",
     "pt": "a tarifa reduzida / o desconto",
     "en": "reduced fare / discount",
     "zhHans": "优惠票价／折扣",
-    "zhHant": "優惠票價／折扣"
+    "zhHant": "優惠票價／折扣",
+    "id": "az-0992",
+    "legacyIds": [
+      "situacao-a-tarifa-reduzida-o-desconto"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
@@ -3076,42 +5380,71 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to request the stop",
     "zhHans": "按鈴下车",
     "zhHant": "按鈴下車",
-    "note": "Press the button or the bus won't stop"
+    "note": "Press the button or the bus won't stop",
+    "id": "az-0993",
+    "legacyIds": [
+      "situacao-pedir-paragem"
+    ]
   },
   {
     "situacao": "transportes",
     "pt": "o TVDE (Uber, Bolt…)",
     "en": "ride-hailing (Uber, Bolt…)",
     "zhHans": "网约车",
-    "zhHant": "網約車"
+    "zhHant": "網約車",
+    "id": "az-0994",
+    "legacyIds": [
+      "situacao-o-tvde-uber-bolt"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "o táxi",
     "en": "taxi",
     "zhHans": "出租车",
-    "zhHant": "出租車"
+    "zhHant": "出租車",
+    "id": "az-0108",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "a estação de metro mais próxima",
     "en": "the nearest metro station",
     "zhHans": "最近的地铁站",
-    "zhHant": "最近的地鐵站"
+    "zhHant": "最近的地鐵站",
+    "id": "az-0995",
+    "legacyIds": [
+      "situacao-a-estacao-de-metro-mais-proxima"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "a última / a primeira circulação",
     "en": "last / first service of the day",
     "zhHans": "末班车／首班车",
-    "zhHant": "末班車／首班車"
+    "zhHant": "末班車／首班車",
+    "id": "az-0996",
+    "legacyIds": [
+      "situacao-a-ultima-a-primeira-circulacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "em atraso / suprimido",
     "en": "delayed / cancelled",
     "zhHans": "晚点／取消",
-    "zhHant": "晚點／取消"
+    "zhHant": "晚點／取消",
+    "id": "az-0997",
+    "legacyIds": [
+      "situacao-em-atraso-suprimido"
+    ]
   },
   {
     "situacao": "transportes",
@@ -3119,28 +5452,52 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "strike",
     "zhHans": "罢工",
     "zhHant": "罷工",
-    "note": "Check for transport strikes before travelling"
+    "note": "Check for transport strikes before travelling",
+    "id": "az-0998",
+    "legacyIds": [
+      "situacao-a-greve"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "transportes",
     "pt": "o lugar reservado",
     "en": "reserved seat",
     "zhHans": "预留座位",
-    "zhHant": "預留座位"
+    "zhHant": "預留座位",
+    "id": "az-0999",
+    "legacyIds": [
+      "situacao-o-lugar-reservado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "o bilhete de bordo",
     "en": "ticket bought on board",
     "zhHans": "车上购票",
-    "zhHant": "車上購票"
+    "zhHant": "車上購票",
+    "id": "az-1000",
+    "legacyIds": [
+      "situacao-o-bilhete-de-bordo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "transportes",
     "pt": "a app do operador",
     "en": "the operator's app",
     "zhHans": "运營商应用程式",
-    "zhHant": "運營商應用程式"
+    "zhHant": "運營商應用程式",
+    "id": "az-1001",
+    "legacyIds": [
+      "situacao-a-app-do-operador"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
@@ -3148,147 +5505,269 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "room attendant / housekeeper",
     "zhHans": "客房服务员",
     "zhHant": "客房服務員",
-    "note": "The PT job title (not 'camareira', which is Brazilian)"
+    "note": "The PT job title (not 'camareira', which is Brazilian)",
+    "id": "az-1002",
+    "legacyIds": [
+      "situacao-a-empregada-de-andares"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o rececionista",
     "en": "receptionist",
     "zhHans": "前台接待员",
-    "zhHant": "前台接待員"
+    "zhHant": "前台接待員",
+    "id": "az-1003",
+    "legacyIds": [
+      "situacao-o-rececionista"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a reserva",
     "en": "reservation",
     "zhHans": "预订",
-    "zhHant": "預訂"
+    "zhHant": "預訂",
+    "id": "az-1004",
+    "legacyIds": [
+      "situacao-a-reserva"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o quarto duplo / individual / twin",
     "en": "double / single / twin room",
     "zhHans": "大床房／单人房／双床房",
-    "zhHant": "大床房／單人房／雙床房"
+    "zhHant": "大床房／單人房／雙床房",
+    "id": "az-1005",
+    "legacyIds": [
+      "situacao-o-quarto-duplo-individual-twin"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a cama extra / o berço",
     "en": "extra bed / cot",
     "zhHans": "加床／婴儿床",
-    "zhHant": "加床／嬰兒床"
+    "zhHant": "加床／嬰兒床",
+    "id": "az-1006",
+    "legacyIds": [
+      "situacao-a-cama-extra-o-berco"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o serviço de quartos",
     "en": "room service",
     "zhHans": "客房送餐服务",
-    "zhHant": "客房送餐服務"
+    "zhHant": "客房送餐服務",
+    "id": "az-1007",
+    "legacyIds": [
+      "situacao-o-servico-de-quartos"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o cofre",
     "en": "safe",
     "zhHans": "保险箱",
-    "zhHant": "保險箱"
+    "zhHant": "保險箱",
+    "id": "az-1008",
+    "legacyIds": [
+      "situacao-o-cofre"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o ar condicionado",
     "en": "air conditioning",
     "zhHans": "空调",
-    "zhHant": "空調"
+    "zhHant": "空調",
+    "id": "az-1009",
+    "legacyIds": [
+      "situacao-o-ar-condicionado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a reclamação",
     "en": "complaint",
     "zhHans": "投诉",
-    "zhHant": "投訴"
+    "zhHant": "投訴",
+    "id": "az-1010",
+    "legacyIds": [
+      "situacao-a-reclamacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "reportar uma avaria",
     "en": "to report a fault",
     "zhHans": "報修",
-    "zhHant": "報修"
+    "zhHant": "報修",
+    "id": "az-1011",
+    "legacyIds": [
+      "situacao-reportar-uma-avaria"
+    ]
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a manutenção",
     "en": "maintenance",
     "zhHans": "维修部",
-    "zhHant": "維修部"
+    "zhHant": "維修部",
+    "id": "az-1012",
+    "legacyIds": [
+      "situacao-a-manutencao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o minibar / repor o minibar",
     "en": "minibar / to restock the minibar",
     "zhHans": "迷你吧／补迷你吧",
-    "zhHant": "迷你吧／補迷你吧"
+    "zhHant": "迷你吧／補迷你吧",
+    "id": "az-1013",
+    "legacyIds": [
+      "situacao-o-minibar-repor-o-minibar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "os amenities / os produtos de higiene",
     "en": "toiletries",
     "zhHans": "客用洗漱用品",
-    "zhHant": "客用洗漱用品"
+    "zhHant": "客用洗漱用品",
+    "id": "az-1014",
+    "legacyIds": [
+      "situacao-os-amenities-os-produtos-de-higiene"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o letreiro «não incomodar»",
     "en": "'do not disturb' sign",
     "zhHans": "「请勿打擾」牌",
-    "zhHant": "「請勿打擾」牌"
+    "zhHant": "「請勿打擾」牌",
+    "id": "az-1015",
+    "legacyIds": [
+      "situacao-o-letreiro-nao-incomodar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o late check-out",
     "en": "late check-out",
     "zhHans": "延迟退房",
-    "zhHant": "延遲退房"
+    "zhHant": "延遲退房",
+    "id": "az-1016",
+    "legacyIds": [
+      "situacao-o-late-check-out"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "guardar a bagagem",
     "en": "to store luggage",
     "zhHans": "寄存行李",
-    "zhHant": "寄存行李"
+    "zhHant": "寄存行李",
+    "id": "az-1017",
+    "legacyIds": [
+      "situacao-guardar-a-bagagem"
+    ]
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o elevador de serviço",
     "en": "service lift",
     "zhHans": "员工电梯",
-    "zhHant": "員工電梯"
+    "zhHant": "員工電梯",
+    "id": "az-1018",
+    "legacyIds": [
+      "situacao-o-elevador-de-servico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a rouparia",
     "en": "linen room",
     "zhHans": "布草房",
-    "zhHant": "布草房"
+    "zhHant": "布草房",
+    "id": "az-1019",
+    "legacyIds": [
+      "situacao-a-rouparia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "o piso / o andar",
     "en": "floor",
     "zhHans": "楼层",
-    "zhHant": "樓層"
+    "zhHant": "樓層",
+    "id": "az-1020",
+    "legacyIds": [
+      "situacao-o-piso-o-andar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_hotelaria",
     "pt": "a folha de tarefas",
     "en": "task sheet",
     "zhHans": "工作任务单",
-    "zhHant": "工作任務單"
+    "zhHant": "工作任務單",
+    "id": "az-1021",
+    "legacyIds": [
+      "situacao-a-folha-de-tarefas"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a reserva",
     "en": "reservation",
     "zhHans": "订位",
-    "zhHant": "訂位"
+    "zhHant": "訂位",
+    "id": "az-1004",
+    "legacyIds": [
+      "situacao-a-reserva"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
@@ -3296,28 +5775,52 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "couvert (bread/olives, charged)",
     "zhHans": "餐前小食（收费）",
     "zhHant": "餐前小食（收費）",
-    "note": "Charged if touched — a PT peculiarity to explain to tourists"
+    "note": "Charged if touched — a PT peculiarity to explain to tourists",
+    "id": "az-1022",
+    "legacyIds": [
+      "situacao-o-couvert"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a entrada",
     "en": "starter",
     "zhHans": "前菜",
-    "zhHant": "前菜"
+    "zhHant": "前菜",
+    "id": "az-1023",
+    "legacyIds": [
+      "situacao-a-entrada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o prato principal",
     "en": "main course",
     "zhHans": "主菜",
-    "zhHant": "主菜"
+    "zhHant": "主菜",
+    "id": "az-1024",
+    "legacyIds": [
+      "situacao-o-prato-principal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a sobremesa",
     "en": "dessert",
     "zhHans": "甜品",
-    "zhHant": "甜品"
+    "zhHant": "甜品",
+    "id": "az-1025",
+    "legacyIds": [
+      "situacao-a-sobremesa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
@@ -3325,77 +5828,130 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "full / half portion",
     "zhHans": "整份／半份",
     "zhHant": "整份／半份",
-    "note": "PT portion system — meia dose feeds one"
+    "note": "PT portion system — meia dose feeds one",
+    "id": "az-1026",
+    "legacyIds": [
+      "situacao-a-dose-a-meia-dose"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "para partilhar",
     "en": "to share",
     "zhHans": "分享（合吃）",
-    "zhHant": "分享（合吃）"
+    "zhHant": "分享（合吃）",
+    "id": "az-1027",
+    "legacyIds": [
+      "situacao-para-partilhar"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a imperial / o fino",
     "en": "draught beer (Lisbon / Porto term)",
     "zhHans": "生啤（里斯本叫imperial，波爾图叫fino）",
-    "zhHant": "生啤（里斯本叫imperial，波爾圖叫fino）"
+    "zhHant": "生啤（里斯本叫imperial，波爾圖叫fino）",
+    "id": "az-1028",
+    "legacyIds": [
+      "situacao-a-imperial-o-fino"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "mal passado / no ponto / bem passado",
     "en": "rare / medium / well done",
     "zhHans": "三分熟／五分熟／全熟",
-    "zhHant": "三分熟／五分熟／全熟"
+    "zhHant": "三分熟／五分熟／全熟",
+    "id": "az-1029",
+    "legacyIds": [
+      "situacao-mal-passado-no-ponto-bem-passado"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "vegetariano / sem glúten",
     "en": "vegetarian / gluten-free",
     "zhHans": "素食／无麩质",
-    "zhHant": "素食／無麩質"
+    "zhHant": "素食／無麩質",
+    "id": "az-1030",
+    "legacyIds": [
+      "situacao-vegetariano-sem-gluten"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a alergia alimentar",
     "en": "food allergy",
     "zhHans": "食物过敏",
-    "zhHant": "食物過敏"
+    "zhHant": "食物過敏",
+    "id": "az-1031",
+    "legacyIds": [
+      "situacao-a-alergia-alimentar"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a máquina (de pagamento)",
     "en": "card machine",
     "zhHans": "刷卡机",
-    "zhHant": "刷卡機"
+    "zhHant": "刷卡機",
+    "id": "az-1032",
+    "legacyIds": [
+      "situacao-a-maquina-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "pagar em dinheiro / com cartão",
     "en": "to pay cash / by card",
     "zhHans": "现金支付／刷卡",
-    "zhHant": "現金支付／刷卡"
+    "zhHant": "現金支付／刷卡",
+    "id": "az-1033",
+    "legacyIds": [
+      "situacao-pagar-em-dinheiro-com-cartao"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o troco",
     "en": "change",
     "zhHans": "找零",
-    "zhHant": "找零"
+    "zhHant": "找零",
+    "id": "az-0260",
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "pagar em separado / junto",
     "en": "to pay separately / together",
     "zhHans": "分开付／一起付",
-    "zhHant": "分開付／一起付"
+    "zhHant": "分開付／一起付",
+    "id": "az-1034",
+    "legacyIds": [
+      "situacao-pagar-em-separado-junto"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o chefe de sala",
     "en": "head waiter",
     "zhHans": "领班",
-    "zhHant": "領班"
+    "zhHant": "領班",
+    "id": "az-1035",
+    "legacyIds": [
+      "situacao-o-chefe-de-sala"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
@@ -3403,28 +5959,50 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "split shift",
     "zhHans": "两头班（分段班）",
     "zhHant": "兩頭班（分段班）",
-    "note": "Lunch + dinner service with a break between"
+    "note": "Lunch + dinner service with a break between",
+    "id": "az-1036",
+    "legacyIds": [
+      "situacao-o-turno-partido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "pôr / levantar a mesa",
     "en": "to set / clear the table",
     "zhHans": "摆桌／收桌",
-    "zhHant": "擺桌／收桌"
+    "zhHant": "擺桌／收桌",
+    "id": "az-1037",
+    "legacyIds": [
+      "situacao-por-levantar-a-mesa"
+    ]
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "o cliente habitual",
     "en": "regular customer",
     "zhHans": "熟客",
-    "zhHant": "熟客"
+    "zhHant": "熟客",
+    "id": "az-1038",
+    "legacyIds": [
+      "situacao-o-cliente-habitual"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_restauracao",
     "pt": "a esplanada cheia",
     "en": "full terrace",
     "zhHans": "露天座位已满",
-    "zhHant": "露天座位已滿"
+    "zhHant": "露天座位已滿",
+    "id": "az-1039",
+    "legacyIds": [
+      "situacao-a-esplanada-cheia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
@@ -3432,70 +6010,122 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to iron",
     "zhHans": "熨衣服",
     "zhHant": "熨衣服",
-    "note": "Often part of domestic cleaning jobs"
+    "note": "Often part of domestic cleaning jobs",
+    "id": "az-1040",
+    "legacyIds": [
+      "situacao-passar-a-ferro"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a tábua e o ferro de engomar",
     "en": "ironing board and iron",
     "zhHans": "烫衣板和熨斗",
-    "zhHant": "燙衣板和熨斗"
+    "zhHant": "燙衣板和熨斗",
+    "id": "az-1041",
+    "legacyIds": [
+      "situacao-a-tabua-e-o-ferro-de-engomar"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "dobrar a roupa",
     "en": "to fold the laundry",
     "zhHans": "叠衣服",
-    "zhHant": "疊衣服"
+    "zhHant": "疊衣服",
+    "id": "az-1042",
+    "legacyIds": [
+      "situacao-dobrar-a-roupa"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "estender a roupa",
     "en": "to hang out the laundry",
     "zhHans": "晾衣服",
-    "zhHant": "晾衣服"
+    "zhHant": "晾衣服",
+    "id": "az-1043",
+    "legacyIds": [
+      "situacao-estender-a-roupa"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a máquina de lavar / de secar",
     "en": "washing machine / dryer",
     "zhHans": "洗衣机／烘干机",
-    "zhHant": "洗衣機／烘乾機"
+    "zhHant": "洗衣機／烘乾機",
+    "id": "az-1044",
+    "legacyIds": [
+      "situacao-a-maquina-de-lavar-de-secar"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o detergente / o amaciador",
     "en": "detergent / fabric softener",
     "zhHans": "洗滌剂／柔顺剂",
-    "zhHant": "洗滌劑／柔順劑"
+    "zhHant": "洗滌劑／柔順劑",
+    "id": "az-1045",
+    "legacyIds": [
+      "situacao-o-detergente-o-amaciador"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o desinfetante",
     "en": "disinfectant",
     "zhHans": "消毒剂",
-    "zhHant": "消毒劑"
+    "zhHant": "消毒劑",
+    "id": "az-1046",
+    "legacyIds": [
+      "situacao-o-desinfetante"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o pano do pó",
     "en": "dust cloth",
     "zhHans": "抹布",
-    "zhHant": "抹布"
+    "zhHant": "抹布",
+    "id": "az-1047",
+    "legacyIds": [
+      "situacao-o-pano-do-po"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a esponja",
     "en": "sponge",
     "zhHans": "海綿",
-    "zhHant": "海綿"
+    "zhHant": "海綿",
+    "id": "az-1048",
+    "legacyIds": [
+      "situacao-a-esponja"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "limpar os vidros",
     "en": "to clean the windows",
     "zhHans": "擦玻璃",
-    "zhHant": "擦玻璃"
+    "zhHant": "擦玻璃",
+    "id": "az-1049",
+    "legacyIds": [
+      "situacao-limpar-os-vidros"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
@@ -3503,154 +6133,275 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "deep clean",
     "zhHans": "深度清洁",
     "zhHant": "深度清潔",
-    "note": "Quote it higher than regular cleaning"
+    "note": "Quote it higher than regular cleaning",
+    "id": "az-1050",
+    "legacyIds": [
+      "situacao-a-limpeza-a-fundo"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "semanal / quinzenal",
     "en": "weekly / fortnightly",
     "zhHans": "每周一次／每两周一次",
-    "zhHant": "每週一次／每兩週一次"
+    "zhHant": "每週一次／每兩週一次",
+    "id": "az-1051",
+    "legacyIds": [
+      "situacao-semanal-quinzenal"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a chave de casa",
     "en": "house key",
     "zhHans": "家门钥匙",
-    "zhHant": "家門鑰匙"
+    "zhHant": "家門鑰匙",
+    "id": "az-1052",
+    "legacyIds": [
+      "situacao-a-chave-de-casa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "remarcar",
     "en": "to reschedule",
     "zhHans": "改期",
-    "zhHant": "改期"
+    "zhHant": "改期",
+    "id": "az-1053",
+    "legacyIds": [
+      "situacao-remarcar"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "avisar com antecedência",
     "en": "to give advance notice",
     "zhHans": "提前通知",
-    "zhHant": "提前通知"
+    "zhHant": "提前通知",
+    "id": "az-1054",
+    "legacyIds": [
+      "situacao-avisar-com-antecedencia"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o feriado",
     "en": "public holiday",
     "zhHans": "公众假期",
-    "zhHant": "公眾假期"
+    "zhHant": "公眾假期",
+    "id": "az-1055",
+    "legacyIds": [
+      "situacao-o-feriado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o pagamento por transferência",
     "en": "payment by bank transfer",
     "zhHans": "转账付款",
-    "zhHant": "轉帳付款"
+    "zhHant": "轉帳付款",
+    "id": "az-1056",
+    "legacyIds": [
+      "situacao-o-pagamento-por-transferencia"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "aumentar o preço",
     "en": "to raise the price",
     "zhHans": "涨价",
-    "zhHant": "漲價"
+    "zhHant": "漲價",
+    "id": "az-1057",
+    "legacyIds": [
+      "situacao-aumentar-o-preco"
+    ]
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "o material de limpeza",
     "en": "cleaning supplies",
     "zhHans": "清洁用品",
-    "zhHant": "清潔用品"
+    "zhHant": "清潔用品",
+    "id": "az-1058",
+    "legacyIds": [
+      "situacao-o-material-de-limpeza"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_limpezas",
     "pt": "a referência (de clientes)",
     "en": "reference (from clients)",
     "zhHans": "客户推荐信",
-    "zhHant": "客戶推薦信"
+    "zhHant": "客戶推薦信",
+    "id": "az-1059",
+    "legacyIds": [
+      "situacao-a-referencia-de-clientes"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a ferramenta",
     "en": "tool",
     "zhHans": "工具",
-    "zhHant": "工具"
+    "zhHant": "工具",
+    "id": "az-0541",
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o martelo",
     "en": "hammer",
     "zhHans": "錘子",
-    "zhHant": "錘子"
+    "zhHant": "錘子",
+    "id": "az-1060",
+    "legacyIds": [
+      "situacao-o-martelo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o berbequim / a broca",
     "en": "drill / drill bit",
     "zhHans": "电钻／钻头",
-    "zhHant": "電鑽／鑽頭"
+    "zhHant": "電鑽／鑽頭",
+    "id": "az-1061",
+    "legacyIds": [
+      "situacao-o-berbequim-a-broca"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a serra",
     "en": "saw",
     "zhHans": "锯子",
-    "zhHant": "鋸子"
+    "zhHant": "鋸子",
+    "id": "az-1062",
+    "legacyIds": [
+      "situacao-a-serra"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a chave de fendas",
     "en": "screwdriver",
     "zhHans": "螺絲刀",
-    "zhHant": "螺絲刀"
+    "zhHant": "螺絲刀",
+    "id": "az-1063",
+    "legacyIds": [
+      "situacao-a-chave-de-fendas"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a escada",
     "en": "ladder",
     "zhHans": "梯子",
-    "zhHant": "梯子"
+    "zhHant": "梯子",
+    "id": "az-1064",
+    "legacyIds": [
+      "situacao-a-escada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o ladrilho / o azulejo",
     "en": "floor tile / wall tile",
     "zhHans": "地砖／瓷砖",
-    "zhHant": "地磚／瓷磚"
+    "zhHant": "地磚／瓷磚",
+    "id": "az-1065",
+    "legacyIds": [
+      "situacao-o-ladrilho-o-azulejo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o pladur / o gesso",
     "en": "drywall / plaster",
     "zhHans": "石膏板／石膏",
-    "zhHant": "石膏板／石膏"
+    "zhHant": "石膏板／石膏",
+    "id": "az-1066",
+    "legacyIds": [
+      "situacao-o-pladur-o-gesso"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a tinta / pintar",
     "en": "paint / to paint",
     "zhHans": "油漆／刷漆",
-    "zhHant": "油漆／刷漆"
+    "zhHant": "油漆／刷漆",
+    "id": "az-1067",
+    "legacyIds": [
+      "situacao-a-tinta-pintar"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o rolo / o pincel",
     "en": "roller / brush",
     "zhHans": "滾筒／刷子",
-    "zhHant": "滾筒／刷子"
+    "zhHant": "滾筒／刷子",
+    "id": "az-1068",
+    "legacyIds": [
+      "situacao-o-rolo-o-pincel"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o eletricista",
     "en": "electrician",
     "zhHans": "电工",
-    "zhHant": "電工"
+    "zhHant": "電工",
+    "id": "az-1069",
+    "legacyIds": [
+      "situacao-o-eletricista"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o canalizador",
     "en": "plumber",
     "zhHans": "水管工",
-    "zhHant": "水管工"
+    "zhHant": "水管工",
+    "id": "az-1070",
+    "legacyIds": [
+      "situacao-o-canalizador"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
@@ -3658,49 +6409,89 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "renovation",
     "zhHans": "翻新装修",
     "zhHant": "翻新裝修",
-    "note": "Most immigrant construction work is renovations"
+    "note": "Most immigrant construction work is renovations",
+    "id": "az-1071",
+    "legacyIds": [
+      "situacao-a-remodelacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o entulho",
     "en": "rubble / construction waste",
     "zhHans": "建筑垃圾",
-    "zhHant": "建築垃圾"
+    "zhHant": "建築垃圾",
+    "id": "az-1072",
+    "legacyIds": [
+      "situacao-o-entulho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a carrinha",
     "en": "van",
     "zhHans": "货车（面包车）",
-    "zhHant": "貨車（麵包車）"
+    "zhHant": "貨車（麵包車）",
+    "id": "az-1073",
+    "legacyIds": [
+      "situacao-a-carrinha"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "descarregar o material",
     "en": "to unload materials",
     "zhHans": "卸货（材料）",
-    "zhHant": "卸貨（材料）"
+    "zhHant": "卸貨（材料）",
+    "id": "az-1074",
+    "legacyIds": [
+      "situacao-descarregar-o-material"
+    ]
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "a fita métrica / medir",
     "en": "tape measure / to measure",
     "zhHans": "捲尺／测量",
-    "zhHant": "捲尺／測量"
+    "zhHant": "捲尺／測量",
+    "id": "az-1075",
+    "legacyIds": [
+      "situacao-a-fita-metrica-medir"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o nível",
     "en": "spirit level",
     "zhHans": "水平尺",
-    "zhHant": "水平尺"
+    "zhHant": "水平尺",
+    "id": "az-1076",
+    "legacyIds": [
+      "situacao-o-nivel"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
     "pt": "o orçamento",
     "en": "quote / estimate",
     "zhHans": "報价",
-    "zhHant": "報價"
+    "zhHant": "報價",
+    "id": "az-1077",
+    "legacyIds": [
+      "situacao-o-orcamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_construcao",
@@ -3708,147 +6499,265 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "workplace accident insurance",
     "zhHans": "工伤保险",
     "zhHant": "工傷保險",
-    "note": "Employer must have it — ask"
+    "note": "Employer must have it — ask",
+    "id": "az-1078",
+    "legacyIds": [
+      "situacao-o-seguro-de-acidentes-de-trabalho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "recolher / levantar o pedido",
     "en": "to pick up the order (at the restaurant)",
     "zhHans": "到店取单",
-    "zhHant": "到店取單"
+    "zhHant": "到店取單",
+    "id": "az-1079",
+    "legacyIds": [
+      "situacao-recolher-levantar-o-pedido"
+    ]
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o pedido ainda não está pronto",
     "en": "the order isn't ready yet",
     "zhHans": "订单还没好",
-    "zhHant": "訂單還沒好"
+    "zhHant": "訂單還沒好",
+    "id": "az-1080",
+    "legacyIds": [
+      "situacao-o-pedido-ainda-nao-esta-pronto"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a demora",
     "en": "delay / wait",
     "zhHans": "等候／延误",
-    "zhHant": "等候／延誤"
+    "zhHant": "等候／延誤",
+    "id": "az-1081",
+    "legacyIds": [
+      "situacao-a-demora"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o número do pedido",
     "en": "order number",
     "zhHans": "订单号",
-    "zhHant": "訂單號"
+    "zhHant": "訂單號",
+    "id": "az-1082",
+    "legacyIds": [
+      "situacao-o-numero-do-pedido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a zona de entrega",
     "en": "delivery zone",
     "zhHans": "配送区域",
-    "zhHant": "配送區域"
+    "zhHant": "配送區域",
+    "id": "az-1083",
+    "legacyIds": [
+      "situacao-a-zona-de-entrega"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a taxa de entrega",
     "en": "delivery fee",
     "zhHans": "配送费",
-    "zhHant": "配送費"
+    "zhHant": "配送費",
+    "id": "az-1084",
+    "legacyIds": [
+      "situacao-a-taxa-de-entrega"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "os ganhos",
     "en": "earnings",
     "zhHans": "收入",
-    "zhHant": "收入"
+    "zhHant": "收入",
+    "id": "az-1085",
+    "legacyIds": [
+      "situacao-os-ganhos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o pagamento semanal",
     "en": "weekly payout",
     "zhHans": "周结（每周结算）",
-    "zhHant": "週結（每週結算）"
+    "zhHant": "週結（每週結算）",
+    "id": "az-1086",
+    "legacyIds": [
+      "situacao-o-pagamento-semanal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a avaliação",
     "en": "rating",
     "zhHans": "评分",
-    "zhHant": "評分"
+    "zhHant": "評分",
+    "id": "az-1087",
+    "legacyIds": [
+      "situacao-a-avaliacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o cliente não atende",
     "en": "the customer isn't answering",
     "zhHans": "顾客不接电话",
-    "zhHant": "顧客不接電話"
+    "zhHant": "顧客不接電話",
+    "id": "az-1088",
+    "legacyIds": [
+      "situacao-o-cliente-nao-atende"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "cancelar a entrega",
     "en": "to cancel the delivery",
     "zhHans": "取消配送",
-    "zhHant": "取消配送"
+    "zhHant": "取消配送",
+    "id": "az-1089",
+    "legacyIds": [
+      "situacao-cancelar-a-entrega"
+    ]
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o suporte (da app)",
     "en": "(app) support",
     "zhHans": "平台客服",
-    "zhHant": "平台客服"
+    "zhHant": "平台客服",
+    "id": "az-1090",
+    "legacyIds": [
+      "situacao-o-suporte-da-app"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "reportar um problema",
     "en": "to report a problem",
     "zhHans": "上報问题",
-    "zhHant": "上報問題"
+    "zhHant": "上報問題",
+    "id": "az-1091",
+    "legacyIds": [
+      "situacao-reportar-um-problema"
+    ]
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a morada errada",
     "en": "wrong address",
     "zhHans": "地址错误",
-    "zhHant": "地址錯誤"
+    "zhHant": "地址錯誤",
+    "id": "az-1092",
+    "legacyIds": [
+      "situacao-a-morada-errada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o pagamento em dinheiro / já pago",
     "en": "cash payment / already paid",
     "zhHans": "现金支付／已在线支付",
-    "zhHant": "現金支付／已在線支付"
+    "zhHant": "現金支付／已在線支付",
+    "id": "az-1093",
+    "legacyIds": [
+      "situacao-o-pagamento-em-dinheiro-ja-pago"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o capacete / o colete",
     "en": "helmet / hi-vis vest",
     "zhHans": "头盔／反光背心",
-    "zhHant": "頭盔／反光背心"
+    "zhHant": "頭盔／反光背心",
+    "id": "az-1094",
+    "legacyIds": [
+      "situacao-o-capacete-o-colete"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "estacionar",
     "en": "to park",
     "zhHans": "停车",
-    "zhHant": "停車"
+    "zhHant": "停車",
+    "id": "az-1095",
+    "legacyIds": [
+      "situacao-estacionar"
+    ]
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "o elevador está avariado",
     "en": "the lift is broken",
     "zhHans": "电梯坏了",
-    "zhHant": "電梯壞了"
+    "zhHant": "電梯壞了",
+    "id": "az-1096",
+    "legacyIds": [
+      "situacao-o-elevador-esta-avariado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a gorjeta na app",
     "en": "in-app tip",
     "zhHans": "应用内小费",
-    "zhHant": "應用內小費"
+    "zhHant": "應用內小費",
+    "id": "az-1097",
+    "legacyIds": [
+      "situacao-a-gorjeta-na-app"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
     "situacao": "trabalho_entregas",
     "pt": "a conta bloqueada",
     "en": "blocked account",
     "zhHans": "账号被封",
-    "zhHant": "帳號被封"
+    "zhHant": "帳號被封",
+    "id": "az-1098",
+    "legacyIds": [
+      "situacao-a-conta-bloqueada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   }
 ];
 

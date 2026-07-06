@@ -1,6 +1,6 @@
 [
   {
-    "id": "m1-primeiro-nome",
+    "id": "az-0001",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o primeiro nome",
@@ -12,10 +12,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "名",
-    "zhHant": "名"
+    "zhHant": "名",
+    "legacyIds": [
+      "m1-primeiro-nome"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-apelido",
+    "id": "az-0002",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o apelido",
@@ -27,10 +32,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "姓",
-    "zhHant": "姓"
+    "zhHant": "姓",
+    "legacyIds": [
+      "m1-apelido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-nome-completo",
+    "id": "az-0003",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o nome completo",
@@ -42,10 +52,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "姓名",
-    "zhHant": "姓名"
+    "zhHant": "姓名",
+    "legacyIds": [
+      "m1-nome-completo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-nacionalidade",
+    "id": "az-0004",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "a nacionalidade",
@@ -57,10 +72,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "国籍",
-    "zhHant": "國籍"
+    "zhHant": "國籍",
+    "legacyIds": [
+      "m1-nacionalidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-local-nascimento",
+    "id": "az-0005",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o local de nascimento",
@@ -72,10 +92,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "出生地",
-    "zhHant": "出生地"
+    "zhHant": "出生地",
+    "legacyIds": [
+      "m1-local-nascimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-data-nascimento",
+    "id": "az-0006",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "a data de nascimento",
@@ -87,10 +112,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "出生日期",
-    "zhHant": "出生日期"
+    "zhHant": "出生日期",
+    "legacyIds": [
+      "m1-data-nascimento"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-sexo",
+    "id": "az-0007",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o sexo",
@@ -102,10 +132,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "性别",
-    "zhHant": "性別"
+    "zhHant": "性別",
+    "legacyIds": [
+      "m1-sexo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-estado-civil",
+    "id": "az-0008",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "o estado civil",
@@ -117,10 +152,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "婚姻状况",
-    "zhHant": "婚姻狀況"
+    "zhHant": "婚姻狀況",
+    "legacyIds": [
+      "m1-estado-civil"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-masculino",
+    "id": "az-0009",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "masculino",
@@ -132,10 +172,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "男性",
-    "zhHant": "男性"
+    "zhHant": "男性",
+    "legacyIds": [
+      "m1-masculino"
+    ]
   },
   {
-    "id": "m1-feminino",
+    "id": "az-0010",
     "modulo": "Módulo 1",
     "theme": "Identificação pessoal",
     "portuguese": "feminino",
@@ -147,10 +190,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "女性",
-    "zhHant": "女性"
+    "zhHant": "女性",
+    "legacyIds": [
+      "m1-feminino"
+    ]
   },
   {
-    "id": "m1-solteiro",
+    "id": "az-0011",
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "solteiro(a)",
@@ -162,10 +208,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "单身的",
-    "zhHant": "單身的"
+    "zhHant": "單身的",
+    "legacyIds": [
+      "m1-solteiro"
+    ]
   },
   {
-    "id": "m1-casado",
+    "id": "az-0012",
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "casado(a)",
@@ -177,10 +226,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "已婚",
-    "zhHant": "已婚"
+    "zhHant": "已婚",
+    "legacyIds": [
+      "m1-casado"
+    ]
   },
   {
-    "id": "m1-divorciado",
+    "id": "az-0013",
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "divorciado(a)",
@@ -192,10 +244,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "离婚的",
-    "zhHant": "離婚的"
+    "zhHant": "離婚的",
+    "legacyIds": [
+      "m1-divorciado"
+    ]
   },
   {
-    "id": "m1-viuvo",
+    "id": "az-0014",
     "modulo": "Módulo 1",
     "theme": "Estado civil",
     "portuguese": "viúvo(a)",
@@ -207,10 +262,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "鳏寡/丧偶",
-    "zhHant": "鰥寡/喪偶"
+    "zhHant": "鰥寡/喪偶",
+    "legacyIds": [
+      "m1-viuvo"
+    ]
   },
   {
-    "id": "m1-morada",
+    "id": "az-0015",
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "a morada",
@@ -222,10 +280,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "地址/住址",
-    "zhHant": "地址/住址"
+    "zhHant": "地址/住址",
+    "legacyIds": [
+      "m1-morada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-codigo-postal",
+    "id": "az-0016",
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "o código postal",
@@ -237,10 +300,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "邮政编码",
-    "zhHant": "郵遞區號"
+    "zhHant": "郵遞區號",
+    "legacyIds": [
+      "m1-codigo-postal"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-telefone",
+    "id": "az-0017",
     "modulo": "Módulo 1",
     "theme": "Contactos",
     "portuguese": "o telefone",
@@ -252,10 +320,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "电话",
-    "zhHant": "電話"
+    "zhHant": "電話",
+    "legacyIds": [
+      "m1-telefone"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-telemovel",
+    "id": "az-0018",
     "modulo": "Módulo 1",
     "theme": "Contactos",
     "portuguese": "o telemóvel",
@@ -267,10 +340,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "手机/移动电话",
-    "zhHant": "手機/行動電話"
+    "zhHant": "手機/行動電話",
+    "legacyIds": [
+      "m1-telemovel"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-cidade",
+    "id": "az-0019",
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "a cidade",
@@ -282,10 +360,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "城市",
-    "zhHant": "城市"
+    "zhHant": "城市",
+    "legacyIds": [
+      "m1-cidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-rua",
+    "id": "az-0020",
     "modulo": "Módulo 1",
     "theme": "Morada",
     "portuguese": "a rua",
@@ -297,10 +380,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "街道",
-    "zhHant": "街道"
+    "zhHant": "街道",
+    "legacyIds": [
+      "m1-rua"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-pais",
+    "id": "az-0021",
     "modulo": "Módulo 1",
     "theme": "Países e línguas",
     "portuguese": "o país",
@@ -312,10 +400,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "国家",
-    "zhHant": "國家"
+    "zhHant": "國家",
+    "legacyIds": [
+      "m1-pais"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-motorista",
+    "id": "az-0022",
     "modulo": "Módulo 1",
     "theme": "Profissões",
     "portuguese": "motorista",
@@ -327,10 +420,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "司机",
-    "zhHant": "司機"
+    "zhHant": "司機",
+    "legacyIds": [
+      "m1-motorista"
+    ]
   },
   {
-    "id": "m1-professor",
+    "id": "az-0023",
     "modulo": "Módulo 1",
     "theme": "Profissões",
     "portuguese": "professor(a)",
@@ -342,10 +438,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "老师",
-    "zhHant": "老師"
+    "zhHant": "老師",
+    "legacyIds": [
+      "m1-professor"
+    ]
   },
   {
-    "id": "m1-medico",
+    "id": "az-0024",
     "modulo": "Módulo 1",
     "theme": "Profissões",
     "portuguese": "médico(a)",
@@ -357,10 +456,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "医生",
-    "zhHant": "醫生"
+    "zhHant": "醫生",
+    "legacyIds": [
+      "m1-medico"
+    ]
   },
   {
-    "id": "m1-um",
+    "id": "az-0025",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "um",
@@ -372,10 +474,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一",
-    "zhHant": "一"
+    "zhHant": "一",
+    "legacyIds": [
+      "m1-um"
+    ]
   },
   {
-    "id": "m1-dois",
+    "id": "az-0026",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "dois",
@@ -387,10 +492,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "二",
-    "zhHant": "二"
+    "zhHant": "二",
+    "legacyIds": [
+      "m1-dois"
+    ]
   },
   {
-    "id": "m1-tres",
+    "id": "az-0027",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "três",
@@ -402,10 +510,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "三",
-    "zhHant": "三"
+    "zhHant": "三",
+    "legacyIds": [
+      "m1-tres"
+    ]
   },
   {
-    "id": "m1-quatro",
+    "id": "az-0028",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "quatro",
@@ -417,10 +528,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "四",
-    "zhHant": "四"
+    "zhHant": "四",
+    "legacyIds": [
+      "m1-quatro"
+    ]
   },
   {
-    "id": "m1-cinco",
+    "id": "az-0029",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "cinco",
@@ -432,10 +546,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "五",
-    "zhHant": "五"
+    "zhHant": "五",
+    "legacyIds": [
+      "m1-cinco"
+    ]
   },
   {
-    "id": "m1-seis",
+    "id": "az-0030",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "seis",
@@ -447,10 +564,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "六",
-    "zhHant": "六"
+    "zhHant": "六",
+    "legacyIds": [
+      "m1-seis"
+    ]
   },
   {
-    "id": "m1-sete",
+    "id": "az-0031",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "sete",
@@ -462,10 +582,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "七",
-    "zhHant": "七"
+    "zhHant": "七",
+    "legacyIds": [
+      "m1-sete"
+    ]
   },
   {
-    "id": "m1-oito",
+    "id": "az-0032",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "oito",
@@ -477,10 +600,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "八",
-    "zhHant": "八"
+    "zhHant": "八",
+    "legacyIds": [
+      "m1-oito"
+    ]
   },
   {
-    "id": "m1-nove",
+    "id": "az-0033",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "nove",
@@ -492,10 +618,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "九",
-    "zhHant": "九"
+    "zhHant": "九",
+    "legacyIds": [
+      "m1-nove"
+    ]
   },
   {
-    "id": "m1-dez",
+    "id": "az-0034",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "dez",
@@ -507,10 +636,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "十",
-    "zhHant": "十"
+    "zhHant": "十",
+    "legacyIds": [
+      "m1-dez"
+    ]
   },
   {
-    "id": "m1-vinte",
+    "id": "az-0035",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "vinte",
@@ -522,10 +654,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "二十",
-    "zhHant": "二十"
+    "zhHant": "二十",
+    "legacyIds": [
+      "m1-vinte"
+    ]
   },
   {
-    "id": "m1-trinta",
+    "id": "az-0036",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "trinta",
@@ -537,10 +672,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "三十",
-    "zhHant": "三十"
+    "zhHant": "三十",
+    "legacyIds": [
+      "m1-trinta"
+    ]
   },
   {
-    "id": "m1-quarenta",
+    "id": "az-0037",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "quarenta",
@@ -552,10 +690,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "四十",
-    "zhHant": "四十"
+    "zhHant": "四十",
+    "legacyIds": [
+      "m1-quarenta"
+    ]
   },
   {
-    "id": "m1-cinquenta",
+    "id": "az-0038",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "cinquenta",
@@ -567,10 +708,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "五十",
-    "zhHant": "五十"
+    "zhHant": "五十",
+    "legacyIds": [
+      "m1-cinquenta"
+    ]
   },
   {
-    "id": "m1-cem",
+    "id": "az-0039",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "cem",
@@ -582,10 +726,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一百",
-    "zhHant": "一百"
+    "zhHant": "一百",
+    "legacyIds": [
+      "m1-cem"
+    ]
   },
   {
-    "id": "m1-mil",
+    "id": "az-0040",
     "modulo": "Módulo 1",
     "theme": "Números",
     "portuguese": "mil",
@@ -597,10 +744,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一千",
-    "zhHant": "一千"
+    "zhHant": "一千",
+    "legacyIds": [
+      "m1-mil"
+    ]
   },
   {
-    "id": "m1-segunda-feira",
+    "id": "az-0041",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "segunda-feira",
@@ -612,10 +762,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "周一",
-    "zhHant": "週一"
+    "zhHant": "週一",
+    "legacyIds": [
+      "m1-segunda-feira"
+    ]
   },
   {
-    "id": "m1-terca-feira",
+    "id": "az-0042",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "terça-feira",
@@ -627,10 +780,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "周二",
-    "zhHant": "週二"
+    "zhHant": "週二",
+    "legacyIds": [
+      "m1-terca-feira"
+    ]
   },
   {
-    "id": "m1-quarta-feira",
+    "id": "az-0043",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "quarta-feira",
@@ -642,10 +798,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "周三",
-    "zhHant": "週三"
+    "zhHant": "週三",
+    "legacyIds": [
+      "m1-quarta-feira"
+    ]
   },
   {
-    "id": "m1-quinta-feira",
+    "id": "az-0044",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "quinta-feira",
@@ -657,10 +816,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "周四",
-    "zhHant": "週四"
+    "zhHant": "週四",
+    "legacyIds": [
+      "m1-quinta-feira"
+    ]
   },
   {
-    "id": "m1-sexta-feira",
+    "id": "az-0045",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "sexta-feira",
@@ -672,10 +834,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "星期五",
-    "zhHant": "星期五"
+    "zhHant": "星期五",
+    "legacyIds": [
+      "m1-sexta-feira"
+    ]
   },
   {
-    "id": "m1-sabado",
+    "id": "az-0046",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "sábado",
@@ -687,10 +852,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "周六",
-    "zhHant": "週六"
+    "zhHant": "週六",
+    "legacyIds": [
+      "m1-sabado"
+    ]
   },
   {
-    "id": "m1-domingo",
+    "id": "az-0047",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "domingo",
@@ -702,10 +870,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "星期日",
-    "zhHant": "星期日"
+    "zhHant": "星期日",
+    "legacyIds": [
+      "m1-domingo"
+    ]
   },
   {
-    "id": "m1-janeiro",
+    "id": "az-0048",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "janeiro",
@@ -717,10 +888,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一月",
-    "zhHant": "一月"
+    "zhHant": "一月",
+    "legacyIds": [
+      "m1-janeiro"
+    ]
   },
   {
-    "id": "m1-fevereiro",
+    "id": "az-0049",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "fevereiro",
@@ -732,10 +906,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "二月",
-    "zhHant": "二月"
+    "zhHant": "二月",
+    "legacyIds": [
+      "m1-fevereiro"
+    ]
   },
   {
-    "id": "m1-marco",
+    "id": "az-0050",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "março",
@@ -747,10 +924,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "三月",
-    "zhHant": "三月"
+    "zhHant": "三月",
+    "legacyIds": [
+      "m1-marco"
+    ]
   },
   {
-    "id": "m1-abril",
+    "id": "az-0051",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "abril",
@@ -762,10 +942,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "四月",
-    "zhHant": "四月"
+    "zhHant": "四月",
+    "legacyIds": [
+      "m1-abril"
+    ]
   },
   {
-    "id": "m1-maio",
+    "id": "az-0052",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "maio",
@@ -777,10 +960,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "五月",
-    "zhHant": "五月"
+    "zhHant": "五月",
+    "legacyIds": [
+      "m1-maio"
+    ]
   },
   {
-    "id": "m1-junho",
+    "id": "az-0053",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "junho",
@@ -792,10 +978,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "六月",
-    "zhHant": "六月"
+    "zhHant": "六月",
+    "legacyIds": [
+      "m1-junho"
+    ]
   },
   {
-    "id": "m1-julho",
+    "id": "az-0054",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "julho",
@@ -807,10 +996,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "七月",
-    "zhHant": "七月"
+    "zhHant": "七月",
+    "legacyIds": [
+      "m1-julho"
+    ]
   },
   {
-    "id": "m1-agosto",
+    "id": "az-0055",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "agosto",
@@ -822,10 +1014,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "八月",
-    "zhHant": "八月"
+    "zhHant": "八月",
+    "legacyIds": [
+      "m1-agosto"
+    ]
   },
   {
-    "id": "m1-setembro",
+    "id": "az-0056",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "setembro",
@@ -837,10 +1032,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "九月",
-    "zhHant": "九月"
+    "zhHant": "九月",
+    "legacyIds": [
+      "m1-setembro"
+    ]
   },
   {
-    "id": "m1-outubro",
+    "id": "az-0057",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "outubro",
@@ -852,10 +1050,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "十月",
-    "zhHant": "十月"
+    "zhHant": "十月",
+    "legacyIds": [
+      "m1-outubro"
+    ]
   },
   {
-    "id": "m1-novembro",
+    "id": "az-0058",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "novembro",
@@ -867,10 +1068,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "十一月",
-    "zhHant": "十一月"
+    "zhHant": "十一月",
+    "legacyIds": [
+      "m1-novembro"
+    ]
   },
   {
-    "id": "m1-dezembro",
+    "id": "az-0059",
     "modulo": "Módulo 1",
     "theme": "Tempo",
     "portuguese": "dezembro",
@@ -882,10 +1086,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "十二月",
-    "zhHant": "十二月"
+    "zhHant": "十二月",
+    "legacyIds": [
+      "m1-dezembro"
+    ]
   },
   {
-    "id": "m1-familia",
+    "id": "az-0060",
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "a família",
@@ -897,10 +1104,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "家庭",
-    "zhHant": "家庭"
+    "zhHant": "家庭",
+    "legacyIds": [
+      "m1-familia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-irmao",
+    "id": "az-0061",
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "o irmão",
@@ -912,10 +1124,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "兄弟",
-    "zhHant": "兄弟"
+    "zhHant": "兄弟",
+    "legacyIds": [
+      "m1-irmao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-filho",
+    "id": "az-0062",
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "filho(a)",
@@ -927,10 +1144,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "孩子/子女",
-    "zhHant": "孩子/子女"
+    "zhHant": "孩子/子女",
+    "legacyIds": [
+      "m1-filho"
+    ]
   },
   {
-    "id": "m1-mulher",
+    "id": "az-0063",
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "a mulher",
@@ -942,10 +1162,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "妻子或女人",
-    "zhHant": "妻子或女人"
+    "zhHant": "妻子或女人",
+    "legacyIds": [
+      "m1-mulher"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-mae",
+    "id": "az-0064",
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "a mãe",
@@ -957,10 +1182,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "母亲",
-    "zhHant": "母親"
+    "zhHant": "母親",
+    "legacyIds": [
+      "m1-mae"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-marido",
+    "id": "az-0065",
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "o marido",
@@ -972,10 +1202,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "丈夫",
-    "zhHant": "丈夫"
+    "zhHant": "丈夫",
+    "legacyIds": [
+      "m1-marido"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-pai",
+    "id": "az-0066",
     "modulo": "Módulo 1",
     "theme": "Família",
     "portuguese": "o pai",
@@ -987,10 +1222,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "父亲",
-    "zhHant": "父親"
+    "zhHant": "父親",
+    "legacyIds": [
+      "m1-pai"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-ola",
+    "id": "az-0067",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "olá",
@@ -1002,10 +1242,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "你好",
-    "zhHant": "你好"
+    "zhHant": "你好",
+    "legacyIds": [
+      "m1-ola"
+    ]
   },
   {
-    "id": "m1-bom-dia",
+    "id": "az-0068",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "bom dia",
@@ -1017,10 +1260,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "早上好",
-    "zhHant": "早安"
+    "zhHant": "早安",
+    "legacyIds": [
+      "m1-bom-dia"
+    ]
   },
   {
-    "id": "m1-boa-tarde",
+    "id": "az-0069",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "boa tarde",
@@ -1032,10 +1278,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "下午好",
-    "zhHant": "午安"
+    "zhHant": "午安",
+    "legacyIds": [
+      "m1-boa-tarde"
+    ]
   },
   {
-    "id": "m1-boa-noite",
+    "id": "az-0070",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "boa noite",
@@ -1047,10 +1296,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "晚上好/晚安",
-    "zhHant": "晚上好/晚安"
+    "zhHant": "晚上好/晚安",
+    "legacyIds": [
+      "m1-boa-noite"
+    ]
   },
   {
-    "id": "m1-tudo-bem",
+    "id": "az-0071",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "tudo bem?",
@@ -1062,10 +1314,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "都好吗？",
-    "zhHant": "都好嗎？"
+    "zhHant": "都好嗎？",
+    "legacyIds": [
+      "m1-tudo-bem"
+    ]
   },
   {
-    "id": "m1-como-esta",
+    "id": "az-0072",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "como está?",
@@ -1077,10 +1332,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "你好吗？",
-    "zhHant": "你好嗎？"
+    "zhHant": "你好嗎？",
+    "legacyIds": [
+      "m1-como-esta"
+    ]
   },
   {
-    "id": "m1-ate-logo",
+    "id": "az-0073",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "até logo",
@@ -1092,10 +1350,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "稍后见",
-    "zhHant": "稍後見"
+    "zhHant": "稍後見",
+    "legacyIds": [
+      "m1-ate-logo"
+    ]
   },
   {
-    "id": "m1-ate-amanha",
+    "id": "az-0074",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "até amanhã",
@@ -1107,10 +1368,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "明天见",
-    "zhHant": "明天見"
+    "zhHant": "明天見",
+    "legacyIds": [
+      "m1-ate-amanha"
+    ]
   },
   {
-    "id": "m1-adeus",
+    "id": "az-0075",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "adeus",
@@ -1122,10 +1386,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "再见",
-    "zhHant": "再見"
+    "zhHant": "再見",
+    "legacyIds": [
+      "m1-adeus"
+    ]
   },
   {
-    "id": "m1-muito-prazer",
+    "id": "az-0076",
     "modulo": "Módulo 1",
     "theme": "Saudações",
     "portuguese": "muito prazer",
@@ -1137,10 +1404,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "幸会",
-    "zhHant": "幸會"
+    "zhHant": "幸會",
+    "legacyIds": [
+      "m1-muito-prazer"
+    ]
   },
   {
-    "id": "m1-casa",
+    "id": "az-0077",
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "a casa",
@@ -1152,10 +1422,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "房子/家",
-    "zhHant": "房子/家"
+    "zhHant": "房子/家",
+    "legacyIds": [
+      "m1-casa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-andar",
+    "id": "az-0078",
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "o andar",
@@ -1167,10 +1442,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "楼层",
-    "zhHant": "樓層"
+    "zhHant": "樓層",
+    "legacyIds": [
+      "m1-andar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-quarto",
+    "id": "az-0079",
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "o quarto",
@@ -1182,10 +1462,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "房间/卧室",
-    "zhHant": "房間/臥室"
+    "zhHant": "房間/臥室",
+    "legacyIds": [
+      "m1-quarto"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-casa-banho",
+    "id": "az-0080",
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "a casa de banho",
@@ -1197,10 +1482,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "浴室",
-    "zhHant": "浴室"
+    "zhHant": "浴室",
+    "legacyIds": [
+      "m1-casa-banho"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-cozinha",
+    "id": "az-0081",
     "modulo": "Módulo 1",
     "theme": "Casa",
     "portuguese": "a cozinha",
@@ -1212,10 +1502,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "厨房",
-    "zhHant": "廚房"
+    "zhHant": "廚房",
+    "legacyIds": [
+      "m1-cozinha"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-apartamento",
+    "id": "az-0082",
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "o apartamento",
@@ -1227,10 +1522,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公寓",
-    "zhHant": "公寓"
+    "zhHant": "公寓",
+    "legacyIds": [
+      "m1-apartamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-predio",
+    "id": "az-0083",
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "o prédio",
@@ -1242,10 +1542,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "建筑",
-    "zhHant": "大樓"
+    "zhHant": "大樓",
+    "legacyIds": [
+      "m1-predio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m1-aluga-se",
+    "id": "az-0084",
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "aluga-se",
@@ -1257,10 +1562,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "出租",
-    "zhHant": "出租"
+    "zhHant": "出租",
+    "legacyIds": [
+      "m1-aluga-se"
+    ]
   },
   {
-    "id": "m1-renda",
+    "id": "az-0085",
     "modulo": "Módulo 1",
     "theme": "Textos",
     "portuguese": "a renda",
@@ -1272,10 +1580,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "房租",
-    "zhHant": "租金/房租"
+    "zhHant": "租金/房租",
+    "legacyIds": [
+      "m1-renda"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m1-ser",
+    "id": "az-0086",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "ser",
@@ -1287,10 +1600,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "是",
-    "zhHant": "是"
+    "zhHant": "是",
+    "legacyIds": [
+      "m1-ser"
+    ]
   },
   {
-    "id": "m1-estar",
+    "id": "az-0087",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "estar",
@@ -1302,10 +1618,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "是/在",
-    "zhHant": "是/在"
+    "zhHant": "是/在",
+    "legacyIds": [
+      "m1-estar"
+    ]
   },
   {
-    "id": "m1-ter",
+    "id": "az-0088",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "ter",
@@ -1317,10 +1636,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "拥有",
-    "zhHant": "擁有"
+    "zhHant": "擁有",
+    "legacyIds": [
+      "m1-ter"
+    ]
   },
   {
-    "id": "m1-morar",
+    "id": "az-0089",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "morar",
@@ -1332,10 +1654,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "居住",
-    "zhHant": "居住"
+    "zhHant": "居住",
+    "legacyIds": [
+      "m1-morar"
+    ]
   },
   {
-    "id": "m1-trabalhar",
+    "id": "az-0090",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "trabalhar",
@@ -1347,10 +1672,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工作",
-    "zhHant": "工作"
+    "zhHant": "工作",
+    "legacyIds": [
+      "m1-trabalhar"
+    ]
   },
   {
-    "id": "m1-quem",
+    "id": "az-0091",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "quem",
@@ -1362,10 +1690,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "谁",
-    "zhHant": "誰"
+    "zhHant": "誰",
+    "legacyIds": [
+      "m1-quem"
+    ]
   },
   {
-    "id": "m1-qual",
+    "id": "az-0092",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "qual",
@@ -1377,10 +1708,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "哪一个/什么",
-    "zhHant": "哪一個/什麼"
+    "zhHant": "哪一個/什麼",
+    "legacyIds": [
+      "m1-qual"
+    ]
   },
   {
-    "id": "m1-onde",
+    "id": "az-0093",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "onde",
@@ -1392,10 +1726,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "在哪里",
-    "zhHant": "在哪裡"
+    "zhHant": "在哪裡",
+    "legacyIds": [
+      "m1-onde"
+    ]
   },
   {
-    "id": "m1-como",
+    "id": "az-0094",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "como",
@@ -1407,10 +1744,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "如何",
-    "zhHant": "如何"
+    "zhHant": "如何",
+    "legacyIds": [
+      "m1-como"
+    ]
   },
   {
-    "id": "m1-que",
+    "id": "az-0095",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "que",
@@ -1422,10 +1762,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "什么/哪一个",
-    "zhHant": "什麼/哪一個"
+    "zhHant": "什麼/哪一個",
+    "legacyIds": [
+      "m1-que"
+    ]
   },
   {
-    "id": "m1-quantos",
+    "id": "az-0096",
     "modulo": "Módulo 1",
     "theme": "Gramática",
     "portuguese": "quantos",
@@ -1437,10 +1780,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "多少",
-    "zhHant": "多少"
+    "zhHant": "多少",
+    "legacyIds": [
+      "m1-quantos"
+    ]
   },
   {
-    "id": "m2-apanhar-metro",
+    "id": "az-0097",
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "apanhar o metro",
@@ -1452,10 +1798,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "乘坐地铁",
-    "zhHant": "搭乘地鐵"
+    "zhHant": "搭乘地鐵",
+    "legacyIds": [
+      "m2-apanhar-metro"
+    ]
   },
   {
-    "id": "m2-almocar",
+    "id": "az-0098",
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "almoçar",
@@ -1467,10 +1816,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "吃午饭",
-    "zhHant": "吃午餐"
+    "zhHant": "吃午餐",
+    "legacyIds": [
+      "m2-almocar"
+    ]
   },
   {
-    "id": "m2-acordar",
+    "id": "az-0099",
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "acordar",
@@ -1482,10 +1834,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "醒来",
-    "zhHant": "醒來"
+    "zhHant": "醒來",
+    "legacyIds": [
+      "m2-acordar"
+    ]
   },
   {
-    "id": "m2-tomar-pequeno-almoco",
+    "id": "az-0100",
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "tomar o pequeno-almoço",
@@ -1497,10 +1852,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "吃早餐",
-    "zhHant": "吃早餐"
+    "zhHant": "吃早餐",
+    "legacyIds": [
+      "m2-tomar-pequeno-almoco"
+    ]
   },
   {
-    "id": "m2-ir-trabalho",
+    "id": "az-0101",
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "ir para o trabalho",
@@ -1512,10 +1870,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去上班",
-    "zhHant": "去上班"
+    "zhHant": "去上班",
+    "legacyIds": [
+      "m2-ir-trabalho"
+    ]
   },
   {
-    "id": "m2-voltar-casa",
+    "id": "az-0102",
     "modulo": "Módulo 2",
     "theme": "Atividades do dia a dia",
     "portuguese": "voltar para casa",
@@ -1527,10 +1888,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "回家",
-    "zhHant": "回家"
+    "zhHant": "回家",
+    "legacyIds": [
+      "m2-voltar-casa"
+    ]
   },
   {
-    "id": "m2-pequeno-almoco",
+    "id": "az-0103",
     "modulo": "Módulo 2",
     "theme": "Refeições",
     "portuguese": "o pequeno-almoço",
@@ -1542,10 +1906,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "早餐",
-    "zhHant": "早餐"
+    "zhHant": "早餐",
+    "legacyIds": [
+      "m2-pequeno-almoco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-almoco",
+    "id": "az-0104",
     "modulo": "Módulo 2",
     "theme": "Refeições",
     "portuguese": "o almoço",
@@ -1557,10 +1926,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "午餐",
-    "zhHant": "午餐"
+    "zhHant": "午餐",
+    "legacyIds": [
+      "m2-almoco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-jantar",
+    "id": "az-0105",
     "modulo": "Módulo 2",
     "theme": "Refeições",
     "portuguese": "o jantar",
@@ -1572,10 +1946,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "晚餐",
-    "zhHant": "晚餐"
+    "zhHant": "晚餐",
+    "legacyIds": [
+      "m2-jantar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-horas",
+    "id": "az-0106",
     "modulo": "Módulo 2",
     "theme": "Horas",
     "portuguese": "que horas são?",
@@ -1587,10 +1966,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "现在几点？",
-    "zhHant": "現在幾點？"
+    "zhHant": "現在幾點？",
+    "legacyIds": [
+      "m2-horas"
+    ]
   },
   {
-    "id": "m2-meio-dia",
+    "id": "az-0107",
     "modulo": "Módulo 2",
     "theme": "Horas",
     "portuguese": "meio-dia",
@@ -1602,10 +1984,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "中午",
-    "zhHant": "中午"
+    "zhHant": "中午",
+    "legacyIds": [
+      "m2-meio-dia"
+    ]
   },
   {
-    "id": "m2-taxi",
+    "id": "az-0108",
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o táxi",
@@ -1617,10 +2002,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "出租车",
-    "zhHant": "計程車"
+    "zhHant": "計程車",
+    "legacyIds": [
+      "m2-taxi"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-comboio",
+    "id": "az-0109",
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o comboio",
@@ -1632,10 +2022,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "火车",
-    "zhHant": "火車"
+    "zhHant": "火車",
+    "legacyIds": [
+      "m2-comboio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-autocarro",
+    "id": "az-0110",
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o autocarro",
@@ -1647,10 +2042,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公共汽车",
-    "zhHant": "公車"
+    "zhHant": "公車",
+    "legacyIds": [
+      "m2-autocarro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-metro",
+    "id": "az-0111",
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o metro",
@@ -1662,10 +2062,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "地铁",
-    "zhHant": "捷運"
+    "zhHant": "捷運",
+    "legacyIds": [
+      "m2-metro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-aviao",
+    "id": "az-0112",
     "modulo": "Módulo 2",
     "theme": "Meios de transporte",
     "portuguese": "o avião",
@@ -1677,10 +2082,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "飞机",
-    "zhHant": "飛機"
+    "zhHant": "飛機",
+    "legacyIds": [
+      "m2-aviao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-passe",
+    "id": "az-0113",
     "modulo": "Módulo 2",
     "theme": "Passe e bilhetes",
     "portuguese": "o passe",
@@ -1692,10 +2102,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "交通月票/通行证",
-    "zhHant": "交通月票/通行證"
+    "zhHant": "交通月票/通行證",
+    "legacyIds": [
+      "m2-passe"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-bilhete-simples",
+    "id": "az-0114",
     "modulo": "Módulo 2",
     "theme": "Passe e bilhetes",
     "portuguese": "o bilhete simples",
@@ -1707,10 +2122,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "单程票",
-    "zhHant": "單程票"
+    "zhHant": "單程票",
+    "legacyIds": [
+      "m2-bilhete-simples"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-paragem-autocarro",
+    "id": "az-0115",
     "modulo": "Módulo 2",
     "theme": "Símbolos de transportes",
     "portuguese": "a paragem de autocarro",
@@ -1722,10 +2142,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "巴士站",
-    "zhHant": "巴士站"
+    "zhHant": "巴士站",
+    "legacyIds": [
+      "m2-paragem-autocarro"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m2-estacao-comboios",
+    "id": "az-0116",
     "modulo": "Módulo 2",
     "theme": "Símbolos de transportes",
     "portuguese": "a estação de comboios",
@@ -1737,10 +2162,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "火车站",
-    "zhHant": "火車站"
+    "zhHant": "火車站",
+    "legacyIds": [
+      "m2-estacao-comboios"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m2-dinheiro",
+    "id": "az-0117",
     "modulo": "Módulo 2",
     "theme": "Dinheiro",
     "portuguese": "o dinheiro",
@@ -1752,10 +2182,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "钱",
-    "zhHant": "錢"
+    "zhHant": "錢",
+    "legacyIds": [
+      "m2-dinheiro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-centimo",
+    "id": "az-0118",
     "modulo": "Módulo 2",
     "theme": "Dinheiro",
     "portuguese": "o cêntimo",
@@ -1767,10 +2202,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "分",
-    "zhHant": "分"
+    "zhHant": "分",
+    "legacyIds": [
+      "m2-centimo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-euro",
+    "id": "az-0119",
     "modulo": "Módulo 2",
     "theme": "Dinheiro",
     "portuguese": "o euro",
@@ -1782,10 +2222,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "欧元",
-    "zhHant": "歐元"
+    "zhHant": "歐元",
+    "legacyIds": [
+      "m2-euro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-levantar-se",
+    "id": "az-0120",
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "levantar-se",
@@ -1797,10 +2242,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "起床",
-    "zhHant": "起床"
+    "zhHant": "起床",
+    "legacyIds": [
+      "m2-levantar-se"
+    ]
   },
   {
-    "id": "m2-lavar-dentes",
+    "id": "az-0121",
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "lavar os dentes",
@@ -1812,10 +2260,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "刷牙",
-    "zhHant": "刷牙"
+    "zhHant": "刷牙",
+    "legacyIds": [
+      "m2-lavar-dentes"
+    ]
   },
   {
-    "id": "m2-tomar-duche",
+    "id": "az-0122",
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "tomar um duche",
@@ -1827,10 +2278,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "洗澡",
-    "zhHant": "洗澡"
+    "zhHant": "洗澡",
+    "legacyIds": [
+      "m2-tomar-duche"
+    ]
   },
   {
-    "id": "m2-autorizacao-residencia",
+    "id": "az-0123",
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "a autorização de residência",
@@ -1842,10 +2296,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "居留证",
-    "zhHant": "居留證"
+    "zhHant": "居留證",
+    "legacyIds": [
+      "m2-autorizacao-residencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m2-transportes-publicos",
+    "id": "az-0124",
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "os transportes públicos",
@@ -1857,10 +2316,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公共交通",
-    "zhHant": "大眾運輸"
+    "zhHant": "大眾運輸",
+    "legacyIds": [
+      "m2-transportes-publicos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m2-precisar",
+    "id": "az-0125",
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "precisar",
@@ -1872,10 +2336,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "需要",
-    "zhHant": "需要"
+    "zhHant": "需要",
+    "legacyIds": [
+      "m2-precisar"
+    ]
   },
   {
-    "id": "m2-usar",
+    "id": "az-0126",
     "modulo": "Módulo 2",
     "theme": "Textos",
     "portuguese": "usar",
@@ -1887,10 +2354,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "使用",
-    "zhHant": "使用"
+    "zhHant": "使用",
+    "legacyIds": [
+      "m2-usar"
+    ]
   },
   {
-    "id": "m2-abrir",
+    "id": "az-0127",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "abrir",
@@ -1902,10 +2372,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "打开",
-    "zhHant": "打開"
+    "zhHant": "打開",
+    "legacyIds": [
+      "m2-abrir"
+    ]
   },
   {
-    "id": "m2-ir",
+    "id": "az-0128",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "ir",
@@ -1917,10 +2390,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去",
-    "zhHant": "去"
+    "zhHant": "去",
+    "legacyIds": [
+      "m2-ir"
+    ]
   },
   {
-    "id": "m2-sair",
+    "id": "az-0129",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "sair",
@@ -1932,10 +2408,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "离开/出去",
-    "zhHant": "離開/出去"
+    "zhHant": "離開/出去",
+    "legacyIds": [
+      "m2-sair"
+    ]
   },
   {
-    "id": "m2-ha",
+    "id": "az-0130",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "há",
@@ -1947,10 +2426,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "有/已经过去",
-    "zhHant": "有/已經過去"
+    "zhHant": "有/已經過去",
+    "legacyIds": [
+      "m2-ha"
+    ]
   },
   {
-    "id": "m2-transito",
+    "id": "az-0131",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "o trânsito",
@@ -1962,10 +2444,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "交通",
-    "zhHant": "交通"
+    "zhHant": "交通",
+    "legacyIds": [
+      "m2-transito"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m2-sempre",
+    "id": "az-0132",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "sempre",
@@ -1977,10 +2464,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "总是",
-    "zhHant": "總是"
+    "zhHant": "總是",
+    "legacyIds": [
+      "m2-sempre"
+    ]
   },
   {
-    "id": "m2-nunca",
+    "id": "az-0133",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "nunca",
@@ -1992,10 +2482,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "绝不/从未",
-    "zhHant": "絕不/從未"
+    "zhHant": "絕不/從未",
+    "legacyIds": [
+      "m2-nunca"
+    ]
   },
   {
-    "id": "m2-ir-compras",
+    "id": "az-0134",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "ir às compras",
@@ -2007,10 +2500,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去购物",
-    "zhHant": "去購物"
+    "zhHant": "去購物",
+    "legacyIds": [
+      "m2-ir-compras"
+    ]
   },
   {
-    "id": "m2-transferir-dinheiro",
+    "id": "az-0135",
     "modulo": "Módulo 2",
     "theme": "Gramática",
     "portuguese": "transferir dinheiro",
@@ -2022,10 +2518,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "转账",
-    "zhHant": "轉帳"
+    "zhHant": "轉帳",
+    "legacyIds": [
+      "m2-transferir-dinheiro"
+    ]
   },
   {
-    "id": "m3-cafe",
+    "id": "az-0136",
     "modulo": "Módulo 3",
     "theme": "Bebidas",
     "portuguese": "o café",
@@ -2037,10 +2536,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "咖啡/咖啡馆",
-    "zhHant": "咖啡/咖啡館"
+    "zhHant": "咖啡/咖啡館",
+    "legacyIds": [
+      "m3-cafe"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-agua",
+    "id": "az-0137",
     "modulo": "Módulo 3",
     "theme": "Bebidas",
     "portuguese": "a água",
@@ -2052,10 +2556,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "水",
-    "zhHant": "水"
+    "zhHant": "水",
+    "legacyIds": [
+      "m3-agua"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-acucar",
+    "id": "az-0138",
     "modulo": "Módulo 3",
     "theme": "Mercearia",
     "portuguese": "o açúcar",
@@ -2067,10 +2576,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "糖",
-    "zhHant": "糖"
+    "zhHant": "糖",
+    "legacyIds": [
+      "m3-acucar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-arroz",
+    "id": "az-0139",
     "modulo": "Módulo 3",
     "theme": "Mercearia",
     "portuguese": "o arroz",
@@ -2082,10 +2596,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "米",
-    "zhHant": "白飯"
+    "zhHant": "白飯",
+    "legacyIds": [
+      "m3-arroz"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-azeite",
+    "id": "az-0140",
     "modulo": "Módulo 3",
     "theme": "Mercearia",
     "portuguese": "o azeite",
@@ -2097,10 +2616,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "橄榄油",
-    "zhHant": "橄欖油"
+    "zhHant": "橄欖油",
+    "legacyIds": [
+      "m3-azeite"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-leite",
+    "id": "az-0141",
     "modulo": "Módulo 3",
     "theme": "Laticínios",
     "portuguese": "o leite",
@@ -2112,10 +2636,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "牛奶",
-    "zhHant": "牛奶"
+    "zhHant": "牛奶",
+    "legacyIds": [
+      "m3-leite"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-pao-forma",
+    "id": "az-0142",
     "modulo": "Módulo 3",
     "theme": "Padaria",
     "portuguese": "o pão de forma",
@@ -2127,10 +2656,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "切片面包",
-    "zhHant": "切片麵包"
+    "zhHant": "切片麵包",
+    "legacyIds": [
+      "m3-pao-forma"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-cebola",
+    "id": "az-0143",
     "modulo": "Módulo 3",
     "theme": "Legumes",
     "portuguese": "a cebola",
@@ -2142,10 +2676,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "洋葱",
-    "zhHant": "洋蔥"
+    "zhHant": "洋蔥",
+    "legacyIds": [
+      "m3-cebola"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-alho",
+    "id": "az-0144",
     "modulo": "Módulo 3",
     "theme": "Legumes",
     "portuguese": "o alho",
@@ -2157,10 +2696,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "蒜",
-    "zhHant": "蒜"
+    "zhHant": "蒜",
+    "legacyIds": [
+      "m3-alho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-tomate",
+    "id": "az-0145",
     "modulo": "Módulo 3",
     "theme": "Legumes",
     "portuguese": "o tomate",
@@ -2172,10 +2716,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "番茄",
-    "zhHant": "番茄"
+    "zhHant": "番茄",
+    "legacyIds": [
+      "m3-tomate"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-maca",
+    "id": "az-0146",
     "modulo": "Módulo 3",
     "theme": "Frutas",
     "portuguese": "a maçã",
@@ -2187,10 +2736,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "苹果",
-    "zhHant": "蘋果"
+    "zhHant": "蘋果",
+    "legacyIds": [
+      "m3-maca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-banana",
+    "id": "az-0147",
     "modulo": "Módulo 3",
     "theme": "Frutas",
     "portuguese": "a banana",
@@ -2202,10 +2756,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "香蕉",
-    "zhHant": "香蕉"
+    "zhHant": "香蕉",
+    "legacyIds": [
+      "m3-banana"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-queijo",
+    "id": "az-0148",
     "modulo": "Módulo 3",
     "theme": "Charcutaria",
     "portuguese": "o queijo",
@@ -2217,10 +2776,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "奶酪",
-    "zhHant": "起司"
+    "zhHant": "起司",
+    "legacyIds": [
+      "m3-queijo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-carne-vaca",
+    "id": "az-0149",
     "modulo": "Módulo 3",
     "theme": "Talho",
     "portuguese": "a carne de vaca",
@@ -2232,10 +2796,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "牛肉",
-    "zhHant": "牛肉"
+    "zhHant": "牛肉",
+    "legacyIds": [
+      "m3-carne-vaca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-frango",
+    "id": "az-0150",
     "modulo": "Módulo 3",
     "theme": "Talho",
     "portuguese": "o frango",
@@ -2247,10 +2816,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "鸡肉",
-    "zhHant": "雞肉"
+    "zhHant": "雞肉",
+    "legacyIds": [
+      "m3-frango"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-sandes",
+    "id": "az-0151",
     "modulo": "Módulo 3",
     "theme": "Nomes específicos",
     "portuguese": "a sandes",
@@ -2262,10 +2836,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "三明治",
-    "zhHant": "三明治"
+    "zhHant": "三明治",
+    "legacyIds": [
+      "m3-sandes"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-maquina-lavar-roupa",
+    "id": "az-0152",
     "modulo": "Módulo 3",
     "theme": "Equipamentos",
     "portuguese": "a máquina de lavar roupa",
@@ -2277,10 +2856,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "洗衣机",
-    "zhHant": "洗衣機"
+    "zhHant": "洗衣機",
+    "legacyIds": [
+      "m3-maquina-lavar-roupa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-frigorifico",
+    "id": "az-0153",
     "modulo": "Módulo 3",
     "theme": "Equipamentos",
     "portuguese": "o frigorífico",
@@ -2292,10 +2876,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "冰箱",
-    "zhHant": "冰箱"
+    "zhHant": "冰箱",
+    "legacyIds": [
+      "m3-frigorifico"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-cartao-multibanco",
+    "id": "az-0154",
     "modulo": "Módulo 3",
     "theme": "Formas de pagamento",
     "portuguese": "o cartão multibanco",
@@ -2307,10 +2896,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "借记卡",
-    "zhHant": "金融卡"
+    "zhHant": "金融卡",
+    "legacyIds": [
+      "m3-cartao-multibanco"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-mercearia",
+    "id": "az-0155",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a mercearia",
@@ -2322,10 +2916,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "杂货店",
-    "zhHant": "雜貨店"
+    "zhHant": "雜貨店",
+    "legacyIds": [
+      "m3-mercearia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-padaria",
+    "id": "az-0156",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a padaria",
@@ -2337,10 +2936,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "面包店",
-    "zhHant": "麵包店"
+    "zhHant": "麵包店",
+    "legacyIds": [
+      "m3-padaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-talho",
+    "id": "az-0157",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o talho",
@@ -2352,10 +2956,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "肉店",
-    "zhHant": "肉店"
+    "zhHant": "肉店",
+    "legacyIds": [
+      "m3-talho"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-peixaria",
+    "id": "az-0158",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a peixaria",
@@ -2367,10 +2976,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "鱼店",
-    "zhHant": "魚店"
+    "zhHant": "魚店",
+    "legacyIds": [
+      "m3-peixaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-restaurante",
+    "id": "az-0159",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o restaurante",
@@ -2382,10 +2996,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "餐厅",
-    "zhHant": "餐廳"
+    "zhHant": "餐廳",
+    "legacyIds": [
+      "m3-restaurante"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-conta",
+    "id": "az-0160",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a conta",
@@ -2397,10 +3016,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "账单",
-    "zhHant": "帳單"
+    "zhHant": "帳單",
+    "legacyIds": [
+      "m3-conta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-talao",
+    "id": "az-0161",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o talão",
@@ -2412,10 +3036,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "收据",
-    "zhHant": "收據"
+    "zhHant": "收據",
+    "legacyIds": [
+      "m3-talao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-fatura",
+    "id": "az-0162",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a fatura",
@@ -2427,10 +3056,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "发票",
-    "zhHant": "發票"
+    "zhHant": "發票",
+    "legacyIds": [
+      "m3-fatura"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-contribuinte",
+    "id": "az-0163",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o número de contribuinte",
@@ -2442,10 +3076,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "税号",
-    "zhHant": "稅號"
+    "zhHant": "稅號",
+    "legacyIds": [
+      "m3-contribuinte"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-ementa",
+    "id": "az-0164",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "a ementa",
@@ -2457,10 +3096,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "菜单",
-    "zhHant": "選單"
+    "zhHant": "選單",
+    "legacyIds": [
+      "m3-ementa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m3-prazo-validade",
+    "id": "az-0165",
     "modulo": "Módulo 3",
     "theme": "Textos",
     "portuguese": "o prazo de validade",
@@ -2472,10 +3116,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "到期日",
-    "zhHant": "到期日"
+    "zhHant": "到期日",
+    "legacyIds": [
+      "m3-prazo-validade"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m3-pedir",
+    "id": "az-0166",
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "pedir",
@@ -2487,10 +3136,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "请求/点餐",
-    "zhHant": "請求/點餐"
+    "zhHant": "請求/點餐",
+    "legacyIds": [
+      "m3-pedir"
+    ]
   },
   {
-    "id": "m3-querer",
+    "id": "az-0167",
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "querer",
@@ -2502,10 +3154,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "想要",
-    "zhHant": "想要"
+    "zhHant": "想要",
+    "legacyIds": [
+      "m3-querer"
+    ]
   },
   {
-    "id": "m3-poder",
+    "id": "az-0168",
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "poder",
@@ -2517,10 +3172,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "能",
-    "zhHant": "能"
+    "zhHant": "能",
+    "legacyIds": [
+      "m3-poder"
+    ]
   },
   {
-    "id": "m3-caro",
+    "id": "az-0169",
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "caro",
@@ -2532,10 +3190,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "昂贵的",
-    "zhHant": "昂貴的"
+    "zhHant": "昂貴的",
+    "legacyIds": [
+      "m3-caro"
+    ]
   },
   {
-    "id": "m3-barato",
+    "id": "az-0170",
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "barato",
@@ -2547,10 +3208,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "便宜的",
-    "zhHant": "便宜的"
+    "zhHant": "便宜的",
+    "legacyIds": [
+      "m3-barato"
+    ]
   },
   {
-    "id": "m3-saudavel",
+    "id": "az-0171",
     "modulo": "Módulo 3",
     "theme": "Gramática",
     "portuguese": "saudável",
@@ -2562,6 +3226,9 @@
     "note": "",
     "source": "pdf",
     "zhHans": "健康的",
-    "zhHant": "健康的"
+    "zhHant": "健康的",
+    "legacyIds": [
+      "m3-saudavel"
+    ]
   }
 ]

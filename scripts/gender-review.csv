@@ -1,0 +1,390 @@
+source,id,portuguese,current_pos,current_gender,best_guess,reason
+src/data/fragments/modules-01-03.json,az-0009,masculino,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0010,feminino,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0011,solteiro(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0012,casado(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0013,divorciado(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0014,viúvo(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0022,motorista,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0023,professor(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0024,médico(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0025,um,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0026,dois,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0027,três,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0028,quatro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0029,cinco,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0030,seis,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0031,sete,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0032,oito,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0033,nove,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0034,dez,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0035,vinte,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0036,trinta,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0037,quarenta,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0038,cinquenta,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0039,cem,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0040,mil,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0041,segunda-feira,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0042,terça-feira,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0043,quarta-feira,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0044,quinta-feira,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0045,sexta-feira,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0046,sábado,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0047,domingo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0048,janeiro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0049,fevereiro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0050,março,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0051,abril,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0052,maio,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0053,junho,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0054,julho,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0055,agosto,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0056,setembro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0057,outubro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0058,novembro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0059,dezembro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0062,filho(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0067,olá,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0068,bom dia,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0069,boa tarde,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0070,boa noite,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0071,tudo bem?,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0072,como está?,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0073,até logo,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0074,até amanhã,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0075,adeus,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0076,muito prazer,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0084,aluga-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0086,ser,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0087,estar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0088,ter,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0089,morar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0090,trabalhar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0091,quem,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0092,qual,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0093,onde,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0094,como,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0095,que,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0096,quantos,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0097,apanhar o metro,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0098,almoçar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0099,acordar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0100,tomar o pequeno-almoço,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0101,ir para o trabalho,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0102,voltar para casa,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0106,que horas são?,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0107,meio-dia,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0120,levantar-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0121,lavar os dentes,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0122,tomar um duche,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0125,precisar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0126,usar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0127,abrir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0128,ir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0129,sair,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0130,há,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0132,sempre,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0133,nunca,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0134,ir às compras,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0135,transferir dinheiro,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0166,pedir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0167,querer,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0168,poder,,,,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0169,caro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0170,barato,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-01-03.json,az-0171,saudável,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0172,ouvir música,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0173,passear,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0174,ler,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0175,ver televisão,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0176,conversar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0177,ir ao ginásio,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0178,ir ao cinema,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0179,ir a um bar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0180,ir à praia,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0181,viajar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0193,fresco(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0194,frio(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0196,ir dar uma volta,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0198,dizer,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0199,amanhã,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0200,depois de amanhã,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0201,na próxima semana,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0202,daqui a uma semana,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0205,costumar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0206,andar de bicicleta,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0207,divertir-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0208,comigo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0209,contigo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0210,consigo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0219,oculista,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0220,Proibido fumar,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0221,Fechado para férias,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0223,à esquerda,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0224,à direita,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0225,seguir em frente,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0226,atravessar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0227,passar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0228,subir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0229,descer,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0230,enviar uma carta,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0231,pagar a conta,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0235,renovar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0241,pessoalmente,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0246,poupar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0248,daqui,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0249,virar à direita,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0250,ir a pé,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0251,demorar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0252,saber,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0253,guiar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0254,atender,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0255,desligar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0256,esquecer-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0262,por,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0263,por + artigo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0265,ter de,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0266,precisar de,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0267,dever,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0269,abrir uma conta,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0288,fazer exercício,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0289,ter uma alimentação saudável,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0290,dentista,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0291,pediatra,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0292,médico(a) de família,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0293,oftalmologista,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0294,medir a tensão,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0295,fazer uma radiografia,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0296,fazer análises,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0297,estar constipado(a),,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0298,ter febre,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0299,ter tosse,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0300,ter uma intoxicação,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0301,ser alérgico/a a,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0302,ser alérgica a,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0303,estar enjoado(a),,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0304,sentar-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0306,espirrar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0307,sentir-se cansado(a),,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0308,sem forças,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0314,farmacêutico(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0316,há quanto tempo?,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0319,de oito em oito horas,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0326,aceder,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0327,legalmente,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0332,aviar uma receita,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0334,aliviar a dor,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0335,diminuir a febre,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0337,após as refeições,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0340,marcar uma consulta,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0341,doer,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0342,dói-me,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0343,doem-me,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0347,ter cuidado,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0348,consultar o médico,,,,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0349,tonto(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-04-06.json,az-0351,de 12 em 12 horas,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0352,servir à mesa,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0353,cozinheiro(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0356,preparar os alimentos,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0357,cozinhar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0358,pedreiro(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0361,cabeleireiro(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0365,lavar a cabeça,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0366,cortar o cabelo,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0367,pentear,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0368,empregado(a) de limpeza,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0372,limpar o pó,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0373,aspirar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0374,lavar o chão,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0375,agricultor(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0376,secretário(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0380,marcar uma reunião,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0381,médico(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0382,observar o doente,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0383,fazer exames,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0384,passar receitas,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0385,professor(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0387,ensinar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0396,carregar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0397,descarregar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0398,armazenar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0399,ontem,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0400,anteontem,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0401,há bocado,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0402,chegar a,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0403,sair de,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0404,entrar em,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0407,candidatar-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0416,adquirir a nacionalidade,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0418,empregado(a) doméstico(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0422,oferece-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0423,procuro trabalho,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0424,desempregado,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0426,responsável,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0427,pontual,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0436,desde,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0437,despedir-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0441,conhecer,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0442,conseguir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0443,é proibido,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0444,é permitido,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0446,agora,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0447,antigamente,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0448,dantes,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0449,magro,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0451,barulhento,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0452,antigo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0453,movimentado,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0454,calmo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0455,moderno,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0456,poluído,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0457,pouco trânsito,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0458,muito trânsito,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0460,falar ao telemóvel,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0461,andar de carro,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0462,matricular,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0466,à procura de uma vida melhor,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0467,emigrar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0469,naquela época,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0470,naquele tempo,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0473,ótimo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-07-09.json,az-0474,péssimo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0475,recente,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0476,há um mês,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0477,há dois dias,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0478,ultimamente,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0479,no mês passado,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0480,a pé,,,expr,known expression
+src/data/fragments/modules-10-12.json,az-0481,de carro,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0482,navegar na net,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0483,cedo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0484,tarde,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0485,perder o emprego,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0486,procurar emprego,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0487,estar ocupado(a),,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0488,tirar férias,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0489,descansar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0491,sentir-se bem,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0494,depender de,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0498,sentir falta de,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0502,até agora,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0503,desde que,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0510,Ex.mo Senhor,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0514,dar notícias,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0515,diretor(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0526,exigir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0530,recorrer,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0533,reclamar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0537,tradutor(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0538,ser contactado(a),,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0546,residente,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0547,queixar-se de,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0550,grave,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0552,assaltar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0553,alguém,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0554,ninguém,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0555,tudo,,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0556,nada,,,f,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0557,vários,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0558,várias,,,plural?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0563,imigrante,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0569,confidencial,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0570,gratuito(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0572,proteger,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0576,adquirir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0579,preencher,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0580,tratar de,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0586,residir,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0588,voluntário(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0589,votar,,,,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0593,fixar-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0596,informar-se,,,m/f?,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0598,empregador(a),,,m,no confident noun-gender rule matched
+src/data/fragments/modules-10-12.json,az-0600,legalizar,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0601,abrir uma conta à ordem,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0607,levantar dinheiro,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0608,depositar dinheiro,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0616,pedir o NIF,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0621,tirar a senha,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0624,atualizar a morada,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0629,levantar uma encomenda,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0634,enviar para o estrangeiro,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0640,recenseado na freguesia,,,m,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0646,pagar uma taxa,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0648,inscrever-se no centro de saúde,,,m/f?,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0340,marcar uma consulta,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0656,Dói-me…,,,m/f?,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0657,sou alérgico/a a…,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0668,caducado/a,,,f,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0684,inscrever-se como candidato a emprego,,,m/f?,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0693,apresentar-se no centro de emprego,,,m/f?,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0696,pedir o NISS,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0705,arrendar um quarto / um apartamento,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0713,despesas incluídas,,,plural?,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0714,mobilado / sem mobília,,,m,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0716,rescindir o contrato,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0719,carregar o passe,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0720,validar o bilhete,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0731,arrumar os quartos,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0732,mudar os lençóis / as toalhas,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0746,anotar o pedido,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0752,lavar a loiça,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0754,Bom proveito!,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0373,aspirar,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0372,limpar o pó,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0759,esfregar o chão,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0761,à hora / por horas,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0784,ligar ao cliente,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0800,bloquear o cartão,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0806,levantar sem cartão (MB Way),,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0811,pagar em prestações,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0819,abrir atividade,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0820,cessar atividade,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0829,pesar,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0831,frágil,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0840,reencaminhar,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0841,devolver ao remetente,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0845,levantar na loja,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0856,válido por três meses,,,m,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0858,morar / residir,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0579,preencher,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0863,assinar,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0865,levantar o documento,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0871,estar grávida,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0875,em jejum,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0880,tomar o medicamento,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0881,de 8 em 8 horas,,,m/f?,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0897,em análise,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0898,deferido / indeferido,,,m,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0916,justificar a falta,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0923,carregar o cartão,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0936,apresentar queixa,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0957,atualizar o IBAN,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0958,submeter online,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0972,avariado/a,,,f,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0979,entregar as chaves,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0991,viajar sem título,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0993,pedir paragem,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-0997,em atraso / suprimido,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1011,reportar uma avaria,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1017,guardar a bagagem,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1027,para partilhar,,,f,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1029,mal passado / no ponto / bem passado,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1030,vegetariano / sem glúten,,,m,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1033,pagar em dinheiro / com cartão,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1034,pagar em separado / junto,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1037,pôr / levantar a mesa,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1040,passar a ferro,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1042,dobrar a roupa,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1043,estender a roupa,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1049,limpar os vidros,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1051,semanal / quinzenal,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1053,remarcar,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1054,avisar com antecedência,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1057,aumentar o preço,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1074,descarregar o material,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1079,recolher / levantar o pedido,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1089,cancelar a entrega,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1091,reportar um problema,,,,no confident noun-gender rule matched
+src/data/situacoes.ts,az-1095,estacionar,,,,no confident noun-gender rule matched

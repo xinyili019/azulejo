@@ -1,6 +1,6 @@
 [
   {
-    "id": "m10-recente",
+    "id": "az-0475",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "recente",
@@ -12,10 +12,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "最近的",
-    "zhHant": "最近的"
+    "zhHant": "最近的",
+    "legacyIds": [
+      "m10-recente"
+    ]
   },
   {
-    "id": "m10-ha-um-mes",
+    "id": "az-0476",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "há um mês",
@@ -27,10 +30,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一个月前",
-    "zhHant": "一個月前"
+    "zhHant": "一個月前",
+    "legacyIds": [
+      "m10-ha-um-mes"
+    ]
   },
   {
-    "id": "m10-ha-dois-dias",
+    "id": "az-0477",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "há dois dias",
@@ -42,10 +48,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "两天前",
-    "zhHant": "兩天前"
+    "zhHant": "兩天前",
+    "legacyIds": [
+      "m10-ha-dois-dias"
+    ]
   },
   {
-    "id": "m10-ultimamente",
+    "id": "az-0478",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "ultimamente",
@@ -57,10 +66,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "最近",
-    "zhHant": "最近"
+    "zhHant": "最近",
+    "legacyIds": [
+      "m10-ultimamente"
+    ]
   },
   {
-    "id": "m10-no-mes-passado",
+    "id": "az-0479",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "no mês passado",
@@ -72,10 +84,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "上个月",
-    "zhHant": "上個月"
+    "zhHant": "上個月",
+    "legacyIds": [
+      "m10-no-mes-passado"
+    ]
   },
   {
-    "id": "m10-a-pe",
+    "id": "az-0480",
     "modulo": "Módulo 10",
     "theme": "Transportes",
     "portuguese": "a pé",
@@ -87,10 +102,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "步行",
-    "zhHant": "步行"
+    "zhHant": "步行",
+    "legacyIds": [
+      "m10-a-pe"
+    ]
   },
   {
-    "id": "m10-de-carro",
+    "id": "az-0481",
     "modulo": "Módulo 10",
     "theme": "Transportes",
     "portuguese": "de carro",
@@ -102,10 +120,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "开车",
-    "zhHant": "開車"
+    "zhHant": "開車",
+    "legacyIds": [
+      "m10-de-carro"
+    ]
   },
   {
-    "id": "m10-navegar-na-net",
+    "id": "az-0482",
     "modulo": "Módulo 10",
     "theme": "Hábitos",
     "portuguese": "navegar na net",
@@ -117,10 +138,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "浏览互联网",
-    "zhHant": "瀏覽網路"
+    "zhHant": "瀏覽網路",
+    "legacyIds": [
+      "m10-navegar-na-net"
+    ]
   },
   {
-    "id": "m10-cedo",
+    "id": "az-0483",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "cedo",
@@ -132,10 +156,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "早期的",
-    "zhHant": "早期的"
+    "zhHant": "早期的",
+    "legacyIds": [
+      "m10-cedo"
+    ]
   },
   {
-    "id": "m10-tarde",
+    "id": "az-0484",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "tarde",
@@ -147,10 +174,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "晚的",
-    "zhHant": "晚的"
+    "zhHant": "晚的",
+    "legacyIds": [
+      "m10-tarde"
+    ]
   },
   {
-    "id": "m10-perder-o-emprego",
+    "id": "az-0485",
     "modulo": "Módulo 10",
     "theme": "Emprego",
     "portuguese": "perder o emprego",
@@ -162,10 +192,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "失去工作",
-    "zhHant": "失去工作"
+    "zhHant": "失去工作",
+    "legacyIds": [
+      "m10-perder-o-emprego"
+    ]
   },
   {
-    "id": "m10-procurar-emprego",
+    "id": "az-0486",
     "modulo": "Módulo 10",
     "theme": "Emprego",
     "portuguese": "procurar emprego",
@@ -177,10 +210,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "找工作",
-    "zhHant": "找工作"
+    "zhHant": "找工作",
+    "legacyIds": [
+      "m10-procurar-emprego"
+    ]
   },
   {
-    "id": "m10-estar-ocupado",
+    "id": "az-0487",
     "modulo": "Módulo 10",
     "theme": "Estado",
     "portuguese": "estar ocupado(a)",
@@ -192,10 +228,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "很忙",
-    "zhHant": "很忙"
+    "zhHant": "很忙",
+    "legacyIds": [
+      "m10-estar-ocupado"
+    ]
   },
   {
-    "id": "m10-tirar-ferias",
+    "id": "az-0488",
     "modulo": "Módulo 10",
     "theme": "Lazer",
     "portuguese": "tirar férias",
@@ -207,10 +246,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "去度假",
-    "zhHant": "去度假"
+    "zhHant": "去度假",
+    "legacyIds": [
+      "m10-tirar-ferias"
+    ]
   },
   {
-    "id": "m10-descansar",
+    "id": "az-0489",
     "modulo": "Módulo 10",
     "theme": "Lazer",
     "portuguese": "descansar",
@@ -222,10 +264,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "休息",
-    "zhHant": "休息"
+    "zhHant": "休息",
+    "legacyIds": [
+      "m10-descansar"
+    ]
   },
   {
-    "id": "m10-consultorio",
+    "id": "az-0490",
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "o consultório",
@@ -237,10 +282,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "医生办公室",
-    "zhHant": "醫生辦公室"
+    "zhHant": "醫生辦公室",
+    "legacyIds": [
+      "m10-consultorio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m10-sentir-se-bem",
+    "id": "az-0491",
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "sentir-se bem",
@@ -252,10 +302,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "感觉良好",
-    "zhHant": "感覺良好"
+    "zhHant": "感覺良好",
+    "legacyIds": [
+      "m10-sentir-se-bem"
+    ]
   },
   {
-    "id": "m10-dor-de-cabeca",
+    "id": "az-0492",
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "a dor de cabeça",
@@ -267,10 +320,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "头痛",
-    "zhHant": "頭痛"
+    "zhHant": "頭痛",
+    "legacyIds": [
+      "m10-dor-de-cabeca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m10-doenca",
+    "id": "az-0493",
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "a doença",
@@ -282,10 +340,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "疾病",
-    "zhHant": "疾病"
+    "zhHant": "疾病",
+    "legacyIds": [
+      "m10-doenca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m10-depender-de",
+    "id": "az-0494",
     "modulo": "Módulo 10",
     "theme": "Família",
     "portuguese": "depender de",
@@ -297,10 +360,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "依赖",
-    "zhHant": "依賴"
+    "zhHant": "依賴",
+    "legacyIds": [
+      "m10-depender-de"
+    ]
   },
   {
-    "id": "m10-refeicao",
+    "id": "az-0495",
     "modulo": "Módulo 10",
     "theme": "Alimentação",
     "portuguese": "a refeição",
@@ -312,10 +378,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一顿饭",
-    "zhHant": "一頓飯"
+    "zhHant": "一頓飯",
+    "legacyIds": [
+      "m10-refeicao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m10-alimentacao-saudavel",
+    "id": "az-0496",
     "modulo": "Módulo 10",
     "theme": "Alimentação",
     "portuguese": "a alimentação saudável",
@@ -327,10 +398,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "健康的饮食",
-    "zhHant": "健康的飲食"
+    "zhHant": "健康的飲食",
+    "legacyIds": [
+      "m10-alimentacao-saudavel"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m10-stress",
+    "id": "az-0497",
     "modulo": "Módulo 10",
     "theme": "Saúde",
     "portuguese": "o stresse",
@@ -342,10 +418,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "压力",
-    "zhHant": "壓力"
+    "zhHant": "壓力",
+    "legacyIds": [
+      "m10-stress"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m10-sentir-falta-de",
+    "id": "az-0498",
     "modulo": "Módulo 10",
     "theme": "Sentimentos",
     "portuguese": "sentir falta de",
@@ -357,10 +438,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "想念/怀念",
-    "zhHant": "想念/懷念"
+    "zhHant": "想念/懷念",
+    "legacyIds": [
+      "m10-sentir-falta-de"
+    ]
   },
   {
-    "id": "m10-agencia-de-viagens",
+    "id": "az-0499",
     "modulo": "Módulo 10",
     "theme": "Serviços",
     "portuguese": "a agência de viagens",
@@ -372,10 +456,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "旅行社",
-    "zhHant": "旅行社"
+    "zhHant": "旅行社",
+    "legacyIds": [
+      "m10-agencia-de-viagens"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m10-bilhete-de-aviao",
+    "id": "az-0500",
     "modulo": "Módulo 10",
     "theme": "Viagens",
     "portuguese": "o bilhete de avião",
@@ -387,10 +476,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "机票",
-    "zhHant": "機票"
+    "zhHant": "機票",
+    "legacyIds": [
+      "m10-bilhete-de-aviao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m10-saudades",
+    "id": "az-0501",
     "modulo": "Módulo 10",
     "theme": "Sentimentos",
     "portuguese": "as saudades",
@@ -402,10 +496,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "思念/想念",
-    "zhHant": "思念/想念"
+    "zhHant": "思念/想念",
+    "legacyIds": [
+      "m10-saudades"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
   },
   {
-    "id": "m10-ate-agora",
+    "id": "az-0502",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "até agora",
@@ -417,10 +516,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "到目前为止",
-    "zhHant": "到目前為止"
+    "zhHant": "到目前為止",
+    "legacyIds": [
+      "m10-ate-agora"
+    ]
   },
   {
-    "id": "m10-desde-que",
+    "id": "az-0503",
     "modulo": "Módulo 10",
     "theme": "Tempo",
     "portuguese": "desde que",
@@ -432,10 +534,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "自从",
-    "zhHant": "自從"
+    "zhHant": "自從",
+    "legacyIds": [
+      "m10-desde-que"
+    ]
   },
   {
-    "id": "m10-construcao-civil",
+    "id": "az-0504",
     "modulo": "Módulo 10",
     "theme": "Emprego",
     "portuguese": "a construção civil",
@@ -447,10 +552,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "建筑工程",
-    "zhHant": "建築工程"
+    "zhHant": "建築工程",
+    "legacyIds": [
+      "m10-construcao-civil"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-noticia",
+    "id": "az-0505",
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a notícia",
@@ -462,10 +572,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "新闻/消息",
-    "zhHant": "新聞/消息"
+    "zhHant": "新聞/消息",
+    "legacyIds": [
+      "m11-noticia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-mensagem",
+    "id": "az-0506",
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a mensagem",
@@ -477,10 +592,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "信息",
-    "zhHant": "訊息"
+    "zhHant": "訊息",
+    "legacyIds": [
+      "m11-mensagem"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-carta-formal",
+    "id": "az-0507",
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a carta formal",
@@ -492,10 +612,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "正式信函",
-    "zhHant": "正式信函"
+    "zhHant": "正式信函",
+    "legacyIds": [
+      "m11-carta-formal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-carta-de-reclamacao",
+    "id": "az-0508",
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "a carta de reclamação",
@@ -507,10 +632,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "投诉信",
-    "zhHant": "投訴信"
+    "zhHant": "投訴信",
+    "legacyIds": [
+      "m11-carta-de-reclamacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-email",
+    "id": "az-0509",
     "modulo": "Módulo 11",
     "theme": "Tipos de texto",
     "portuguese": "o e-mail",
@@ -522,10 +652,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "电子邮件",
-    "zhHant": "電子郵件"
+    "zhHant": "電子郵件",
+    "legacyIds": [
+      "m11-email"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-exmo-senhor",
+    "id": "az-0510",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "Ex.mo Senhor",
@@ -537,10 +672,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "尊敬的先生",
-    "zhHant": "尊敬的先生"
+    "zhHant": "尊敬的先生",
+    "legacyIds": [
+      "m11-exmo-senhor"
+    ]
   },
   {
-    "id": "m11-marca",
+    "id": "az-0511",
     "modulo": "Módulo 11",
     "theme": "Compras",
     "portuguese": "a marca",
@@ -552,10 +690,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "品牌",
-    "zhHant": "品牌"
+    "zhHant": "品牌",
+    "legacyIds": [
+      "m11-marca"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-urgencia",
+    "id": "az-0512",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "a urgência",
@@ -567,10 +710,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "紧迫性",
-    "zhHant": "緊迫性"
+    "zhHant": "緊迫性",
+    "legacyIds": [
+      "m11-urgencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-rececao",
+    "id": "az-0513",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "a receção",
@@ -582,10 +730,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "接待处/接待",
-    "zhHant": "接待處/接待"
+    "zhHant": "接待處/接待",
+    "legacyIds": [
+      "m11-rececao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-dar-noticias",
+    "id": "az-0514",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "dar notícias",
@@ -597,10 +750,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "保持联系",
-    "zhHant": "保持聯繫"
+    "zhHant": "保持聯繫",
+    "legacyIds": [
+      "m11-dar-noticias"
+    ]
   },
   {
-    "id": "m11-diretor",
+    "id": "az-0515",
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "diretor(a)",
@@ -612,10 +768,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "主管/主任",
-    "zhHant": "主任/主管"
+    "zhHant": "主任/主管",
+    "legacyIds": [
+      "m11-diretor"
+    ]
   },
   {
-    "id": "m11-recursos-humanos",
+    "id": "az-0516",
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "os recursos humanos",
@@ -627,10 +786,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "人力资源",
-    "zhHant": "人力資源"
+    "zhHant": "人力資源",
+    "legacyIds": [
+      "m11-recursos-humanos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m11-diploma",
+    "id": "az-0517",
     "modulo": "Módulo 11",
     "theme": "Educação",
     "portuguese": "o diploma",
@@ -642,10 +806,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "文凭",
-    "zhHant": "文憑"
+    "zhHant": "文憑",
+    "legacyIds": [
+      "m11-diploma"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-competencia",
+    "id": "az-0518",
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "a competência",
@@ -657,10 +826,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "能力/技能",
-    "zhHant": "能力/技能"
+    "zhHant": "能力/技能",
+    "legacyIds": [
+      "m11-competencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-entrevista",
+    "id": "az-0519",
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "a entrevista",
@@ -672,10 +846,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "面试/采访",
-    "zhHant": "面試/採訪"
+    "zhHant": "面試/採訪",
+    "legacyIds": [
+      "m11-entrevista"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-anexo",
+    "id": "az-0520",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "o anexo",
@@ -687,10 +866,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "附件/附录",
-    "zhHant": "附件/附錄"
+    "zhHant": "附件/附錄",
+    "legacyIds": [
+      "m11-anexo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-assunto",
+    "id": "az-0521",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "o assunto",
@@ -702,10 +886,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "主题",
-    "zhHant": "主題"
+    "zhHant": "主題",
+    "legacyIds": [
+      "m11-assunto"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-roupa-estragada",
+    "id": "az-0522",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a roupa estragada",
@@ -717,10 +906,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "损坏的衣服",
-    "zhHant": "損壞的衣服"
+    "zhHant": "損壞的衣服",
+    "legacyIds": [
+      "m11-roupa-estragada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-estabelecimento",
+    "id": "az-0523",
     "modulo": "Módulo 11",
     "theme": "Serviços",
     "portuguese": "o estabelecimento",
@@ -732,10 +926,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "机构/商店",
-    "zhHant": "機構/商店"
+    "zhHant": "機構/商店",
+    "legacyIds": [
+      "m11-estabelecimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-fato",
+    "id": "az-0524",
     "modulo": "Módulo 11",
     "theme": "Roupa",
     "portuguese": "o fato",
@@ -747,10 +946,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "套装",
-    "zhHant": "套裝"
+    "zhHant": "套裝",
+    "legacyIds": [
+      "m11-fato"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-estrago",
+    "id": "az-0525",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "o estrago",
@@ -762,10 +966,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "损害",
-    "zhHant": "損害"
+    "zhHant": "損害",
+    "legacyIds": [
+      "m11-estrago"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-exigir",
+    "id": "az-0526",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "exigir",
@@ -777,10 +986,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "要求",
-    "zhHant": "要求"
+    "zhHant": "要求",
+    "legacyIds": [
+      "m11-exigir"
+    ]
   },
   {
-    "id": "m11-indemnizacao",
+    "id": "az-0527",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a indemnização",
@@ -792,10 +1004,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "赔偿",
-    "zhHant": "賠償"
+    "zhHant": "賠償",
+    "legacyIds": [
+      "m11-indemnizacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-recibo",
+    "id": "az-0528",
     "modulo": "Módulo 11",
     "theme": "Compras",
     "portuguese": "o recibo",
@@ -807,10 +1024,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "收据/付款凭证",
-    "zhHant": "收據/付款憑證"
+    "zhHant": "收據/付款憑證",
+    "legacyIds": [
+      "m11-recibo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-prazo",
+    "id": "az-0529",
     "modulo": "Módulo 11",
     "theme": "Tempo",
     "portuguese": "o prazo",
@@ -822,10 +1044,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "最后期限",
-    "zhHant": "最後期限"
+    "zhHant": "最後期限",
+    "legacyIds": [
+      "m11-prazo"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-recorrer",
+    "id": "az-0530",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "recorrer",
@@ -837,10 +1064,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "求助于/上诉",
-    "zhHant": "求助於/上訴"
+    "zhHant": "求助於/上訴",
+    "legacyIds": [
+      "m11-recorrer"
+    ]
   },
   {
-    "id": "m11-ingrediente",
+    "id": "az-0531",
     "modulo": "Módulo 11",
     "theme": "Receitas",
     "portuguese": "o ingrediente",
@@ -852,10 +1082,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "成分",
-    "zhHant": "成分"
+    "zhHant": "成分",
+    "legacyIds": [
+      "m11-ingrediente"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-chavena",
+    "id": "az-0532",
     "modulo": "Módulo 11",
     "theme": "Receitas",
     "portuguese": "a chávena",
@@ -867,10 +1102,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "杯子",
-    "zhHant": "杯子"
+    "zhHant": "杯子",
+    "legacyIds": [
+      "m11-chavena"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-reclamar",
+    "id": "az-0533",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "reclamar",
@@ -882,10 +1122,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "抱怨/投诉",
-    "zhHant": "抱怨/投訴"
+    "zhHant": "抱怨/投訴",
+    "legacyIds": [
+      "m11-reclamar"
+    ]
   },
   {
-    "id": "m11-queixa",
+    "id": "az-0534",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a queixa",
@@ -897,10 +1140,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "抱怨/投诉",
-    "zhHant": "抱怨/投訴"
+    "zhHant": "抱怨/投訴",
+    "legacyIds": [
+      "m11-queixa"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-consumidor",
+    "id": "az-0535",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "o consumidor",
@@ -912,10 +1160,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "消费者",
-    "zhHant": "消費者"
+    "zhHant": "消費者",
+    "legacyIds": [
+      "m11-consumidor"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-candidatura",
+    "id": "az-0536",
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "a candidatura",
@@ -927,10 +1180,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "申请",
-    "zhHant": "申請/求職申請"
+    "zhHant": "申請/求職申請",
+    "legacyIds": [
+      "m11-candidatura"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-tradutor",
+    "id": "az-0537",
     "modulo": "Módulo 11",
     "theme": "Profissões",
     "portuguese": "tradutor(a)",
@@ -942,10 +1200,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "翻译者",
-    "zhHant": "翻譯者"
+    "zhHant": "翻譯者",
+    "legacyIds": [
+      "m11-tradutor"
+    ]
   },
   {
-    "id": "m11-ser-contactado",
+    "id": "az-0538",
     "modulo": "Módulo 11",
     "theme": "Emprego",
     "portuguese": "ser contactado(a)",
@@ -957,10 +1218,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "被联系/有人联系",
-    "zhHant": "被聯繫/有人聯繫"
+    "zhHant": "被聯繫/有人聯繫",
+    "legacyIds": [
+      "m11-ser-contactado"
+    ]
   },
   {
-    "id": "m11-pastel-de-bacalhau",
+    "id": "az-0539",
     "modulo": "Módulo 11",
     "theme": "Alimentação",
     "portuguese": "o pastel de bacalhau",
@@ -972,10 +1236,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "鳕鱼饼",
-    "zhHant": "鱈魚餅"
+    "zhHant": "鱈魚餅",
+    "legacyIds": [
+      "m11-pastel-de-bacalhau"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-especialidade",
+    "id": "az-0540",
     "modulo": "Módulo 11",
     "theme": "Alimentação",
     "portuguese": "a especialidade",
@@ -987,10 +1256,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "特色菜/专长",
-    "zhHant": "特色菜"
+    "zhHant": "特色菜",
+    "legacyIds": [
+      "m11-especialidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-ferramenta",
+    "id": "az-0541",
     "modulo": "Módulo 11",
     "theme": "Comunicação",
     "portuguese": "a ferramenta",
@@ -1002,10 +1276,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "工具",
-    "zhHant": "工具"
+    "zhHant": "工具",
+    "legacyIds": [
+      "m11-ferramenta"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-destinatario",
+    "id": "az-0542",
     "modulo": "Módulo 11",
     "theme": "Correspondência",
     "portuguese": "o destinatário",
@@ -1017,10 +1296,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "接受者",
-    "zhHant": "接受者"
+    "zhHant": "接受者",
+    "legacyIds": [
+      "m11-destinatario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-quotidiano",
+    "id": "az-0543",
     "modulo": "Módulo 11",
     "theme": "Vida diária",
     "portuguese": "o quotidiano",
@@ -1032,10 +1316,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "日常生活",
-    "zhHant": "日常生活"
+    "zhHant": "日常生活",
+    "legacyIds": [
+      "m11-quotidiano"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-nota-de-dez-euros",
+    "id": "az-0544",
     "modulo": "Módulo 11",
     "theme": "Dinheiro",
     "portuguese": "a nota de 10 euros",
@@ -1047,10 +1336,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "10欧元纸币",
-    "zhHant": "10歐元紙幣"
+    "zhHant": "10歐元紙幣",
+    "legacyIds": [
+      "m11-nota-de-dez-euros"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-negligencia",
+    "id": "az-0545",
     "modulo": "Módulo 11",
     "theme": "Reclamações",
     "portuguese": "a negligência",
@@ -1062,10 +1356,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "疏忽",
-    "zhHant": "疏忽"
+    "zhHant": "疏忽",
+    "legacyIds": [
+      "m11-negligencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-residente",
+    "id": "az-0546",
     "modulo": "Módulo 11",
     "theme": "Identificação",
     "portuguese": "residente",
@@ -1077,10 +1376,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "居民",
-    "zhHant": "居民"
+    "zhHant": "居民",
+    "legacyIds": [
+      "m11-residente"
+    ]
   },
   {
-    "id": "m11-queixar-se",
+    "id": "az-0547",
     "modulo": "Módulo 11",
     "theme": "Saúde",
     "portuguese": "queixar-se de",
@@ -1092,10 +1394,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "诉说……症状/说……痛",
-    "zhHant": "訴說……症狀/說……痛"
+    "zhHant": "訴說……症狀/說……痛",
+    "legacyIds": [
+      "m11-queixar-se"
+    ]
   },
   {
-    "id": "m11-ombro",
+    "id": "az-0548",
     "modulo": "Módulo 11",
     "theme": "Corpo humano",
     "portuguese": "o ombro",
@@ -1107,10 +1412,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "肩膀",
-    "zhHant": "肩膀"
+    "zhHant": "肩膀",
+    "legacyIds": [
+      "m11-ombro"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m11-fratura",
+    "id": "az-0549",
     "modulo": "Módulo 11",
     "theme": "Saúde",
     "portuguese": "a fratura",
@@ -1122,10 +1432,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "骨折",
-    "zhHant": "骨折"
+    "zhHant": "骨折",
+    "legacyIds": [
+      "m11-fratura"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-grave",
+    "id": "az-0550",
     "modulo": "Módulo 11",
     "theme": "Saúde",
     "portuguese": "grave",
@@ -1137,10 +1452,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "严重的",
-    "zhHant": "嚴重的"
+    "zhHant": "嚴重的",
+    "legacyIds": [
+      "m11-grave"
+    ]
   },
   {
-    "id": "m11-preferencia",
+    "id": "az-0551",
     "modulo": "Módulo 11",
     "theme": "Opiniões",
     "portuguese": "a preferência",
@@ -1152,10 +1470,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "偏爱",
-    "zhHant": "偏愛"
+    "zhHant": "偏愛",
+    "legacyIds": [
+      "m11-preferencia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m11-assaltar",
+    "id": "az-0552",
     "modulo": "Módulo 11",
     "theme": "Segurança",
     "portuguese": "assaltar",
@@ -1167,10 +1490,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "抢劫",
-    "zhHant": "搶劫"
+    "zhHant": "搶劫",
+    "legacyIds": [
+      "m11-assaltar"
+    ]
   },
   {
-    "id": "m11-alguem",
+    "id": "az-0553",
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "alguém",
@@ -1182,10 +1508,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "某人",
-    "zhHant": "某人"
+    "zhHant": "某人",
+    "legacyIds": [
+      "m11-alguem"
+    ]
   },
   {
-    "id": "m11-ninguem",
+    "id": "az-0554",
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "ninguém",
@@ -1197,10 +1526,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "没有人",
-    "zhHant": "沒有人"
+    "zhHant": "沒有人",
+    "legacyIds": [
+      "m11-ninguem"
+    ]
   },
   {
-    "id": "m11-tudo",
+    "id": "az-0555",
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "tudo",
@@ -1212,10 +1544,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "一切",
-    "zhHant": "一切"
+    "zhHant": "一切",
+    "legacyIds": [
+      "m11-tudo"
+    ]
   },
   {
-    "id": "m11-nada",
+    "id": "az-0556",
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "nada",
@@ -1227,10 +1562,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "没有什么",
-    "zhHant": "沒有什麼"
+    "zhHant": "沒有什麼",
+    "legacyIds": [
+      "m11-nada"
+    ]
   },
   {
-    "id": "m11-varios",
+    "id": "az-0557",
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "vários",
@@ -1242,10 +1580,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "几个（阳性复数）",
-    "zhHant": "幾個（陽性複數）"
+    "zhHant": "幾個（陽性複數）",
+    "legacyIds": [
+      "m11-varios"
+    ]
   },
   {
-    "id": "m11-varias",
+    "id": "az-0558",
     "modulo": "Módulo 11",
     "theme": "Gramática",
     "portuguese": "várias",
@@ -1257,10 +1598,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "几个（阴性复数）",
-    "zhHant": "幾（陰性複數）"
+    "zhHant": "幾（陰性複數）",
+    "legacyIds": [
+      "m11-varias"
+    ]
   },
   {
-    "id": "m12-cidadania",
+    "id": "az-0559",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a cidadania",
@@ -1272,10 +1616,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公民身份/公民权",
-    "zhHant": "公民身分/公民權"
+    "zhHant": "公民身分/公民權",
+    "legacyIds": [
+      "m12-cidadania"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-cidadao",
+    "id": "az-0560",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "o cidadão",
@@ -1287,10 +1636,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公民",
-    "zhHant": "公民"
+    "zhHant": "公民",
+    "legacyIds": [
+      "m12-cidadao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-direitos-civis",
+    "id": "az-0561",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "os direitos civis",
@@ -1302,10 +1656,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "公民权利",
-    "zhHant": "公民權利"
+    "zhHant": "公民權利",
+    "legacyIds": [
+      "m12-direitos-civis"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m12-integracao",
+    "id": "az-0562",
     "modulo": "Módulo 12",
     "theme": "Sociedade",
     "portuguese": "a integração",
@@ -1317,10 +1676,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "融入/融合",
-    "zhHant": "融入/融合"
+    "zhHant": "融入/融合",
+    "legacyIds": [
+      "m12-integracao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-imigrante",
+    "id": "az-0563",
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "imigrante",
@@ -1332,10 +1696,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "移民",
-    "zhHant": "移民"
+    "zhHant": "移民",
+    "legacyIds": [
+      "m12-imigrante"
+    ]
   },
   {
-    "id": "m12-regularizacao",
+    "id": "az-0564",
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "a regularização",
@@ -1347,10 +1714,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "身份合法化/手续正规化",
-    "zhHant": "身分合法化/手續正規化"
+    "zhHant": "身分合法化/手續正規化",
+    "legacyIds": [
+      "m12-regularizacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-situacao-legal",
+    "id": "az-0565",
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "a situação legal",
@@ -1362,10 +1734,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "法律地位",
-    "zhHant": "法律地位"
+    "zhHant": "法律地位",
+    "legacyIds": [
+      "m12-situacao-legal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-reagrupamento-familiar",
+    "id": "az-0566",
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "o reagrupamento familiar",
@@ -1377,10 +1754,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "家庭团聚",
-    "zhHant": "家庭團聚"
+    "zhHant": "家庭團聚",
+    "legacyIds": [
+      "m12-reagrupamento-familiar"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-retorno-voluntario",
+    "id": "az-0567",
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "o retorno voluntário",
@@ -1392,10 +1774,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "自愿返国/自愿返回",
-    "zhHant": "自願返國/自願返回"
+    "zhHant": "自願返國/自願返回",
+    "legacyIds": [
+      "m12-retorno-voluntario"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-seguranca-social",
+    "id": "az-0568",
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a segurança social",
@@ -1407,10 +1794,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "社会保障/社保",
-    "zhHant": "社會保障/社保"
+    "zhHant": "社會保障/社保",
+    "legacyIds": [
+      "m12-seguranca-social"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-confidencial",
+    "id": "az-0569",
     "modulo": "Módulo 12",
     "theme": "Serviços",
     "portuguese": "confidencial",
@@ -1422,10 +1814,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "机密的",
-    "zhHant": "機密的"
+    "zhHant": "機密的",
+    "legacyIds": [
+      "m12-confidencial"
+    ]
   },
   {
-    "id": "m12-gratuito",
+    "id": "az-0570",
     "modulo": "Módulo 12",
     "theme": "Serviços",
     "portuguese": "gratuito(a)",
@@ -1437,10 +1832,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "免费",
-    "zhHant": "免費"
+    "zhHant": "免費",
+    "legacyIds": [
+      "m12-gratuito"
+    ]
   },
   {
-    "id": "m12-associacao-de-imigrantes",
+    "id": "az-0571",
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a associação de imigrantes",
@@ -1452,10 +1850,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "移民协会",
-    "zhHant": "移民協會"
+    "zhHant": "移民協會",
+    "legacyIds": [
+      "m12-associacao-de-imigrantes"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-proteger",
+    "id": "az-0572",
     "modulo": "Módulo 12",
     "theme": "Ações",
     "portuguese": "proteger",
@@ -1467,10 +1870,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "保护",
-    "zhHant": "保護"
+    "zhHant": "保護",
+    "legacyIds": [
+      "m12-proteger"
+    ]
   },
   {
-    "id": "m12-instituicao",
+    "id": "az-0573",
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a instituição",
@@ -1482,10 +1888,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "机构",
-    "zhHant": "機構"
+    "zhHant": "機構",
+    "legacyIds": [
+      "m12-instituicao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-gabinete-de-apoio",
+    "id": "az-0574",
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "o gabinete de apoio",
@@ -1497,10 +1908,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "援助办公室/咨询处",
-    "zhHant": "援助辦公室/諮詢處"
+    "zhHant": "援助辦公室/諮詢處",
+    "legacyIds": [
+      "m12-gabinete-de-apoio"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-imigracao",
+    "id": "az-0575",
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "a imigração",
@@ -1512,10 +1928,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "移（入）民",
-    "zhHant": "移（入）民"
+    "zhHant": "移（入）民",
+    "legacyIds": [
+      "m12-imigracao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-adquirir",
+    "id": "az-0576",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "adquirir",
@@ -1527,10 +1948,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "获得",
-    "zhHant": "獲得"
+    "zhHant": "獲得",
+    "legacyIds": [
+      "m12-adquirir"
+    ]
   },
   {
-    "id": "m12-requerimento",
+    "id": "az-0577",
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "o requerimento",
@@ -1542,10 +1966,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "申请表",
-    "zhHant": "申請表"
+    "zhHant": "申請表",
+    "legacyIds": [
+      "m12-requerimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-certificado",
+    "id": "az-0578",
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "o certificado",
@@ -1557,10 +1986,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "证书",
-    "zhHant": "證書"
+    "zhHant": "證書",
+    "legacyIds": [
+      "m12-certificado"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-preencher",
+    "id": "az-0579",
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "preencher",
@@ -1572,10 +2006,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "填写",
-    "zhHant": "填寫"
+    "zhHant": "填寫",
+    "legacyIds": [
+      "m12-preencher"
+    ]
   },
   {
-    "id": "m12-tratar-de",
+    "id": "az-0580",
     "modulo": "Módulo 12",
     "theme": "Documentos",
     "portuguese": "tratar de",
@@ -1587,10 +2024,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "办理/处理",
-    "zhHant": "辦理/處理"
+    "zhHant": "辦理/處理",
+    "legacyIds": [
+      "m12-tratar-de"
+    ]
   },
   {
-    "id": "m12-comunidade",
+    "id": "az-0581",
     "modulo": "Módulo 12",
     "theme": "Sociedade",
     "portuguese": "a comunidade",
@@ -1602,10 +2042,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "社区/共同体",
-    "zhHant": "社區/共同體"
+    "zhHant": "社區/共同體",
+    "legacyIds": [
+      "m12-comunidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-democracia",
+    "id": "az-0582",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a democracia",
@@ -1617,10 +2062,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "民主",
-    "zhHant": "民主"
+    "zhHant": "民主",
+    "legacyIds": [
+      "m12-democracia"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-direitos-humanos",
+    "id": "az-0583",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "os direitos humanos",
@@ -1632,10 +2082,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "人权",
-    "zhHant": "人權"
+    "zhHant": "人權",
+    "legacyIds": [
+      "m12-direitos-humanos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m12-discriminacao",
+    "id": "az-0584",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a discriminação",
@@ -1647,10 +2102,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "歧视",
-    "zhHant": "歧視"
+    "zhHant": "歧視",
+    "legacyIds": [
+      "m12-discriminacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-cidadao-europeu",
+    "id": "az-0585",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "o cidadão europeu",
@@ -1662,10 +2122,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "欧洲公民",
-    "zhHant": "歐洲公民"
+    "zhHant": "歐洲公民",
+    "legacyIds": [
+      "m12-cidadao-europeu"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-residir",
+    "id": "az-0586",
     "modulo": "Módulo 12",
     "theme": "Habitação",
     "portuguese": "residir",
@@ -1677,10 +2142,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "居住",
-    "zhHant": "居住"
+    "zhHant": "居住",
+    "legacyIds": [
+      "m12-residir"
+    ]
   },
   {
-    "id": "m12-cuidados-medicos",
+    "id": "az-0587",
     "modulo": "Módulo 12",
     "theme": "Saúde",
     "portuguese": "os cuidados médicos",
@@ -1692,10 +2160,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "医疗保健",
-    "zhHant": "醫療保健"
+    "zhHant": "醫療保健",
+    "legacyIds": [
+      "m12-cuidados-medicos"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m12-voluntario",
+    "id": "az-0588",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "voluntário(a)",
@@ -1707,10 +2180,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "志愿者",
-    "zhHant": "志工"
+    "zhHant": "志工",
+    "legacyIds": [
+      "m12-voluntario"
+    ]
   },
   {
-    "id": "m12-votar",
+    "id": "az-0589",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "votar",
@@ -1722,10 +2198,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "投票",
-    "zhHant": "投票"
+    "zhHant": "投票",
+    "legacyIds": [
+      "m12-votar"
+    ]
   },
   {
-    "id": "m12-eleicao",
+    "id": "az-0590",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a eleição",
@@ -1737,10 +2216,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "选举",
-    "zhHant": "選舉"
+    "zhHant": "選舉",
+    "legacyIds": [
+      "m12-eleicao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-peticao",
+    "id": "az-0591",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a petição",
@@ -1752,10 +2236,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "请愿",
-    "zhHant": "請願"
+    "zhHant": "請願",
+    "legacyIds": [
+      "m12-peticao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-sugestao",
+    "id": "az-0592",
     "modulo": "Módulo 12",
     "theme": "Cidadania",
     "portuguese": "a sugestão",
@@ -1767,10 +2256,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "建议",
-    "zhHant": "建議"
+    "zhHant": "建議",
+    "legacyIds": [
+      "m12-sugestao"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-fixar-se",
+    "id": "az-0593",
     "modulo": "Módulo 12",
     "theme": "Habitação",
     "portuguese": "fixar-se",
@@ -1782,10 +2276,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "定居/安顿",
-    "zhHant": "定居/安頓"
+    "zhHant": "定居/安頓",
+    "legacyIds": [
+      "m12-fixar-se"
+    ]
   },
   {
-    "id": "m12-camara-municipal",
+    "id": "az-0594",
     "modulo": "Módulo 12",
     "theme": "Instituições",
     "portuguese": "a Câmara Municipal",
@@ -1797,10 +2294,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "市议会",
-    "zhHant": "市議會"
+    "zhHant": "市議會",
+    "legacyIds": [
+      "m12-camara-municipal"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-balcao",
+    "id": "az-0595",
     "modulo": "Módulo 12",
     "theme": "Serviços",
     "portuguese": "o balcão",
@@ -1812,10 +2314,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "柜台/服务台",
-    "zhHant": "櫃台/服務台"
+    "zhHant": "櫃台/服務台",
+    "legacyIds": [
+      "m12-balcao"
+    ],
+    "pos": "noun",
+    "gender": "m"
   },
   {
-    "id": "m12-informar-se",
+    "id": "az-0596",
     "modulo": "Módulo 12",
     "theme": "Ações",
     "portuguese": "informar-se",
@@ -1827,10 +2334,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "了解情况",
-    "zhHant": "了解情況"
+    "zhHant": "了解情況",
+    "legacyIds": [
+      "m12-informar-se"
+    ]
   },
   {
-    "id": "m12-renda-elevada",
+    "id": "az-0597",
     "modulo": "Módulo 12",
     "theme": "Habitação",
     "portuguese": "a renda elevada",
@@ -1842,10 +2352,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "高租金",
-    "zhHant": "高租金"
+    "zhHant": "高租金",
+    "legacyIds": [
+      "m12-renda-elevada"
+    ],
+    "pos": "noun",
+    "gender": "f"
   },
   {
-    "id": "m12-empregador",
+    "id": "az-0598",
     "modulo": "Módulo 12",
     "theme": "Emprego",
     "portuguese": "empregador(a)",
@@ -1857,10 +2372,13 @@
     "note": "",
     "source": "pdf",
     "zhHans": "雇主",
-    "zhHant": "雇主"
+    "zhHant": "雇主",
+    "legacyIds": [
+      "m12-empregador"
+    ]
   },
   {
-    "id": "m12-direitos-e-deveres-laborais",
+    "id": "az-0599",
     "modulo": "Módulo 12",
     "theme": "Emprego",
     "portuguese": "os direitos e deveres laborais",
@@ -1872,10 +2390,15 @@
     "note": "",
     "source": "pdf",
     "zhHans": "劳工权利和义务",
-    "zhHant": "勞工權利和義務"
+    "zhHant": "勞工權利和義務",
+    "legacyIds": [
+      "m12-direitos-e-deveres-laborais"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
   },
   {
-    "id": "m12-legalizar",
+    "id": "az-0600",
     "modulo": "Módulo 12",
     "theme": "Migração",
     "portuguese": "legalizar",
@@ -1887,6 +2410,9 @@
     "note": "",
     "source": "pdf",
     "zhHans": "办理合法化/使合法",
-    "zhHant": "辦理合法化/使合法"
+    "zhHant": "辦理合法化/使合法",
+    "legacyIds": [
+      "m12-legalizar"
+    ]
   }
 ]

@@ -27,7 +27,7 @@ const seenTerms = new Set();
 
 for (const entry of entries) {
   validateEntry(entry);
-  const id = asciiSlug(entry.id);
+  const id = entry.id.trim();
   const modulo = normalizeModulo(entry.modulo);
   const termKey = `${modulo}:${normalizeTerm(entry.portuguese)}`;
 
@@ -37,12 +37,15 @@ for (const entry of entries) {
 
   deduped.push({
     id,
+    legacyIds: Array.isArray(entry.legacyIds) ? entry.legacyIds.map((item) => String(item).trim()).filter(Boolean) : undefined,
     modulo,
     theme: entry.theme.trim(),
     portuguese: entry.portuguese.trim(),
     english: entry.english.trim(),
     zhHans: entry.zhHans.trim(),
     zhHant: entry.zhHant.trim(),
+    pos: entry.pos?.trim() || undefined,
+    gender: entry.gender?.trim() || undefined,
     examplePt: entry.examplePt?.trim() || undefined,
     exampleEn: entry.exampleEn?.trim() || undefined,
     exampleZhHans: entry.exampleZhHans?.trim() || undefined,

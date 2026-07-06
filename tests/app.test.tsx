@@ -1,7 +1,9 @@
-import { act, fireEvent, render, screen, within } from "@testing-library/react";
+import { act, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import App from "../src/App";
 import { vocabulary } from "../src/data/vocabulary";
+import { wordBank } from "../src/data/wordBank";
+import { getActiveSession, getProgress, importAll } from "../src/lib/storage";
 
 function completeVisibleModuleQuiz() {
   let missedAnswerTexts: string[] = [];
@@ -38,9 +40,13 @@ function completeVisibleModuleQuiz() {
   }
 }
 
+function elementsWithText(text: string) {
+  return Array.from(document.querySelectorAll("body *")).filter((element) => element.textContent?.trim() === text);
+}
+
 describe("App", () => {
-  beforeEach(() => {
-    localStorage.clear();
+  beforeEach(async () => {
+    await importAll({ app: "azulejo", progress: {}, settings: {} });
     vi.clearAllMocks();
   });
 
@@ -48,29 +54,114 @@ describe("App", () => {
     vi.useRealTimers();
   });
 
-  it("reveals a flashcard answer and records progress", () => {
+  it("reveals a flashcard answer and records progress", async () => {
     render(<App />);
 
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     expect(screen.getByText(vocabulary[0].english)).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
-    expect(localStorage.getItem("pt-a2-vocab-progress")).toContain("known");
+    await waitFor(async () => {
+      expect(Object.values(await getProgress()).some((entry) => entry.status === "known")).toBe(true);
+    });
   });
 
-  it("clears progress and restarts the session from the progress dashboard", () => {
+  it("persists active session position after every answered card", async () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    await waitFor(async () => {
+      expect(await getActiveSession()).toMatchObject({
+        mode: "manual",
+        moduleOrScenarioId: "all",
+        direction: "pt-en",
+        position: 1
+      });
+    });
+  });
+
+  it("boots into a fresh active session and resumes at the saved queue position", async () => {
+    const now = new Date().toISOString();
+    const queue = vocabulary.slice(0, 20).map((entry) => entry.id);
+    await importAll({
+      app: "azulejo",
+      progress: {},
+      settings: {},
+      activeSession: {
+        mode: "manual",
+        moduleOrScenarioId: "all",
+        direction: "pt-en",
+        queue,
+        position: 8,
+        againQueue: [queue[1]],
+        phase: "study",
+        sessionIndex: 0,
+        startedAt: now,
+        updatedAt: now
+      }
+    });
+
+    render(<App />);
+
+    expect(await screen.findByText("Continuar sessão (9/20)")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: /^continuar sessão$/i }));
+
+    await waitFor(() => {
+      expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[8].portuguese);
+    });
+  });
+
+  it("clears the active session when the restored queue completes", async () => {
+    const now = new Date().toISOString();
+    const queue = [vocabulary[0].id];
+    await importAll({
+      app: "azulejo",
+      progress: {},
+      settings: {},
+      activeSession: {
+        mode: "manual",
+        moduleOrScenarioId: "all",
+        direction: "pt-en",
+        queue,
+        position: 0,
+        againQueue: [],
+        phase: "study",
+        sessionIndex: 0,
+        startedAt: now,
+        updatedAt: now
+      }
+    });
+
+    render(<App />);
+
+    fireEvent.click(await screen.findByRole("button", { name: /^continuar sessão$/i }));
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    await waitFor(async () => {
+      expect(await getActiveSession()).toBeUndefined();
+    });
+  });
+
+  it("clears progress and restarts the session from the progress dashboard", async () => {
     render(<App />);
 
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
 
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[1].portuguese);
-    expect(localStorage.getItem("pt-a2-vocab-progress")).toContain("known");
+    await waitFor(async () => {
+      expect(Object.values(await getProgress()).some((entry) => entry.status === "known")).toBe(true);
+    });
 
     fireEvent.click(screen.getByRole("button", { name: /start over/i }));
 
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[0].portuguese);
-    expect(localStorage.getItem("pt-a2-vocab-progress")).toBe("{}");
+    await waitFor(async () => {
+      expect(await getProgress()).toEqual({});
+    });
     expect(screen.getByText("0%")).toBeInTheDocument();
   });
 
@@ -113,7 +204,8 @@ describe("App", () => {
 
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
 
-    expect(screen.getAllByText("a casa").some((element) => element.classList.contains("answer-reference"))).toBe(true);
+    expect(elementsWithText("a casa").some((element) => element.classList.contains("answer-reference"))).toBe(true);
+    expect(document.querySelector(".answer-reference .pt-article")).toHaveTextContent("a");
     expect(screen.getByText("house; home")).toBeInTheDocument();
     expect(screen.getByText("A minha casa fica perto.")).toBeInTheDocument();
 
@@ -155,27 +247,48 @@ describe("App", () => {
     expect(screen.getAllByText("house; home").some((element) => element.classList.contains("answer-reference"))).toBe(
       true
     );
-    expect(screen.getByText("a casa")).toHaveClass("answer");
+    expect(elementsWithText("a casa").some((element) => element.classList.contains("answer"))).toBe(true);
 
     fireEvent.click(screen.getByRole("button", { name: /hide answer/i }));
     fireEvent.change(languageSelect, { target: { value: "zh-hans-pt" } });
     fireEvent.click(screen.getByRole("button", { name: "显示" }));
     expect(screen.getAllByText("房子/家").some((element) => element.classList.contains("answer-reference"))).toBe(true);
-    expect(screen.getByText("a casa")).toHaveClass("answer");
+    expect(elementsWithText("a casa").some((element) => element.classList.contains("answer"))).toBe(true);
   });
 
-  it("searches vocabulary across Portuguese, English, and Chinese fields", () => {
+  it("opens a global word-bank search and updates shared status inline", async () => {
+    const station = wordBank.find((entry) => entry.portuguese === "a estação de comboios");
+    expect(station).toBeDefined();
+
     render(<App />);
 
-    fireEvent.change(screen.getByLabelText(/search/i), { target: { value: "房子" } });
-    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent("a casa");
+    fireEvent.click(screen.getByRole("button", { name: /^search$/i }));
+    expect(screen.getByText(`${wordBank.length} words`)).toBeInTheDocument();
+    expect(screen.queryByRole("searchbox", { name: /^search$/i })).not.toBeInTheDocument();
 
-    fireEvent.change(screen.getByLabelText(/search/i), { target: { value: "home" } });
-    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent("a casa");
+    fireEvent.change(screen.getByPlaceholderText(/Portuguese, English, or Chinese/i), { target: { value: "estacao" } });
 
-    fireEvent.change(screen.getByLabelText(/search/i), { target: { value: "casa" } });
-    expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent("a casa");
-  });
+    const headword = await screen.findByText("estação de comboios");
+    const rowButton = headword.closest("button");
+    expect(rowButton).not.toBeNull();
+    expect(rowButton).toHaveTextContent("M2");
+    expect(rowButton).toHaveTextContent("unseen");
+
+    fireEvent.click(rowButton!);
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    await waitFor(async () => {
+      expect((await getProgress())[station!.id]?.status).toBe("known");
+    });
+    expect(rowButton).toHaveTextContent("learned");
+
+    fireEvent.click(screen.getByRole("button", { name: /again/i }));
+
+    await waitFor(async () => {
+      expect((await getProgress())[station!.id]?.status).toBe("again");
+    });
+    expect(rowButton).toHaveTextContent("in review");
+  }, 30_000);
 
   it("labels the direction selector as language", () => {
     render(<App />);
@@ -460,14 +573,10 @@ describe("App", () => {
       expect(play).not.toHaveBeenCalled();
 
       fireEvent.click(screen.getByRole("button", { name: direction.revealLabel }));
+      expect(play).toHaveBeenCalledTimes(1);
 
       act(() => {
-        vi.advanceTimersByTime(249);
-      });
-      expect(play).not.toHaveBeenCalled();
-
-      act(() => {
-        vi.advanceTimersByTime(1);
+        vi.advanceTimersByTime(250);
       });
       expect(play).toHaveBeenCalledTimes(1);
 

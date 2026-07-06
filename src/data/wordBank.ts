@@ -2,6 +2,8 @@ import type { VocabularyEntry } from "../types";
 import { situacaoVocabularyRows } from "./situacoes";
 import { vocabulary } from "./vocabulary";
 
+export const WORDBANK_VERSION = 1;
+
 function normalizePortugueseTerm(value: string) {
   return value
     .normalize("NFC")
@@ -36,47 +38,47 @@ function addSituacao(entry: VocabularyEntry, situacao: string): VocabularyEntry 
 }
 
 function buildWordBank() {
-  const entriesByTerm = new Map<string, VocabularyEntry>();
   const entriesById = new Map<string, VocabularyEntry>();
 
   for (const entry of vocabulary) {
-    entriesByTerm.set(normalizePortugueseTerm(entry.portuguese), entry);
     entriesById.set(entry.id, entry);
   }
 
   for (const row of situacaoVocabularyRows) {
-    const termKey = normalizePortugueseTerm(row.pt);
-    const existing = entriesByTerm.get(termKey);
+    const id = row.id || createSituacaoId(row.pt);
+    const existing = entriesById.get(id);
 
     if (existing) {
       const merged = addSituacao(
         {
           ...existing,
+          pos: existing.pos ?? row.pos,
+          gender: existing.gender ?? row.gender,
           note: existing.note ?? row.note
         },
         row.situacao
       );
-      entriesByTerm.set(termKey, merged);
       entriesById.set(merged.id, merged);
       continue;
     }
 
-    const id = createSituacaoId(row.pt);
     const entry: VocabularyEntry = addSituacao(
       {
         id,
+        legacyIds: row.legacyIds,
         theme: "Situações",
         portuguese: row.pt,
         english: row.en,
         zhHans: row.zhHans,
         zhHant: row.zhHant,
+        pos: row.pos,
+        gender: row.gender,
         note: row.note,
         source: "situacao"
       },
       row.situacao
     );
 
-    entriesByTerm.set(termKey, entry);
     entriesById.set(id, entry);
   }
 

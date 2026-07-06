@@ -1,14 +1,19 @@
 export type Direction = "pt-en" | "en-pt" | "pt-zh-hans" | "zh-hans-pt" | "pt-zh-hant" | "zh-hant-pt";
 export type CardStatus = "new" | "again" | "known";
+export type PartOfSpeech = "noun" | "verb" | "adj" | "adv" | "expr" | "prep" | "pron" | "num" | "det" | "other";
+export type GrammaticalGender = "m" | "f" | "m-pl" | "f-pl";
 
 export interface VocabularyEntry {
   id: string;
+  legacyIds?: string[];
   modulo?: string;
   theme: string;
   portuguese: string;
   english: string;
   zhHans: string;
   zhHant: string;
+  pos?: PartOfSpeech;
+  gender?: GrammaticalGender;
   examplePt?: string;
   exampleEn?: string;
   exampleZhHans?: string;
@@ -29,11 +34,15 @@ export interface SituacaoGroup {
 }
 
 export interface SituacaoVocabularyRow {
+  id: string;
+  legacyIds?: string[];
   situacao: string;
   pt: string;
   en: string;
   zhHans: string;
   zhHant: string;
+  pos?: PartOfSpeech;
+  gender?: GrammaticalGender;
   note?: string;
 }
 
@@ -89,3 +98,27 @@ export interface CardProgress {
 }
 
 export type ProgressState = Record<string, CardProgress>;
+
+export interface ActiveSessionState {
+  mode: "manual" | "situacoes";
+  moduleOrScenarioId: string;
+  direction: Direction;
+  queue: string[];
+  position: number;
+  againQueue: string[];
+  phase?: "study" | "sessionAgainFlashcards";
+  sessionIndex?: number;
+  startedAt: string;
+  updatedAt: string;
+}
+
+export interface LastLocationState {
+  view: "manual" | "situacoes";
+  params: {
+    modulo?: string;
+    situacaoId?: string;
+    situacaoTab?: "vocabulario" | "dialogo" | "cartao";
+    direction?: Direction;
+  };
+  updatedAt: string;
+}
