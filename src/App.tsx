@@ -302,6 +302,7 @@ export default function App() {
   }, [situacaoId, direction]);
 
   function resetFlow() {
+    setDirectAutoPlayKey(null);
     setManualQueueOverrideIds(null);
     setSessionIndex(0);
     setCardIndex(0);
@@ -436,9 +437,6 @@ export default function App() {
     if (!entry || !autoPlayPronunciation || !direction.startsWith("pt-")) return;
     const key = `${entry.id}:${direction}`;
     setDirectAutoPlayKey(key);
-    window.setTimeout(() => {
-      setDirectAutoPlayKey((current) => (current === key ? null : current));
-    }, 500);
     playPortugueseAudio(getWordAudioPath(entry), getPortugueseBareText(entry));
   }
 
@@ -499,6 +497,7 @@ export default function App() {
     setCardIndex(0);
     setRevealed(false);
     setPhase("sessionAgainFlashcards");
+    playEntryOnDirectNavigation(shuffledEntries[0]);
     persistActiveSession(createManualActiveSession(shuffledEntries.map((entry) => entry.id), 0, sessionAgainIds, "sessionAgainFlashcards"));
   }
 
@@ -808,6 +807,7 @@ export default function App() {
 
     setSessionIndex(nextSession.globalSessionIndex);
     setPhase("study");
+    playEntryOnDirectNavigation(nextSession.entries[0]);
   }
 
   function continueAfterModule() {
@@ -821,6 +821,7 @@ export default function App() {
     if (nextSession) {
       setSessionIndex(nextSession.globalSessionIndex);
       setPhase("study");
+      playEntryOnDirectNavigation(nextSession.entries[0]);
       return;
     }
 
