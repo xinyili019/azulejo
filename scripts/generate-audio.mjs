@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, statSync } from "node:fs";
+import { mkdirSync, readFileSync, renameSync, rmSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
@@ -116,7 +116,10 @@ for (const line of situacaoCheatSheetLines) {
 }
 
 function generateAudio(outputPath, text, label) {
-  const result = spawnSync("say", ["-v", voice, "-o", outputPath, text], {
+  const rawOutputPath = `${outputPath}.raw.m4a`;
+  const encodedOutputPath = `${outputPath}.aac.m4a`;
+
+  const result = spawnSync("say", ["-v", voice, "-o", rawOutputPath, text], {
     encoding: "utf8"
   });
 
@@ -124,6 +127,22 @@ function generateAudio(outputPath, text, label) {
     const details = result.stderr?.trim() || result.stdout?.trim() || `exit ${result.status}`;
     throw new Error(`Could not generate ${label}: ${details}`);
   }
+
+  const encodeResult = spawnSync(
+    "ffmpeg",
+    ["-y", "-v", "error", "-i", rawOutputPath, "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", encodedOutputPath],
+    { encoding: "utf8" }
+  );
+
+  rmSync(rawOutputPath, { force: true });
+
+  if (encodeResult.status !== 0) {
+    rmSync(encodedOutputPath, { force: true });
+    const details = encodeResult.stderr?.trim() || encodeResult.stdout?.trim() || `exit ${encodeResult.status}`;
+    throw new Error(`Could not encode ${label} as AAC: ${details}`);
+  }
+
+  renameSync(encodedOutputPath, outputPath);
 }
 
 function extractExportedJson(name) {

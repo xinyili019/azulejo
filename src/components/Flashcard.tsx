@@ -15,6 +15,7 @@ interface FlashcardProps {
   direction: Direction;
   revealed: boolean;
   autoPlayPronunciation: boolean;
+  skipAutoPlayKey?: string | null;
   showFirstWordCue?: boolean;
   showFirstWordTip?: boolean;
   ui: UiCopy;
@@ -30,6 +31,7 @@ export function Flashcard({
   direction,
   revealed,
   autoPlayPronunciation,
+  skipAutoPlayKey = null,
   showFirstWordCue = false,
   showFirstWordTip = false,
   ui,
@@ -86,6 +88,7 @@ export function Flashcard({
 
   useEffect(() => {
     if (!shouldAutoPlayPronunciation) return;
+    if (skipAutoPlayKey === autoPlayTrigger) return;
     if (directAutoPlayRef.current === autoPlayTrigger) {
       directAutoPlayRef.current = null;
       return;
@@ -96,7 +99,7 @@ export function Flashcard({
     }, AUTO_PLAY_DELAY_MS);
 
     return () => window.clearTimeout(timeoutId);
-  }, [autoPlayTrigger, shouldAutoPlayPronunciation]);
+  }, [autoPlayTrigger, shouldAutoPlayPronunciation, skipAutoPlayKey]);
 
   function renderPronunciationButton(className: string) {
     return (

@@ -21,6 +21,7 @@ import {
 } from "./lib/milestoneCopy";
 import { buildModuleQuizScopes } from "./lib/moduleQuiz";
 import { getCardProgress, recordReview } from "./lib/progress";
+import { getWordAudioPath } from "./lib/audioPaths";
 import {
   buildRetrievalReviewPrompts,
   createSeededRng,
@@ -29,6 +30,7 @@ import {
   type RetrievalReviewResult
 } from "./lib/retrievalReview";
 import { playPortugueseAudio } from "./lib/portugueseAudio";
+import { getPortugueseBareText } from "./lib/portugueseDisplay";
 import { buildSessionPlan, type VocabularySession } from "./lib/sessionPlan";
 import {
   clearActiveSession,
@@ -128,6 +130,7 @@ export default function App() {
   const [resumeSession, setResumeSession] = useState<ActiveSessionState | null>(null);
   const [manualQueueOverrideIds, setManualQueueOverrideIds] = useState<string[] | null>(null);
   const [situacaoQueueOverrideIds, setSituacaoQueueOverrideIds] = useState<string[] | null>(null);
+  const [directAutoPlayKey, setDirectAutoPlayKey] = useState<string | null>(null);
   const progressFileInputRef = useRef<HTMLInputElement | null>(null);
   const activeSessionRef = useRef<ActiveSessionState | null>(null);
   const restoredNavigationRef = useRef(false);
@@ -346,6 +349,7 @@ export default function App() {
       setSituacaoVocabularyComplete(true);
       return;
     }
+    playEntryOnDirectNavigation(selectedSituacaoQueueEntries[nextIndex]);
     setSituacaoCardIndex(nextIndex);
   }
 
@@ -353,7 +357,9 @@ export default function App() {
     if (selectedSituacaoQueueEntries.length === 0) return;
     setSituacaoRevealed(false);
     setSituacaoVocabularyComplete(false);
-    setSituacaoCardIndex((current) => (current - 1 + selectedSituacaoQueueEntries.length) % selectedSituacaoQueueEntries.length);
+    const previousIndex = (situacaoCardIndex - 1 + selectedSituacaoQueueEntries.length) % selectedSituacaoQueueEntries.length;
+    playEntryOnDirectNavigation(selectedSituacaoQueueEntries[previousIndex]);
+    setSituacaoCardIndex(previousIndex);
   }
 
   function handleSituacaoReview(status: Exclude<CardStatus, "new">) {
@@ -401,6 +407,7 @@ export default function App() {
         finishSessionReview();
         return;
       }
+      playEntryOnDirectNavigation(reviewQueue[nextIndex]);
       setCardIndex(nextIndex);
       return;
     }
@@ -412,6 +419,7 @@ export default function App() {
       return;
     }
 
+    playEntryOnDirectNavigation(currentSession.entries[nextIndex]);
     setCardIndex(nextIndex);
   }
 
@@ -419,7 +427,19 @@ export default function App() {
     setRevealed(false);
     const entries = phase === "sessionAgainFlashcards" ? reviewQueue : currentSession?.entries;
     if (!entries?.length) return;
-    setCardIndex((current) => (current - 1 + entries.length) % entries.length);
+    const previousIndex = (cardIndex - 1 + entries.length) % entries.length;
+    playEntryOnDirectNavigation(entries[previousIndex]);
+    setCardIndex(previousIndex);
+  }
+
+  function playEntryOnDirectNavigation(entry: VocabularyEntry | undefined) {
+    if (!entry || !autoPlayPronunciation || !direction.startsWith("pt-")) return;
+    const key = `${entry.id}:${direction}`;
+    setDirectAutoPlayKey(key);
+    window.setTimeout(() => {
+      setDirectAutoPlayKey((current) => (current === key ? null : current));
+    }, 500);
+    playPortugueseAudio(getWordAudioPath(entry), getPortugueseBareText(entry));
   }
 
   function handleReview(status: Exclude<CardStatus, "new">) {
@@ -1200,13 +1220,14 @@ export default function App() {
     return activeSituacaoEntry ? (
       <>
         {renderResumePrompt()}
-        <Flashcard
-          entry={activeSituacaoEntry}
-          direction={direction}
-          revealed={situacaoRevealed}
-          autoPlayPronunciation={autoPlayPronunciation}
-          showFirstWordTip={false}
-          ui={ui}
+          <Flashcard
+            entry={activeSituacaoEntry}
+            direction={direction}
+            revealed={situacaoRevealed}
+            autoPlayPronunciation={autoPlayPronunciation}
+            skipAutoPlayKey={directAutoPlayKey}
+            showFirstWordTip={false}
+            ui={ui}
           onToggleReveal={() => setSituacaoRevealed((current) => !current)}
           onPrevious={movePreviousSituacaoCard}
           onAgain={() => handleSituacaoReview("again")}
@@ -1422,6 +1443,7 @@ export default function App() {
               direction={direction}
               revealed={revealed}
               autoPlayPronunciation={autoPlayPronunciation}
+              skipAutoPlayKey={directAutoPlayKey}
               showFirstWordTip={false}
               ui={ui}
               onFirstWordTipDismiss={dismissFirstWordTip}
@@ -1437,6 +1459,7 @@ export default function App() {
             direction={direction}
             revealed={revealed}
             autoPlayPronunciation={autoPlayPronunciation && phase === "study"}
+            skipAutoPlayKey={directAutoPlayKey}
             showFirstWordCue={phase === "study" && sessionIndex === 0 && cardIndex === 0}
             showFirstWordTip={phase === "study" && sessionIndex === 0 && cardIndex === 0 && !firstWordTipDismissed}
             ui={ui}

@@ -31,12 +31,21 @@ export function playPortugueseAudio(path: string, fallbackText: string) {
   }
 
   prepareAmbientAudioSession();
-  if (activeAudio) fadeOutAudio(activeAudio);
+  const audio = getSharedAudioElement();
+  if (!audio) {
+    speakWithBrowserVoice(fallbackText);
+    return;
+  }
 
-  activeAudio = new Audio(`${import.meta.env.BASE_URL}${path}`);
-  activeAudio.preload = "auto";
-  activeAudio.volume = 0.86;
-  activeAudio.setAttribute("playsinline", "");
+  if (activeAudio && activeAudio !== audio) fadeOutAudio(activeAudio);
+  activeAudio = audio;
+  audio.pause();
+  audio.currentTime = 0;
+  audio.preload = "auto";
+  audio.volume = 0.86;
+  setPlaysInline(audio);
+  audio.setAttribute("playsinline", "");
+  audio.src = `${import.meta.env.BASE_URL}${path}`;
   let usedFallback = false;
 
   const fallbackToBrowserVoice = () => {
@@ -45,14 +54,40 @@ export function playPortugueseAudio(path: string, fallbackText: string) {
     speakWithBrowserVoice(fallbackText);
   };
 
-  activeAudio.addEventListener("error", fallbackToBrowserVoice, { once: true });
+  audio.addEventListener("error", fallbackToBrowserVoice, { once: true });
 
   try {
-    const playPromise = activeAudio.play();
+    if (!isJsdomEnvironment()) audio.load();
+    const playPromise = audio.play();
     playPromise?.catch(fallbackToBrowserVoice);
   } catch {
     fallbackToBrowserVoice();
   }
+}
+
+function getSharedAudioElement() {
+  if (activeAudio) return activeAudio;
+
+  const audio = new Audio();
+  audio.preload = "auto";
+  setPlaysInline(audio);
+  audio.setAttribute("playsinline", "");
+  audio.style.display = "none";
+
+  if (document.body) {
+    document.body.appendChild(audio);
+  }
+
+  activeAudio = audio;
+  return audio;
+}
+
+function isJsdomEnvironment() {
+  return navigator.userAgent.toLowerCase().includes("jsdom");
+}
+
+function setPlaysInline(audio: HTMLAudioElement) {
+  (audio as HTMLAudioElement & { playsInline?: boolean }).playsInline = true;
 }
 
 function prepareAmbientAudioSession() {
