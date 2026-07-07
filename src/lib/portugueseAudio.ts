@@ -30,9 +30,10 @@ export function playPortugueseAudio(path: string, fallbackText: string) {
     return;
   }
 
-  prepareAmbientAudioSession();
+  const restoreAudioSession = prepareAudibleAudioSession();
   const audio = getSharedAudioElement();
   if (!audio) {
+    restoreAudioSession();
     speakWithBrowserVoice(fallbackText);
     return;
   }
@@ -51,9 +52,11 @@ export function playPortugueseAudio(path: string, fallbackText: string) {
   const fallbackToBrowserVoice = () => {
     if (usedFallback) return;
     usedFallback = true;
+    restoreAudioSession();
     speakWithBrowserVoice(fallbackText);
   };
 
+  audio.addEventListener("ended", restoreAudioSession, { once: true });
   audio.addEventListener("error", fallbackToBrowserVoice, { once: true });
 
   try {
@@ -90,15 +93,24 @@ function setPlaysInline(audio: HTMLAudioElement) {
   (audio as HTMLAudioElement & { playsInline?: boolean }).playsInline = true;
 }
 
-function prepareAmbientAudioSession() {
+function prepareAudibleAudioSession() {
   const audioSession = (navigator as Navigator & { audioSession?: { type?: string } }).audioSession;
   if (audioSession && "type" in audioSession) {
+    try {
+      audioSession.type = "playback";
+    } catch {
+      // Some browsers expose audioSession but keep the type read-only.
+    }
+  }
+
+  return () => {
+    if (!audioSession || !("type" in audioSession)) return;
     try {
       audioSession.type = "ambient";
     } catch {
       // Some browsers expose audioSession but keep the type read-only.
     }
-  }
+  };
 }
 
 function fadeOutAudio(audio: HTMLAudioElement) {
