@@ -1135,10 +1135,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "goodbye",
     "zhHans": "再见",
     "zhHant": "再見",
-    "examplePt": "Adeus!",
-    "exampleEn": "Goodbye!",
-    "exampleZhHans": "再见！",
-    "exampleZhHant": "再見！",
+    "examplePt": "Adeus, até à próxima.",
+    "exampleEn": "Goodbye, see you next time.",
+    "exampleZhHans": "再见，下次见。",
+    "exampleZhHant": "再見，下次見。",
     "source": "pdf"
   },
   {
@@ -1152,10 +1152,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "see you tomorrow",
     "zhHans": "明天见",
     "zhHant": "明天見",
-    "examplePt": "Até amanhã!",
-    "exampleEn": "See you tomorrow!",
-    "exampleZhHans": "明天见！",
-    "exampleZhHant": "明天見！",
+    "examplePt": "Até amanhã, João.",
+    "exampleEn": "See you tomorrow, João.",
+    "exampleZhHans": "明天见，João。",
+    "exampleZhHant": "明天見，João。",
     "source": "pdf"
   },
   {
@@ -1169,10 +1169,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "see you later",
     "zhHans": "稍后见",
     "zhHant": "稍後見",
-    "examplePt": "Até logo!",
-    "exampleEn": "See you later!",
-    "exampleZhHans": "待会儿见！",
-    "exampleZhHant": "待會兒見！",
+    "examplePt": "Até logo, Maria.",
+    "exampleEn": "See you later, Maria.",
+    "exampleZhHans": "待会儿见，Maria。",
+    "exampleZhHant": "待會兒見，Maria。",
     "source": "pdf"
   },
   {
@@ -1186,10 +1186,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "good evening; good night",
     "zhHans": "晚上好/晚安",
     "zhHant": "晚上好/晚安",
-    "examplePt": "Boa noite!",
-    "exampleEn": "Good evening!",
-    "exampleZhHans": "晚上好！",
-    "exampleZhHant": "晚上好！",
+    "examplePt": "Boa noite, Sr. Costa.",
+    "exampleEn": "Good evening, Mr. Costa.",
+    "exampleZhHans": "晚上好，Costa 先生。",
+    "exampleZhHant": "晚上好，Costa 先生。",
     "source": "pdf"
   },
   {
@@ -1203,10 +1203,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "good afternoon",
     "zhHans": "下午好",
     "zhHant": "午安",
-    "examplePt": "Boa tarde!",
-    "exampleEn": "Good afternoon!",
-    "exampleZhHans": "下午好！",
-    "exampleZhHant": "午安！",
+    "examplePt": "Boa tarde, D. Ana.",
+    "exampleEn": "Good afternoon, Ms. Ana.",
+    "exampleZhHans": "下午好，Ana 女士。",
+    "exampleZhHant": "午安，Ana 女士。",
     "source": "pdf"
   },
   {
