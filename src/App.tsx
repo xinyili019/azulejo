@@ -1,5 +1,5 @@
 import { Brain, Download, Printer, Save, Search, Volume2 } from "lucide-react";
-import { type ChangeEvent, type ReactNode, useEffect, useMemo, useRef, useState } from "react";
+import { type ChangeEvent, type ReactNode, type TouchEvent, useEffect, useMemo, useRef, useState } from "react";
 import { Flashcard } from "./components/Flashcard";
 import { GlobalSearchView } from "./components/GlobalSearchView";
 import { ModuleQuiz } from "./components/ModuleQuiz";
@@ -73,6 +73,12 @@ type AppMode = "manual" | "situacoes";
 type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
 const DEFAULT_SITUACAO_ID = situacaoGroups[0]?.items[0]?.id ?? "banco";
 const RESUME_MAX_AGE_MS = 48 * 60 * 60 * 1000;
+const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
+  { value: "pt-en", label: "Portuguese \u2192 English" },
+  { value: "pt-zh-hans", label: "\u8461\u8404\u7259\u8bed \u2192 \u7b80\u4f53\u4e2d\u6587" },
+  { value: "pt-zh-hant", label: "\u8461\u8404\u7259\u8a9e \u2192 \u7e41\u9ad4\u4e2d\u6587" }
+];
+const SUPPORTED_DIRECTIONS = new Set<Direction>(LANGUAGE_OPTIONS.map((option) => option.value));
 const MODULE_THEME_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
   "Módulo 1": { en: "Basics", zhHans: "基础", zhHant: "基礎" },
   "Módulo 2": { en: "Daily", zhHans: "日常", zhHant: "日常" },
@@ -86,6 +92,24 @@ const MODULE_THEME_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", str
   "Módulo 10": { en: "Habits", zhHans: "习惯", zhHant: "習慣" },
   "Módulo 11": { en: "Letters", zhHans: "信件", zhHant: "信件" },
   "Módulo 12": { en: "Civic", zhHans: "公民", zhHant: "公民" }
+};
+const SITUACAO_TARGET_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
+  banco: { en: "bank", zhHans: "银行", zhHant: "銀行" },
+  financas: { en: "tax office", zhHans: "税务局", zhHant: "稅務局" },
+  correios: { en: "post office", zhHans: "邮局", zhHant: "郵局" },
+  junta_de_freguesia: { en: "parish council", zhHans: "堂区委员会", zhHant: "堂區委員會" },
+  saude: { en: "healthcare", zhHans: "医疗", zhHant: "醫療" },
+  aima: { en: "immigration office", zhHans: "移民局", zhHant: "移民局" },
+  escola: { en: "school", zhHans: "学校", zhHant: "學校" },
+  iefp: { en: "job centre", zhHans: "就业中心", zhHant: "就業中心" },
+  seguranca_social: { en: "social security", zhHans: "社会保障", zhHant: "社會保障" },
+  arrendamento: { en: "renting", zhHans: "租房", zhHant: "租屋" },
+  transportes: { en: "transport", zhHans: "交通", zhHant: "交通" },
+  trabalho_hotelaria: { en: "hotel work", zhHans: "酒店工作", zhHant: "酒店工作" },
+  trabalho_restauracao: { en: "restaurant work", zhHans: "餐饮工作", zhHant: "餐飲工作" },
+  trabalho_limpezas: { en: "cleaning work", zhHans: "清洁工作", zhHant: "清潔工作" },
+  trabalho_construcao: { en: "construction work", zhHans: "建筑工作", zhHant: "建築工作" },
+  trabalho_entregas: { en: "delivery work", zhHans: "外送工作", zhHant: "外送工作" }
 };
 
 interface RetrievalState {
@@ -134,6 +158,8 @@ export default function App() {
   const progressFileInputRef = useRef<HTMLInputElement | null>(null);
   const activeSessionRef = useRef<ActiveSessionState | null>(null);
   const restoredNavigationRef = useRef(false);
+  const situacaoSwipeStartRef = useRef<{ x: number; y: number } | null>(null);
+  const situacaoSwipeLastRef = useRef<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -170,6 +196,13 @@ export default function App() {
       console.error("Could not save progress.", error);
     });
   }, [progress, storageReady]);
+
+  useEffect(() => {
+    const supportedDirection = normalizeSupportedDirection(direction);
+    if (supportedDirection !== direction) {
+      setDirection(supportedDirection);
+    }
+  }, [direction]);
 
   useEffect(() => {
     if (!storageReady) return;
@@ -373,6 +406,42 @@ export default function App() {
       persistActiveSession(createSituacaoActiveSession(queue, nextPosition, []));
     }
     moveNextSituacaoCard();
+  }
+
+  function handleSituacaoSessionBack() {
+    if (activeSituacaoEntry && selectedSituacaoQueueEntries.length > 0) {
+      persistActiveSession(createSituacaoActiveSession(selectedSituacaoQueueEntries.map((entry) => entry.id), situacaoCardIndex, []));
+    }
+    document.querySelector(".dashboard")?.scrollIntoView({ block: "start" });
+  }
+
+  function handleSituacaoSessionTouchStart(event: TouchEvent<HTMLElement>) {
+    if (!isMobileViewport() || event.touches.length !== 1) return;
+    const touch = event.touches[0];
+    if (touch.clientX > window.innerWidth * 0.15) return;
+    situacaoSwipeStartRef.current = { x: touch.clientX, y: touch.clientY };
+    situacaoSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
+  }
+
+  function handleSituacaoSessionTouchMove(event: TouchEvent<HTMLElement>) {
+    if (!situacaoSwipeStartRef.current || event.touches.length !== 1) return;
+    const touch = event.touches[0];
+    situacaoSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
+  }
+
+  function handleSituacaoSessionTouchEnd(event: TouchEvent<HTMLElement>) {
+    const start = situacaoSwipeStartRef.current;
+    const changedTouch = event.changedTouches[0];
+    const last = changedTouch ? { x: changedTouch.clientX, y: changedTouch.clientY } : situacaoSwipeLastRef.current;
+    situacaoSwipeStartRef.current = null;
+    situacaoSwipeLastRef.current = null;
+    if (!start || !last) return;
+
+    const horizontalDistance = last.x - start.x;
+    const verticalDrift = Math.abs(last.y - start.y);
+    if (horizontalDistance >= 80 && verticalDrift < 40) {
+      handleSituacaoSessionBack();
+    }
   }
 
   function restartSituacaoVocabulary() {
@@ -589,7 +658,7 @@ export default function App() {
 
   function applyActiveSessionLocation(session: ActiveSessionState) {
     setAppMode(session.mode);
-    setDirection(session.direction);
+    setDirection(normalizeSupportedDirection(session.direction));
 
     if (session.mode === "manual") {
       setModulo(session.moduleOrScenarioId || "all");
@@ -609,7 +678,7 @@ export default function App() {
 
   function applyLastLocation(location: LastLocationState) {
     setAppMode(location.view);
-    if (location.params.direction) setDirection(location.params.direction);
+    if (location.params.direction) setDirection(normalizeSupportedDirection(location.params.direction));
 
     if (location.view === "manual") {
       if (location.params.modulo) setModulo(location.params.modulo);
@@ -690,7 +759,7 @@ export default function App() {
 
     if (resumeSession.mode === "manual") {
       setAppMode("manual");
-      setDirection(resumeSession.direction);
+      setDirection(normalizeSupportedDirection(resumeSession.direction));
       setModulo(resumeSession.moduleOrScenarioId || "all");
       setSessionIndex(resumeSession.sessionIndex ?? findSessionIndexForQueue(resumeSession.queue));
       setSessionAgainIds(resumeSession.againQueue);
@@ -708,7 +777,7 @@ export default function App() {
       }
     } else {
       setAppMode("situacoes");
-      setDirection(resumeSession.direction);
+      setDirection(normalizeSupportedDirection(resumeSession.direction));
       setSituacaoId(resumeSession.moduleOrScenarioId || DEFAULT_SITUACAO_ID);
       setSituacaoTab("vocabulario");
       setSituacaoQueueOverrideIds(resumeSession.queue);
@@ -1073,13 +1142,12 @@ export default function App() {
     return (
       <label className="language-control" data-label={ui.language}>
         <span>{ui.language}</span>
-        <select value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>
-          <option value="pt-en">Portuguese to English</option>
-          <option value="en-pt">English to Portuguese</option>
-          <option value="pt-zh-hans">葡萄牙语 → 简体中文</option>
-          <option value="zh-hans-pt">简体中文 → 葡萄牙语</option>
-          <option value="pt-zh-hant">葡萄牙語 → 繁體中文</option>
-          <option value="zh-hant-pt">繁體中文 → 葡萄牙語</option>
+        <select value={normalizeSupportedDirection(direction)} onChange={(event) => setDirection(event.target.value as Direction)}>
+          {LANGUAGE_OPTIONS.map((option) => (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          ))}
         </select>
       </label>
     );
@@ -1136,7 +1204,7 @@ export default function App() {
                 <optgroup key={group.label} label={group.label}>
                   {group.items.map((item) => (
                     <option key={item.id} value={item.id}>
-                      {item.label}
+                      {formatSituacaoOptionLabel(item.id, item.label, ui.locale)}
                     </option>
                   ))}
                 </optgroup>
@@ -1221,6 +1289,12 @@ export default function App() {
     return activeSituacaoEntry ? (
       <>
         {renderResumePrompt()}
+        <div
+          className="situacao-session-touch-area"
+          onTouchStart={handleSituacaoSessionTouchStart}
+          onTouchMove={handleSituacaoSessionTouchMove}
+          onTouchEnd={handleSituacaoSessionTouchEnd}
+        >
           <Flashcard
             entry={activeSituacaoEntry}
             direction={direction}
@@ -1234,6 +1308,7 @@ export default function App() {
           onAgain={() => handleSituacaoReview("again")}
           onKnown={() => handleSituacaoReview("known")}
         />
+        </div>
       </>
     ) : (
       <section className="empty-state">
@@ -1675,8 +1750,21 @@ function formatModuloOptionLabel(moduloLabel: string, themeLabel?: string) {
   return themeLabel ? `${moduloLabel} · ${themeLabel}` : moduloLabel;
 }
 
+function normalizeSupportedDirection(direction: Direction) {
+  return SUPPORTED_DIRECTIONS.has(direction) ? direction : "pt-en";
+}
+
+function isMobileViewport() {
+  return window.matchMedia("(max-width: 768px)").matches;
+}
+
 function getModuleThemeLabel(modulo: string, locale: "en" | "zhHans" | "zhHant") {
   return MODULE_THEME_LABELS[modulo]?.[locale];
+}
+
+function formatSituacaoOptionLabel(situacaoId: string, label: string, locale: "en" | "zhHans" | "zhHant") {
+  const targetLabel = SITUACAO_TARGET_LABELS[situacaoId]?.[locale];
+  return targetLabel ? `${label} - ${targetLabel}` : label;
 }
 
 function getSituacaoControlLabel(locale: "en" | "zhHans" | "zhHant") {

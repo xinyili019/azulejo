@@ -2563,7 +2563,7 @@ progress::-moz-progress-bar {
 
   .tile-content-back {
     --answer-reference-size: 20px;
-    --answer-size: var(--card-term-size);
+    --answer-size: clamp(2.35rem, 9.8vw, 2.85rem);
     padding: 44px 20px 24px;
   }
 
@@ -2592,6 +2592,15 @@ progress::-moz-progress-bar {
   .answer,
   .answer-reference {
     max-width: min(100%, 16ch);
+  }
+
+  .tile-content-back .answer {
+    display: -webkit-box;
+    max-width: min(100%, 300px);
+    overflow: hidden;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
   }
 
   .muted {

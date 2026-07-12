@@ -269,14 +269,14 @@ function isPortugueseFrontDirection(direction: Direction) {
 
 function getFirstWordTipText(ui: UiCopy) {
   if (ui.locale === "zhHans") {
-    return "再次点击，回到同一词。选择“已掌握”，该词将不再进入“复习”或“回想”环节；选择“再练习”，该词将再次出现。";
+    return "再次点击，回到同一词。点“再练习”或“已掌握”都会到下一词。区别只在安排：“再练习”很快再见；“已掌握”之后再来。";
   }
 
   if (ui.locale === "zhHant") {
-    return "再次點擊，回到同一詞。選擇「已掌握」，該詞將不再進入「複習」或「回想」環節；選擇「再練習」，該詞將再次出現。";
+    return "再次點擊，回到同一詞。點「再練習」或「已掌握」都會到下一詞。差別只在安排：「再練習」很快再見；「已掌握」之後再來。";
   }
 
-  return 'Tap the tile to flip back to the same word. "Known" skips Review and Recall. "Again" sends the word to Review and Recall.';
+  return 'Tap the tile to flip back to the same word. Tap "Again" or "Known" to go to the next word. "Again" = soon; "Known" = later.';
 }
 
 
