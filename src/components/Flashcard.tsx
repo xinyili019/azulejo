@@ -276,7 +276,7 @@ function getFirstWordTipText(ui: UiCopy) {
     return "再次點擊，回到同一詞。點「再練習」或「已掌握」都會到下一詞。差別只在安排：「再練習」很快再見；「已掌握」之後再來。";
   }
 
-  return 'Tap the tile to flip back to the same word. Tap "Again" or "Known" to go to the next word. "Again" = soon; "Known" = later.';
+  return 'Tap the tile to flip back to the same word. Tap "Again" or "Known" to go to the next word. "Again" = you\'ll see it again soon; "Known" = it comes back later.';
 }
 
 

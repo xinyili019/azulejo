@@ -38,10 +38,12 @@ import {
   getActiveSession,
   getLastLocation,
   getProgress as loadStoredProgress,
+  getSetting,
   importAll,
   setActiveSession,
   setLastLocation,
-  setProgress as saveStoredProgress
+  setProgress as saveStoredProgress,
+  setSetting
 } from "./lib/storage";
 import type {
   ActiveSessionState,
@@ -73,6 +75,7 @@ type AppMode = "manual" | "situacoes";
 type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
 const DEFAULT_SITUACAO_ID = situacaoGroups[0]?.items[0]?.id ?? "banco";
 const RESUME_MAX_AGE_MS = 48 * 60 * 60 * 1000;
+const SITUACAO_SWIPE_TIP_SETTING = "situacaoSwipeTipDismissed";
 const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
   { value: "pt-en", label: "Portuguese \u2192 English" },
   { value: "pt-zh-hans", label: "\u8461\u8404\u7259\u8bed \u2192 \u7b80\u4f53\u4e2d\u6587" },
@@ -149,6 +152,7 @@ export default function App() {
   const [showInstallHelp, setShowInstallHelp] = useState(false);
   const [appInstalled, setAppInstalled] = useState(false);
   const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(false);
+  const [situacaoSwipeTipDismissed, setSituacaoSwipeTipDismissed] = useState<boolean | null>(null);
   const [progressFileMessage, setProgressFileMessage] = useState("");
   const [importCandidate, setImportCandidate] = useState<unknown | null>(null);
   const [resumeSession, setResumeSession] = useState<ActiveSessionState | null>(null);
@@ -185,6 +189,21 @@ export default function App() {
         if (!cancelled) setStorageReady(true);
       });
 
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    getSetting<boolean>(SITUACAO_SWIPE_TIP_SETTING)
+      .then((dismissed) => {
+        if (!cancelled) setSituacaoSwipeTipDismissed(dismissed === true);
+      })
+      .catch((error) => {
+        console.error("Could not load the Situações swipe tip setting.", error);
+        if (!cancelled) setSituacaoSwipeTipDismissed(false);
+      });
     return () => {
       cancelled = true;
     };
@@ -412,7 +431,16 @@ export default function App() {
     if (activeSituacaoEntry && selectedSituacaoQueueEntries.length > 0) {
       persistActiveSession(createSituacaoActiveSession(selectedSituacaoQueueEntries.map((entry) => entry.id), situacaoCardIndex, []));
     }
-    document.querySelector(".dashboard")?.scrollIntoView({ block: "start" });
+    setAppMode("manual");
+    setGlobalSearchOpen(false);
+    window.scrollTo({ top: 0 });
+  }
+
+  function dismissSituacaoSwipeTip() {
+    setSituacaoSwipeTipDismissed(true);
+    setSetting(SITUACAO_SWIPE_TIP_SETTING, true).catch((error) => {
+      console.error("Could not save the Situações swipe tip setting.", error);
+    });
   }
 
   function handleSituacaoSessionTouchStart(event: TouchEvent<HTMLElement>) {
@@ -1096,6 +1124,9 @@ export default function App() {
   }
 
   function renderModeTabs() {
+    const showSituacaoSwipeTip =
+      appMode === "situacoes" && situacaoTab === "vocabulario" && Boolean(activeSituacaoEntry) && situacaoSwipeTipDismissed === false;
+
     return (
       <div className="header-nav-actions">
         <div className="mode-tabs" role="tablist" aria-label="Study mode">
@@ -1134,6 +1165,14 @@ export default function App() {
         >
           <Search size={17} aria-hidden="true" />
         </button>
+        {showSituacaoSwipeTip && (
+          <aside className="situacao-swipe-tip" role="status">
+            <p>{getSituacaoSwipeTipCopy(ui.locale)}</p>
+            <button type="button" onClick={dismissSituacaoSwipeTip}>
+              {ui.gotIt}
+            </button>
+          </aside>
+        )}
       </div>
     );
   }
@@ -1771,6 +1810,12 @@ function getSituacaoControlLabel(locale: "en" | "zhHans" | "zhHant") {
   if (locale === "zhHans") return "场景";
   if (locale === "zhHant") return "場景";
   return "Situation";
+}
+
+function getSituacaoSwipeTipCopy(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") return "从屏幕左边缘向右滑，可返回手动学习。进度会保存。";
+  if (locale === "zhHant") return "從螢幕左邊緣向右滑，可返回手動學習。進度會儲存。";
+  return "Swipe right from the left edge to return to Manual. Your progress is saved.";
 }
 
 function getSituacaoVocabularyCompleteCopy(direction: Direction, wordCount: number) {

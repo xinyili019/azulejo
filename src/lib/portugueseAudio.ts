@@ -1,5 +1,4 @@
 let activeAudio: HTMLAudioElement | null = null;
-let audioSessionToken = 0;
 
 const AUDIO_FADE_STEPS = 6;
 const AUDIO_FADE_INTERVAL_MS = 35;
@@ -31,10 +30,8 @@ export function playPortugueseAudio(path: string, fallbackText: string) {
     return;
   }
 
-  const restoreAudioSession = preparePromptAudioSession();
   const audio = getSharedAudioElement();
   if (!audio) {
-    restoreAudioSession();
     speakWithBrowserVoice(fallbackText);
     return;
   }
@@ -53,11 +50,9 @@ export function playPortugueseAudio(path: string, fallbackText: string) {
   const fallbackToBrowserVoice = () => {
     if (usedFallback) return;
     usedFallback = true;
-    restoreAudioSession();
     speakWithBrowserVoice(fallbackText);
   };
 
-  audio.addEventListener("ended", restoreAudioSession, { once: true });
   audio.addEventListener("error", fallbackToBrowserVoice, { once: true });
 
   try {
@@ -92,30 +87,6 @@ function isJsdomEnvironment() {
 
 function setPlaysInline(audio: HTMLAudioElement) {
   (audio as HTMLAudioElement & { playsInline?: boolean }).playsInline = true;
-}
-
-function preparePromptAudioSession() {
-  const audioSession = (navigator as Navigator & { audioSession?: { type?: string } }).audioSession;
-  const token = (audioSessionToken += 1);
-  const previousType = audioSession?.type;
-
-  if (audioSession && "type" in audioSession) {
-    try {
-      audioSession.type = "transient";
-    } catch {
-      // Some browsers expose audioSession but keep the type read-only.
-    }
-  }
-
-  return () => {
-    if (token !== audioSessionToken) return;
-    if (!audioSession || !("type" in audioSession)) return;
-    try {
-      audioSession.type = previousType ?? "auto";
-    } catch {
-      // Some browsers expose audioSession but keep the type read-only.
-    }
-  };
 }
 
 function fadeOutAudio(audio: HTMLAudioElement) {

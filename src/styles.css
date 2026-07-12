@@ -142,10 +142,15 @@ h1 {
 }
 
 .header-nav-actions {
+  position: relative;
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+
+.situacao-swipe-tip {
+  display: none;
 }
 
 .header-search-button {
@@ -2060,6 +2065,44 @@ progress::-moz-progress-bar {
   }
 }
 
+@media (max-width: 768px) {
+  .situacao-swipe-tip {
+    position: absolute;
+    z-index: 20;
+    top: calc(100% + 8px);
+    right: 0;
+    display: grid;
+    width: min(250px, calc(100vw - 32px));
+    gap: 8px;
+    padding: 10px 12px;
+    border: 1px solid rgba(18, 58, 102, 0.18);
+    border-radius: 8px;
+    background: rgba(251, 253, 255, 0.94);
+    box-shadow: 0 12px 28px rgba(14, 44, 79, 0.18);
+  }
+
+  .situacao-swipe-tip p {
+    margin: 0;
+    color: #38556e;
+    font-size: 0.76rem;
+    line-height: 1.35;
+  }
+
+  .situacao-swipe-tip button {
+    justify-self: end;
+    min-height: 28px;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 10px;
+    background: #123a66;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+}
+
 @media (max-width: 620px) {
   .app-shell {
     padding: 8px;
@@ -2563,7 +2606,7 @@ progress::-moz-progress-bar {
 
   .tile-content-back {
     --answer-reference-size: 20px;
-    --answer-size: clamp(2.35rem, 9.8vw, 2.85rem);
+    --answer-size: clamp(2.9rem, 12vw, 3.5rem);
     padding: 44px 20px 24px;
   }
 

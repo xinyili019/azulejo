@@ -10,7 +10,7 @@ describe("Portuguese audio playback", () => {
     });
   });
 
-  it("uses transient prompt audio while a clip plays so background audio is only ducked", () => {
+  it("uses normal media playback without changing the device audio route", () => {
     const audioSession = { type: "ambient" };
     Object.defineProperty(navigator, "audioSession", {
       configurable: true,
@@ -18,16 +18,12 @@ describe("Portuguese audio playback", () => {
     });
 
     playPortugueseAudio("audio/pt/m1-casa.m4a", "casa");
-
-    expect(audioSession.type).toBe("transient");
-    expect(window.HTMLMediaElement.prototype.play).toHaveBeenCalledTimes(1);
-
-    document.querySelector("audio")?.dispatchEvent(new Event("ended"));
 
     expect(audioSession.type).toBe("ambient");
+    expect(window.HTMLMediaElement.prototype.play).toHaveBeenCalledTimes(1);
   });
 
-  it("does not let an older clip restore the audio session during a newer app clip", () => {
+  it("keeps the device audio route unchanged across consecutive clips", () => {
     const audioSession = { type: "ambient" };
     Object.defineProperty(navigator, "audioSession", {
       configurable: true,
@@ -35,13 +31,9 @@ describe("Portuguese audio playback", () => {
     });
 
     playPortugueseAudio("audio/pt/m1-casa.m4a", "casa");
-    const firstAudio = document.querySelector("audio");
     playPortugueseAudio("audio/pt/m1-ola.m4a", "olá");
 
-    expect(audioSession.type).toBe("transient");
-
-    firstAudio?.dispatchEvent(new Event("ended"));
-
-    expect(audioSession.type).toBe("transient");
+    expect(audioSession.type).toBe("ambient");
+    expect(window.HTMLMediaElement.prototype.play).toHaveBeenCalledTimes(2);
   });
 });
