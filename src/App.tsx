@@ -839,15 +839,16 @@ export default function App() {
   function renderResumePrompt() {
     if (!resumeSession || !isResumeSessionForCurrentLocation(resumeSession)) return null;
     const nextPosition = Math.min(resumeSession.position + 1, resumeSession.queue.length);
+    const resumeCopy = getResumeSessionCopy(ui.locale);
     return (
       <div className="resume-session-prompt" role="status">
-        <span>{`Continuar sessão (${nextPosition}/${resumeSession.queue.length})`}</span>
+        <span>{`${resumeCopy.title} (${nextPosition}/${resumeSession.queue.length})`}</span>
         <div>
           <button type="button" onClick={continueActiveSession}>
-            Continuar sessão
+            {resumeCopy.continueLabel}
           </button>
           <button type="button" onClick={restartActiveSession}>
-            Recomeçar
+            {resumeCopy.restartLabel}
           </button>
         </div>
       </div>
@@ -1195,20 +1196,22 @@ export default function App() {
   function renderManualControls() {
     return (
       <>
-        <section className="select-controls" aria-label={ui.studyControls}>
-          <label className="module-control" data-label={ui.module}>
-            <span>{ui.module}</span>
-            <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
-              <option value="all">{ui.allModules}</option>
-              {modulos.map((item) => (
-                <option key={item} value={item}>
-                  {formatModuloOptionLabel(ui.moduloLabel(item), getModuleThemeLabel(item, ui.locale))}
-                </option>
-              ))}
-            </select>
-          </label>
-          {renderLanguageSelect()}
-        </section>
+        {phase !== "quiz" && (
+          <section className="select-controls" aria-label={ui.studyControls}>
+            <label className="module-control" data-label={ui.module}>
+              <span>{ui.module}</span>
+              <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
+                <option value="all">{ui.allModules}</option>
+                {modulos.map((item) => (
+                  <option key={item} value={item}>
+                    {formatModuloOptionLabel(ui.moduloLabel(item), getModuleThemeLabel(item, ui.locale))}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {renderLanguageSelect()}
+          </section>
+        )}
 
         {renderStudyContent()}
 
@@ -1661,6 +1664,7 @@ export default function App() {
         ui={ui}
         mode={appMode}
         situacaoGroups={situacaoGroups}
+        getModuleThemeLabel={(moduleName) => getModuleThemeLabel(moduleName, ui.locale)}
         onStartOver={handleStartOver}
       />
       {renderInstallControl()}
@@ -1816,6 +1820,16 @@ function getSituacaoSwipeTipCopy(locale: "en" | "zhHans" | "zhHant") {
   if (locale === "zhHans") return "从屏幕左边缘向右滑，可返回手动学习。进度会保存。";
   if (locale === "zhHant") return "從螢幕左邊緣向右滑，可返回手動學習。進度會儲存。";
   return "Swipe right from the left edge to return to Manual. Your progress is saved.";
+}
+
+function getResumeSessionCopy(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") {
+    return { title: "继续学习", continueLabel: "继续学习", restartLabel: "重新开始" };
+  }
+  if (locale === "zhHant") {
+    return { title: "繼續學習", continueLabel: "繼續學習", restartLabel: "重新開始" };
+  }
+  return { title: "Continue session", continueLabel: "Continue session", restartLabel: "Restart" };
 }
 
 function getSituacaoVocabularyCompleteCopy(direction: Direction, wordCount: number) {

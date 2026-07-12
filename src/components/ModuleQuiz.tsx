@@ -29,6 +29,10 @@ interface MissedQuestion {
   missedCount: number;
 }
 
+type QuizSegmentState = "unanswered" | "correct" | "wrong";
+
+const EXIT_CONFIRM_MS = 3000;
+
 export function ModuleQuiz({
   scopes,
   allEntries,
@@ -49,6 +53,9 @@ export function ModuleQuiz({
   const [retryingMissed, setRetryingMissed] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [translationOpen, setTranslationOpen] = useState(false);
+  const [segmentStates, setSegmentStates] = useState<QuizSegmentState[]>([]);
+  const [segmentCursor, setSegmentCursor] = useState(0);
+  const [exitArmed, setExitArmed] = useState(false);
   const autoPlayedQuestionRef = useRef<string | null>(null);
   const activeScope = useMemo(
     () => scopes.find((scope) => scope.id === scopeId) ?? scopes[0],
@@ -79,13 +86,20 @@ export function ModuleQuiz({
     }
   }, [activeQuestion?.id, activeQuestion?.format, retryingMissed, scopeId]);
 
+  useEffect(() => {
+    if (!exitArmed) return;
+    const timeoutId = window.setTimeout(() => setExitArmed(false), EXIT_CONFIRM_MS);
+    return () => window.clearTimeout(timeoutId);
+  }, [exitArmed]);
+
   function startFreshQuiz() {
     if (!activeScope) {
       setQuestions([]);
       return;
     }
 
-    setQuestions(buildModuleQuizQuestions(activeScope, allEntries, direction, { rng: Math.random }));
+    const nextQuestions = buildModuleQuizQuestions(activeScope, allEntries, direction, { rng: Math.random });
+    setQuestions(nextQuestions);
     setQuestionIndex(0);
     setSelectedChoice(null);
     setResults([]);
@@ -93,12 +107,18 @@ export function ModuleQuiz({
     setRetryingMissed(false);
     setQuizCompleted(false);
     setTranslationOpen(false);
+    setSegmentStates(Array.from({ length: nextQuestions.length }, () => "unanswered"));
+    setSegmentCursor(0);
+    setExitArmed(false);
     autoPlayedQuestionRef.current = null;
   }
 
   function selectChoice(choice: string) {
     if (answered) return;
     setSelectedChoice(choice);
+    setSegmentStates((current) =>
+      current.map((state, index) => (index === segmentCursor ? (choice === activeQuestion?.answer ? "correct" : "wrong") : state))
+    );
   }
 
   function continueQuiz() {
@@ -113,12 +133,17 @@ export function ModuleQuiz({
             { question: activeQuestion, missedCount: (currentMiss?.missedCount ?? 1) + 1 }
           ];
 
+      if (!selectedCorrect) {
+        setSegmentStates((current) => [...current, "unanswered"]);
+      }
+
       setMissedQuestions(remainingMisses);
       setSelectedChoice(null);
       setTranslationOpen(false);
 
       if (questionIndex < questions.length - 1) {
         setQuestionIndex((current) => current + 1);
+        setSegmentCursor((current) => current + 1);
         return;
       }
 
@@ -133,6 +158,10 @@ export function ModuleQuiz({
       ? missedQuestions
       : [...missedQuestions, { question: activeQuestion, missedCount: 1 }];
 
+    if (!selectedCorrect) {
+      setSegmentStates((current) => [...current, "unanswered"]);
+    }
+
     setResults(nextResults);
     setMissedQuestions(nextMissedQuestions);
     setSelectedChoice(null);
@@ -140,6 +169,7 @@ export function ModuleQuiz({
 
     if (questionIndex < questions.length - 1) {
       setQuestionIndex((current) => current + 1);
+      setSegmentCursor((current) => current + 1);
     } else if (activeScope) {
       setQuizCompleted(true);
       onComplete({
@@ -162,7 +192,17 @@ export function ModuleQuiz({
     setRetryingMissed(true);
     setQuizCompleted(false);
     setTranslationOpen(false);
+    setSegmentCursor(Math.max(0, segmentStates.findIndex((state) => state === "unanswered")));
+    setExitArmed(false);
     autoPlayedQuestionRef.current = null;
+  }
+
+  function requestExit() {
+    if (!exitArmed) {
+      setExitArmed(true);
+      return;
+    }
+    onExit();
   }
 
   function playQuestionAudio(question: ModuleQuizQuestion) {
@@ -180,14 +220,19 @@ export function ModuleQuiz({
     playQuestionAudio(activeQuestion);
   }
 
+  function renderExitButton() {
+    return (
+      <button className={`module-quiz-exit${exitArmed ? " is-armed" : ""}`} type="button" onClick={requestExit}>
+        {getExitQuizLabel(direction, exitArmed)}
+      </button>
+    );
+  }
+
   if ((!activeScope || questions.length === 0) && !completed) {
     return (
-      <div className="review-switch-shell">
-        <button className="review-switch-back" type="button" onClick={onExit}>
-          {ui.goBack}
-        </button>
+      <div className="review-switch-shell is-without-back">
         <section className="review-panel module-quiz" aria-label={ui.moduleQuiz}>
-          <h2>{ui.moduleQuiz}</h2>
+          {renderExitButton()}
           <p className="module-quiz-empty">{ui.noCardsBody}</p>
         </section>
       </div>
@@ -196,31 +241,33 @@ export function ModuleQuiz({
 
   if (completed) {
     return (
-      <div className="review-switch-shell">
-        <button className="review-switch-back" type="button" onClick={onExit}>
-          {ui.goBack}
-        </button>
+      <div className="review-switch-shell is-without-back">
         <section className="review-panel module-quiz module-quiz-complete" aria-label={ui.moduleQuiz}>
-          <p className="eyebrow">{activeScope.label}</p>
-          <h2>{ui.finalQuizScore(correctCount, totalCount)}</h2>
-          {missedCount > 0 && <p className="module-quiz-retry-note">{getMissedQuizCopy(direction, missedCount)}</p>}
-          <div className="module-quiz-actions">
-            {missedCount > 0 ? (
-              <button className="primary" type="button" onClick={startMissedQuestionRetry}>
-                <RotateCcw size={18} aria-hidden="true" />
-                {getRetryMissedLabel(direction)}
-              </button>
-            ) : (
-              <button className="primary" type="button" onClick={startFreshQuiz}>
-                <RotateCcw size={18} aria-hidden="true" />
-                {ui.freshQuiz}
-              </button>
-            )}
-            {missedCount === 0 && (
-              <button className="secondary" type="button" onClick={onCompletionExit}>
-                {completionExitLabel}
-              </button>
-            )}
+          {renderExitButton()}
+          <div className="module-quiz-completion-content">
+            <p className="eyebrow">{activeScope.label}</p>
+            <h2>{ui.finalQuizScore(correctCount, totalCount)}</h2>
+            <div className="module-quiz-completion-followup">
+              {missedCount > 0 && <p className="module-quiz-retry-note">{getMissedQuizCopy(direction, missedCount)}</p>}
+              <div className="module-quiz-actions">
+                {missedCount > 0 ? (
+                  <button className="primary" type="button" onClick={startMissedQuestionRetry}>
+                    <RotateCcw size={18} aria-hidden="true" />
+                    {getRetryMissedLabel(direction)}
+                  </button>
+                ) : (
+                  <button className="primary" type="button" onClick={startFreshQuiz}>
+                    <RotateCcw size={18} aria-hidden="true" />
+                    {ui.freshQuiz}
+                  </button>
+                )}
+                {missedCount === 0 && (
+                  <button className="secondary" type="button" onClick={onCompletionExit}>
+                    {completionExitLabel}
+                  </button>
+                )}
+              </div>
+            </div>
           </div>
         </section>
       </div>
@@ -228,103 +275,96 @@ export function ModuleQuiz({
   }
 
   return (
-    <div className="review-switch-shell">
-      <button className="review-switch-back" type="button" onClick={onExit}>
-        {ui.goBack}
-      </button>
+    <div className="review-switch-shell is-without-back">
       <section className="review-panel module-quiz" aria-label={ui.moduleQuiz}>
-        <div className="review-header">
-          <p className="eyebrow">{retryingMissed ? getRetryMissedLabel(direction) : ui.moduleQuiz}</p>
-          <strong>
-            {questionIndex + 1} / {questions.length}
-          </strong>
+        <div className="module-quiz-top-row">
+          {renderExitButton()}
+          <strong>{Math.min(segmentCursor + 1, segmentStates.length)} / {segmentStates.length}</strong>
         </div>
-
-        <label className="module-quiz-scope">
-          {ui.quizScope}
-          <select value={activeScope.id} onChange={(event) => setScopeId(event.target.value)}>
-            {scopes.map((scope) => (
-              <option key={scope.id} value={scope.id}>
-                {scope.label}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        {activeQuestion.format === "cloze" ? (
-          <div className="module-quiz-prompt">
-            <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
-              <Volume2 size={18} aria-hidden="true" />
-            </button>
-            <p>{activeQuestion.clozeSentence}</p>
-          </div>
-        ) : (
-          <div className="module-quiz-prompt is-audio-meaning">
-            <p>{ui.audioMeaningPrompt}</p>
-            <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
-              <Volume2 size={34} aria-hidden="true" />
-            </button>
-          </div>
-        )}
-
-        {activeQuestion.format === "cloze" && activeQuestion.translation && (
-          <div className={`module-quiz-translation ${translationOpen ? "open" : ""}`}>
-            <button
-              className="example-toggle"
-              type="button"
-              aria-expanded={translationOpen}
-              onClick={() => setTranslationOpen((current) => !current)}
-            >
-              <ChevronRight className="example-chevron" size={14} aria-hidden="true" />
-              {ui.translation}
-            </button>
-            <div className="example-body" aria-hidden={!translationOpen}>
-              <span className="example muted">{activeQuestion.translation}</span>
-            </div>
-          </div>
-        )}
-
-        <div
-          className={`module-quiz-choices choices-${activeQuestion.choices.length}${hasLongChoices ? " has-long-choices" : ""}`}
-          role="list"
-          aria-label="Multiple choice answers"
-        >
-          {activeQuestion.choices.map((choice) => {
-            const isSelected = selectedChoice === choice;
-            const isAnswer = choice === activeQuestion.answer;
-            const resultClass = answered && isAnswer ? " is-correct" : answered && isSelected ? " is-incorrect" : "";
-
-            return (
-              <button
-                key={choice}
-                className={`module-quiz-choice${isSelected ? " is-selected" : ""}${resultClass}`}
-                type="button"
-                onClick={() => selectChoice(choice)}
-                aria-pressed={isSelected}
-              >
-                <span>{choice}</span>
-                {answered && isAnswer && <Check size={18} aria-hidden="true" />}
-                {answered && isSelected && !isAnswer && <X size={18} aria-hidden="true" />}
-              </button>
-            );
+        <div className="module-quiz-progress" aria-label={`${segmentStates.filter((state) => state !== "unanswered").length} of ${segmentStates.length} answered`}>
+          {segmentStates.map((state, index) => {
+            const displayState = index === segmentCursor && state === "unanswered" ? "current" : state;
+            return <span className={`module-quiz-progress-segment is-${displayState}`} key={`${index}-${state}`} />;
           })}
         </div>
 
-        <div className={`module-quiz-actions${activeQuestion.format === "audioMeaning" ? " has-target-word" : ""}`}>
+        <div className="module-quiz-question-block">
+          {activeQuestion.format === "cloze" ? (
+            <div className="module-quiz-prompt">
+              <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
+                <Volume2 size={18} aria-hidden="true" />
+              </button>
+              <p>{activeQuestion.clozeSentence}</p>
+            </div>
+          ) : (
+            <div className="module-quiz-prompt is-audio-meaning">
+              <p>{ui.audioMeaningPrompt}</p>
+              <button className="icon-button module-quiz-audio" type="button" onClick={speak} aria-label={ui.listen}>
+                <Volume2 size={34} aria-hidden="true" />
+              </button>
+            </div>
+          )}
+
+          {activeQuestion.format === "cloze" && activeQuestion.translation && (
+            <div className={`module-quiz-translation ${translationOpen ? "open" : ""}`}>
+              <button
+                className="example-toggle"
+                type="button"
+                aria-expanded={translationOpen}
+                onClick={() => setTranslationOpen((current) => !current)}
+              >
+                <ChevronRight className="example-chevron" size={14} aria-hidden="true" />
+                {ui.translation}
+              </button>
+              <div className="example-body" aria-hidden={!translationOpen}>
+                <span className="example muted">{activeQuestion.translation}</span>
+              </div>
+            </div>
+          )}
+
+          <div
+            className={`module-quiz-choices choices-${activeQuestion.choices.length}${hasLongChoices ? " has-long-choices" : ""}`}
+            role="list"
+            aria-label="Multiple choice answers"
+          >
+            {activeQuestion.choices.map((choice) => {
+              const isSelected = selectedChoice === choice;
+              const isAnswer = choice === activeQuestion.answer;
+              const resultClass = answered && isAnswer ? " is-correct" : answered && isSelected ? " is-incorrect" : "";
+
+              return (
+                <button
+                  key={choice}
+                  className={`module-quiz-choice${isSelected ? " is-selected" : ""}${resultClass}`}
+                  type="button"
+                  disabled={answered}
+                  onClick={() => selectChoice(choice)}
+                  aria-pressed={isSelected}
+                >
+                  <span>{choice}</span>
+                  {answered && isAnswer && <Check size={18} aria-hidden="true" />}
+                  {answered && isSelected && !isAnswer && <X size={18} aria-hidden="true" />}
+                </button>
+              );
+            })}
+          </div>
+
           {answered && (
             <p className={`retrieval-feedback ${selectedCorrect ? "is-correct" : "is-incorrect"}`}>
               {selectedCorrect ? ui.correct : ui.incorrect}
             </p>
           )}
-          <button className="primary" type="button" disabled={!answered} onClick={continueQuiz}>
-            {questionIndex >= questions.length - 1 ? ui.finishQuiz : ui.nextQuestion}
-          </button>
+          {answered && activeQuestion.format === "audioMeaning" && (
+            <p className="module-quiz-target-word" aria-live="polite">
+              {renderPortugueseTerm(activeQuestion.entry)}
+            </p>
+          )}
+          <div className="module-quiz-actions">
+            <button className="primary" type="button" disabled={!answered} onClick={continueQuiz}>
+              {questionIndex >= questions.length - 1 ? ui.finishQuiz : ui.nextQuestion}
+            </button>
+          </div>
         </div>
-        {answered && activeQuestion.format === "audioMeaning" && (
-          <p className="module-quiz-target-word" aria-live="polite">
-            {renderPortugueseTerm(activeQuestion.entry)}
-          </p>
-        )}
       </section>
     </div>
   );
@@ -352,4 +392,10 @@ function getMissedQuizCopy(direction: Direction, count: number) {
   if (direction.includes("zh-hans")) return `请先重做 ${count} 道错题，答对后再继续。`;
   if (direction.includes("zh-hant")) return `請先重做 ${count} 道錯題，答對後再繼續。`;
   return `Review ${count} missed ${count === 1 ? "question" : "questions"} before moving on.`;
+}
+
+function getExitQuizLabel(direction: Direction, armed: boolean) {
+  if (direction.includes("zh-hans")) return armed ? "再点一次退出" : "退出测验";
+  if (direction.includes("zh-hant")) return armed ? "再點一次退出" : "退出測驗";
+  return armed ? "Tap again to exit" : "Exit quiz";
 }

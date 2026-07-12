@@ -8,6 +8,7 @@ interface ProgressDashboardProps {
   ui: UiCopy;
   mode?: "manual" | "situacoes";
   situacaoGroups?: SituacaoGroup[];
+  getModuleThemeLabel?: (modulo: string) => string | undefined;
   onStartOver: () => void;
 }
 
@@ -17,6 +18,7 @@ export function ProgressDashboard({
   ui,
   mode = "manual",
   situacaoGroups = [],
+  getModuleThemeLabel,
   onStartOver
 }: ProgressDashboardProps) {
   const total = summarizeProgress(entries, progress);
@@ -63,7 +65,7 @@ export function ProgressDashboard({
         <div className="situacao-readiness">
           {situacaoReadiness.map(({ id, label, stats }) => (
             <div className="module-row situacao-readiness-row" key={id}>
-              <span>{label} {stats.knownPercent}%</span>
+              <span>{label}</span>
               <progress value={stats.known} max={stats.total || 1} aria-label={`${label} readiness`} />
               <strong>{stats.known}/{stats.total}</strong>
             </div>
@@ -73,7 +75,7 @@ export function ProgressDashboard({
         <div className="module-progress">
           {Object.entries(byModulo).map(([modulo, stats]) => (
             <div className="module-row" key={modulo}>
-              <span>{ui.moduloLabel(modulo)}</span>
+              <span>{formatProgressModuleLabel(ui.moduloLabel(modulo), getModuleThemeLabel?.(modulo))}</span>
               <progress value={stats.known} max={stats.total} aria-label={ui.moduleProgress(modulo)} />
               <strong>{stats.known}/{stats.total}</strong>
             </div>
@@ -85,4 +87,8 @@ export function ProgressDashboard({
       </button>
     </aside>
   );
+}
+
+function formatProgressModuleLabel(moduleLabel: string, themeLabel?: string) {
+  return themeLabel ? `${moduleLabel} · ${themeLabel}` : moduleLabel;
 }

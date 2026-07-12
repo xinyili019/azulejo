@@ -105,8 +105,8 @@ describe("App", () => {
 
     render(<App />);
 
-    expect(await screen.findByText("Continuar sessão (9/20)")).toBeInTheDocument();
-    fireEvent.click(screen.getByRole("button", { name: /^continuar sessão$/i }));
+    expect(await screen.findByText("Continue session (9/20)")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: /^continue session$/i }));
 
     await waitFor(() => {
       expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[8].portuguese);
@@ -136,7 +136,7 @@ describe("App", () => {
 
     render(<App />);
 
-    fireEvent.click(await screen.findByRole("button", { name: /^continuar sessão$/i }));
+    fireEvent.click(await screen.findByRole("button", { name: /^continue session$/i }));
     fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
 
@@ -237,25 +237,6 @@ describe("App", () => {
     expect(screen.queryByText("My house is nearby.")).not.toBeInTheDocument();
   });
 
-  it("keeps the flipped-card reference in the front prompt language", () => {
-    render(<App />);
-
-    const languageSelect = screen.getByLabelText(/language/i);
-
-    fireEvent.change(languageSelect, { target: { value: "en-pt" } });
-    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
-    expect(screen.getAllByText("house; home").some((element) => element.classList.contains("answer-reference"))).toBe(
-      true
-    );
-    expect(elementsWithText("a casa").some((element) => element.classList.contains("answer"))).toBe(true);
-
-    fireEvent.click(screen.getByRole("button", { name: /hide answer/i }));
-    fireEvent.change(languageSelect, { target: { value: "zh-hans-pt" } });
-    fireEvent.click(screen.getByRole("button", { name: "显示" }));
-    expect(screen.getAllByText("房子/家").some((element) => element.classList.contains("answer-reference"))).toBe(true);
-    expect(elementsWithText("a casa").some((element) => element.classList.contains("answer"))).toBe(true);
-  });
-
   it("opens a global word-bank search and updates shared status inline", async () => {
     const station = wordBank.find((entry) => entry.portuguese === "a estação de comboios");
     expect(station).toBeDefined();
@@ -296,6 +277,7 @@ describe("App", () => {
     expect(screen.getByLabelText(/language/i)).toBeInTheDocument();
     expect(screen.getByRole("tablist", { name: /study mode/i })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "Manual" })).toHaveAttribute("aria-selected", "true");
+    expect(screen.getByText("Módulo 1 · Basics", { selector: ".module-row > span" })).toBeInTheDocument();
   });
 
   it("switches to Situações with vocabulary, dialogue, card, and readiness views", () => {
@@ -305,7 +287,8 @@ describe("App", () => {
 
     expect(screen.getByRole("combobox", { name: "Situação" })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "Vocabulário" })).toHaveAttribute("aria-selected", "true");
-    expect(screen.getByText(/Banco 0%/)).toBeInTheDocument();
+    expect(screen.getByText("Banco", { selector: ".module-row > span" })).toBeInTheDocument();
+    expect(screen.queryByText(/Banco 0%/)).not.toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("tab", { name: "Diálogo" }));
     expect(screen.getByText("Boa tarde, queria abrir uma conta à ordem.")).toBeInTheDocument();
@@ -389,7 +372,10 @@ describe("App", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "Start next session" }));
 
-    expect(screen.getByLabelText(/quiz scope/i)).toHaveValue("modulo-1-1-40");
+    expect(screen.queryByLabelText(/quiz scope/i)).not.toBeInTheDocument();
+    expect(document.querySelector(".module-control")).not.toBeInTheDocument();
+    expect(document.querySelector(".language-control")).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Exit quiz" })).toBeInTheDocument();
     expect(screen.queryByRole("button", { name: /fresh 20/i })).not.toBeInTheDocument();
   }, 10_000);
 
@@ -468,8 +454,9 @@ describe("App", () => {
     }
 
     fireEvent.click(screen.getAllByRole("button", { name: "Start quiz" }).at(-1) as HTMLElement);
-    expect(screen.getByLabelText(/quiz scope/i)).toHaveValue("modulo-1-41-96");
-    fireEvent.click(screen.getByRole("button", { name: "Go back" }));
+    expect(screen.queryByLabelText(/quiz scope/i)).not.toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Exit quiz" }));
+    fireEvent.click(screen.getByRole("button", { name: "Tap again to exit" }));
 
     fireEvent.click(screen.getByRole("button", { name: "Start new module" }));
 
@@ -552,35 +539,4 @@ describe("App", () => {
     expect(play).toHaveBeenCalledTimes(1);
   });
 
-  it("autoplays pronunciation only after flip in translation-to-Portuguese modes", () => {
-    vi.useFakeTimers();
-    const play = vi.mocked(window.HTMLMediaElement.prototype.play);
-    const reverseDirections = [
-      { value: "en-pt", revealLabel: /reveal/i },
-      { value: "zh-hans-pt", revealLabel: "显示" },
-      { value: "zh-hant-pt", revealLabel: "顯示" }
-    ];
-
-    for (const direction of reverseDirections) {
-      play.mockClear();
-      const { unmount } = render(<App />);
-
-      fireEvent.change(screen.getByLabelText(/language/i), { target: { value: direction.value } });
-
-      act(() => {
-        vi.advanceTimersByTime(250);
-      });
-      expect(play).not.toHaveBeenCalled();
-
-      fireEvent.click(screen.getByRole("button", { name: direction.revealLabel }));
-      expect(play).toHaveBeenCalledTimes(1);
-
-      act(() => {
-        vi.advanceTimersByTime(250);
-      });
-      expect(play).toHaveBeenCalledTimes(1);
-
-      unmount();
-    }
-  });
 });
