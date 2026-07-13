@@ -349,13 +349,18 @@ export function ModuleQuiz({
             })}
           </div>
 
-          {answered && (
-            <p className={`retrieval-feedback ${selectedCorrect ? "is-correct" : "is-incorrect"}`}>
-              {selectedCorrect ? ui.correct : ui.incorrect}
-            </p>
-          )}
-          {answered && activeQuestion.format === "audioMeaning" && (
-            <p className="module-quiz-target-word" aria-live="polite">
+          <p
+            className={`retrieval-feedback${answered ? ` ${selectedCorrect ? "is-correct" : "is-incorrect"}` : " is-placeholder"}`}
+            aria-hidden={!answered}
+          >
+            {answered ? (selectedCorrect ? ui.correct : ui.incorrect) : ui.correct}
+          </p>
+          {activeQuestion.format === "audioMeaning" && (
+            <p
+              className={`module-quiz-target-word${answered ? "" : " is-placeholder"}`}
+              aria-hidden={!answered}
+              aria-live={answered ? "polite" : undefined}
+            >
               {renderPortugueseTerm(activeQuestion.entry)}
             </p>
           )}

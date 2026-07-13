@@ -11,8 +11,14 @@ export interface UiCopy {
   searchPlaceholder: string;
   reviewOnlyUnknown: string;
   exportProgress: string;
+  exportProgressSuccess: string;
+  exportProgressError: string;
   importProgress: string;
+  importProgressSuccess: string;
   importError: string;
+  replaceProgressConfirmation: string;
+  replace: string;
+  cancel: string;
   studyControls: string;
   revealAnswer: string;
   checkAnswer: string;
@@ -67,8 +73,14 @@ const copy: Record<UiLocale, UiCopy> = {
     searchPlaceholder: "Word",
     reviewOnlyUnknown: "Review only unknown",
     exportProgress: "Export progress",
+    exportProgressSuccess: "Progress exported.",
+    exportProgressError: "Could not export progress.",
     importProgress: "Import progress",
+    importProgressSuccess: "Progress imported.",
     importError: "Could not import that progress file.",
+    replaceProgressConfirmation: "Replace current progress? This cannot be undone.",
+    replace: "Replace",
+    cancel: "Cancel",
     studyControls: "Study controls",
     revealAnswer: "Reveal",
     checkAnswer: "Check",
@@ -121,8 +133,14 @@ const copy: Record<UiLocale, UiCopy> = {
     searchPlaceholder: "词",
     reviewOnlyUnknown: "只复习未掌握",
     exportProgress: "导出进度",
+    exportProgressSuccess: "进度已导出。",
+    exportProgressError: "无法导出进度。",
     importProgress: "导入进度",
+    importProgressSuccess: "进度已导入。",
     importError: "无法导入这个进度文件。",
+    replaceProgressConfirmation: "替换当前进度？此操作无法撤销。",
+    replace: "替换",
+    cancel: "取消",
     studyControls: "学习控件",
     revealAnswer: "显示",
     checkAnswer: "检查",
@@ -175,8 +193,14 @@ const copy: Record<UiLocale, UiCopy> = {
     searchPlaceholder: "單字",
     reviewOnlyUnknown: "只複習未掌握",
     exportProgress: "匯出進度",
+    exportProgressSuccess: "進度已匯出。",
+    exportProgressError: "無法匯出進度。",
     importProgress: "匯入進度",
+    importProgressSuccess: "進度已匯入。",
     importError: "無法匯入這個進度檔案。",
+    replaceProgressConfirmation: "取代目前進度？此操作無法復原。",
+    replace: "取代",
+    cancel: "取消",
     studyControls: "學習控制項",
     revealAnswer: "顯示",
     checkAnswer: "檢查",

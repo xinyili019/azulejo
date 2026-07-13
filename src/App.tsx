@@ -633,9 +633,9 @@ export default function App() {
       link.download = `azulejo-progresso-${exportedAt.slice(0, 10)}.json`;
       link.click();
       URL.revokeObjectURL(url);
-      setProgressFileMessage("Progresso exportado.");
+      setProgressFileMessage(ui.exportProgressSuccess);
     } catch {
-      setProgressFileMessage("Não foi possível exportar o progresso.");
+      setProgressFileMessage(ui.exportProgressError);
     }
   }
 
@@ -662,7 +662,7 @@ export default function App() {
       setImportCandidate(parsed);
       setProgressFileMessage("");
     } catch {
-      setProgressFileMessage("Não foi possível importar esse ficheiro.");
+      setProgressFileMessage(ui.importError);
     }
   }
 
@@ -673,9 +673,9 @@ export default function App() {
       await importAll(importCandidate);
       setProgress(await loadStoredProgress());
       setImportCandidate(null);
-      setProgressFileMessage("Progresso importado.");
+      setProgressFileMessage(ui.importProgressSuccess);
     } catch {
-      setProgressFileMessage("Não foi possível importar esse ficheiro.");
+      setProgressFileMessage(ui.importError);
     }
   }
 
@@ -1678,21 +1678,21 @@ export default function App() {
         />
         <div className="progress-file-actions">
           <button type="button" onClick={handleExportProgress}>
-            Exportar progresso
+            {ui.exportProgress}
           </button>
           <button type="button" onClick={handleImportProgressClick}>
-            Importar progresso
+            {ui.importProgress}
           </button>
         </div>
         {progressFileMessage && <p className="progress-file-message">{progressFileMessage}</p>}
         {Boolean(importCandidate) && (
           <div className="progress-file-confirm">
-            <p className="progress-file-message">Substituir o progresso atual? Esta ação não pode ser anulada.</p>
+            <p className="progress-file-message">{ui.replaceProgressConfirmation}</p>
             <button type="button" onClick={confirmImportProgress}>
-              Substituir
+              {ui.replace}
             </button>
             <button type="button" onClick={cancelImportProgress}>
-              Cancelar
+              {ui.cancel}
             </button>
           </div>
         )}

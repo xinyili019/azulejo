@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:opsz,wght@9..144,400..700&family=Hanken+Grotesque:wght@400;500;600;700&family=Marck+Script&display=swap");
 
 :root {
-  --cream: #fcfaf4;
+  --cream: #fbf8f1;
   --cream-deep: #f7f3e8;
   --cream-surface: #fffdf9;
   --cream-border: #d8cfbf;
@@ -125,7 +125,7 @@ h1,
 }
 
 h1 {
-  margin: -16px 0 0;
+  margin: -12px 0 0;
   color: #16327a;
   font-size: clamp(3.65rem, 7.35vw, 7.35rem);
   font-weight: 600;
@@ -156,6 +156,7 @@ h1 {
 
 .mode-tabs {
   flex: 0 0 auto;
+  padding: 3px;
 }
 
 .header-nav-actions {
@@ -199,10 +200,16 @@ h1 {
   font-weight: 800;
 }
 
+.mode-tabs button {
+  min-height: 28px;
+  padding-inline: 10px;
+  font-size: 0.78rem;
+}
+
 .mode-tabs button.is-active {
-  background: var(--navy);
+  background: var(--terracotta);
   color: var(--cream);
-  box-shadow: 0 8px 18px rgba(22, 50, 122, 0.18);
+  box-shadow: 0 8px 18px rgba(184, 92, 67, 0.2);
 }
 
 .situacao-tabs button.is-active {
@@ -636,7 +643,7 @@ h1 {
   background:
     linear-gradient(135deg, rgba(216, 172, 85, 0.1) 0 18px, transparent 18px),
     linear-gradient(315deg, rgba(31, 58, 147, 0.11) 0 18px, transparent 18px),
-    linear-gradient(180deg, #fcfaf4 0%, var(--cream-deep) 100%);
+    linear-gradient(180deg, #fbf8f1 0%, var(--cream-deep) 100%);
   box-shadow:
     inset 0 0 0 6px rgba(252, 250, 244, 0.82),
     0 18px 42px rgba(22, 50, 122, 0.12);
@@ -879,7 +886,7 @@ input[type="search"] {
 
 .review-switch-back:hover,
 .review-switch-back:focus-visible {
-  background: #fcfaf4;
+  background: #fbf8f1;
   color: #16327a;
 }
 
@@ -1109,7 +1116,7 @@ input[type="search"] {
   position: relative;
   z-index: 1;
   color: #16327a;
-  text-shadow: 0 1px 0 #fcfaf4;
+  text-shadow: 0 1px 0 #fbf8f1;
 }
 
 .tile-content {
@@ -1173,7 +1180,7 @@ input[type="search"] {
   text-wrap: balance;
   word-break: normal;
   hyphens: auto;
-  text-shadow: 0 1px 0 #fcfaf4;
+  text-shadow: 0 1px 0 #fbf8f1;
 }
 
 .tile-content-back .answer {
@@ -1476,7 +1483,7 @@ progress::-moz-progress-bar {
 .progress-start-over:hover,
 .progress-start-over:focus-visible {
   border-color: #d8ac55;
-  background: linear-gradient(180deg, #fcfaf4 0%, #eee5d7 100%);
+  background: linear-gradient(180deg, #fbf8f1 0%, #eee5d7 100%);
   color: #1f3a93;
 }
 
@@ -1555,7 +1562,7 @@ progress::-moz-progress-bar {
   gap: 18px;
   text-align: center;
   overflow: hidden;
-  background: linear-gradient(180deg, #fcfaf4 0%, var(--cream-deep) 100%);
+  background: linear-gradient(180deg, #fbf8f1 0%, var(--cream-deep) 100%);
   box-shadow:
     inset 0 0 0 9px rgba(252, 250, 244, 0.96),
     inset 0 0 0 12px rgba(22, 50, 122, 0.84),
@@ -1774,7 +1781,7 @@ progress::-moz-progress-bar {
   border: 1px solid var(--cream-border);
   border-radius: 6px;
   padding: 0 14px;
-  background: #fcfaf4;
+  background: #fbf8f1;
   color: #16327a;
   font-size: 1.05rem;
   font-weight: 500;
@@ -1982,7 +1989,7 @@ progress::-moz-progress-bar {
   background:
     linear-gradient(135deg, rgba(216, 172, 85, 0.24) 0 18px, transparent 18px),
     linear-gradient(315deg, rgba(31, 58, 147, 0.18) 0 18px, transparent 18px),
-    linear-gradient(180deg, #fcfaf4 0%, #f0e8dc 100%);
+    linear-gradient(180deg, #fbf8f1 0%, #f0e8dc 100%);
   border-color: rgba(216, 172, 85, 0.62);
   box-shadow:
     inset 0 0 0 2px rgba(252, 250, 244, 0.82),
@@ -2095,6 +2102,11 @@ progress::-moz-progress-bar {
   margin: 0;
 }
 
+.module-quiz-question-block > .retrieval-feedback.is-placeholder,
+.module-quiz-target-word.is-placeholder {
+  visibility: hidden;
+}
+
 .module-quiz-actions > button {
   flex: 0 0 auto;
 }
@@ -2105,7 +2117,7 @@ progress::-moz-progress-bar {
 }
 
 .module-quiz-question-block > .module-quiz-actions {
-  margin-top: -6px;
+  margin-top: 0;
 }
 
 .module-quiz-target-word {
@@ -2347,7 +2359,7 @@ progress::-moz-progress-bar {
   }
 
   h1 {
-    margin-top: -13px;
+    margin-top: -9px;
     font-size: clamp(2.75rem, 13.2vw, 3.65rem);
     line-height: 0.86;
   }
@@ -2373,9 +2385,9 @@ progress::-moz-progress-bar {
   }
 
   .mode-tabs button {
-    min-height: 28px;
-    padding: 0 8px;
-    font-size: 0.76rem;
+    min-height: 26px;
+    padding: 0 7px;
+    font-size: 0.72rem;
   }
 
   .global-search-toolbar {
@@ -2498,7 +2510,7 @@ progress::-moz-progress-bar {
     background:
       linear-gradient(135deg, rgba(216, 172, 85, 0.16) 0 12px, transparent 12px),
       linear-gradient(315deg, rgba(31, 58, 147, 0.12) 0 12px, transparent 12px),
-      linear-gradient(180deg, #fcfaf4 0%, var(--cream-deep) 100%);
+      linear-gradient(180deg, #fbf8f1 0%, var(--cream-deep) 100%);
     color: #16327a;
     box-shadow:
       inset 0 0 0 2px rgba(252, 250, 244, 0.82),
@@ -2511,7 +2523,7 @@ progress::-moz-progress-bar {
     background:
       linear-gradient(135deg, rgba(216, 172, 85, 0.22) 0 12px, transparent 12px),
       linear-gradient(315deg, rgba(31, 58, 147, 0.16) 0 12px, transparent 12px),
-      linear-gradient(180deg, #fcfaf4 0%, #eee5d7 100%);
+      linear-gradient(180deg, #fbf8f1 0%, #eee5d7 100%);
   }
 
   .install-app-help {
