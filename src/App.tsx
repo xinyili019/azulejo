@@ -162,8 +162,8 @@ export default function App() {
   const progressFileInputRef = useRef<HTMLInputElement | null>(null);
   const activeSessionRef = useRef<ActiveSessionState | null>(null);
   const restoredNavigationRef = useRef(false);
-  const situacaoSwipeStartRef = useRef<{ x: number; y: number } | null>(null);
-  const situacaoSwipeLastRef = useRef<{ x: number; y: number } | null>(null);
+  const modeSwipeStartRef = useRef<{ x: number; y: number } | null>(null);
+  const modeSwipeLastRef = useRef<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -436,6 +436,20 @@ export default function App() {
     window.scrollTo({ top: 0 });
   }
 
+  function showManualMode() {
+    if (appMode === "situacoes") {
+      handleSituacaoSessionBack();
+      return;
+    }
+    setAppMode("manual");
+    setGlobalSearchOpen(false);
+  }
+
+  function showSituacoesMode() {
+    setAppMode("situacoes");
+    setGlobalSearchOpen(false);
+  }
+
   function dismissSituacaoSwipeTip() {
     setSituacaoSwipeTipDismissed(true);
     setSetting(SITUACAO_SWIPE_TIP_SETTING, true).catch((error) => {
@@ -443,33 +457,41 @@ export default function App() {
     });
   }
 
-  function handleSituacaoSessionTouchStart(event: TouchEvent<HTMLElement>) {
+  function handleModeSwipeTouchStart(event: TouchEvent<HTMLElement>) {
     if (!isMobileViewport() || event.touches.length !== 1) return;
     const touch = event.touches[0];
-    if (touch.clientX > window.innerWidth * 0.15) return;
-    situacaoSwipeStartRef.current = { x: touch.clientX, y: touch.clientY };
-    situacaoSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
+    const startsAtLeftEdge = touch.clientX <= window.innerWidth * 0.15;
+    const startsAtRightEdge = touch.clientX >= window.innerWidth * 0.85;
+    if (!startsAtLeftEdge && !startsAtRightEdge) return;
+    modeSwipeStartRef.current = { x: touch.clientX, y: touch.clientY };
+    modeSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
   }
 
-  function handleSituacaoSessionTouchMove(event: TouchEvent<HTMLElement>) {
-    if (!situacaoSwipeStartRef.current || event.touches.length !== 1) return;
+  function handleModeSwipeTouchMove(event: TouchEvent<HTMLElement>) {
+    if (!modeSwipeStartRef.current || event.touches.length !== 1) return;
     const touch = event.touches[0];
-    situacaoSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
+    modeSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
   }
 
-  function handleSituacaoSessionTouchEnd(event: TouchEvent<HTMLElement>) {
-    const start = situacaoSwipeStartRef.current;
+  function handleModeSwipeTouchEnd(event: TouchEvent<HTMLElement>) {
+    const start = modeSwipeStartRef.current;
     const changedTouch = event.changedTouches[0];
-    const last = changedTouch ? { x: changedTouch.clientX, y: changedTouch.clientY } : situacaoSwipeLastRef.current;
-    situacaoSwipeStartRef.current = null;
-    situacaoSwipeLastRef.current = null;
+    const last = changedTouch ? { x: changedTouch.clientX, y: changedTouch.clientY } : modeSwipeLastRef.current;
+    modeSwipeStartRef.current = null;
+    modeSwipeLastRef.current = null;
     if (!start || !last) return;
 
     const horizontalDistance = last.x - start.x;
     const verticalDrift = Math.abs(last.y - start.y);
-    if (horizontalDistance >= 80 && verticalDrift < 40) {
-      handleSituacaoSessionBack();
-    }
+    if (verticalDrift >= 40) return;
+
+    if (start.x <= window.innerWidth * 0.15 && horizontalDistance >= 80) showManualMode();
+    if (start.x >= window.innerWidth * 0.85 && horizontalDistance <= -80) showSituacoesMode();
+  }
+
+  function handleModeSwipeTouchCancel() {
+    modeSwipeStartRef.current = null;
+    modeSwipeLastRef.current = null;
   }
 
   function restartSituacaoVocabulary() {
@@ -1127,6 +1149,7 @@ export default function App() {
   function renderModeTabs() {
     const showSituacaoSwipeTip =
       appMode === "situacoes" && situacaoTab === "vocabulario" && Boolean(activeSituacaoEntry) && situacaoSwipeTipDismissed === false;
+    const modeLabels = getModeTabLabels(ui.locale);
 
     return (
       <div className="header-nav-actions">
@@ -1136,24 +1159,18 @@ export default function App() {
             role="tab"
             aria-selected={appMode === "manual" && !globalSearchOpen}
             className={appMode === "manual" && !globalSearchOpen ? "is-active" : ""}
-            onClick={() => {
-              setAppMode("manual");
-              setGlobalSearchOpen(false);
-            }}
+            onClick={showManualMode}
           >
-            Manual
+            {modeLabels.manual}
           </button>
           <button
             type="button"
             role="tab"
             aria-selected={appMode === "situacoes" && !globalSearchOpen}
             className={appMode === "situacoes" && !globalSearchOpen ? "is-active" : ""}
-            onClick={() => {
-              setAppMode("situacoes");
-              setGlobalSearchOpen(false);
-            }}
+            onClick={showSituacoesMode}
           >
-            Situações
+            {modeLabels.situacoes}
           </button>
         </div>
         <button
@@ -1331,12 +1348,7 @@ export default function App() {
     return activeSituacaoEntry ? (
       <>
         {renderResumePrompt()}
-        <div
-          className="situacao-session-touch-area"
-          onTouchStart={handleSituacaoSessionTouchStart}
-          onTouchMove={handleSituacaoSessionTouchMove}
-          onTouchEnd={handleSituacaoSessionTouchEnd}
-        >
+        <div className="situacao-session-touch-area">
           <Flashcard
             entry={activeSituacaoEntry}
             direction={direction}
@@ -1619,7 +1631,13 @@ export default function App() {
   }
 
   return (
-    <main className="app-shell">
+    <main
+      className="app-shell"
+      onTouchStart={handleModeSwipeTouchStart}
+      onTouchMove={handleModeSwipeTouchMove}
+      onTouchEnd={handleModeSwipeTouchEnd}
+      onTouchCancel={handleModeSwipeTouchCancel}
+    >
       <span
         className="authorship-fingerprint"
         data-author={AUTHORSHIP_OWNER}
@@ -1816,10 +1834,16 @@ function getSituacaoControlLabel(locale: "en" | "zhHans" | "zhHant") {
   return "Situation";
 }
 
+function getModeTabLabels(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") return { manual: "课本", situacoes: "场景" };
+  if (locale === "zhHant") return { manual: "課本", situacoes: "場景" };
+  return { manual: "Manual", situacoes: "Situations" };
+}
+
 function getSituacaoSwipeTipCopy(locale: "en" | "zhHans" | "zhHant") {
-  if (locale === "zhHans") return "从屏幕左边缘向右滑，可返回手动学习。进度会保存。";
-  if (locale === "zhHant") return "從螢幕左邊緣向右滑，可返回手動學習。進度會儲存。";
-  return "Swipe right from the left edge to return to Manual. Your progress is saved.";
+  if (locale === "zhHans") return "从右边缘向左滑进入场景，从左边缘向右滑返回手动学习。进度会保存。";
+  if (locale === "zhHant") return "從右邊緣向左滑進入場景，從左邊緣向右滑返回手動學習。進度會儲存。";
+  return "Swipe left from the right edge for Situations, or right from the left edge for Manual. Your progress is saved.";
 }
 
 function getResumeSessionCopy(locale: "en" | "zhHans" | "zhHant") {

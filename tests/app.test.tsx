@@ -280,10 +280,47 @@ describe("App", () => {
     expect(screen.getByText("Módulo 1 · Basics", { selector: ".module-row > span" })).toBeInTheDocument();
   });
 
-  it("switches to Situações with vocabulary, dialogue, card, and readiness views", () => {
+  it("localizes mode tabs and preserves Manual state across mobile mode swipes", () => {
+    Object.defineProperty(window, "matchMedia", {
+      configurable: true,
+      value: vi.fn().mockReturnValue({ matches: true })
+    });
+    Object.defineProperty(window, "scrollTo", {
+      configurable: true,
+      value: vi.fn()
+    });
+
+    const { container } = render(<App />);
+    const appShell = container.querySelector(".app-shell");
+    expect(appShell).not.toBeNull();
+
+    fireEvent.click(screen.getByRole("button", { name: /reveal/i }));
+    expect(screen.getByText(vocabulary[0].english)).toBeInTheDocument();
+
+    fireEvent.touchStart(appShell!, { touches: [{ clientX: window.innerWidth - 5, clientY: 120 }] });
+    fireEvent.touchMove(appShell!, { touches: [{ clientX: window.innerWidth - 100, clientY: 128 }] });
+    fireEvent.touchEnd(appShell!, { changedTouches: [{ clientX: window.innerWidth - 100, clientY: 128 }] });
+    expect(screen.getByRole("tab", { name: "Situations" })).toHaveAttribute("aria-selected", "true");
+
+    fireEvent.touchStart(appShell!, { touches: [{ clientX: 5, clientY: 120 }] });
+    fireEvent.touchMove(appShell!, { touches: [{ clientX: 100, clientY: 128 }] });
+    fireEvent.touchEnd(appShell!, { changedTouches: [{ clientX: 100, clientY: 128 }] });
+    expect(screen.getByRole("tab", { name: "Manual" })).toHaveAttribute("aria-selected", "true");
+    expect(screen.getByText(vocabulary[0].english)).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText(/language/i), { target: { value: "pt-zh-hans" } });
+    expect(screen.getByRole("tab", { name: "课本" })).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "场景" })).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText("语言"), { target: { value: "pt-zh-hant" } });
+    expect(screen.getByRole("tab", { name: "課本" })).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "場景" })).toBeInTheDocument();
+  });
+
+  it("switches to Situations with vocabulary, dialogue, card, and readiness views", () => {
     render(<App />);
 
-    fireEvent.click(screen.getByRole("tab", { name: "Situações" }));
+    fireEvent.click(screen.getByRole("tab", { name: "Situations" }));
 
     expect(screen.getByRole("combobox", { name: "Situação" })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "Vocabulário" })).toHaveAttribute("aria-selected", "true");
@@ -500,7 +537,7 @@ describe("App", () => {
     const play = vi.mocked(window.HTMLMediaElement.prototype.play);
     const speak = vi.mocked(window.speechSynthesis.speak);
 
-    fireEvent.click(screen.getByRole("tab", { name: "Situações" }));
+    fireEvent.click(screen.getByRole("tab", { name: "Situations" }));
     fireEvent.change(screen.getByRole("combobox", { name: "Situação" }), { target: { value: "financas" } });
     play.mockClear();
     speak.mockClear();
