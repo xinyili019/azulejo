@@ -16,24 +16,36 @@ const voice = process.env.AZULEJO_TTS_VOICE ?? "Joana";
 
 const source = readFileSync(sourcePath, "utf8");
 const situacoesSource = readFileSync(situacoesSourcePath, "utf8");
-const entries = [...source.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"portuguese":\s*"([^"]+)"[\s\S]*?"examplePt":\s*"([^"]+)"/g)].map(
-  (match) => ({
-    id: match[1],
-    portuguese: match[2],
-    examplePt: match[3]
-  })
-);
+const entries = JSON.parse(
+  source.match(/export const vocabulary: VocabularyEntry\[] = ([\s\S]*?) satisfies VocabularyEntry\[];/)?.[1] ?? "[]"
+).map((entry) => ({
+  id: entry.id,
+  audioId: entry.legacyIds?.[0] ?? entry.id,
+  portuguese: entry.portuguese,
+  examplePt: entry.examplePt
+}));
 const manualIdsByTerm = new Map(entries.map((entry) => [normalizePortugueseTerm(entry.portuguese), entry.id]));
+const manualAudioIdsById = new Map(entries.map((entry) => [entry.id, entry.audioId]));
 const situacaoVocabularyRows = extractExportedJson("situacaoVocabularyRows");
 const situacaoDialogueLines = extractExportedJson("situacaoDialogueLines");
 const situacaoCheatSheetLines = extractExportedJson("situacaoCheatSheetLines");
 const situacaoWordEntries = new Map();
+const manualEntryIds = new Set(entries.map((entry) => entry.id));
 
 for (const row of situacaoVocabularyRows) {
   const termKey = normalizePortugueseTerm(row.pt);
-  const id = manualIdsByTerm.get(termKey) ?? createSituacaoId(row.pt);
-  if (!situacaoWordEntries.has(id)) {
-    situacaoWordEntries.set(id, { id, portuguese: row.pt });
+  const id = row.id ?? manualIdsByTerm.get(termKey) ?? createSituacaoId(row.pt);
+  const audioId = manualAudioIdsById.get(id) ?? row.legacyIds?.[0] ?? id;
+  const existingEntry = situacaoWordEntries.get(id);
+  if (!existingEntry) {
+    situacaoWordEntries.set(id, {
+      id,
+      audioId,
+      portuguese: row.pt,
+      examplePt: manualEntryIds.has(id) ? undefined : row.examplePt
+    });
+  } else if (!manualEntryIds.has(id) && !existingEntry.examplePt && row.examplePt) {
+    existingEntry.examplePt = row.examplePt;
   }
 }
 
@@ -68,7 +80,7 @@ let generatedSituacaoLines = 0;
 let skippedSituacaoLines = 0;
 
 for (const entry of entries) {
-  const outputPath = join(outputDir, `${entry.id}.m4a`);
+  const outputPath = join(outputDir, `${entry.audioId}.m4a`);
   if (!force && exists(outputPath)) {
     skippedWords += 1;
   } else {
@@ -76,7 +88,7 @@ for (const entry of entries) {
     generatedWords += 1;
   }
 
-  const exampleOutputPath = join(exampleOutputDir, `${entry.id}.m4a`);
+  const exampleOutputPath = join(exampleOutputDir, `${entry.audioId}.m4a`);
   if (!force && exists(exampleOutputPath)) {
     skippedExamples += 1;
   } else {
@@ -86,12 +98,22 @@ for (const entry of entries) {
 }
 
 for (const entry of situacaoWordEntries.values()) {
-  const outputPath = join(outputDir, `${entry.id}.m4a`);
+  const outputPath = join(outputDir, `${entry.audioId}.m4a`);
   if (!force && exists(outputPath)) {
     skippedWords += 1;
   } else {
     generateAudio(outputPath, speechText(entry.portuguese), entry.id);
     generatedWords += 1;
+  }
+
+  if (entry.examplePt) {
+    const exampleOutputPath = join(exampleOutputDir, `${entry.audioId}.m4a`);
+    if (!force && exists(exampleOutputPath)) {
+      skippedExamples += 1;
+    } else {
+      generateAudio(exampleOutputPath, speechText(entry.examplePt), `${entry.id} example`);
+      generatedExamples += 1;
+    }
   }
 }
 

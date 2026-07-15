@@ -1,5 +1,5 @@
 import { Check, ChevronDown, RotateCcw, Search, Volume2 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { situacaoLabels } from "../data/situacoes";
 import type { CardStatus, Direction, ProgressState, VocabularyEntry } from "../types";
 import { getExampleAudioPath, getWordAudioPath } from "../lib/audioPaths";
@@ -17,10 +17,15 @@ interface GlobalSearchViewProps {
   onSetStatus: (entry: VocabularyEntry, status: Exclude<CardStatus, "new">) => void;
 }
 
+const MAX_RELATED_RESULTS = 20;
+const SEARCH_PAGE_SIZE = 60;
+
 export function GlobalSearchView({ entries, progress, direction, ui, onBack, onSetStatus }: GlobalSearchViewProps) {
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [visibleLimit, setVisibleLimit] = useState(SEARCH_PAGE_SIZE);
+  const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const timeoutId = window.setTimeout(() => setDebouncedQuery(query), 150);
@@ -28,7 +33,23 @@ export function GlobalSearchView({ entries, progress, direction, ui, onBack, onS
   }, [query]);
 
   const results = useMemo(() => searchEntries(entries, debouncedQuery), [entries, debouncedQuery]);
+  const visibleResults = results.slice(0, visibleLimit);
   const copy = getGlobalSearchCopy(ui.locale);
+
+  useEffect(() => {
+    setVisibleLimit(SEARCH_PAGE_SIZE);
+  }, [debouncedQuery]);
+
+  useEffect(() => {
+    const target = loadMoreRef.current;
+    if (!target || visibleLimit >= results.length || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry?.isIntersecting) setVisibleLimit((current) => current + SEARCH_PAGE_SIZE);
+    }, { rootMargin: "240px" });
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [results.length, visibleLimit]);
 
   function playEntryAudio(entry: VocabularyEntry) {
     const path = entry.examplePt ? getExampleAudioPath(entry) : getWordAudioPath(entry);
@@ -71,7 +92,7 @@ export function GlobalSearchView({ entries, progress, direction, ui, onBack, onS
           </div>
         )}
 
-        {results.map((entry) => {
+        {visibleResults.map((entry) => {
           const status = getCardProgress(progress, entry.id).status;
           const isExpanded = expandedId === entry.id;
 
@@ -127,20 +148,43 @@ export function GlobalSearchView({ entries, progress, direction, ui, onBack, onS
             </article>
           );
         })}
+        {visibleLimit < results.length && (
+          <div className="global-search-more" ref={loadMoreRef}>
+            <button className="secondary" type="button" onClick={() => setVisibleLimit((current) => current + SEARCH_PAGE_SIZE)}>
+              {copy.showMore}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
 }
 
-function searchEntries(entries: VocabularyEntry[], query: string) {
+export function searchEntries(entries: VocabularyEntry[], query: string) {
   const needle = normalizeSearchText(query);
   if (!needle) return entries;
 
-  return entries
+  const directResults = entries
     .map((entry, index) => ({ entry, index, rank: getSearchRank(entry, needle) }))
     .filter((result) => result.rank < 100)
+    .sort((a, b) => a.rank - b.rank || a.index - b.index);
+
+  if (directResults.length === 0) return [];
+
+  const directIds = new Set(directResults.map(({ entry }) => entry.id));
+  const relatedSituacoes = new Set(directResults.flatMap(({ entry }) => entry.situacoes ?? []));
+  const relatedResults = entries
+    .map((entry, index) => ({ entry, index, rank: getRelatedRank(entry, relatedSituacoes) }))
+    .filter(({ entry, rank }) => !directIds.has(entry.id) && rank < 100)
     .sort((a, b) => a.rank - b.rank || a.index - b.index)
-    .map((result) => result.entry);
+    .slice(0, MAX_RELATED_RESULTS);
+
+  return [...directResults, ...relatedResults].map(({ entry }) => entry);
+}
+
+function getRelatedRank(entry: VocabularyEntry, situacoes: Set<string>) {
+  if (entry.situacoes?.some((situacao) => situacoes.has(situacao))) return 3;
+  return 100;
 }
 
 function getSearchRank(entry: VocabularyEntry, needle: string) {
@@ -209,6 +253,7 @@ function getGlobalSearchCopy(locale: UiCopy["locale"]) {
       noWords: "词库里还没有词。",
       noResults: "没有找到匹配的词。换个关键词试试。",
       count: (count: number) => `${count} 个词`,
+      showMore: "显示更多",
       status: { new: "未学", again: "复习中", known: "已掌握" }
     };
   }
@@ -221,6 +266,7 @@ function getGlobalSearchCopy(locale: UiCopy["locale"]) {
       noWords: "詞庫裡還沒有單字。",
       noResults: "沒有找到符合的單字。換個關鍵詞試試。",
       count: (count: number) => `${count} 個單字`,
+      showMore: "顯示更多",
       status: { new: "未學", again: "複習中", known: "已掌握" }
     };
   }
@@ -232,6 +278,7 @@ function getGlobalSearchCopy(locale: UiCopy["locale"]) {
     noWords: "No words in the bank yet.",
     noResults: "No matching words. Try another spelling.",
     count: (count: number) => `${count} ${count === 1 ? "word" : "words"}`,
+    showMore: "Show more",
     status: { new: "unseen", again: "in review", known: "learned" }
   };
 }

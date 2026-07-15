@@ -46,11 +46,13 @@ export function Flashcard({
   const directAutoPlayRef = useRef<string | null>(null);
   const translationId = `translation-${entry.id}`;
   const prompt = getPrompt(entry, direction);
+  const answer = getAnswer(entry, direction);
   const exampleTranslation = getExampleTranslation(entry, direction);
   const hasExample = Boolean(entry.examplePt);
   const hasTranslation = Boolean(exampleTranslation);
   const isFirstWord = FIRST_WORD_IDS.has(entry.id);
   const cardTermSize = getCardTermSize(prompt);
+  const cardAnswerSize = getCardTermSize(answer);
   const portugueseIsFront = isPortugueseFrontDirection(direction);
   const portugueseIsBackAnswer = !portugueseIsFront;
   const shouldAutoPlayPronunciation = autoPlayPronunciation && (portugueseIsFront || revealed);
@@ -120,7 +122,10 @@ export function Flashcard({
       <section
         className="flashcard"
         aria-label={ui.flashcard}
-        style={{ "--card-term-size-adjustment": cardTermSize } as CSSProperties}
+        style={{
+          "--card-term-size-adjustment": cardTermSize,
+          "--card-answer-size-adjustment": cardAnswerSize
+        } as CSSProperties}
       >
       {showFirstWordCue && !revealed && (
         <p id="flashcard-instruction" className="flashcard-instruction">
@@ -149,13 +154,12 @@ export function Flashcard({
               <span className="tile-content tile-content-back">
                 <span className="answer-pair">
                   <span className="answer-reference">{renderTerm(prompt, portugueseIsFront, entry)}</span>
-                  <span className="answer">{renderTerm(getAnswer(entry, direction), portugueseIsBackAnswer, entry)}</span>
+                  <span className="answer">{renderTerm(answer, portugueseIsBackAnswer, entry)}</span>
                 </span>
                 {(hasExample || hasTranslation) && (
                   <span className={`example-disclosure translation-disclosure ${translationOpen ? "open" : ""}`}>
                     {entry.examplePt && (
                       <span className="example example-with-audio">
-                        <span>{entry.examplePt}</span>
                         <button
                           className="icon-button example-audio"
                           type="button"
@@ -169,6 +173,7 @@ export function Flashcard({
                         >
                           <Volume2 size={16} aria-hidden="true" />
                         </button>
+                        <span>{entry.examplePt}</span>
                       </span>
                     )}
                     {exampleTranslation && (

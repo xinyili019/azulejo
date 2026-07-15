@@ -4692,6 +4692,26 @@ export const vocabulary: VocabularyEntry[] = [
     "source": "pdf"
   },
   {
+    "id": "az-0658",
+    "legacyIds": [
+      "situacao-a-aima",
+      "az-0215",
+      "m5-servico-de-estrangeiros-e-fronteiras"
+    ],
+    "modulo": "Módulo 5",
+    "theme": "Serviços e comércio",
+    "portuguese": "AIMA",
+    "english": "Agency for Integration, Migration and Asylum",
+    "zhHans": "移民与庇护融合署",
+    "zhHant": "移民與庇護融合署",
+    "pos": "noun",
+    "examplePt": "Tenho marcação na AIMA.",
+    "exampleEn": "I have an appointment at AIMA.",
+    "exampleZhHans": "我在 AIMA 有预约。",
+    "exampleZhHant": "我在 AIMA 有預約。",
+    "source": "pdf"
+  },
+  {
     "id": "az-0214",
     "legacyIds": [
       "m5-banco"
@@ -4727,25 +4747,6 @@ export const vocabulary: VocabularyEntry[] = [
     "exampleEn": "This service helps users.",
     "exampleZhHans": "这项服务帮助用户。",
     "exampleZhHant": "這項服務幫助使用者。",
-    "source": "pdf"
-  },
-  {
-    "id": "az-0215",
-    "legacyIds": [
-      "m5-servico-de-estrangeiros-e-fronteiras"
-    ],
-    "modulo": "Módulo 5",
-    "theme": "Serviços e comércio",
-    "portuguese": "o Serviço de Estrangeiros e Fronteiras",
-    "english": "foreigners and borders service",
-    "zhHans": "外国人和边境服务局",
-    "zhHant": "外國人和邊境服務局",
-    "pos": "noun",
-    "gender": "m",
-    "examplePt": "Tenho marcação no Serviço de Estrangeiros e Fronteiras.",
-    "exampleEn": "I have an appointment at the Foreigners and Borders Service.",
-    "exampleZhHans": "我在移民和边境服务局有预约。",
-    "exampleZhHant": "我在移民和邊境服務局有預約。",
     "source": "pdf"
   },
   {

@@ -1,0 +1,396 @@
+﻿scenario,section,order,speaker,pt,en,zh_hant,zh_hans,example_pt,example_zh_hant,example_zh_hans
+Veterinário,vocabulario,1,,o veterinário,veterinarian,獸醫,兽医,O veterinário é simpático.,獸醫人很好。,兽医人很好。
+Veterinário,vocabulario,2,,a clínica veterinária,veterinary clinic,獸醫診所,兽医诊所,A clínica abre às nove.,診所九點開門。,诊所九点开门。
+Veterinário,vocabulario,3,,o animal de estimação,pet,寵物,宠物,Tens animais de estimação?,你有養寵物嗎？,你有养宠物吗？
+Veterinário,vocabulario,4,,o cão,dog,狗,狗,O meu cão chama-se Rex.,我的狗叫Rex。,我的狗叫Rex。
+Veterinário,vocabulario,5,,o gato,cat,貓,猫,O gato dorme muito.,貓睡很多。,猫睡很多。
+Veterinário,vocabulario,6,,a vacina,vaccine,疫苗,疫苗,A vacina está em dia.,疫苗都是最新的。,疫苗都是最新的。
+Veterinário,vocabulario,7,,vacinar,to vaccinate,打疫苗,打疫苗,Vamos vacinar o cão.,我們去幫狗打疫苗。,我们去帮狗打疫苗。
+Veterinário,vocabulario,8,,a desparasitação,deworming,驅蟲,驱虫,Fiz a desparasitação em casa.,我在家幫牠驅蟲了。,我在家帮它驱虫了。
+Veterinário,vocabulario,9,,o microchip,microchip,晶片,芯片,O gato já tem microchip.,貓已經植入晶片了。,猫已经植入芯片了。
+Veterinário,vocabulario,10,,o registo,registration,登記,登记,O registo é obrigatório.,登記是強制的。,登记是强制的。
+Veterinário,vocabulario,11,,a consulta,appointment,看診,看诊,Marquei consulta para hoje.,我約了今天看診。,我约了今天看诊。
+Veterinário,vocabulario,12,,a urgência,emergency,急診,急诊,Fomos à urgência ontem.,我們昨天去了急診。,我们昨天去了急诊。
+Veterinário,vocabulario,13,,a ração,pet food,飼料,饲料,Comprei ração nova.,我買了新的飼料。,我买了新的饲料。
+Veterinário,vocabulario,14,,a trela,leash,牽繩,牵绳,Usa sempre a trela.,要一直用牽繩。,要一直用牵绳。
+Veterinário,vocabulario,15,,o açaime,muzzle,嘴套,嘴套,O açaime é obrigatório?,一定要戴嘴套嗎？,一定要戴嘴套吗？
+Veterinário,vocabulario,16,,a coleira,collar,項圈,项圈,A coleira é vermelha.,項圈是紅色的。,项圈是红色的。
+Veterinário,vocabulario,17,,a transportadora,pet carrier,寵物提籠,宠物提笼,O gato odeia a transportadora.,貓討厭提籠。,猫讨厌提笼。
+Veterinário,vocabulario,18,,a esterilização,spaying / neutering,絕育,绝育,A esterilização é amanhã.,明天做絕育手術。,明天做绝育手术。
+Veterinário,vocabulario,19,,vomitar,to vomit,嘔吐,呕吐,Ele vomitou de manhã.,牠早上吐了。,它早上吐了。
+Veterinário,vocabulario,20,,a diarreia,diarrhea,腹瀉,腹泻,O cão tem diarreia.,狗拉肚子了。,狗拉肚子了。
+Veterinário,vocabulario,21,,a ferida,wound,傷口,伤口,A ferida está a sarar.,傷口在癒合。,伤口在愈合。
+Veterinário,vocabulario,22,,a pata,paw,爪子,爪子,Ele magoou a pata.,牠的腳受傷了。,它的脚受伤了。
+Veterinário,vocabulario,23,,o pelo,fur,毛,毛,O pelo cai muito.,牠掉很多毛。,它掉很多毛。
+Veterinário,vocabulario,24,,a pulga,flea,跳蚤,跳蚤,Acho que tem pulgas.,我覺得牠有跳蚤。,我觉得它有跳蚤。
+Veterinário,vocabulario,25,,a carraça,tick,蜱蟲,蜱虫,Encontrei uma carraça nele.,我在牠身上找到一隻蜱蟲。,我在它身上找到一只蜱虫。
+Veterinário,vocabulario,26,,o comprimido,pill,藥片,药片,Dá-lhe meio comprimido.,給牠半顆藥片。,给它半颗药片。
+Veterinário,vocabulario,27,,a pomada,ointment,藥膏,药膏,Põe pomada na ferida.,在傷口塗藥膏。,在伤口涂药膏。
+Veterinário,vocabulario,28,,morder,to bite,咬,咬,O cão não morde.,這隻狗不咬人。,这只狗不咬人。
+Veterinário,vocabulario,29,,arranhar,to scratch (something),抓,抓,O gato arranhou o sofá.,貓抓壞了沙發。,猫抓坏了沙发。
+Veterinário,vocabulario,30,,ladrar,to bark,吠叫,吠叫,Ele ladra à noite.,牠晚上會吠。,它晚上会吠。
+Veterinário,vocabulario,31,,miar,to meow,喵喵叫,喵喵叫,A gata mia muito.,母貓很愛叫。,母猫很爱叫。
+Veterinário,vocabulario,32,,pesar,to weigh,稱重,称重,Vamos pesar o gato.,我們來幫貓量體重。,我们来帮猫量体重。
+Veterinário,vocabulario,33,,o passaporte de animal,pet passport,寵物護照,宠物护照,Ele já tem passaporte.,牠已經有寵物護照了。,它已经有宠物护照了。
+Veterinário,vocabulario,34,,coçar-se,to scratch oneself,抓癢,抓痒,Ele coça-se muito.,牠一直抓癢。,它一直抓痒。
+Veterinário,dialogo,1,A,"Bom dia, queria marcar uma consulta.","Good morning, I'd like to book an appointment.",早安，我想預約看診。,早上好，我想预约看诊。,,,
+Veterinário,dialogo,2,B,Claro. É para que animal?,Of course. For which animal?,好的。是哪隻動物？,好的。是哪只动物？,,,
+Veterinário,dialogo,3,A,Para o meu gato. Não come há dois dias.,For my cat. He hasn't eaten for two days.,我的貓。牠兩天沒吃了。,我的猫。它两天没吃了。,,,
+Veterinário,dialogo,4,B,Está a vomitar ou tem diarreia?,"Is he vomiting, or does he have diarrhea?",有嘔吐或腹瀉嗎？,有呕吐或腹泻吗？,,,
+Veterinário,dialogo,5,A,Vomitou ontem duas vezes.,He vomited twice yesterday.,昨天吐了兩次。,昨天吐了两次。,,,
+Veterinário,dialogo,6,B,Pode vir hoje às quatro?,Can you come today at four?,今天四點能來嗎？,今天四点能来吗？,,,
+Veterinário,dialogo,7,A,"Sim, pode ser. Obrigado.","Yes, that works. Thank you.",可以，謝謝。,可以，谢谢。,,,
+Veterinário,dialogo,8,B,O gato tem microchip e vacinas em dia?,Does the cat have a microchip and up-to-date vaccines?,貓有晶片嗎？疫苗打了嗎？,猫有芯片吗？疫苗打了吗？,,,
+Veterinário,dialogo,9,A,"Tem chip, mas a vacina está atrasada.","He has a chip, but the vaccine is overdue.",有晶片，但疫苗過期了。,有芯片，但疫苗过期了。,,,
+Veterinário,dialogo,10,B,Então aproveitamos e vacinamos.,Then we'll take the chance to vaccinate him.,那就順便打疫苗。,那就顺便打疫苗。,,,
+Veterinário,dialogo,11,A,Quanto custa a consulta?,How much is the appointment?,看診多少錢？,看诊多少钱？,,,
+Veterinário,dialogo,12,B,"São trinta euros, sem os medicamentos.","It's thirty euros, not counting medication.",三十歐元，不含藥。,三十欧元，不含药。,,,
+Veterinário,dialogo,13,A,Ele precisa de ficar internado?,Does he need to stay overnight?,牠需要住院嗎？,它需要住院吗？,,,
+Veterinário,dialogo,14,B,Primeiro fazemos análises.,First we'll run some tests.,先做檢查。,先做检查。,,,
+Veterinário,dialogo,15,A,Ele tem medo. Posso ficar ao lado?,He's scared. Can I stay by his side?,牠會怕，我能陪著嗎？,它会怕，我能陪着吗？,,,
+Veterinário,dialogo,16,B,Claro que pode.,Of course you can.,當然可以。,当然可以。,,,
+Veterinário,cartao,1,,O meu cão não come.,My dog isn't eating.,我的狗不吃東西。,我的狗不吃东西。,,,
+Veterinário,cartao,2,,O meu gato está a vomitar.,My cat is vomiting.,我的貓在嘔吐。,我的猫在呕吐。,,,
+Veterinário,cartao,3,,Preciso de uma consulta urgente.,I need an urgent appointment.,我需要緊急看診。,我需要紧急看诊。,,,
+Veterinário,cartao,4,,É grave?,Is it serious?,嚴重嗎？,严重吗？,,,
+Veterinário,cartao,5,,A vacina está em dia?,Are the vaccines up to date?,疫苗都打了嗎？,疫苗都打了吗？,,,
+Veterinário,cartao,6,,Quanto custa a vacina?,How much is the vaccine?,疫苗多少錢？,疫苗多少钱？,,,
+Veterinário,cartao,7,,Ele tem microchip.,He has a microchip.,牠有晶片。,它有芯片。,,,
+Veterinário,cartao,8,,Queria desparasitar o meu gato.,I'd like to deworm my cat.,我想幫貓驅蟲。,我想帮猫驱虫。,,,
+Veterinário,cartao,9,,Ele coça-se muito.,He scratches himself a lot.,牠一直抓癢。,它一直抓痒。,,,
+Veterinário,cartao,10,,Acho que tem pulgas.,I think he has fleas.,我覺得牠有跳蚤。,我觉得它有跳蚤。,,,
+Veterinário,cartao,11,,Quero esterilizar a minha gata.,I want to spay my cat.,我想讓母貓絕育。,我想让母猫绝育。,,,
+Veterinário,cartao,12,,Que ração recomenda?,What food do you recommend?,推薦哪種飼料？,推荐哪种饲料？,,,
+Veterinário,cartao,13,,Ele precisa de açaime?,Does he need a muzzle?,牠需要嘴套嗎？,它需要嘴套吗？,,,
+Veterinário,cartao,14,,Posso ficar com ele?,Can I stay with him?,我可以陪牠嗎？,我可以陪它吗？,,,
+Veterinário,cartao,15,,Ele magoou a pata.,He hurt his paw.,牠的腳受傷了。,它的脚受伤了。,,,
+Veterinário,cartao,16,,Quando volto cá?,When do I come back?,我什麼時候回診？,我什么时候回诊？,,,
+Ginásio,vocabulario,1,,o ginásio,gym,健身房,健身房,Vou ao ginásio à noite.,我晚上去健身房。,我晚上去健身房。
+Ginásio,vocabulario,2,,a inscrição,enrollment,報名,报名,A inscrição faz-se online.,報名在線上辦理。,报名在线上办理。
+Ginásio,vocabulario,3,,inscrever-se,to sign up,報名,报名,Quero inscrever-me hoje.,我想今天報名。,我想今天报名。
+Ginásio,vocabulario,4,,a mensalidade,monthly fee,月費,月费,A mensalidade é de trinta euros.,月費是三十歐元。,月费是三十欧元。
+Ginásio,vocabulario,5,,a taxa de inscrição,joining fee,入會費,入会费,A taxa de inscrição paga-se uma vez.,入會費只付一次。,入会费只付一次。
+Ginásio,vocabulario,6,,a fidelização,loyalty period (lock-in),綁約,绑约,Não quero fidelização.,我不想綁約。,我不想绑约。
+Ginásio,vocabulario,7,,o contrato,contract,合約,合约,Li o contrato todo.,我把合約全看了。,我把合约全看了。
+Ginásio,vocabulario,8,,cancelar,to cancel,取消,取消,Quero cancelar a inscrição.,我想取消會籍。,我想取消会籍。
+Ginásio,vocabulario,9,,a aula experimental,trial class,體驗課,体验课,A aula experimental é grátis.,體驗課是免費的。,体验课是免费的。
+Ginásio,vocabulario,10,,a aula de grupo,group class,團體課,团体课,Adoro as aulas de grupo.,我很喜歡團體課。,我很喜欢团体课。
+Ginásio,vocabulario,11,,o treino,workout,訓練,训练,O treino foi duro.,這次訓練很累。,这次训练很累。
+Ginásio,vocabulario,12,,o treinador,trainer,教練,教练,O treinador ajuda-me muito.,教練幫了我很多。,教练帮了我很多。
+Ginásio,vocabulario,13,,o plano de treino,training plan,訓練計劃,训练计划,Segue o plano de treino.,按照訓練計劃做。,按照训练计划做。
+Ginásio,vocabulario,14,,o cacifo,locker,置物櫃,置物柜,Deixei tudo no cacifo.,我把東西都放在置物櫃。,我把东西都放在置物柜。
+Ginásio,vocabulario,15,,o cadeado,padlock,掛鎖,挂锁,Esqueci-me do cadeado.,我忘了帶掛鎖。,我忘了带挂锁。
+Ginásio,vocabulario,16,,o balneário,changing room,更衣室,更衣室,O balneário está limpo.,更衣室很乾淨。,更衣室很干净。
+Ginásio,vocabulario,17,,o chuveiro,shower,淋浴,淋浴,O chuveiro é quente.,淋浴的水是熱的。,淋浴的水是热的。
+Ginásio,vocabulario,18,,a toalha,towel,毛巾,毛巾,A toalha é obrigatória.,毛巾是必備的。,毛巾是必备的。
+Ginásio,vocabulario,19,,as sapatilhas,sneakers,運動鞋,运动鞋,Comprei sapatilhas novas.,我買了新運動鞋。,我买了新运动鞋。
+Ginásio,vocabulario,20,,a passadeira,treadmill,跑步機,跑步机,Corro na passadeira.,我在跑步機上跑步。,我在跑步机上跑步。
+Ginásio,vocabulario,21,,os halteres,dumbbells,啞鈴,哑铃,Os halteres são pesados.,這些啞鈴很重。,这些哑铃很重。
+Ginásio,vocabulario,22,,a elíptica,elliptical machine,橢圓機,椭圆机,Prefiro a elíptica à passadeira.,比起跑步機我更愛橢圓機。,比起跑步机我更爱椭圆机。
+Ginásio,vocabulario,23,,a bicicleta estática,exercise bike,健身車,健身车,Faço bicicleta vinte minutos.,我踩健身車二十分鐘。,我踩健身车二十分钟。
+Ginásio,vocabulario,24,,o remo,rowing machine,划船機,划船机,O remo cansa muito.,划船機很累人。,划船机很累人。
+Ginásio,vocabulario,25,,a barra,barbell,槓鈴,杠铃,A barra pesa vinte quilos.,槓鈴重二十公斤。,杠铃重二十公斤。
+Ginásio,vocabulario,26,,a máquina,machine (gym),器械,器械,Esta máquina está ocupada.,這台器械有人在用。,这台器械有人在用。
+Ginásio,vocabulario,27,,o peso,weight,重量,重量,Baixa um pouco o peso.,把重量調輕一點。,把重量调轻一点。
+Ginásio,vocabulario,28,,o alongamento,stretching,伸展,伸展,Faz alongamentos no fim.,最後要做伸展。,最后要做伸展。
+Ginásio,vocabulario,29,,o aquecimento,warm-up,熱身,热身,Nunca saltes o aquecimento.,千萬別跳過熱身。,千万别跳过热身。
+Ginásio,vocabulario,30,,a musculação,weight training,重量訓練,重量训练,Prefiro musculação a cardio.,我愛重訓勝過有氧。,我爱重训胜过有氧。
+Ginásio,vocabulario,31,,o horário,opening hours,營業時間,营业时间,O horário é alargado.,營業時間很長。,营业时间很长。
+Ginásio,vocabulario,32,,o cartão de sócio,membership card,會員卡,会员卡,Traz o cartão de sócio.,帶上會員卡。,带上会员卡。
+Ginásio,vocabulario,33,,a avaliação física,fitness assessment,體能評估,体能评估,Fiz a avaliação física ontem.,我昨天做了體能評估。,我昨天做了体能评估。
+Ginásio,vocabulario,34,,a lesão,injury,損傷,损伤,Tenho uma lesão no joelho.,我膝蓋受傷了。,我膝盖受伤了。
+Ginásio,vocabulario,35,,magoar-se,to hurt oneself,受傷,受伤,Magoei-me nas costas.,我背受傷了。,我背受伤了。
+Ginásio,vocabulario,36,,suar,to sweat,流汗,流汗,Suei imenso hoje.,我今天流了好多汗。,我今天流了好多汗。
+Ginásio,dialogo,1,A,"Boa tarde, queria informações sobre a inscrição.","Good afternoon, I'd like some information about signing up.",午安，我想了解報名資訊。,下午好，我想了解报名信息。,,,
+Ginásio,dialogo,2,B,Com certeza. Já conhece o ginásio?,Of course. Do you know the gym already?,好的。您來過這家健身房嗎？,好的。您来过这家健身房吗？,,,
+Ginásio,dialogo,3,A,"Não, é a primeira vez.","No, it's my first time.",沒有，第一次來。,没有，第一次来。,,,
+Ginásio,dialogo,4,B,Quer fazer uma aula experimental grátis?,Would you like a free trial class?,想上免費體驗課嗎？,想上免费体验课吗？,,,
+Ginásio,dialogo,5,A,"Sim, ótimo. Quanto é a mensalidade?","Yes, great. How much is the monthly fee?",好啊。月費多少？,好啊。月费多少？,,,
+Ginásio,dialogo,6,B,"Trinta euros, com fidelização de um ano.","Thirty euros, with a one-year lock-in.",三十歐元，綁約一年。,三十欧元，绑约一年。,,,
+Ginásio,dialogo,7,A,E sem fidelização?,And without the lock-in?,不綁約呢？,不绑约呢？,,,
+Ginásio,dialogo,8,B,Fica em quarenta euros por mês.,It comes to forty euros a month.,那就每月四十歐元。,那就每月四十欧元。,,,
+Ginásio,dialogo,9,A,A taxa de inscrição está incluída?,Is the joining fee included?,含入會費嗎？,含入会费吗？,,,
+Ginásio,dialogo,10,B,"São vinte euros, pagos só uma vez.","It's twenty euros, paid one time only.",二十歐元，只收一次。,二十欧元，只收一次。,,,
+Ginásio,dialogo,11,A,Posso cancelar quando quiser?,Can I cancel whenever I want?,可以隨時取消嗎？,可以随时取消吗？,,,
+Ginásio,dialogo,12,B,"Sem fidelização, sim, com um mês de aviso.","Without the lock-in, yes, with one month's notice.",不綁約可以，提前一個月通知。,不绑约可以，提前一个月通知。,,,
+Ginásio,dialogo,13,A,Qual é o horário?,What are the opening hours?,營業時間是？,营业时间是？,,,
+Ginásio,dialogo,14,B,"Das sete às vinte e duas, todos os dias.","From seven to ten p.m., every day.",每天七點到二十二點。,每天七点到二十二点。,,,
+Ginásio,dialogo,15,A,Preciso de trazer toalha?,Do I need to bring a towel?,要自備毛巾嗎？,要自备毛巾吗？,,,
+Ginásio,dialogo,16,B,"Sim, a toalha é obrigatória.","Yes, a towel is mandatory.",要，毛巾是必備的。,要，毛巾是必备的。,,,
+Ginásio,cartao,1,,Quanto é a mensalidade?,How much is the monthly fee?,月費多少？,月费多少？,,,
+Ginásio,cartao,2,,Há fidelização?,Is there a lock-in period?,有綁約嗎？,有绑约吗？,,,
+Ginásio,cartao,3,,Posso cancelar quando quiser?,Can I cancel anytime?,可以隨時取消嗎？,可以随时取消吗？,,,
+Ginásio,cartao,4,,Queria uma aula experimental.,I'd like a trial class.,我想上體驗課。,我想上体验课。,,,
+Ginásio,cartao,5,,A taxa de inscrição está incluída?,Is the joining fee included?,含入會費嗎？,含入会费吗？,,,
+Ginásio,cartao,6,,Qual é o horário?,What are the opening hours?,營業時間是？,营业时间是？,,,
+Ginásio,cartao,7,,Há aulas de grupo?,Are there group classes?,有團體課嗎？,有团体课吗？,,,
+Ginásio,cartao,8,,Preciso de trazer toalha?,Do I need to bring a towel?,要自備毛巾嗎？,要自备毛巾吗？,,,
+Ginásio,cartao,9,,Onde são os balneários?,Where are the changing rooms?,更衣室在哪？,更衣室在哪？,,,
+Ginásio,cartao,10,,Onde estão os cacifos?,Where are the lockers?,置物櫃在哪？,置物柜在哪？,,,
+Ginásio,cartao,11,,Preciso de cadeado?,Do I need a padlock?,需要掛鎖嗎？,需要挂锁吗？,,,
+Ginásio,cartao,12,,Como funciona esta máquina?,How does this machine work?,這台器械怎麼用？,这台器械怎么用？,,,
+Ginásio,cartao,13,,"Pode ajudar-me, por favor?","Can you help me, please?",可以幫我嗎？,可以帮我吗？,,,
+Ginásio,cartao,14,,Magoei-me no treino.,I hurt myself training.,我訓練時受傷了。,我训练时受伤了。,,,
+Ginásio,cartao,15,,Quero falar com um treinador.,I want to talk to a trainer.,我想找教練。,我想找教练。,,,
+Ginásio,cartao,16,,Quero cancelar o contrato.,I want to cancel my contract.,我想解約。,我想解约。,,,
+Convívio,vocabulario,1,,o convite,invitation,邀請,邀请,"Aceito o convite, obrigado.",我接受邀請，謝謝。,我接受邀请，谢谢。
+Convívio,vocabulario,2,,convidar,to invite,邀請,邀请,Vou convidar a Ana.,我要邀請Ana。,我要邀请Ana。
+Convívio,vocabulario,3,,combinar,to arrange to meet,約定,约定,Combinamos para sábado?,我們約週六好嗎？,我们约周六好吗？
+Convívio,vocabulario,4,,a esplanada,outdoor café terrace,露天座位,露天座位,Sentamo-nos na esplanada?,我們坐露天座位好嗎？,我们坐露天座位好吗？
+Convívio,vocabulario,5,,o aniversário,birthday,生日,生日,O aniversário dele é hoje.,今天是他的生日。,今天是他的生日。
+Convívio,vocabulario,6,,os parabéns,congratulations / happy birthday,恭喜,恭喜,Dei-lhe os parabéns.,我向他道賀了。,我向他道贺了。
+Convívio,vocabulario,7,,a festa,party,派對,派对,A festa começa às nove.,派對九點開始。,派对九点开始。
+Convívio,vocabulario,8,,a conta,bill,帳單,账单,"A conta, por favor.",請買單。,请买单。
+Convívio,vocabulario,9,,dividir a conta,to split the bill,分攤帳單,分摊账单,Dividimos a conta a meias.,我們對半分帳單。,我们对半分账单。
+Convívio,vocabulario,10,,oferecer,to treat (pay for someone),請客,请客,Hoje ofereço eu.,今天我請客。,今天我请客。
+Convívio,vocabulario,11,,brindar,to toast,舉杯,举杯,Brindámos ao aniversário.,我們為生日舉杯。,我们为生日举杯。
+Convívio,vocabulario,12,,saúde!,cheers!,乾杯,干杯,Saúde! À nossa!,乾杯！敬我們！,干杯！敬我们！
+Convívio,vocabulario,13,,encontrar-se,to meet up,見面,见面,Encontramo-nos às oito.,我們八點見面。,我们八点见面。
+Convívio,vocabulario,14,,chegar atrasado,to arrive late,遲到,迟到,Ele chega sempre atrasado.,他總是遲到。,他总是迟到。
+Convívio,vocabulario,15,,o atraso,lateness / delay,延誤,延误,Desculpa o atraso.,抱歉我遲到了。,抱歉我迟到了。
+Convívio,vocabulario,16,,desmarcar,to cancel (plans),取消約定,取消约定,Tive de desmarcar o café.,我只好取消喝咖啡的約。,我只好取消喝咖啡的约。
+Convívio,vocabulario,17,,adiar,to postpone,延期,延期,Podemos adiar para sexta?,能改到週五嗎？,能改到周五吗？
+Convívio,vocabulario,18,,estar livre,to be free,有空,有空,Estou livre à tarde.,我下午有空。,我下午有空。
+Convívio,vocabulario,19,,estar ocupado,to be busy,忙碌,忙碌,Hoje estou muito ocupado.,我今天很忙。,我今天很忙。
+Convívio,vocabulario,20,,apetecer,to feel like,想要,想要,Apetece-me um gelado.,我想吃冰淇淋。,我想吃冰淇淋。
+Convívio,vocabulario,21,,a conversa,conversation,談話,谈话,A conversa foi boa.,聊得很愉快。,聊得很愉快。
+Convívio,vocabulario,22,,conversar,to chat,聊天,聊天,Gosto de conversar contigo.,我喜歡和你聊天。,我喜欢和你聊天。
+Convívio,vocabulario,23,,conhecer,to meet / get to know,認識,认识,Quero conhecer os teus amigos.,我想認識你的朋友。,我想认识你的朋友。
+Convívio,vocabulario,24,,apresentar,to introduce,介紹,介绍,Apresento-te o Pedro.,我幫你介紹Pedro。,我帮你介绍Pedro。
+Convívio,vocabulario,25,,o colega,colleague,同事,同事,Vou com uma colega.,我和一位同事一起去。,我和一位同事一起去。
+Convívio,vocabulario,26,,a piada,joke,笑話,笑话,Que piada tão boa!,這笑話真好笑！,这笑话真好笑！
+Convívio,vocabulario,27,,rir,to laugh,笑,笑,Rimos a noite toda.,我們笑了一整晚。,我们笑了一整晚。
+Convívio,vocabulario,28,,divertir-se,to have fun,玩得開心,玩得开心,Divertimo-nos imenso ontem.,我們昨天玩得超開心。,我们昨天玩得超开心。
+Convívio,vocabulario,29,,o encontro,get-together,聚會,聚会,O encontro é no café.,聚會在咖啡館。,聚会在咖啡馆。
+Convívio,vocabulario,30,,a rodada,round (of drinks),一輪酒,一轮酒,Esta rodada é minha.,這輪酒我請。,这轮酒我请。
+Convívio,vocabulario,31,,pagar,to pay,付錢,付钱,"Deixa, pago eu.",別搶，我來付。,别抢，我来付。
+Convívio,vocabulario,32,,o brinde,toast (raising glasses),祝酒,祝酒,Fizemos um brinde à Rita.,我們為Rita舉杯。,我们为Rita举杯。
+Convívio,dialogo,1,A,"Olá! Então, tudo bem?","Hi! So, how's it going?",嗨！最近好嗎？,嗨！最近好吗？,,,
+Convívio,dialogo,2,B,"Tudo, e contigo?","Good, and you?",挺好的，你呢？,挺好的，你呢？,,,
+Convívio,dialogo,3,A,Também. Há quanto tempo!,Me too. Long time no see!,我也是。好久不見！,我也是。好久不见！,,,
+Convívio,dialogo,4,B,Pois é! Temos de combinar algo.,Right! We should make plans.,對啊！我們該約一下。,对啊！我们该约一下。,,,
+Convívio,dialogo,5,A,Queres ir tomar um café amanhã?,Want to grab a coffee tomorrow?,明天去喝咖啡嗎？,明天去喝咖啡吗？,,,
+Convívio,dialogo,6,B,"Amanhã não posso, estou ocupado.","I can't tomorrow, I'm busy.",明天不行，我很忙。,明天不行，我很忙。,,,
+Convívio,dialogo,7,A,E no sábado à tarde?,What about Saturday afternoon?,那週六下午呢？,那周六下午呢？,,,
+Convívio,dialogo,8,B,No sábado estou livre. Onde?,I'm free on Saturday. Where?,週六有空。在哪？,周六有空。在哪？,,,
+Convívio,dialogo,9,A,Naquela esplanada perto do rio?,At that terrace café near the river?,河邊那家露天咖啡座？,河边那家露天咖啡座？,,,
+Convívio,dialogo,10,B,Boa ideia. Às quatro?,Good idea. At four?,好主意。四點？,好主意。四点？,,,
+Convívio,dialogo,11,A,Perfeito. Posso levar uma colega?,Perfect. Can I bring a colleague?,好。我能帶同事嗎？,好。我能带同事吗？,,,
+Convívio,dialogo,12,B,"Claro! Quantos mais, melhor.",Sure! The more the merrier.,當然！人越多越好。,当然！人越多越好。,,,
+Convívio,dialogo,13,A,"Se chegares atrasado, avisa.","If you're running late, let me know.",要遲到就說一聲。,要迟到就说一声。,,,
+Convívio,dialogo,14,B,Prometo. E os cafés pago eu.,Promise. And the coffees are on me.,好。咖啡我請。,好。咖啡我请。,,,
+Convívio,dialogo,15,A,Então a próxima é minha.,Then the next one's on me.,那下次我請。,那下次我请。,,,
+Convívio,dialogo,16,B,Combinado. Até sábado!,Deal. See you Saturday!,說定了。週六見！,说定了。周六见！,,,
+Convívio,cartao,1,,"Então, tudo bem?","So, how's it going?",最近好嗎？,最近好吗？,,,
+Convívio,cartao,2,,Há quanto tempo!,Long time no see!,好久不見！,好久不见！,,,
+Convívio,cartao,3,,Queres ir tomar um café?,Want to grab a coffee?,要去喝咖啡嗎？,要去喝咖啡吗？,,,
+Convívio,cartao,4,,Estás livre no sábado?,Are you free on Saturday?,你週六有空嗎？,你周六有空吗？,,,
+Convívio,cartao,5,,Apetece-te jantar fora?,Feel like eating out?,想出去吃晚餐嗎？,想出去吃晚餐吗？,,,
+Convívio,cartao,6,,Onde nos encontramos?,Where shall we meet?,我們在哪見面？,我们在哪见面？,,,
+Convívio,cartao,7,,A que horas combinamos?,What time shall we say?,約幾點？,约几点？,,,
+Convívio,cartao,8,,Desculpa o atraso.,Sorry I'm late.,抱歉遲到了。,抱歉迟到了。,,,
+Convívio,cartao,9,,"Tenho de desmarcar, desculpa.","I have to cancel, sorry.",抱歉，我得取消。,抱歉，我得取消。,,,
+Convívio,cartao,10,,Fica para a próxima.,"Next time, then.",下次再約。,下次再约。,,,
+Convívio,cartao,11,,Eu ofereço!,My treat!,我請客！,我请客！,,,
+Convívio,cartao,12,,Vamos dividir a conta?,Shall we split the bill?,我們分攤吧？,我们分摊吧？,,,
+Convívio,cartao,13,,Parabéns!,Happy birthday! / Congratulations!,恭喜！,恭喜！,,,
+Convívio,cartao,14,,Saúde!,Cheers!,乾杯！,干杯！,,,
+Convívio,cartao,15,,Diverti-me muito.,I had a great time.,我玩得很開心。,我玩得很开心。,,,
+Convívio,cartao,16,,Até à próxima!,See you next time!,下次見！,下次见！,,,
+Vizinhos,vocabulario,1,,o vizinho,neighbor,鄰居,邻居,O vizinho de cima é simpático.,樓上的鄰居人很好。,楼上的邻居人很好。
+Vizinhos,vocabulario,2,,o prédio,building,大樓,大楼,O prédio tem seis andares.,這棟樓有六層。,这栋楼有六层。
+Vizinhos,vocabulario,3,,o condomínio,building association / service charge,大樓管理,大楼管理,Pago o condomínio amanhã.,我明天繳管理費。,我明天缴管理费。
+Vizinhos,vocabulario,4,,a reunião de condomínio,building meeting,業主大會,业主大会,A reunião é na quinta.,會議在週四。,会议在周四。
+Vizinhos,vocabulario,5,,a quota,monthly share / fee,管理費,管理费,A quota subiu este ano.,管理費今年漲了。,管理费今年涨了。
+Vizinhos,vocabulario,6,,o andar,floor,樓層,楼层,Moro no terceiro andar.,我住在三樓。,我住在三楼。
+Vizinhos,vocabulario,7,,o elevador,elevator,電梯,电梯,Apanho sempre o elevador.,我總是搭電梯。,我总是坐电梯。
+Vizinhos,vocabulario,8,,as escadas,stairs,樓梯,楼梯,Subi pelas escadas hoje.,我今天走樓梯上來。,我今天走楼梯上来。
+Vizinhos,vocabulario,9,,o barulho,noise,噪音,噪音,O barulho acordou-me.,噪音把我吵醒了。,噪音把我吵醒了。
+Vizinhos,vocabulario,10,,o silêncio,silence,安靜,安静,Gosto do silêncio aqui.,我喜歡這裡的安靜。,我喜欢这里的安静。
+Vizinhos,vocabulario,11,,incomodar,to bother,打擾,打扰,Desculpe incomodar tão tarde.,抱歉這麼晚打擾。,抱歉这么晚打扰。
+Vizinhos,vocabulario,12,,a queixa,complaint,投訴,投诉,Ninguém fez queixa.,沒有人投訴。,没有人投诉。
+Vizinhos,vocabulario,13,,as obras,construction works,施工,施工,As obras acabam em maio.,工程五月完工。,工程五月完工。
+Vizinhos,vocabulario,14,,o lixo,trash,垃圾,垃圾,Já pus o lixo fora.,我已經把垃圾拿出去了。,我已经把垃圾拿出去了。
+Vizinhos,vocabulario,15,,a reciclagem,recycling,回收,回收,A reciclagem é ao fundo.,回收站在最裡面。,回收站在最里面。
+Vizinhos,vocabulario,16,,o contentor,bin / container,垃圾箱,垃圾箱,O contentor está cheio.,垃圾箱滿了。,垃圾箱满了。
+Vizinhos,vocabulario,17,,a encomenda,package,包裹,包裹,Chegou uma encomenda para ti.,有你的一個包裹。,有你的一个包裹。
+Vizinhos,vocabulario,18,,o favor,favor,幫忙,帮忙,Preciso de um favor.,我需要幫個忙。,我需要帮个忙。
+Vizinhos,vocabulario,19,,emprestar,to lend,借,借,Emprestas-me um pouco de sal?,能借我一點鹽嗎？,能借我一点盐吗？
+Vizinhos,vocabulario,20,,regar,to water,澆水,浇水,Rego as plantas à noite.,我晚上澆花。,我晚上浇花。
+Vizinhos,vocabulario,21,,a chave,key,鑰匙,钥匙,Deixo a chave ao vizinho.,我把鑰匙留給鄰居。,我把钥匙留给邻居。
+Vizinhos,vocabulario,22,,a garagem,garage,車庫,车库,O carro está na garagem.,車在車庫裡。,车在车库里。
+Vizinhos,vocabulario,23,,o lugar de estacionamento,parking spot,停車位,停车位,O meu lugar é o dez.,我的車位是十號。,我的车位是十号。
+Vizinhos,vocabulario,24,,a caixa do correio,mailbox,信箱,信箱,Vê a caixa do correio.,看一下信箱。,看一下信箱。
+Vizinhos,vocabulario,25,,avariado,out of order,故障,故障,O elevador está avariado.,電梯故障了。,电梯故障了。
+Vizinhos,vocabulario,26,,a mudança,move (house move),搬家,搬家,A mudança é no sábado.,週六搬家。,周六搬家。
+Vizinhos,vocabulario,27,,mudar-se,to move (house),搬家,搬家,Mudámo-nos em janeiro.,我們一月搬的家。,我们一月搬的家。
+Vizinhos,vocabulario,28,,cumprimentar,to greet,打招呼,打招呼,Cumprimento sempre a vizinha.,我總是跟鄰居打招呼。,我总是跟邻居打招呼。
+Vizinhos,vocabulario,29,,o administrador,building manager,管理員,管理员,Falei com o administrador.,我跟管理員談過了。,我跟管理员谈过了。
+Vizinhos,vocabulario,30,,a campainha,doorbell,門鈴,门铃,Tocaram à campainha.,有人按了門鈴。,有人按了门铃。
+Vizinhos,dialogo,1,A,"Olá, bom dia. Sou o seu vizinho novo.","Hello, good morning. I'm your new neighbor.",您好，早安。我是新鄰居。,您好，早上好。我是新邻居。,,,
+Vizinhos,dialogo,2,B,"Ah, bem-vindo ao prédio!","Ah, welcome to the building!",啊，歡迎搬來！,啊，欢迎搬来！,,,
+Vizinhos,dialogo,3,A,Obrigado. Mudei-me na semana passada.,Thanks. I moved in last week.,謝謝。我上週搬來的。,谢谢。我上周搬来的。,,,
+Vizinhos,dialogo,4,B,Precisa de alguma coisa?,Do you need anything?,需要什麼幫忙嗎？,需要什么帮忙吗？,,,
+Vizinhos,dialogo,5,A,"Sim, onde fica o contentor da reciclagem?","Yes, where's the recycling container?",回收箱在哪裡？,回收箱在哪里？,,,
+Vizinhos,dialogo,6,B,"Ao fundo da rua, à esquerda.","At the end of the street, on the left.",街尾左邊。,街尾左边。,,,
+Vizinhos,dialogo,7,A,"E o lixo, quando é recolhido?","And the trash, when is it collected?",垃圾什麼時候收？,垃圾什么时候收？,,,
+Vizinhos,dialogo,8,B,"Todos os dias, à noite.","Every day, at night.",每天晚上。,每天晚上。,,,
+Vizinhos,dialogo,9,A,O elevador está avariado?,Is the elevator out of order?,電梯壞了嗎？,电梯坏了吗？,,,
+Vizinhos,dialogo,10,B,"Está, já chamámos o técnico.","It is, we've already called the technician.",是的，已經叫人修了。,是的，已经叫人修了。,,,
+Vizinhos,dialogo,11,A,Posso pedir-lhe um favor?,Can I ask you a favor?,能請您幫個忙嗎？,能请您帮个忙吗？,,,
+Vizinhos,dialogo,12,B,"Claro, diga.","Of course, go ahead.",當然，請說。,当然，请说。,,,
+Vizinhos,dialogo,13,A,Pode receber uma encomenda amanhã?,Can you take in a package tomorrow?,明天能幫我收包裹嗎？,明天能帮我收包裹吗？,,,
+Vizinhos,dialogo,14,B,"Com certeza, deixo-a à sua porta.","Certainly, I'll leave it at your door.",沒問題，我放您門口。,没问题，我放您门口。,,,
+Vizinhos,dialogo,15,A,"Muito obrigado. Qualquer barulho, avise-me.","Thank you. If I'm ever noisy, let me know.",謝謝。太吵的話請告訴我。,谢谢。太吵的话请告诉我。,,,
+Vizinhos,dialogo,16,B,Fique descansado. Boa mudança!,Don't worry. Happy moving!,放心。祝喬遷順利！,放心。祝乔迁顺利！,,,
+Vizinhos,cartao,1,,Sou o seu vizinho novo.,I'm your new neighbor.,我是新鄰居。,我是新邻居。,,,
+Vizinhos,cartao,2,,Desculpe o barulho.,Sorry about the noise.,抱歉吵到您了。,抱歉吵到您了。,,,
+Vizinhos,cartao,3,,"Pode falar mais baixo, por favor?","Could you keep it down, please?",可以小聲一點嗎？,可以小声一点吗？,,,
+Vizinhos,cartao,4,,"O barulho incomoda, é tarde.","The noise is bothering us, it's late.",太晚了，噪音打擾到人。,太晚了，噪音打扰到人。,,,
+Vizinhos,cartao,5,,O elevador está avariado.,The elevator is out of order.,電梯壞了。,电梯坏了。,,,
+Vizinhos,cartao,6,,Quando é a reunião de condomínio?,When is the building meeting?,業主大會是什麼時候？,业主大会是什么时候？,,,
+Vizinhos,cartao,7,,Pode receber uma encomenda?,Can you take in a package?,可以幫我收包裹嗎？,可以帮我收包裹吗？,,,
+Vizinhos,cartao,8,,Pode regar as minhas plantas?,Can you water my plants?,可以幫我澆花嗎？,可以帮我浇花吗？,,,
+Vizinhos,cartao,9,,Posso deixar-lhe a chave?,Can I leave you my key?,鑰匙可以放您那嗎？,钥匙可以放您那吗？,,,
+Vizinhos,cartao,10,,Onde fica a reciclagem?,Where's the recycling?,回收站在哪？,回收站在哪？,,,
+Vizinhos,cartao,11,,Quando recolhem o lixo?,When is the trash collected?,垃圾什麼時候收？,垃圾什么时候收？,,,
+Vizinhos,cartao,12,,Há obras no prédio?,Is there construction in the building?,大樓在施工嗎？,大楼在施工吗？,,,
+Vizinhos,cartao,13,,Este lugar de estacionamento é seu?,Is this parking spot yours?,這個車位是您的嗎？,这个车位是您的吗？,,,
+Vizinhos,cartao,14,,Posso pedir-lhe um favor?,Can I ask you a favor?,能請您幫個忙嗎？,能请您帮个忙吗？,,,
+Vizinhos,cartao,15,,Obrigado pela ajuda.,Thanks for the help.,謝謝幫忙。,谢谢帮忙。,,,
+Vizinhos,cartao,16,,A campainha não funciona.,The doorbell doesn't work.,門鈴壞了。,门铃坏了。,,,
+Cabeleireiro e Barbeiro,vocabulario,1,,o cabeleireiro,hairdresser / hair salon,理髮師,理发师,Vou ao cabeleireiro amanhã.,我明天去理髮。,我明天去理发。
+Cabeleireiro e Barbeiro,vocabulario,2,,o barbeiro,barber,男士理髮師,男士理发师,O barbeiro corta bem.,這位理髮師剪得好。,这位理发师剪得好。
+Cabeleireiro e Barbeiro,vocabulario,3,,a barbearia,barbershop,理髮店,理发店,A barbearia é ali.,理髮店在那邊。,理发店在那边。
+Cabeleireiro e Barbeiro,vocabulario,4,,o salão,salon,美髮沙龍,美发沙龙,O salão está cheio.,店裡客滿了。,店里客满了。
+Cabeleireiro e Barbeiro,vocabulario,5,,a marcação,appointment,預約,预约,Tenho marcação às três.,我約了三點。,我约了三点。
+Cabeleireiro e Barbeiro,vocabulario,6,,marcar,to book,預約,预约,Quero marcar para sábado.,我想預約週六。,我想预约周六。
+Cabeleireiro e Barbeiro,vocabulario,7,,o corte,haircut,剪髮,剪发,O corte ficou ótimo.,這髮型剪得很好。,这发型剪得很好。
+Cabeleireiro e Barbeiro,vocabulario,8,,cortar,to cut,剪,剪,Corta só um pouco.,只剪一點點。,只剪一点点。
+Cabeleireiro e Barbeiro,vocabulario,9,,aparar,to trim,修剪,修剪,Só quero aparar as pontas.,我只想修髮尾。,我只想修发尾。
+Cabeleireiro e Barbeiro,vocabulario,10,,as pontas,ends (of hair),髮尾,发尾,As pontas estão secas.,髮尾很乾。,发尾很干。
+Cabeleireiro e Barbeiro,vocabulario,11,,curto,short,短,短,Prefiro o cabelo curto.,我喜歡短髮。,我喜欢短发。
+Cabeleireiro e Barbeiro,vocabulario,12,,comprido,long,長,长,O cabelo está muito comprido.,頭髮太長了。,头发太长了。
+Cabeleireiro e Barbeiro,vocabulario,13,,a franja,bangs / fringe,瀏海,刘海,A franja tapa-me os olhos.,瀏海遮到眼睛了。,刘海遮到眼睛了。
+Cabeleireiro e Barbeiro,vocabulario,14,,o risco,parting,分線,分线,Faço o risco ao lado.,我旁分。,我旁分。
+Cabeleireiro e Barbeiro,vocabulario,15,,a máquina,clippers,電剪,电剪,Usa a máquina dos lados.,兩側用電剪。,两侧用电剪。
+Cabeleireiro e Barbeiro,vocabulario,16,,o número,clipper guard number,號數,号数,"Número três, por favor.",三號，麻煩了。,三号，麻烦了。
+Cabeleireiro e Barbeiro,vocabulario,17,,a tesoura,scissors,剪刀,剪刀,"Em cima, só tesoura.",上面只用剪刀。,上面只用剪刀。
+Cabeleireiro e Barbeiro,vocabulario,18,,lavar,to wash,洗,洗,Lavamos primeiro o cabelo.,我們先洗頭。,我们先洗头。
+Cabeleireiro e Barbeiro,vocabulario,19,,secar,to blow-dry,吹乾,吹干,"Pode secar, por favor?",可以吹乾嗎？,可以吹干吗？
+Cabeleireiro e Barbeiro,vocabulario,20,,o secador,hairdryer,吹風機,吹风机,O secador está quente.,吹風機很燙。,吹风机很烫。
+Cabeleireiro e Barbeiro,vocabulario,21,,pentear,to comb / style,梳頭,梳头,"Penteia para trás, por favor.",請往後梳。,请往后梳。
+Cabeleireiro e Barbeiro,vocabulario,22,,o penteado,hairstyle,髮型,发型,Gosto do teu penteado.,我喜歡你的髮型。,我喜欢你的发型。
+Cabeleireiro e Barbeiro,vocabulario,23,,a barba,beard,鬍子,胡子,A barba cresce depressa.,鬍子長得快。,胡子长得快。
+Cabeleireiro e Barbeiro,vocabulario,24,,fazer a barba,to shave,刮鬍子,刮胡子,Faço a barba em casa.,我在家刮鬍子。,我在家刮胡子。
+Cabeleireiro e Barbeiro,vocabulario,25,,o bigode,mustache,小鬍子,小胡子,Deixe o bigode assim.,小鬍子就這樣留著。,小胡子就这样留着。
+Cabeleireiro e Barbeiro,vocabulario,26,,pintar,to dye,染髮,染发,Quero pintar de castanho.,我想染成棕色。,我想染成棕色。
+Cabeleireiro e Barbeiro,vocabulario,27,,a cor,color,顏色,颜色,Que cor prefere?,您想要什麼顏色？,您想要什么颜色？
+Cabeleireiro e Barbeiro,vocabulario,28,,as madeixas,highlights,挑染,挑染,Fiz madeixas no verão.,我夏天做了挑染。,我夏天做了挑染。
+Cabeleireiro e Barbeiro,vocabulario,29,,o tom,shade / tone,色調,色调,Quero um tom mais claro.,我想要淺一點的色調。,我想要浅一点的色调。
+Cabeleireiro e Barbeiro,vocabulario,30,,claro,light (color),淺,浅,Prefiro um tom claro.,我喜歡淺色調。,我喜欢浅色调。
+Cabeleireiro e Barbeiro,vocabulario,31,,escuro,dark (color),深,深,Pinto de castanho escuro.,我染深棕色。,我染深棕色。
+Cabeleireiro e Barbeiro,vocabulario,32,,liso,straight (hair),直,直,O meu cabelo é liso.,我的頭髮是直的。,我的头发是直的。
+Cabeleireiro e Barbeiro,vocabulario,33,,encaracolado,curly,捲,卷,Ela tem cabelo encaracolado.,她是捲髮。,她是卷发。
+Cabeleireiro e Barbeiro,vocabulario,34,,o gel,hair gel,髮膠,发胶,Não uso gel.,我不用髮膠。,我不用发胶。
+Cabeleireiro e Barbeiro,dialogo,1,B,Boa tarde! Tem marcação?,Good afternoon! Do you have an appointment?,午安！有預約嗎？,下午好！有预约吗？,,,
+Cabeleireiro e Barbeiro,dialogo,2,A,Não. É preciso marcar?,No. Do I need to book?,沒有。需要預約嗎？,没有。需要预约吗？,,,
+Cabeleireiro e Barbeiro,dialogo,3,B,"Hoje não, espere só dez minutos.","Not today, just wait ten minutes.",今天不用，等十分鐘就好。,今天不用，等十分钟就好。,,,
+Cabeleireiro e Barbeiro,dialogo,4,A,"Está bem, eu espero.","Alright, I'll wait.",好，我等。,好，我等。,,,
+Cabeleireiro e Barbeiro,dialogo,5,B,"Então, o que vamos fazer?","So, what are we doing today?",那今天想怎麼弄？,那今天想怎么弄？,,,
+Cabeleireiro e Barbeiro,dialogo,6,A,"Queria cortar, mas não muito curto.","I'd like a cut, but not too short.",想剪髮，但別太短。,想剪发，但别太短。,,,
+Cabeleireiro e Barbeiro,dialogo,7,B,Só aparar as pontas?,Just trim the ends?,只修髮尾嗎？,只修发尾吗？,,,
+Cabeleireiro e Barbeiro,dialogo,8,A,"Sim, uns dois dedos. E a franja.","Yes, about two fingers. And the bangs.",對，大概兩指。瀏海也要。,对，大概两指。刘海也要。,,,
+Cabeleireiro e Barbeiro,dialogo,9,B,Quer lavar primeiro?,Do you want a wash first?,要先洗頭嗎？,要先洗头吗？,,,
+Cabeleireiro e Barbeiro,dialogo,10,A,"Sim, por favor.","Yes, please.",好，麻煩了。,好，麻烦了。,,,
+Cabeleireiro e Barbeiro,dialogo,11,B,"Dos lados, uso a máquina?",Shall I use the clippers on the sides?,兩側用電剪嗎？,两侧用电剪吗？,,,
+Cabeleireiro e Barbeiro,dialogo,12,A,"Pode ser, número três.","Sure, number three.",可以，三號。,可以，三号。,,,
+Cabeleireiro e Barbeiro,dialogo,13,B,"E a barba, aparamos?","And the beard, shall we trim it?",鬍子要修嗎？,胡子要修吗？,,,
+Cabeleireiro e Barbeiro,dialogo,14,A,"Sim, mas deixe o bigode.","Yes, but leave the mustache.",要，但小鬍子留著。,要，但小胡子留着。,,,
+Cabeleireiro e Barbeiro,dialogo,15,B,Pronto! O que acha?,Done! What do you think?,好了！您覺得呢？,好了！您觉得呢？,,,
+Cabeleireiro e Barbeiro,dialogo,16,A,Ficou ótimo. Quanto é?,It looks great. How much is it?,很好看。多少錢？,很好看。多少钱？,,,
+Cabeleireiro e Barbeiro,cartao,1,,Queria marcar um corte.,I'd like to book a haircut.,我想預約剪髮。,我想预约剪发。,,,
+Cabeleireiro e Barbeiro,cartao,2,,É preciso marcação?,Do I need an appointment?,需要預約嗎？,需要预约吗？,,,
+Cabeleireiro e Barbeiro,cartao,3,,Só aparar as pontas.,Just trim the ends.,只修髮尾。,只修发尾。,,,
+Cabeleireiro e Barbeiro,cartao,4,,"Não muito curto, por favor.","Not too short, please.",別剪太短。,别剪太短。,,,
+Cabeleireiro e Barbeiro,cartao,5,,Uns dois dedos.,About two fingers' worth.,大概兩指長。,大概两指长。,,,
+Cabeleireiro e Barbeiro,cartao,6,,Corte a franja também.,Cut the bangs too.,瀏海也剪一下。,刘海也剪一下。,,,
+Cabeleireiro e Barbeiro,cartao,7,,Máquina número três dos lados.,Number three clippers on the sides.,兩側用三號電剪。,两侧用三号电剪。,,,
+Cabeleireiro e Barbeiro,cartao,8,,Quero mudar de visual.,I want a new look.,我想換造型。,我想换造型。,,,
+Cabeleireiro e Barbeiro,cartao,9,,Queria pintar o cabelo.,I'd like to dye my hair.,我想染髮。,我想染发。,,,
+Cabeleireiro e Barbeiro,cartao,10,,Um tom mais claro.,A lighter shade.,淺一點的顏色。,浅一点的颜色。,,,
+Cabeleireiro e Barbeiro,cartao,11,,Pode aparar a barba?,Can you trim my beard?,可以修鬍子嗎？,可以修胡子吗？,,,
+Cabeleireiro e Barbeiro,cartao,12,,Deixe o bigode.,Leave the mustache.,小鬍子留著。,小胡子留着。,,,
+Cabeleireiro e Barbeiro,cartao,13,,"Sem gel, obrigado.","No gel, thanks.",不用髮膠，謝謝。,不用发胶，谢谢。,,,
+Cabeleireiro e Barbeiro,cartao,14,,Pode secar?,Can you blow-dry it?,可以吹乾嗎？,可以吹干吗？,,,
+Cabeleireiro e Barbeiro,cartao,15,,Assim está perfeito.,It's perfect like this.,這樣就很好。,这样就很好。,,,
+Cabeleireiro e Barbeiro,cartao,16,,Quanto custa o corte?,How much is the haircut?,剪髮多少錢？,剪发多少钱？,,,
+Farmácia,vocabulario,1,,a farmácia,pharmacy,藥局,药店,A farmácia fecha às sete.,藥局七點關門。,药店七点关门。
+Farmácia,vocabulario,2,,a farmácia de serviço,on-duty pharmacy,值班藥局,值班药店,Procura a farmácia de serviço.,找一下值班藥局。,找一下值班药店。
+Farmácia,vocabulario,3,,o farmacêutico,pharmacist,藥劑師,药剂师,O farmacêutico explicou tudo.,藥劑師都解釋清楚了。,药剂师都解释清楚了。
+Farmácia,vocabulario,4,,a receita,prescription,處方,处方,É preciso receita?,需要處方嗎？,需要处方吗？
+Farmácia,vocabulario,5,,o medicamento,medicine,藥,药,Tomo o medicamento à noite.,我晚上吃藥。,我晚上吃药。
+Farmácia,vocabulario,6,,o genérico,generic drug,學名藥,仿制药,O genérico é mais barato.,學名藥比較便宜。,仿制药比较便宜。
+Farmácia,vocabulario,7,,o comprimido,pill,藥片,药片,Tomo um comprimido por dia.,我一天吃一顆藥。,我一天吃一颗药。
+Farmácia,vocabulario,8,,o xarope,syrup,糖漿,糖浆,O xarope é para a tosse.,這糖漿是止咳的。,这糖浆是止咳的。
+Farmácia,vocabulario,9,,a pomada,ointment,藥膏,药膏,A pomada é para a pele.,這藥膏是擦皮膚的。,这药膏是擦皮肤的。
+Farmácia,vocabulario,10,,as gotas,drops,滴劑,滴剂,Duas gotas em cada olho.,每隻眼睛滴兩滴。,每只眼睛滴两滴。
+Farmácia,vocabulario,11,,a dose,dose,劑量,剂量,Qual é a dose certa?,正確劑量是多少？,正确剂量是多少？
+Farmácia,vocabulario,12,,tomar,to take (medicine),服用,服用,Tome sempre com água.,一定要配水服用。,一定要配水服用。
+Farmácia,vocabulario,13,,em jejum,on an empty stomach,空腹,空腹,Tome este em jejum.,這個要空腹吃。,这个要空腹吃。
+Farmácia,vocabulario,14,,às refeições,with meals,隨餐,随餐,Um comprimido às refeições.,隨餐吃一顆。,随餐吃一颗。
+Farmácia,vocabulario,15,,a dor,pain,疼痛,疼痛,Tenho uma dor aqui.,我這裡痛。,我这里痛。
+Farmácia,vocabulario,16,,a dor de cabeça,headache,頭痛,头痛,A dor de cabeça passou.,頭痛好了。,头痛好了。
+Farmácia,vocabulario,17,,a dor de garganta,sore throat,喉嚨痛,喉咙痛,Tenho dor de garganta.,我喉嚨痛。,我喉咙痛。
+Farmácia,vocabulario,18,,a febre,fever,發燒,发烧,Ele tem febre alta.,他發高燒。,他发高烧。
+Farmácia,vocabulario,19,,o termómetro,thermometer,體溫計,体温计,Compra um termómetro novo.,買個新的體溫計。,买个新的体温计。
+Farmácia,vocabulario,20,,a tosse,cough,咳嗽,咳嗽,A tosse não passa.,咳嗽好不了。,咳嗽好不了。
+Farmácia,vocabulario,21,,a constipação,cold (illness),感冒,感冒,Apanhei uma constipação.,我感冒了。,我感冒了。
+Farmácia,vocabulario,22,,a gripe,flu,流感,流感,A gripe já passou.,流感已經好了。,流感已经好了。
+Farmácia,vocabulario,23,,a alergia,allergy,過敏,过敏,Tenho alergia ao pólen.,我對花粉過敏。,我对花粉过敏。
+Farmácia,vocabulario,24,,o anti-histamínico,antihistamine,抗組織胺,抗组胺药,Tomei um anti-histamínico.,我吃了抗組織胺。,我吃了抗组胺药。
+Farmácia,vocabulario,25,,o analgésico,painkiller,止痛藥,止痛药,Este analgésico é forte.,這止痛藥很強。,这止痛药很强。
+Farmácia,vocabulario,26,,o antibiótico,antibiotic,抗生素,抗生素,O antibiótico é com receita.,抗生素要處方。,抗生素要处方。
+Farmácia,vocabulario,27,,a vitamina,vitamin,維他命,维生素,Tomo vitaminas no inverno.,我冬天吃維他命。,我冬天吃维生素。
+Farmácia,vocabulario,28,,o penso rápido,band-aid,OK繃,创可贴,Preciso de um penso rápido.,我需要OK繃。,我需要创可贴。
+Farmácia,vocabulario,29,,o desinfetante,disinfectant,消毒液,消毒液,Põe desinfetante na ferida.,在傷口上抹消毒液。,在伤口上抹消毒液。
+Farmácia,vocabulario,30,,a máscara,mask,口罩,口罩,Levo sempre uma máscara.,我總是帶著口罩。,我总是带着口罩。
+Farmácia,vocabulario,31,,o teste,test,檢測,检测,Fiz um teste rápido.,我做了快篩。,我做了快筛。
+Farmácia,vocabulario,32,,a tensão,blood pressure,血壓,血压,A minha tensão está alta.,我血壓偏高。,我血压偏高。
+Farmácia,vocabulario,33,,medir,to measure,量,量,Vou medir a febre.,我來量一下體溫。,我来量一下体温。
+Farmácia,vocabulario,34,,o protetor solar,sunscreen,防曬乳,防晒霜,Usa protetor solar na praia.,在海灘要擦防曬。,在海滩要擦防晒。
+Farmácia,vocabulario,35,,o efeito secundário,side effect,副作用,副作用,Tem efeitos secundários?,有副作用嗎？,有副作用吗？
+Farmácia,vocabulario,36,,grávida,pregnant,懷孕,怀孕,Ela está grávida.,她懷孕了。,她怀孕了。
+Farmácia,dialogo,1,B,"Boa tarde, o que deseja?","Good afternoon, how can I help?",午安，需要什麼？,下午好，需要什么？,,,
+Farmácia,dialogo,2,A,Tenho dor de garganta e tosse.,I have a sore throat and a cough.,我喉嚨痛還咳嗽。,我喉咙痛还咳嗽。,,,
+Farmácia,dialogo,3,B,Tem febre?,Do you have a fever?,有發燒嗎？,有发烧吗？,,,
+Farmácia,dialogo,4,A,"Um pouco, ontem à noite.","A little, last night.",有一點，昨晚燒的。,有一点，昨晚烧的。,,,
+Farmácia,dialogo,5,B,Parece uma constipação. Tem alergias?,Sounds like a cold. Any allergies?,像是感冒。有過敏嗎？,像是感冒。有过敏吗？,,,
+Farmácia,dialogo,6,A,Não que eu saiba.,Not that I know of.,據我所知沒有。,据我所知没有。,,,
+Farmácia,dialogo,7,B,Leve este xarope e estes comprimidos.,Take this syrup and these pills.,拿這瓶糖漿和這些藥片。,拿这瓶糖浆和这些药片。,,,
+Farmácia,dialogo,8,A,Como tomo os comprimidos?,How do I take the pills?,藥片怎麼吃？,药片怎么吃？,,,
+Farmácia,dialogo,9,B,"Um de oito em oito horas, às refeições.","One every eight hours, with meals.",每八小時一片，隨餐。,每八小时一片，随餐。,,,
+Farmácia,dialogo,10,A,E o xarope?,And the syrup?,糖漿呢？,糖浆呢？,,,
+Farmácia,dialogo,11,B,"Duas vezes por dia, manhã e noite.","Twice a day, morning and night.",一天兩次，早晚。,一天两次，早晚。,,,
+Farmácia,dialogo,12,A,Este medicamento precisa de receita?,Does this medicine need a prescription?,這藥要處方嗎？,这药要处方吗？,,,
+Farmácia,dialogo,13,B,"Não, é de venda livre.","No, it's over the counter.",不用，是非處方藥。,不用，是非处方药。,,,
+Farmácia,dialogo,14,A,Há genérico? É mais barato?,Is there a generic? Is it cheaper?,有學名藥嗎？便宜點嗎？,有仿制药吗？便宜点吗？,,,
+Farmácia,dialogo,15,B,"Há, sim. Custa quatro euros.","Yes, there is. It's four euros.",有，四歐元。,有，四欧元。,,,
+Farmácia,dialogo,16,A,E se não melhorar?,And if I don't get better?,要是沒好轉呢？,要是没好转呢？,,,
+Farmácia,dialogo,17,B,"Em três dias sem melhoras, vá ao médico.","If you're no better in three days, see a doctor.",三天沒好就去看醫生。,三天没好就去看医生。,,,
+Farmácia,cartao,1,,Tenho dor de cabeça.,I have a headache.,我頭痛。,我头痛。,,,
+Farmácia,cartao,2,,Tenho dor de garganta.,I have a sore throat.,我喉嚨痛。,我喉咙痛。,,,
+Farmácia,cartao,3,,Tenho tosse e febre.,I have a cough and a fever.,我咳嗽又發燒。,我咳嗽又发烧。,,,
+Farmácia,cartao,4,,Estou constipado.,I have a cold.,我感冒了。,我感冒了。,,,
+Farmácia,cartao,5,,Tenho alergia.,I have an allergy.,我過敏。,我过敏。,,,
+Farmácia,cartao,6,,Preciso de algo para a dor.,I need something for pain.,我需要止痛的藥。,我需要止痛的药。,,,
+Farmácia,cartao,7,,É preciso receita?,Do I need a prescription?,需要處方嗎？,需要处方吗？,,,
+Farmácia,cartao,8,,Há genérico?,Is there a generic?,有學名藥嗎？,有仿制药吗？,,,
+Farmácia,cartao,9,,Como se toma?,How do I take it?,怎麼服用？,怎么服用？,,,
+Farmácia,cartao,10,,Quantas vezes por dia?,How many times a day?,一天幾次？,一天几次？,,,
+Farmácia,cartao,11,,Em jejum ou às refeições?,On an empty stomach or with meals?,空腹還是隨餐？,空腹还是随餐？,,,
+Farmácia,cartao,12,,Tem efeitos secundários?,Does it have side effects?,有副作用嗎？,有副作用吗？,,,
+Farmácia,cartao,13,,Estou grávida. Posso tomar?,I'm pregnant. Can I take it?,我懷孕了，能吃嗎？,我怀孕了，能吃吗？,,,
+Farmácia,cartao,14,,Pode medir-me a tensão?,Can you take my blood pressure?,可以幫我量血壓嗎？,可以帮我量血压吗？,,,
+Farmácia,cartao,15,,Onde é a farmácia de serviço?,Where's the on-duty pharmacy?,值班藥局在哪？,值班药店在哪？,,,
+Farmácia,cartao,16,,Queria pensos rápidos.,I'd like some band-aids.,我要OK繃。,我要创可贴。,,,

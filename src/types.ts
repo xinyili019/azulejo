@@ -43,6 +43,10 @@ export interface SituacaoVocabularyRow {
   zhHant: string;
   pos?: PartOfSpeech;
   gender?: GrammaticalGender;
+  examplePt?: string;
+  exampleEn?: string;
+  exampleZhHans?: string;
+  exampleZhHant?: string;
   note?: string;
 }
 

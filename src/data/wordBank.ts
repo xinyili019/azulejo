@@ -52,8 +52,13 @@ function buildWordBank() {
       const merged = addSituacao(
         {
           ...existing,
+          legacyIds: Array.from(new Set([...(existing.legacyIds ?? []), ...(row.legacyIds ?? [])])),
           pos: existing.pos ?? row.pos,
           gender: existing.gender ?? row.gender,
+          examplePt: existing.examplePt ?? row.examplePt,
+          exampleEn: existing.exampleEn ?? row.exampleEn,
+          exampleZhHans: existing.exampleZhHans ?? row.exampleZhHans,
+          exampleZhHant: existing.exampleZhHant ?? row.exampleZhHant,
           note: existing.note ?? row.note
         },
         row.situacao
@@ -73,6 +78,10 @@ function buildWordBank() {
         zhHant: row.zhHant,
         pos: row.pos,
         gender: row.gender,
+        examplePt: row.examplePt,
+        exampleEn: row.exampleEn,
+        exampleZhHans: row.exampleZhHans,
+        exampleZhHant: row.exampleZhHant,
         note: row.note,
         source: "situacao"
       },

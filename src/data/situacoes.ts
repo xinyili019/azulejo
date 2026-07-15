@@ -48,6 +48,30 @@ export const situacaoGroups: SituacaoGroup[] = [
       {
         "id": "transportes",
         "label": "Transportes"
+      },
+      {
+        "id": "veterinario",
+        "label": "Veterinário"
+      },
+      {
+        "id": "ginasio",
+        "label": "Ginásio"
+      },
+      {
+        "id": "convivio",
+        "label": "Convívio"
+      },
+      {
+        "id": "vizinhos",
+        "label": "Vizinhos"
+      },
+      {
+        "id": "cabeleireiro_barbeiro",
+        "label": "Cabeleireiro e Barbeiro"
+      },
+      {
+        "id": "farmacia",
+        "label": "Farmácia"
       }
     ]
   },
@@ -98,7 +122,13 @@ export const situacaoLabels: Record<string, string> = {
   "trabalho_restauracao": "Restauração",
   "trabalho_limpezas": "Limpezas",
   "trabalho_construcao": "Construção",
-  "trabalho_entregas": "Entregas"
+  "trabalho_entregas": "Entregas",
+  "veterinario": "Veterinário",
+  "ginasio": "Ginásio",
+  "convivio": "Convívio",
+  "vizinhos": "Vizinhos",
+  "cabeleireiro_barbeiro": "Cabeleireiro e Barbeiro",
+  "farmacia": "Farmácia"
 };
 
 export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
@@ -896,17 +926,15 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
   },
   {
     "situacao": "aima",
-    "pt": "a AIMA",
-    "en": "AIMA (Agency for Integration, Migration and Asylum)",
-    "zhHans": "移民与庇护融合署（AIMA）",
-    "zhHant": "移民與庇護融合署（AIMA）",
-    "note": "Replaced SEF in Oct 2023",
+    "pt": "AIMA",
+    "en": "Agency for Integration, Migration and Asylum",
+    "zhHans": "移民与庇护融合署",
+    "zhHant": "移民與庇護融合署",
     "id": "az-0658",
     "legacyIds": [
       "situacao-a-aima"
     ],
-    "pos": "noun",
-    "gender": "f"
+    "pos": "noun"
   },
   {
     "situacao": "aima",
@@ -6758,6 +6786,3302 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     ],
     "pos": "noun",
     "gender": "f"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o veterinário",
+    "en": "veterinarian",
+    "zhHans": "兽医",
+    "zhHant": "獸醫",
+    "id": "az-1099",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-veterinario"
+    ],
+    "examplePt": "O veterinário é simpático.",
+    "exampleEn": "The vet is friendly.",
+    "exampleZhHans": "兽医人很好。",
+    "exampleZhHant": "獸醫人很好。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a clínica veterinária",
+    "en": "veterinary clinic",
+    "zhHans": "兽医诊所",
+    "zhHant": "獸醫診所",
+    "id": "az-1100",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-clinica-veterinaria"
+    ],
+    "examplePt": "A clínica abre às nove.",
+    "exampleEn": "The clinic opens at nine.",
+    "exampleZhHans": "诊所九点开门。",
+    "exampleZhHant": "診所九點開門。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o animal de estimação",
+    "en": "pet",
+    "zhHans": "宠物",
+    "zhHant": "寵物",
+    "id": "az-1101",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-animal-de-estimacao"
+    ],
+    "examplePt": "Tens animais de estimação?",
+    "exampleEn": "Do you have pets?",
+    "exampleZhHans": "你有养宠物吗？",
+    "exampleZhHant": "你有養寵物嗎？"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o cão",
+    "en": "dog",
+    "zhHans": "狗",
+    "zhHant": "狗",
+    "id": "az-1102",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-cao"
+    ],
+    "examplePt": "O meu cão chama-se Rex.",
+    "exampleEn": "My dog is called Rex.",
+    "exampleZhHans": "我的狗叫Rex。",
+    "exampleZhHant": "我的狗叫Rex。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o gato",
+    "en": "cat",
+    "zhHans": "猫",
+    "zhHant": "貓",
+    "id": "az-1103",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-gato"
+    ],
+    "examplePt": "O gato dorme muito.",
+    "exampleEn": "The cat sleeps a lot.",
+    "exampleZhHans": "猫睡很多。",
+    "exampleZhHant": "貓睡很多。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a vacina",
+    "en": "vaccine",
+    "zhHans": "疫苗",
+    "zhHant": "疫苗",
+    "id": "az-0872",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-vacina"
+    ],
+    "examplePt": "A vacina está em dia.",
+    "exampleEn": "The vaccine is up to date.",
+    "exampleZhHans": "疫苗都是最新的。",
+    "exampleZhHant": "疫苗都是最新的。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "vacinar",
+    "en": "to vaccinate",
+    "zhHans": "打疫苗",
+    "zhHant": "打疫苗",
+    "id": "az-1104",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-vacinar"
+    ],
+    "examplePt": "Vamos vacinar o cão.",
+    "exampleEn": "Let's vaccinate the dog.",
+    "exampleZhHans": "我们去帮狗打疫苗。",
+    "exampleZhHant": "我們去幫狗打疫苗。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a desparasitação",
+    "en": "deworming",
+    "zhHans": "驱虫",
+    "zhHant": "驅蟲",
+    "id": "az-1105",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-desparasitacao"
+    ],
+    "examplePt": "Fiz a desparasitação em casa.",
+    "exampleEn": "I did the deworming at home.",
+    "exampleZhHans": "我在家帮它驱虫了。",
+    "exampleZhHant": "我在家幫牠驅蟲了。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o microchip",
+    "en": "microchip",
+    "zhHans": "芯片",
+    "zhHant": "晶片",
+    "id": "az-1106",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-microchip"
+    ],
+    "examplePt": "O gato já tem microchip.",
+    "exampleEn": "The cat already has a microchip.",
+    "exampleZhHans": "猫已经植入芯片了。",
+    "exampleZhHant": "貓已經植入晶片了。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o registo",
+    "en": "registration",
+    "zhHans": "登记",
+    "zhHant": "登記",
+    "id": "az-1107",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-registo"
+    ],
+    "examplePt": "O registo é obrigatório.",
+    "exampleEn": "Registration is mandatory.",
+    "exampleZhHans": "登记是强制的。",
+    "exampleZhHant": "登記是強制的。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a consulta",
+    "en": "appointment",
+    "zhHans": "看诊",
+    "zhHant": "看診",
+    "id": "az-1108",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-consulta"
+    ],
+    "examplePt": "Marquei consulta para hoje.",
+    "exampleEn": "I made an appointment for today.",
+    "exampleZhHans": "我约了今天看诊。",
+    "exampleZhHant": "我約了今天看診。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a urgência",
+    "en": "emergency",
+    "zhHans": "急诊",
+    "zhHant": "急診",
+    "id": "az-0512",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Fomos à urgência ontem.",
+    "exampleEn": "We went to the emergency room yesterday.",
+    "exampleZhHans": "我们昨天去了急诊。",
+    "exampleZhHant": "我們昨天去了急診。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a ração",
+    "en": "pet food",
+    "zhHans": "饲料",
+    "zhHant": "飼料",
+    "id": "az-1109",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-racao"
+    ],
+    "examplePt": "Comprei ração nova.",
+    "exampleEn": "I bought new food.",
+    "exampleZhHans": "我买了新的饲料。",
+    "exampleZhHant": "我買了新的飼料。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a trela",
+    "en": "leash",
+    "zhHans": "牵绳",
+    "zhHant": "牽繩",
+    "id": "az-1110",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-trela"
+    ],
+    "examplePt": "Usa sempre a trela.",
+    "exampleEn": "Always use the leash.",
+    "exampleZhHans": "要一直用牵绳。",
+    "exampleZhHant": "要一直用牽繩。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o açaime",
+    "en": "muzzle",
+    "zhHans": "嘴套",
+    "zhHant": "嘴套",
+    "id": "az-1111",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-acaime"
+    ],
+    "examplePt": "O açaime é obrigatório?",
+    "exampleEn": "Is the muzzle mandatory?",
+    "exampleZhHans": "一定要戴嘴套吗？",
+    "exampleZhHant": "一定要戴嘴套嗎？"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a coleira",
+    "en": "collar",
+    "zhHans": "项圈",
+    "zhHant": "項圈",
+    "id": "az-1112",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-coleira"
+    ],
+    "examplePt": "A coleira é vermelha.",
+    "exampleEn": "The collar is red.",
+    "exampleZhHans": "项圈是红色的。",
+    "exampleZhHant": "項圈是紅色的。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a transportadora",
+    "en": "pet carrier",
+    "zhHans": "宠物提笼",
+    "zhHant": "寵物提籠",
+    "id": "az-1113",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-transportadora"
+    ],
+    "examplePt": "O gato odeia a transportadora.",
+    "exampleEn": "The cat hates the carrier.",
+    "exampleZhHans": "猫讨厌提笼。",
+    "exampleZhHant": "貓討厭提籠。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a esterilização",
+    "en": "spaying / neutering",
+    "zhHans": "绝育",
+    "zhHant": "絕育",
+    "id": "az-1114",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-esterilizacao"
+    ],
+    "examplePt": "A esterilização é amanhã.",
+    "exampleEn": "Sterilization is tomorrow.",
+    "exampleZhHans": "明天做绝育手术。",
+    "exampleZhHant": "明天做絕育手術。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "vomitar",
+    "en": "to vomit",
+    "zhHans": "呕吐",
+    "zhHant": "嘔吐",
+    "id": "az-1115",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-vomitar"
+    ],
+    "examplePt": "Ele vomitou de manhã.",
+    "exampleEn": "He vomited in the morning.",
+    "exampleZhHans": "它早上吐了。",
+    "exampleZhHant": "牠早上吐了。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a diarreia",
+    "en": "diarrhea",
+    "zhHans": "腹泻",
+    "zhHant": "腹瀉",
+    "id": "az-1116",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-diarreia"
+    ],
+    "examplePt": "O cão tem diarreia.",
+    "exampleEn": "The dog has diarrhea.",
+    "exampleZhHans": "狗拉肚子了。",
+    "exampleZhHant": "狗拉肚子了。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a ferida",
+    "en": "wound",
+    "zhHans": "伤口",
+    "zhHant": "傷口",
+    "id": "az-1117",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-ferida"
+    ],
+    "examplePt": "A ferida está a sarar.",
+    "exampleEn": "The wound is healing.",
+    "exampleZhHans": "伤口在愈合。",
+    "exampleZhHant": "傷口在癒合。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a pata",
+    "en": "paw",
+    "zhHans": "爪子",
+    "zhHant": "爪子",
+    "id": "az-1118",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-pata"
+    ],
+    "examplePt": "Ele magoou a pata.",
+    "exampleEn": "He hurt his paw.",
+    "exampleZhHans": "它的脚受伤了。",
+    "exampleZhHant": "牠的腳受傷了。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o pelo",
+    "en": "fur",
+    "zhHans": "毛",
+    "zhHant": "毛",
+    "id": "az-1119",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-pelo"
+    ],
+    "examplePt": "O pelo cai muito.",
+    "exampleEn": "The hair falls out a lot.",
+    "exampleZhHans": "它掉很多毛。",
+    "exampleZhHant": "牠掉很多毛。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a pulga",
+    "en": "flea",
+    "zhHans": "跳蚤",
+    "zhHant": "跳蚤",
+    "id": "az-1120",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-pulga"
+    ],
+    "examplePt": "Acho que tem pulgas.",
+    "exampleEn": "I think it has fleas.",
+    "exampleZhHans": "我觉得它有跳蚤。",
+    "exampleZhHant": "我覺得牠有跳蚤。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a carraça",
+    "en": "tick",
+    "zhHans": "蜱虫",
+    "zhHant": "蜱蟲",
+    "id": "az-1121",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-carraca"
+    ],
+    "examplePt": "Encontrei uma carraça nele.",
+    "exampleEn": "I found a tick on him.",
+    "exampleZhHans": "我在它身上找到一只蜱虫。",
+    "exampleZhHant": "我在牠身上找到一隻蜱蟲。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o comprimido",
+    "en": "pill",
+    "zhHans": "药片",
+    "zhHant": "藥片",
+    "id": "az-0318",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Dá-lhe meio comprimido.",
+    "exampleEn": "Give him half a pill.",
+    "exampleZhHans": "给它半颗药片。",
+    "exampleZhHant": "給牠半顆藥片。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "a pomada",
+    "en": "ointment",
+    "zhHans": "药膏",
+    "zhHant": "藥膏",
+    "id": "az-1122",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-pomada"
+    ],
+    "examplePt": "Põe pomada na ferida.",
+    "exampleEn": "Put ointment on the wound.",
+    "exampleZhHans": "在伤口涂药膏。",
+    "exampleZhHant": "在傷口塗藥膏。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "morder",
+    "en": "to bite",
+    "zhHans": "咬",
+    "zhHant": "咬",
+    "id": "az-1123",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-morder"
+    ],
+    "examplePt": "O cão não morde.",
+    "exampleEn": "The dog doesn't bite.",
+    "exampleZhHans": "这只狗不咬人。",
+    "exampleZhHant": "這隻狗不咬人。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "arranhar",
+    "en": "to scratch (something)",
+    "zhHans": "抓",
+    "zhHant": "抓",
+    "id": "az-1124",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-arranhar"
+    ],
+    "examplePt": "O gato arranhou o sofá.",
+    "exampleEn": "The cat scratched the sofa.",
+    "exampleZhHans": "猫抓坏了沙发。",
+    "exampleZhHant": "貓抓壞了沙發。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "ladrar",
+    "en": "to bark",
+    "zhHans": "吠叫",
+    "zhHant": "吠叫",
+    "id": "az-1125",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-ladrar"
+    ],
+    "examplePt": "Ele ladra à noite.",
+    "exampleEn": "He barks at night.",
+    "exampleZhHans": "它晚上会吠。",
+    "exampleZhHant": "牠晚上會吠。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "miar",
+    "en": "to meow",
+    "zhHans": "喵喵叫",
+    "zhHant": "喵喵叫",
+    "id": "az-1126",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-miar"
+    ],
+    "examplePt": "A gata mia muito.",
+    "exampleEn": "The cat meows a lot.",
+    "exampleZhHans": "母猫很爱叫。",
+    "exampleZhHant": "母貓很愛叫。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "pesar",
+    "en": "to weigh",
+    "zhHans": "称重",
+    "zhHant": "稱重",
+    "id": "az-0829",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-pesar"
+    ],
+    "examplePt": "Vamos pesar o gato.",
+    "exampleEn": "Let's weigh the cat.",
+    "exampleZhHans": "我们来帮猫量体重。",
+    "exampleZhHant": "我們來幫貓量體重。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "o passaporte de animal",
+    "en": "pet passport",
+    "zhHans": "宠物护照",
+    "zhHant": "寵物護照",
+    "id": "az-1127",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-passaporte-de-animal"
+    ],
+    "examplePt": "Ele já tem passaporte.",
+    "exampleEn": "He already has a passport.",
+    "exampleZhHans": "它已经有宠物护照了。",
+    "exampleZhHant": "牠已經有寵物護照了。"
+  },
+  {
+    "situacao": "veterinario",
+    "pt": "coçar-se",
+    "en": "to scratch oneself",
+    "zhHans": "抓痒",
+    "zhHant": "抓癢",
+    "id": "az-1128",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-cocar-se"
+    ],
+    "examplePt": "Ele coça-se muito.",
+    "exampleEn": "He scratches a lot.",
+    "exampleZhHans": "它一直抓痒。",
+    "exampleZhHant": "牠一直抓癢。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o ginásio",
+    "en": "gym",
+    "zhHans": "健身房",
+    "zhHant": "健身房",
+    "id": "az-1129",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-ginasio"
+    ],
+    "examplePt": "Vou ao ginásio à noite.",
+    "exampleEn": "I go to the gym at night.",
+    "exampleZhHans": "我晚上去健身房。",
+    "exampleZhHant": "我晚上去健身房。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a inscrição",
+    "en": "enrollment",
+    "zhHans": "报名",
+    "zhHant": "報名",
+    "id": "az-0330",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A inscrição faz-se online.",
+    "exampleEn": "Registration is done online.",
+    "exampleZhHans": "报名在线上办理。",
+    "exampleZhHant": "報名在線上辦理。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "inscrever-se",
+    "en": "to sign up",
+    "zhHans": "报名",
+    "zhHant": "報名",
+    "id": "az-1130",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-inscrever-se"
+    ],
+    "examplePt": "Quero inscrever-me hoje.",
+    "exampleEn": "I want to sign up today.",
+    "exampleZhHans": "我想今天报名。",
+    "exampleZhHant": "我想今天報名。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a mensalidade",
+    "en": "monthly fee",
+    "zhHans": "月费",
+    "zhHant": "月費",
+    "id": "az-1131",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-mensalidade"
+    ],
+    "examplePt": "A mensalidade é de trinta euros.",
+    "exampleEn": "The monthly fee is thirty euros.",
+    "exampleZhHans": "月费是三十欧元。",
+    "exampleZhHant": "月費是三十歐元。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a taxa de inscrição",
+    "en": "joining fee",
+    "zhHans": "入会费",
+    "zhHant": "入會費",
+    "id": "az-1132",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-taxa-de-inscricao"
+    ],
+    "examplePt": "A taxa de inscrição paga-se uma vez.",
+    "exampleEn": "The registration fee is paid once.",
+    "exampleZhHans": "入会费只付一次。",
+    "exampleZhHant": "入會費只付一次。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a fidelização",
+    "en": "loyalty period (lock-in)",
+    "zhHans": "绑约",
+    "zhHant": "綁約",
+    "id": "az-1133",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-fidelizacao"
+    ],
+    "examplePt": "Não quero fidelização.",
+    "exampleEn": "I don't want loyalty.",
+    "exampleZhHans": "我不想绑约。",
+    "exampleZhHant": "我不想綁約。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o contrato",
+    "en": "contract",
+    "zhHans": "合约",
+    "zhHant": "合約",
+    "id": "az-1134",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-contrato"
+    ],
+    "examplePt": "Li o contrato todo.",
+    "exampleEn": "I read the entire contract.",
+    "exampleZhHans": "我把合约全看了。",
+    "exampleZhHant": "我把合約全看了。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "cancelar",
+    "en": "to cancel",
+    "zhHans": "取消",
+    "zhHant": "取消",
+    "id": "az-1135",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-cancelar"
+    ],
+    "examplePt": "Quero cancelar a inscrição.",
+    "exampleEn": "I want to unsubscribe.",
+    "exampleZhHans": "我想取消会籍。",
+    "exampleZhHant": "我想取消會籍。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a aula experimental",
+    "en": "trial class",
+    "zhHans": "体验课",
+    "zhHant": "體驗課",
+    "id": "az-1136",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-aula-experimental"
+    ],
+    "examplePt": "A aula experimental é grátis.",
+    "exampleEn": "The trial class is free.",
+    "exampleZhHans": "体验课是免费的。",
+    "exampleZhHant": "體驗課是免費的。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a aula de grupo",
+    "en": "group class",
+    "zhHans": "团体课",
+    "zhHant": "團體課",
+    "id": "az-1137",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-aula-de-grupo"
+    ],
+    "examplePt": "Adoro as aulas de grupo.",
+    "exampleEn": "I love group classes.",
+    "exampleZhHans": "我很喜欢团体课。",
+    "exampleZhHant": "我很喜歡團體課。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o treino",
+    "en": "workout",
+    "zhHans": "训练",
+    "zhHant": "訓練",
+    "id": "az-1138",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-treino"
+    ],
+    "examplePt": "O treino foi duro.",
+    "exampleEn": "The training was tough.",
+    "exampleZhHans": "这次训练很累。",
+    "exampleZhHant": "這次訓練很累。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o treinador",
+    "en": "trainer",
+    "zhHans": "教练",
+    "zhHant": "教練",
+    "id": "az-1139",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-treinador"
+    ],
+    "examplePt": "O treinador ajuda-me muito.",
+    "exampleEn": "The coach helps me a lot.",
+    "exampleZhHans": "教练帮了我很多。",
+    "exampleZhHant": "教練幫了我很多。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o plano de treino",
+    "en": "training plan",
+    "zhHans": "训练计划",
+    "zhHant": "訓練計劃",
+    "id": "az-1140",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-plano-de-treino"
+    ],
+    "examplePt": "Segue o plano de treino.",
+    "exampleEn": "Follow the training plan.",
+    "exampleZhHans": "按照训练计划做。",
+    "exampleZhHant": "按照訓練計劃做。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o cacifo",
+    "en": "locker",
+    "zhHans": "置物柜",
+    "zhHant": "置物櫃",
+    "id": "az-1141",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-cacifo"
+    ],
+    "examplePt": "Deixei tudo no cacifo.",
+    "exampleEn": "I left everything in the locker.",
+    "exampleZhHans": "我把东西都放在置物柜。",
+    "exampleZhHant": "我把東西都放在置物櫃。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o cadeado",
+    "en": "padlock",
+    "zhHans": "挂锁",
+    "zhHant": "掛鎖",
+    "id": "az-1142",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-cadeado"
+    ],
+    "examplePt": "Esqueci-me do cadeado.",
+    "exampleEn": "I forgot the padlock.",
+    "exampleZhHans": "我忘了带挂锁。",
+    "exampleZhHant": "我忘了帶掛鎖。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o balneário",
+    "en": "changing room",
+    "zhHans": "更衣室",
+    "zhHant": "更衣室",
+    "id": "az-1143",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-balneario"
+    ],
+    "examplePt": "O balneário está limpo.",
+    "exampleEn": "The locker room is clean.",
+    "exampleZhHans": "更衣室很干净。",
+    "exampleZhHant": "更衣室很乾淨。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o chuveiro",
+    "en": "shower",
+    "zhHans": "淋浴",
+    "zhHant": "淋浴",
+    "id": "az-1144",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-chuveiro"
+    ],
+    "examplePt": "O chuveiro é quente.",
+    "exampleEn": "The shower is hot.",
+    "exampleZhHans": "淋浴的水是热的。",
+    "exampleZhHant": "淋浴的水是熱的。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a toalha",
+    "en": "towel",
+    "zhHans": "毛巾",
+    "zhHant": "毛巾",
+    "id": "az-1145",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-toalha"
+    ],
+    "examplePt": "A toalha é obrigatória.",
+    "exampleEn": "A towel is mandatory.",
+    "exampleZhHans": "毛巾是必备的。",
+    "exampleZhHant": "毛巾是必備的。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "as sapatilhas",
+    "en": "sneakers",
+    "zhHans": "运动鞋",
+    "zhHant": "運動鞋",
+    "id": "az-1146",
+    "pos": "noun",
+    "gender": "f-pl",
+    "legacyIds": [
+      "situacao-as-sapatilhas"
+    ],
+    "examplePt": "Comprei sapatilhas novas.",
+    "exampleEn": "I bought new sneakers.",
+    "exampleZhHans": "我买了新运动鞋。",
+    "exampleZhHant": "我買了新運動鞋。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a passadeira",
+    "en": "treadmill",
+    "zhHans": "跑步机",
+    "zhHant": "跑步機",
+    "id": "az-1147",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-passadeira"
+    ],
+    "examplePt": "Corro na passadeira.",
+    "exampleEn": "I run on the treadmill.",
+    "exampleZhHans": "我在跑步机上跑步。",
+    "exampleZhHant": "我在跑步機上跑步。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "os halteres",
+    "en": "dumbbells",
+    "zhHans": "哑铃",
+    "zhHant": "啞鈴",
+    "id": "az-1148",
+    "pos": "noun",
+    "gender": "m-pl",
+    "legacyIds": [
+      "situacao-os-halteres"
+    ],
+    "examplePt": "Os halteres são pesados.",
+    "exampleEn": "Dumbbells are heavy.",
+    "exampleZhHans": "这些哑铃很重。",
+    "exampleZhHant": "這些啞鈴很重。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a elíptica",
+    "en": "elliptical machine",
+    "zhHans": "椭圆机",
+    "zhHant": "橢圓機",
+    "id": "az-1149",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-eliptica"
+    ],
+    "examplePt": "Prefiro a elíptica à passadeira.",
+    "exampleEn": "I prefer the elliptical to the treadmill.",
+    "exampleZhHans": "比起跑步机我更爱椭圆机。",
+    "exampleZhHant": "比起跑步機我更愛橢圓機。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a bicicleta estática",
+    "en": "exercise bike",
+    "zhHans": "健身车",
+    "zhHant": "健身車",
+    "id": "az-1150",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-bicicleta-estatica"
+    ],
+    "examplePt": "Faço bicicleta vinte minutos.",
+    "exampleEn": "I cycle for twenty minutes.",
+    "exampleZhHans": "我踩健身车二十分钟。",
+    "exampleZhHant": "我踩健身車二十分鐘。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o remo",
+    "en": "rowing machine",
+    "zhHans": "划船机",
+    "zhHant": "划船機",
+    "id": "az-1151",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-remo"
+    ],
+    "examplePt": "O remo cansa muito.",
+    "exampleEn": "Rowing is very tiring.",
+    "exampleZhHans": "划船机很累人。",
+    "exampleZhHant": "划船機很累人。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a barra",
+    "en": "barbell",
+    "zhHans": "杠铃",
+    "zhHant": "槓鈴",
+    "id": "az-1152",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-barra"
+    ],
+    "examplePt": "A barra pesa vinte quilos.",
+    "exampleEn": "The bar weighs twenty kilos.",
+    "exampleZhHans": "杠铃重二十公斤。",
+    "exampleZhHant": "槓鈴重二十公斤。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a máquina",
+    "en": "machine (gym)",
+    "zhHans": "器械",
+    "zhHant": "器械",
+    "id": "az-1153",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-maquina"
+    ],
+    "examplePt": "Esta máquina está ocupada.",
+    "exampleEn": "This machine is busy.",
+    "exampleZhHans": "这台器械有人在用。",
+    "exampleZhHant": "這台器械有人在用。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o peso",
+    "en": "weight",
+    "zhHans": "重量",
+    "zhHant": "重量",
+    "id": "az-0830",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-peso"
+    ],
+    "examplePt": "Baixa um pouco o peso.",
+    "exampleEn": "Lower the weight a little.",
+    "exampleZhHans": "把重量调轻一点。",
+    "exampleZhHant": "把重量調輕一點。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o alongamento",
+    "en": "stretching",
+    "zhHans": "伸展",
+    "zhHant": "伸展",
+    "id": "az-1154",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-alongamento"
+    ],
+    "examplePt": "Faz alongamentos no fim.",
+    "exampleEn": "Stretches at the end.",
+    "exampleZhHans": "最后要做伸展。",
+    "exampleZhHant": "最後要做伸展。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o aquecimento",
+    "en": "warm-up",
+    "zhHans": "热身",
+    "zhHant": "熱身",
+    "id": "az-0967",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-aquecimento"
+    ],
+    "examplePt": "Nunca saltes o aquecimento.",
+    "exampleEn": "Never skip the warm-up.",
+    "exampleZhHans": "千万别跳过热身。",
+    "exampleZhHant": "千萬別跳過熱身。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a musculação",
+    "en": "weight training",
+    "zhHans": "重量训练",
+    "zhHant": "重量訓練",
+    "id": "az-1155",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-musculacao"
+    ],
+    "examplePt": "Prefiro musculação a cardio.",
+    "exampleEn": "I prefer weight training to cardio.",
+    "exampleZhHans": "我爱重训胜过有氧。",
+    "exampleZhHant": "我愛重訓勝過有氧。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o horário",
+    "en": "opening hours",
+    "zhHans": "营业时间",
+    "zhHant": "營業時間",
+    "id": "az-0679",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-horario"
+    ],
+    "examplePt": "O horário é alargado.",
+    "exampleEn": "The hours are extended.",
+    "exampleZhHans": "营业时间很长。",
+    "exampleZhHant": "營業時間很長。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "o cartão de sócio",
+    "en": "membership card",
+    "zhHans": "会员卡",
+    "zhHant": "會員卡",
+    "id": "az-1156",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-cartao-de-socio"
+    ],
+    "examplePt": "Traz o cartão de sócio.",
+    "exampleEn": "Bring your membership card.",
+    "exampleZhHans": "带上会员卡。",
+    "exampleZhHant": "帶上會員卡。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a avaliação física",
+    "en": "fitness assessment",
+    "zhHans": "体能评估",
+    "zhHant": "體能評估",
+    "id": "az-1157",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-avaliacao-fisica"
+    ],
+    "examplePt": "Fiz a avaliação física ontem.",
+    "exampleEn": "I did the physical assessment yesterday.",
+    "exampleZhHans": "我昨天做了体能评估。",
+    "exampleZhHant": "我昨天做了體能評估。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "a lesão",
+    "en": "injury",
+    "zhHans": "损伤",
+    "zhHant": "損傷",
+    "id": "az-1158",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-lesao"
+    ],
+    "examplePt": "Tenho uma lesão no joelho.",
+    "exampleEn": "I have a knee injury.",
+    "exampleZhHans": "我膝盖受伤了。",
+    "exampleZhHant": "我膝蓋受傷了。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "magoar-se",
+    "en": "to hurt oneself",
+    "zhHans": "受伤",
+    "zhHant": "受傷",
+    "id": "az-1159",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-magoar-se"
+    ],
+    "examplePt": "Magoei-me nas costas.",
+    "exampleEn": "I hurt my back.",
+    "exampleZhHans": "我背受伤了。",
+    "exampleZhHant": "我背受傷了。"
+  },
+  {
+    "situacao": "ginasio",
+    "pt": "suar",
+    "en": "to sweat",
+    "zhHans": "流汗",
+    "zhHant": "流汗",
+    "id": "az-1160",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-suar"
+    ],
+    "examplePt": "Suei imenso hoje.",
+    "exampleEn": "I sweated a lot today.",
+    "exampleZhHans": "我今天流了好多汗。",
+    "exampleZhHant": "我今天流了好多汗。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "o convite",
+    "en": "invitation",
+    "zhHans": "邀请",
+    "zhHant": "邀請",
+    "id": "az-1161",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-convite"
+    ],
+    "examplePt": "Aceito o convite, obrigado.",
+    "exampleEn": "I accept the invitation, thank you.",
+    "exampleZhHans": "我接受邀请，谢谢。",
+    "exampleZhHant": "我接受邀請，謝謝。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "convidar",
+    "en": "to invite",
+    "zhHans": "邀请",
+    "zhHant": "邀請",
+    "id": "az-1162",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-convidar"
+    ],
+    "examplePt": "Vou convidar a Ana.",
+    "exampleEn": "I'm going to invite Ana.",
+    "exampleZhHans": "我要邀请Ana。",
+    "exampleZhHant": "我要邀請Ana。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "combinar",
+    "en": "to arrange to meet",
+    "zhHans": "约定",
+    "zhHant": "約定",
+    "id": "az-1163",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-combinar"
+    ],
+    "examplePt": "Combinamos para sábado?",
+    "exampleEn": "Shall we arrange for Saturday?",
+    "exampleZhHans": "我们约周六好吗？",
+    "exampleZhHant": "我們約週六好嗎？"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "a esplanada",
+    "en": "outdoor café terrace",
+    "zhHans": "露天座位",
+    "zhHant": "露天座位",
+    "id": "az-0747",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-esplanada"
+    ],
+    "examplePt": "Sentamo-nos na esplanada?",
+    "exampleEn": "Shall we sit on the terrace?",
+    "exampleZhHans": "我们坐露天座位好吗？",
+    "exampleZhHant": "我們坐露天座位好嗎？"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "o aniversário",
+    "en": "birthday",
+    "zhHans": "生日",
+    "zhHant": "生日",
+    "id": "az-1164",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-aniversario"
+    ],
+    "examplePt": "O aniversário dele é hoje.",
+    "exampleEn": "His birthday is today.",
+    "exampleZhHans": "今天是他的生日。",
+    "exampleZhHant": "今天是他的生日。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "os parabéns",
+    "en": "congratulations / happy birthday",
+    "zhHans": "恭喜",
+    "zhHant": "恭喜",
+    "id": "az-1165",
+    "pos": "noun",
+    "gender": "m-pl",
+    "legacyIds": [
+      "situacao-os-parabens"
+    ],
+    "examplePt": "Dei-lhe os parabéns.",
+    "exampleEn": "I congratulated him.",
+    "exampleZhHans": "我向他道贺了。",
+    "exampleZhHant": "我向他道賀了。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "a festa",
+    "en": "party",
+    "zhHans": "派对",
+    "zhHant": "派對",
+    "id": "az-1166",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-festa"
+    ],
+    "examplePt": "A festa começa às nove.",
+    "exampleEn": "The party starts at nine.",
+    "exampleZhHans": "派对九点开始。",
+    "exampleZhHant": "派對九點開始。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "a conta",
+    "en": "bill",
+    "zhHans": "账单",
+    "zhHant": "帳單",
+    "id": "az-0160",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A conta, por favor.",
+    "exampleEn": "The check, please.",
+    "exampleZhHans": "请买单。",
+    "exampleZhHant": "請買單。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "dividir a conta",
+    "en": "to split the bill",
+    "zhHans": "分摊账单",
+    "zhHant": "分攤帳單",
+    "id": "az-1167",
+    "legacyIds": [
+      "situacao-dividir-a-conta"
+    ],
+    "examplePt": "Dividimos a conta a meias.",
+    "exampleEn": "We split the bill halves.",
+    "exampleZhHans": "我们对半分账单。",
+    "exampleZhHant": "我們對半分帳單。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "oferecer",
+    "en": "to treat (pay for someone)",
+    "zhHans": "请客",
+    "zhHant": "請客",
+    "id": "az-1168",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-oferecer"
+    ],
+    "examplePt": "Hoje ofereço eu.",
+    "exampleEn": "Today I offer.",
+    "exampleZhHans": "今天我请客。",
+    "exampleZhHant": "今天我請客。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "brindar",
+    "en": "to toast",
+    "zhHans": "举杯",
+    "zhHant": "舉杯",
+    "id": "az-1169",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-brindar"
+    ],
+    "examplePt": "Brindámos ao aniversário.",
+    "exampleEn": "We toasted the birthday.",
+    "exampleZhHans": "我们为生日举杯。",
+    "exampleZhHant": "我們為生日舉杯。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "saúde!",
+    "en": "cheers!",
+    "zhHans": "干杯",
+    "zhHant": "乾杯",
+    "id": "az-1170",
+    "legacyIds": [
+      "situacao-saude"
+    ],
+    "examplePt": "Saúde! À nossa!",
+    "exampleEn": "Health! Ours!",
+    "exampleZhHans": "干杯！敬我们！",
+    "exampleZhHant": "乾杯！敬我們！"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "encontrar-se",
+    "en": "to meet up",
+    "zhHans": "见面",
+    "zhHant": "見面",
+    "id": "az-1171",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-encontrar-se"
+    ],
+    "examplePt": "Encontramo-nos às oito.",
+    "exampleEn": "We meet at eight.",
+    "exampleZhHans": "我们八点见面。",
+    "exampleZhHant": "我們八點見面。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "chegar atrasado",
+    "en": "to arrive late",
+    "zhHans": "迟到",
+    "zhHant": "遲到",
+    "id": "az-1172",
+    "legacyIds": [
+      "situacao-chegar-atrasado"
+    ],
+    "examplePt": "Ele chega sempre atrasado.",
+    "exampleEn": "He always arrives late.",
+    "exampleZhHans": "他总是迟到。",
+    "exampleZhHant": "他總是遲到。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "o atraso",
+    "en": "lateness / delay",
+    "zhHans": "延误",
+    "zhHant": "延誤",
+    "id": "az-1173",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-atraso"
+    ],
+    "examplePt": "Desculpa o atraso.",
+    "exampleEn": "Sorry for the delay.",
+    "exampleZhHans": "抱歉我迟到了。",
+    "exampleZhHant": "抱歉我遲到了。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "desmarcar",
+    "en": "to cancel (plans)",
+    "zhHans": "取消约定",
+    "zhHant": "取消約定",
+    "id": "az-1174",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-desmarcar"
+    ],
+    "examplePt": "Tive de desmarcar o café.",
+    "exampleEn": "I had to cancel the coffee.",
+    "exampleZhHans": "我只好取消喝咖啡的约。",
+    "exampleZhHant": "我只好取消喝咖啡的約。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "adiar",
+    "en": "to postpone",
+    "zhHans": "延期",
+    "zhHant": "延期",
+    "id": "az-1175",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-adiar"
+    ],
+    "examplePt": "Podemos adiar para sexta?",
+    "exampleEn": "Can we postpone it until Friday?",
+    "exampleZhHans": "能改到周五吗？",
+    "exampleZhHant": "能改到週五嗎？"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "estar livre",
+    "en": "to be free",
+    "zhHans": "有空",
+    "zhHant": "有空",
+    "id": "az-1176",
+    "legacyIds": [
+      "situacao-estar-livre"
+    ],
+    "examplePt": "Estou livre à tarde.",
+    "exampleEn": "I'm free in the afternoon.",
+    "exampleZhHans": "我下午有空。",
+    "exampleZhHant": "我下午有空。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "estar ocupado",
+    "en": "to be busy",
+    "zhHans": "忙碌",
+    "zhHant": "忙碌",
+    "id": "az-1177",
+    "legacyIds": [
+      "situacao-estar-ocupado"
+    ],
+    "examplePt": "Hoje estou muito ocupado.",
+    "exampleEn": "Today I am very busy.",
+    "exampleZhHans": "我今天很忙。",
+    "exampleZhHant": "我今天很忙。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "apetecer",
+    "en": "to feel like",
+    "zhHans": "想要",
+    "zhHant": "想要",
+    "id": "az-1178",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-apetecer"
+    ],
+    "examplePt": "Apetece-me um gelado.",
+    "exampleEn": "I feel like an ice cream.",
+    "exampleZhHans": "我想吃冰淇淋。",
+    "exampleZhHant": "我想吃冰淇淋。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "a conversa",
+    "en": "conversation",
+    "zhHans": "谈话",
+    "zhHant": "談話",
+    "id": "az-1179",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-conversa"
+    ],
+    "examplePt": "A conversa foi boa.",
+    "exampleEn": "The conversation was good.",
+    "exampleZhHans": "聊得很愉快。",
+    "exampleZhHant": "聊得很愉快。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "conversar",
+    "en": "to chat",
+    "zhHans": "聊天",
+    "zhHant": "聊天",
+    "id": "az-0176",
+    "pos": "verb",
+    "examplePt": "Gosto de conversar contigo.",
+    "exampleEn": "I like talking to you.",
+    "exampleZhHans": "我喜欢和你聊天。",
+    "exampleZhHant": "我喜歡和你聊天。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "conhecer",
+    "en": "to meet / get to know",
+    "zhHans": "认识",
+    "zhHant": "認識",
+    "id": "az-0441",
+    "pos": "verb",
+    "examplePt": "Quero conhecer os teus amigos.",
+    "exampleEn": "I want to meet your friends.",
+    "exampleZhHans": "我想认识你的朋友。",
+    "exampleZhHant": "我想認識你的朋友。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "apresentar",
+    "en": "to introduce",
+    "zhHans": "介绍",
+    "zhHant": "介紹",
+    "id": "az-1180",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-apresentar"
+    ],
+    "examplePt": "Apresento-te o Pedro.",
+    "exampleEn": "Let me introduce you to Pedro.",
+    "exampleZhHans": "我帮你介绍Pedro。",
+    "exampleZhHant": "我幫你介紹Pedro。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "o colega",
+    "en": "colleague",
+    "zhHans": "同事",
+    "zhHant": "同事",
+    "id": "az-1181",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-colega"
+    ],
+    "examplePt": "Vou com uma colega.",
+    "exampleEn": "I'm going with a colleague.",
+    "exampleZhHans": "我和一位同事一起去。",
+    "exampleZhHant": "我和一位同事一起去。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "a piada",
+    "en": "joke",
+    "zhHans": "笑话",
+    "zhHant": "笑話",
+    "id": "az-1182",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-piada"
+    ],
+    "examplePt": "Que piada tão boa!",
+    "exampleEn": "What a good joke!",
+    "exampleZhHans": "这笑话真好笑！",
+    "exampleZhHant": "這笑話真好笑！"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "rir",
+    "en": "to laugh",
+    "zhHans": "笑",
+    "zhHant": "笑",
+    "id": "az-1183",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-rir"
+    ],
+    "examplePt": "Rimos a noite toda.",
+    "exampleEn": "We laughed all night.",
+    "exampleZhHans": "我们笑了一整晚。",
+    "exampleZhHant": "我們笑了一整晚。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "divertir-se",
+    "en": "to have fun",
+    "zhHans": "玩得开心",
+    "zhHant": "玩得開心",
+    "id": "az-0207",
+    "pos": "verb",
+    "examplePt": "Divertimo-nos imenso ontem.",
+    "exampleEn": "We had a lot of fun yesterday.",
+    "exampleZhHans": "我们昨天玩得超开心。",
+    "exampleZhHant": "我們昨天玩得超開心。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "o encontro",
+    "en": "get-together",
+    "zhHans": "聚会",
+    "zhHant": "聚會",
+    "id": "az-1184",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-encontro"
+    ],
+    "examplePt": "O encontro é no café.",
+    "exampleEn": "The meeting is at the cafe.",
+    "exampleZhHans": "聚会在咖啡馆。",
+    "exampleZhHant": "聚會在咖啡館。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "a rodada",
+    "en": "round (of drinks)",
+    "zhHans": "一轮酒",
+    "zhHant": "一輪酒",
+    "id": "az-1185",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-rodada"
+    ],
+    "examplePt": "Esta rodada é minha.",
+    "exampleEn": "This round is mine.",
+    "exampleZhHans": "这轮酒我请。",
+    "exampleZhHant": "這輪酒我請。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "pagar",
+    "en": "to pay",
+    "zhHans": "付钱",
+    "zhHant": "付錢",
+    "id": "az-1186",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-pagar"
+    ],
+    "examplePt": "Deixa, pago eu.",
+    "exampleEn": "Leave it, I'll pay.",
+    "exampleZhHans": "别抢，我来付。",
+    "exampleZhHant": "別搶，我來付。"
+  },
+  {
+    "situacao": "convivio",
+    "pt": "o brinde",
+    "en": "toast (raising glasses)",
+    "zhHans": "祝酒",
+    "zhHant": "祝酒",
+    "id": "az-1187",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-brinde"
+    ],
+    "examplePt": "Fizemos um brinde à Rita.",
+    "exampleEn": "We toasted Rita.",
+    "exampleZhHans": "我们为Rita举杯。",
+    "exampleZhHant": "我們為Rita舉杯。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o vizinho",
+    "en": "neighbor",
+    "zhHans": "邻居",
+    "zhHant": "鄰居",
+    "id": "az-1188",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-vizinho"
+    ],
+    "examplePt": "O vizinho de cima é simpático.",
+    "exampleEn": "The upstairs neighbor is friendly.",
+    "exampleZhHans": "楼上的邻居人很好。",
+    "exampleZhHant": "樓上的鄰居人很好。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o prédio",
+    "en": "building",
+    "zhHans": "大楼",
+    "zhHant": "大樓",
+    "id": "az-0083",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O prédio tem seis andares.",
+    "exampleEn": "The building has six floors.",
+    "exampleZhHans": "这栋楼有六层。",
+    "exampleZhHant": "這棟樓有六層。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o condomínio",
+    "en": "building association / service charge",
+    "zhHans": "大楼管理",
+    "zhHant": "大樓管理",
+    "id": "az-0715",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-condominio"
+    ],
+    "examplePt": "Pago o condomínio amanhã.",
+    "exampleEn": "I pay the condo tomorrow.",
+    "exampleZhHans": "我明天缴管理费。",
+    "exampleZhHant": "我明天繳管理費。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a reunião de condomínio",
+    "en": "building meeting",
+    "zhHans": "业主大会",
+    "zhHant": "業主大會",
+    "id": "az-1189",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-reuniao-de-condominio"
+    ],
+    "examplePt": "A reunião é na quinta.",
+    "exampleEn": "The meeting is on Thursday.",
+    "exampleZhHans": "会议在周四。",
+    "exampleZhHant": "會議在週四。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a quota",
+    "en": "monthly share / fee",
+    "zhHans": "管理费",
+    "zhHant": "管理費",
+    "id": "az-1190",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-quota"
+    ],
+    "examplePt": "A quota subiu este ano.",
+    "exampleEn": "The quota went up this year.",
+    "exampleZhHans": "管理费今年涨了。",
+    "exampleZhHant": "管理費今年漲了。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o andar",
+    "en": "floor",
+    "zhHans": "楼层",
+    "zhHant": "樓層",
+    "id": "az-0078",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Moro no terceiro andar.",
+    "exampleEn": "I live on the third floor.",
+    "exampleZhHans": "我住在三楼。",
+    "exampleZhHant": "我住在三樓。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o elevador",
+    "en": "elevator",
+    "zhHans": "电梯",
+    "zhHant": "電梯",
+    "id": "az-1191",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-elevador"
+    ],
+    "examplePt": "Apanho sempre o elevador.",
+    "exampleEn": "I always take the elevator.",
+    "exampleZhHans": "我总是坐电梯。",
+    "exampleZhHant": "我總是搭電梯。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "as escadas",
+    "en": "stairs",
+    "zhHans": "楼梯",
+    "zhHant": "樓梯",
+    "id": "az-1192",
+    "pos": "noun",
+    "gender": "f-pl",
+    "legacyIds": [
+      "situacao-as-escadas"
+    ],
+    "examplePt": "Subi pelas escadas hoje.",
+    "exampleEn": "I took the stairs today.",
+    "exampleZhHans": "我今天走楼梯上来。",
+    "exampleZhHant": "我今天走樓梯上來。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o barulho",
+    "en": "noise",
+    "zhHans": "噪音",
+    "zhHant": "噪音",
+    "id": "az-1193",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-barulho"
+    ],
+    "examplePt": "O barulho acordou-me.",
+    "exampleEn": "The noise woke me up.",
+    "exampleZhHans": "噪音把我吵醒了。",
+    "exampleZhHant": "噪音把我吵醒了。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o silêncio",
+    "en": "silence",
+    "zhHans": "安静",
+    "zhHant": "安靜",
+    "id": "az-1194",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-silencio"
+    ],
+    "examplePt": "Gosto do silêncio aqui.",
+    "exampleEn": "I like the silence here.",
+    "exampleZhHans": "我喜欢这里的安静。",
+    "exampleZhHant": "我喜歡這裡的安靜。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "incomodar",
+    "en": "to bother",
+    "zhHans": "打扰",
+    "zhHant": "打擾",
+    "id": "az-1195",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-incomodar"
+    ],
+    "examplePt": "Desculpe incomodar tão tarde.",
+    "exampleEn": "Sorry to bother you so late.",
+    "exampleZhHans": "抱歉这么晚打扰。",
+    "exampleZhHant": "抱歉這麼晚打擾。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a queixa",
+    "en": "complaint",
+    "zhHans": "投诉",
+    "zhHant": "投訴",
+    "id": "az-0534",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Ninguém fez queixa.",
+    "exampleEn": "Nobody filed a complaint.",
+    "exampleZhHans": "没有人投诉。",
+    "exampleZhHant": "沒有人投訴。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "as obras",
+    "en": "construction works",
+    "zhHans": "施工",
+    "zhHant": "施工",
+    "id": "az-0359",
+    "pos": "noun",
+    "gender": "f-pl",
+    "examplePt": "As obras acabam em maio.",
+    "exampleEn": "The works end in May.",
+    "exampleZhHans": "工程五月完工。",
+    "exampleZhHant": "工程五月完工。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o lixo",
+    "en": "trash",
+    "zhHans": "垃圾",
+    "zhHant": "垃圾",
+    "id": "az-1196",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-lixo"
+    ],
+    "examplePt": "Já pus o lixo fora.",
+    "exampleEn": "I already took out the trash.",
+    "exampleZhHans": "我已经把垃圾拿出去了。",
+    "exampleZhHant": "我已經把垃圾拿出去了。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a reciclagem",
+    "en": "recycling",
+    "zhHans": "回收",
+    "zhHant": "回收",
+    "id": "az-1197",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-reciclagem"
+    ],
+    "examplePt": "A reciclagem é ao fundo.",
+    "exampleEn": "Recycling is in the background.",
+    "exampleZhHans": "回收站在最里面。",
+    "exampleZhHant": "回收站在最裡面。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o contentor",
+    "en": "bin / container",
+    "zhHans": "垃圾箱",
+    "zhHant": "垃圾箱",
+    "id": "az-1198",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-contentor"
+    ],
+    "examplePt": "O contentor está cheio.",
+    "exampleEn": "The container is full.",
+    "exampleZhHans": "垃圾箱满了。",
+    "exampleZhHant": "垃圾箱滿了。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a encomenda",
+    "en": "package",
+    "zhHans": "包裹",
+    "zhHant": "包裹",
+    "id": "az-0222",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Chegou uma encomenda para ti.",
+    "exampleEn": "An order has arrived for you.",
+    "exampleZhHans": "有你的一个包裹。",
+    "exampleZhHant": "有你的一個包裹。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o favor",
+    "en": "favor",
+    "zhHans": "帮忙",
+    "zhHant": "幫忙",
+    "id": "az-1199",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-favor"
+    ],
+    "examplePt": "Preciso de um favor.",
+    "exampleEn": "I need a favor.",
+    "exampleZhHans": "我需要帮个忙。",
+    "exampleZhHant": "我需要幫個忙。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "emprestar",
+    "en": "to lend",
+    "zhHans": "借",
+    "zhHant": "借",
+    "id": "az-1200",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-emprestar"
+    ],
+    "examplePt": "Emprestas-me um pouco de sal?",
+    "exampleEn": "Can you lend me some salt?",
+    "exampleZhHans": "能借我一点盐吗？",
+    "exampleZhHant": "能借我一點鹽嗎？"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "regar",
+    "en": "to water",
+    "zhHans": "浇水",
+    "zhHant": "澆水",
+    "id": "az-1201",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-regar"
+    ],
+    "examplePt": "Rego as plantas à noite.",
+    "exampleEn": "I water the plants at night.",
+    "exampleZhHans": "我晚上浇花。",
+    "exampleZhHant": "我晚上澆花。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a chave",
+    "en": "key",
+    "zhHans": "钥匙",
+    "zhHant": "鑰匙",
+    "id": "az-1202",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-chave"
+    ],
+    "examplePt": "Deixo a chave ao vizinho.",
+    "exampleEn": "I leave the key to the neighbor.",
+    "exampleZhHans": "我把钥匙留给邻居。",
+    "exampleZhHant": "我把鑰匙留給鄰居。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a garagem",
+    "en": "garage",
+    "zhHans": "车库",
+    "zhHant": "車庫",
+    "id": "az-1203",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-garagem"
+    ],
+    "examplePt": "O carro está na garagem.",
+    "exampleEn": "The car is in the garage.",
+    "exampleZhHans": "车在车库里。",
+    "exampleZhHant": "車在車庫裡。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o lugar de estacionamento",
+    "en": "parking spot",
+    "zhHans": "停车位",
+    "zhHant": "停車位",
+    "id": "az-1204",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-lugar-de-estacionamento"
+    ],
+    "examplePt": "O meu lugar é o dez.",
+    "exampleEn": "My place is ten.",
+    "exampleZhHans": "我的车位是十号。",
+    "exampleZhHant": "我的車位是十號。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a caixa do correio",
+    "en": "mailbox",
+    "zhHans": "信箱",
+    "zhHant": "信箱",
+    "id": "az-1205",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-caixa-do-correio"
+    ],
+    "examplePt": "Vê a caixa do correio.",
+    "exampleEn": "Check the mailbox.",
+    "exampleZhHans": "看一下信箱。",
+    "exampleZhHant": "看一下信箱。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "avariado",
+    "en": "out of order",
+    "zhHans": "故障",
+    "zhHant": "故障",
+    "id": "az-1206",
+    "legacyIds": [
+      "situacao-avariado"
+    ],
+    "examplePt": "O elevador está avariado.",
+    "exampleEn": "The elevator is out of order.",
+    "exampleZhHans": "电梯故障了。",
+    "exampleZhHant": "電梯故障了。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a mudança",
+    "en": "move (house move)",
+    "zhHans": "搬家",
+    "zhHant": "搬家",
+    "id": "az-1207",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-mudanca"
+    ],
+    "examplePt": "A mudança é no sábado.",
+    "exampleEn": "Changeover is on Saturday.",
+    "exampleZhHans": "周六搬家。",
+    "exampleZhHant": "週六搬家。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "mudar-se",
+    "en": "to move (house)",
+    "zhHans": "搬家",
+    "zhHant": "搬家",
+    "id": "az-1208",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-mudar-se"
+    ],
+    "examplePt": "Mudámo-nos em janeiro.",
+    "exampleEn": "We moved in January.",
+    "exampleZhHans": "我们一月搬的家。",
+    "exampleZhHant": "我們一月搬的家。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "cumprimentar",
+    "en": "to greet",
+    "zhHans": "打招呼",
+    "zhHant": "打招呼",
+    "id": "az-1209",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-cumprimentar"
+    ],
+    "examplePt": "Cumprimento sempre a vizinha.",
+    "exampleEn": "I always greet my neighbor.",
+    "exampleZhHans": "我总是跟邻居打招呼。",
+    "exampleZhHant": "我總是跟鄰居打招呼。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "o administrador",
+    "en": "building manager",
+    "zhHans": "管理员",
+    "zhHant": "管理員",
+    "id": "az-1210",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-administrador"
+    ],
+    "examplePt": "Falei com o administrador.",
+    "exampleEn": "I spoke to the administrator.",
+    "exampleZhHans": "我跟管理员谈过了。",
+    "exampleZhHant": "我跟管理員談過了。"
+  },
+  {
+    "situacao": "vizinhos",
+    "pt": "a campainha",
+    "en": "doorbell",
+    "zhHans": "门铃",
+    "zhHant": "門鈴",
+    "id": "az-1211",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-campainha"
+    ],
+    "examplePt": "Tocaram à campainha.",
+    "exampleEn": "They rang the doorbell.",
+    "exampleZhHans": "有人按了门铃。",
+    "exampleZhHant": "有人按了門鈴。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o cabeleireiro",
+    "en": "hairdresser / hair salon",
+    "zhHans": "理发师",
+    "zhHant": "理髮師",
+    "id": "az-1212",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-cabeleireiro"
+    ],
+    "examplePt": "Vou ao cabeleireiro amanhã.",
+    "exampleEn": "I'm going to the hairdresser tomorrow.",
+    "exampleZhHans": "我明天去理发。",
+    "exampleZhHant": "我明天去理髮。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o barbeiro",
+    "en": "barber",
+    "zhHans": "男士理发师",
+    "zhHant": "男士理髮師",
+    "id": "az-1213",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-barbeiro"
+    ],
+    "examplePt": "O barbeiro corta bem.",
+    "exampleEn": "The barber cuts well.",
+    "exampleZhHans": "这位理发师剪得好。",
+    "exampleZhHant": "這位理髮師剪得好。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "a barbearia",
+    "en": "barbershop",
+    "zhHans": "理发店",
+    "zhHant": "理髮店",
+    "id": "az-1214",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-barbearia"
+    ],
+    "examplePt": "A barbearia é ali.",
+    "exampleEn": "The barbershop is over there.",
+    "exampleZhHans": "理发店在那边。",
+    "exampleZhHant": "理髮店在那邊。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o salão",
+    "en": "salon",
+    "zhHans": "美发沙龙",
+    "zhHant": "美髮沙龍",
+    "id": "az-1215",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-salao"
+    ],
+    "examplePt": "O salão está cheio.",
+    "exampleEn": "The hall is full.",
+    "exampleZhHans": "店里客满了。",
+    "exampleZhHant": "店裡客滿了。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "a marcação",
+    "en": "appointment",
+    "zhHans": "预约",
+    "zhHant": "預約",
+    "id": "az-1216",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-marcacao"
+    ],
+    "examplePt": "Tenho marcação às três.",
+    "exampleEn": "I have an appointment at three.",
+    "exampleZhHans": "我约了三点。",
+    "exampleZhHant": "我約了三點。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "marcar",
+    "en": "to book",
+    "zhHans": "预约",
+    "zhHant": "預約",
+    "id": "az-1217",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-marcar"
+    ],
+    "examplePt": "Quero marcar para sábado.",
+    "exampleEn": "I want to make an appointment for Saturday.",
+    "exampleZhHans": "我想预约周六。",
+    "exampleZhHant": "我想預約週六。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o corte",
+    "en": "haircut",
+    "zhHans": "剪发",
+    "zhHant": "剪髮",
+    "id": "az-1218",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-corte"
+    ],
+    "examplePt": "O corte ficou ótimo.",
+    "exampleEn": "The cut was great.",
+    "exampleZhHans": "这发型剪得很好。",
+    "exampleZhHant": "這髮型剪得很好。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "cortar",
+    "en": "to cut",
+    "zhHans": "剪",
+    "zhHant": "剪",
+    "id": "az-1219",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-cortar"
+    ],
+    "examplePt": "Corta só um pouco.",
+    "exampleEn": "Cut just a little.",
+    "exampleZhHans": "只剪一点点。",
+    "exampleZhHant": "只剪一點點。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "aparar",
+    "en": "to trim",
+    "zhHans": "修剪",
+    "zhHant": "修剪",
+    "id": "az-1220",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-aparar"
+    ],
+    "examplePt": "Só quero aparar as pontas.",
+    "exampleEn": "I just want to trim the ends.",
+    "exampleZhHans": "我只想修发尾。",
+    "exampleZhHant": "我只想修髮尾。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "as pontas",
+    "en": "ends (of hair)",
+    "zhHans": "发尾",
+    "zhHant": "髮尾",
+    "id": "az-1221",
+    "pos": "noun",
+    "gender": "f-pl",
+    "legacyIds": [
+      "situacao-as-pontas"
+    ],
+    "examplePt": "As pontas estão secas.",
+    "exampleEn": "The ends are dry.",
+    "exampleZhHans": "发尾很干。",
+    "exampleZhHant": "髮尾很乾。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "curto",
+    "en": "short",
+    "zhHans": "短",
+    "zhHant": "短",
+    "id": "az-1222",
+    "legacyIds": [
+      "situacao-curto"
+    ],
+    "examplePt": "Prefiro o cabelo curto.",
+    "exampleEn": "I prefer short hair.",
+    "exampleZhHans": "我喜欢短发。",
+    "exampleZhHant": "我喜歡短髮。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "comprido",
+    "en": "long",
+    "zhHans": "长",
+    "zhHant": "長",
+    "id": "az-1223",
+    "legacyIds": [
+      "situacao-comprido"
+    ],
+    "examplePt": "O cabelo está muito comprido.",
+    "exampleEn": "The hair is very long.",
+    "exampleZhHans": "头发太长了。",
+    "exampleZhHant": "頭髮太長了。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "a franja",
+    "en": "bangs / fringe",
+    "zhHans": "刘海",
+    "zhHant": "瀏海",
+    "id": "az-1224",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-franja"
+    ],
+    "examplePt": "A franja tapa-me os olhos.",
+    "exampleEn": "The bangs cover my eyes.",
+    "exampleZhHans": "刘海遮到眼睛了。",
+    "exampleZhHant": "瀏海遮到眼睛了。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o risco",
+    "en": "parting",
+    "zhHans": "分线",
+    "zhHant": "分線",
+    "id": "az-1225",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-risco"
+    ],
+    "examplePt": "Faço o risco ao lado.",
+    "exampleEn": "I make the risk on the side.",
+    "exampleZhHans": "我旁分。",
+    "exampleZhHant": "我旁分。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "a máquina",
+    "en": "clippers",
+    "zhHans": "电剪",
+    "zhHant": "電剪",
+    "id": "az-1153",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-maquina"
+    ],
+    "examplePt": "Usa a máquina dos lados.",
+    "exampleEn": "Use the machine on the sides.",
+    "exampleZhHans": "两侧用电剪。",
+    "exampleZhHant": "兩側用電剪。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o número",
+    "en": "clipper guard number",
+    "zhHans": "号数",
+    "zhHant": "號數",
+    "id": "az-1226",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-numero"
+    ],
+    "examplePt": "Número três, por favor.",
+    "exampleEn": "Number three, please.",
+    "exampleZhHans": "三号，麻烦了。",
+    "exampleZhHant": "三號，麻煩了。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "a tesoura",
+    "en": "scissors",
+    "zhHans": "剪刀",
+    "zhHant": "剪刀",
+    "id": "az-0364",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Em cima, só tesoura.",
+    "exampleEn": "On top, just scissors.",
+    "exampleZhHans": "上面只用剪刀。",
+    "exampleZhHant": "上面只用剪刀。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "lavar",
+    "en": "to wash",
+    "zhHans": "洗",
+    "zhHant": "洗",
+    "id": "az-1227",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-lavar"
+    ],
+    "examplePt": "Lavamos primeiro o cabelo.",
+    "exampleEn": "We wash our hair first.",
+    "exampleZhHans": "我们先洗头。",
+    "exampleZhHant": "我們先洗頭。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "secar",
+    "en": "to blow-dry",
+    "zhHans": "吹干",
+    "zhHant": "吹乾",
+    "id": "az-1228",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-secar"
+    ],
+    "examplePt": "Pode secar, por favor?",
+    "exampleEn": "Can you dry, please?",
+    "exampleZhHans": "可以吹干吗？",
+    "exampleZhHant": "可以吹乾嗎？"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o secador",
+    "en": "hairdryer",
+    "zhHans": "吹风机",
+    "zhHant": "吹風機",
+    "id": "az-1229",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-secador"
+    ],
+    "examplePt": "O secador está quente.",
+    "exampleEn": "The dryer is hot.",
+    "exampleZhHans": "吹风机很烫。",
+    "exampleZhHant": "吹風機很燙。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "pentear",
+    "en": "to comb / style",
+    "zhHans": "梳头",
+    "zhHant": "梳頭",
+    "id": "az-0367",
+    "pos": "verb",
+    "examplePt": "Penteia para trás, por favor.",
+    "exampleEn": "Comb it back, please.",
+    "exampleZhHans": "请往后梳。",
+    "exampleZhHant": "請往後梳。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o penteado",
+    "en": "hairstyle",
+    "zhHans": "发型",
+    "zhHant": "髮型",
+    "id": "az-1230",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-penteado"
+    ],
+    "examplePt": "Gosto do teu penteado.",
+    "exampleEn": "I like your hairstyle.",
+    "exampleZhHans": "我喜欢你的发型。",
+    "exampleZhHant": "我喜歡你的髮型。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "a barba",
+    "en": "beard",
+    "zhHans": "胡子",
+    "zhHant": "鬍子",
+    "id": "az-1231",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-barba"
+    ],
+    "examplePt": "A barba cresce depressa.",
+    "exampleEn": "The beard grows quickly.",
+    "exampleZhHans": "胡子长得快。",
+    "exampleZhHant": "鬍子長得快。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "fazer a barba",
+    "en": "to shave",
+    "zhHans": "刮胡子",
+    "zhHant": "刮鬍子",
+    "id": "az-1232",
+    "legacyIds": [
+      "situacao-fazer-a-barba"
+    ],
+    "examplePt": "Faço a barba em casa.",
+    "exampleEn": "I shave at home.",
+    "exampleZhHans": "我在家刮胡子。",
+    "exampleZhHant": "我在家刮鬍子。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o bigode",
+    "en": "mustache",
+    "zhHans": "小胡子",
+    "zhHant": "小鬍子",
+    "id": "az-1233",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-bigode"
+    ],
+    "examplePt": "Deixe o bigode assim.",
+    "exampleEn": "Leave the mustache like this.",
+    "exampleZhHans": "小胡子就这样留着。",
+    "exampleZhHant": "小鬍子就這樣留著。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "pintar",
+    "en": "to dye",
+    "zhHans": "染发",
+    "zhHant": "染髮",
+    "id": "az-1234",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-pintar"
+    ],
+    "examplePt": "Quero pintar de castanho.",
+    "exampleEn": "I want to paint it brown.",
+    "exampleZhHans": "我想染成棕色。",
+    "exampleZhHant": "我想染成棕色。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "a cor",
+    "en": "color",
+    "zhHans": "颜色",
+    "zhHant": "顏色",
+    "id": "az-1235",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-cor"
+    ],
+    "examplePt": "Que cor prefere?",
+    "exampleEn": "What color do you prefer?",
+    "exampleZhHans": "您想要什么颜色？",
+    "exampleZhHant": "您想要什麼顏色？"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "as madeixas",
+    "en": "highlights",
+    "zhHans": "挑染",
+    "zhHant": "挑染",
+    "id": "az-1236",
+    "pos": "noun",
+    "gender": "f-pl",
+    "legacyIds": [
+      "situacao-as-madeixas"
+    ],
+    "examplePt": "Fiz madeixas no verão.",
+    "exampleEn": "I got highlights in the summer.",
+    "exampleZhHans": "我夏天做了挑染。",
+    "exampleZhHant": "我夏天做了挑染。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o tom",
+    "en": "shade / tone",
+    "zhHans": "色调",
+    "zhHant": "色調",
+    "id": "az-1237",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-tom"
+    ],
+    "examplePt": "Quero um tom mais claro.",
+    "exampleEn": "I want a lighter tone.",
+    "exampleZhHans": "我想要浅一点的色调。",
+    "exampleZhHant": "我想要淺一點的色調。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "claro",
+    "en": "light (color)",
+    "zhHans": "浅",
+    "zhHant": "淺",
+    "id": "az-1238",
+    "legacyIds": [
+      "situacao-claro"
+    ],
+    "examplePt": "Prefiro um tom claro.",
+    "exampleEn": "I prefer a light tone.",
+    "exampleZhHans": "我喜欢浅色调。",
+    "exampleZhHant": "我喜歡淺色調。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "escuro",
+    "en": "dark (color)",
+    "zhHans": "深",
+    "zhHant": "深",
+    "id": "az-1239",
+    "legacyIds": [
+      "situacao-escuro"
+    ],
+    "examplePt": "Pinto de castanho escuro.",
+    "exampleEn": "Paint dark brown.",
+    "exampleZhHans": "我染深棕色。",
+    "exampleZhHant": "我染深棕色。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "liso",
+    "en": "straight (hair)",
+    "zhHans": "直",
+    "zhHant": "直",
+    "id": "az-1240",
+    "legacyIds": [
+      "situacao-liso"
+    ],
+    "examplePt": "O meu cabelo é liso.",
+    "exampleEn": "My hair is straight.",
+    "exampleZhHans": "我的头发是直的。",
+    "exampleZhHant": "我的頭髮是直的。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "encaracolado",
+    "en": "curly",
+    "zhHans": "卷",
+    "zhHant": "捲",
+    "id": "az-1241",
+    "legacyIds": [
+      "situacao-encaracolado"
+    ],
+    "examplePt": "Ela tem cabelo encaracolado.",
+    "exampleEn": "She has curly hair.",
+    "exampleZhHans": "她是卷发。",
+    "exampleZhHant": "她是捲髮。"
+  },
+  {
+    "situacao": "cabeleireiro_barbeiro",
+    "pt": "o gel",
+    "en": "hair gel",
+    "zhHans": "发胶",
+    "zhHant": "髮膠",
+    "id": "az-1242",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-gel"
+    ],
+    "examplePt": "Não uso gel.",
+    "exampleEn": "I don't use gel.",
+    "exampleZhHans": "我不用发胶。",
+    "exampleZhHant": "我不用髮膠。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a farmácia",
+    "en": "pharmacy",
+    "zhHans": "药店",
+    "zhHant": "藥局",
+    "id": "az-0312",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A farmácia fecha às sete.",
+    "exampleEn": "The pharmacy closes at seven.",
+    "exampleZhHans": "药店七点关门。",
+    "exampleZhHant": "藥局七點關門。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a farmácia de serviço",
+    "en": "on-duty pharmacy",
+    "zhHans": "值班药店",
+    "zhHant": "值班藥局",
+    "id": "az-1243",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-farmacia-de-servico"
+    ],
+    "examplePt": "Procura a farmácia de serviço.",
+    "exampleEn": "Look for the pharmacy on duty.",
+    "exampleZhHans": "找一下值班药店。",
+    "exampleZhHant": "找一下值班藥局。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o farmacêutico",
+    "en": "pharmacist",
+    "zhHans": "药剂师",
+    "zhHant": "藥劑師",
+    "id": "az-1244",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-farmaceutico"
+    ],
+    "examplePt": "O farmacêutico explicou tudo.",
+    "exampleEn": "The pharmacist explained everything.",
+    "exampleZhHans": "药剂师都解释清楚了。",
+    "exampleZhHant": "藥劑師都解釋清楚了。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a receita",
+    "en": "prescription",
+    "zhHans": "处方",
+    "zhHant": "處方",
+    "id": "az-0311",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "É preciso receita?",
+    "exampleEn": "Do I need a prescription?",
+    "exampleZhHans": "需要处方吗？",
+    "exampleZhHant": "需要處方嗎？"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o medicamento",
+    "en": "medicine",
+    "zhHans": "药",
+    "zhHant": "藥",
+    "id": "az-0333",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Tomo o medicamento à noite.",
+    "exampleEn": "I take the medicine at night.",
+    "exampleZhHans": "我晚上吃药。",
+    "exampleZhHant": "我晚上吃藥。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o genérico",
+    "en": "generic drug",
+    "zhHans": "仿制药",
+    "zhHant": "學名藥",
+    "id": "az-1245",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-generico"
+    ],
+    "examplePt": "O genérico é mais barato.",
+    "exampleEn": "The generic is cheaper.",
+    "exampleZhHans": "仿制药比较便宜。",
+    "exampleZhHant": "學名藥比較便宜。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o comprimido",
+    "en": "pill",
+    "zhHans": "药片",
+    "zhHant": "藥片",
+    "id": "az-0318",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Tomo um comprimido por dia.",
+    "exampleEn": "I take one pill a day.",
+    "exampleZhHans": "我一天吃一颗药。",
+    "exampleZhHant": "我一天吃一顆藥。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o xarope",
+    "en": "syrup",
+    "zhHans": "糖浆",
+    "zhHant": "糖漿",
+    "id": "az-1246",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-xarope"
+    ],
+    "examplePt": "O xarope é para a tosse.",
+    "exampleEn": "The syrup is for coughs.",
+    "exampleZhHans": "这糖浆是止咳的。",
+    "exampleZhHant": "這糖漿是止咳的。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a pomada",
+    "en": "ointment",
+    "zhHans": "药膏",
+    "zhHant": "藥膏",
+    "id": "az-1122",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-pomada"
+    ],
+    "examplePt": "A pomada é para a pele.",
+    "exampleEn": "The ointment is for the skin.",
+    "exampleZhHans": "这药膏是擦皮肤的。",
+    "exampleZhHant": "這藥膏是擦皮膚的。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "as gotas",
+    "en": "drops",
+    "zhHans": "滴剂",
+    "zhHant": "滴劑",
+    "id": "az-1247",
+    "pos": "noun",
+    "gender": "f-pl",
+    "legacyIds": [
+      "situacao-as-gotas"
+    ],
+    "examplePt": "Duas gotas em cada olho.",
+    "exampleEn": "Two drops in each eye.",
+    "exampleZhHans": "每只眼睛滴两滴。",
+    "exampleZhHant": "每隻眼睛滴兩滴。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a dose",
+    "en": "dose",
+    "zhHans": "剂量",
+    "zhHant": "劑量",
+    "id": "az-0882",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-dose"
+    ],
+    "examplePt": "Qual é a dose certa?",
+    "exampleEn": "What is the right dose?",
+    "exampleZhHans": "正确剂量是多少？",
+    "exampleZhHant": "正確劑量是多少？"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "tomar",
+    "en": "to take (medicine)",
+    "zhHans": "服用",
+    "zhHant": "服用",
+    "id": "az-1248",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-tomar"
+    ],
+    "examplePt": "Tome sempre com água.",
+    "exampleEn": "Always take with water.",
+    "exampleZhHans": "一定要配水服用。",
+    "exampleZhHant": "一定要配水服用。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "em jejum",
+    "en": "on an empty stomach",
+    "zhHans": "空腹",
+    "zhHant": "空腹",
+    "id": "az-0875",
+    "legacyIds": [
+      "situacao-em-jejum"
+    ],
+    "examplePt": "Tome este em jejum.",
+    "exampleEn": "Take this on an empty stomach.",
+    "exampleZhHans": "这个要空腹吃。",
+    "exampleZhHant": "這個要空腹吃。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "às refeições",
+    "en": "with meals",
+    "zhHans": "随餐",
+    "zhHant": "隨餐",
+    "id": "az-1249",
+    "legacyIds": [
+      "situacao-as-refeicoes"
+    ],
+    "examplePt": "Um comprimido às refeições.",
+    "exampleEn": "One tablet with meals.",
+    "exampleZhHans": "随餐吃一颗。",
+    "exampleZhHant": "隨餐吃一顆。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a dor",
+    "en": "pain",
+    "zhHans": "疼痛",
+    "zhHant": "疼痛",
+    "id": "az-1250",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-dor"
+    ],
+    "examplePt": "Tenho uma dor aqui.",
+    "exampleEn": "I have a pain here.",
+    "exampleZhHans": "我这里痛。",
+    "exampleZhHant": "我這裡痛。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a dor de cabeça",
+    "en": "headache",
+    "zhHans": "头痛",
+    "zhHant": "頭痛",
+    "id": "az-0492",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A dor de cabeça passou.",
+    "exampleEn": "The headache went away.",
+    "exampleZhHans": "头痛好了。",
+    "exampleZhHant": "頭痛好了。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a dor de garganta",
+    "en": "sore throat",
+    "zhHans": "喉咙痛",
+    "zhHant": "喉嚨痛",
+    "id": "az-1251",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-dor-de-garganta"
+    ],
+    "examplePt": "Tenho dor de garganta.",
+    "exampleEn": "I have a sore throat.",
+    "exampleZhHans": "我喉咙痛。",
+    "exampleZhHant": "我喉嚨痛。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a febre",
+    "en": "fever",
+    "zhHans": "发烧",
+    "zhHant": "發燒",
+    "id": "az-1252",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-febre"
+    ],
+    "examplePt": "Ele tem febre alta.",
+    "exampleEn": "He has a high fever.",
+    "exampleZhHans": "他发高烧。",
+    "exampleZhHant": "他發高燒。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o termómetro",
+    "en": "thermometer",
+    "zhHans": "体温计",
+    "zhHant": "體溫計",
+    "id": "az-1253",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-termometro"
+    ],
+    "examplePt": "Compra um termómetro novo.",
+    "exampleEn": "Buy a new thermometer.",
+    "exampleZhHans": "买个新的体温计。",
+    "exampleZhHant": "買個新的體溫計。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a tosse",
+    "en": "cough",
+    "zhHans": "咳嗽",
+    "zhHant": "咳嗽",
+    "id": "az-1254",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-tosse"
+    ],
+    "examplePt": "A tosse não passa.",
+    "exampleEn": "The cough doesn't go away.",
+    "exampleZhHans": "咳嗽好不了。",
+    "exampleZhHant": "咳嗽好不了。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a constipação",
+    "en": "cold (illness)",
+    "zhHans": "感冒",
+    "zhHant": "感冒",
+    "id": "az-1255",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-constipacao"
+    ],
+    "examplePt": "Apanhei uma constipação.",
+    "exampleEn": "I caught a cold.",
+    "exampleZhHans": "我感冒了。",
+    "exampleZhHant": "我感冒了。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a gripe",
+    "en": "flu",
+    "zhHans": "流感",
+    "zhHant": "流感",
+    "id": "az-1256",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-gripe"
+    ],
+    "examplePt": "A gripe já passou.",
+    "exampleEn": "The flu is gone.",
+    "exampleZhHans": "流感已经好了。",
+    "exampleZhHant": "流感已經好了。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a alergia",
+    "en": "allergy",
+    "zhHans": "过敏",
+    "zhHant": "過敏",
+    "id": "az-0310",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Tenho alergia ao pólen.",
+    "exampleEn": "I am allergic to pollen.",
+    "exampleZhHans": "我对花粉过敏。",
+    "exampleZhHant": "我對花粉過敏。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o anti-histamínico",
+    "en": "antihistamine",
+    "zhHans": "抗组胺药",
+    "zhHant": "抗組織胺",
+    "id": "az-1257",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-anti-histaminico"
+    ],
+    "examplePt": "Tomei um anti-histamínico.",
+    "exampleEn": "I took an antihistamine.",
+    "exampleZhHans": "我吃了抗组胺药。",
+    "exampleZhHant": "我吃了抗組織胺。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o analgésico",
+    "en": "painkiller",
+    "zhHans": "止痛药",
+    "zhHant": "止痛藥",
+    "id": "az-1258",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-analgesico"
+    ],
+    "examplePt": "Este analgésico é forte.",
+    "exampleEn": "This painkiller is strong.",
+    "exampleZhHans": "这止痛药很强。",
+    "exampleZhHant": "這止痛藥很強。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o antibiótico",
+    "en": "antibiotic",
+    "zhHans": "抗生素",
+    "zhHant": "抗生素",
+    "id": "az-0350",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O antibiótico é com receita.",
+    "exampleEn": "The antibiotic is prescription.",
+    "exampleZhHans": "抗生素要处方。",
+    "exampleZhHant": "抗生素要處方。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a vitamina",
+    "en": "vitamin",
+    "zhHans": "维生素",
+    "zhHant": "維他命",
+    "id": "az-1259",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-vitamina"
+    ],
+    "examplePt": "Tomo vitaminas no inverno.",
+    "exampleEn": "I take vitamins in winter.",
+    "exampleZhHans": "我冬天吃维生素。",
+    "exampleZhHant": "我冬天吃維他命。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o penso rápido",
+    "en": "band-aid",
+    "zhHans": "创可贴",
+    "zhHant": "OK繃",
+    "id": "az-1260",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-penso-rapido"
+    ],
+    "examplePt": "Preciso de um penso rápido.",
+    "exampleEn": "I need a Band-Aid.",
+    "exampleZhHans": "我需要创可贴。",
+    "exampleZhHant": "我需要OK繃。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o desinfetante",
+    "en": "disinfectant",
+    "zhHans": "消毒液",
+    "zhHant": "消毒液",
+    "id": "az-1046",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-desinfetante"
+    ],
+    "examplePt": "Põe desinfetante na ferida.",
+    "exampleEn": "Put disinfectant on the wound.",
+    "exampleZhHans": "在伤口上抹消毒液。",
+    "exampleZhHant": "在傷口上抹消毒液。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a máscara",
+    "en": "mask",
+    "zhHans": "口罩",
+    "zhHant": "口罩",
+    "id": "az-0309",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Levo sempre uma máscara.",
+    "exampleEn": "I always carry a mask.",
+    "exampleZhHans": "我总是带着口罩。",
+    "exampleZhHant": "我總是帶著口罩。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o teste",
+    "en": "test",
+    "zhHans": "检测",
+    "zhHant": "檢測",
+    "id": "az-1261",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-teste"
+    ],
+    "examplePt": "Fiz um teste rápido.",
+    "exampleEn": "I took a quick test.",
+    "exampleZhHans": "我做了快筛。",
+    "exampleZhHant": "我做了快篩。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "a tensão",
+    "en": "blood pressure",
+    "zhHans": "血压",
+    "zhHant": "血壓",
+    "id": "az-1262",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-tensao"
+    ],
+    "examplePt": "A minha tensão está alta.",
+    "exampleEn": "My tension is high.",
+    "exampleZhHans": "我血压偏高。",
+    "exampleZhHant": "我血壓偏高。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "medir",
+    "en": "to measure",
+    "zhHans": "量",
+    "zhHant": "量",
+    "id": "az-1263",
+    "pos": "verb",
+    "legacyIds": [
+      "situacao-medir"
+    ],
+    "examplePt": "Vou medir a febre.",
+    "exampleEn": "I'll measure the fever.",
+    "exampleZhHans": "我来量一下体温。",
+    "exampleZhHant": "我來量一下體溫。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o protetor solar",
+    "en": "sunscreen",
+    "zhHans": "防晒霜",
+    "zhHant": "防曬乳",
+    "id": "az-1264",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-protetor-solar"
+    ],
+    "examplePt": "Usa protetor solar na praia.",
+    "exampleEn": "Use sunscreen on the beach.",
+    "exampleZhHans": "在海滩要擦防晒。",
+    "exampleZhHant": "在海灘要擦防曬。"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "o efeito secundário",
+    "en": "side effect",
+    "zhHans": "副作用",
+    "zhHant": "副作用",
+    "id": "az-1265",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-efeito-secundario"
+    ],
+    "examplePt": "Tem efeitos secundários?",
+    "exampleEn": "Does it have side effects?",
+    "exampleZhHans": "有副作用吗？",
+    "exampleZhHant": "有副作用嗎？"
+  },
+  {
+    "situacao": "farmacia",
+    "pt": "grávida",
+    "en": "pregnant",
+    "zhHans": "怀孕",
+    "zhHant": "懷孕",
+    "id": "az-1266",
+    "legacyIds": [
+      "situacao-gravida"
+    ],
+    "examplePt": "Ela está grávida.",
+    "exampleEn": "She is pregnant.",
+    "exampleZhHans": "她怀孕了。",
+    "exampleZhHant": "她懷孕了。"
   }
 ];
 
@@ -9515,6 +12839,879 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "en": "Follow support's instructions — everything gets logged.",
     "zhHans": "按客服的指示办——都会有记录。",
     "zhHant": "按客服的指示辦——都會有記錄。"
+  },
+  {
+    "id": "dialogo-veterinario-bom-dia-queria-marcar-uma-consulta",
+    "situacao": "veterinario",
+    "order": 306,
+    "pt": "Bom dia, queria marcar uma consulta.",
+    "en": "Good morning, I'd like to book an appointment.",
+    "zhHans": "早上好，我想预约看诊。",
+    "zhHant": "早安，我想預約看診。"
+  },
+  {
+    "id": "dialogo-veterinario-claro-e-para-que-animal",
+    "situacao": "veterinario",
+    "order": 307,
+    "pt": "Claro. É para que animal?",
+    "en": "Of course. For which animal?",
+    "zhHans": "好的。是哪只动物？",
+    "zhHant": "好的。是哪隻動物？"
+  },
+  {
+    "id": "dialogo-veterinario-para-o-meu-gato-nao-come-ha-dois-dias",
+    "situacao": "veterinario",
+    "order": 308,
+    "pt": "Para o meu gato. Não come há dois dias.",
+    "en": "For my cat. He hasn't eaten for two days.",
+    "zhHans": "我的猫。它两天没吃了。",
+    "zhHant": "我的貓。牠兩天沒吃了。"
+  },
+  {
+    "id": "dialogo-veterinario-esta-a-vomitar-ou-tem-diarreia",
+    "situacao": "veterinario",
+    "order": 309,
+    "pt": "Está a vomitar ou tem diarreia?",
+    "en": "Is he vomiting, or does he have diarrhea?",
+    "zhHans": "有呕吐或腹泻吗？",
+    "zhHant": "有嘔吐或腹瀉嗎？"
+  },
+  {
+    "id": "dialogo-veterinario-vomitou-ontem-duas-vezes",
+    "situacao": "veterinario",
+    "order": 310,
+    "pt": "Vomitou ontem duas vezes.",
+    "en": "He vomited twice yesterday.",
+    "zhHans": "昨天吐了两次。",
+    "zhHant": "昨天吐了兩次。"
+  },
+  {
+    "id": "dialogo-veterinario-pode-vir-hoje-as-quatro",
+    "situacao": "veterinario",
+    "order": 311,
+    "pt": "Pode vir hoje às quatro?",
+    "en": "Can you come today at four?",
+    "zhHans": "今天四点能来吗？",
+    "zhHant": "今天四點能來嗎？"
+  },
+  {
+    "id": "dialogo-veterinario-sim-pode-ser-obrigado",
+    "situacao": "veterinario",
+    "order": 312,
+    "pt": "Sim, pode ser. Obrigado.",
+    "en": "Yes, that works. Thank you.",
+    "zhHans": "可以，谢谢。",
+    "zhHant": "可以，謝謝。"
+  },
+  {
+    "id": "dialogo-veterinario-o-gato-tem-microchip-e-vacinas-em-dia",
+    "situacao": "veterinario",
+    "order": 313,
+    "pt": "O gato tem microchip e vacinas em dia?",
+    "en": "Does the cat have a microchip and up-to-date vaccines?",
+    "zhHans": "猫有芯片吗？疫苗打了吗？",
+    "zhHant": "貓有晶片嗎？疫苗打了嗎？"
+  },
+  {
+    "id": "dialogo-veterinario-tem-chip-mas-a-vacina-esta-atrasada",
+    "situacao": "veterinario",
+    "order": 314,
+    "pt": "Tem chip, mas a vacina está atrasada.",
+    "en": "He has a chip, but the vaccine is overdue.",
+    "zhHans": "有芯片，但疫苗过期了。",
+    "zhHant": "有晶片，但疫苗過期了。"
+  },
+  {
+    "id": "dialogo-veterinario-entao-aproveitamos-e-vacinamos",
+    "situacao": "veterinario",
+    "order": 315,
+    "pt": "Então aproveitamos e vacinamos.",
+    "en": "Then we'll take the chance to vaccinate him.",
+    "zhHans": "那就顺便打疫苗。",
+    "zhHant": "那就順便打疫苗。"
+  },
+  {
+    "id": "dialogo-veterinario-quanto-custa-a-consulta",
+    "situacao": "veterinario",
+    "order": 316,
+    "pt": "Quanto custa a consulta?",
+    "en": "How much is the appointment?",
+    "zhHans": "看诊多少钱？",
+    "zhHant": "看診多少錢？"
+  },
+  {
+    "id": "dialogo-veterinario-sao-trinta-euros-sem-os-medicamentos",
+    "situacao": "veterinario",
+    "order": 317,
+    "pt": "São trinta euros, sem os medicamentos.",
+    "en": "It's thirty euros, not counting medication.",
+    "zhHans": "三十欧元，不含药。",
+    "zhHant": "三十歐元，不含藥。"
+  },
+  {
+    "id": "dialogo-veterinario-ele-precisa-de-ficar-internado",
+    "situacao": "veterinario",
+    "order": 318,
+    "pt": "Ele precisa de ficar internado?",
+    "en": "Does he need to stay overnight?",
+    "zhHans": "它需要住院吗？",
+    "zhHant": "牠需要住院嗎？"
+  },
+  {
+    "id": "dialogo-veterinario-primeiro-fazemos-analises",
+    "situacao": "veterinario",
+    "order": 319,
+    "pt": "Primeiro fazemos análises.",
+    "en": "First we'll run some tests.",
+    "zhHans": "先做检查。",
+    "zhHant": "先做檢查。"
+  },
+  {
+    "id": "dialogo-veterinario-ele-tem-medo-posso-ficar-ao-lado",
+    "situacao": "veterinario",
+    "order": 320,
+    "pt": "Ele tem medo. Posso ficar ao lado?",
+    "en": "He's scared. Can I stay by his side?",
+    "zhHans": "它会怕，我能陪着吗？",
+    "zhHant": "牠會怕，我能陪著嗎？"
+  },
+  {
+    "id": "dialogo-veterinario-claro-que-pode",
+    "situacao": "veterinario",
+    "order": 321,
+    "pt": "Claro que pode.",
+    "en": "Of course you can.",
+    "zhHans": "当然可以。",
+    "zhHant": "當然可以。"
+  },
+  {
+    "id": "dialogo-ginasio-boa-tarde-queria-informacoes-sobre-a-inscricao",
+    "situacao": "ginasio",
+    "order": 322,
+    "pt": "Boa tarde, queria informações sobre a inscrição.",
+    "en": "Good afternoon, I'd like some information about signing up.",
+    "zhHans": "下午好，我想了解报名信息。",
+    "zhHant": "午安，我想了解報名資訊。"
+  },
+  {
+    "id": "dialogo-ginasio-com-certeza-ja-conhece-o-ginasio",
+    "situacao": "ginasio",
+    "order": 323,
+    "pt": "Com certeza. Já conhece o ginásio?",
+    "en": "Of course. Do you know the gym already?",
+    "zhHans": "好的。您来过这家健身房吗？",
+    "zhHant": "好的。您來過這家健身房嗎？"
+  },
+  {
+    "id": "dialogo-ginasio-nao-e-a-primeira-vez",
+    "situacao": "ginasio",
+    "order": 324,
+    "pt": "Não, é a primeira vez.",
+    "en": "No, it's my first time.",
+    "zhHans": "没有，第一次来。",
+    "zhHant": "沒有，第一次來。"
+  },
+  {
+    "id": "dialogo-ginasio-quer-fazer-uma-aula-experimental-gratis",
+    "situacao": "ginasio",
+    "order": 325,
+    "pt": "Quer fazer uma aula experimental grátis?",
+    "en": "Would you like a free trial class?",
+    "zhHans": "想上免费体验课吗？",
+    "zhHant": "想上免費體驗課嗎？"
+  },
+  {
+    "id": "dialogo-ginasio-sim-otimo-quanto-e-a-mensalidade",
+    "situacao": "ginasio",
+    "order": 326,
+    "pt": "Sim, ótimo. Quanto é a mensalidade?",
+    "en": "Yes, great. How much is the monthly fee?",
+    "zhHans": "好啊。月费多少？",
+    "zhHant": "好啊。月費多少？"
+  },
+  {
+    "id": "dialogo-ginasio-trinta-euros-com-fidelizacao-de-um-ano",
+    "situacao": "ginasio",
+    "order": 327,
+    "pt": "Trinta euros, com fidelização de um ano.",
+    "en": "Thirty euros, with a one-year lock-in.",
+    "zhHans": "三十欧元，绑约一年。",
+    "zhHant": "三十歐元，綁約一年。"
+  },
+  {
+    "id": "dialogo-ginasio-e-sem-fidelizacao",
+    "situacao": "ginasio",
+    "order": 328,
+    "pt": "E sem fidelização?",
+    "en": "And without the lock-in?",
+    "zhHans": "不绑约呢？",
+    "zhHant": "不綁約呢？"
+  },
+  {
+    "id": "dialogo-ginasio-fica-em-quarenta-euros-por-mes",
+    "situacao": "ginasio",
+    "order": 329,
+    "pt": "Fica em quarenta euros por mês.",
+    "en": "It comes to forty euros a month.",
+    "zhHans": "那就每月四十欧元。",
+    "zhHant": "那就每月四十歐元。"
+  },
+  {
+    "id": "dialogo-ginasio-a-taxa-de-inscricao-esta-incluida",
+    "situacao": "ginasio",
+    "order": 330,
+    "pt": "A taxa de inscrição está incluída?",
+    "en": "Is the joining fee included?",
+    "zhHans": "含入会费吗？",
+    "zhHant": "含入會費嗎？"
+  },
+  {
+    "id": "dialogo-ginasio-sao-vinte-euros-pagos-so-uma-vez",
+    "situacao": "ginasio",
+    "order": 331,
+    "pt": "São vinte euros, pagos só uma vez.",
+    "en": "It's twenty euros, paid one time only.",
+    "zhHans": "二十欧元，只收一次。",
+    "zhHant": "二十歐元，只收一次。"
+  },
+  {
+    "id": "dialogo-ginasio-posso-cancelar-quando-quiser",
+    "situacao": "ginasio",
+    "order": 332,
+    "pt": "Posso cancelar quando quiser?",
+    "en": "Can I cancel whenever I want?",
+    "zhHans": "可以随时取消吗？",
+    "zhHant": "可以隨時取消嗎？"
+  },
+  {
+    "id": "dialogo-ginasio-sem-fidelizacao-sim-com-um-mes-de-aviso",
+    "situacao": "ginasio",
+    "order": 333,
+    "pt": "Sem fidelização, sim, com um mês de aviso.",
+    "en": "Without the lock-in, yes, with one month's notice.",
+    "zhHans": "不绑约可以，提前一个月通知。",
+    "zhHant": "不綁約可以，提前一個月通知。"
+  },
+  {
+    "id": "dialogo-ginasio-qual-e-o-horario",
+    "situacao": "ginasio",
+    "order": 334,
+    "pt": "Qual é o horário?",
+    "en": "What are the opening hours?",
+    "zhHans": "营业时间是？",
+    "zhHant": "營業時間是？"
+  },
+  {
+    "id": "dialogo-ginasio-das-sete-as-vinte-e-duas-todos-os-dias",
+    "situacao": "ginasio",
+    "order": 335,
+    "pt": "Das sete às vinte e duas, todos os dias.",
+    "en": "From seven to ten p.m., every day.",
+    "zhHans": "每天七点到二十二点。",
+    "zhHant": "每天七點到二十二點。"
+  },
+  {
+    "id": "dialogo-ginasio-preciso-de-trazer-toalha",
+    "situacao": "ginasio",
+    "order": 336,
+    "pt": "Preciso de trazer toalha?",
+    "en": "Do I need to bring a towel?",
+    "zhHans": "要自备毛巾吗？",
+    "zhHant": "要自備毛巾嗎？"
+  },
+  {
+    "id": "dialogo-ginasio-sim-a-toalha-e-obrigatoria",
+    "situacao": "ginasio",
+    "order": 337,
+    "pt": "Sim, a toalha é obrigatória.",
+    "en": "Yes, a towel is mandatory.",
+    "zhHans": "要，毛巾是必备的。",
+    "zhHant": "要，毛巾是必備的。"
+  },
+  {
+    "id": "dialogo-convivio-ola-entao-tudo-bem",
+    "situacao": "convivio",
+    "order": 338,
+    "pt": "Olá! Então, tudo bem?",
+    "en": "Hi! So, how's it going?",
+    "zhHans": "嗨！最近好吗？",
+    "zhHant": "嗨！最近好嗎？"
+  },
+  {
+    "id": "dialogo-convivio-tudo-e-contigo",
+    "situacao": "convivio",
+    "order": 339,
+    "pt": "Tudo, e contigo?",
+    "en": "Good, and you?",
+    "zhHans": "挺好的，你呢？",
+    "zhHant": "挺好的，你呢？"
+  },
+  {
+    "id": "dialogo-convivio-tambem-ha-quanto-tempo",
+    "situacao": "convivio",
+    "order": 340,
+    "pt": "Também. Há quanto tempo!",
+    "en": "Me too. Long time no see!",
+    "zhHans": "我也是。好久不见！",
+    "zhHant": "我也是。好久不見！"
+  },
+  {
+    "id": "dialogo-convivio-pois-e-temos-de-combinar-algo",
+    "situacao": "convivio",
+    "order": 341,
+    "pt": "Pois é! Temos de combinar algo.",
+    "en": "Right! We should make plans.",
+    "zhHans": "对啊！我们该约一下。",
+    "zhHant": "對啊！我們該約一下。"
+  },
+  {
+    "id": "dialogo-convivio-queres-ir-tomar-um-cafe-amanha",
+    "situacao": "convivio",
+    "order": 342,
+    "pt": "Queres ir tomar um café amanhã?",
+    "en": "Want to grab a coffee tomorrow?",
+    "zhHans": "明天去喝咖啡吗？",
+    "zhHant": "明天去喝咖啡嗎？"
+  },
+  {
+    "id": "dialogo-convivio-amanha-nao-posso-estou-ocupado",
+    "situacao": "convivio",
+    "order": 343,
+    "pt": "Amanhã não posso, estou ocupado.",
+    "en": "I can't tomorrow, I'm busy.",
+    "zhHans": "明天不行，我很忙。",
+    "zhHant": "明天不行，我很忙。"
+  },
+  {
+    "id": "dialogo-convivio-e-no-sabado-a-tarde",
+    "situacao": "convivio",
+    "order": 344,
+    "pt": "E no sábado à tarde?",
+    "en": "What about Saturday afternoon?",
+    "zhHans": "那周六下午呢？",
+    "zhHant": "那週六下午呢？"
+  },
+  {
+    "id": "dialogo-convivio-no-sabado-estou-livre-onde",
+    "situacao": "convivio",
+    "order": 345,
+    "pt": "No sábado estou livre. Onde?",
+    "en": "I'm free on Saturday. Where?",
+    "zhHans": "周六有空。在哪？",
+    "zhHant": "週六有空。在哪？"
+  },
+  {
+    "id": "dialogo-convivio-naquela-esplanada-perto-do-rio",
+    "situacao": "convivio",
+    "order": 346,
+    "pt": "Naquela esplanada perto do rio?",
+    "en": "At that terrace café near the river?",
+    "zhHans": "河边那家露天咖啡座？",
+    "zhHant": "河邊那家露天咖啡座？"
+  },
+  {
+    "id": "dialogo-convivio-boa-ideia-as-quatro",
+    "situacao": "convivio",
+    "order": 347,
+    "pt": "Boa ideia. Às quatro?",
+    "en": "Good idea. At four?",
+    "zhHans": "好主意。四点？",
+    "zhHant": "好主意。四點？"
+  },
+  {
+    "id": "dialogo-convivio-perfeito-posso-levar-uma-colega",
+    "situacao": "convivio",
+    "order": 348,
+    "pt": "Perfeito. Posso levar uma colega?",
+    "en": "Perfect. Can I bring a colleague?",
+    "zhHans": "好。我能带同事吗？",
+    "zhHant": "好。我能帶同事嗎？"
+  },
+  {
+    "id": "dialogo-convivio-claro-quantos-mais-melhor",
+    "situacao": "convivio",
+    "order": 349,
+    "pt": "Claro! Quantos mais, melhor.",
+    "en": "Sure! The more the merrier.",
+    "zhHans": "当然！人越多越好。",
+    "zhHant": "當然！人越多越好。"
+  },
+  {
+    "id": "dialogo-convivio-se-chegares-atrasado-avisa",
+    "situacao": "convivio",
+    "order": 350,
+    "pt": "Se chegares atrasado, avisa.",
+    "en": "If you're running late, let me know.",
+    "zhHans": "要迟到就说一声。",
+    "zhHant": "要遲到就說一聲。"
+  },
+  {
+    "id": "dialogo-convivio-prometo-e-os-cafes-pago-eu",
+    "situacao": "convivio",
+    "order": 351,
+    "pt": "Prometo. E os cafés pago eu.",
+    "en": "Promise. And the coffees are on me.",
+    "zhHans": "好。咖啡我请。",
+    "zhHant": "好。咖啡我請。"
+  },
+  {
+    "id": "dialogo-convivio-entao-a-proxima-e-minha",
+    "situacao": "convivio",
+    "order": 352,
+    "pt": "Então a próxima é minha.",
+    "en": "Then the next one's on me.",
+    "zhHans": "那下次我请。",
+    "zhHant": "那下次我請。"
+  },
+  {
+    "id": "dialogo-convivio-combinado-ate-sabado",
+    "situacao": "convivio",
+    "order": 353,
+    "pt": "Combinado. Até sábado!",
+    "en": "Deal. See you Saturday!",
+    "zhHans": "说定了。周六见！",
+    "zhHant": "說定了。週六見！"
+  },
+  {
+    "id": "dialogo-vizinhos-ola-bom-dia-sou-o-seu-vizinho-novo",
+    "situacao": "vizinhos",
+    "order": 354,
+    "pt": "Olá, bom dia. Sou o seu vizinho novo.",
+    "en": "Hello, good morning. I'm your new neighbor.",
+    "zhHans": "您好，早上好。我是新邻居。",
+    "zhHant": "您好，早安。我是新鄰居。"
+  },
+  {
+    "id": "dialogo-vizinhos-ah-bem-vindo-ao-predio",
+    "situacao": "vizinhos",
+    "order": 355,
+    "pt": "Ah, bem-vindo ao prédio!",
+    "en": "Ah, welcome to the building!",
+    "zhHans": "啊，欢迎搬来！",
+    "zhHant": "啊，歡迎搬來！"
+  },
+  {
+    "id": "dialogo-vizinhos-obrigado-mudei-me-na-semana-passada",
+    "situacao": "vizinhos",
+    "order": 356,
+    "pt": "Obrigado. Mudei-me na semana passada.",
+    "en": "Thanks. I moved in last week.",
+    "zhHans": "谢谢。我上周搬来的。",
+    "zhHant": "謝謝。我上週搬來的。"
+  },
+  {
+    "id": "dialogo-vizinhos-precisa-de-alguma-coisa",
+    "situacao": "vizinhos",
+    "order": 357,
+    "pt": "Precisa de alguma coisa?",
+    "en": "Do you need anything?",
+    "zhHans": "需要什么帮忙吗？",
+    "zhHant": "需要什麼幫忙嗎？"
+  },
+  {
+    "id": "dialogo-vizinhos-sim-onde-fica-o-contentor-da-reciclagem",
+    "situacao": "vizinhos",
+    "order": 358,
+    "pt": "Sim, onde fica o contentor da reciclagem?",
+    "en": "Yes, where's the recycling container?",
+    "zhHans": "回收箱在哪里？",
+    "zhHant": "回收箱在哪裡？"
+  },
+  {
+    "id": "dialogo-vizinhos-ao-fundo-da-rua-a-esquerda",
+    "situacao": "vizinhos",
+    "order": 359,
+    "pt": "Ao fundo da rua, à esquerda.",
+    "en": "At the end of the street, on the left.",
+    "zhHans": "街尾左边。",
+    "zhHant": "街尾左邊。"
+  },
+  {
+    "id": "dialogo-vizinhos-e-o-lixo-quando-e-recolhido",
+    "situacao": "vizinhos",
+    "order": 360,
+    "pt": "E o lixo, quando é recolhido?",
+    "en": "And the trash, when is it collected?",
+    "zhHans": "垃圾什么时候收？",
+    "zhHant": "垃圾什麼時候收？"
+  },
+  {
+    "id": "dialogo-vizinhos-todos-os-dias-a-noite",
+    "situacao": "vizinhos",
+    "order": 361,
+    "pt": "Todos os dias, à noite.",
+    "en": "Every day, at night.",
+    "zhHans": "每天晚上。",
+    "zhHant": "每天晚上。"
+  },
+  {
+    "id": "dialogo-vizinhos-o-elevador-esta-avariado",
+    "situacao": "vizinhos",
+    "order": 362,
+    "pt": "O elevador está avariado?",
+    "en": "Is the elevator out of order?",
+    "zhHans": "电梯坏了吗？",
+    "zhHant": "電梯壞了嗎？"
+  },
+  {
+    "id": "dialogo-vizinhos-esta-ja-chamamos-o-tecnico",
+    "situacao": "vizinhos",
+    "order": 363,
+    "pt": "Está, já chamámos o técnico.",
+    "en": "It is, we've already called the technician.",
+    "zhHans": "是的，已经叫人修了。",
+    "zhHant": "是的，已經叫人修了。"
+  },
+  {
+    "id": "dialogo-vizinhos-posso-pedir-lhe-um-favor",
+    "situacao": "vizinhos",
+    "order": 364,
+    "pt": "Posso pedir-lhe um favor?",
+    "en": "Can I ask you a favor?",
+    "zhHans": "能请您帮个忙吗？",
+    "zhHant": "能請您幫個忙嗎？"
+  },
+  {
+    "id": "dialogo-vizinhos-claro-diga",
+    "situacao": "vizinhos",
+    "order": 365,
+    "pt": "Claro, diga.",
+    "en": "Of course, go ahead.",
+    "zhHans": "当然，请说。",
+    "zhHant": "當然，請說。"
+  },
+  {
+    "id": "dialogo-vizinhos-pode-receber-uma-encomenda-amanha",
+    "situacao": "vizinhos",
+    "order": 366,
+    "pt": "Pode receber uma encomenda amanhã?",
+    "en": "Can you take in a package tomorrow?",
+    "zhHans": "明天能帮我收包裹吗？",
+    "zhHant": "明天能幫我收包裹嗎？"
+  },
+  {
+    "id": "dialogo-vizinhos-com-certeza-deixo-a-a-sua-porta",
+    "situacao": "vizinhos",
+    "order": 367,
+    "pt": "Com certeza, deixo-a à sua porta.",
+    "en": "Certainly, I'll leave it at your door.",
+    "zhHans": "没问题，我放您门口。",
+    "zhHant": "沒問題，我放您門口。"
+  },
+  {
+    "id": "dialogo-vizinhos-muito-obrigado-qualquer-barulho-avise-me",
+    "situacao": "vizinhos",
+    "order": 368,
+    "pt": "Muito obrigado. Qualquer barulho, avise-me.",
+    "en": "Thank you. If I'm ever noisy, let me know.",
+    "zhHans": "谢谢。太吵的话请告诉我。",
+    "zhHant": "謝謝。太吵的話請告訴我。"
+  },
+  {
+    "id": "dialogo-vizinhos-fique-descansado-boa-mudanca",
+    "situacao": "vizinhos",
+    "order": 369,
+    "pt": "Fique descansado. Boa mudança!",
+    "en": "Don't worry. Happy moving!",
+    "zhHans": "放心。祝乔迁顺利！",
+    "zhHant": "放心。祝喬遷順利！"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-boa-tarde-tem-marcacao",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 370,
+    "pt": "Boa tarde! Tem marcação?",
+    "en": "Good afternoon! Do you have an appointment?",
+    "zhHans": "下午好！有预约吗？",
+    "zhHant": "午安！有預約嗎？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-nao-e-preciso-marcar",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 371,
+    "pt": "Não. É preciso marcar?",
+    "en": "No. Do I need to book?",
+    "zhHans": "没有。需要预约吗？",
+    "zhHant": "沒有。需要預約嗎？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-hoje-nao-espere-so-dez-minutos",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 372,
+    "pt": "Hoje não, espere só dez minutos.",
+    "en": "Not today, just wait ten minutes.",
+    "zhHans": "今天不用，等十分钟就好。",
+    "zhHant": "今天不用，等十分鐘就好。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-esta-bem-eu-espero",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 373,
+    "pt": "Está bem, eu espero.",
+    "en": "Alright, I'll wait.",
+    "zhHans": "好，我等。",
+    "zhHant": "好，我等。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-entao-o-que-vamos-fazer",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 374,
+    "pt": "Então, o que vamos fazer?",
+    "en": "So, what are we doing today?",
+    "zhHans": "那今天想怎么弄？",
+    "zhHant": "那今天想怎麼弄？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-queria-cortar-mas-nao-muito-curto",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 375,
+    "pt": "Queria cortar, mas não muito curto.",
+    "en": "I'd like a cut, but not too short.",
+    "zhHans": "想剪发，但别太短。",
+    "zhHant": "想剪髮，但別太短。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-so-aparar-as-pontas",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 376,
+    "pt": "Só aparar as pontas?",
+    "en": "Just trim the ends?",
+    "zhHans": "只修发尾吗？",
+    "zhHant": "只修髮尾嗎？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-sim-uns-dois-dedos-e-a-franja",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 377,
+    "pt": "Sim, uns dois dedos. E a franja.",
+    "en": "Yes, about two fingers. And the bangs.",
+    "zhHans": "对，大概两指。刘海也要。",
+    "zhHant": "對，大概兩指。瀏海也要。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-quer-lavar-primeiro",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 378,
+    "pt": "Quer lavar primeiro?",
+    "en": "Do you want a wash first?",
+    "zhHans": "要先洗头吗？",
+    "zhHant": "要先洗頭嗎？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-sim-por-favor",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 379,
+    "pt": "Sim, por favor.",
+    "en": "Yes, please.",
+    "zhHans": "好，麻烦了。",
+    "zhHant": "好，麻煩了。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-dos-lados-uso-a-maquina",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 380,
+    "pt": "Dos lados, uso a máquina?",
+    "en": "Shall I use the clippers on the sides?",
+    "zhHans": "两侧用电剪吗？",
+    "zhHant": "兩側用電剪嗎？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-pode-ser-numero-tres",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 381,
+    "pt": "Pode ser, número três.",
+    "en": "Sure, number three.",
+    "zhHans": "可以，三号。",
+    "zhHant": "可以，三號。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-e-a-barba-aparamos",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 382,
+    "pt": "E a barba, aparamos?",
+    "en": "And the beard, shall we trim it?",
+    "zhHans": "胡子要修吗？",
+    "zhHant": "鬍子要修嗎？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-sim-mas-deixe-o-bigode",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 383,
+    "pt": "Sim, mas deixe o bigode.",
+    "en": "Yes, but leave the mustache.",
+    "zhHans": "要，但小胡子留着。",
+    "zhHant": "要，但小鬍子留著。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-pronto-o-que-acha",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 384,
+    "pt": "Pronto! O que acha?",
+    "en": "Done! What do you think?",
+    "zhHans": "好了！您觉得呢？",
+    "zhHant": "好了！您覺得呢？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-ficou-otimo-quanto-e",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 385,
+    "pt": "Ficou ótimo. Quanto é?",
+    "en": "It looks great. How much is it?",
+    "zhHans": "很好看。多少钱？",
+    "zhHant": "很好看。多少錢？"
+  },
+  {
+    "id": "dialogo-farmacia-boa-tarde-o-que-deseja",
+    "situacao": "farmacia",
+    "order": 386,
+    "pt": "Boa tarde, o que deseja?",
+    "en": "Good afternoon, how can I help?",
+    "zhHans": "下午好，需要什么？",
+    "zhHant": "午安，需要什麼？"
+  },
+  {
+    "id": "dialogo-farmacia-tenho-dor-de-garganta-e-tosse",
+    "situacao": "farmacia",
+    "order": 387,
+    "pt": "Tenho dor de garganta e tosse.",
+    "en": "I have a sore throat and a cough.",
+    "zhHans": "我喉咙痛还咳嗽。",
+    "zhHant": "我喉嚨痛還咳嗽。"
+  },
+  {
+    "id": "dialogo-farmacia-tem-febre",
+    "situacao": "farmacia",
+    "order": 388,
+    "pt": "Tem febre?",
+    "en": "Do you have a fever?",
+    "zhHans": "有发烧吗？",
+    "zhHant": "有發燒嗎？"
+  },
+  {
+    "id": "dialogo-farmacia-um-pouco-ontem-a-noite",
+    "situacao": "farmacia",
+    "order": 389,
+    "pt": "Um pouco, ontem à noite.",
+    "en": "A little, last night.",
+    "zhHans": "有一点，昨晚烧的。",
+    "zhHant": "有一點，昨晚燒的。"
+  },
+  {
+    "id": "dialogo-farmacia-parece-uma-constipacao-tem-alergias",
+    "situacao": "farmacia",
+    "order": 390,
+    "pt": "Parece uma constipação. Tem alergias?",
+    "en": "Sounds like a cold. Any allergies?",
+    "zhHans": "像是感冒。有过敏吗？",
+    "zhHant": "像是感冒。有過敏嗎？"
+  },
+  {
+    "id": "dialogo-farmacia-nao-que-eu-saiba",
+    "situacao": "farmacia",
+    "order": 391,
+    "pt": "Não que eu saiba.",
+    "en": "Not that I know of.",
+    "zhHans": "据我所知没有。",
+    "zhHant": "據我所知沒有。"
+  },
+  {
+    "id": "dialogo-farmacia-leve-este-xarope-e-estes-comprimidos",
+    "situacao": "farmacia",
+    "order": 392,
+    "pt": "Leve este xarope e estes comprimidos.",
+    "en": "Take this syrup and these pills.",
+    "zhHans": "拿这瓶糖浆和这些药片。",
+    "zhHant": "拿這瓶糖漿和這些藥片。"
+  },
+  {
+    "id": "dialogo-farmacia-como-tomo-os-comprimidos",
+    "situacao": "farmacia",
+    "order": 393,
+    "pt": "Como tomo os comprimidos?",
+    "en": "How do I take the pills?",
+    "zhHans": "药片怎么吃？",
+    "zhHant": "藥片怎麼吃？"
+  },
+  {
+    "id": "dialogo-farmacia-um-de-oito-em-oito-horas-as-refeicoes",
+    "situacao": "farmacia",
+    "order": 394,
+    "pt": "Um de oito em oito horas, às refeições.",
+    "en": "One every eight hours, with meals.",
+    "zhHans": "每八小时一片，随餐。",
+    "zhHant": "每八小時一片，隨餐。"
+  },
+  {
+    "id": "dialogo-farmacia-e-o-xarope",
+    "situacao": "farmacia",
+    "order": 395,
+    "pt": "E o xarope?",
+    "en": "And the syrup?",
+    "zhHans": "糖浆呢？",
+    "zhHant": "糖漿呢？"
+  },
+  {
+    "id": "dialogo-farmacia-duas-vezes-por-dia-manha-e-noite",
+    "situacao": "farmacia",
+    "order": 396,
+    "pt": "Duas vezes por dia, manhã e noite.",
+    "en": "Twice a day, morning and night.",
+    "zhHans": "一天两次，早晚。",
+    "zhHant": "一天兩次，早晚。"
+  },
+  {
+    "id": "dialogo-farmacia-este-medicamento-precisa-de-receita",
+    "situacao": "farmacia",
+    "order": 397,
+    "pt": "Este medicamento precisa de receita?",
+    "en": "Does this medicine need a prescription?",
+    "zhHans": "这药要处方吗？",
+    "zhHant": "這藥要處方嗎？"
+  },
+  {
+    "id": "dialogo-farmacia-nao-e-de-venda-livre",
+    "situacao": "farmacia",
+    "order": 398,
+    "pt": "Não, é de venda livre.",
+    "en": "No, it's over the counter.",
+    "zhHans": "不用，是非处方药。",
+    "zhHant": "不用，是非處方藥。"
+  },
+  {
+    "id": "dialogo-farmacia-ha-generico-e-mais-barato",
+    "situacao": "farmacia",
+    "order": 399,
+    "pt": "Há genérico? É mais barato?",
+    "en": "Is there a generic? Is it cheaper?",
+    "zhHans": "有仿制药吗？便宜点吗？",
+    "zhHant": "有學名藥嗎？便宜點嗎？"
+  },
+  {
+    "id": "dialogo-farmacia-ha-sim-custa-quatro-euros",
+    "situacao": "farmacia",
+    "order": 400,
+    "pt": "Há, sim. Custa quatro euros.",
+    "en": "Yes, there is. It's four euros.",
+    "zhHans": "有，四欧元。",
+    "zhHant": "有，四歐元。"
+  },
+  {
+    "id": "dialogo-farmacia-e-se-nao-melhorar",
+    "situacao": "farmacia",
+    "order": 401,
+    "pt": "E se não melhorar?",
+    "en": "And if I don't get better?",
+    "zhHans": "要是没好转呢？",
+    "zhHant": "要是沒好轉呢？"
+  },
+  {
+    "id": "dialogo-farmacia-em-tres-dias-sem-melhoras-va-ao-medico",
+    "situacao": "farmacia",
+    "order": 402,
+    "pt": "Em três dias sem melhoras, vá ao médico.",
+    "en": "If you're no better in three days, see a doctor.",
+    "zhHans": "三天没好就去看医生。",
+    "zhHant": "三天沒好就去看醫生。"
   }
 ];
 
@@ -11057,5 +15254,869 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "en": "It's a cash payment — do you have change?",
     "zhHans": "现金支付——您有零钱找吗？",
     "zhHant": "現金支付——您有零錢找嗎？"
+  },
+  {
+    "id": "cartao-veterinario-o-meu-cao-nao-come",
+    "situacao": "veterinario",
+    "order": 171,
+    "pt": "O meu cão não come.",
+    "en": "My dog isn't eating.",
+    "zhHans": "我的狗不吃东西。",
+    "zhHant": "我的狗不吃東西。"
+  },
+  {
+    "id": "cartao-veterinario-o-meu-gato-esta-a-vomitar",
+    "situacao": "veterinario",
+    "order": 172,
+    "pt": "O meu gato está a vomitar.",
+    "en": "My cat is vomiting.",
+    "zhHans": "我的猫在呕吐。",
+    "zhHant": "我的貓在嘔吐。"
+  },
+  {
+    "id": "cartao-veterinario-preciso-de-uma-consulta-urgente",
+    "situacao": "veterinario",
+    "order": 173,
+    "pt": "Preciso de uma consulta urgente.",
+    "en": "I need an urgent appointment.",
+    "zhHans": "我需要紧急看诊。",
+    "zhHant": "我需要緊急看診。"
+  },
+  {
+    "id": "cartao-veterinario-e-grave",
+    "situacao": "veterinario",
+    "order": 174,
+    "pt": "É grave?",
+    "en": "Is it serious?",
+    "zhHans": "严重吗？",
+    "zhHant": "嚴重嗎？"
+  },
+  {
+    "id": "cartao-veterinario-a-vacina-esta-em-dia",
+    "situacao": "veterinario",
+    "order": 175,
+    "pt": "A vacina está em dia?",
+    "en": "Are the vaccines up to date?",
+    "zhHans": "疫苗都打了吗？",
+    "zhHant": "疫苗都打了嗎？"
+  },
+  {
+    "id": "cartao-veterinario-quanto-custa-a-vacina",
+    "situacao": "veterinario",
+    "order": 176,
+    "pt": "Quanto custa a vacina?",
+    "en": "How much is the vaccine?",
+    "zhHans": "疫苗多少钱？",
+    "zhHant": "疫苗多少錢？"
+  },
+  {
+    "id": "cartao-veterinario-ele-tem-microchip",
+    "situacao": "veterinario",
+    "order": 177,
+    "pt": "Ele tem microchip.",
+    "en": "He has a microchip.",
+    "zhHans": "它有芯片。",
+    "zhHant": "牠有晶片。"
+  },
+  {
+    "id": "cartao-veterinario-queria-desparasitar-o-meu-gato",
+    "situacao": "veterinario",
+    "order": 178,
+    "pt": "Queria desparasitar o meu gato.",
+    "en": "I'd like to deworm my cat.",
+    "zhHans": "我想帮猫驱虫。",
+    "zhHant": "我想幫貓驅蟲。"
+  },
+  {
+    "id": "cartao-veterinario-ele-coca-se-muito",
+    "situacao": "veterinario",
+    "order": 179,
+    "pt": "Ele coça-se muito.",
+    "en": "He scratches himself a lot.",
+    "zhHans": "它一直抓痒。",
+    "zhHant": "牠一直抓癢。"
+  },
+  {
+    "id": "cartao-veterinario-acho-que-tem-pulgas",
+    "situacao": "veterinario",
+    "order": 180,
+    "pt": "Acho que tem pulgas.",
+    "en": "I think he has fleas.",
+    "zhHans": "我觉得它有跳蚤。",
+    "zhHant": "我覺得牠有跳蚤。"
+  },
+  {
+    "id": "cartao-veterinario-quero-esterilizar-a-minha-gata",
+    "situacao": "veterinario",
+    "order": 181,
+    "pt": "Quero esterilizar a minha gata.",
+    "en": "I want to spay my cat.",
+    "zhHans": "我想让母猫绝育。",
+    "zhHant": "我想讓母貓絕育。"
+  },
+  {
+    "id": "cartao-veterinario-que-racao-recomenda",
+    "situacao": "veterinario",
+    "order": 182,
+    "pt": "Que ração recomenda?",
+    "en": "What food do you recommend?",
+    "zhHans": "推荐哪种饲料？",
+    "zhHant": "推薦哪種飼料？"
+  },
+  {
+    "id": "cartao-veterinario-ele-precisa-de-acaime",
+    "situacao": "veterinario",
+    "order": 183,
+    "pt": "Ele precisa de açaime?",
+    "en": "Does he need a muzzle?",
+    "zhHans": "它需要嘴套吗？",
+    "zhHant": "牠需要嘴套嗎？"
+  },
+  {
+    "id": "cartao-veterinario-posso-ficar-com-ele",
+    "situacao": "veterinario",
+    "order": 184,
+    "pt": "Posso ficar com ele?",
+    "en": "Can I stay with him?",
+    "zhHans": "我可以陪它吗？",
+    "zhHant": "我可以陪牠嗎？"
+  },
+  {
+    "id": "cartao-veterinario-ele-magoou-a-pata",
+    "situacao": "veterinario",
+    "order": 185,
+    "pt": "Ele magoou a pata.",
+    "en": "He hurt his paw.",
+    "zhHans": "它的脚受伤了。",
+    "zhHant": "牠的腳受傷了。"
+  },
+  {
+    "id": "cartao-veterinario-quando-volto-ca",
+    "situacao": "veterinario",
+    "order": 186,
+    "pt": "Quando volto cá?",
+    "en": "When do I come back?",
+    "zhHans": "我什么时候回诊？",
+    "zhHant": "我什麼時候回診？"
+  },
+  {
+    "id": "cartao-ginasio-quanto-e-a-mensalidade",
+    "situacao": "ginasio",
+    "order": 187,
+    "pt": "Quanto é a mensalidade?",
+    "en": "How much is the monthly fee?",
+    "zhHans": "月费多少？",
+    "zhHant": "月費多少？"
+  },
+  {
+    "id": "cartao-ginasio-ha-fidelizacao",
+    "situacao": "ginasio",
+    "order": 188,
+    "pt": "Há fidelização?",
+    "en": "Is there a lock-in period?",
+    "zhHans": "有绑约吗？",
+    "zhHant": "有綁約嗎？"
+  },
+  {
+    "id": "cartao-ginasio-posso-cancelar-quando-quiser",
+    "situacao": "ginasio",
+    "order": 189,
+    "pt": "Posso cancelar quando quiser?",
+    "en": "Can I cancel anytime?",
+    "zhHans": "可以随时取消吗？",
+    "zhHant": "可以隨時取消嗎？"
+  },
+  {
+    "id": "cartao-ginasio-queria-uma-aula-experimental",
+    "situacao": "ginasio",
+    "order": 190,
+    "pt": "Queria uma aula experimental.",
+    "en": "I'd like a trial class.",
+    "zhHans": "我想上体验课。",
+    "zhHant": "我想上體驗課。"
+  },
+  {
+    "id": "cartao-ginasio-a-taxa-de-inscricao-esta-incluida",
+    "situacao": "ginasio",
+    "order": 191,
+    "pt": "A taxa de inscrição está incluída?",
+    "en": "Is the joining fee included?",
+    "zhHans": "含入会费吗？",
+    "zhHant": "含入會費嗎？"
+  },
+  {
+    "id": "cartao-ginasio-qual-e-o-horario",
+    "situacao": "ginasio",
+    "order": 192,
+    "pt": "Qual é o horário?",
+    "en": "What are the opening hours?",
+    "zhHans": "营业时间是？",
+    "zhHant": "營業時間是？"
+  },
+  {
+    "id": "cartao-ginasio-ha-aulas-de-grupo",
+    "situacao": "ginasio",
+    "order": 193,
+    "pt": "Há aulas de grupo?",
+    "en": "Are there group classes?",
+    "zhHans": "有团体课吗？",
+    "zhHant": "有團體課嗎？"
+  },
+  {
+    "id": "cartao-ginasio-preciso-de-trazer-toalha",
+    "situacao": "ginasio",
+    "order": 194,
+    "pt": "Preciso de trazer toalha?",
+    "en": "Do I need to bring a towel?",
+    "zhHans": "要自备毛巾吗？",
+    "zhHant": "要自備毛巾嗎？"
+  },
+  {
+    "id": "cartao-ginasio-onde-sao-os-balnearios",
+    "situacao": "ginasio",
+    "order": 195,
+    "pt": "Onde são os balneários?",
+    "en": "Where are the changing rooms?",
+    "zhHans": "更衣室在哪？",
+    "zhHant": "更衣室在哪？"
+  },
+  {
+    "id": "cartao-ginasio-onde-estao-os-cacifos",
+    "situacao": "ginasio",
+    "order": 196,
+    "pt": "Onde estão os cacifos?",
+    "en": "Where are the lockers?",
+    "zhHans": "置物柜在哪？",
+    "zhHant": "置物櫃在哪？"
+  },
+  {
+    "id": "cartao-ginasio-preciso-de-cadeado",
+    "situacao": "ginasio",
+    "order": 197,
+    "pt": "Preciso de cadeado?",
+    "en": "Do I need a padlock?",
+    "zhHans": "需要挂锁吗？",
+    "zhHant": "需要掛鎖嗎？"
+  },
+  {
+    "id": "cartao-ginasio-como-funciona-esta-maquina",
+    "situacao": "ginasio",
+    "order": 198,
+    "pt": "Como funciona esta máquina?",
+    "en": "How does this machine work?",
+    "zhHans": "这台器械怎么用？",
+    "zhHant": "這台器械怎麼用？"
+  },
+  {
+    "id": "cartao-ginasio-pode-ajudar-me-por-favor",
+    "situacao": "ginasio",
+    "order": 199,
+    "pt": "Pode ajudar-me, por favor?",
+    "en": "Can you help me, please?",
+    "zhHans": "可以帮我吗？",
+    "zhHant": "可以幫我嗎？"
+  },
+  {
+    "id": "cartao-ginasio-magoei-me-no-treino",
+    "situacao": "ginasio",
+    "order": 200,
+    "pt": "Magoei-me no treino.",
+    "en": "I hurt myself training.",
+    "zhHans": "我训练时受伤了。",
+    "zhHant": "我訓練時受傷了。"
+  },
+  {
+    "id": "cartao-ginasio-quero-falar-com-um-treinador",
+    "situacao": "ginasio",
+    "order": 201,
+    "pt": "Quero falar com um treinador.",
+    "en": "I want to talk to a trainer.",
+    "zhHans": "我想找教练。",
+    "zhHant": "我想找教練。"
+  },
+  {
+    "id": "cartao-ginasio-quero-cancelar-o-contrato",
+    "situacao": "ginasio",
+    "order": 202,
+    "pt": "Quero cancelar o contrato.",
+    "en": "I want to cancel my contract.",
+    "zhHans": "我想解约。",
+    "zhHant": "我想解約。"
+  },
+  {
+    "id": "cartao-convivio-entao-tudo-bem",
+    "situacao": "convivio",
+    "order": 203,
+    "pt": "Então, tudo bem?",
+    "en": "So, how's it going?",
+    "zhHans": "最近好吗？",
+    "zhHant": "最近好嗎？"
+  },
+  {
+    "id": "cartao-convivio-ha-quanto-tempo",
+    "situacao": "convivio",
+    "order": 204,
+    "pt": "Há quanto tempo!",
+    "en": "Long time no see!",
+    "zhHans": "好久不见！",
+    "zhHant": "好久不見！"
+  },
+  {
+    "id": "cartao-convivio-queres-ir-tomar-um-cafe",
+    "situacao": "convivio",
+    "order": 205,
+    "pt": "Queres ir tomar um café?",
+    "en": "Want to grab a coffee?",
+    "zhHans": "要去喝咖啡吗？",
+    "zhHant": "要去喝咖啡嗎？"
+  },
+  {
+    "id": "cartao-convivio-estas-livre-no-sabado",
+    "situacao": "convivio",
+    "order": 206,
+    "pt": "Estás livre no sábado?",
+    "en": "Are you free on Saturday?",
+    "zhHans": "你周六有空吗？",
+    "zhHant": "你週六有空嗎？"
+  },
+  {
+    "id": "cartao-convivio-apetece-te-jantar-fora",
+    "situacao": "convivio",
+    "order": 207,
+    "pt": "Apetece-te jantar fora?",
+    "en": "Feel like eating out?",
+    "zhHans": "想出去吃晚餐吗？",
+    "zhHant": "想出去吃晚餐嗎？"
+  },
+  {
+    "id": "cartao-convivio-onde-nos-encontramos",
+    "situacao": "convivio",
+    "order": 208,
+    "pt": "Onde nos encontramos?",
+    "en": "Where shall we meet?",
+    "zhHans": "我们在哪见面？",
+    "zhHant": "我們在哪見面？"
+  },
+  {
+    "id": "cartao-convivio-a-que-horas-combinamos",
+    "situacao": "convivio",
+    "order": 209,
+    "pt": "A que horas combinamos?",
+    "en": "What time shall we say?",
+    "zhHans": "约几点？",
+    "zhHant": "約幾點？"
+  },
+  {
+    "id": "cartao-convivio-desculpa-o-atraso",
+    "situacao": "convivio",
+    "order": 210,
+    "pt": "Desculpa o atraso.",
+    "en": "Sorry I'm late.",
+    "zhHans": "抱歉迟到了。",
+    "zhHant": "抱歉遲到了。"
+  },
+  {
+    "id": "cartao-convivio-tenho-de-desmarcar-desculpa",
+    "situacao": "convivio",
+    "order": 211,
+    "pt": "Tenho de desmarcar, desculpa.",
+    "en": "I have to cancel, sorry.",
+    "zhHans": "抱歉，我得取消。",
+    "zhHant": "抱歉，我得取消。"
+  },
+  {
+    "id": "cartao-convivio-fica-para-a-proxima",
+    "situacao": "convivio",
+    "order": 212,
+    "pt": "Fica para a próxima.",
+    "en": "Next time, then.",
+    "zhHans": "下次再约。",
+    "zhHant": "下次再約。"
+  },
+  {
+    "id": "cartao-convivio-eu-ofereco",
+    "situacao": "convivio",
+    "order": 213,
+    "pt": "Eu ofereço!",
+    "en": "My treat!",
+    "zhHans": "我请客！",
+    "zhHant": "我請客！"
+  },
+  {
+    "id": "cartao-convivio-vamos-dividir-a-conta",
+    "situacao": "convivio",
+    "order": 214,
+    "pt": "Vamos dividir a conta?",
+    "en": "Shall we split the bill?",
+    "zhHans": "我们分摊吧？",
+    "zhHant": "我們分攤吧？"
+  },
+  {
+    "id": "cartao-convivio-parabens",
+    "situacao": "convivio",
+    "order": 215,
+    "pt": "Parabéns!",
+    "en": "Happy birthday! / Congratulations!",
+    "zhHans": "恭喜！",
+    "zhHant": "恭喜！"
+  },
+  {
+    "id": "cartao-convivio-saude",
+    "situacao": "convivio",
+    "order": 216,
+    "pt": "Saúde!",
+    "en": "Cheers!",
+    "zhHans": "干杯！",
+    "zhHant": "乾杯！"
+  },
+  {
+    "id": "cartao-convivio-diverti-me-muito",
+    "situacao": "convivio",
+    "order": 217,
+    "pt": "Diverti-me muito.",
+    "en": "I had a great time.",
+    "zhHans": "我玩得很开心。",
+    "zhHant": "我玩得很開心。"
+  },
+  {
+    "id": "cartao-convivio-ate-a-proxima",
+    "situacao": "convivio",
+    "order": 218,
+    "pt": "Até à próxima!",
+    "en": "See you next time!",
+    "zhHans": "下次见！",
+    "zhHant": "下次見！"
+  },
+  {
+    "id": "cartao-vizinhos-sou-o-seu-vizinho-novo",
+    "situacao": "vizinhos",
+    "order": 219,
+    "pt": "Sou o seu vizinho novo.",
+    "en": "I'm your new neighbor.",
+    "zhHans": "我是新邻居。",
+    "zhHant": "我是新鄰居。"
+  },
+  {
+    "id": "cartao-vizinhos-desculpe-o-barulho",
+    "situacao": "vizinhos",
+    "order": 220,
+    "pt": "Desculpe o barulho.",
+    "en": "Sorry about the noise.",
+    "zhHans": "抱歉吵到您了。",
+    "zhHant": "抱歉吵到您了。"
+  },
+  {
+    "id": "cartao-vizinhos-pode-falar-mais-baixo-por-favor",
+    "situacao": "vizinhos",
+    "order": 221,
+    "pt": "Pode falar mais baixo, por favor?",
+    "en": "Could you keep it down, please?",
+    "zhHans": "可以小声一点吗？",
+    "zhHant": "可以小聲一點嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-o-barulho-incomoda-e-tarde",
+    "situacao": "vizinhos",
+    "order": 222,
+    "pt": "O barulho incomoda, é tarde.",
+    "en": "The noise is bothering us, it's late.",
+    "zhHans": "太晚了，噪音打扰到人。",
+    "zhHant": "太晚了，噪音打擾到人。"
+  },
+  {
+    "id": "cartao-vizinhos-o-elevador-esta-avariado",
+    "situacao": "vizinhos",
+    "order": 223,
+    "pt": "O elevador está avariado.",
+    "en": "The elevator is out of order.",
+    "zhHans": "电梯坏了。",
+    "zhHant": "電梯壞了。"
+  },
+  {
+    "id": "cartao-vizinhos-quando-e-a-reuniao-de-condominio",
+    "situacao": "vizinhos",
+    "order": 224,
+    "pt": "Quando é a reunião de condomínio?",
+    "en": "When is the building meeting?",
+    "zhHans": "业主大会是什么时候？",
+    "zhHant": "業主大會是什麼時候？"
+  },
+  {
+    "id": "cartao-vizinhos-pode-receber-uma-encomenda",
+    "situacao": "vizinhos",
+    "order": 225,
+    "pt": "Pode receber uma encomenda?",
+    "en": "Can you take in a package?",
+    "zhHans": "可以帮我收包裹吗？",
+    "zhHant": "可以幫我收包裹嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-pode-regar-as-minhas-plantas",
+    "situacao": "vizinhos",
+    "order": 226,
+    "pt": "Pode regar as minhas plantas?",
+    "en": "Can you water my plants?",
+    "zhHans": "可以帮我浇花吗？",
+    "zhHant": "可以幫我澆花嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-posso-deixar-lhe-a-chave",
+    "situacao": "vizinhos",
+    "order": 227,
+    "pt": "Posso deixar-lhe a chave?",
+    "en": "Can I leave you my key?",
+    "zhHans": "钥匙可以放您那吗？",
+    "zhHant": "鑰匙可以放您那嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-onde-fica-a-reciclagem",
+    "situacao": "vizinhos",
+    "order": 228,
+    "pt": "Onde fica a reciclagem?",
+    "en": "Where's the recycling?",
+    "zhHans": "回收站在哪？",
+    "zhHant": "回收站在哪？"
+  },
+  {
+    "id": "cartao-vizinhos-quando-recolhem-o-lixo",
+    "situacao": "vizinhos",
+    "order": 229,
+    "pt": "Quando recolhem o lixo?",
+    "en": "When is the trash collected?",
+    "zhHans": "垃圾什么时候收？",
+    "zhHant": "垃圾什麼時候收？"
+  },
+  {
+    "id": "cartao-vizinhos-ha-obras-no-predio",
+    "situacao": "vizinhos",
+    "order": 230,
+    "pt": "Há obras no prédio?",
+    "en": "Is there construction in the building?",
+    "zhHans": "大楼在施工吗？",
+    "zhHant": "大樓在施工嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-este-lugar-de-estacionamento-e-seu",
+    "situacao": "vizinhos",
+    "order": 231,
+    "pt": "Este lugar de estacionamento é seu?",
+    "en": "Is this parking spot yours?",
+    "zhHans": "这个车位是您的吗？",
+    "zhHant": "這個車位是您的嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-posso-pedir-lhe-um-favor",
+    "situacao": "vizinhos",
+    "order": 232,
+    "pt": "Posso pedir-lhe um favor?",
+    "en": "Can I ask you a favor?",
+    "zhHans": "能请您帮个忙吗？",
+    "zhHant": "能請您幫個忙嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-obrigado-pela-ajuda",
+    "situacao": "vizinhos",
+    "order": 233,
+    "pt": "Obrigado pela ajuda.",
+    "en": "Thanks for the help.",
+    "zhHans": "谢谢帮忙。",
+    "zhHant": "謝謝幫忙。"
+  },
+  {
+    "id": "cartao-vizinhos-a-campainha-nao-funciona",
+    "situacao": "vizinhos",
+    "order": 234,
+    "pt": "A campainha não funciona.",
+    "en": "The doorbell doesn't work.",
+    "zhHans": "门铃坏了。",
+    "zhHant": "門鈴壞了。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-queria-marcar-um-corte",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 235,
+    "pt": "Queria marcar um corte.",
+    "en": "I'd like to book a haircut.",
+    "zhHans": "我想预约剪发。",
+    "zhHant": "我想預約剪髮。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-e-preciso-marcacao",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 236,
+    "pt": "É preciso marcação?",
+    "en": "Do I need an appointment?",
+    "zhHans": "需要预约吗？",
+    "zhHant": "需要預約嗎？"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-so-aparar-as-pontas",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 237,
+    "pt": "Só aparar as pontas.",
+    "en": "Just trim the ends.",
+    "zhHans": "只修发尾。",
+    "zhHant": "只修髮尾。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-nao-muito-curto-por-favor",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 238,
+    "pt": "Não muito curto, por favor.",
+    "en": "Not too short, please.",
+    "zhHans": "别剪太短。",
+    "zhHant": "別剪太短。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-uns-dois-dedos",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 239,
+    "pt": "Uns dois dedos.",
+    "en": "About two fingers' worth.",
+    "zhHans": "大概两指长。",
+    "zhHant": "大概兩指長。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-corte-a-franja-tambem",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 240,
+    "pt": "Corte a franja também.",
+    "en": "Cut the bangs too.",
+    "zhHans": "刘海也剪一下。",
+    "zhHant": "瀏海也剪一下。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-maquina-numero-tres-dos-lados",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 241,
+    "pt": "Máquina número três dos lados.",
+    "en": "Number three clippers on the sides.",
+    "zhHans": "两侧用三号电剪。",
+    "zhHant": "兩側用三號電剪。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-quero-mudar-de-visual",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 242,
+    "pt": "Quero mudar de visual.",
+    "en": "I want a new look.",
+    "zhHans": "我想换造型。",
+    "zhHant": "我想換造型。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-queria-pintar-o-cabelo",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 243,
+    "pt": "Queria pintar o cabelo.",
+    "en": "I'd like to dye my hair.",
+    "zhHans": "我想染发。",
+    "zhHant": "我想染髮。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-um-tom-mais-claro",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 244,
+    "pt": "Um tom mais claro.",
+    "en": "A lighter shade.",
+    "zhHans": "浅一点的颜色。",
+    "zhHant": "淺一點的顏色。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-pode-aparar-a-barba",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 245,
+    "pt": "Pode aparar a barba?",
+    "en": "Can you trim my beard?",
+    "zhHans": "可以修胡子吗？",
+    "zhHant": "可以修鬍子嗎？"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-deixe-o-bigode",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 246,
+    "pt": "Deixe o bigode.",
+    "en": "Leave the mustache.",
+    "zhHans": "小胡子留着。",
+    "zhHant": "小鬍子留著。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-sem-gel-obrigado",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 247,
+    "pt": "Sem gel, obrigado.",
+    "en": "No gel, thanks.",
+    "zhHans": "不用发胶，谢谢。",
+    "zhHant": "不用髮膠，謝謝。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-pode-secar",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 248,
+    "pt": "Pode secar?",
+    "en": "Can you blow-dry it?",
+    "zhHans": "可以吹干吗？",
+    "zhHant": "可以吹乾嗎？"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-assim-esta-perfeito",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 249,
+    "pt": "Assim está perfeito.",
+    "en": "It's perfect like this.",
+    "zhHans": "这样就很好。",
+    "zhHant": "這樣就很好。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-quanto-custa-o-corte",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 250,
+    "pt": "Quanto custa o corte?",
+    "en": "How much is the haircut?",
+    "zhHans": "剪发多少钱？",
+    "zhHant": "剪髮多少錢？"
+  },
+  {
+    "id": "cartao-farmacia-tenho-dor-de-cabeca",
+    "situacao": "farmacia",
+    "order": 251,
+    "pt": "Tenho dor de cabeça.",
+    "en": "I have a headache.",
+    "zhHans": "我头痛。",
+    "zhHant": "我頭痛。"
+  },
+  {
+    "id": "cartao-farmacia-tenho-dor-de-garganta",
+    "situacao": "farmacia",
+    "order": 252,
+    "pt": "Tenho dor de garganta.",
+    "en": "I have a sore throat.",
+    "zhHans": "我喉咙痛。",
+    "zhHant": "我喉嚨痛。"
+  },
+  {
+    "id": "cartao-farmacia-tenho-tosse-e-febre",
+    "situacao": "farmacia",
+    "order": 253,
+    "pt": "Tenho tosse e febre.",
+    "en": "I have a cough and a fever.",
+    "zhHans": "我咳嗽又发烧。",
+    "zhHant": "我咳嗽又發燒。"
+  },
+  {
+    "id": "cartao-farmacia-estou-constipado",
+    "situacao": "farmacia",
+    "order": 254,
+    "pt": "Estou constipado.",
+    "en": "I have a cold.",
+    "zhHans": "我感冒了。",
+    "zhHant": "我感冒了。"
+  },
+  {
+    "id": "cartao-farmacia-tenho-alergia",
+    "situacao": "farmacia",
+    "order": 255,
+    "pt": "Tenho alergia.",
+    "en": "I have an allergy.",
+    "zhHans": "我过敏。",
+    "zhHant": "我過敏。"
+  },
+  {
+    "id": "cartao-farmacia-preciso-de-algo-para-a-dor",
+    "situacao": "farmacia",
+    "order": 256,
+    "pt": "Preciso de algo para a dor.",
+    "en": "I need something for pain.",
+    "zhHans": "我需要止痛的药。",
+    "zhHant": "我需要止痛的藥。"
+  },
+  {
+    "id": "cartao-farmacia-e-preciso-receita",
+    "situacao": "farmacia",
+    "order": 257,
+    "pt": "É preciso receita?",
+    "en": "Do I need a prescription?",
+    "zhHans": "需要处方吗？",
+    "zhHant": "需要處方嗎？"
+  },
+  {
+    "id": "cartao-farmacia-ha-generico",
+    "situacao": "farmacia",
+    "order": 258,
+    "pt": "Há genérico?",
+    "en": "Is there a generic?",
+    "zhHans": "有仿制药吗？",
+    "zhHant": "有學名藥嗎？"
+  },
+  {
+    "id": "cartao-farmacia-como-se-toma",
+    "situacao": "farmacia",
+    "order": 259,
+    "pt": "Como se toma?",
+    "en": "How do I take it?",
+    "zhHans": "怎么服用？",
+    "zhHant": "怎麼服用？"
+  },
+  {
+    "id": "cartao-farmacia-quantas-vezes-por-dia",
+    "situacao": "farmacia",
+    "order": 260,
+    "pt": "Quantas vezes por dia?",
+    "en": "How many times a day?",
+    "zhHans": "一天几次？",
+    "zhHant": "一天幾次？"
+  },
+  {
+    "id": "cartao-farmacia-em-jejum-ou-as-refeicoes",
+    "situacao": "farmacia",
+    "order": 261,
+    "pt": "Em jejum ou às refeições?",
+    "en": "On an empty stomach or with meals?",
+    "zhHans": "空腹还是随餐？",
+    "zhHant": "空腹還是隨餐？"
+  },
+  {
+    "id": "cartao-farmacia-tem-efeitos-secundarios",
+    "situacao": "farmacia",
+    "order": 262,
+    "pt": "Tem efeitos secundários?",
+    "en": "Does it have side effects?",
+    "zhHans": "有副作用吗？",
+    "zhHant": "有副作用嗎？"
+  },
+  {
+    "id": "cartao-farmacia-estou-gravida-posso-tomar",
+    "situacao": "farmacia",
+    "order": 263,
+    "pt": "Estou grávida. Posso tomar?",
+    "en": "I'm pregnant. Can I take it?",
+    "zhHans": "我怀孕了，能吃吗？",
+    "zhHant": "我懷孕了，能吃嗎？"
+  },
+  {
+    "id": "cartao-farmacia-pode-medir-me-a-tensao",
+    "situacao": "farmacia",
+    "order": 264,
+    "pt": "Pode medir-me a tensão?",
+    "en": "Can you take my blood pressure?",
+    "zhHans": "可以帮我量血压吗？",
+    "zhHant": "可以幫我量血壓嗎？"
+  },
+  {
+    "id": "cartao-farmacia-onde-e-a-farmacia-de-servico",
+    "situacao": "farmacia",
+    "order": 265,
+    "pt": "Onde é a farmácia de serviço?",
+    "en": "Where's the on-duty pharmacy?",
+    "zhHans": "值班药店在哪？",
+    "zhHant": "值班藥局在哪？"
+  },
+  {
+    "id": "cartao-farmacia-queria-pensos-rapidos",
+    "situacao": "farmacia",
+    "order": 266,
+    "pt": "Queria pensos rápidos.",
+    "en": "I'd like some band-aids.",
+    "zhHans": "我要创可贴。",
+    "zhHant": "我要OK繃。"
   }
 ];

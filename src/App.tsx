@@ -74,6 +74,7 @@ type RetrievalContext = "session" | "module" | "final";
 type AppMode = "manual" | "situacoes";
 type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
 const DEFAULT_SITUACAO_ID = situacaoGroups[0]?.items[0]?.id ?? "banco";
+const DEFAULT_MODULO = "Módulo 1";
 const RESUME_MAX_AGE_MS = 48 * 60 * 60 * 1000;
 const SITUACAO_SWIPE_TIP_SETTING = "situacaoSwipeTipDismissed";
 const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
@@ -112,7 +113,13 @@ const SITUACAO_TARGET_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", 
   trabalho_restauracao: { en: "restaurant work", zhHans: "餐饮工作", zhHant: "餐飲工作" },
   trabalho_limpezas: { en: "cleaning work", zhHans: "清洁工作", zhHant: "清潔工作" },
   trabalho_construcao: { en: "construction work", zhHans: "建筑工作", zhHant: "建築工作" },
-  trabalho_entregas: { en: "delivery work", zhHans: "外送工作", zhHant: "外送工作" }
+  trabalho_entregas: { en: "delivery work", zhHans: "外送工作", zhHant: "外送工作" },
+  veterinario: { en: "vet", zhHans: "兽医", zhHant: "獸醫" },
+  ginasio: { en: "gym", zhHans: "健身房", zhHant: "健身房" },
+  convivio: { en: "social gathering", zhHans: "聚会", zhHant: "聚會" },
+  vizinhos: { en: "neighbours", zhHans: "邻居", zhHant: "鄰居" },
+  cabeleireiro_barbeiro: { en: "hairdresser and barber", zhHans: "理发店", zhHant: "理髮店" },
+  farmacia: { en: "pharmacy", zhHans: "药房", zhHant: "藥房" }
 };
 
 interface RetrievalState {
@@ -130,7 +137,7 @@ export default function App() {
   const [storageReady, setStorageReady] = useState(false);
   const [appMode, setAppMode] = useState<AppMode>("manual");
   const [globalSearchOpen, setGlobalSearchOpen] = useState(false);
-  const [modulo, setModulo] = useState("all");
+  const [modulo, setModulo] = useState(DEFAULT_MODULO);
   const [situacaoId, setSituacaoId] = useState(DEFAULT_SITUACAO_ID);
   const [situacaoTab, setSituacaoTab] = useState<SituacaoTab>("vocabulario");
   const [situacaoCardIndex, setSituacaoCardIndex] = useState(0);
@@ -289,7 +296,7 @@ export default function App() {
       restoredNavigationRef.current = false;
       setAppMode("manual");
       setGlobalSearchOpen(false);
-      setModulo("all");
+      setModulo(DEFAULT_MODULO);
       setSituacaoId(DEFAULT_SITUACAO_ID);
       setSituacaoTab("vocabulario");
       setResumeSession(null);
@@ -304,10 +311,10 @@ export default function App() {
 
   const modulos = useMemo(() => getModulos(vocabulary), []);
   const wordById = useMemo(() => new Map(wordBank.map((entry) => [entry.id, entry])), []);
-  const selectedEntries = useMemo(
-    () => vocabulary.filter((entry) => modulo === "all" || entry.modulo === modulo),
-    [modulo]
-  );
+  const selectedEntries = useMemo(() => {
+    if (modulo === "all") return shuffleWithRng(vocabulary);
+    return vocabulary.filter((entry) => entry.modulo === modulo);
+  }, [modulo]);
   const selectedSituacaoEntries = useMemo(() => getVocabularyForSituacao(situacaoId), [situacaoId]);
   const selectedSituacaoQueueEntries = useMemo(
     () => (situacaoQueueOverrideIds ? entriesFromIds(situacaoQueueOverrideIds, wordById) : selectedSituacaoEntries),
@@ -711,7 +718,7 @@ export default function App() {
     setDirection(normalizeSupportedDirection(session.direction));
 
     if (session.mode === "manual") {
-      setModulo(session.moduleOrScenarioId || "all");
+      setModulo(session.moduleOrScenarioId || DEFAULT_MODULO);
       setSituacaoQueueOverrideIds(null);
       setPhase("study");
       setCardIndex(0);
@@ -810,7 +817,7 @@ export default function App() {
     if (resumeSession.mode === "manual") {
       setAppMode("manual");
       setDirection(normalizeSupportedDirection(resumeSession.direction));
-      setModulo(resumeSession.moduleOrScenarioId || "all");
+      setModulo(resumeSession.moduleOrScenarioId || DEFAULT_MODULO);
       setSessionIndex(resumeSession.sessionIndex ?? findSessionIndexForQueue(resumeSession.queue));
       setSessionAgainIds(resumeSession.againQueue);
       setCardIndex(position);
@@ -1218,12 +1225,12 @@ export default function App() {
             <label className="module-control" data-label={ui.module}>
               <span>{ui.module}</span>
               <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
-                <option value="all">{ui.allModules}</option>
                 {modulos.map((item) => (
                   <option key={item} value={item}>
                     {formatModuloOptionLabel(ui.moduloLabel(item), getModuleThemeLabel(item, ui.locale))}
                   </option>
                 ))}
+                <option value="all">{ui.allModules}</option>
               </select>
             </label>
             {renderLanguageSelect()}

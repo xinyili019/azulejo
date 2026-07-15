@@ -75,7 +75,7 @@ describe("App", () => {
     await waitFor(async () => {
       expect(await getActiveSession()).toMatchObject({
         mode: "manual",
-        moduleOrScenarioId: "all",
+        moduleOrScenarioId: "Módulo 1",
         direction: "pt-en",
         position: 1
       });
@@ -275,6 +275,10 @@ describe("App", () => {
     render(<App />);
 
     expect(screen.getByLabelText(/language/i)).toBeInTheDocument();
+    const moduleSelect = screen.getByLabelText(/module/i);
+    const moduleOptions = within(moduleSelect).getAllByRole("option");
+    expect(moduleSelect).toHaveValue("Módulo 1");
+    expect(moduleOptions.at(-1)).toHaveValue("all");
     expect(screen.getByRole("tablist", { name: /study mode/i })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "Manual" })).toHaveAttribute("aria-selected", "true");
     expect(screen.getByText("Módulo 1 · Basics", { selector: ".module-row > span" })).toBeInTheDocument();
@@ -311,10 +315,13 @@ describe("App", () => {
     fireEvent.change(screen.getByLabelText(/language/i), { target: { value: "pt-zh-hans" } });
     expect(screen.getByRole("tab", { name: "课本" })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "场景" })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("tab", { name: "场景" }));
+    expect(screen.getByRole("option", { name: "Veterinário - 兽医" })).toBeInTheDocument();
 
     fireEvent.change(screen.getByLabelText("语言"), { target: { value: "pt-zh-hant" } });
     expect(screen.getByRole("tab", { name: "課本" })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "場景" })).toBeInTheDocument();
+    expect(screen.getByRole("option", { name: "Veterinário - 獸醫" })).toBeInTheDocument();
   });
 
   it("switches to Situations with vocabulary, dialogue, card, and readiness views", () => {
@@ -323,6 +330,7 @@ describe("App", () => {
     fireEvent.click(screen.getByRole("tab", { name: "Situations" }));
 
     expect(screen.getByRole("combobox", { name: "Situação" })).toBeInTheDocument();
+    expect(screen.getByRole("option", { name: "Veterinário - vet" })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "Vocabulário" })).toHaveAttribute("aria-selected", "true");
     expect(screen.getByText("Banco", { selector: ".module-row > span" })).toBeInTheDocument();
     expect(screen.queryByText(/Banco 0%/)).not.toBeInTheDocument();

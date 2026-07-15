@@ -13,6 +13,7 @@
     "translate:zh": "node scripts/add-chinese-translations.mjs",
     "merge:vocab": "node scripts/merge-vocabulary-fragments.mjs",
     "generate:audio": "node scripts/generate-audio.mjs",
+    "import:situacoes": "node scripts/import-new-situacoes.mjs",
     "validate:data": "node scripts/validate-vocabulary.mjs"
   },
   "dependencies": {
