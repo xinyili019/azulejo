@@ -7,6 +7,7 @@ const STORE_NAME = "kv";
 const DATABASE_VERSION = 1;
 const LEGACY_PROGRESS_STORAGE_KEY = "pt-a2-vocab-progress";
 const MIRROR_STORAGE_KEY = "pt-a2-vocab-progress-mirror";
+const SETTINGS_MIRROR_KEY = "pt-a2-vocab-settings-mirror";
 const ACTIVE_SESSION_MIRROR_KEY = "pt-a2-vocab-active-session-mirror";
 const LAST_LOCATION_MIRROR_KEY = "pt-a2-vocab-last-location-mirror";
 const PROGRESS_KEY = "progress";
@@ -32,6 +33,7 @@ interface StoredExportPayload extends StoredProgressPayload {
 
 let databasePromise: Promise<IDBDatabase | null> | null = null;
 let migrationPromise: Promise<void> | null = null;
+let settingsWritePromise: Promise<void> = Promise.resolve();
 
 export async function getProgress(): Promise<ProgressState> {
   await ensureMigrated();
@@ -56,7 +58,8 @@ export async function setProgress(progressObject: ProgressState): Promise<void> 
 
 export async function getSetting<T = unknown>(key: string): Promise<T | undefined> {
   await ensureMigrated();
-  const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? {};
+  await settingsWritePromise;
+  const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? readLocalSettingsFallback();
   return settings[key] as T | undefined;
 }
 
@@ -80,15 +83,32 @@ export async function getLastLocation(): Promise<LastLocationState | undefined> 
   return (await getValue<LastLocationState>(LAST_LOCATION_KEY)) ?? readLocalLastLocationFallback();
 }
 
+export function hasFreshStudyLocation(maxAgeMs: number): boolean {
+  const activeSession = readLocalActiveSessionFallback();
+  const lastLocation = readLocalLastLocationFallback();
+  const now = Date.now();
+  return [activeSession, lastLocation].some((value) => {
+    if (!value) return false;
+    const updatedAt = Date.parse(value.updatedAt);
+    return Number.isFinite(updatedAt) && now - updatedAt < maxAgeMs;
+  });
+}
+
 export async function setLastLocation(location: LastLocationState): Promise<void> {
   writeJsonMirror(LAST_LOCATION_MIRROR_KEY, location);
   await setValue(LAST_LOCATION_KEY, location);
 }
 
 export async function setSetting(key: string, value: unknown): Promise<void> {
-  await ensureMigrated();
-  const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? {};
-  await setValue(SETTINGS_KEY, { ...settings, [key]: value });
+  const write = settingsWritePromise.then(async () => {
+    await ensureMigrated();
+    const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? readLocalSettingsFallback();
+    const nextSettings = { ...settings, [key]: value };
+    await setValue(SETTINGS_KEY, nextSettings);
+    writeJsonMirror(SETTINGS_MIRROR_KEY, nextSettings);
+  });
+  settingsWritePromise = write.catch(() => undefined);
+  return write;
 }
 
 export async function exportAll(): Promise<StoredExportPayload> {
@@ -96,7 +116,7 @@ export async function exportAll(): Promise<StoredExportPayload> {
   return {
     ...createProgressPayload(await getProgress()),
     exportedAt: new Date().toISOString(),
-    settings: (await getValue<SettingsState>(SETTINGS_KEY)) ?? {},
+    settings: (await getValue<SettingsState>(SETTINGS_KEY)) ?? readLocalSettingsFallback(),
     activeSession: await getActiveSession(),
     lastLocation: await getLastLocation()
   };
@@ -105,7 +125,9 @@ export async function exportAll(): Promise<StoredExportPayload> {
 export async function importAll(object: unknown): Promise<void> {
   const payload = validateImportPayload(unwrapImportPayload(object));
   await setProgress(payload.progress);
+  await settingsWritePromise;
   await setValue(SETTINGS_KEY, payload.settings);
+  writeJsonMirror(SETTINGS_MIRROR_KEY, payload.settings);
   if (payload.activeSession) await setActiveSession(payload.activeSession);
   else await clearActiveSession();
   if (payload.lastLocation) await setLastLocation(payload.lastLocation);
@@ -135,11 +157,15 @@ async function requestPersistentStorage() {
 
   try {
     const persisted = await navigator.storage.persist();
-    const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? {};
-    await setValue(SETTINGS_KEY, { ...settings, storagePersisted: persisted });
+    const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? readLocalSettingsFallback();
+    const nextSettings = { ...settings, storagePersisted: persisted };
+    await setValue(SETTINGS_KEY, nextSettings);
+    writeJsonMirror(SETTINGS_MIRROR_KEY, nextSettings);
   } catch {
-    const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? {};
-    await setValue(SETTINGS_KEY, { ...settings, storagePersisted: false });
+    const settings = (await getValue<SettingsState>(SETTINGS_KEY)) ?? readLocalSettingsFallback();
+    const nextSettings = { ...settings, storagePersisted: false };
+    await setValue(SETTINGS_KEY, nextSettings);
+    writeJsonMirror(SETTINGS_MIRROR_KEY, nextSettings);
   }
 }
 
@@ -162,6 +188,11 @@ function readLocalProgressFallback(): ProgressState {
 
   const legacy = readJson(LEGACY_PROGRESS_STORAGE_KEY);
   return normalizeAndMigrate(legacy);
+}
+
+function readLocalSettingsFallback(): SettingsState {
+  const value = readJson(SETTINGS_MIRROR_KEY);
+  return value && typeof value === "object" && !Array.isArray(value) ? (value as SettingsState) : {};
 }
 
 function writeLocalMirror(payload: StoredProgressPayload) {

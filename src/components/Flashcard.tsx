@@ -1,5 +1,13 @@
 import { ChevronLeft, ChevronRight, RotateCcw, ThumbsUp, Volume2 } from "lucide-react";
-import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type KeyboardEvent,
+  type MouseEvent,
+  type TouchEvent
+} from "react";
 import type { Direction, VocabularyEntry } from "../types";
 import { getAnswer, getPrompt } from "../lib/filtering";
 import type { UiCopy } from "../lib/i18n";
@@ -8,6 +16,9 @@ import { playPortugueseAudio } from "../lib/portugueseAudio";
 import { getPortugueseBareText, getPortugueseTermParts } from "../lib/portugueseDisplay";
 
 const AUTO_PLAY_DELAY_MS = 250;
+const PREVIOUS_SWIPE_DISTANCE_PX = 80;
+const MAX_SWIPE_VERTICAL_DRIFT_PX = 40;
+const HORIZONTAL_SWIPE_RATIO = 1.5;
 const FIRST_WORD_IDS = new Set(["az-0077", "m1-casa"]);
 
 interface FlashcardProps {
@@ -15,15 +26,12 @@ interface FlashcardProps {
   direction: Direction;
   revealed: boolean;
   autoPlayPronunciation: boolean;
-  skipAutoPlayKey?: string | null;
-  showFirstWordCue?: boolean;
-  showFirstWordTip?: boolean;
   ui: UiCopy;
   onToggleReveal: () => void;
   onPrevious: () => void;
+  canSwipePrevious: boolean;
   onAgain: () => void;
   onKnown: () => void;
-  onFirstWordTipDismiss?: () => void;
 }
 
 export function Flashcard({
@@ -31,19 +39,19 @@ export function Flashcard({
   direction,
   revealed,
   autoPlayPronunciation,
-  skipAutoPlayKey = null,
-  showFirstWordCue = false,
-  showFirstWordTip = false,
   ui,
   onToggleReveal,
   onPrevious,
+  canSwipePrevious,
   onAgain,
-  onKnown,
-  onFirstWordTipDismiss
+  onKnown
 }: FlashcardProps) {
   const [translationOpen, setTranslationOpen] = useState(false);
-  const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(false);
-  const directAutoPlayRef = useRef<string | null>(null);
+  const [activeAudioTarget, setActiveAudioTarget] = useState<"word" | "example" | null>(null);
+  const audioRequestRef = useRef(0);
+  const tileSwipeStartRef = useRef<{ x: number; y: number } | null>(null);
+  const tileSwipeLastRef = useRef<{ x: number; y: number } | null>(null);
+  const suppressTileClickUntilRef = useRef(0);
   const translationId = `translation-${entry.id}`;
   const prompt = getPrompt(entry, direction);
   const answer = getAnswer(entry, direction);
@@ -55,53 +63,122 @@ export function Flashcard({
   const cardAnswerSize = getCardTermSize(answer);
   const portugueseIsFront = isPortugueseFrontDirection(direction);
   const portugueseIsBackAnswer = !portugueseIsFront;
-  const shouldAutoPlayPronunciation = autoPlayPronunciation && (portugueseIsFront || revealed);
-  const autoPlayTrigger = portugueseIsFront ? `${entry.id}:${direction}` : `${entry.id}:${direction}:${revealed}`;
+  const shouldAutoPlayPronunciation = autoPlayPronunciation && revealed;
+  const autoPlayTrigger = `${entry.id}:${direction}:${revealed}`;
 
   useEffect(() => {
     setTranslationOpen(false);
-    setFirstWordTipDismissed(false);
   }, [entry.id, direction, revealed]);
 
   function handleTileKeyDown(event: KeyboardEvent<HTMLDivElement>) {
     if (event.target !== event.currentTarget) return;
     if (event.key !== "Enter" && event.key !== " ") return;
     event.preventDefault();
-    handleTileToggle();
+    onToggleReveal();
   }
 
-  function handleTileToggle() {
-    const willReveal = !revealed;
-    if (willReveal && autoPlayPronunciation && portugueseIsBackAnswer) {
-      directAutoPlayRef.current = `${entry.id}:${direction}:true`;
-      handlePronunciation();
+  function handleTileClick(event: MouseEvent<HTMLDivElement>) {
+    if (Date.now() < suppressTileClickUntilRef.current) {
+      event.preventDefault();
+      return;
     }
     onToggleReveal();
   }
 
+  function handleTileTouchStart(event: TouchEvent<HTMLDivElement>) {
+    if (event.touches.length !== 1) {
+      resetTileSwipe();
+      return;
+    }
+
+    const touch = event.touches[0];
+    const point = { x: touch.clientX, y: touch.clientY };
+    tileSwipeStartRef.current = point;
+    tileSwipeLastRef.current = point;
+  }
+
+  function handleTileTouchMove(event: TouchEvent<HTMLDivElement>) {
+    if (!tileSwipeStartRef.current || event.touches.length !== 1) return;
+    const touch = event.touches[0];
+    tileSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
+  }
+
+  function handleTileTouchEnd(event: TouchEvent<HTMLDivElement>) {
+    const start = tileSwipeStartRef.current;
+    const changedTouch = event.changedTouches[0];
+    const end = changedTouch ? { x: changedTouch.clientX, y: changedTouch.clientY } : tileSwipeLastRef.current;
+    resetTileSwipe();
+    if (!canSwipePrevious || !start || !end) return;
+
+    const horizontalDistance = end.x - start.x;
+    const verticalDrift = Math.abs(end.y - start.y);
+    const isPredominantlyHorizontal = horizontalDistance > verticalDrift * HORIZONTAL_SWIPE_RATIO;
+    if (
+      horizontalDistance < PREVIOUS_SWIPE_DISTANCE_PX ||
+      verticalDrift >= MAX_SWIPE_VERTICAL_DRIFT_PX ||
+      !isPredominantlyHorizontal
+    ) {
+      return;
+    }
+
+    suppressTileClickUntilRef.current = Date.now() + 500;
+    onPrevious();
+  }
+
+  function resetTileSwipe() {
+    tileSwipeStartRef.current = null;
+    tileSwipeLastRef.current = null;
+  }
+
   function handlePronunciation() {
-    playPortugueseAudio(getWordAudioPath(entry), getPortugueseBareText(entry));
+    playTrackedAudio("word", getWordAudioPath(entry), getPortugueseBareText(entry));
   }
 
   function handleExamplePronunciation() {
     if (!entry.examplePt) return;
-    playPortugueseAudio(getExampleAudioPath(entry), entry.examplePt);
+    playTrackedAudio("example", getExampleAudioPath(entry), entry.examplePt);
+  }
+
+  function playTrackedAudio(target: "word" | "example", path: string, text: string) {
+    const requestId = audioRequestRef.current + 1;
+    audioRequestRef.current = requestId;
+    setActiveAudioTarget(target);
+    playPortugueseAudio(path, text, () => {
+      if (audioRequestRef.current === requestId) setActiveAudioTarget(null);
+    });
+  }
+
+  function stopTileToggle(event: MouseEvent<HTMLElement>) {
+    event.stopPropagation();
+  }
+
+  function renderBackAudioButton(target: "word" | "example", label: string, onClick: () => void) {
+    return (
+      <button
+        className={`icon-button tile-audio-icon${activeAudioTarget === target ? " is-playing" : ""}`}
+        type="button"
+        disabled={!revealed}
+        onClick={(event) => {
+          event.stopPropagation();
+          onClick();
+        }}
+        aria-label={label}
+        title={label}
+      >
+        <Volume2 size={16} aria-hidden="true" />
+      </button>
+    );
   }
 
   useEffect(() => {
     if (!shouldAutoPlayPronunciation) return;
-    if (skipAutoPlayKey === autoPlayTrigger) return;
-    if (directAutoPlayRef.current === autoPlayTrigger) {
-      directAutoPlayRef.current = null;
-      return;
-    }
 
     const timeoutId = window.setTimeout(() => {
       handlePronunciation();
     }, AUTO_PLAY_DELAY_MS);
 
     return () => window.clearTimeout(timeoutId);
-  }, [autoPlayTrigger, shouldAutoPlayPronunciation, skipAutoPlayKey]);
+  }, [autoPlayTrigger, shouldAutoPlayPronunciation]);
 
   function renderPronunciationButton(className: string) {
     return (
@@ -127,52 +204,50 @@ export function Flashcard({
           "--card-answer-size-adjustment": cardAnswerSize
         } as CSSProperties}
       >
-      {showFirstWordCue && !revealed && (
-        <p id="flashcard-instruction" className="flashcard-instruction">
-          {ui.cardInstruction}
-        </p>
-      )}
       <div className="tile-shell">
-        <div className="tile-stage">
-          <div
-            className={`flip-tile ${revealed ? "is-revealed" : ""}`}
-            role="button"
-            tabIndex={0}
-            onClick={handleTileToggle}
-            onKeyDown={handleTileKeyDown}
-            aria-pressed={revealed}
-            aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
-            aria-describedby={showFirstWordCue && !revealed ? "flashcard-instruction" : undefined}
-          >
+        <div
+          className={`flip-tile ${revealed ? "is-revealed" : ""}`}
+          role="button"
+          tabIndex={0}
+          onClick={handleTileClick}
+          onKeyDown={handleTileKeyDown}
+          onTouchStart={handleTileTouchStart}
+          onTouchMove={handleTileTouchMove}
+          onTouchEnd={handleTileTouchEnd}
+          onTouchCancel={resetTileSwipe}
+          aria-pressed={revealed}
+          aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
+        >
             <span className="tile-face tile-front" aria-hidden={revealed}>
               <span className="tile-content">
                 <span className="prompt">{renderTerm(prompt, portugueseIsFront, entry)}</span>
-                {showFirstWordCue && !revealed && <span className="tile-face-hint">{ui.cardInstruction}</span>}
               </span>
             </span>
             <span className={`tile-face tile-back ${translationOpen ? "translation-is-open" : ""}`} aria-hidden={!revealed}>
               <span className="tile-content tile-content-back">
                 <span className="answer-pair">
-                  <span className="answer-reference">{renderTerm(prompt, portugueseIsFront, entry)}</span>
-                  <span className="answer">{renderTerm(answer, portugueseIsBackAnswer, entry)}</span>
+                  <span className={`back-term-row answer-reference-row${portugueseIsFront ? " has-audio" : ""}`}>
+                    {portugueseIsFront &&
+                      renderBackAudioButton("word", `${ui.listen}: ${getPortugueseBareText(entry)}`, handlePronunciation)}
+                    <span className="answer-reference" onClick={portugueseIsFront ? stopTileToggle : undefined}>
+                      {renderTerm(prompt, portugueseIsFront, entry)}
+                    </span>
+                    {portugueseIsFront && <span className="tile-audio-spacer" aria-hidden="true" />}
+                  </span>
+                  <span className={`back-term-row answer-row${portugueseIsBackAnswer ? " has-audio" : ""}`}>
+                    {portugueseIsBackAnswer &&
+                      renderBackAudioButton("word", `${ui.listen}: ${getPortugueseBareText(entry)}`, handlePronunciation)}
+                    <span className="answer" onClick={portugueseIsBackAnswer ? stopTileToggle : undefined}>
+                      {renderTerm(answer, portugueseIsBackAnswer, entry)}
+                    </span>
+                    {portugueseIsBackAnswer && <span className="tile-audio-spacer" aria-hidden="true" />}
+                  </span>
                 </span>
                 {(hasExample || hasTranslation) && (
                   <span className={`example-disclosure translation-disclosure ${translationOpen ? "open" : ""}`}>
                     {entry.examplePt && (
                       <span className="example example-with-audio">
-                        <button
-                          className="icon-button example-audio"
-                          type="button"
-                          disabled={!revealed}
-                          onClick={(event) => {
-                            event.stopPropagation();
-                            handleExamplePronunciation();
-                          }}
-                          aria-label={`${ui.listen} ${ui.example}`}
-                          title={`${ui.listen} ${ui.example}`}
-                        >
-                          <Volume2 size={16} aria-hidden="true" />
-                        </button>
+                        {renderBackAudioButton("example", `${ui.listen} ${ui.example}`, handleExamplePronunciation)}
                         <span>{entry.examplePt}</span>
                       </span>
                     )}
@@ -201,37 +276,10 @@ export function Flashcard({
                 )}
               </span>
             </span>
-          </div>
         </div>
-        {showFirstWordTip && revealed && !firstWordTipDismissed && (
-          <div className="first-word-tip" role="status" aria-live="polite">
-            <p>{getFirstWordTipText(ui)}</p>
-            <button
-              className="primary first-word-tip-dismiss"
-              type="button"
-              onClick={() => {
-                setFirstWordTipDismissed(true);
-                onFirstWordTipDismiss?.();
-              }}
-            >
-              {ui.gotIt}
-            </button>
-          </div>
-        )}
       </div>
       <div className={`flashcard-controls ${revealed ? "is-revealed" : ""}`}>
-        {isFirstWord ? (
-          <button className="secondary card-previous is-unavailable" type="button" disabled>
-            <ChevronLeft size={18} aria-hidden="true" />
-            {ui.previousWord}
-          </button>
-        ) : (
-          <button className="secondary card-previous" type="button" onClick={onPrevious}>
-            <ChevronLeft size={18} aria-hidden="true" />
-            {ui.previousWord}
-          </button>
-        )}
-        {renderPronunciationButton("pronunciation-control")}
+        {!revealed && renderPronunciationButton("pronunciation-control")}
         {revealed && (
           <div className="card-actions is-visible">
             <button className="secondary review-again" type="button" onClick={onAgain}>
@@ -243,6 +291,17 @@ export function Flashcard({
               {ui.known}
             </button>
           </div>
+        )}
+        {isFirstWord ? (
+          <button className="secondary card-previous is-unavailable" type="button" disabled>
+            <ChevronLeft size={14} aria-hidden="true" />
+            {ui.previousWord}
+          </button>
+        ) : (
+          <button className="secondary card-previous" type="button" onClick={onPrevious}>
+            <ChevronLeft size={14} aria-hidden="true" />
+            {ui.previousWord}
+          </button>
         )}
       </div>
     </section>
@@ -271,19 +330,6 @@ function getExampleTranslation(entry: VocabularyEntry, direction: Direction) {
 function isPortugueseFrontDirection(direction: Direction) {
   return direction.startsWith("pt-");
 }
-
-function getFirstWordTipText(ui: UiCopy) {
-  if (ui.locale === "zhHans") {
-    return "再次点击，回到同一词。点“再练习”或“已掌握”都会到下一词。区别只在安排：“再练习”很快再见；“已掌握”之后再来。";
-  }
-
-  if (ui.locale === "zhHant") {
-    return "再次點擊，回到同一詞。點「再練習」或「已掌握」都會到下一詞。差別只在安排：「再練習」很快再見；「已掌握」之後再來。";
-  }
-
-  return 'Tap the tile to flip back to the same word. Tap "Again" or "Known" to go to the next word. "Again" = you\'ll see it again soon; "Known" = it comes back later.';
-}
-
 
 function getCardTermSize(prompt: string) {
   const length = prompt.trim().length;

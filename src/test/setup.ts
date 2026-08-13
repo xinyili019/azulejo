@@ -24,3 +24,13 @@ Object.defineProperty(window, "speechSynthesis", {
     speak: vi.fn()
   }
 });
+
+Object.defineProperty(window, "scrollTo", {
+  configurable: true,
+  value: vi.fn()
+});
+
+Object.defineProperty(Element.prototype, "scrollIntoView", {
+  configurable: true,
+  value: vi.fn()
+});

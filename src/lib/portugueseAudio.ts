@@ -3,12 +3,13 @@ let activeAudio: HTMLAudioElement | null = null;
 const AUDIO_FADE_STEPS = 6;
 const AUDIO_FADE_INTERVAL_MS = 35;
 
-export function speakWithBrowserVoice(text: string) {
+export function speakWithBrowserVoice(text: string, onComplete?: () => void) {
   if (
     typeof window === "undefined" ||
     !("speechSynthesis" in window) ||
     !("SpeechSynthesisUtterance" in window)
   ) {
+    onComplete?.();
     return;
   }
 
@@ -21,12 +22,14 @@ export function speakWithBrowserVoice(text: string) {
 
   utterance.lang = voice?.lang ?? "pt-PT";
   utterance.voice = voice ?? null;
+  utterance.onend = () => onComplete?.();
+  utterance.onerror = () => onComplete?.();
   window.speechSynthesis.speak(utterance);
 }
 
-export function playPortugueseAudio(path: string, fallbackText: string) {
+export function playPortugueseAudio(path: string, fallbackText: string, onComplete?: () => void) {
   if (typeof window === "undefined" || !("Audio" in window)) {
-    speakWithBrowserVoice(fallbackText);
+    speakWithBrowserVoice(fallbackText, onComplete);
     return;
   }
 
@@ -34,13 +37,21 @@ export function playPortugueseAudio(path: string, fallbackText: string) {
   if (activeAudio) fadeOutAudio(activeAudio);
   activeAudio = audio;
   let usedFallback = false;
+  let completed = false;
+
+  const completeOnce = () => {
+    if (completed) return;
+    completed = true;
+    onComplete?.();
+  };
 
   const fallbackToBrowserVoice = () => {
     if (usedFallback) return;
     usedFallback = true;
-    speakWithBrowserVoice(fallbackText);
+    speakWithBrowserVoice(fallbackText, completeOnce);
   };
 
+  audio.addEventListener("ended", completeOnce, { once: true });
   audio.addEventListener("error", fallbackToBrowserVoice, { once: true });
 
   try {

@@ -1,6 +1,7 @@
-import { Brain, Download, Printer, Save, Search, Volume2 } from "lucide-react";
-import { type ChangeEvent, type ReactNode, type TouchEvent, useEffect, useMemo, useRef, useState } from "react";
+import { Brain, ChevronLeft, Download, Printer, Save, Search, Settings, Volume2 } from "lucide-react";
+import { type ChangeEvent, type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { Flashcard } from "./components/Flashcard";
+import { GuidedTour } from "./components/GuidedTour";
 import { GlobalSearchView } from "./components/GlobalSearchView";
 import { ModuleQuiz } from "./components/ModuleQuiz";
 import { ProgressDashboard } from "./components/ProgressDashboard";
@@ -21,7 +22,6 @@ import {
 } from "./lib/milestoneCopy";
 import { buildModuleQuizScopes } from "./lib/moduleQuiz";
 import { getCardProgress, recordReview } from "./lib/progress";
-import { getWordAudioPath } from "./lib/audioPaths";
 import {
   buildRetrievalReviewPrompts,
   createSeededRng,
@@ -30,7 +30,6 @@ import {
   type RetrievalReviewResult
 } from "./lib/retrievalReview";
 import { playPortugueseAudio } from "./lib/portugueseAudio";
-import { getPortugueseBareText } from "./lib/portugueseDisplay";
 import { buildSessionPlan, type VocabularySession } from "./lib/sessionPlan";
 import {
   clearActiveSession,
@@ -39,6 +38,7 @@ import {
   getLastLocation,
   getProgress as loadStoredProgress,
   getSetting,
+  hasFreshStudyLocation,
   importAll,
   setActiveSession,
   setLastLocation,
@@ -72,15 +72,51 @@ type QuizReturnPhase = Exclude<StudyPhase, "quiz" | "retrieval">;
 
 type RetrievalContext = "session" | "module" | "final";
 type AppMode = "manual" | "situacoes";
+type AppView = "entry" | "study";
 type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
 const DEFAULT_SITUACAO_ID = situacaoGroups[0]?.items[0]?.id ?? "banco";
 const DEFAULT_MODULO = "Módulo 1";
 const RESUME_MAX_AGE_MS = 48 * 60 * 60 * 1000;
-const SITUACAO_SWIPE_TIP_SETTING = "situacaoSwipeTipDismissed";
+const LANGUAGE_SETTING = "translationLanguage";
+const GUIDED_TOUR_SETTING = "guidedTour";
+const STUDY_TOUR_STEPS = [
+  { targetSelector: ".study-entry-back" },
+  { targetSelector: ".flip-tile" },
+  { targetSelector: ".review-again" },
+  { targetSelector: ".review-known" },
+  { targetSelector: ".card-previous" },
+  { targetSelector: ".module-quiz-start" }
+] as const;
+const STUDY_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly string[]> = {
+  en: [
+    "Tap ‹ to go back and switch between Manual and Situações.",
+    "Tap the tile to check the meaning.",
+    "Tap Again if you want to see this word again soon.",
+    "Tap Known if you've got it. It'll come back later, less often.",
+    "Swipe right on the tile, or tap here, to go back a word.",
+    "Test yourself on the words you've studied. After 40 words, a quiz will appear automatically."
+  ],
+  zhHans: [
+    "点击 ‹ 返回并切换“课本”和“场景”。",
+    "点击卡片查看词义。",
+    "如果想很快再看到这个词，请点击“再练习”。",
+    "如果已经掌握，请点击“已掌握”。之后它会降低出现频率。",
+    "在卡片上向右滑，或点击这里，返回上一个词。",
+    "用小测验检查学过的词。学习 40 个词后，小测验会自动出现。"
+  ],
+  zhHant: [
+    "點擊 ‹ 返回並切換「課本」和「場景」。",
+    "點擊卡片查看單字意思。",
+    "如果想很快再看到這個單字，請點擊「再練習」。",
+    "如果已經掌握，請點擊「已掌握」。之後它會降低出現頻率。",
+    "在卡片上向右滑，或點擊這裡，返回上一個單字。",
+    "用小測驗檢查學過的單字。學習 40 個單字後，小測驗會自動出現。"
+  ]
+};
 const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
-  { value: "pt-en", label: "Portuguese \u2192 English" },
-  { value: "pt-zh-hans", label: "\u8461\u8404\u7259\u8bed \u2192 \u7b80\u4f53\u4e2d\u6587" },
-  { value: "pt-zh-hant", label: "\u8461\u8404\u7259\u8a9e \u2192 \u7e41\u9ad4\u4e2d\u6587" }
+  { value: "pt-en", label: "English" },
+  { value: "pt-zh-hant", label: "\u7e41\u9ad4\u4e2d\u6587" },
+  { value: "pt-zh-hans", label: "\u7b80\u4f53\u4e2d\u6587" }
 ];
 const SUPPORTED_DIRECTIONS = new Set<Direction>(LANGUAGE_OPTIONS.map((option) => option.value));
 const MODULE_THEME_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
@@ -96,6 +132,20 @@ const MODULE_THEME_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", str
   "Módulo 10": { en: "Lifestyle", zhHans: "生活", zhHant: "生活" },
   "Módulo 11": { en: "Writing", zhHans: "沟通", zhHant: "溝通" },
   "Módulo 12": { en: "Civic", zhHans: "公民", zhHant: "公民" }
+};
+const MODULE_THEME_LABELS_PT: Record<string, string> = {
+  "Módulo 1": "Básico",
+  "Módulo 2": "Rotinas",
+  "Módulo 3": "Alimentação",
+  "Módulo 4": "Lazer",
+  "Módulo 5": "Serviços",
+  "Módulo 6": "Saúde",
+  "Módulo 7": "Trabalho",
+  "Módulo 8": "Emprego",
+  "Módulo 9": "Descrições",
+  "Módulo 10": "Estilo de vida",
+  "Módulo 11": "Comunicação",
+  "Módulo 12": "Cidadania"
 };
 const SITUACAO_TARGET_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
   banco: { en: "bank", zhHans: "银行", zhHant: "銀行" },
@@ -135,6 +185,11 @@ const SITUACAO_TARGET_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", 
   reconhecimento_diplomas: { en: "diploma recognition", zhHans: "文凭认可", zhHant: "文憑認可" },
   consulado_documentos: { en: "consulate and foreign documents", zhHans: "领事馆与外国文件", zhHant: "領事館與外國文件" }
 };
+const SITUACAO_GROUP_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
+  Burocracia: { en: "Bureaucracy", zhHans: "行政办事", zhHant: "行政辦事" },
+  "Vida prática": { en: "Practical life", zhHans: "日常生活", zhHant: "日常生活" },
+  Trabalho: { en: "Work", zhHans: "工作", zhHant: "工作" }
+};
 
 interface RetrievalState {
   title: string;
@@ -146,9 +201,17 @@ interface BeforeInstallPromptEvent extends Event {
   prompt: () => Promise<void>;
 }
 
+interface GuidedTourProgress {
+  completed: boolean;
+  step: number;
+}
+
 export default function App() {
   const [progress, setProgress] = useState<ProgressState>({});
   const [storageReady, setStorageReady] = useState(false);
+  const [appView, setAppView] = useState<AppView>(() =>
+    hasFreshStudyLocation(RESUME_MAX_AGE_MS) ? "study" : "entry"
+  );
   const [appMode, setAppMode] = useState<AppMode>("manual");
   const [globalSearchOpen, setGlobalSearchOpen] = useState(false);
   const [modulo, setModulo] = useState(DEFAULT_MODULO);
@@ -157,6 +220,9 @@ export default function App() {
   const [situacaoCardIndex, setSituacaoCardIndex] = useState(0);
   const [situacaoRevealed, setSituacaoRevealed] = useState(false);
   const [situacaoVocabularyComplete, setSituacaoVocabularyComplete] = useState(false);
+  const [revealedDialogueIds, setRevealedDialogueIds] = useState<Set<string>>(() => new Set());
+  const [dialoguePlaybackActive, setDialoguePlaybackActive] = useState(false);
+  const [activeDialogueLineId, setActiveDialogueLineId] = useState<string | null>(null);
   const [autoPlayPronunciation, setAutoPlayPronunciation] = useState(true);
   const [direction, setDirection] = useState<Direction>("pt-en");
   const [sessionIndex, setSessionIndex] = useState(0);
@@ -172,36 +238,45 @@ export default function App() {
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [showInstallHelp, setShowInstallHelp] = useState(false);
   const [appInstalled, setAppInstalled] = useState(false);
-  const [firstWordTipDismissed, setFirstWordTipDismissed] = useState(false);
-  const [situacaoSwipeTipDismissed, setSituacaoSwipeTipDismissed] = useState<boolean | null>(null);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const [guidedTourProgress, setGuidedTourProgress] = useState<GuidedTourProgress | null>(null);
   const [progressFileMessage, setProgressFileMessage] = useState("");
   const [importCandidate, setImportCandidate] = useState<unknown | null>(null);
   const [resumeSession, setResumeSession] = useState<ActiveSessionState | null>(null);
   const [manualQueueOverrideIds, setManualQueueOverrideIds] = useState<string[] | null>(null);
   const [situacaoQueueOverrideIds, setSituacaoQueueOverrideIds] = useState<string[] | null>(null);
-  const [directAutoPlayKey, setDirectAutoPlayKey] = useState<string | null>(null);
   const progressFileInputRef = useRef<HTMLInputElement | null>(null);
   const activeSessionRef = useRef<ActiveSessionState | null>(null);
   const restoredNavigationRef = useRef(false);
-  const modeSwipeStartRef = useRef<{ x: number; y: number } | null>(null);
-  const modeSwipeLastRef = useRef<{ x: number; y: number } | null>(null);
+  const dialoguePlaybackTokenRef = useRef(0);
+  const dialoguePauseTimeoutRef = useRef<number | null>(null);
 
   useEffect(() => {
     let cancelled = false;
 
-    Promise.all([loadStoredProgress(), getActiveSession(), getLastLocation()])
-      .then(([storedProgress, storedSession, storedLocation]) => {
+    Promise.all([
+      loadStoredProgress(),
+      getActiveSession(),
+      getLastLocation(),
+      getSetting<Direction>(LANGUAGE_SETTING),
+      getSetting<GuidedTourProgress>(GUIDED_TOUR_SETTING)
+    ])
+      .then(([storedProgress, storedSession, storedLocation, storedDirection, storedTour]) => {
         if (cancelled) return;
         setProgress((current) => (Object.keys(current).length > 0 ? current : storedProgress));
         if (isFreshActiveSession(storedSession)) {
           applyActiveSessionLocation(storedSession);
+          setAppView("study");
           setResumeSession(storedSession);
           activeSessionRef.current = storedSession;
           prepareRestoredHistory();
         } else if (isFreshLastLocation(storedLocation)) {
           applyLastLocation(storedLocation);
+          setAppView("study");
           prepareRestoredHistory();
         }
+        if (storedDirection) setDirection(normalizeSupportedDirection(storedDirection));
+        setGuidedTourProgress(normalizeGuidedTourProgress(storedTour));
       })
       .catch((error) => {
         console.error("Could not load progress.", error);
@@ -210,21 +285,6 @@ export default function App() {
         if (!cancelled) setStorageReady(true);
       });
 
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  useEffect(() => {
-    let cancelled = false;
-    getSetting<boolean>(SITUACAO_SWIPE_TIP_SETTING)
-      .then((dismissed) => {
-        if (!cancelled) setSituacaoSwipeTipDismissed(dismissed === true);
-      })
-      .catch((error) => {
-        console.error("Could not load the Situações swipe tip setting.", error);
-        if (!cancelled) setSituacaoSwipeTipDismissed(false);
-      });
     return () => {
       cancelled = true;
     };
@@ -246,6 +306,13 @@ export default function App() {
 
   useEffect(() => {
     if (!storageReady) return;
+    setSetting(LANGUAGE_SETTING, normalizeSupportedDirection(direction)).catch((error) => {
+      console.error("Could not save the translation language.", error);
+    });
+  }, [direction, storageReady]);
+
+  useEffect(() => {
+    if (!storageReady || appView !== "study") return;
     const location: LastLocationState = {
       view: appMode,
       params:
@@ -257,7 +324,7 @@ export default function App() {
     setLastLocation(location).catch((error) => {
       console.error("Could not save last location.", error);
     });
-  }, [appMode, direction, modulo, situacaoId, situacaoTab, storageReady]);
+  }, [appMode, appView, direction, modulo, situacaoId, situacaoTab, storageReady]);
 
   useEffect(() => {
     function flushActiveSession() {
@@ -308,15 +375,8 @@ export default function App() {
     function handlePopState() {
       if (!restoredNavigationRef.current) return;
       restoredNavigationRef.current = false;
-      setAppMode("manual");
+      setAppView("entry");
       setGlobalSearchOpen(false);
-      setModulo(DEFAULT_MODULO);
-      setSituacaoId(DEFAULT_SITUACAO_ID);
-      setSituacaoTab("vocabulario");
-      setResumeSession(null);
-      setManualQueueOverrideIds(null);
-      setSituacaoQueueOverrideIds(null);
-      resetFlow();
     }
 
     window.addEventListener("popstate", handlePopState);
@@ -342,6 +402,32 @@ export default function App() {
     () => situacaoCheatSheetLines.filter((line) => line.situacao === situacaoId),
     [situacaoId]
   );
+
+  useEffect(() => {
+    dialoguePlaybackTokenRef.current += 1;
+    if (dialoguePauseTimeoutRef.current !== null) window.clearTimeout(dialoguePauseTimeoutRef.current);
+    dialoguePauseTimeoutRef.current = null;
+    setDialoguePlaybackActive(false);
+    setActiveDialogueLineId(null);
+    setRevealedDialogueIds(new Set());
+  }, [situacaoId, direction]);
+
+  useEffect(() => {
+    if (situacaoTab === "dialogo") return;
+    dialoguePlaybackTokenRef.current += 1;
+    if (dialoguePauseTimeoutRef.current !== null) window.clearTimeout(dialoguePauseTimeoutRef.current);
+    dialoguePauseTimeoutRef.current = null;
+    setDialoguePlaybackActive(false);
+    setActiveDialogueLineId(null);
+  }, [situacaoTab]);
+
+  useEffect(
+    () => () => {
+      dialoguePlaybackTokenRef.current += 1;
+      if (dialoguePauseTimeoutRef.current !== null) window.clearTimeout(dialoguePauseTimeoutRef.current);
+    },
+    []
+  );
   const sessionPlan = useMemo(() => buildSessionPlan(selectedEntries), [selectedEntries]);
   const quizScopes = useMemo(() => buildModuleQuizScopes(selectedEntries), [selectedEntries]);
   const currentSession = sessionPlan.sessions[sessionIndex];
@@ -362,6 +448,21 @@ export default function App() {
         .filter((result): result is ModuleQuizResult => Boolean(result)),
     [moduleQuizResults, quizScopes]
   );
+  const guidedTourTotalSteps = appMode === "manual" ? STUDY_TOUR_STEPS.length : STUDY_TOUR_STEPS.length - 1;
+  const guidedTourActive = Boolean(
+    storageReady &&
+      appView === "study" &&
+      guidedTourProgress &&
+      !guidedTourProgress.completed &&
+      guidedTourProgress.step < guidedTourTotalSteps
+  );
+
+  useEffect(() => {
+    if (!guidedTourActive) return;
+    setGlobalSearchOpen(false);
+    if (phase !== "study") setPhase("study");
+    if (appMode === "situacoes" && situacaoTab !== "vocabulario") setSituacaoTab("vocabulario");
+  }, [appMode, guidedTourActive, phase, situacaoTab]);
 
   useEffect(() => {
     resetFlow();
@@ -375,7 +476,6 @@ export default function App() {
   }, [situacaoId, direction]);
 
   function resetFlow() {
-    setDirectAutoPlayKey(null);
     setManualQueueOverrideIds(null);
     setSessionIndex(0);
     setCardIndex(0);
@@ -423,7 +523,6 @@ export default function App() {
       setSituacaoVocabularyComplete(true);
       return;
     }
-    playEntryOnDirectNavigation(selectedSituacaoQueueEntries[nextIndex]);
     setSituacaoCardIndex(nextIndex);
   }
 
@@ -432,7 +531,6 @@ export default function App() {
     setSituacaoRevealed(false);
     setSituacaoVocabularyComplete(false);
     const previousIndex = (situacaoCardIndex - 1 + selectedSituacaoQueueEntries.length) % selectedSituacaoQueueEntries.length;
-    playEntryOnDirectNavigation(selectedSituacaoQueueEntries[previousIndex]);
     setSituacaoCardIndex(previousIndex);
   }
 
@@ -448,71 +546,78 @@ export default function App() {
     moveNextSituacaoCard();
   }
 
-  function handleSituacaoSessionBack() {
-    if (activeSituacaoEntry && selectedSituacaoQueueEntries.length > 0) {
-      persistActiveSession(createSituacaoActiveSession(selectedSituacaoQueueEntries.map((entry) => entry.id), situacaoCardIndex, []));
-    }
-    setAppMode("manual");
+  function enterStudyMode(mode: AppMode) {
+    setAppMode(mode);
     setGlobalSearchOpen(false);
+    setSettingsOpen(false);
+    if (guidedTourProgress && !guidedTourProgress.completed) {
+      setPhase("study");
+      setRevealed(false);
+      setSituacaoRevealed(false);
+      if (mode === "situacoes") setSituacaoTab("vocabulario");
+    }
+    setAppView("study");
     window.scrollTo({ top: 0 });
   }
 
-  function showManualMode() {
-    if (appMode === "situacoes") {
-      handleSituacaoSessionBack();
-      return;
-    }
-    setAppMode("manual");
-    setGlobalSearchOpen(false);
-  }
-
-  function showSituacoesMode() {
-    setAppMode("situacoes");
-    setGlobalSearchOpen(false);
-  }
-
-  function dismissSituacaoSwipeTip() {
-    setSituacaoSwipeTipDismissed(true);
-    setSetting(SITUACAO_SWIPE_TIP_SETTING, true).catch((error) => {
-      console.error("Could not save the Situações swipe tip setting.", error);
+  function persistGuidedTour(progress: GuidedTourProgress) {
+    setGuidedTourProgress(progress);
+    setSetting(GUIDED_TOUR_SETTING, progress).catch((error) => {
+      console.error("Could not save guided tour progress.", error);
     });
   }
 
-  function handleModeSwipeTouchStart(event: TouchEvent<HTMLElement>) {
-    if (!isMobileViewport() || event.touches.length !== 1) return;
-    const touch = event.touches[0];
-    const startsAtLeftEdge = touch.clientX <= window.innerWidth * 0.15;
-    const startsAtRightEdge = touch.clientX >= window.innerWidth * 0.85;
-    if (!startsAtLeftEdge && !startsAtRightEdge) return;
-    modeSwipeStartRef.current = { x: touch.clientX, y: touch.clientY };
-    modeSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
+  function advanceGuidedTour() {
+    if (!guidedTourProgress || guidedTourProgress.completed) return;
+    if (guidedTourProgress.step === 1) {
+      if (appMode === "manual") setRevealed(true);
+      else setSituacaoRevealed(true);
+    }
+
+    const nextStep = guidedTourProgress.step + 1;
+    persistGuidedTour(
+      nextStep >= guidedTourTotalSteps ? { completed: true, step: guidedTourTotalSteps } : { completed: false, step: nextStep }
+    );
   }
 
-  function handleModeSwipeTouchMove(event: TouchEvent<HTMLElement>) {
-    if (!modeSwipeStartRef.current || event.touches.length !== 1) return;
-    const touch = event.touches[0];
-    modeSwipeLastRef.current = { x: touch.clientX, y: touch.clientY };
+  function skipGuidedTour() {
+    persistGuidedTour({ completed: true, step: guidedTourTotalSteps });
   }
 
-  function handleModeSwipeTouchEnd(event: TouchEvent<HTMLElement>) {
-    const start = modeSwipeStartRef.current;
-    const changedTouch = event.changedTouches[0];
-    const last = changedTouch ? { x: changedTouch.clientX, y: changedTouch.clientY } : modeSwipeLastRef.current;
-    modeSwipeStartRef.current = null;
-    modeSwipeLastRef.current = null;
-    if (!start || !last) return;
-
-    const horizontalDistance = last.x - start.x;
-    const verticalDrift = Math.abs(last.y - start.y);
-    if (verticalDrift >= 40) return;
-
-    if (start.x <= window.innerWidth * 0.15 && horizontalDistance >= 80) showManualMode();
-    if (start.x >= window.innerWidth * 0.85 && horizontalDistance <= -80) showSituacoesMode();
+  function replayGuidedTour() {
+    setSettingsOpen(false);
+    setGlobalSearchOpen(false);
+    setPhase("study");
+    setRevealed(false);
+    setSituacaoRevealed(false);
+    if (appMode === "situacoes") setSituacaoTab("vocabulario");
+    persistGuidedTour({ completed: false, step: 0 });
+    if (appView === "study") window.scrollTo({ top: 0 });
   }
 
-  function handleModeSwipeTouchCancel() {
-    modeSwipeStartRef.current = null;
-    modeSwipeLastRef.current = null;
+  function renderGuidedTour() {
+    if (!guidedTourActive || !guidedTourProgress) return null;
+    const step = STUDY_TOUR_STEPS[guidedTourProgress.step];
+    if (!step) return null;
+
+    return (
+      <GuidedTour
+        targetSelector={step.targetSelector}
+        copy={STUDY_TOUR_COPY[ui.locale][guidedTourProgress.step]}
+        step={guidedTourProgress.step}
+        totalSteps={guidedTourTotalSteps}
+        labels={getGuidedTourLabels(ui.locale)}
+        onAdvance={advanceGuidedTour}
+        onSkip={skipGuidedTour}
+      />
+    );
+  }
+
+  function returnToEntryScreen() {
+    setGlobalSearchOpen(false);
+    setSettingsOpen(false);
+    setAppView("entry");
+    window.scrollTo({ top: 0 });
   }
 
   function restartSituacaoVocabulary() {
@@ -535,10 +640,6 @@ export default function App() {
     URL.revokeObjectURL(url);
   }
 
-  function dismissFirstWordTip() {
-    setFirstWordTipDismissed(true);
-  }
-
   function moveNext() {
     setRevealed(false);
     const nextIndex = cardIndex + 1;
@@ -548,7 +649,6 @@ export default function App() {
         finishSessionReview();
         return;
       }
-      playEntryOnDirectNavigation(reviewQueue[nextIndex]);
       setCardIndex(nextIndex);
       return;
     }
@@ -560,7 +660,6 @@ export default function App() {
       return;
     }
 
-    playEntryOnDirectNavigation(currentSession.entries[nextIndex]);
     setCardIndex(nextIndex);
   }
 
@@ -569,15 +668,7 @@ export default function App() {
     const entries = phase === "sessionAgainFlashcards" ? reviewQueue : currentSession?.entries;
     if (!entries?.length) return;
     const previousIndex = (cardIndex - 1 + entries.length) % entries.length;
-    playEntryOnDirectNavigation(entries[previousIndex]);
     setCardIndex(previousIndex);
-  }
-
-  function playEntryOnDirectNavigation(entry: VocabularyEntry | undefined) {
-    if (!entry || !autoPlayPronunciation || !direction.startsWith("pt-")) return;
-    const key = `${entry.id}:${direction}`;
-    setDirectAutoPlayKey(key);
-    playPortugueseAudio(getWordAudioPath(entry), getPortugueseBareText(entry));
   }
 
   function handleReview(status: Exclude<CardStatus, "new">) {
@@ -637,7 +728,6 @@ export default function App() {
     setCardIndex(0);
     setRevealed(false);
     setPhase("sessionAgainFlashcards");
-    playEntryOnDirectNavigation(shuffledEntries[0]);
     persistActiveSession(createManualActiveSession(shuffledEntries.map((entry) => entry.id), 0, sessionAgainIds, "sessionAgainFlashcards"));
   }
 
@@ -948,7 +1038,6 @@ export default function App() {
 
     setSessionIndex(nextSession.globalSessionIndex);
     setPhase("study");
-    playEntryOnDirectNavigation(nextSession.entries[0]);
   }
 
   function continueAfterModule() {
@@ -962,7 +1051,6 @@ export default function App() {
     if (nextSession) {
       setSessionIndex(nextSession.globalSessionIndex);
       setPhase("study");
-      playEntryOnDirectNavigation(nextSession.entries[0]);
       return;
     }
 
@@ -1167,90 +1255,51 @@ export default function App() {
     return direction.includes("zh") ? getChineseText(line) : line.en;
   }
 
-  function renderModeTabs() {
-    const showSituacaoSwipeTip =
-      appMode === "situacoes" && situacaoTab === "vocabulario" && Boolean(activeSituacaoEntry) && situacaoSwipeTipDismissed === false;
-    const modeLabels = getModeTabLabels(ui.locale);
+  function renderEntryScreen() {
+    const entryCopy = getEntryScreenCopy(ui.locale);
 
     return (
-      <div className="header-nav-actions">
-        <div className="mode-tabs" role="tablist" aria-label="Study mode">
-          <button
-            type="button"
-            role="tab"
-            aria-selected={appMode === "manual" && !globalSearchOpen}
-            className={appMode === "manual" && !globalSearchOpen ? "is-active" : ""}
-            onClick={showManualMode}
-          >
-            {modeLabels.manual}
+      <section className="workspace entry-screen">
+        <header className="app-header entry-header">
+          <div className="app-header-top">
+            <p className="eyebrow">European Portuguese A1 + A2</p>
+            {renderSettingsControl("entry-settings-button")}
+          </div>
+          <h1>Azulejo</h1>
+          <p className="app-subtitle">your Portuguese, tile by tile</p>
+        </header>
+
+        <div className="entry-mode-cards" aria-label="Study mode">
+          <button type="button" className="entry-mode-card" onClick={() => enterStudyMode("manual")}>
+            <strong>{entryCopy.manualLabel}</strong>
+            <span>{entryCopy.manualDescription}</span>
           </button>
-          <button
-            type="button"
-            role="tab"
-            aria-selected={appMode === "situacoes" && !globalSearchOpen}
-            className={appMode === "situacoes" && !globalSearchOpen ? "is-active" : ""}
-            onClick={showSituacoesMode}
-          >
-            {modeLabels.situacoes}
+          <button type="button" className="entry-mode-card" onClick={() => enterStudyMode("situacoes")}>
+            <strong>{entryCopy.situacoesLabel}</strong>
+            <span>{entryCopy.situacoesDescription}</span>
           </button>
         </div>
-        <button
-          className={`icon-button header-search-button${globalSearchOpen ? " is-active" : ""}`}
-          type="button"
-          aria-label={ui.search}
-          aria-pressed={globalSearchOpen}
-          title={ui.search}
-          onClick={() => setGlobalSearchOpen((current) => !current)}
-        >
-          <Search size={17} aria-hidden="true" />
-        </button>
-        {showSituacaoSwipeTip && (
-          <aside className="situacao-swipe-tip" role="status">
-            <p>{getSituacaoSwipeTipCopy(ui.locale)}</p>
-            <button type="button" onClick={dismissSituacaoSwipeTip}>
-              {ui.gotIt}
-            </button>
-          </aside>
-        )}
-      </div>
-    );
-  }
 
-  function renderLanguageSelect() {
-    return (
-      <label className="language-control" data-label={ui.language}>
-        <span>{ui.language}</span>
-        <select value={normalizeSupportedDirection(direction)} onChange={(event) => setDirection(event.target.value as Direction)}>
-          {LANGUAGE_OPTIONS.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </select>
-      </label>
+        <label className="entry-language-control">
+          <select
+            aria-label={entryCopy.languageLabel}
+            value={normalizeSupportedDirection(direction)}
+            onChange={(event) => setDirection(event.target.value as Direction)}
+          >
+            {LANGUAGE_OPTIONS.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+      </section>
     );
   }
 
   function renderManualControls() {
     return (
       <>
-        {phase !== "quiz" && (
-          <section className="select-controls" aria-label={ui.studyControls}>
-            <label className="module-control" data-label={ui.module}>
-              <span>{ui.module}</span>
-              <select value={modulo} onChange={(event) => setModulo(event.target.value)}>
-                {modulos.map((item) => (
-                  <option key={item} value={item}>
-                    {formatModuloOptionLabel(ui.moduloLabel(item), getModuleThemeLabel(item, ui.locale))}
-                  </option>
-                ))}
-                <option value="all">{ui.allModules}</option>
-              </select>
-            </label>
-            {renderLanguageSelect()}
-          </section>
-        )}
-
         {renderStudyContent()}
 
         <div className="study-toggles">
@@ -1260,14 +1309,6 @@ export default function App() {
               {ui.startQuiz}
             </button>
           )}
-          <label className="toggle auto-audio-toggle">
-            <input
-              type="checkbox"
-              checked={autoPlayPronunciation}
-              onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
-            />
-            {ui.autoPlayPronunciation}
-          </label>
         </div>
       </>
     );
@@ -1276,37 +1317,81 @@ export default function App() {
   function renderSituacaoControls() {
     return (
       <>
-        <section className="select-controls situacao-controls" aria-label="Controlo de Situações">
-          <label className="situacao-select-control" data-label={getSituacaoControlLabel(ui.locale)}>
-            <span>Situação</span>
-            <select value={situacaoId} onChange={(event) => setSituacaoId(event.target.value)}>
-              {situacaoGroups.map((group) => (
-                <optgroup key={group.label} label={group.label}>
-                  {group.items.map((item) => (
-                    <option key={item.id} value={item.id}>
-                      {formatSituacaoOptionLabel(item.id, item.label, ui.locale)}
-                    </option>
-                  ))}
-                </optgroup>
-              ))}
-            </select>
-          </label>
-          {renderLanguageSelect()}
-        </section>
-
-        <div className="study-toggles situacao-toggles">
-          <label className="toggle auto-audio-toggle">
-            <input
-              type="checkbox"
-              checked={autoPlayPronunciation}
-              onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
-            />
-            {ui.autoPlayPronunciation}
-          </label>
-        </div>
-
         {renderSituacoesContent()}
       </>
+    );
+  }
+
+  function renderStudySelector() {
+    if (appMode === "manual") {
+      if (phase === "quiz") return null;
+      return (
+        <select
+          className="study-selector-pill"
+          aria-label={ui.module}
+          value={modulo}
+          onChange={(event) => setModulo(event.target.value)}
+        >
+          {modulos.map((item) => (
+            <option key={item} value={item}>
+              {getModuleSelectorLabel(item, ui.moduloLabel(item), ui.locale)}
+            </option>
+          ))}
+          <option value="all">{ui.allModules}</option>
+        </select>
+      );
+    }
+
+    return (
+      <select
+        className="study-selector-pill"
+        aria-label="Situação"
+        value={situacaoId}
+        onChange={(event) => setSituacaoId(event.target.value)}
+      >
+        {situacaoGroups.map((group) => (
+          <optgroup key={group.label} label={getSituacaoGroupSelectorLabel(group.label, ui.locale)}>
+            {group.items.map((item) => (
+              <option key={item.id} value={item.id}>
+                {getSituacaoSelectorLabel(item.id, item.label, ui.locale)}
+              </option>
+            ))}
+          </optgroup>
+        ))}
+      </select>
+    );
+  }
+
+  function renderSettingsControl(className = "") {
+    const settingsLabel = getSettingsLabel(ui.locale);
+    return (
+      <div className="settings-control">
+        <button
+          className={`icon-button settings-button ${className}`.trim()}
+          type="button"
+          aria-label={settingsLabel}
+          aria-expanded={settingsOpen}
+          title={settingsLabel}
+          onClick={() => setSettingsOpen((current) => !current)}
+        >
+          <Settings size={19} aria-hidden="true" />
+        </button>
+        {settingsOpen && (
+          <div className="settings-popover" role="dialog" aria-label={settingsLabel}>
+            <label className="toggle auto-audio-toggle">
+              <input
+                type="checkbox"
+                checked={autoPlayPronunciation}
+                onChange={(event) => setAutoPlayPronunciation(event.target.checked)}
+              />
+              {ui.autoPlayPronunciation}
+            </label>
+            <button className="settings-replay-tour" type="button" onClick={replayGuidedTour}>
+              {getReplayTourLabel(ui.locale)}
+            </button>
+          </div>
+        )}
+      </div>
     );
   }
 
@@ -1370,16 +1455,15 @@ export default function App() {
       <>
         {renderResumePrompt()}
         <div className="situacao-session-touch-area">
-          <Flashcard
+              <Flashcard
             entry={activeSituacaoEntry}
             direction={direction}
             revealed={situacaoRevealed}
             autoPlayPronunciation={autoPlayPronunciation}
-            skipAutoPlayKey={directAutoPlayKey}
-            showFirstWordTip={false}
             ui={ui}
           onToggleReveal={() => setSituacaoRevealed((current) => !current)}
           onPrevious={movePreviousSituacaoCard}
+          canSwipePrevious={situacaoCardIndex > 0}
           onAgain={() => handleSituacaoReview("again")}
           onKnown={() => handleSituacaoReview("known")}
         />
@@ -1393,27 +1477,117 @@ export default function App() {
     );
   }
 
+  function toggleDialogueTranslation(lineId: string) {
+    setRevealedDialogueIds((current) => {
+      const next = new Set(current);
+      if (next.has(lineId)) next.delete(lineId);
+      else next.add(lineId);
+      return next;
+    });
+  }
+
+  function cancelDialoguePlayback() {
+    dialoguePlaybackTokenRef.current += 1;
+    if (dialoguePauseTimeoutRef.current !== null) window.clearTimeout(dialoguePauseTimeoutRef.current);
+    dialoguePauseTimeoutRef.current = null;
+    setDialoguePlaybackActive(false);
+    setActiveDialogueLineId(null);
+  }
+
+  function playDialogueLine(line: SituacaoContentLine) {
+    cancelDialoguePlayback();
+    const playbackToken = dialoguePlaybackTokenRef.current;
+    setActiveDialogueLineId(line.id);
+    playPortugueseAudio(`audio/pt/situacoes/dialogo/${line.id}.m4a`, line.pt, () => {
+      if (dialoguePlaybackTokenRef.current === playbackToken) setActiveDialogueLineId(null);
+    });
+  }
+
+  function playWholeDialogue() {
+    if (selectedSituacaoDialogue.length === 0) return;
+    cancelDialoguePlayback();
+    const playbackToken = dialoguePlaybackTokenRef.current;
+    setDialoguePlaybackActive(true);
+
+    const playTurn = (index: number) => {
+      if (dialoguePlaybackTokenRef.current !== playbackToken) return;
+      const line = selectedSituacaoDialogue[index];
+      if (!line) {
+        setDialoguePlaybackActive(false);
+        setActiveDialogueLineId(null);
+        return;
+      }
+
+      setActiveDialogueLineId(line.id);
+      playPortugueseAudio(`audio/pt/situacoes/dialogo/${line.id}.m4a`, line.pt, () => {
+        if (dialoguePlaybackTokenRef.current !== playbackToken) return;
+        if (index === selectedSituacaoDialogue.length - 1) {
+          setDialoguePlaybackActive(false);
+          setActiveDialogueLineId(null);
+          return;
+        }
+        dialoguePauseTimeoutRef.current = window.setTimeout(() => {
+          dialoguePauseTimeoutRef.current = null;
+          playTurn(index + 1);
+        }, 300);
+      });
+    };
+
+    playTurn(0);
+  }
+
   function renderSituacaoDialogue() {
     return (
       <section className="situacao-list dialogue-list" aria-label="Diálogo">
-        {selectedSituacaoDialogue.map((line) => (
-          <article className="situacao-line" key={line.id}>
-            <button
-              className="icon-button situacao-listen"
-              type="button"
-              onClick={() => playPortugueseAudio(`audio/pt/situacoes/dialogo/${line.id}.m4a`, line.pt)}
-              aria-label={`${ui.listen}: ${line.pt}`}
-              title={ui.listen}
-            >
-              <Volume2 size={18} aria-hidden="true" />
-            </button>
-            <div>
-              <p className="situacao-pt">{line.pt}</p>
-              <p className="situacao-translation">{getSituacaoTranslation(line)}</p>
-              {line.note && <p className="situacao-note">{line.note}</p>}
-            </div>
-          </article>
-        ))}
+        <div className="dialogue-panel-toolbar">
+          <button
+            className="secondary dialogue-play-all"
+            type="button"
+            disabled={dialoguePlaybackActive || selectedSituacaoDialogue.length === 0}
+            onClick={playWholeDialogue}
+          >
+            <Volume2 size={16} aria-hidden="true" />
+            {getPlayDialogueLabel(ui.locale)}
+          </button>
+        </div>
+        <div className="dialogue-turns">
+          {selectedSituacaoDialogue.map((line, index) => {
+            const translationVisible = revealedDialogueIds.has(line.id);
+            return (
+              <article
+                className={`situacao-line dialogue-turn ${index % 2 === 0 ? "is-learner" : "is-other"}`}
+                key={line.id}
+                role="button"
+                tabIndex={0}
+                aria-expanded={translationVisible}
+                onClick={() => toggleDialogueTranslation(line.id)}
+                onKeyDown={(event) => {
+                  if (event.key !== "Enter" && event.key !== " ") return;
+                  event.preventDefault();
+                  toggleDialogueTranslation(line.id);
+                }}
+              >
+                <button
+                  className={`icon-button situacao-listen${activeDialogueLineId === line.id ? " is-playing" : ""}`}
+                  type="button"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    playDialogueLine(line);
+                  }}
+                  aria-label={`${ui.listen}: ${line.pt}`}
+                  title={ui.listen}
+                >
+                  <Volume2 size={18} aria-hidden="true" />
+                </button>
+                <div className="dialogue-turn-copy">
+                  <p className="situacao-pt">{line.pt}</p>
+                  {translationVisible && <p className="situacao-translation">{getSituacaoTranslation(line)}</p>}
+                  {line.note && <p className="situacao-note">{line.note}</p>}
+                </div>
+              </article>
+            );
+          })}
+        </div>
       </section>
     );
   }
@@ -1594,12 +1768,10 @@ export default function App() {
               direction={direction}
               revealed={revealed}
               autoPlayPronunciation={autoPlayPronunciation}
-              skipAutoPlayKey={directAutoPlayKey}
-              showFirstWordTip={false}
               ui={ui}
-              onFirstWordTipDismiss={dismissFirstWordTip}
               onToggleReveal={() => setRevealed((current) => !current)}
               onPrevious={movePrevious}
+              canSwipePrevious={cardIndex > 0}
               onAgain={() => handleReview("again")}
               onKnown={() => handleReview("known")}
             />
@@ -1610,13 +1782,10 @@ export default function App() {
             direction={direction}
             revealed={revealed}
             autoPlayPronunciation={autoPlayPronunciation && phase === "study"}
-            skipAutoPlayKey={directAutoPlayKey}
-            showFirstWordCue={phase === "study" && sessionIndex === 0 && cardIndex === 0}
-            showFirstWordTip={phase === "study" && sessionIndex === 0 && cardIndex === 0 && !firstWordTipDismissed}
             ui={ui}
-            onFirstWordTipDismiss={dismissFirstWordTip}
             onToggleReveal={() => setRevealed((current) => !current)}
             onPrevious={movePrevious}
+            canSwipePrevious={cardIndex > 0}
             onAgain={() => handleReview("again")}
             onKnown={() => handleReview("known")}
           />
@@ -1651,14 +1820,18 @@ export default function App() {
     );
   }
 
+  const appShellClassName = [
+    "app-shell",
+    appView === "entry" ? "entry-app-shell" : "study-app-shell",
+    appView === "study" ? `study-mode-${appMode}` : "",
+    appView === "study" && appMode === "situacoes" ? `situacao-tab-${situacaoTab}` : "",
+    appView === "study" ? `study-phase-${phase}` : ""
+  ]
+    .filter(Boolean)
+    .join(" ");
+
   return (
-    <main
-      className="app-shell"
-      onTouchStart={handleModeSwipeTouchStart}
-      onTouchMove={handleModeSwipeTouchMove}
-      onTouchEnd={handleModeSwipeTouchEnd}
-      onTouchCancel={handleModeSwipeTouchCancel}
-    >
+    <main className={appShellClassName}>
       <span
         className="authorship-fingerprint"
         data-author={AUTHORSHIP_OWNER}
@@ -1667,48 +1840,65 @@ export default function App() {
       >
         {AUTHORSHIP_FINGERPRINT}
       </span>
-      <section className="workspace">
-        <header className="app-header">
-          <div className="app-header-top">
-            <p className="eyebrow">European Portuguese A1 + A2</p>
-            {renderModeTabs()}
-          </div>
-          <h1>Azulejo</h1>
-          <p className="app-subtitle">your Portuguese, tile by tile</p>
-        </header>
+      {appView === "entry" ? (
+        renderEntryScreen()
+      ) : (
+        <>
+          <section className="workspace study-workspace">
+            <nav className="study-page-nav" aria-label="Study navigation">
+              <button className="icon-button study-entry-back" type="button" onClick={returnToEntryScreen} aria-label="Back to modes">
+                <ChevronLeft size={20} aria-hidden="true" />
+              </button>
+              {!globalSearchOpen && renderStudySelector()}
+              <span className="study-nav-spacer" />
+              <button
+                className={`icon-button header-search-button${globalSearchOpen ? " is-active" : ""}`}
+                type="button"
+                aria-label={ui.search}
+                aria-pressed={globalSearchOpen}
+                title={ui.search}
+                onClick={() => {
+                  setSettingsOpen(false);
+                  setGlobalSearchOpen((current) => !current);
+                }}
+              >
+                <Search size={17} aria-hidden="true" />
+              </button>
+              {renderSettingsControl()}
+            </nav>
 
-        <section
-          className={`study-surface ${appMode === "situacoes" ? "situacao-study-surface" : ""}${globalSearchOpen ? " global-search-study-surface" : ""}`}
-        >
-          {globalSearchOpen ? (
-            <GlobalSearchView
-              entries={wordBank}
-              progress={progress}
-              direction={direction}
-              ui={ui}
-              onBack={() => setGlobalSearchOpen(false)}
-              onSetStatus={handleGlobalSearchStatus}
-            />
-          ) : appMode === "manual" ? (
-            renderManualControls()
-          ) : (
-            renderSituacaoControls()
-          )}
-        </section>
-      </section>
+            <section
+              className={`study-surface ${appMode === "situacoes" ? "situacao-study-surface" : ""}${globalSearchOpen ? " global-search-study-surface" : ""}`}
+            >
+              {globalSearchOpen ? (
+                <GlobalSearchView
+                  entries={wordBank}
+                  progress={progress}
+                  direction={direction}
+                  ui={ui}
+                  onBack={() => setGlobalSearchOpen(false)}
+                  onSetStatus={handleGlobalSearchStatus}
+                />
+              ) : appMode === "manual" ? (
+                renderManualControls()
+              ) : (
+                renderSituacaoControls()
+              )}
+            </section>
+          </section>
 
-      <ProgressDashboard
-        entries={appMode === "manual" ? vocabulary : situacaoVocabulary}
-        progress={progress}
-        ui={ui}
-        mode={appMode}
-        situacaoGroups={situacaoGroups}
-        getModuleThemeLabel={(moduleName) => getModuleThemeLabel(moduleName, ui.locale)}
-        getSituacaoLabel={(id, portugueseLabel) => getSituacaoTargetLabel(id, portugueseLabel, ui.locale)}
-        onStartOver={handleStartOver}
-      />
-      {renderInstallControl()}
-      <footer className="progress-file-footer">
+          <ProgressDashboard
+            entries={appMode === "manual" ? vocabulary : situacaoVocabulary}
+            progress={progress}
+            ui={ui}
+            mode={appMode}
+            situacaoGroups={situacaoGroups}
+            getModuleThemeLabel={(moduleName) => getModuleThemeLabel(moduleName, ui.locale)}
+            getSituacaoLabel={(id, portugueseLabel) => getSituacaoTargetLabel(id, portugueseLabel, ui.locale)}
+            onStartOver={handleStartOver}
+          />
+          {renderInstallControl()}
+          <footer className="progress-file-footer">
         <input
           ref={progressFileInputRef}
           type="file"
@@ -1736,7 +1926,10 @@ export default function App() {
             </button>
           </div>
         )}
-      </footer>
+          </footer>
+        </>
+      )}
+      {renderGuidedTour()}
     </main>
   );
 }
@@ -1758,7 +1951,12 @@ function MilestonePanel({ title, actions, children }: MilestonePanelProps) {
       {children}
       <div className="milestone-actions">
         {actions.map((action, index) => (
-          <button key={action.id} className={index === 0 ? "primary" : "secondary"} type="button" onClick={action.onClick}>
+          <button
+            key={action.id}
+            className={`${index === 0 ? "primary" : "secondary"}${action.id === "quiz" ? " milestone-quiz-action" : ""}`}
+            type="button"
+            onClick={action.onClick}
+          >
             {action.label}
           </button>
         ))}
@@ -1829,29 +2027,40 @@ function clampIndex(index: number, length: number) {
   return Math.min(Math.max(index, 0), length - 1);
 }
 
-function formatModuloOptionLabel(moduloLabel: string, themeLabel?: string) {
-  return themeLabel ? `${moduloLabel} · ${themeLabel}` : moduloLabel;
-}
-
 function normalizeSupportedDirection(direction: Direction) {
   return SUPPORTED_DIRECTIONS.has(direction) ? direction : "pt-en";
 }
 
-function isMobileViewport() {
-  return window.matchMedia("(max-width: 768px)").matches;
+function normalizeGuidedTourProgress(value: GuidedTourProgress | undefined): GuidedTourProgress {
+  if (!value || typeof value.completed !== "boolean" || !Number.isInteger(value.step) || value.step < 0) {
+    return { completed: false, step: 0 };
+  }
+  return { completed: value.completed, step: Math.min(value.step, STUDY_TOUR_STEPS.length) };
 }
 
 function getModuleThemeLabel(modulo: string, locale: "en" | "zhHans" | "zhHant") {
   return MODULE_THEME_LABELS[modulo]?.[locale];
 }
 
-function formatSituacaoOptionLabel(situacaoId: string, label: string, locale: "en" | "zhHans" | "zhHant") {
-  const targetLabel = localizeSituacaoTargetLabel(SITUACAO_TARGET_LABELS[situacaoId]?.[locale], locale);
-  return targetLabel ? `${targetLabel} - ${label}` : label;
+function getModuleSelectorLabel(modulo: string, moduleLabel: string, locale: "en" | "zhHans" | "zhHant") {
+  const targetTheme = MODULE_THEME_LABELS[modulo]?.[locale];
+  const portugueseTheme = MODULE_THEME_LABELS_PT[modulo];
+  if (!targetTheme || !portugueseTheme) return moduleLabel;
+  return `${moduleLabel} · ${targetTheme} - ${portugueseTheme}`;
 }
 
 function getSituacaoTargetLabel(situacaoId: string, fallback: string, locale: "en" | "zhHans" | "zhHant") {
   return localizeSituacaoTargetLabel(SITUACAO_TARGET_LABELS[situacaoId]?.[locale], locale) ?? fallback;
+}
+
+function getSituacaoSelectorLabel(situacaoId: string, portugueseLabel: string, locale: "en" | "zhHans" | "zhHant") {
+  const targetLabel = getSituacaoTargetLabel(situacaoId, portugueseLabel, locale);
+  return targetLabel === portugueseLabel ? portugueseLabel : `${targetLabel} · ${portugueseLabel}`;
+}
+
+function getSituacaoGroupSelectorLabel(portugueseLabel: string, locale: "en" | "zhHans" | "zhHant") {
+  const targetLabel = SITUACAO_GROUP_LABELS[portugueseLabel]?.[locale];
+  return targetLabel ? `${targetLabel} · ${portugueseLabel}` : portugueseLabel;
 }
 
 function localizeSituacaoTargetLabel(label: string | undefined, locale: "en" | "zhHans" | "zhHant") {
@@ -1865,16 +2074,62 @@ function getSituacaoControlLabel(locale: "en" | "zhHans" | "zhHant") {
   return "Situation";
 }
 
-function getModeTabLabels(locale: "en" | "zhHans" | "zhHant") {
-  if (locale === "zhHans") return { manual: "课本", situacoes: "场景" };
-  if (locale === "zhHant") return { manual: "課本", situacoes: "場景" };
-  return { manual: "Manual", situacoes: "Situations" };
+function getSettingsLabel(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") return "设置";
+  if (locale === "zhHant") return "設定";
+  return "Settings";
 }
 
-function getSituacaoSwipeTipCopy(locale: "en" | "zhHans" | "zhHant") {
-  if (locale === "zhHans") return "从右边缘向左滑进入场景，从左边缘向右滑返回手动学习。进度会保存。";
-  if (locale === "zhHant") return "從右邊緣向左滑進入場景，從左邊緣向右滑返回手動學習。進度會儲存。";
-  return "Swipe left from the right edge for Situations, or right from the left edge for Manual. Your progress is saved.";
+function getReplayTourLabel(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") return "重新查看导览";
+  if (locale === "zhHant") return "重新查看導覽";
+  return "Replay tour";
+}
+
+function getGuidedTourLabels(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") {
+    return { dialog: "学习导览", continue: "继续导览", skip: "跳过导览", gotIt: "了解" };
+  }
+  if (locale === "zhHant") {
+    return { dialog: "學習導覽", continue: "繼續導覽", skip: "略過導覽", gotIt: "了解" };
+  }
+  return { dialog: "Guided tour", continue: "Continue tour", skip: "Skip tour", gotIt: "Got it" };
+}
+
+function getPlayDialogueLabel(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") return "播放对话";
+  if (locale === "zhHant") return "播放對話";
+  return "Play dialogue";
+}
+
+function getEntryScreenCopy(locale: "en" | "zhHans" | "zhHant") {
+  if (locale === "zhHans") {
+    return {
+      manualLabel: "课本",
+      manualDescription: "按顺序学习十二个课本单元。",
+      situacoesLabel: "场景",
+      situacoesDescription: "在真实生活场景中学习。",
+      languageLabel: "语言"
+    };
+  }
+
+  if (locale === "zhHant") {
+    return {
+      manualLabel: "課本",
+      manualDescription: "按順序學習十二個課本單元。",
+      situacoesLabel: "場景",
+      situacoesDescription: "在真實生活場景中學習。",
+      languageLabel: "語言"
+    };
+  }
+
+  return {
+    manualLabel: "Manual",
+    manualDescription: "Work through the 12 textbook modules.",
+    situacoesLabel: "Situações",
+    situacoesDescription: "Learn by real-life situation.",
+    languageLabel: "Language"
+  };
 }
 
 function getResumeSessionCopy(locale: "en" | "zhHans" | "zhHant") {
