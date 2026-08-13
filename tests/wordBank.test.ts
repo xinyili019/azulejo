@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { getVocabularyForSituacao, wordBank } from "../src/data/wordBank";
-import { situacaoCheatSheetLines, situacaoDialogueLines } from "../src/data/situacoes";
+import { situacaoCheatSheetLines, situacaoDialogueLines, situacaoGroups } from "../src/data/situacoes";
+
+const allSituationIds = situacaoGroups.flatMap((group) => group.items.map((item) => item.id));
 
 const practicalSituationIds = [
   "supermercado_mercado",
@@ -51,8 +53,15 @@ describe("shared AIMA vocabulary", () => {
 describe("practical situations", () => {
   it.each(practicalSituationIds)("provides a complete %s study set", (situacao) => {
     expect(getVocabularyForSituacao(situacao)).toHaveLength(30);
-    expect(situacaoDialogueLines.filter((line) => line.situacao === situacao)).toHaveLength(8);
-    expect(situacaoCheatSheetLines.filter((line) => line.situacao === situacao)).toHaveLength(5);
+    expect(situacaoDialogueLines.filter((line) => line.situacao === situacao)).toHaveLength(20);
+    expect(situacaoCheatSheetLines.filter((line) => line.situacao === situacao)).toHaveLength(20);
+  });
+});
+
+describe("complete situation content", () => {
+  it.each(allSituationIds)("provides at least 20 dialogue and Cartao lines for %s", (situacao) => {
+    expect(situacaoDialogueLines.filter((line) => line.situacao === situacao).length).toBeGreaterThanOrEqual(20);
+    expect(situacaoCheatSheetLines.filter((line) => line.situacao === situacao).length).toBeGreaterThanOrEqual(20);
   });
 });
 

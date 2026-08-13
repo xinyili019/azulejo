@@ -54,7 +54,7 @@ test("renders every study surface on the shared navy ground", async ({ page }) =
   await page.screenshot({ path: "/tmp/azulejo-navy-manual-progress.png" });
 
   await page.locator(".study-entry-back").click();
-  await page.getByRole("button", { name: /^Situações/ }).click();
+  await page.getByRole("button", { name: /^Situation/ }).click();
   await expect(page.locator(".study-selector-pill").locator("option[value='banco']")).toHaveText("Bank · Banco");
   await page.locator(".study-selector-pill").selectOption("cabeleireiro_barbeiro");
   await expect(page.locator(".study-selector-pill")).toHaveValue("cabeleireiro_barbeiro");
@@ -63,7 +63,7 @@ test("renders every study surface on the shared navy ground", async ({ page }) =
   await page.locator(".review-known").click();
   await page.screenshot({ path: "/tmp/azulejo-navy-situacoes-vocabulario.png" });
 
-  await page.getByRole("tab", { name: "Diálogo" }).click();
+  await page.getByRole("tab", { name: "Dialogue" }).click();
   await expect(page.locator(".dialogue-list")).toHaveCSS("background-color", "rgb(251, 248, 241)");
   await page.locator(".dialogue-turn").first().click();
   const dialogueTranslationSize = await page.locator(".dialogue-list .situacao-translation").first().evaluate((element) =>
@@ -72,7 +72,7 @@ test("renders every study surface on the shared navy ground", async ({ page }) =
   expect(dialogueTranslationSize).toBeGreaterThan(12);
   await page.screenshot({ path: "/tmp/azulejo-navy-situacoes-dialogo.png" });
 
-  await page.getByRole("tab", { name: "Cartão" }).click();
+  await page.getByRole("tab", { name: "Cheat sheet" }).click();
   await expect(page.locator(".situacao-card")).toHaveCSS("background-color", "rgba(0, 0, 0, 0)");
   await page.screenshot({ path: "/tmp/azulejo-navy-situacoes-cartao.png" });
 

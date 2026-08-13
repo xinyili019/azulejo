@@ -21179,6 +21179,1936 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "en": "We will confirm the timeframe after checking the document.",
     "zhHans": "核查文件后，我们会确认办理时间。",
     "zhHant": "核查文件後，我們會確認辦理時間。"
+  },
+  {
+    "id": "dialogo-correios-passado-esse-prazo-a-encomenda-regressa-a-loja-dos-ctt",
+    "situacao": "correios",
+    "order": 527,
+    "purpose": "expanded real-world coverage",
+    "pt": "Passado esse prazo, a encomenda regressa à loja dos CTT.",
+    "en": "After that deadline, the parcel returns to the CTT post office.",
+    "zhHans": "超过期限后，包裹会退回 CTT 邮局。",
+    "zhHant": "超過期限後，包裹會退回 CTT 郵局。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-tambem-preciso-de-alterar-a-morada-do-cartao-de-cidadao",
+    "situacao": "espaco_cidadao",
+    "order": 528,
+    "purpose": "expanded real-world coverage",
+    "pt": "Também preciso de alterar a morada do Cartão de Cidadão.",
+    "en": "I also need to change the address on my Citizen Card.",
+    "zhHans": "我还需要更改公民卡上的地址。",
+    "zhHant": "我還需要更改公民證上的地址。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-tem-consigo-os-codigos-pin-e-um-comprovativo-da-nova-morada",
+    "situacao": "espaco_cidadao",
+    "order": 529,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tem consigo os códigos PIN e um comprovativo da nova morada?",
+    "en": "Do you have the PIN codes and proof of the new address with you?",
+    "zhHans": "您带了 PIN 码和新地址证明吗？",
+    "zhHant": "您帶了 PIN 碼和新地址證明嗎？"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-tenho-os-codigos-mas-o-contrato-da-casa-esta-no-nome-da-minha-mulher",
+    "situacao": "espaco_cidadao",
+    "order": 530,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tenho os códigos, mas o contrato da casa está no nome da minha mulher.",
+    "en": "I have the codes, but the tenancy agreement is in my wife's name.",
+    "zhHans": "我有 PIN 码，但租房合同是我妻子的名字。",
+    "zhHant": "我有 PIN 碼，但租約是我妻子的名字。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-pode-apresentar-o-contrato-e-uma-declaracao-assinada-por-ela",
+    "situacao": "espaco_cidadao",
+    "order": 531,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode apresentar o contrato e uma declaração assinada por ela.",
+    "en": "You can present the agreement and a declaration signed by her.",
+    "zhHans": "您可以提交合同和她签署的声明。",
+    "zhHant": "您可以提交租約和她簽署的聲明。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-a-alteracao-fica-concluida-hoje",
+    "situacao": "espaco_cidadao",
+    "order": 532,
+    "purpose": "expanded real-world coverage",
+    "pt": "A alteração fica concluída hoje?",
+    "en": "Will the change be completed today?",
+    "zhHans": "今天能完成更改吗？",
+    "zhHant": "今天能完成更改嗎？"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-primeiro-recebe-uma-carta-com-um-codigo-de-confirmacao-na-nova-morada",
+    "situacao": "espaco_cidadao",
+    "order": 533,
+    "purpose": "expanded real-world coverage",
+    "pt": "Primeiro recebe uma carta com um código de confirmação na nova morada.",
+    "en": "First, you will receive a letter with a confirmation code at the new address.",
+    "zhHans": "您会先在新地址收到一封带确认码的信。",
+    "zhHant": "您會先在新地址收到一封附有確認碼的信。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-posso-confirmar-o-codigo-aqui-no-balcao",
+    "situacao": "espaco_cidadao",
+    "order": 534,
+    "purpose": "expanded real-world coverage",
+    "pt": "Posso confirmar o código aqui no balcão?",
+    "en": "Can I confirm the code here at the service desk?",
+    "zhHans": "我可以在这里的服务台确认吗？",
+    "zhHant": "我可以在這裡的服務櫃位確認嗎？"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-sim-ou-pela-internet-dentro-do-prazo-indicado-na-carta",
+    "situacao": "espaco_cidadao",
+    "order": 535,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, ou pela internet, dentro do prazo indicado na carta.",
+    "en": "Yes, or online, within the deadline stated in the letter.",
+    "zhHans": "可以，也可以在信中注明的期限内在线确认。",
+    "zhHant": "可以，也可以在信中註明的期限內網上確認。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-e-se-a-carta-nao-chegar",
+    "situacao": "espaco_cidadao",
+    "order": 536,
+    "purpose": "expanded real-world coverage",
+    "pt": "E se a carta não chegar?",
+    "en": "What if the letter does not arrive?",
+    "zhHans": "如果信没有寄到怎么办？",
+    "zhHant": "如果信沒有寄到怎麼辦？"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-volte-ao-balcao-para-verificarmos-a-morada-e-pedirmos-um-novo-codigo",
+    "situacao": "espaco_cidadao",
+    "order": 537,
+    "purpose": "expanded real-world coverage",
+    "pt": "Volte ao balcão para verificarmos a morada e pedirmos um novo código.",
+    "en": "Come back to the desk so we can check the address and request a new code.",
+    "zhHans": "请回到服务台，我们会核对地址并申请新代码。",
+    "zhHant": "請回到服務櫃位，我們會核對地址並申請新代碼。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-a-minha-carta-portuguesa-caduca-no-proximo-mes",
+    "situacao": "imt_carta_conducao",
+    "order": 538,
+    "purpose": "expanded real-world coverage",
+    "pt": "A minha carta portuguesa caduca no próximo mês.",
+    "en": "My Portuguese driving licence expires next month.",
+    "zhHans": "我的葡萄牙驾驶证下个月到期。",
+    "zhHant": "我的葡萄牙駕駛執照下個月到期。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-pode-pedir-a-renovacao-nos-seis-meses-anteriores-a-data-de-validade",
+    "situacao": "imt_carta_conducao",
+    "order": 539,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode pedir a renovação nos seis meses anteriores à data de validade.",
+    "en": "You can request renewal during the six months before the expiry date.",
+    "zhHans": "您可以在有效期届满前六个月内申请续期。",
+    "zhHant": "您可以在有效期屆滿前六個月內申請續期。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-preciso-de-fazer-um-novo-atestado-medico",
+    "situacao": "imt_carta_conducao",
+    "order": 540,
+    "purpose": "expanded real-world coverage",
+    "pt": "Preciso de fazer um novo atestado médico?",
+    "en": "Do I need a new medical certificate?",
+    "zhHans": "我需要重新办理体检证明吗？",
+    "zhHant": "我需要重新辦理醫療證明嗎？"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-depende-da-sua-idade-e-das-categorias-da-carta",
+    "situacao": "imt_carta_conducao",
+    "order": 541,
+    "purpose": "expanded real-world coverage",
+    "pt": "Depende da sua idade e das categorias da carta.",
+    "en": "It depends on your age and the licence categories.",
+    "zhHans": "这取决于您的年龄和驾驶证类别。",
+    "zhHant": "這取決於您的年齡和駕駛執照類別。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-mudei-de-morada-tenho-de-atualizar-a-carta",
+    "situacao": "imt_carta_conducao",
+    "order": 542,
+    "purpose": "expanded real-world coverage",
+    "pt": "Mudei de morada. Tenho de atualizar a carta?",
+    "en": "I have changed address. Must I update the licence?",
+    "zhHans": "我搬家了，需要更新驾驶证吗？",
+    "zhHant": "我搬家了，需要更新駕駛執照嗎？"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-a-morada-deve-estar-atualizada-nos-seus-dados-de-identificacao",
+    "situacao": "imt_carta_conducao",
+    "order": 543,
+    "purpose": "expanded real-world coverage",
+    "pt": "A morada deve estar atualizada nos seus dados de identificação.",
+    "en": "Your address must be current in your identification records.",
+    "zhHans": "您的身份资料中必须登记最新地址。",
+    "zhHant": "您的身份資料中必須登記最新地址。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-enquanto-espero-posso-continuar-a-conduzir",
+    "situacao": "imt_carta_conducao",
+    "order": 544,
+    "purpose": "expanded real-world coverage",
+    "pt": "Enquanto espero, posso continuar a conduzir?",
+    "en": "Can I keep driving while I wait?",
+    "zhHans": "等待期间我可以继续驾驶吗？",
+    "zhHant": "等候期間我可以繼續駕駛嗎？"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-guarde-o-comprovativo-do-pedido-e-confirme-a-validade-indicada",
+    "situacao": "imt_carta_conducao",
+    "order": 545,
+    "purpose": "expanded real-world coverage",
+    "pt": "Guarde o comprovativo do pedido e confirme a validade indicada.",
+    "en": "Keep the application receipt and check the validity shown on it.",
+    "zhHans": "请保留申请凭证，并确认上面注明的有效期。",
+    "zhHant": "請保留申請證明，並確認上面註明的有效期。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-como-recebo-a-nova-carta",
+    "situacao": "imt_carta_conducao",
+    "order": 546,
+    "purpose": "expanded real-world coverage",
+    "pt": "Como recebo a nova carta?",
+    "en": "How will I receive the new licence?",
+    "zhHans": "新驾驶证会怎样寄给我？",
+    "zhHant": "新駕駛執照會怎樣寄給我？"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-e-enviada-para-a-morada-registada-acompanhe-o-pedido-no-portal",
+    "situacao": "imt_carta_conducao",
+    "order": 547,
+    "purpose": "expanded real-world coverage",
+    "pt": "É enviada para a morada registada; acompanhe o pedido no portal.",
+    "en": "It is sent to the registered address; track the application on the portal.",
+    "zhHans": "会寄到登记地址；您可以在网站查询进度。",
+    "zhHant": "會寄到登記地址；您可以在網站查詢進度。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-queria-pedir-uma-certidao-de-nascimento-para-usar-no-estrangeiro",
+    "situacao": "conservatoria_registo_civil",
+    "order": 548,
+    "purpose": "expanded real-world coverage",
+    "pt": "Queria pedir uma certidão de nascimento para usar no estrangeiro.",
+    "en": "I would like to request a birth certificate for use abroad.",
+    "zhHans": "我想申请一份在国外使用的出生证明。",
+    "zhHant": "我想申請一份在海外使用的出生證明書。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-precisa-de-uma-certidao-narrativa-ou-de-copia-integral",
+    "situacao": "conservatoria_registo_civil",
+    "order": 549,
+    "purpose": "expanded real-world coverage",
+    "pt": "Precisa de uma certidão narrativa ou de cópia integral?",
+    "en": "Do you need a standard certificate or a full-form copy?",
+    "zhHans": "您需要叙述式证明还是完整副本？",
+    "zhHant": "您需要敘述式證明書還是完整副本？"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-pediram-me-uma-copia-integral-com-apostila",
+    "situacao": "conservatoria_registo_civil",
+    "order": 550,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pediram-me uma cópia integral com apostila.",
+    "en": "They asked me for a full-form copy with an apostille.",
+    "zhHans": "对方要求完整副本并附加海牙认证。",
+    "zhHant": "對方要求完整副本並附加海牙認證。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-a-certidao-e-pedida-aqui-a-apostila-e-tratada-pela-entidade-competente",
+    "situacao": "conservatoria_registo_civil",
+    "order": 551,
+    "purpose": "expanded real-world coverage",
+    "pt": "A certidão é pedida aqui; a apostila é tratada pela entidade competente.",
+    "en": "The certificate is requested here; the apostille is handled by the competent authority.",
+    "zhHans": "证明在这里申请；海牙认证由主管机构办理。",
+    "zhHant": "證明書在這裡申請；海牙認證由主管機構辦理。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-notei-que-o-apelido-da-minha-mae-esta-mal-escrito",
+    "situacao": "conservatoria_registo_civil",
+    "order": 552,
+    "purpose": "expanded real-world coverage",
+    "pt": "Notei que o apelido da minha mãe está mal escrito.",
+    "en": "I noticed that my mother's surname is misspelled.",
+    "zhHans": "我发现母亲的姓氏拼错了。",
+    "zhHant": "我發現母親的姓氏拼錯了。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-traga-um-documento-que-comprove-a-grafia-correta",
+    "situacao": "conservatoria_registo_civil",
+    "order": 553,
+    "purpose": "expanded real-world coverage",
+    "pt": "Traga um documento que comprove a grafia correta.",
+    "en": "Bring a document proving the correct spelling.",
+    "zhHans": "请带一份能证明正确写法的文件。",
+    "zhHant": "請帶一份能證明正確寫法的文件。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-posso-pedir-a-correcao-e-a-certidao-ao-mesmo-tempo",
+    "situacao": "conservatoria_registo_civil",
+    "order": 554,
+    "purpose": "expanded real-world coverage",
+    "pt": "Posso pedir a correção e a certidão ao mesmo tempo?",
+    "en": "Can I request the correction and the certificate at the same time?",
+    "zhHans": "我可以同时申请更正和证明吗？",
+    "zhHant": "我可以同時申請更正和證明書嗎？"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-a-certidao-deve-ser-emitida-depois-de-a-correcao-ficar-registada",
+    "situacao": "conservatoria_registo_civil",
+    "order": 555,
+    "purpose": "expanded real-world coverage",
+    "pt": "A certidão deve ser emitida depois de a correção ficar registada.",
+    "en": "The certificate should be issued after the correction is registered.",
+    "zhHans": "证明应在更正登记完成后签发。",
+    "zhHant": "證明書應在更正登記完成後簽發。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-recebo-um-aviso-quando-estiver-pronta",
+    "situacao": "conservatoria_registo_civil",
+    "order": 556,
+    "purpose": "expanded real-world coverage",
+    "pt": "Recebo um aviso quando estiver pronta?",
+    "en": "Will I be notified when it is ready?",
+    "zhHans": "办好后会通知我吗？",
+    "zhHant": "辦妥後會通知我嗎？"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-sim-confirme-o-email-e-o-numero-de-telemovel-no-requerimento",
+    "situacao": "conservatoria_registo_civil",
+    "order": 557,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Confirme o email e o número de telemóvel no requerimento.",
+    "en": "Yes. Confirm your email and mobile number on the application.",
+    "zhHans": "会。请在申请表中确认邮箱和手机号码。",
+    "zhHant": "會。請在申請表中確認電郵和手提電話號碼。"
+  },
+  {
+    "id": "dialogo-camara_municipal-tambem-preciso-de-mandar-recolher-um-sofa-velho",
+    "situacao": "camara_municipal",
+    "order": 558,
+    "purpose": "expanded real-world coverage",
+    "pt": "Também preciso de mandar recolher um sofá velho.",
+    "en": "I also need to arrange collection of an old sofa.",
+    "zhHans": "我还需要预约回收一张旧沙发。",
+    "zhHant": "我還需要預約回收一張舊梳化。"
+  },
+  {
+    "id": "dialogo-camara_municipal-a-recolha-de-monos-e-marcada-pelo-telefone-ou-pelo-portal-municipal",
+    "situacao": "camara_municipal",
+    "order": 559,
+    "purpose": "expanded real-world coverage",
+    "pt": "A recolha de monos é marcada pelo telefone ou pelo portal municipal.",
+    "en": "Bulky-waste collection is booked by phone or on the municipal portal.",
+    "zhHans": "大件垃圾回收可通过电话或市政府网站预约。",
+    "zhHant": "大型廢物回收可透過電話或市政府網站預約。"
+  },
+  {
+    "id": "dialogo-camara_municipal-posso-deixa-lo-junto-aos-contentores-esta-noite",
+    "situacao": "camara_municipal",
+    "order": 560,
+    "purpose": "expanded real-world coverage",
+    "pt": "Posso deixá-lo junto aos contentores esta noite?",
+    "en": "Can I leave it beside the bins tonight?",
+    "zhHans": "今晚可以把它放在垃圾箱旁吗？",
+    "zhHant": "今晚可以把它放在垃圾箱旁嗎？"
+  },
+  {
+    "id": "dialogo-camara_municipal-so-depois-de-receber-a-data-e-as-instrucoes-da-recolha",
+    "situacao": "camara_municipal",
+    "order": 561,
+    "purpose": "expanded real-world coverage",
+    "pt": "Só depois de receber a data e as instruções da recolha.",
+    "en": "Only after you receive the collection date and instructions.",
+    "zhHans": "请先等到收到回收日期和指示后再放。",
+    "zhHant": "請先等到收到回收日期和指示後再放。"
+  },
+  {
+    "id": "dialogo-camara_municipal-ha-algum-custo-para-uma-recolha-domestica",
+    "situacao": "camara_municipal",
+    "order": 562,
+    "purpose": "expanded real-world coverage",
+    "pt": "Há algum custo para uma recolha doméstica?",
+    "en": "Is there a fee for a household collection?",
+    "zhHans": "家庭大件垃圾回收收费吗？",
+    "zhHant": "家居大型廢物回收收費嗎？"
+  },
+  {
+    "id": "dialogo-camara_municipal-consulte-as-condicoes-do-seu-municipio-quando-fizer-a-marcacao",
+    "situacao": "camara_municipal",
+    "order": 563,
+    "purpose": "expanded real-world coverage",
+    "pt": "Consulte as condições do seu município quando fizer a marcação.",
+    "en": "Check your municipality's conditions when you book.",
+    "zhHans": "预约时请查看您所在市政府的规定。",
+    "zhHant": "預約時請查看您所屬市政府的規定。"
+  },
+  {
+    "id": "dialogo-camara_municipal-quero-ainda-comunicar-barulho-de-obras-fora-do-horario",
+    "situacao": "camara_municipal",
+    "order": 564,
+    "purpose": "expanded real-world coverage",
+    "pt": "Quero ainda comunicar barulho de obras fora do horário.",
+    "en": "I also want to report building noise outside permitted hours.",
+    "zhHans": "我还想投诉非施工时段的装修噪音。",
+    "zhHant": "我還想投訴非施工時段的裝修噪音。"
+  },
+  {
+    "id": "dialogo-camara_municipal-registe-os-dias-as-horas-e-a-morada-onde-ocorre-o-ruido",
+    "situacao": "camara_municipal",
+    "order": 565,
+    "purpose": "expanded real-world coverage",
+    "pt": "Registe os dias, as horas e a morada onde ocorre o ruído.",
+    "en": "Record the dates, times, and address where the noise occurs.",
+    "zhHans": "请记录噪音发生的日期、时间和地址。",
+    "zhHant": "請記錄噪音發生的日期、時間和地址。"
+  },
+  {
+    "id": "dialogo-camara_municipal-a-situacao-acontece-quase-todas-as-noites",
+    "situacao": "camara_municipal",
+    "order": 566,
+    "purpose": "expanded real-world coverage",
+    "pt": "A situação acontece quase todas as noites.",
+    "en": "It happens almost every night.",
+    "zhHans": "这种情况几乎每晚都发生。",
+    "zhHant": "這種情況幾乎每晚都發生。"
+  },
+  {
+    "id": "dialogo-camara_municipal-se-estiver-a-acontecer-agora-contacte-tambem-as-autoridades-policiais",
+    "situacao": "camara_municipal",
+    "order": 567,
+    "purpose": "expanded real-world coverage",
+    "pt": "Se estiver a acontecer agora, contacte também as autoridades policiais.",
+    "en": "If it is happening now, also contact the police authorities.",
+    "zhHans": "如果现在正在发生，也请联系警方。",
+    "zhHant": "如果現在正在發生，也請聯絡警方。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-a-minha-profissao-e-regulamentada-em-portugal",
+    "situacao": "reconhecimento_diplomas",
+    "order": 568,
+    "purpose": "expanded real-world coverage",
+    "pt": "A minha profissão é regulamentada em Portugal?",
+    "en": "Is my profession regulated in Portugal?",
+    "zhHans": "我的职业在葡萄牙属于受监管职业吗？",
+    "zhHant": "我的職業在葡萄牙屬於受規管職業嗎？"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-consulte-a-autoridade-competente-antes-de-escolher-o-tipo-de-reconhecimento",
+    "situacao": "reconhecimento_diplomas",
+    "order": 569,
+    "purpose": "expanded real-world coverage",
+    "pt": "Consulte a autoridade competente antes de escolher o tipo de reconhecimento.",
+    "en": "Check with the competent authority before choosing the recognition type.",
+    "zhHans": "选择认可类型前，请先咨询主管机构。",
+    "zhHant": "選擇認可類型前，請先向主管機構查詢。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-os-meus-documentos-estao-em-ingles-preciso-de-traducao",
+    "situacao": "reconhecimento_diplomas",
+    "order": 570,
+    "purpose": "expanded real-world coverage",
+    "pt": "Os meus documentos estão em inglês. Preciso de tradução?",
+    "en": "My documents are in English. Do I need a translation?",
+    "zhHans": "我的文件是英文的，需要翻译吗？",
+    "zhHant": "我的文件是英文的，需要翻譯嗎？"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-confirme-as-regras-da-instituicao-que-vai-analisar-o-pedido",
+    "situacao": "reconhecimento_diplomas",
+    "order": 571,
+    "purpose": "expanded real-world coverage",
+    "pt": "Confirme as regras da instituição que vai analisar o pedido.",
+    "en": "Check the rules of the institution that will assess the application.",
+    "zhHans": "请确认负责审核申请的机构要求。",
+    "zhHant": "請確認負責審核申請的院校規定。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-o-portal-da-erro-quando-tento-anexar-o-certificado",
+    "situacao": "reconhecimento_diplomas",
+    "order": 572,
+    "purpose": "expanded real-world coverage",
+    "pt": "O portal dá erro quando tento anexar o certificado.",
+    "en": "The portal shows an error when I try to attach the transcript.",
+    "zhHans": "我上传成绩单时网站报错。",
+    "zhHant": "我上載成績單時網站出錯。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-verifique-o-formato-e-o-tamanho-do-ficheiro-antes-de-tentar-novamente",
+    "situacao": "reconhecimento_diplomas",
+    "order": 573,
+    "purpose": "expanded real-world coverage",
+    "pt": "Verifique o formato e o tamanho do ficheiro antes de tentar novamente.",
+    "en": "Check the file format and size before trying again.",
+    "zhHans": "重新尝试前，请检查文件格式和大小。",
+    "zhHant": "再次嘗試前，請檢查檔案格式和大小。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-ja-submeti-o-pedido-mas-falta-uma-disciplina-no-certificado",
+    "situacao": "reconhecimento_diplomas",
+    "order": 574,
+    "purpose": "expanded real-world coverage",
+    "pt": "Já submeti o pedido, mas falta uma disciplina no certificado.",
+    "en": "I have submitted the application, but one subject is missing from the transcript.",
+    "zhHans": "我已经提交申请，但成绩单上少了一门课程。",
+    "zhHant": "我已經提交申請，但成績單上欠了一門科目。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-contacte-a-instituicao-e-indique-a-referencia-antes-de-enviar-outro-ficheiro",
+    "situacao": "reconhecimento_diplomas",
+    "order": 575,
+    "purpose": "expanded real-world coverage",
+    "pt": "Contacte a instituição e indique a referência antes de enviar outro ficheiro.",
+    "en": "Contact the institution and give the reference before sending another file.",
+    "zhHans": "发送新文件前，请联系机构并提供申请编号。",
+    "zhHant": "傳送新檔案前，請聯絡院校並提供申請編號。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-tambem-posso-pedir-a-conversao-da-classificacao-final",
+    "situacao": "reconhecimento_diplomas",
+    "order": 576,
+    "purpose": "expanded real-world coverage",
+    "pt": "Também posso pedir a conversão da classificação final?",
+    "en": "Can I also request conversion of the final grade?",
+    "zhHans": "我也可以申请最终成绩换算吗？",
+    "zhHant": "我也可以申請最終成績換算嗎？"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-sim-mas-confirme-se-esse-servico-esta-incluido-no-pedido-escolhido",
+    "situacao": "reconhecimento_diplomas",
+    "order": 577,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, mas confirme se esse serviço está incluído no pedido escolhido.",
+    "en": "Yes, but check whether that service is included in the chosen application.",
+    "zhHans": "可以，但请确认所选申请是否包含这项服务。",
+    "zhHant": "可以，但請確認所選申請是否包括這項服務。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-perdi-o-passaporte-e-tenho-uma-viagem-marcada-para-sexta-feira",
+    "situacao": "consulado_documentos",
+    "order": 578,
+    "purpose": "expanded real-world coverage",
+    "pt": "Perdi o passaporte e tenho uma viagem marcada para sexta-feira.",
+    "en": "I lost my passport and have a trip booked for Friday.",
+    "zhHans": "我丢了护照，星期五有行程。",
+    "zhHant": "我遺失了護照，星期五有行程。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-ja-apresentou-a-denuncia-na-policia-local",
+    "situacao": "consulado_documentos",
+    "order": 579,
+    "purpose": "expanded real-world coverage",
+    "pt": "Já apresentou a denúncia na polícia local?",
+    "en": "Have you already filed a report with the local police?",
+    "zhHans": "您已经向当地警方报案了吗？",
+    "zhHant": "您已經向當地警方報案了嗎？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-sim-trouxe-a-participacao-e-uma-copia-do-passaporte",
+    "situacao": "consulado_documentos",
+    "order": 580,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Trouxe a participação e uma cópia do passaporte.",
+    "en": "Yes. I brought the police report and a copy of the passport.",
+    "zhHans": "报案了。我带了报案证明和护照复印件。",
+    "zhHant": "報案了。我帶了報案證明和護照副本。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-vamos-avaliar-se-pode-ser-emitido-um-documento-de-viagem-de-emergencia",
+    "situacao": "consulado_documentos",
+    "order": 581,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vamos avaliar se pode ser emitido um documento de viagem de emergência.",
+    "en": "We will assess whether an emergency travel document can be issued.",
+    "zhHans": "我们会评估能否签发紧急旅行证件。",
+    "zhHant": "我們會評估能否簽發緊急旅行證件。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-esse-documento-serve-para-regressar-ao-meu-pais",
+    "situacao": "consulado_documentos",
+    "order": 582,
+    "purpose": "expanded real-world coverage",
+    "pt": "Esse documento serve para regressar ao meu país?",
+    "en": "Can that document be used to return to my country?",
+    "zhHans": "这份证件可以用来返回我的国家吗？",
+    "zhHant": "這份證件可以用來返回我的國家嗎？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-a-validade-e-o-percurso-permitido-sao-explicados-quando-for-emitido",
+    "situacao": "consulado_documentos",
+    "order": 583,
+    "purpose": "expanded real-world coverage",
+    "pt": "A validade e o percurso permitido são explicados quando for emitido.",
+    "en": "Its validity and permitted route will be explained when it is issued.",
+    "zhHans": "签发时会说明有效期和允许的路线。",
+    "zhHant": "簽發時會說明有效期和允許的路線。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-preciso-de-fotografias-e-de-outra-identificacao",
+    "situacao": "consulado_documentos",
+    "order": 584,
+    "purpose": "expanded real-world coverage",
+    "pt": "Preciso de fotografias e de outra identificação?",
+    "en": "Do I need photographs and another form of identification?",
+    "zhHans": "我需要照片和其他身份证明吗？",
+    "zhHant": "我需要相片和其他身份證明嗎？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-traga-tudo-o-que-tiver-o-posto-confirma-os-documentos-necessarios",
+    "situacao": "consulado_documentos",
+    "order": 585,
+    "purpose": "expanded real-world coverage",
+    "pt": "Traga tudo o que tiver; o posto confirma os documentos necessários.",
+    "en": "Bring everything you have; the consular post will confirm what is required.",
+    "zhHans": "请带上所有现有材料；领事机构会确认所需文件。",
+    "zhHant": "請帶備所有現有資料；領事機構會確認所需文件。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-posso-receber-o-documento-antes-da-viagem",
+    "situacao": "consulado_documentos",
+    "order": 586,
+    "purpose": "expanded real-world coverage",
+    "pt": "Posso receber o documento antes da viagem?",
+    "en": "Can I receive the document before the trip?",
+    "zhHans": "我能在出发前拿到证件吗？",
+    "zhHant": "我能在出發前拿到證件嗎？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-vamos-registar-a-urgencia-mas-so-confirmamos-o-prazo-depois-da-analise",
+    "situacao": "consulado_documentos",
+    "order": 587,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vamos registar a urgência, mas só confirmamos o prazo depois da análise.",
+    "en": "We will record the urgency, but can only confirm the timing after assessment.",
+    "zhHans": "我们会登记紧急情况，但只能在审核后确认时间。",
+    "zhHant": "我們會登記緊急情況，但只能在審核後確認時間。"
+  },
+  {
+    "id": "dialogo-arrendamento-faco-a-vistoria-consigo-e-envio-a-transferencia-depois-de-entregar-as-chaves",
+    "situacao": "arrendamento",
+    "order": 588,
+    "purpose": "expanded real-world coverage",
+    "pt": "Faço a vistoria consigo e envio a transferência depois de entregar as chaves.",
+    "en": "I will inspect the property with you and transfer the deposit after you return the keys.",
+    "zhHans": "我会和您一起验房，交还钥匙后转还押金。",
+    "zhHant": "我會和您一起驗樓，交還鎖匙後轉還按金。"
+  },
+  {
+    "id": "dialogo-transportes-obrigado-onde-posso-validar-antes-da-proxima-viagem",
+    "situacao": "transportes",
+    "order": 589,
+    "purpose": "expanded real-world coverage",
+    "pt": "Obrigado. Onde posso validar antes da próxima viagem?",
+    "en": "Thank you. Where can I validate before my next journey?",
+    "zhHans": "谢谢。下次乘车前在哪里验证？",
+    "zhHant": "謝謝。下次乘車前在哪裡拍卡？"
+  },
+  {
+    "id": "dialogo-transportes-use-a-maquina-junto-a-porta-ou-ao-acesso-a-plataforma",
+    "situacao": "transportes",
+    "order": 590,
+    "purpose": "expanded real-world coverage",
+    "pt": "Use a máquina junto à porta ou ao acesso à plataforma.",
+    "en": "Use the machine by the door or at the platform entrance.",
+    "zhHans": "请使用车门旁或站台入口处的机器。",
+    "zhHant": "請使用車門旁或月台入口的拍卡機。"
+  },
+  {
+    "id": "dialogo-transportes-percebi-vou-validar-sempre-mesmo-com-o-passe-mensal",
+    "situacao": "transportes",
+    "order": 591,
+    "purpose": "expanded real-world coverage",
+    "pt": "Percebi. Vou validar sempre, mesmo com o passe mensal.",
+    "en": "I understand. I will always validate, even with a monthly pass.",
+    "zhHans": "明白了。即使使用月票，我也会每次验证。",
+    "zhHant": "明白了。即使用月票，我也會每次拍卡。"
+  },
+  {
+    "id": "dialogo-veterinario-quando-ficam-prontos-os-resultados-das-analises",
+    "situacao": "veterinario",
+    "order": 592,
+    "purpose": "expanded real-world coverage",
+    "pt": "Quando ficam prontos os resultados das análises?",
+    "en": "When will the test results be ready?",
+    "zhHans": "检查结果什么时候出来？",
+    "zhHant": "化驗結果甚麼時候有？"
+  },
+  {
+    "id": "dialogo-veterinario-amanha-de-manha-telefonamos-lhe-com-os-resultados",
+    "situacao": "veterinario",
+    "order": 593,
+    "purpose": "expanded real-world coverage",
+    "pt": "Amanhã de manhã telefonamos-lhe com os resultados.",
+    "en": "We will call you tomorrow morning with the results.",
+    "zhHans": "明天上午我们会打电话告知结果。",
+    "zhHant": "明天上午我們會致電告知結果。"
+  },
+  {
+    "id": "dialogo-veterinario-ate-la-posso-dar-lhe-comida-ou-agua",
+    "situacao": "veterinario",
+    "order": 594,
+    "purpose": "expanded real-world coverage",
+    "pt": "Até lá, posso dar-lhe comida ou água?",
+    "en": "Until then, may I give him food or water?",
+    "zhHans": "在此之前可以给它吃东西或喝水吗？",
+    "zhHant": "在此之前可以給牠吃東西或喝水嗎？"
+  },
+  {
+    "id": "dialogo-veterinario-pode-dar-agua-espere-pelas-nossas-indicacoes-antes-de-lhe-dar-comida",
+    "situacao": "veterinario",
+    "order": 595,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode dar água; espere pelas nossas indicações antes de lhe dar comida.",
+    "en": "You may give water; wait for our instructions before giving food.",
+    "zhHans": "可以喝水；喂食前请等我们的指示。",
+    "zhHant": "可以喝水；餵食前請等我們的指示。"
+  },
+  {
+    "id": "dialogo-ginasio-ha-alguem-que-me-explique-como-usar-as-maquinas",
+    "situacao": "ginasio",
+    "order": 596,
+    "purpose": "expanded real-world coverage",
+    "pt": "Há alguém que me explique como usar as máquinas?",
+    "en": "Is there someone who can explain how to use the machines?",
+    "zhHans": "有人可以教我怎样使用器械吗？",
+    "zhHant": "有人可以教我怎樣使用健身器械嗎？"
+  },
+  {
+    "id": "dialogo-ginasio-sim-a-avaliacao-inicial-inclui-uma-orientacao-com-um-instrutor",
+    "situacao": "ginasio",
+    "order": 597,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, a avaliação inicial inclui uma orientação com um instrutor.",
+    "en": "Yes, the initial assessment includes guidance from an instructor.",
+    "zhHans": "有，初次评估包括教练指导。",
+    "zhHant": "有，初次評估包括教練指導。"
+  },
+  {
+    "id": "dialogo-ginasio-tenho-uma-lesao-no-joelho-devo-avisar-antes-da-aula",
+    "situacao": "ginasio",
+    "order": 598,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tenho uma lesão no joelho. Devo avisar antes da aula?",
+    "en": "I have a knee injury. Should I mention it before the class?",
+    "zhHans": "我的膝盖有伤，上课前需要说明吗？",
+    "zhHant": "我的膝蓋有傷，上堂前需要說明嗎？"
+  },
+  {
+    "id": "dialogo-ginasio-sim-fale-com-o-instrutor-para-adaptar-os-exercicios",
+    "situacao": "ginasio",
+    "order": 599,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Fale com o instrutor para adaptar os exercícios.",
+    "en": "Yes. Speak to the instructor so the exercises can be adapted.",
+    "zhHans": "需要。请告诉教练，以便调整练习。",
+    "zhHant": "需要。請告訴教練，以便調整練習。"
+  },
+  {
+    "id": "dialogo-convivio-queres-que-leve-alguma-coisa-para-o-lanche",
+    "situacao": "convivio",
+    "order": 600,
+    "purpose": "expanded real-world coverage",
+    "pt": "Queres que leve alguma coisa para o lanche?",
+    "en": "Would you like me to bring something for the snack?",
+    "zhHans": "要我带点什么来吃吗？",
+    "zhHant": "要我帶點甚麼來吃嗎？"
+  },
+  {
+    "id": "dialogo-convivio-traz-fruta-se-puderes-eu-levo-sandes-e-agua",
+    "situacao": "convivio",
+    "order": 601,
+    "purpose": "expanded real-world coverage",
+    "pt": "Traz fruta, se puderes. Eu levo sandes e água.",
+    "en": "Bring some fruit if you can. I will bring sandwiches and water.",
+    "zhHans": "可以的话带些水果。我带三明治和水。",
+    "zhHant": "可以的話帶些水果。我帶三文治和水。"
+  },
+  {
+    "id": "dialogo-convivio-esta-combinado-manda-me-a-localizacao-quando-chegares",
+    "situacao": "convivio",
+    "order": 602,
+    "purpose": "expanded real-world coverage",
+    "pt": "Está combinado. Manda-me a localização quando chegares.",
+    "en": "Agreed. Send me the location when you arrive.",
+    "zhHans": "说好了。你到了以后把位置发给我。",
+    "zhHant": "說好了。你到了之後把位置傳給我。"
+  },
+  {
+    "id": "dialogo-convivio-mando-sim-ate-sabado",
+    "situacao": "convivio",
+    "order": 603,
+    "purpose": "expanded real-world coverage",
+    "pt": "Mando, sim. Até sábado!",
+    "en": "I will. See you on Saturday!",
+    "zhHans": "好的，星期六见！",
+    "zhHant": "好的，星期六見！"
+  },
+  {
+    "id": "dialogo-vizinhos-sabe-a-quem-devo-avisar-sobre-uma-fuga-na-garagem",
+    "situacao": "vizinhos",
+    "order": 604,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sabe a quem devo avisar sobre uma fuga na garagem?",
+    "en": "Do you know whom I should tell about a leak in the garage?",
+    "zhHans": "您知道车库漏水应该通知谁吗？",
+    "zhHant": "您知道車房漏水應該通知誰嗎？"
+  },
+  {
+    "id": "dialogo-vizinhos-avise-a-administradora-do-condominio-o-numero-esta-no-atrio",
+    "situacao": "vizinhos",
+    "order": 605,
+    "purpose": "expanded real-world coverage",
+    "pt": "Avise a administradora do condomínio; o número está no átrio.",
+    "en": "Tell the condominium manager; the number is in the entrance hall.",
+    "zhHans": "请通知物业管理员；大厅里有电话号码。",
+    "zhHant": "請通知大廈管理公司；大堂有電話號碼。"
+  },
+  {
+    "id": "dialogo-vizinhos-vou-tirar-uma-fotografia-e-ligar-ja",
+    "situacao": "vizinhos",
+    "order": 606,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vou tirar uma fotografia e ligar já.",
+    "en": "I will take a photograph and call now.",
+    "zhHans": "我拍张照片马上打电话。",
+    "zhHant": "我會拍張相片，現在就致電。"
+  },
+  {
+    "id": "dialogo-vizinhos-obrigado-eu-tambem-vou-afastar-as-caixas-da-agua",
+    "situacao": "vizinhos",
+    "order": 607,
+    "purpose": "expanded real-world coverage",
+    "pt": "Obrigado. Eu também vou afastar as caixas da água.",
+    "en": "Thank you. I will also move the boxes away from the water.",
+    "zhHans": "谢谢。我也会把箱子移离积水。",
+    "zhHant": "謝謝。我也會把紙箱移離積水。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-queria-tambem-fazer-madeixas-mas-num-tom-natural",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 608,
+    "purpose": "expanded real-world coverage",
+    "pt": "Queria também fazer madeixas, mas num tom natural.",
+    "en": "I would also like highlights, but in a natural shade.",
+    "zhHans": "我还想挑染，但希望颜色自然。",
+    "zhHant": "我還想挑染，但希望顏色自然。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-podemos-escolher-a-cor-e-fazer-primeiro-um-teste-numa-madeixa",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 609,
+    "purpose": "expanded real-world coverage",
+    "pt": "Podemos escolher a cor e fazer primeiro um teste numa madeixa.",
+    "en": "We can choose the colour and test it on one strand first.",
+    "zhHans": "我们可以先选颜色，再用一小束头发测试。",
+    "zhHant": "我們可以先選顏色，再用一小束頭髮測試。"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-quanto-tempo-demora-o-corte-e-a-coloracao",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 610,
+    "purpose": "expanded real-world coverage",
+    "pt": "Quanto tempo demora o corte e a coloração?",
+    "en": "How long will the cut and colour take?",
+    "zhHans": "剪发和染发需要多长时间？",
+    "zhHant": "剪髮和染髮需要多長時間？"
+  },
+  {
+    "id": "dialogo-cabeleireiro_barbeiro-conte-com-cerca-de-duas-horas-aviso-antes-de-comecar",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 611,
+    "purpose": "expanded real-world coverage",
+    "pt": "Conte com cerca de duas horas; aviso antes de começar.",
+    "en": "Allow about two hours; I will let you know before we start.",
+    "zhHans": "大约需要两小时；开始前我会告诉您。",
+    "zhHant": "大約需要兩小時；開始前我會告訴您。"
+  },
+  {
+    "id": "dialogo-farmacia-posso-tomar-este-medicamento-com-os-outros-que-ja-tomo",
+    "situacao": "farmacia",
+    "order": 612,
+    "purpose": "expanded real-world coverage",
+    "pt": "Posso tomar este medicamento com os outros que já tomo?",
+    "en": "Can I take this medicine with the others I already take?",
+    "zhHans": "这种药可以和我正在服用的其他药一起吃吗？",
+    "zhHant": "這種藥可以和我正在服用的其他藥一起吃嗎？"
+  },
+  {
+    "id": "dialogo-farmacia-diga-me-quais-sao-ou-mostre-me-a-sua-lista-de-medicacao",
+    "situacao": "farmacia",
+    "order": 613,
+    "purpose": "expanded real-world coverage",
+    "pt": "Diga-me quais são ou mostre-me a sua lista de medicação.",
+    "en": "Tell me which ones they are, or show me your medication list.",
+    "zhHans": "请告诉我药名，或出示您的用药清单。",
+    "zhHant": "請告訴我藥名，或出示您的用藥清單。"
+  },
+  {
+    "id": "dialogo-farmacia-tenho-a-lista-no-telemovel-pode-verificar-por-favor",
+    "situacao": "farmacia",
+    "order": 614,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tenho a lista no telemóvel. Pode verificar, por favor?",
+    "en": "I have the list on my phone. Could you check it, please?",
+    "zhHans": "清单在手机里。可以帮我查看吗？",
+    "zhHant": "清單在手提電話裡。可以幫我查看嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-desculpe-esta-embalagem-esta-aberta-posso-troca-la",
+    "situacao": "supermercado_mercado",
+    "order": 615,
+    "purpose": "expanded real-world coverage",
+    "pt": "Desculpe, esta embalagem está aberta. Posso trocá-la?",
+    "en": "Excuse me, this package is open. Can I exchange it?",
+    "zhHans": "不好意思，这个包装开了，可以换吗？",
+    "zhHant": "不好意思，這個包裝開了，可以換嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-sim-leve-a-ao-apoio-ao-cliente-com-o-talao",
+    "situacao": "supermercado_mercado",
+    "order": 616,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Leve-a ao apoio ao cliente com o talão.",
+    "en": "Yes. Take it to customer service with the receipt.",
+    "zhHans": "可以，请带收据到顾客服务台。",
+    "zhHant": "可以，請帶收據到顧客服務處。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-na-peixaria-pode-arranjar-este-peixe-para-grelhar",
+    "situacao": "supermercado_mercado",
+    "order": 617,
+    "purpose": "expanded real-world coverage",
+    "pt": "Na peixaria, pode arranjar este peixe para grelhar?",
+    "en": "At the fish counter, can you prepare this fish for grilling?",
+    "zhHans": "在鱼柜台可以帮我把这条鱼处理好用来烤吗？",
+    "zhHant": "在魚檔可以幫我把這條魚處理好用來燒烤嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-claro-quer-sem-cabeca-e-aberto-ao-meio",
+    "situacao": "supermercado_mercado",
+    "order": 618,
+    "purpose": "expanded real-world coverage",
+    "pt": "Claro. Quer sem cabeça e aberto ao meio?",
+    "en": "Of course. Would you like the head removed and the fish split open?",
+    "zhHans": "可以。要去头并从中间剖开吗？",
+    "zhHant": "可以。要去頭並從中間切開嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-sim-por-favor-e-guarde-as-espinhas-a-parte",
+    "situacao": "supermercado_mercado",
+    "order": 619,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, por favor. E guarde as espinhas à parte.",
+    "en": "Yes, please. And keep the bones separately.",
+    "zhHans": "好的，也请把鱼骨另外装起来。",
+    "zhHant": "好的，也請把魚骨另外包起來。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-com-certeza-fica-pronto-dentro-de-cinco-minutos",
+    "situacao": "supermercado_mercado",
+    "order": 620,
+    "purpose": "expanded real-world coverage",
+    "pt": "Com certeza. Fica pronto dentro de cinco minutos.",
+    "en": "Certainly. It will be ready in five minutes.",
+    "zhHans": "没问题，五分钟后就好。",
+    "zhHant": "沒問題，五分鐘後就好。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-esta-caixa-e-so-para-quem-tem-menos-de-dez-artigos",
+    "situacao": "supermercado_mercado",
+    "order": 621,
+    "purpose": "expanded real-world coverage",
+    "pt": "Esta caixa é só para quem tem menos de dez artigos?",
+    "en": "Is this checkout only for people with fewer than ten items?",
+    "zhHans": "这个收银台只供少于十件商品的顾客使用吗？",
+    "zhHant": "這個收銀處只供少於十件貨品的顧客使用嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-sim-para-um-carrinho-cheio-use-a-caixa-seguinte",
+    "situacao": "supermercado_mercado",
+    "order": 622,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Para um carrinho cheio, use a caixa seguinte.",
+    "en": "Yes. For a full trolley, use the next checkout.",
+    "zhHans": "是的。购物车装满的话，请用下一个收银台。",
+    "zhHant": "是的。購物車裝滿的話，請用下一個收銀處。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-esqueci-me-de-pesar-as-macas-posso-voltar-atras",
+    "situacao": "supermercado_mercado",
+    "order": 623,
+    "purpose": "expanded real-world coverage",
+    "pt": "Esqueci-me de pesar as maçãs. Posso voltar atrás?",
+    "en": "I forgot to weigh the apples. Can I go back?",
+    "zhHans": "我忘了给苹果称重，可以回去称吗？",
+    "zhHant": "我忘了給蘋果磅重，可以回去磅嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-pode-deixo-a-compra-em-espera-enquanto-as-pesa",
+    "situacao": "supermercado_mercado",
+    "order": 624,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode. Deixo a compra em espera enquanto as pesa.",
+    "en": "Yes. I will hold the transaction while you weigh them.",
+    "zhHans": "可以。您去称重时，我先暂停结账。",
+    "zhHant": "可以。您去磅重時，我先暫停結帳。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-o-desconto-nao-apareceu-no-total",
+    "situacao": "supermercado_mercado",
+    "order": 625,
+    "purpose": "expanded real-world coverage",
+    "pt": "O desconto não apareceu no total.",
+    "en": "The discount did not appear in the total.",
+    "zhHans": "折扣没有显示在总额里。",
+    "zhHant": "折扣沒有顯示在總額裡。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-vou-confirmar-se-a-promocao-exige-o-cartao-da-loja",
+    "situacao": "supermercado_mercado",
+    "order": 626,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vou confirmar se a promoção exige o cartão da loja.",
+    "en": "I will check whether the offer requires the store card.",
+    "zhHans": "我来确认这项优惠是否需要会员卡。",
+    "zhHant": "我來確認這項優惠是否需要會員卡。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-queria-reservar-uma-mesa-para-seis-no-sabado-a-noite",
+    "situacao": "cafe_restaurante",
+    "order": 627,
+    "purpose": "expanded real-world coverage",
+    "pt": "Queria reservar uma mesa para seis no sábado à noite.",
+    "en": "I would like to book a table for six on Saturday evening.",
+    "zhHans": "我想预订星期六晚上六个人的桌位。",
+    "zhHant": "我想預訂星期六晚上六個人的座位。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-a-que-horas-e-em-nome-de-quem",
+    "situacao": "cafe_restaurante",
+    "order": 628,
+    "purpose": "expanded real-world coverage",
+    "pt": "A que horas e em nome de quem?",
+    "en": "At what time, and under what name?",
+    "zhHans": "几点？用谁的名字预订？",
+    "zhHant": "幾點？用誰的名字預訂？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-as-oito-em-nome-de-li-vamos-levar-uma-crianca-pequena",
+    "situacao": "cafe_restaurante",
+    "order": 629,
+    "purpose": "expanded real-world coverage",
+    "pt": "Às oito, em nome de Li. Vamos levar uma criança pequena.",
+    "en": "At eight, under Li. We will have a young child with us.",
+    "zhHans": "八点，姓 Li。我们会带一个小孩。",
+    "zhHant": "八點，姓 Li。我們會帶一個小孩。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-temos-cadeira-de-bebe-quer-a-mesa-numa-zona-mais-tranquila",
+    "situacao": "cafe_restaurante",
+    "order": 630,
+    "purpose": "expanded real-world coverage",
+    "pt": "Temos cadeira de bebé. Quer a mesa numa zona mais tranquila?",
+    "en": "We have a high chair. Would you like a table in a quieter area?",
+    "zhHans": "我们有儿童椅。您想坐在安静一点的区域吗？",
+    "zhHant": "我們有兒童椅。您想坐在安靜一點的位置嗎？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-sim-por-favor-uma-pessoa-do-grupo-e-vegetariana",
+    "situacao": "cafe_restaurante",
+    "order": 631,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, por favor. Uma pessoa do grupo é vegetariana.",
+    "en": "Yes, please. One person in the group is vegetarian.",
+    "zhHans": "好的。我们有一位素食者。",
+    "zhHant": "好的。我們有一位素食者。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-temos-duas-opcoes-vegetarianas-e-sopa-sem-carne",
+    "situacao": "cafe_restaurante",
+    "order": 632,
+    "purpose": "expanded real-world coverage",
+    "pt": "Temos duas opções vegetarianas e sopa sem carne.",
+    "en": "We have two vegetarian options and a meat-free soup.",
+    "zhHans": "我们有两种素食选择和不含肉的汤。",
+    "zhHant": "我們有兩款素食選擇和不含肉的湯。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-podemos-encomendar-uma-dose-para-levar",
+    "situacao": "cafe_restaurante",
+    "order": 633,
+    "purpose": "expanded real-world coverage",
+    "pt": "Podemos encomendar uma dose para levar?",
+    "en": "Can we order a portion to take away?",
+    "zhHans": "我们可以点一份外带吗？",
+    "zhHant": "我們可以點一份外賣嗎？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-pode-mas-a-embalagem-tem-um-custo-de-cinquenta-centimos",
+    "situacao": "cafe_restaurante",
+    "order": 634,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode, mas a embalagem tem um custo de cinquenta cêntimos.",
+    "en": "Yes, but the container costs fifty cents.",
+    "zhHans": "可以，但餐盒收费五十欧分。",
+    "zhHant": "可以，但餐盒收費五十歐仙。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-o-cafe-esta-incluido-no-menu-de-almoco",
+    "situacao": "cafe_restaurante",
+    "order": 635,
+    "purpose": "expanded real-world coverage",
+    "pt": "O café está incluído no menu de almoço?",
+    "en": "Is coffee included in the lunch menu?",
+    "zhHans": "午餐套餐包括咖啡吗？",
+    "zhHant": "午餐套餐包括咖啡嗎？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-inclui-cafe-ou-cha-mas-nao-inclui-sobremesa",
+    "situacao": "cafe_restaurante",
+    "order": 636,
+    "purpose": "expanded real-world coverage",
+    "pt": "Inclui café ou chá, mas não inclui sobremesa.",
+    "en": "It includes coffee or tea, but not dessert.",
+    "zhHans": "包括咖啡或茶，但不包括甜点。",
+    "zhHant": "包括咖啡或茶，但不包括甜品。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-pode-trazer-a-conta-quando-tiver-um-momento",
+    "situacao": "cafe_restaurante",
+    "order": 637,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode trazer a conta quando tiver um momento?",
+    "en": "Could you bring the bill when you have a moment?",
+    "zhHans": "您方便时可以把账单拿来吗？",
+    "zhHant": "您方便時可以把帳單拿來嗎？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-claro-quer-deixar-a-gorjeta-no-cartao-ou-em-dinheiro",
+    "situacao": "cafe_restaurante",
+    "order": 638,
+    "purpose": "expanded real-world coverage",
+    "pt": "Claro. Quer deixar a gorjeta no cartão ou em dinheiro?",
+    "en": "Of course. Would you like to leave the tip by card or in cash?",
+    "zhHans": "好的。小费要刷卡还是付现金？",
+    "zhHant": "好的。小費想用卡還是現金支付？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-tambem-queria-falar-da-minha-filha-tem-febre-desde-esta-manha",
+    "situacao": "consultorio_medico",
+    "order": 639,
+    "purpose": "expanded real-world coverage",
+    "pt": "Também queria falar da minha filha. Tem febre desde esta manhã.",
+    "en": "I would also like to discuss my daughter. She has had a fever since this morning.",
+    "zhHans": "我还想咨询女儿的情况。她从今天早上开始发烧。",
+    "zhHant": "我還想問女兒的情況。她由今天早上開始發燒。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-que-idade-tem-e-qual-foi-a-temperatura-mais-alta",
+    "situacao": "consultorio_medico",
+    "order": 640,
+    "purpose": "expanded real-world coverage",
+    "pt": "Que idade tem e qual foi a temperatura mais alta?",
+    "en": "How old is she, and what was the highest temperature?",
+    "zhHans": "她几岁？最高体温是多少？",
+    "zhHant": "她幾歲？最高體溫是多少？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-tem-quatro-anos-e-chegou-aos-trinta-e-nove-graus",
+    "situacao": "consultorio_medico",
+    "order": 641,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tem quatro anos e chegou aos trinta e nove graus.",
+    "en": "She is four, and it reached thirty-nine degrees.",
+    "zhHans": "她四岁，体温最高到三十九度。",
+    "zhHant": "她四歲，體溫最高到三十九度。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-esta-a-beber-liquidos-e-a-urinar-normalmente",
+    "situacao": "consultorio_medico",
+    "order": 642,
+    "purpose": "expanded real-world coverage",
+    "pt": "Está a beber líquidos e a urinar normalmente?",
+    "en": "Is she drinking fluids and urinating normally?",
+    "zhHans": "她喝水和排尿正常吗？",
+    "zhHant": "她飲水和小便正常嗎？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-bebe-pouco-e-diz-que-lhe-doi-o-ouvido",
+    "situacao": "consultorio_medico",
+    "order": 643,
+    "purpose": "expanded real-world coverage",
+    "pt": "Bebe pouco e diz que lhe dói o ouvido.",
+    "en": "She drinks very little and says her ear hurts.",
+    "zhHans": "她喝得很少，还说耳朵痛。",
+    "zhHant": "她飲得很少，還說耳朵痛。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-vou-observar-o-ouvido-e-pesar-a-crianca-antes-de-indicar-a-dose",
+    "situacao": "consultorio_medico",
+    "order": 644,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vou observar o ouvido e pesar a criança antes de indicar a dose.",
+    "en": "I will examine her ear and weigh her before advising the dose.",
+    "zhHans": "我会检查耳朵并先称体重，再确定剂量。",
+    "zhHant": "我會檢查耳朵並先量體重，再確定劑量。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-se-a-febre-subir-durante-a-noite-o-que-devo-fazer",
+    "situacao": "consultorio_medico",
+    "order": 645,
+    "purpose": "expanded real-world coverage",
+    "pt": "Se a febre subir durante a noite, o que devo fazer?",
+    "en": "What should I do if the fever rises during the night?",
+    "zhHans": "如果夜里体温升高，我该怎么办？",
+    "zhHant": "如果夜間體溫升高，我應該怎麼辦？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-ligue-para-o-sns-24-se-tiver-dificuldade-em-respirar-procure-ajuda-urgente",
+    "situacao": "consultorio_medico",
+    "order": 646,
+    "purpose": "expanded real-world coverage",
+    "pt": "Ligue para o SNS 24; se tiver dificuldade em respirar, procure ajuda urgente.",
+    "en": "Call SNS 24; if she has difficulty breathing, seek urgent help.",
+    "zhHans": "请致电 SNS 24；如果呼吸困难，请立即求助。",
+    "zhHant": "請致電 SNS 24；如果呼吸困難，請立即求助。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-o-medicamento-deve-ser-dado-antes-ou-depois-de-comer",
+    "situacao": "consultorio_medico",
+    "order": 647,
+    "purpose": "expanded real-world coverage",
+    "pt": "O medicamento deve ser dado antes ou depois de comer?",
+    "en": "Should the medicine be given before or after food?",
+    "zhHans": "这种药要饭前还是饭后服用？",
+    "zhHant": "這種藥要餐前還是餐後服用？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-pode-dar-depois-de-uma-refeicao-leve-e-respeitar-o-intervalo-indicado",
+    "situacao": "consultorio_medico",
+    "order": 648,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode dar depois de uma refeição leve e respeitar o intervalo indicado.",
+    "en": "You can give it after a light meal and follow the stated interval.",
+    "zhHans": "可以在少量进食后服用，并遵守规定的间隔。",
+    "zhHant": "可以在少量進食後服用，並遵守指定的間隔。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-quando-devemos-voltar-para-ser-reavaliada",
+    "situacao": "consultorio_medico",
+    "order": 649,
+    "purpose": "expanded real-world coverage",
+    "pt": "Quando devemos voltar para ser reavaliada?",
+    "en": "When should we come back for reassessment?",
+    "zhHans": "我们什么时候需要回来复诊？",
+    "zhHant": "我們甚麼時候需要回來覆診？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-voltem-se-nao-melhorar-em-quarenta-e-oito-horas-ou-se-surgir-outro-sintoma",
+    "situacao": "consultorio_medico",
+    "order": 650,
+    "purpose": "expanded real-world coverage",
+    "pt": "Voltem se não melhorar em quarenta e oito horas ou se surgir outro sintoma.",
+    "en": "Come back if she does not improve within forty-eight hours or develops another symptom.",
+    "zhHans": "如果四十八小时内没有好转或出现其他症状，请回来复诊。",
+    "zhHant": "如果四十八小時內沒有好轉或出現其他症狀，請回來覆診。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-a-tomada-da-cozinha-faz-faisca-quando-ligo-o-forno",
+    "situacao": "casa_reparacoes",
+    "order": 651,
+    "purpose": "expanded real-world coverage",
+    "pt": "A tomada da cozinha faz faísca quando ligo o forno.",
+    "en": "The kitchen socket sparks when I switch on the oven.",
+    "zhHans": "我打开烤箱时，厨房插座会冒火花。",
+    "zhHant": "我開焗爐時，廚房插座會冒火花。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-nao-volte-a-usa-la-e-desligue-esse-circuito-no-quadro-eletrico",
+    "situacao": "casa_reparacoes",
+    "order": 652,
+    "purpose": "expanded real-world coverage",
+    "pt": "Não volte a usá-la e desligue esse circuito no quadro elétrico.",
+    "en": "Do not use it again, and switch off that circuit at the fuse box.",
+    "zhHans": "请不要再使用，并在配电箱关闭该回路。",
+    "zhHant": "請不要再使用，並在電箱關掉該電路。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-o-eletricista-consegue-vir-hoje",
+    "situacao": "casa_reparacoes",
+    "order": 653,
+    "purpose": "expanded real-world coverage",
+    "pt": "O eletricista consegue vir hoje?",
+    "en": "Can the electrician come today?",
+    "zhHans": "电工今天能来吗？",
+    "zhHant": "電工今天能來嗎？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-consigo-marcar-uma-urgencia-para-o-fim-da-tarde",
+    "situacao": "casa_reparacoes",
+    "order": 654,
+    "purpose": "expanded real-world coverage",
+    "pt": "Consigo marcar uma urgência para o fim da tarde.",
+    "en": "I can book an emergency visit for late afternoon.",
+    "zhHans": "我可以预约今天傍晚的紧急上门服务。",
+    "zhHant": "我可以預約今天傍晚的緊急上門服務。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-a-deslocacao-tem-um-preco-fixo",
+    "situacao": "casa_reparacoes",
+    "order": 655,
+    "purpose": "expanded real-world coverage",
+    "pt": "A deslocação tem um preço fixo?",
+    "en": "Is there a fixed call-out fee?",
+    "zhHans": "上门费是固定的吗？",
+    "zhHant": "上門費是固定的嗎？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-sim-a-reparacao-e-as-pecas-sao-orcamentadas-depois-do-diagnostico",
+    "situacao": "casa_reparacoes",
+    "order": 656,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. A reparação e as peças são orçamentadas depois do diagnóstico.",
+    "en": "Yes. The repair and parts are quoted after diagnosis.",
+    "zhHans": "是的。检查后会另行报价维修和零件费用。",
+    "zhHant": "是的。檢查後會另行報價維修和零件費用。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-o-autoclismo-tambem-fica-sempre-a-correr",
+    "situacao": "casa_reparacoes",
+    "order": 657,
+    "purpose": "expanded real-world coverage",
+    "pt": "O autoclismo também fica sempre a correr.",
+    "en": "The toilet cistern also keeps running.",
+    "zhHans": "马桶水箱也一直流水。",
+    "zhHant": "坐廁水箱也一直流水。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-peca-ao-canalizador-para-verificar-a-valvula-quando-estiver-ai",
+    "situacao": "casa_reparacoes",
+    "order": 658,
+    "purpose": "expanded real-world coverage",
+    "pt": "Peça ao canalizador para verificar a válvula quando estiver aí.",
+    "en": "Ask the plumber to check the valve while there.",
+    "zhHans": "水管工到时请他也检查一下阀门。",
+    "zhHant": "水喉匠到時請他也檢查一下水掣。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-pode-enviar-me-a-fatura-e-a-garantia-por-email",
+    "situacao": "casa_reparacoes",
+    "order": 659,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode enviar-me a fatura e a garantia por email?",
+    "en": "Can you email me the invoice and warranty?",
+    "zhHans": "可以把发票和保修通过邮件发给我吗？",
+    "zhHant": "可以把發票和保養證明透過電郵傳給我嗎？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-claro-confirme-o-email-quando-assinar-a-folha-de-servico",
+    "situacao": "casa_reparacoes",
+    "order": 660,
+    "purpose": "expanded real-world coverage",
+    "pt": "Claro. Confirme o email quando assinar a folha de serviço.",
+    "en": "Of course. Confirm the email when you sign the service sheet.",
+    "zhHans": "可以。签服务单时请确认邮箱。",
+    "zhHant": "可以。簽署服務單時請確認電郵。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-se-a-avaria-voltar-ha-nova-cobranca",
+    "situacao": "casa_reparacoes",
+    "order": 661,
+    "purpose": "expanded real-world coverage",
+    "pt": "Se a avaria voltar, há nova cobrança?",
+    "en": "If the fault returns, will there be another charge?",
+    "zhHans": "如果故障再次出现，还会收费吗？",
+    "zhHant": "如果故障再次出現，還會收費嗎？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-se-for-a-mesma-avaria-dentro-da-garantia-contacte-nos-com-o-numero-da-fatura",
+    "situacao": "casa_reparacoes",
+    "order": 662,
+    "purpose": "expanded real-world coverage",
+    "pt": "Se for a mesma avaria dentro da garantia, contacte-nos com o número da fatura.",
+    "en": "If it is the same fault within the warranty, contact us with the invoice number.",
+    "zhHans": "如果在保修期内出现同一故障，请提供发票编号联系我们。",
+    "zhHant": "如果在保養期內出現同一故障，請提供發票編號聯絡我們。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-a-fatura-deste-mes-e-muito-mais-alta-do-que-o-habitual",
+    "situacao": "agua_luz_gas",
+    "order": 663,
+    "purpose": "expanded real-world coverage",
+    "pt": "A fatura deste mês é muito mais alta do que o habitual.",
+    "en": "This month's bill is much higher than usual.",
+    "zhHans": "这个月的账单比平时高很多。",
+    "zhHant": "這個月的賬單比平時高很多。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-pode-confirmar-se-a-leitura-e-real-ou-estimada",
+    "situacao": "agua_luz_gas",
+    "order": 664,
+    "purpose": "expanded real-world coverage",
+    "pt": "Pode confirmar se a leitura é real ou estimada?",
+    "en": "Can you check whether the reading is actual or estimated?",
+    "zhHans": "您能确认这是实际读数还是估算读数吗？",
+    "zhHant": "您能確認這是實際讀數還是估算讀數嗎？"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-diz-que-e-estimada-posso-comunicar-a-leitura-agora",
+    "situacao": "agua_luz_gas",
+    "order": 665,
+    "purpose": "expanded real-world coverage",
+    "pt": "Diz que é estimada. Posso comunicar a leitura agora?",
+    "en": "It says it is estimated. Can I submit the reading now?",
+    "zhHans": "上面写的是估算。我现在可以提交读数吗？",
+    "zhHant": "上面寫的是估算。我現在可以提交讀數嗎？"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-sim-diga-os-numeros-que-aparecem-no-contador",
+    "situacao": "agua_luz_gas",
+    "order": 666,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Diga os números que aparecem no contador.",
+    "en": "Yes. Tell me the numbers shown on the meter.",
+    "zhHans": "可以。请告诉我计量表上显示的数字。",
+    "zhHant": "可以。請告訴我錶上顯示的數字。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-tambem-ficamos-sem-eletricidade-so-neste-apartamento",
+    "situacao": "agua_luz_gas",
+    "order": 667,
+    "purpose": "expanded real-world coverage",
+    "pt": "Também ficámos sem eletricidade só neste apartamento.",
+    "en": "We have also lost power only in this flat.",
+    "zhHans": "另外，只有我们这套公寓停电了。",
+    "zhHant": "另外，只有我們這個單位停電了。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-verifique-primeiro-o-disjuntor-e-se-ha-avisos-de-avaria-na-zona",
+    "situacao": "agua_luz_gas",
+    "order": 668,
+    "purpose": "expanded real-world coverage",
+    "pt": "Verifique primeiro o disjuntor e se há avisos de avaria na zona.",
+    "en": "First check the circuit breaker and whether there are outage notices for the area.",
+    "zhHans": "请先检查断路器，并查看该地区是否有故障通知。",
+    "zhHant": "請先檢查斷路器，並查看該區是否有故障通知。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-o-disjuntor-volta-a-desligar-quando-ligo-o-esquentador",
+    "situacao": "agua_luz_gas",
+    "order": 669,
+    "purpose": "expanded real-world coverage",
+    "pt": "O disjuntor volta a desligar quando ligo o esquentador.",
+    "en": "The breaker trips again when I switch on the water heater.",
+    "zhHans": "一开热水器，断路器就再次跳闸。",
+    "zhHant": "一開熱水爐，斷路器就再次跳掣。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-desligue-o-aparelho-e-chame-um-tecnico-qualificado",
+    "situacao": "agua_luz_gas",
+    "order": 670,
+    "purpose": "expanded real-world coverage",
+    "pt": "Desligue o aparelho e chame um técnico qualificado.",
+    "en": "Switch off the appliance and call a qualified technician.",
+    "zhHans": "请关闭设备并联系合资格技术人员。",
+    "zhHant": "請關掉設備並聯絡合資格技術人員。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-senti-cheiro-a-gas-no-patamar-do-predio",
+    "situacao": "agua_luz_gas",
+    "order": 671,
+    "purpose": "expanded real-world coverage",
+    "pt": "Senti cheiro a gás no patamar do prédio.",
+    "en": "I smelled gas on the building landing.",
+    "zhHans": "我在楼层走廊闻到燃气味。",
+    "zhHant": "我在樓層走廊聞到煤氣味。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-nao-acenda-luzes-ventile-se-for-seguro-e-ligue-para-a-emergencia-do-gas",
+    "situacao": "agua_luz_gas",
+    "order": 672,
+    "purpose": "expanded real-world coverage",
+    "pt": "Não acenda luzes, ventile se for seguro e ligue para a emergência do gás.",
+    "en": "Do not switch on lights; ventilate if safe and call the gas emergency line.",
+    "zhHans": "不要开灯；在安全情况下通风，并拨打燃气紧急电话。",
+    "zhHant": "不要開燈；在安全情況下通風，並致電煤氣緊急熱線。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-tenho-de-sair-do-predio",
+    "situacao": "agua_luz_gas",
+    "order": 673,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tenho de sair do prédio?",
+    "en": "Do I need to leave the building?",
+    "zhHans": "我需要离开大楼吗？",
+    "zhHant": "我需要離開大廈嗎？"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-siga-as-instrucoes-da-linha-de-emergencia-e-avise-os-vizinhos-sem-usar-campainhas",
+    "situacao": "agua_luz_gas",
+    "order": 674,
+    "purpose": "expanded real-world coverage",
+    "pt": "Siga as instruções da linha de emergência e avise os vizinhos sem usar campainhas.",
+    "en": "Follow the emergency line's instructions and warn neighbours without using doorbells.",
+    "zhHans": "请遵循紧急热线指示，并不要使用门铃，通知邻居。",
+    "zhHant": "請遵從緊急熱線指示，並不要使用門鐘，通知鄰居。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-queria-um-cartao-pre-pago-sem-periodo-de-fidelizacao",
+    "situacao": "telemovel_internet",
+    "order": 675,
+    "purpose": "expanded real-world coverage",
+    "pt": "Queria um cartão pré-pago sem período de fidelização.",
+    "en": "I would like a prepaid SIM with no lock-in period.",
+    "zhHans": "我想要一张没有合约期的预付费 SIM 卡。",
+    "zhHant": "我想要一張沒有綁約期的預付費 SIM 卡。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-precisa-sobretudo-de-chamadas-ou-de-dados-moveis",
+    "situacao": "telemovel_internet",
+    "order": 676,
+    "purpose": "expanded real-world coverage",
+    "pt": "Precisa sobretudo de chamadas ou de dados móveis?",
+    "en": "Do you mainly need calls or mobile data?",
+    "zhHans": "您主要需要通话还是移动数据？",
+    "zhHant": "您主要需要通話還是流動數據？"
+  },
+  {
+    "id": "dialogo-telemovel_internet-preciso-de-muitos-dados-e-de-usar-o-telemovel-noutros-paises-da-uniao-europeia",
+    "situacao": "telemovel_internet",
+    "order": 677,
+    "purpose": "expanded real-world coverage",
+    "pt": "Preciso de muitos dados e de usar o telemóvel noutros países da União Europeia.",
+    "en": "I need plenty of data and to use the phone in other EU countries.",
+    "zhHans": "我需要较多流量，并会在其他欧盟国家使用。",
+    "zhHant": "我需要較多數據，並會在其他歐盟國家使用。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-este-tarifario-inclui-roaming-na-uniao-europeia-sujeito-a-politica-de-utilizacao-responsavel",
+    "situacao": "telemovel_internet",
+    "order": 678,
+    "purpose": "expanded real-world coverage",
+    "pt": "Este tarifário inclui roaming na União Europeia, sujeito à política de utilização responsável.",
+    "en": "This plan includes EU roaming, subject to the fair-use policy.",
+    "zhHans": "这个套餐包括欧盟漫游，但受公平使用政策限制。",
+    "zhHant": "這個計劃包括歐盟漫遊，但受公平使用政策限制。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-posso-manter-o-meu-numero-atual",
+    "situacao": "telemovel_internet",
+    "order": 679,
+    "purpose": "expanded real-world coverage",
+    "pt": "Posso manter o meu número atual?",
+    "en": "Can I keep my current number?",
+    "zhHans": "我可以保留现在的号码吗？",
+    "zhHant": "我可以保留現有號碼嗎？"
+  },
+  {
+    "id": "dialogo-telemovel_internet-sim-para-a-portabilidade-precisamos-do-codigo-de-validacao-da-operadora-atual",
+    "situacao": "telemovel_internet",
+    "order": 680,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Para a portabilidade, precisamos do código de validação da operadora atual.",
+    "en": "Yes. For number porting, we need the validation code from your current provider.",
+    "zhHans": "可以。携号转网需要现运营商的验证码。",
+    "zhHant": "可以。攜號轉台需要現有電訊商的驗證碼。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-em-casa-o-wi-fi-cai-varias-vezes-por-dia",
+    "situacao": "telemovel_internet",
+    "order": 681,
+    "purpose": "expanded real-world coverage",
+    "pt": "Em casa, o Wi-Fi cai várias vezes por dia.",
+    "en": "At home, the Wi-Fi drops several times a day.",
+    "zhHans": "家里的 Wi-Fi 每天会断几次。",
+    "zhHant": "家裡的 Wi-Fi 每天會斷線幾次。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-as-luzes-do-router-mudam-quando-a-ligacao-cai",
+    "situacao": "telemovel_internet",
+    "order": 682,
+    "purpose": "expanded real-world coverage",
+    "pt": "As luzes do router mudam quando a ligação cai?",
+    "en": "Do the router lights change when the connection drops?",
+    "zhHans": "断网时路由器指示灯会变化吗？",
+    "zhHant": "斷線時路由器指示燈會變化嗎？"
+  },
+  {
+    "id": "dialogo-telemovel_internet-a-luz-da-internet-fica-vermelha",
+    "situacao": "telemovel_internet",
+    "order": 683,
+    "purpose": "expanded real-world coverage",
+    "pt": "A luz da internet fica vermelha.",
+    "en": "The internet light turns red.",
+    "zhHans": "网络指示灯会变红。",
+    "zhHant": "網絡指示燈會變紅。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-vamos-fazer-um-teste-remoto-e-se-necessario-marcar-um-tecnico",
+    "situacao": "telemovel_internet",
+    "order": 684,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vamos fazer um teste remoto e, se necessário, marcar um técnico.",
+    "en": "We will run a remote test and, if needed, book a technician.",
+    "zhHans": "我们会进行远程测试，必要时预约技术人员。",
+    "zhHant": "我們會進行遙距測試，必要時預約技術人員。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-a-visita-tecnica-tem-algum-custo",
+    "situacao": "telemovel_internet",
+    "order": 685,
+    "purpose": "expanded real-world coverage",
+    "pt": "A visita técnica tem algum custo?",
+    "en": "Is there a charge for the technician's visit?",
+    "zhHans": "技术人员上门收费吗？",
+    "zhHant": "技術人員上門收費嗎？"
+  },
+  {
+    "id": "dialogo-telemovel_internet-so-ha-cobranca-se-a-avaria-nao-for-da-rede-ou-do-equipamento-fornecido",
+    "situacao": "telemovel_internet",
+    "order": 686,
+    "purpose": "expanded real-world coverage",
+    "pt": "Só há cobrança se a avaria não for da rede ou do equipamento fornecido.",
+    "en": "There is only a charge if the fault is not in the network or supplied equipment.",
+    "zhHans": "只有故障不属于网络或供应设备时才会收费。",
+    "zhHant": "只有故障不屬於網絡或供應設備時才會收費。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-este-aparelho-deixou-de-funcionar-ao-fim-de-duas-semanas",
+    "situacao": "trocas_devolucoes",
+    "order": 687,
+    "purpose": "expanded real-world coverage",
+    "pt": "Este aparelho deixou de funcionar ao fim de duas semanas.",
+    "en": "This appliance stopped working after two weeks.",
+    "zhHans": "这台设备用了两周就坏了。",
+    "zhHant": "這部電器用了兩星期就壞了。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-tem-a-fatura-e-trouxe-todos-os-acessorios",
+    "situacao": "trocas_devolucoes",
+    "order": 688,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tem a fatura e trouxe todos os acessórios?",
+    "en": "Do you have the invoice, and did you bring all the accessories?",
+    "zhHans": "您有发票并带齐所有配件吗？",
+    "zhHant": "您有發票並帶齊所有配件嗎？"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-sim-prefiro-a-reparacao-a-receber-um-vale",
+    "situacao": "trocas_devolucoes",
+    "order": 689,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim. Prefiro a reparação a receber um vale.",
+    "en": "Yes. I would prefer a repair rather than a voucher.",
+    "zhHans": "有。我希望维修，不想要代金券。",
+    "zhHant": "有。我希望維修，不想要購物券。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-vamos-registar-o-artigo-e-envia-lo-para-a-assistencia-tecnica",
+    "situacao": "trocas_devolucoes",
+    "order": 690,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vamos registar o artigo e enviá-lo para a assistência técnica.",
+    "en": "We will register the item and send it for technical service.",
+    "zhHans": "我们会登记商品并送往技术维修。",
+    "zhHant": "我們會登記貨品並送往技術維修。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-quanto-tempo-pode-demorar",
+    "situacao": "trocas_devolucoes",
+    "order": 691,
+    "purpose": "expanded real-world coverage",
+    "pt": "Quanto tempo pode demorar?",
+    "en": "How long might it take?",
+    "zhHans": "可能需要多长时间？",
+    "zhHant": "可能需要多長時間？"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-damos-uma-previsao-no-comprovativo-de-entrega-e-avisamos-por-mensagem",
+    "situacao": "trocas_devolucoes",
+    "order": 692,
+    "purpose": "expanded real-world coverage",
+    "pt": "Damos uma previsão no comprovativo de entrega e avisamos por mensagem.",
+    "en": "We will give an estimate on the receipt and notify you by message.",
+    "zhHans": "我们会在收件凭证上提供预计时间，并通过短信通知。",
+    "zhHant": "我們會在收件證明上提供預計時間，並透過短訊通知。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-recebi-esta-camisola-como-presente-e-nao-tenho-o-talao",
+    "situacao": "trocas_devolucoes",
+    "order": 693,
+    "purpose": "expanded real-world coverage",
+    "pt": "Recebi esta camisola como presente e não tenho o talão.",
+    "en": "I received this jumper as a gift and do not have the receipt.",
+    "zhHans": "这件毛衣是礼物，我没有收据。",
+    "zhHant": "這件冷衫是禮物，我沒有收據。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-tem-um-talao-de-oferta-ou-algum-comprovativo-da-compra",
+    "situacao": "trocas_devolucoes",
+    "order": 694,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tem um talão de oferta ou algum comprovativo da compra?",
+    "en": "Do you have a gift receipt or any proof of purchase?",
+    "zhHans": "您有礼品收据或其他购买证明吗？",
+    "zhHant": "您有禮物收據或其他購買證明嗎？"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-tenho-o-talao-de-oferta-posso-escolher-outro-artigo",
+    "situacao": "trocas_devolucoes",
+    "order": 695,
+    "purpose": "expanded real-world coverage",
+    "pt": "Tenho o talão de oferta. Posso escolher outro artigo?",
+    "en": "I have the gift receipt. Can I choose another item?",
+    "zhHans": "我有礼品收据，可以换其他商品吗？",
+    "zhHant": "我有禮物收據，可以換其他貨品嗎？"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-sim-dentro-do-prazo-e-pelo-valor-indicado-no-talao",
+    "situacao": "trocas_devolucoes",
+    "order": 696,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, dentro do prazo e pelo valor indicado no talão.",
+    "en": "Yes, within the deadline and for the value shown on the receipt.",
+    "zhHans": "可以，请在期限内按收据金额换购。",
+    "zhHant": "可以，請在期限內按收據金額換購。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-uma-compra-online-pode-ser-devolvida-nesta-loja",
+    "situacao": "trocas_devolucoes",
+    "order": 697,
+    "purpose": "expanded real-world coverage",
+    "pt": "Uma compra online pode ser devolvida nesta loja?",
+    "en": "Can an online purchase be returned to this shop?",
+    "zhHans": "网购商品可以在这家门店退货吗？",
+    "zhHant": "網購貨品可以在這間分店退貨嗎？"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-depende-do-vendedor-vou-confirmar-pelo-numero-da-encomenda",
+    "situacao": "trocas_devolucoes",
+    "order": 698,
+    "purpose": "expanded real-world coverage",
+    "pt": "Depende do vendedor. Vou confirmar pelo número da encomenda.",
+    "en": "It depends on the seller. I will check using the order number.",
+    "zhHans": "这取决于卖家。我会用订单号查询。",
+    "zhHant": "這取決於賣家。我會用訂單編號查詢。"
+  },
+  {
+    "id": "dialogo-policia_documentos-tambem-perdi-o-passaporte-preciso-de-viajar-amanha",
+    "situacao": "policia_documentos",
+    "order": 699,
+    "purpose": "expanded real-world coverage",
+    "pt": "Também perdi o passaporte. Preciso de viajar amanhã.",
+    "en": "I also lost my passport. I need to travel tomorrow.",
+    "zhHans": "我的护照也丢了，明天需要出行。",
+    "zhHant": "我的護照也遺失了，明天需要出行。"
+  },
+  {
+    "id": "dialogo-policia_documentos-depois-da-denuncia-contacte-imediatamente-o-seu-consulado",
+    "situacao": "policia_documentos",
+    "order": 700,
+    "purpose": "expanded real-world coverage",
+    "pt": "Depois da denúncia, contacte imediatamente o seu consulado.",
+    "en": "After filing the report, contact your consulate immediately.",
+    "zhHans": "报案后，请立即联系您的领事馆。",
+    "zhHant": "報案後，請立即聯絡您的領事館。"
+  },
+  {
+    "id": "dialogo-policia_documentos-posso-receber-uma-copia-em-ingles",
+    "situacao": "policia_documentos",
+    "order": 701,
+    "purpose": "expanded real-world coverage",
+    "pt": "Posso receber uma cópia em inglês?",
+    "en": "Can I receive a copy in English?",
+    "zhHans": "我可以拿到英文副本吗？",
+    "zhHant": "我可以取得英文副本嗎？"
+  },
+  {
+    "id": "dialogo-policia_documentos-a-participacao-e-emitida-em-portugues-peca-ao-consulado-orientacao-sobre-traducao",
+    "situacao": "policia_documentos",
+    "order": 702,
+    "purpose": "expanded real-world coverage",
+    "pt": "A participação é emitida em português; peça ao consulado orientação sobre tradução.",
+    "en": "The report is issued in Portuguese; ask the consulate for guidance on translation.",
+    "zhHans": "报案证明以葡萄牙语签发；翻译事宜请咨询领事馆。",
+    "zhHant": "報案證明以葡萄牙語簽發；翻譯事宜請向領事館查詢。"
+  },
+  {
+    "id": "dialogo-policia_documentos-encontraram-uma-mochila-parecida-nos-perdidos-e-achados",
+    "situacao": "policia_documentos",
+    "order": 703,
+    "purpose": "expanded real-world coverage",
+    "pt": "Encontraram uma mochila parecida nos perdidos e achados.",
+    "en": "A similar backpack was found at lost and found.",
+    "zhHans": "失物招领处找到一个相似的背包。",
+    "zhHant": "失物認領處找到一個相似的背囊。"
+  },
+  {
+    "id": "dialogo-policia_documentos-descreva-a-cor-a-marca-e-o-que-estava-la-dentro",
+    "situacao": "policia_documentos",
+    "order": 704,
+    "purpose": "expanded real-world coverage",
+    "pt": "Descreva a cor, a marca e o que estava lá dentro.",
+    "en": "Describe the colour, brand, and what was inside.",
+    "zhHans": "请描述颜色、品牌和里面的物品。",
+    "zhHant": "請描述顏色、品牌和裡面的物品。"
+  },
+  {
+    "id": "dialogo-policia_documentos-era-azul-escura-e-tinha-os-livros-da-minha-filha",
+    "situacao": "policia_documentos",
+    "order": 705,
+    "purpose": "expanded real-world coverage",
+    "pt": "Era azul-escura e tinha os livros da minha filha.",
+    "en": "It was dark blue and contained my daughter's books.",
+    "zhHans": "是深蓝色的，里面有我女儿的书。",
+    "zhHant": "是深藍色的，裡面有我女兒的書。"
+  },
+  {
+    "id": "dialogo-policia_documentos-vamos-comparar-a-descricao-antes-de-lhe-mostrar-a-mochila",
+    "situacao": "policia_documentos",
+    "order": 706,
+    "purpose": "expanded real-world coverage",
+    "pt": "Vamos comparar a descrição antes de lhe mostrar a mochila.",
+    "en": "We will compare the description before showing you the backpack.",
+    "zhHans": "我们会先核对描述，再给您看背包。",
+    "zhHant": "我們會先核對描述，再給您看背囊。"
+  },
+  {
+    "id": "dialogo-policia_documentos-partiram-o-vidro-do-carro-e-levaram-o-computador",
+    "situacao": "policia_documentos",
+    "order": 707,
+    "purpose": "expanded real-world coverage",
+    "pt": "Partiram o vidro do carro e levaram o computador.",
+    "en": "They broke the car window and took the computer.",
+    "zhHans": "有人砸了车窗并偷走电脑。",
+    "zhHant": "有人打破車窗並偷走電腦。"
+  },
+  {
+    "id": "dialogo-policia_documentos-nao-mexa-no-veiculo-ate-os-agentes-registarem-os-danos",
+    "situacao": "policia_documentos",
+    "order": 708,
+    "purpose": "expanded real-world coverage",
+    "pt": "Não mexa no veículo até os agentes registarem os danos.",
+    "en": "Do not touch the vehicle until the officers record the damage.",
+    "zhHans": "警员记录损坏情况前，请不要动车。",
+    "zhHant": "警員記錄損毀情況前，請不要移動車輛。"
+  },
+  {
+    "id": "dialogo-policia_documentos-preciso-do-auto-para-entregar-a-seguradora",
+    "situacao": "policia_documentos",
+    "order": 709,
+    "purpose": "expanded real-world coverage",
+    "pt": "Preciso do auto para entregar à seguradora.",
+    "en": "I need the report for the insurance company.",
+    "zhHans": "我需要报案记录交给保险公司。",
+    "zhHant": "我需要報案紀錄交給保險公司。"
+  },
+  {
+    "id": "dialogo-policia_documentos-indicamos-o-numero-da-ocorrencia-e-como-pedir-uma-certidao",
+    "situacao": "policia_documentos",
+    "order": 710,
+    "purpose": "expanded real-world coverage",
+    "pt": "Indicamos o número da ocorrência e como pedir uma certidão.",
+    "en": "We will give you the incident number and explain how to request a certificate.",
+    "zhHans": "我们会提供事件编号，并说明如何申请证明。",
+    "zhHant": "我們會提供事件編號，並說明如何申請證明書。"
+  },
+  {
+    "id": "dialogo-trabalho_hotelaria-sim-por-favor-e-a-que-horas-e-servido-o-pequeno-almoco",
+    "situacao": "trabalho_hotelaria",
+    "order": 711,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, por favor. E a que horas é servido o pequeno-almoço?",
+    "en": "Yes, please. And what time is breakfast served?",
+    "zhHans": "好的。早餐几点供应？",
+    "zhHant": "好的。早餐幾點供應？"
+  },
+  {
+    "id": "dialogo-trabalho_hotelaria-das-sete-as-dez-no-restaurante-do-res-do-chao",
+    "situacao": "trabalho_hotelaria",
+    "order": 712,
+    "purpose": "expanded real-world coverage",
+    "pt": "Das sete às dez, no restaurante do rés do chão.",
+    "en": "From seven to ten, in the restaurant on the ground floor.",
+    "zhHans": "七点到十点，在一楼餐厅。",
+    "zhHant": "七點到十點，在地下餐廳。"
+  },
+  {
+    "id": "dialogo-trabalho_restauracao-obrigado-pode-trazer-tambem-um-copo-de-agua-por-favor",
+    "situacao": "trabalho_restauracao",
+    "order": 713,
+    "purpose": "expanded real-world coverage",
+    "pt": "Obrigado. Pode trazer também um copo de água, por favor?",
+    "en": "Thank you. Could you also bring a glass of water, please?",
+    "zhHans": "谢谢。也请给我一杯水。",
+    "zhHant": "謝謝。也請給我一杯水。"
+  },
+  {
+    "id": "dialogo-trabalho_limpezas-na-proxima-semana-mantenho-o-mesmo-horario",
+    "situacao": "trabalho_limpezas",
+    "order": 714,
+    "purpose": "expanded real-world coverage",
+    "pt": "Na próxima semana mantenho o mesmo horário?",
+    "en": "Do I keep the same schedule next week?",
+    "zhHans": "下周还是同样的时间吗？",
+    "zhHant": "下星期還是同樣的時間嗎？"
+  },
+  {
+    "id": "dialogo-trabalho_limpezas-sim-terca-e-sexta-as-nove-se-houver-mudanca-aviso-com-antecedencia",
+    "situacao": "trabalho_limpezas",
+    "order": 715,
+    "purpose": "expanded real-world coverage",
+    "pt": "Sim, terça e sexta às nove. Se houver mudança, aviso com antecedência.",
+    "en": "Yes, Tuesday and Friday at nine. If anything changes, I will let you know in advance.",
+    "zhHans": "是的，星期二和星期五九点。如有变化，我会提前通知。",
+    "zhHant": "是的，星期二和星期五九點。如有改動，我會提前通知。"
+  },
+  {
+    "id": "dialogo-trabalho_construcao-esta-bem-vou-confirmar-as-horas-na-folha-antes-de-assinar",
+    "situacao": "trabalho_construcao",
+    "order": 716,
+    "purpose": "expanded real-world coverage",
+    "pt": "Está bem. Vou confirmar as horas na folha antes de assinar.",
+    "en": "All right. I will check the hours on the sheet before signing.",
+    "zhHans": "好的。我签字前会核对工时记录。",
+    "zhHant": "好的。我簽名之前會核對工時紀錄。"
+  },
+  {
+    "id": "dialogo-trabalho_entregas-a-app-manda-me-agora-para-o-ponto-de-apoio",
+    "situacao": "trabalho_entregas",
+    "order": 717,
+    "purpose": "expanded real-world coverage",
+    "pt": "A app manda-me agora para o ponto de apoio.",
+    "en": "The app is now directing me to the support point.",
+    "zhHans": "应用程序现在让我前往服务点。",
+    "zhHant": "應用程式現在指示我前往支援點。"
+  },
+  {
+    "id": "dialogo-trabalho_entregas-leva-o-pedido-selado-e-mostra-o-numero-da-entrega",
+    "situacao": "trabalho_entregas",
+    "order": 718,
+    "purpose": "expanded real-world coverage",
+    "pt": "Leva o pedido selado e mostra o número da entrega.",
+    "en": "Take the sealed order and show the delivery number.",
+    "zhHans": "带上密封的订单，并出示配送编号。",
+    "zhHant": "帶上密封的訂單，並出示送貨編號。"
+  },
+  {
+    "id": "dialogo-trabalho_entregas-entendido-vou-tirar-uma-fotografia-do-comprovativo-quando-o-entregar",
+    "situacao": "trabalho_entregas",
+    "order": 719,
+    "purpose": "expanded real-world coverage",
+    "pt": "Entendido. Vou tirar uma fotografia do comprovativo quando o entregar.",
+    "en": "Understood. I will photograph the receipt when I hand it over.",
+    "zhHans": "明白。交付后我会拍下凭证。",
+    "zhHant": "明白。交付後我會拍下證明。"
   }
 ];
 
@@ -22912,15 +24842,6 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "zhHant": "含入會費嗎？"
   },
   {
-    "id": "cartao-ginasio-qual-e-o-horario",
-    "situacao": "ginasio",
-    "order": 192,
-    "pt": "Qual é o horário?",
-    "en": "What are the opening hours?",
-    "zhHans": "营业时间是？",
-    "zhHant": "營業時間是？"
-  },
-  {
     "id": "cartao-ginasio-ha-aulas-de-grupo",
     "situacao": "ginasio",
     "order": 193,
@@ -22928,15 +24849,6 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "en": "Are there group classes?",
     "zhHans": "有团体课吗？",
     "zhHant": "有團體課嗎？"
-  },
-  {
-    "id": "cartao-ginasio-preciso-de-trazer-toalha",
-    "situacao": "ginasio",
-    "order": 194,
-    "pt": "Preciso de trazer toalha?",
-    "en": "Do I need to bring a towel?",
-    "zhHans": "要自备毛巾吗？",
-    "zhHant": "要自備毛巾嗎？"
   },
   {
     "id": "cartao-ginasio-onde-sao-os-balnearios",
@@ -24425,5 +26337,3675 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "en": "How can I track the request after submitting it?",
     "zhHans": "提交后怎样查询申请进度？",
     "zhHant": "提交後怎樣查詢申請進度？"
+  },
+  {
+    "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-a-comissao-de-manutencao",
+    "situacao": "banco",
+    "order": 355,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a comissão de manutenção?",
+    "en": "Where can I find information about account maintenance fee?",
+    "zhHans": "我可以在哪里查到有关账户管理费的信息？",
+    "zhHant": "我可以在哪裡查到有關帳戶管理費的資訊？"
+  },
+  {
+    "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-a-transferencia-imediata",
+    "situacao": "banco",
+    "order": 356,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a transferência imediata?",
+    "en": "Where can I find information about instant transfer?",
+    "zhHans": "我可以在哪里查到有关即时转账的信息？",
+    "zhHant": "我可以在哪裡查到有關即時轉帳的資訊？"
+  },
+  {
+    "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-o-extrato-bancario",
+    "situacao": "banco",
+    "order": 357,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o extrato bancário?",
+    "en": "Where can I find information about bank statement?",
+    "zhHans": "我可以在哪里查到有关银行对账单的信息？",
+    "zhHant": "我可以在哪裡查到有關銀行對帳單的資訊？"
+  },
+  {
+    "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-a-conta-poupanca",
+    "situacao": "banco",
+    "order": 358,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a conta poupança?",
+    "en": "Where can I find information about savings account?",
+    "zhHans": "我可以在哪里查到有关储蓄账户的信息？",
+    "zhHant": "我可以在哪裡查到有關儲蓄帳戶的資訊？"
+  },
+  {
+    "id": "cartao-banco-pode-dar-me-informacoes-sobre-o-limite-de-levantamento",
+    "situacao": "banco",
+    "order": 359,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o limite de levantamento?",
+    "en": "Could you give me information about withdrawal limit?",
+    "zhHans": "可以告诉我有关提款限额的信息吗？",
+    "zhHant": "可以告訴我有關提款限額的資訊嗎？"
+  },
+  {
+    "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-a-assinatura",
+    "situacao": "banco",
+    "order": 360,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a assinatura?",
+    "en": "Where can I find information about signature?",
+    "zhHans": "我可以在哪里查到有关签名的信息？",
+    "zhHant": "我可以在哪裡查到有關簽名的資訊？"
+  },
+  {
+    "id": "cartao-banco-pode-dar-me-informacoes-sobre-o-credito-habitacao",
+    "situacao": "banco",
+    "order": 361,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o crédito habitação?",
+    "en": "Could you give me information about mortgage?",
+    "zhHans": "可以告诉我有关房屋貸款的信息吗？",
+    "zhHant": "可以告訴我有關房屋貸款的資訊嗎？"
+  },
+  {
+    "id": "cartao-banco-pode-dar-me-informacoes-sobre-o-titular-da-conta",
+    "situacao": "banco",
+    "order": 362,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o titular da conta?",
+    "en": "Could you give me information about account holder?",
+    "zhHans": "可以告诉我有关账户持有人的信息吗？",
+    "zhHant": "可以告訴我有關帳戶持有人的資訊嗎？"
+  },
+  {
+    "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-o-mb-way",
+    "situacao": "banco",
+    "order": 363,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o MB Way?",
+    "en": "Where can I find information about MB Way (mobile payment app)?",
+    "zhHans": "我可以在哪里查到有关MB Way（手机支付应用）的信息？",
+    "zhHant": "我可以在哪裡查到有關MB Way（手機支付應用）的資訊？"
+  },
+  {
+    "id": "cartao-financas-onde-posso-encontrar-informacoes-sobre-o-recibo-verde-eletronico",
+    "situacao": "financas",
+    "order": 364,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o recibo verde eletrónico?",
+    "en": "Where can I find information about electronic freelance receipt?",
+    "zhHans": "我可以在哪里查到有关电子綠色收据的信息？",
+    "zhHant": "我可以在哪裡查到有關電子綠色收據的資訊？"
+  },
+  {
+    "id": "cartao-financas-pode-dar-me-informacoes-sobre-a-certidao-de-residencia-fiscal",
+    "situacao": "financas",
+    "order": 365,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a certidão de residência fiscal?",
+    "en": "Could you give me information about certificate of tax residency?",
+    "zhHans": "可以告诉我有关税务居民证明的信息吗？",
+    "zhHant": "可以告訴我有關稅務居民證明的資訊嗎？"
+  },
+  {
+    "id": "cartao-financas-onde-posso-encontrar-informacoes-sobre-o-portal-das-financas",
+    "situacao": "financas",
+    "order": 366,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o Portal das Finanças?",
+    "en": "Where can I find information about the Finanças online portal?",
+    "zhHans": "我可以在哪里查到有关财政入口网站的信息？",
+    "zhHant": "我可以在哪裡查到有關財政入口網站的資訊？"
+  },
+  {
+    "id": "cartao-financas-onde-posso-encontrar-informacoes-sobre-o-rendimento",
+    "situacao": "financas",
+    "order": 367,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o rendimento?",
+    "en": "Where can I find information about income?",
+    "zhHans": "我可以在哪里查到有关收入的信息？",
+    "zhHant": "我可以在哪裡查到有關收入的資訊？"
+  },
+  {
+    "id": "cartao-financas-pode-dar-me-informacoes-sobre-o-certificado-digital",
+    "situacao": "financas",
+    "order": 368,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o certificado digital?",
+    "en": "Could you give me information about digital certificate?",
+    "zhHans": "可以告诉我有关数字证书的信息吗？",
+    "zhHant": "可以告訴我有關數字證書的資訊嗎？"
+  },
+  {
+    "id": "cartao-financas-onde-posso-encontrar-informacoes-sobre-o-imi",
+    "situacao": "financas",
+    "order": 369,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o IMI?",
+    "en": "Where can I find information about property tax?",
+    "zhHans": "我可以在哪里查到有关房产税（IMI）的信息？",
+    "zhHant": "我可以在哪裡查到有關房產稅（IMI）的資訊？"
+  },
+  {
+    "id": "cartao-financas-pode-dar-me-informacoes-sobre-o-reembolso",
+    "situacao": "financas",
+    "order": 370,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o reembolso?",
+    "en": "Could you give me information about tax refund?",
+    "zhHans": "可以告诉我有关退税的信息吗？",
+    "zhHant": "可以告訴我有關退稅的資訊嗎？"
+  },
+  {
+    "id": "cartao-financas-pode-dar-me-informacoes-sobre-o-iva",
+    "situacao": "financas",
+    "order": 371,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o IVA?",
+    "en": "Could you give me information about VAT?",
+    "zhHans": "可以告诉我有关增值税（IVA）的信息吗？",
+    "zhHant": "可以告訴我有關增值稅（IVA）的資訊嗎？"
+  },
+  {
+    "id": "cartao-financas-preciso-de-esclarecer-uma-duvida-sobre-o-representante-fiscal",
+    "situacao": "financas",
+    "order": 372,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o representante fiscal.",
+    "en": "I have a question about tax representative.",
+    "zhHans": "我需要咨询有关税务代表的问题。",
+    "zhHant": "我需要查詢有關稅務代表的問題。"
+  },
+  {
+    "id": "cartao-correios-onde-posso-encontrar-informacoes-sobre-o-prazo-de-entrega",
+    "situacao": "correios",
+    "order": 373,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o prazo de entrega?",
+    "en": "Where can I find information about delivery time?",
+    "zhHans": "我可以在哪里查到有关送达时间的信息？",
+    "zhHant": "我可以在哪裡查到有關送達時間的資訊？"
+  },
+  {
+    "id": "cartao-correios-pode-dar-me-informacoes-sobre-o-horario-de-funcionamento",
+    "situacao": "correios",
+    "order": 374,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o horário de funcionamento?",
+    "en": "Could you give me information about opening hours?",
+    "zhHans": "可以告诉我有关營业时间的信息吗？",
+    "zhHant": "可以告訴我有關營業時間的資訊嗎？"
+  },
+  {
+    "id": "cartao-correios-onde-posso-encontrar-informacoes-sobre-o-vale-postal",
+    "situacao": "correios",
+    "order": 375,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o vale postal?",
+    "en": "Where can I find information about postal money order?",
+    "zhHans": "我可以在哪里查到有关邮政汇票的信息？",
+    "zhHant": "我可以在哪裡查到有關郵政匯票的資訊？"
+  },
+  {
+    "id": "cartao-correios-pode-dar-me-informacoes-sobre-o-codigo-de-rastreio",
+    "situacao": "correios",
+    "order": 376,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o código de rastreio?",
+    "en": "Could you give me information about tracking number?",
+    "zhHans": "可以告诉我有关追踪編号的信息吗？",
+    "zhHant": "可以告訴我有關追蹤編號的資訊嗎？"
+  },
+  {
+    "id": "cartao-correios-pode-dar-me-informacoes-sobre-a-taxa-alfandegaria",
+    "situacao": "correios",
+    "order": 377,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a taxa alfandegária?",
+    "en": "Could you give me information about customs fee?",
+    "zhHans": "可以告诉我有关关税的信息吗？",
+    "zhHant": "可以告訴我有關關稅的資訊嗎？"
+  },
+  {
+    "id": "cartao-correios-com-quem-devo-falar-sobre-a-segunda-tentativa-de-entrega",
+    "situacao": "correios",
+    "order": 378,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a segunda tentativa de entrega?",
+    "en": "Who should I speak to about second delivery attempt?",
+    "zhHans": "关于第二次派送，我应该和谁联系？",
+    "zhHant": "關於第二次派送，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-correios-preciso-de-esclarecer-uma-duvida-sobre-o-formulario-aduaneiro",
+    "situacao": "correios",
+    "order": 379,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o formulário aduaneiro.",
+    "en": "I have a question about customs form.",
+    "zhHans": "我需要咨询有关報关单的问题。",
+    "zhHant": "我需要查詢有關報關單的問題。"
+  },
+  {
+    "id": "cartao-correios-preciso-de-esclarecer-uma-duvida-sobre-a-entrega-ao-domicilio",
+    "situacao": "correios",
+    "order": 380,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a entrega ao domicílio.",
+    "en": "I have a question about home delivery.",
+    "zhHans": "我需要咨询有关送货上门的问题。",
+    "zhHant": "我需要查詢有關送貨上門的問題。"
+  },
+  {
+    "id": "cartao-correios-preciso-de-esclarecer-uma-duvida-sobre-o-aviso-de-rececao",
+    "situacao": "correios",
+    "order": 381,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o aviso de receção.",
+    "en": "I have a question about proof of delivery (return receipt).",
+    "zhHans": "我需要咨询有关回执（签收证明）的问题。",
+    "zhHant": "我需要查詢有關回執（簽收證明）的問題。"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-onde-posso-encontrar-informacoes-sobre-a-fotocopia-autenticada",
+    "situacao": "junta_de_freguesia",
+    "order": 382,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a fotocópia autenticada?",
+    "en": "Where can I find information about certified photocopy?",
+    "zhHans": "我可以在哪里查到有关认证副本的信息？",
+    "zhHant": "我可以在哪裡查到有關認證副本的資訊？"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-onde-posso-encontrar-informacoes-sobre-o-agregado-familiar",
+    "situacao": "junta_de_freguesia",
+    "order": 383,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o agregado familiar?",
+    "en": "Where can I find information about household?",
+    "zhHans": "我可以在哪里查到有关家庭成员（同户）的信息？",
+    "zhHant": "我可以在哪裡查到有關家庭成員（同戶）的資訊？"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-pode-dar-me-informacoes-sobre-o-contrato-de-arrendamento",
+    "situacao": "junta_de_freguesia",
+    "order": 384,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o contrato de arrendamento?",
+    "en": "Could you give me information about rental contract?",
+    "zhHans": "可以告诉我有关租赁合同的信息吗？",
+    "zhHant": "可以告訴我有關租賃合同的資訊嗎？"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-pode-dar-me-informacoes-sobre-o-recenseamento-eleitoral",
+    "situacao": "junta_de_freguesia",
+    "order": 385,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o recenseamento eleitoral?",
+    "en": "Could you give me information about electoral registration?",
+    "zhHans": "可以告诉我有关选民登记的信息吗？",
+    "zhHant": "可以告訴我有關選民登記的資訊嗎？"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-pode-dar-me-informacoes-sobre-o-atestado-de-residencia",
+    "situacao": "junta_de_freguesia",
+    "order": 386,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o atestado de residência?",
+    "en": "Could you give me information about certificate of residence?",
+    "zhHans": "可以告诉我有关居住证明书的信息吗？",
+    "zhHant": "可以告訴我有關居住證明書的資訊嗎？"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-pode-dar-me-informacoes-sobre-a-taxa-de-emissao",
+    "situacao": "junta_de_freguesia",
+    "order": 387,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a taxa de emissão?",
+    "en": "Could you give me information about issuance fee?",
+    "zhHans": "可以告诉我有关办理费用的信息吗？",
+    "zhHant": "可以告訴我有關辦理費用的資訊嗎？"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-com-quem-devo-falar-sobre-o-atestado-de-agregado-familiar",
+    "situacao": "junta_de_freguesia",
+    "order": 388,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o atestado de agregado familiar?",
+    "en": "Who should I speak to about household certificate?",
+    "zhHans": "关于家庭成员证明，我应该和谁联系？",
+    "zhHant": "關於家庭成員證明，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-preciso-de-esclarecer-uma-duvida-sobre-o-horario-de-atendimento",
+    "situacao": "junta_de_freguesia",
+    "order": 389,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o horário de atendimento.",
+    "en": "I have a question about office hours.",
+    "zhHans": "我需要咨询有关办公时间的问题。",
+    "zhHant": "我需要查詢有關辦公時間的問題。"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-queria-informacoes-sobre-a-declaracao-sob-compromisso-de-honra",
+    "situacao": "junta_de_freguesia",
+    "order": 390,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre a declaração sob compromisso de honra.",
+    "en": "I would like information about sworn declaration.",
+    "zhHans": "我想了解誓词声明（保证声明）。",
+    "zhHant": "我想了解誓詞聲明（保證聲明）。"
+  },
+  {
+    "id": "cartao-junta_de_freguesia-com-quem-devo-falar-sobre-o-comprovativo-de-pagamento",
+    "situacao": "junta_de_freguesia",
+    "order": 391,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o comprovativo de pagamento?",
+    "en": "Who should I speak to about proof of payment?",
+    "zhHans": "关于缴费憑证，我应该和谁联系？",
+    "zhHant": "關於繳費憑證，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-aima-onde-posso-encontrar-informacoes-sobre-a-declaracao-da-entidade-patronal",
+    "situacao": "aima",
+    "order": 392,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a declaração da entidade patronal?",
+    "en": "Where can I find information about employer's declaration?",
+    "zhHans": "我可以在哪里查到有关雇主声明的信息？",
+    "zhHant": "我可以在哪裡查到有關僱主聲明的資訊？"
+  },
+  {
+    "id": "cartao-aima-onde-posso-encontrar-informacoes-sobre-a-prorrogacao-de-permanencia",
+    "situacao": "aima",
+    "order": 393,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a prorrogação de permanência?",
+    "en": "Where can I find information about extension of stay?",
+    "zhHans": "我可以在哪里查到有关延期居留的信息？",
+    "zhHant": "我可以在哪裡查到有關延期居留的資訊？"
+  },
+  {
+    "id": "cartao-aima-onde-posso-encontrar-informacoes-sobre-o-portal-das-renovacoes",
+    "situacao": "aima",
+    "order": 394,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o Portal das Renovações?",
+    "en": "Where can I find information about the online Renewals Portal?",
+    "zhHans": "我可以在哪里查到有关线上续期平台的信息？",
+    "zhHant": "我可以在哪裡查到有關線上續期平台的資訊？"
+  },
+  {
+    "id": "cartao-aima-pode-dar-me-informacoes-sobre-a-recolha-de-dados-biometricos",
+    "situacao": "aima",
+    "order": 395,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a recolha de dados biométricos?",
+    "en": "Could you give me information about biometric data collection?",
+    "zhHans": "可以告诉我有关採集生物识別资料（按指紋等）的信息吗？",
+    "zhHant": "可以告訴我有關採集生物識別資料（按指紋等）的資訊嗎？"
+  },
+  {
+    "id": "cartao-aima-pode-dar-me-informacoes-sobre-a-certidao-de-nascimento",
+    "situacao": "aima",
+    "order": 396,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a certidão de nascimento?",
+    "en": "Could you give me information about birth certificate?",
+    "zhHans": "可以告诉我有关出生证明的信息吗？",
+    "zhHant": "可以告訴我有關出生證明的資訊嗎？"
+  },
+  {
+    "id": "cartao-aima-preciso-de-esclarecer-uma-duvida-sobre-o-comprovativo-de-meios-de-subsistencia",
+    "situacao": "aima",
+    "order": 397,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o comprovativo de meios de subsistência.",
+    "en": "I have a question about proof of means of subsistence.",
+    "zhHans": "我需要咨询有关生活來源证明的问题。",
+    "zhHant": "我需要查詢有關生活來源證明的問題。"
+  },
+  {
+    "id": "cartao-aima-pode-dar-me-informacoes-sobre-o-numero-de-processo",
+    "situacao": "aima",
+    "order": 398,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o número de processo?",
+    "en": "Could you give me information about case number?",
+    "zhHans": "可以告诉我有关案件編号的信息吗？",
+    "zhHant": "可以告訴我有關案件編號的資訊嗎？"
+  },
+  {
+    "id": "cartao-aima-pode-dar-me-informacoes-sobre-a-residencia-legal",
+    "situacao": "aima",
+    "order": 399,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a residência legal?",
+    "en": "Could you give me information about legal residence?",
+    "zhHans": "可以告诉我有关合法居留的信息吗？",
+    "zhHant": "可以告訴我有關合法居留的資訊嗎？"
+  },
+  {
+    "id": "cartao-aima-preciso-de-esclarecer-uma-duvida-sobre-o-registo-criminal-do-pais-de-origem",
+    "situacao": "aima",
+    "order": 400,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o registo criminal do país de origem.",
+    "en": "I have a question about criminal record from home country.",
+    "zhHans": "我需要咨询有关原籍國无犯罪记录的问题。",
+    "zhHant": "我需要查詢有關原籍國無犯罪記錄的問題。"
+  },
+  {
+    "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-a-declaracao-trimestral",
+    "situacao": "seguranca_social",
+    "order": 401,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a declaração trimestral?",
+    "en": "Where can I find information about quarterly declaration (self-employed)?",
+    "zhHans": "我可以在哪里查到有关季度申報（自雇）的信息？",
+    "zhHant": "我可以在哪裡查到有關季度申報（自僱）的資訊？"
+  },
+  {
+    "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-o-registo-do-nascimento",
+    "situacao": "seguranca_social",
+    "order": 402,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o registo do nascimento?",
+    "en": "Where can I find information about birth registration?",
+    "zhHans": "我可以在哪里查到有关出生登记的信息？",
+    "zhHant": "我可以在哪裡查到有關出生登記的資訊？"
+  },
+  {
+    "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-o-plano-prestacional",
+    "situacao": "seguranca_social",
+    "order": 403,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o plano prestacional?",
+    "en": "Where can I find information about instalment plan?",
+    "zhHans": "我可以在哪里查到有关分期还款计划的信息？",
+    "zhHant": "我可以在哪裡查到有關分期還款計劃的資訊？"
+  },
+  {
+    "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-balcao-da-seguranca-social",
+    "situacao": "seguranca_social",
+    "order": 404,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o balcão da Segurança Social?",
+    "en": "Could you give me information about Social Security counter?",
+    "zhHans": "可以告诉我有关社保局柜台的信息吗？",
+    "zhHant": "可以告訴我有關社保局櫃檯的資訊嗎？"
+  },
+  {
+    "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-a-baixa-por-doenca",
+    "situacao": "seguranca_social",
+    "order": 405,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a baixa por doença?",
+    "en": "Where can I find information about paid sick leave?",
+    "zhHans": "我可以在哪里查到有关病假津贴的信息？",
+    "zhHant": "我可以在哪裡查到有關病假津貼的資訊？"
+  },
+  {
+    "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-trabalhador-independente",
+    "situacao": "seguranca_social",
+    "order": 406,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o trabalhador independente?",
+    "en": "Could you give me information about self-employed worker?",
+    "zhHans": "可以告诉我有关自雇人士的信息吗？",
+    "zhHant": "可以告訴我有關自僱人士的資訊嗎？"
+  },
+  {
+    "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-a-isencao-de-contribuicoes",
+    "situacao": "seguranca_social",
+    "order": 407,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a isenção de contribuições?",
+    "en": "Could you give me information about contributions exemption?",
+    "zhHans": "可以告诉我有关供款豁免的信息吗？",
+    "zhHant": "可以告訴我有關供款豁免的資訊嗎？"
+  },
+  {
+    "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-os-descontos",
+    "situacao": "seguranca_social",
+    "order": 408,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre os descontos?",
+    "en": "Where can I find information about (social security) contributions?",
+    "zhHans": "我可以在哪里查到有关社保供款（扣缴）的信息？",
+    "zhHant": "我可以在哪裡查到有關社保供款（扣繳）的資訊？"
+  },
+  {
+    "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-abono-pre-natal",
+    "situacao": "seguranca_social",
+    "order": 409,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o abono pré-natal?",
+    "en": "Could you give me information about prenatal allowance?",
+    "zhHans": "可以告诉我有关产前津贴的信息吗？",
+    "zhHant": "可以告訴我有關產前津貼的資訊嗎？"
+  },
+  {
+    "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-comprovativo",
+    "situacao": "seguranca_social",
+    "order": 410,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o comprovativo?",
+    "en": "Could you give me information about proof / receipt (of application)?",
+    "zhHans": "可以告诉我有关申请憑证的信息吗？",
+    "zhHant": "可以告訴我有關申請憑證的資訊嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-onde-posso-encontrar-informacoes-sobre-o-comprovativo-de-pagamento",
+    "situacao": "espaco_cidadao",
+    "order": 411,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o comprovativo de pagamento?",
+    "en": "Where can I find information about proof of payment?",
+    "zhHans": "我可以在哪里查到有关缴费憑证的信息？",
+    "zhHant": "我可以在哪裡查到有關繳費憑證的資訊？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-onde-posso-encontrar-informacoes-sobre-o-comprovativo-de-morada",
+    "situacao": "espaco_cidadao",
+    "order": 412,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o comprovativo de morada?",
+    "en": "Where can I find information about proof of address?",
+    "zhHans": "我可以在哪里查到有关住址证明的信息？",
+    "zhHant": "我可以在哪裡查到有關住址證明的資訊？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-pode-explicar-me-o-que-devo-fazer-para-atualizar-a-morada",
+    "situacao": "espaco_cidadao",
+    "order": 413,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para atualizar a morada?",
+    "en": "Could you explain what I need to do to update my address?",
+    "zhHans": "可以说明我要怎样更新地址吗？",
+    "zhHant": "可以說明我要怎樣更新地址嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-pode-explicar-me-o-que-devo-fazer-para-tirar-a-senha",
+    "situacao": "espaco_cidadao",
+    "order": 414,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para tirar a senha?",
+    "en": "Could you explain what I need to do to take a queue ticket?",
+    "zhHans": "可以说明我要怎样取号（排队票）吗？",
+    "zhHant": "可以說明我要怎樣取號（排隊票）嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-pode-dar-me-informacoes-sobre-o-comprovativo",
+    "situacao": "espaco_cidadao",
+    "order": 415,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o comprovativo?",
+    "en": "Could you give me information about proof / receipt (of application)?",
+    "zhHans": "可以告诉我有关申请憑证的信息吗？",
+    "zhHant": "可以告訴我有關申請憑證的資訊嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-preciso-de-esclarecer-uma-duvida-sobre-o-horario-de-atendimento",
+    "situacao": "espaco_cidadao",
+    "order": 416,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o horário de atendimento.",
+    "en": "I have a question about office hours.",
+    "zhHans": "我需要咨询有关办公时间的问题。",
+    "zhHant": "我需要查詢有關辦公時間的問題。"
+  },
+  {
+    "id": "cartao-espaco_cidadao-como-posso-levantar-o-documento",
+    "situacao": "espaco_cidadao",
+    "order": 417,
+    "purpose": "useful situation example",
+    "pt": "Como posso levantar o documento?",
+    "en": "How can I collect the document?",
+    "zhHans": "我该怎样领取文件？",
+    "zhHant": "我該怎樣領取文件？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-qual-e-o-seu-numero-de-telefone",
+    "situacao": "espaco_cidadao",
+    "order": 418,
+    "purpose": "useful situation example",
+    "pt": "Qual é o seu número de telefone?",
+    "en": "What is your telephone number?",
+    "zhHans": "您的电话号码是多少？",
+    "zhHant": "您的電話號碼是多少？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-preciso-de-esclarecer-uma-duvida-sobre-a-senha-de-acesso",
+    "situacao": "espaco_cidadao",
+    "order": 419,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a senha de acesso.",
+    "en": "I have a question about access password (portal login).",
+    "zhHans": "我需要咨询有关登入密码的问题。",
+    "zhHant": "我需要查詢有關登入密碼的問題。"
+  },
+  {
+    "id": "cartao-espaco_cidadao-com-quem-devo-falar-sobre-a-senha-de-atendimento",
+    "situacao": "espaco_cidadao",
+    "order": 420,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a senha de atendimento?",
+    "en": "Who should I speak to about queue ticket?",
+    "zhHans": "关于排队取号，我应该和谁联系？",
+    "zhHant": "關於排隊取號，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-pode-dar-me-a-sua-senha",
+    "situacao": "espaco_cidadao",
+    "order": 421,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me a sua senha?",
+    "en": "Can you give me your ticket number?",
+    "zhHans": "您可以给我您的号码票吗？",
+    "zhHant": "您可以給我您的號碼牌嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-com-quem-devo-falar-sobre-o-formulario",
+    "situacao": "espaco_cidadao",
+    "order": 422,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o formulário?",
+    "en": "Who should I speak to about form?",
+    "zhHans": "关于表格，我应该和谁联系？",
+    "zhHant": "關於表格，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-onde-posso-encontrar-informacoes-sobre-o-comprovativo-de-agendamento",
+    "situacao": "imt_carta_conducao",
+    "order": 423,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o comprovativo de agendamento?",
+    "en": "Where can I find information about proof of appointment?",
+    "zhHans": "我可以在哪里查到有关预约憑证的信息？",
+    "zhHant": "我可以在哪裡查到有關預約憑證的資訊？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-pode-dar-me-informacoes-sobre-o-estado-do-processo",
+    "situacao": "imt_carta_conducao",
+    "order": 424,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o estado do processo?",
+    "en": "Could you give me information about case status?",
+    "zhHans": "可以告诉我有关案件状态的信息吗？",
+    "zhHant": "可以告訴我有關案件狀態的資訊嗎？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-onde-posso-encontrar-informacoes-sobre-as-taxas",
+    "situacao": "imt_carta_conducao",
+    "order": 425,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre as taxas?",
+    "en": "Where can I find information about fees?",
+    "zhHans": "我可以在哪里查到有关费用的信息？",
+    "zhHant": "我可以在哪裡查到有關費用的資訊？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-pode-dar-me-informacoes-sobre-o-atestado-medico",
+    "situacao": "imt_carta_conducao",
+    "order": 426,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o atestado médico?",
+    "en": "Could you give me information about medical certificate?",
+    "zhHans": "可以告诉我有关医生证明的信息吗？",
+    "zhHant": "可以告訴我有關醫生證明的資訊嗎？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-preciso-de-esclarecer-uma-duvida-sobre-a-recolha-de-dados-biometricos",
+    "situacao": "imt_carta_conducao",
+    "order": 427,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a recolha de dados biométricos.",
+    "en": "I have a question about biometric data collection.",
+    "zhHans": "我需要咨询有关採集生物识別资料（按指紋等）的问题。",
+    "zhHant": "我需要查詢有關採集生物識別資料（按指紋等）的問題。"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-preciso-de-esclarecer-uma-duvida-sobre-a-fotocopia-autenticada",
+    "situacao": "imt_carta_conducao",
+    "order": 428,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a fotocópia autenticada.",
+    "en": "I have a question about certified photocopy.",
+    "zhHans": "我需要咨询有关认证副本的问题。",
+    "zhHant": "我需要查詢有關認證副本的問題。"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-com-quem-devo-falar-sobre-o-reconhecimento-de-assinatura",
+    "situacao": "imt_carta_conducao",
+    "order": 429,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o reconhecimento de assinatura?",
+    "en": "Who should I speak to about signature certification?",
+    "zhHans": "关于签名认证，我应该和谁联系？",
+    "zhHant": "關於簽名認證，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-preciso-de-autorizacao-para-consulta-do-registo-criminal",
+    "situacao": "imt_carta_conducao",
+    "order": 430,
+    "purpose": "useful situation example",
+    "pt": "Preciso de autorização para consulta do registo criminal.",
+    "en": "I need authorisation to consult the criminal record.",
+    "zhHans": "我需要授权查询犯罪记录。",
+    "zhHant": "我需要授權查詢犯罪紀錄。"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-com-quem-devo-falar-sobre-a-traducao-certificada",
+    "situacao": "imt_carta_conducao",
+    "order": 431,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a tradução certificada?",
+    "en": "Who should I speak to about certified translation?",
+    "zhHans": "关于认证翻译，我应该和谁联系？",
+    "zhHant": "關於認證翻譯，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-queria-informacoes-sobre-o-comprovativo-de-pagamento",
+    "situacao": "imt_carta_conducao",
+    "order": 432,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o comprovativo de pagamento.",
+    "en": "I would like information about proof of payment.",
+    "zhHans": "我想了解缴费憑证。",
+    "zhHant": "我想了解繳費憑證。"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-queria-informacoes-sobre-o-numero-de-processo",
+    "situacao": "imt_carta_conducao",
+    "order": 433,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o número de processo.",
+    "en": "I would like information about case number.",
+    "zhHans": "我想了解案件編号。",
+    "zhHant": "我想了解案件編號。"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-que-documentos-necessarios-devo-trazer",
+    "situacao": "imt_carta_conducao",
+    "order": 434,
+    "purpose": "useful situation example",
+    "pt": "Que documentos devo trazer?",
+    "en": "Which documents should I bring?",
+    "zhHans": "我需要带哪些文件？",
+    "zhHant": "我需要帶哪些文件？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-onde-posso-encontrar-informacoes-sobre-o-registo-criminal-do-pais-de-origem",
+    "situacao": "conservatoria_registo_civil",
+    "order": 435,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o registo criminal do país de origem?",
+    "en": "Where can I find information about criminal record from home country?",
+    "zhHans": "我可以在哪里查到有关原籍國无犯罪记录的信息？",
+    "zhHant": "我可以在哪裡查到有關原籍國無犯罪記錄的資訊？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-onde-posso-encontrar-informacoes-sobre-o-reconhecimento-de-assinatura",
+    "situacao": "conservatoria_registo_civil",
+    "order": 436,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o reconhecimento de assinatura?",
+    "en": "Where can I find information about signature certification?",
+    "zhHans": "我可以在哪里查到有关签名认证的信息？",
+    "zhHant": "我可以在哪裡查到有關簽名認證的資訊？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-pode-dar-me-informacoes-sobre-o-estado-do-processo",
+    "situacao": "conservatoria_registo_civil",
+    "order": 437,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o estado do processo?",
+    "en": "Could you give me information about case status?",
+    "zhHans": "可以告诉我有关案件状态的信息吗？",
+    "zhHant": "可以告訴我有關案件狀態的資訊嗎？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-onde-posso-encontrar-informacoes-sobre-a-certidao",
+    "situacao": "conservatoria_registo_civil",
+    "order": 438,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a certidão?",
+    "en": "Where can I find information about certificate / official copy?",
+    "zhHans": "我可以在哪里查到有关证明书／正式副本的信息？",
+    "zhHant": "我可以在哪裡查到有關證明書／正式副本的資訊？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-pode-dar-me-informacoes-sobre-o-formulario",
+    "situacao": "conservatoria_registo_civil",
+    "order": 439,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o formulário?",
+    "en": "Could you give me information about form?",
+    "zhHans": "可以告诉我有关表格的信息吗？",
+    "zhHant": "可以告訴我有關表格的資訊嗎？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-preciso-de-esclarecer-uma-duvida-sobre-a-traducao-certificada",
+    "situacao": "conservatoria_registo_civil",
+    "order": 440,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a tradução certificada.",
+    "en": "I have a question about certified translation.",
+    "zhHans": "我需要咨询有关认证翻译的问题。",
+    "zhHant": "我需要查詢有關認證翻譯的問題。"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-com-quem-devo-falar-sobre-o-comprovativo-de-pagamento",
+    "situacao": "conservatoria_registo_civil",
+    "order": 441,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o comprovativo de pagamento?",
+    "en": "Who should I speak to about proof of payment?",
+    "zhHans": "关于缴费憑证，我应该和谁联系？",
+    "zhHant": "關於繳費憑證，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-com-quem-devo-falar-sobre-a-certidao-de-nascimento",
+    "situacao": "conservatoria_registo_civil",
+    "order": 442,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a certidão de nascimento?",
+    "en": "Who should I speak to about birth certificate?",
+    "zhHans": "关于出生证明，我应该和谁联系？",
+    "zhHant": "關於出生證明，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-com-quem-devo-falar-sobre-a-fotocopia-autenticada",
+    "situacao": "conservatoria_registo_civil",
+    "order": 443,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a fotocópia autenticada?",
+    "en": "Who should I speak to about certified photocopy?",
+    "zhHans": "关于认证副本，我应该和谁联系？",
+    "zhHant": "關於認證副本，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-preciso-de-esclarecer-uma-duvida-sobre-a-assinatura",
+    "situacao": "conservatoria_registo_civil",
+    "order": 444,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a assinatura.",
+    "en": "I have a question about signature.",
+    "zhHans": "我需要咨询有关签名的问题。",
+    "zhHant": "我需要查詢有關簽名的問題。"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-queria-informacoes-sobre-o-pedido-de-nacionalidade",
+    "situacao": "conservatoria_registo_civil",
+    "order": 445,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o pedido de nacionalidade.",
+    "en": "I would like information about citizenship application.",
+    "zhHans": "我想了解入籍申请。",
+    "zhHant": "我想了解入籍申請。"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-queria-informacoes-sobre-o-numero-de-processo",
+    "situacao": "conservatoria_registo_civil",
+    "order": 446,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o número de processo.",
+    "en": "I would like information about case number.",
+    "zhHans": "我想了解案件編号。",
+    "zhHant": "我想了解案件編號。"
+  },
+  {
+    "id": "cartao-camara_municipal-onde-posso-encontrar-informacoes-sobre-o-horario-de-atendimento",
+    "situacao": "camara_municipal",
+    "order": 447,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o horário de atendimento?",
+    "en": "Where can I find information about office hours?",
+    "zhHans": "我可以在哪里查到有关办公时间的信息？",
+    "zhHant": "我可以在哪裡查到有關辦公時間的資訊？"
+  },
+  {
+    "id": "cartao-camara_municipal-pode-dar-me-informacoes-sobre-o-comprovativo-de-pagamento",
+    "situacao": "camara_municipal",
+    "order": 448,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o comprovativo de pagamento?",
+    "en": "Could you give me information about proof of payment?",
+    "zhHans": "可以告诉我有关缴费憑证的信息吗？",
+    "zhHant": "可以告訴我有關繳費憑證的資訊嗎？"
+  },
+  {
+    "id": "cartao-camara_municipal-onde-posso-encontrar-informacoes-sobre-o-formulario",
+    "situacao": "camara_municipal",
+    "order": 449,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o formulário?",
+    "en": "Where can I find information about form?",
+    "zhHans": "我可以在哪里查到有关表格的信息？",
+    "zhHant": "我可以在哪裡查到有關表格的資訊？"
+  },
+  {
+    "id": "cartao-camara_municipal-pode-explicar-me-o-que-devo-fazer-para-estacionar",
+    "situacao": "camara_municipal",
+    "order": 450,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para estacionar?",
+    "en": "Could you explain what I need to do to park?",
+    "zhHans": "可以说明我要怎样停车吗？",
+    "zhHant": "可以說明我要怎樣停車嗎？"
+  },
+  {
+    "id": "cartao-camara_municipal-onde-posso-encontrar-informacoes-sobre-o-entulho",
+    "situacao": "camara_municipal",
+    "order": 451,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o entulho?",
+    "en": "Where can I find information about rubble / construction waste?",
+    "zhHans": "我可以在哪里查到有关建筑垃圾的信息？",
+    "zhHant": "我可以在哪裡查到有關建築垃圾的資訊？"
+  },
+  {
+    "id": "cartao-camara_municipal-pode-dar-me-informacoes-sobre-a-declaracao",
+    "situacao": "camara_municipal",
+    "order": 452,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a declaração?",
+    "en": "Could you give me information about declaration / statement?",
+    "zhHans": "可以告诉我有关声明书的信息吗？",
+    "zhHant": "可以告訴我有關聲明書的資訊嗎？"
+  },
+  {
+    "id": "cartao-camara_municipal-com-quem-devo-falar-sobre-o-horario-de-funcionamento",
+    "situacao": "camara_municipal",
+    "order": 453,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o horário de funcionamento?",
+    "en": "Who should I speak to about opening hours?",
+    "zhHans": "关于營业时间，我应该和谁联系？",
+    "zhHant": "關於營業時間，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-camara_municipal-preciso-de-esclarecer-uma-duvida-sobre-a-freguesia",
+    "situacao": "camara_municipal",
+    "order": 454,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a freguesia.",
+    "en": "I have a question about parish (administrative area).",
+    "zhHans": "我需要咨询有关堂区（行政区）的问题。",
+    "zhHant": "我需要查詢有關堂區（行政區）的問題。"
+  },
+  {
+    "id": "cartao-camara_municipal-queria-informacoes-sobre-a-senha-de-atendimento",
+    "situacao": "camara_municipal",
+    "order": 455,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre a senha de atendimento.",
+    "en": "I would like information about queue ticket.",
+    "zhHans": "我想了解排队取号。",
+    "zhHant": "我想了解排隊取號。"
+  },
+  {
+    "id": "cartao-camara_municipal-e-possivel-levantar-o-documento-aqui",
+    "situacao": "camara_municipal",
+    "order": 456,
+    "purpose": "useful situation example",
+    "pt": "É possível levantar o documento aqui?",
+    "en": "Is it possible to collect the document here?",
+    "zhHans": "可以在这里领取文件吗？",
+    "zhHant": "可以在這裡領取文件嗎？"
+  },
+  {
+    "id": "cartao-camara_municipal-queria-informacoes-sobre-a-reclamacao",
+    "situacao": "camara_municipal",
+    "order": 457,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre a reclamação.",
+    "en": "I would like information about complaint.",
+    "zhHans": "我想了解投诉。",
+    "zhHant": "我想了解投訴。"
+  },
+  {
+    "id": "cartao-camara_municipal-preciso-de-ajuda-para-pagar-uma-taxa",
+    "situacao": "camara_municipal",
+    "order": 458,
+    "purpose": "useful situation example",
+    "pt": "Preciso de ajuda para pagar uma taxa.",
+    "en": "I need help to pay a fee.",
+    "zhHans": "我需要协助缴納费用。",
+    "zhHant": "我需要協助繳納費用。"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-onde-posso-encontrar-informacoes-sobre-o-certificado-de-habilitacoes",
+    "situacao": "reconhecimento_diplomas",
+    "order": 459,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o certificado de habilitações?",
+    "en": "Where can I find information about qualifications certificate?",
+    "zhHans": "我可以在哪里查到有关学历证明的信息？",
+    "zhHant": "我可以在哪裡查到有關學歷證明的資訊？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-onde-posso-encontrar-informacoes-sobre-a-equivalencia-de-estudos",
+    "situacao": "reconhecimento_diplomas",
+    "order": 460,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a equivalência de estudos?",
+    "en": "Where can I find information about recognition of foreign studies?",
+    "zhHans": "我可以在哪里查到有关学历同等认证的信息？",
+    "zhHant": "我可以在哪裡查到有關學歷同等認證的資訊？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-onde-posso-encontrar-informacoes-sobre-o-numero-de-processo",
+    "situacao": "reconhecimento_diplomas",
+    "order": 461,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o número de processo?",
+    "en": "Where can I find information about case number?",
+    "zhHans": "我可以在哪里查到有关案件編号的信息？",
+    "zhHant": "我可以在哪裡查到有關案件編號的資訊？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-pode-dar-me-informacoes-sobre-o-comprovativo-de-pagamento",
+    "situacao": "reconhecimento_diplomas",
+    "order": 462,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o comprovativo de pagamento?",
+    "en": "Could you give me information about proof of payment?",
+    "zhHans": "可以告诉我有关缴费憑证的信息吗？",
+    "zhHant": "可以告訴我有關繳費憑證的資訊嗎？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-pode-explicar-me-o-que-devo-fazer-para-pagar-uma-taxa",
+    "situacao": "reconhecimento_diplomas",
+    "order": 463,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para pagar uma taxa?",
+    "en": "Could you explain what I need to do to pay a fee?",
+    "zhHans": "可以说明我要怎样缴納费用吗？",
+    "zhHant": "可以說明我要怎樣繳納費用嗎？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-pode-dar-me-informacoes-sobre-o-certificado-digital",
+    "situacao": "reconhecimento_diplomas",
+    "order": 464,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o certificado digital?",
+    "en": "Could you give me information about digital certificate?",
+    "zhHans": "可以告诉我有关数字证书的信息吗？",
+    "zhHant": "可以告訴我有關數字證書的資訊嗎？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-onde-posso-encontrar-informacoes-sobre-o-formulario",
+    "situacao": "reconhecimento_diplomas",
+    "order": 465,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o formulário?",
+    "en": "Where can I find information about form?",
+    "zhHans": "我可以在哪里查到有关表格的信息？",
+    "zhHant": "我可以在哪裡查到有關表格的資訊？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-pode-dar-me-informacoes-sobre-a-notificacao",
+    "situacao": "reconhecimento_diplomas",
+    "order": 466,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a notificação?",
+    "en": "Could you give me information about official notification?",
+    "zhHans": "可以告诉我有关官方通知的信息吗？",
+    "zhHant": "可以告訴我有關官方通知的資訊嗎？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-preciso-de-esclarecer-uma-duvida-sobre-a-fotocopia-autenticada",
+    "situacao": "reconhecimento_diplomas",
+    "order": 467,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a fotocópia autenticada.",
+    "en": "I have a question about certified photocopy.",
+    "zhHans": "我需要咨询有关认证副本的问题。",
+    "zhHant": "我需要查詢有關認證副本的問題。"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-com-quem-devo-falar-sobre-o-reconhecimento-de-assinatura",
+    "situacao": "reconhecimento_diplomas",
+    "order": 468,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o reconhecimento de assinatura?",
+    "en": "Who should I speak to about signature certification?",
+    "zhHans": "关于签名认证，我应该和谁联系？",
+    "zhHant": "關於簽名認證，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-com-quem-devo-falar-sobre-a-traducao-certificada",
+    "situacao": "reconhecimento_diplomas",
+    "order": 469,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a tradução certificada?",
+    "en": "Who should I speak to about certified translation?",
+    "zhHans": "关于认证翻译，我应该和谁联系？",
+    "zhHant": "關於認證翻譯，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-queria-informacoes-sobre-o-certificado-de-formacao",
+    "situacao": "reconhecimento_diplomas",
+    "order": 470,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o certificado de formação.",
+    "en": "I would like information about training certificate.",
+    "zhHans": "我想了解培训证书。",
+    "zhHant": "我想了解培訓證書。"
+  },
+  {
+    "id": "cartao-consulado_documentos-onde-posso-encontrar-informacoes-sobre-a-certidao-de-nascimento",
+    "situacao": "consulado_documentos",
+    "order": 471,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a certidão de nascimento?",
+    "en": "Where can I find information about birth certificate?",
+    "zhHans": "我可以在哪里查到有关出生证明的信息？",
+    "zhHant": "我可以在哪裡查到有關出生證明的資訊？"
+  },
+  {
+    "id": "cartao-consulado_documentos-pode-dar-me-informacoes-sobre-o-reconhecimento-de-assinatura",
+    "situacao": "consulado_documentos",
+    "order": 472,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o reconhecimento de assinatura?",
+    "en": "Could you give me information about signature certification?",
+    "zhHans": "可以告诉我有关签名认证的信息吗？",
+    "zhHant": "可以告訴我有關簽名認證的資訊嗎？"
+  },
+  {
+    "id": "cartao-consulado_documentos-pode-explicar-me-o-que-devo-fazer-para-pagar-uma-taxa",
+    "situacao": "consulado_documentos",
+    "order": 473,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para pagar uma taxa?",
+    "en": "Could you explain what I need to do to pay a fee?",
+    "zhHans": "可以说明我要怎样缴納费用吗？",
+    "zhHant": "可以說明我要怎樣繳納費用嗎？"
+  },
+  {
+    "id": "cartao-consulado_documentos-onde-posso-encontrar-informacoes-sobre-a-assinatura",
+    "situacao": "consulado_documentos",
+    "order": 474,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a assinatura?",
+    "en": "Where can I find information about signature?",
+    "zhHans": "我可以在哪里查到有关签名的信息？",
+    "zhHant": "我可以在哪裡查到有關簽名的資訊？"
+  },
+  {
+    "id": "cartao-consulado_documentos-pode-dar-me-informacoes-sobre-a-notificacao",
+    "situacao": "consulado_documentos",
+    "order": 475,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a notificação?",
+    "en": "Could you give me information about official notification?",
+    "zhHans": "可以告诉我有关官方通知的信息吗？",
+    "zhHant": "可以告訴我有關官方通知的資訊嗎？"
+  },
+  {
+    "id": "cartao-consulado_documentos-pode-dar-me-informacoes-sobre-a-certidao",
+    "situacao": "consulado_documentos",
+    "order": 476,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a certidão?",
+    "en": "Could you give me information about certificate / official copy?",
+    "zhHans": "可以告诉我有关证明书／正式副本的信息吗？",
+    "zhHant": "可以告訴我有關證明書／正式副本的資訊嗎？"
+  },
+  {
+    "id": "cartao-consulado_documentos-queria-informacoes-sobre-o-registo-criminal-do-pais-de-origem",
+    "situacao": "consulado_documentos",
+    "order": 477,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o registo criminal do país de origem.",
+    "en": "I would like information about criminal record from home country.",
+    "zhHans": "我想了解原籍國无犯罪记录。",
+    "zhHant": "我想了解原籍國無犯罪記錄。"
+  },
+  {
+    "id": "cartao-consulado_documentos-preciso-de-autorizacao-para-consulta-do-registo-criminal",
+    "situacao": "consulado_documentos",
+    "order": 478,
+    "purpose": "useful situation example",
+    "pt": "Preciso de autorização para consulta do registo criminal.",
+    "en": "I need authorisation to consult the criminal record.",
+    "zhHans": "我需要授权查询犯罪记录。",
+    "zhHant": "我需要授權查詢犯罪紀錄。"
+  },
+  {
+    "id": "cartao-consulado_documentos-queria-informacoes-sobre-a-certidao-de-residencia-fiscal",
+    "situacao": "consulado_documentos",
+    "order": 479,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre a certidão de residência fiscal.",
+    "en": "I would like information about certificate of tax residency.",
+    "zhHans": "我想了解税务居民证明。",
+    "zhHant": "我想了解稅務居民證明。"
+  },
+  {
+    "id": "cartao-consulado_documentos-com-quem-devo-falar-sobre-a-traducao-certificada",
+    "situacao": "consulado_documentos",
+    "order": 480,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a tradução certificada?",
+    "en": "Who should I speak to about certified translation?",
+    "zhHans": "关于认证翻译，我应该和谁联系？",
+    "zhHant": "關於認證翻譯，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-consulado_documentos-queria-informacoes-sobre-o-comprovativo-de-pagamento",
+    "situacao": "consulado_documentos",
+    "order": 481,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o comprovativo de pagamento.",
+    "en": "I would like information about proof of payment.",
+    "zhHans": "我想了解缴费憑证。",
+    "zhHant": "我想了解繳費憑證。"
+  },
+  {
+    "id": "cartao-consulado_documentos-preciso-de-esclarecer-uma-duvida-sobre-a-declaracao",
+    "situacao": "consulado_documentos",
+    "order": 482,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a declaração.",
+    "en": "I have a question about declaration / statement.",
+    "zhHans": "我需要咨询有关声明书的问题。",
+    "zhHant": "我需要查詢有關聲明書的問題。"
+  },
+  {
+    "id": "cartao-saude-pode-explicar-me-o-que-devo-fazer-para-tomar-o-medicamento",
+    "situacao": "saude",
+    "order": 483,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para tomar o medicamento?",
+    "en": "Could you explain what I need to do to take the medicine?",
+    "zhHans": "可以说明我要怎样服药吗？",
+    "zhHant": "可以說明我要怎樣服藥嗎？"
+  },
+  {
+    "id": "cartao-saude-onde-posso-encontrar-informacoes-sobre-a-baixa-medica",
+    "situacao": "saude",
+    "order": 484,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a baixa médica?",
+    "en": "Where can I find information about sick leave certificate?",
+    "zhHans": "我可以在哪里查到有关病假证明的信息？",
+    "zhHant": "我可以在哪裡查到有關病假證明的資訊？"
+  },
+  {
+    "id": "cartao-saude-pode-dar-me-informacoes-sobre-o-medicamento-generico",
+    "situacao": "saude",
+    "order": 485,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o medicamento genérico?",
+    "en": "Could you give me information about generic medicine?",
+    "zhHans": "可以告诉我有关仿制药（平价替代药）的信息吗？",
+    "zhHant": "可以告訴我有關仿製藥（平價替代藥）的資訊嗎？"
+  },
+  {
+    "id": "cartao-saude-onde-posso-encontrar-informacoes-sobre-o-resultado",
+    "situacao": "saude",
+    "order": 486,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o resultado?",
+    "en": "Where can I find information about result?",
+    "zhHans": "我可以在哪里查到有关结果的信息？",
+    "zhHant": "我可以在哪裡查到有關結果的資訊？"
+  },
+  {
+    "id": "cartao-saude-pode-dar-me-informacoes-sobre-o-raio-x",
+    "situacao": "saude",
+    "order": 487,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o raio-X?",
+    "en": "Could you give me information about X-ray?",
+    "zhHans": "可以告诉我有关X光的信息吗？",
+    "zhHant": "可以告訴我有關X光的資訊嗎？"
+  },
+  {
+    "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-o-medico-de-familia",
+    "situacao": "saude",
+    "order": 488,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o médico de família.",
+    "en": "I have a question about family doctor (GP).",
+    "zhHans": "我需要咨询有关家庭医生的问题。",
+    "zhHant": "我需要查詢有關家庭醫生的問題。"
+  },
+  {
+    "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-a-analise-ao-sangue",
+    "situacao": "saude",
+    "order": 489,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a análise ao sangue.",
+    "en": "I have a question about blood test.",
+    "zhHans": "我需要咨询有关验血的问题。",
+    "zhHant": "我需要查詢有關驗血的問題。"
+  },
+  {
+    "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-o-seguro-de-saude",
+    "situacao": "saude",
+    "order": 490,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o seguro de saúde.",
+    "en": "I have a question about health insurance.",
+    "zhHans": "我需要咨询有关医疗保险的问题。",
+    "zhHant": "我需要查詢有關醫療保險的問題。"
+  },
+  {
+    "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-o-atestado-medico",
+    "situacao": "saude",
+    "order": 491,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o atestado médico.",
+    "en": "I have a question about medical certificate.",
+    "zhHans": "我需要咨询有关医生证明的问题。",
+    "zhHant": "我需要查詢有關醫生證明的問題。"
+  },
+  {
+    "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-a-escola-da-area-de-residencia",
+    "situacao": "escola",
+    "order": 492,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a escola da área de residência?",
+    "en": "Where can I find information about the school for your home address?",
+    "zhHans": "我可以在哪里查到有关居住地划片学校的信息？",
+    "zhHant": "我可以在哪裡查到有關居住地劃片學校的資訊？"
+  },
+  {
+    "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-os-manuais-escolares",
+    "situacao": "escola",
+    "order": 493,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre os manuais escolares?",
+    "en": "Where can I find information about textbooks?",
+    "zhHans": "我可以在哪里查到有关教科书的信息？",
+    "zhHant": "我可以在哪裡查到有關教科書的資訊？"
+  },
+  {
+    "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-o-diretor-de-turma",
+    "situacao": "escola",
+    "order": 494,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o diretor de turma?",
+    "en": "Where can I find information about form tutor / homeroom teacher?",
+    "zhHans": "我可以在哪里查到有关班主任的信息？",
+    "zhHant": "我可以在哪裡查到有關班主任的資訊？"
+  },
+  {
+    "id": "cartao-escola-pode-dar-me-informacoes-sobre-o-portal-das-matriculas",
+    "situacao": "escola",
+    "order": 495,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o Portal das Matrículas?",
+    "en": "Could you give me information about the online enrolment portal?",
+    "zhHans": "可以告诉我有关入学註册网站的信息吗？",
+    "zhHant": "可以告訴我有關入學註冊網站的資訊嗎？"
+  },
+  {
+    "id": "cartao-escola-pode-dar-me-informacoes-sobre-a-reuniao-de-pais",
+    "situacao": "escola",
+    "order": 496,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a reunião de pais?",
+    "en": "Could you give me information about parents' meeting?",
+    "zhHans": "可以告诉我有关家长会的信息吗？",
+    "zhHant": "可以告訴我有關家長會的資訊嗎？"
+  },
+  {
+    "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-a-creche",
+    "situacao": "escola",
+    "order": 497,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a creche?",
+    "en": "Where can I find information about nursery (0-3)?",
+    "zhHans": "我可以在哪里查到有关託儿所的信息？",
+    "zhHant": "我可以在哪裡查到有關託兒所的資訊？"
+  },
+  {
+    "id": "cartao-escola-pode-dar-me-informacoes-sobre-o-cartao-do-aluno",
+    "situacao": "escola",
+    "order": 498,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o cartão do aluno?",
+    "en": "Could you give me information about student card?",
+    "zhHans": "可以告诉我有关学生卡的信息吗？",
+    "zhHant": "可以告訴我有關學生卡的資訊嗎？"
+  },
+  {
+    "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-a-falta",
+    "situacao": "escola",
+    "order": 499,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a falta?",
+    "en": "Where can I find information about absence?",
+    "zhHans": "我可以在哪里查到有关缺勤的信息？",
+    "zhHant": "我可以在哪裡查到有關缺勤的資訊？"
+  },
+  {
+    "id": "cartao-escola-preciso-de-esclarecer-uma-duvida-sobre-o-encarregado-de-educacao",
+    "situacao": "escola",
+    "order": 500,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o encarregado de educação.",
+    "en": "I have a question about legal guardian (for school purposes).",
+    "zhHans": "我需要咨询有关教育监护人的问题。",
+    "zhHant": "我需要查詢有關教育監護人的問題。"
+  },
+  {
+    "id": "cartao-arrendamento-onde-posso-encontrar-informacoes-sobre-o-esquentador",
+    "situacao": "arrendamento",
+    "order": 501,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o esquentador?",
+    "en": "Where can I find information about gas water heater?",
+    "zhHans": "我可以在哪里查到有关燃气热水器的信息？",
+    "zhHant": "我可以在哪裡查到有關燃氣熱水器的資訊？"
+  },
+  {
+    "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-a-denuncia-do-contrato",
+    "situacao": "arrendamento",
+    "order": 502,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a denúncia do contrato?",
+    "en": "Could you give me information about termination notice (of tenancy)?",
+    "zhHans": "可以告诉我有关解约通知的信息吗？",
+    "zhHant": "可以告訴我有關解約通知的資訊嗎？"
+  },
+  {
+    "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-o-agente-imobiliario",
+    "situacao": "arrendamento",
+    "order": 503,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o agente imobiliário?",
+    "en": "Could you give me information about real estate agent?",
+    "zhHans": "可以告诉我有关房产中介的信息吗？",
+    "zhHant": "可以告訴我有關房產中介的資訊嗎？"
+  },
+  {
+    "id": "cartao-arrendamento-onde-posso-encontrar-informacoes-sobre-o-anuncio",
+    "situacao": "arrendamento",
+    "order": 504,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o anúncio?",
+    "en": "Where can I find information about listing / advert?",
+    "zhHans": "我可以在哪里查到有关租房广告的信息？",
+    "zhHant": "我可以在哪裡查到有關租房廣告的資訊？"
+  },
+  {
+    "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-o-eletrodomestico",
+    "situacao": "arrendamento",
+    "order": 505,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o eletrodoméstico?",
+    "en": "Could you give me information about household appliance?",
+    "zhHans": "可以告诉我有关家用电器的信息吗？",
+    "zhHant": "可以告訴我有關家用電器的資訊嗎？"
+  },
+  {
+    "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-o-condominio",
+    "situacao": "arrendamento",
+    "order": 506,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o condomínio?",
+    "en": "Could you give me information about building service charge?",
+    "zhHans": "可以告诉我有关大厦管理费的信息吗？",
+    "zhHant": "可以告訴我有關大廈管理費的資訊嗎？"
+  },
+  {
+    "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-o-fiador",
+    "situacao": "arrendamento",
+    "order": 507,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o fiador?",
+    "en": "Could you give me information about guarantor?",
+    "zhHans": "可以告诉我有关担保人的信息吗？",
+    "zhHant": "可以告訴我有關擔保人的資訊嗎？"
+  },
+  {
+    "id": "cartao-arrendamento-preciso-de-esclarecer-uma-duvida-sobre-o-contrato-de-arrendamento",
+    "situacao": "arrendamento",
+    "order": 508,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o contrato de arrendamento.",
+    "en": "I have a question about rental contract.",
+    "zhHans": "我需要咨询有关租赁合同的问题。",
+    "zhHant": "我需要查詢有關租賃合同的問題。"
+  },
+  {
+    "id": "cartao-arrendamento-preciso-de-esclarecer-uma-duvida-sobre-a-devolucao-da-caucao",
+    "situacao": "arrendamento",
+    "order": 509,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a devolução da caução.",
+    "en": "I have a question about return of the deposit.",
+    "zhHans": "我需要咨询有关退还押金的问题。",
+    "zhHant": "我需要查詢有關退還押金的問題。"
+  },
+  {
+    "id": "cartao-transportes-onde-posso-encontrar-informacoes-sobre-o-titulo-de-transporte",
+    "situacao": "transportes",
+    "order": 510,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o título de transporte?",
+    "en": "Where can I find information about valid ticket / travel document?",
+    "zhHans": "我可以在哪里查到有关有效车票的信息？",
+    "zhHant": "我可以在哪裡查到有關有效車票的資訊？"
+  },
+  {
+    "id": "cartao-transportes-onde-posso-encontrar-informacoes-sobre-o-lugar-reservado",
+    "situacao": "transportes",
+    "order": 511,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o lugar reservado?",
+    "en": "Where can I find information about reserved seat?",
+    "zhHans": "我可以在哪里查到有关预留座位的信息？",
+    "zhHant": "我可以在哪裡查到有關預留座位的資訊？"
+  },
+  {
+    "id": "cartao-transportes-onde-posso-encontrar-informacoes-sobre-o-horario",
+    "situacao": "transportes",
+    "order": 512,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o horário?",
+    "en": "Where can I find information about timetable?",
+    "zhHans": "我可以在哪里查到有关时刻表的信息？",
+    "zhHant": "我可以在哪裡查到有關時刻表的資訊？"
+  },
+  {
+    "id": "cartao-transportes-pode-dar-me-informacoes-sobre-a-app-do-operador",
+    "situacao": "transportes",
+    "order": 513,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a app do operador?",
+    "en": "Could you give me information about the operator's app?",
+    "zhHans": "可以告诉我有关运營商应用程式的信息吗？",
+    "zhHant": "可以告訴我有關運營商應用程式的資訊嗎？"
+  },
+  {
+    "id": "cartao-transportes-pode-dar-me-informacoes-sobre-o-eletrico",
+    "situacao": "transportes",
+    "order": 514,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o elétrico?",
+    "en": "Could you give me information about tram?",
+    "zhHans": "可以告诉我有关有轨电车的信息吗？",
+    "zhHant": "可以告訴我有關有軌電車的資訊嗎？"
+  },
+  {
+    "id": "cartao-transportes-pode-dar-me-informacoes-sobre-a-estacao",
+    "situacao": "transportes",
+    "order": 515,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a estação?",
+    "en": "Could you give me information about station?",
+    "zhHans": "可以告诉我有关车站（火车/地铁站）的信息吗？",
+    "zhHant": "可以告訴我有關車站（火車/地鐵站）的資訊嗎？"
+  },
+  {
+    "id": "cartao-transportes-pode-dar-me-informacoes-sobre-o-sentido",
+    "situacao": "transportes",
+    "order": 516,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o sentido?",
+    "en": "Could you give me information about direction?",
+    "zhHans": "可以告诉我有关方向的信息吗？",
+    "zhHant": "可以告訴我有關方向的資訊嗎？"
+  },
+  {
+    "id": "cartao-transportes-como-posso-viajar-sem-titulo",
+    "situacao": "transportes",
+    "order": 517,
+    "purpose": "useful situation example",
+    "pt": "Onde posso comprar um título de transporte?",
+    "en": "Where can I buy a ticket?",
+    "zhHans": "我可以在哪里买车票？",
+    "zhHant": "我可以在哪裡買車票？"
+  },
+  {
+    "id": "cartao-transportes-queria-informacoes-sobre-a-estacao-de-metro-mais-proxima",
+    "situacao": "transportes",
+    "order": 518,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre a estação de metro mais próxima.",
+    "en": "I would like information about the nearest metro station.",
+    "zhHans": "我想了解最近的地铁站。",
+    "zhHant": "我想了解最近的地鐵站。"
+  },
+  {
+    "id": "cartao-transportes-preciso-de-esclarecer-uma-duvida-sobre-o-passe-mensal",
+    "situacao": "transportes",
+    "order": 519,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o passe mensal.",
+    "en": "I have a question about monthly pass.",
+    "zhHans": "我需要咨询有关月票的问题。",
+    "zhHant": "我需要查詢有關月票的問題。"
+  },
+  {
+    "id": "cartao-veterinario-tens-animais-de-estimacao",
+    "situacao": "veterinario",
+    "order": 520,
+    "purpose": "useful situation example",
+    "pt": "Tens animais de estimação?",
+    "en": "Do you have pets?",
+    "zhHans": "你有养宠物吗？",
+    "zhHant": "你有養寵物嗎？"
+  },
+  {
+    "id": "cartao-veterinario-o-acaime-e-obrigatorio",
+    "situacao": "veterinario",
+    "order": 521,
+    "purpose": "useful situation example",
+    "pt": "O açaime é obrigatório?",
+    "en": "Is the muzzle mandatory?",
+    "zhHans": "一定要戴嘴套吗？",
+    "zhHant": "一定要戴嘴套嗎？"
+  },
+  {
+    "id": "cartao-veterinario-o-gato-odeia-a-transportadora",
+    "situacao": "veterinario",
+    "order": 522,
+    "purpose": "useful situation example",
+    "pt": "O gato odeia a transportadora.",
+    "en": "The cat hates the carrier.",
+    "zhHans": "猫讨厌提笼。",
+    "zhHant": "貓討厭提籠。"
+  },
+  {
+    "id": "cartao-veterinario-fiz-a-desparasitacao-em-casa",
+    "situacao": "veterinario",
+    "order": 523,
+    "purpose": "useful situation example",
+    "pt": "Fiz a desparasitação em casa.",
+    "en": "I did the deworming at home.",
+    "zhHans": "我在家帮它驱虫了。",
+    "zhHant": "我在家幫牠驅蟲了。"
+  },
+  {
+    "id": "cartao-ginasio-quero-cancelar-a-inscricao",
+    "situacao": "ginasio",
+    "order": 524,
+    "purpose": "useful situation example",
+    "pt": "Quero cancelar a inscrição.",
+    "en": "I want to cancel my membership.",
+    "zhHans": "我想取消会员资格。",
+    "zhHant": "我想取消會籍。"
+  },
+  {
+    "id": "cartao-ginasio-tenho-uma-lesao-no-joelho",
+    "situacao": "ginasio",
+    "order": 525,
+    "purpose": "useful situation example",
+    "pt": "Tenho uma lesão no joelho.",
+    "en": "I have a knee injury.",
+    "zhHans": "我膝盖受伤了。",
+    "zhHant": "我膝蓋受傷了。"
+  },
+  {
+    "id": "cartao-ginasio-quero-inscrever-me-hoje",
+    "situacao": "ginasio",
+    "order": 526,
+    "purpose": "useful situation example",
+    "pt": "Quero inscrever-me hoje.",
+    "en": "I want to sign up today.",
+    "zhHans": "我想今天报名。",
+    "zhHant": "我想今天報名。"
+  },
+  {
+    "id": "cartao-ginasio-a-taxa-de-inscricao-paga-se-uma-vez",
+    "situacao": "ginasio",
+    "order": 527,
+    "purpose": "useful situation example",
+    "pt": "A taxa de inscrição paga-se uma vez.",
+    "en": "The registration fee is paid once.",
+    "zhHans": "入会费只付一次。",
+    "zhHant": "入會費只付一次。"
+  },
+  {
+    "id": "cartao-ginasio-a-mensalidade-e-de-trinta-euros",
+    "situacao": "ginasio",
+    "order": 528,
+    "purpose": "useful situation example",
+    "pt": "A mensalidade é de trinta euros.",
+    "en": "The monthly fee is thirty euros.",
+    "zhHans": "月费是三十欧元。",
+    "zhHant": "月費是三十歐元。"
+  },
+  {
+    "id": "cartao-ginasio-nao-quero-fidelizacao",
+    "situacao": "ginasio",
+    "order": 529,
+    "purpose": "useful situation example",
+    "pt": "Não quero um contrato com fidelização.",
+    "en": "I do not want a contract with a lock-in period.",
+    "zhHans": "我不想签有绑定期的合同。",
+    "zhHant": "我不想簽有綁約期的合約。"
+  },
+  {
+    "id": "cartao-convivio-sentamo-nos-na-esplanada",
+    "situacao": "convivio",
+    "order": 530,
+    "purpose": "useful situation example",
+    "pt": "Sentamo-nos na esplanada?",
+    "en": "Shall we sit on the terrace?",
+    "zhHans": "我们坐露天座位好吗？",
+    "zhHant": "我們坐露天座位好嗎？"
+  },
+  {
+    "id": "cartao-convivio-podemos-adiar-para-sexta",
+    "situacao": "convivio",
+    "order": 531,
+    "purpose": "useful situation example",
+    "pt": "Podemos adiar para sexta?",
+    "en": "Can we postpone it until Friday?",
+    "zhHans": "能改到周五吗？",
+    "zhHant": "能改到週五嗎？"
+  },
+  {
+    "id": "cartao-convivio-quero-conhecer-os-teus-amigos",
+    "situacao": "convivio",
+    "order": 532,
+    "purpose": "useful situation example",
+    "pt": "Quero conhecer os teus amigos.",
+    "en": "I want to meet your friends.",
+    "zhHans": "我想认识你的朋友。",
+    "zhHant": "我想認識你的朋友。"
+  },
+  {
+    "id": "cartao-convivio-combinamos-para-sabado",
+    "situacao": "convivio",
+    "order": 533,
+    "purpose": "useful situation example",
+    "pt": "Combinamos para sábado?",
+    "en": "Shall we arrange for Saturday?",
+    "zhHans": "我们约周六好吗？",
+    "zhHant": "我們約週六好嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-emprestas-me-um-pouco-de-sal",
+    "situacao": "vizinhos",
+    "order": 534,
+    "purpose": "useful situation example",
+    "pt": "Emprestas-me um pouco de sal?",
+    "en": "Can you lend me some salt?",
+    "zhHans": "能借我一点盐吗？",
+    "zhHant": "能借我一點鹽嗎？"
+  },
+  {
+    "id": "cartao-vizinhos-o-vizinho-de-cima-e-simpatico",
+    "situacao": "vizinhos",
+    "order": 535,
+    "purpose": "useful situation example",
+    "pt": "O vizinho de cima é simpático.",
+    "en": "The upstairs neighbor is friendly.",
+    "zhHans": "楼上的邻居人很好。",
+    "zhHant": "樓上的鄰居人很好。"
+  },
+  {
+    "id": "cartao-vizinhos-preciso-de-um-favor",
+    "situacao": "vizinhos",
+    "order": 536,
+    "purpose": "useful situation example",
+    "pt": "Preciso de um favor.",
+    "en": "I need a favor.",
+    "zhHans": "我需要帮个忙。",
+    "zhHant": "我需要幫個忙。"
+  },
+  {
+    "id": "cartao-vizinhos-desculpe-incomodar-tao-tarde",
+    "situacao": "vizinhos",
+    "order": 537,
+    "purpose": "useful situation example",
+    "pt": "Desculpe incomodar tão tarde.",
+    "en": "Sorry to bother you so late.",
+    "zhHans": "抱歉这么晚打扰。",
+    "zhHant": "抱歉這麼晚打擾。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-pode-secar-por-favor",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 538,
+    "purpose": "useful situation example",
+    "pt": "Pode secar, por favor?",
+    "en": "Could you blow-dry it, please?",
+    "zhHans": "可以帮我吹干吗？",
+    "zhHant": "可以幫我吹乾嗎？"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-quero-marcar-para-sabado",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 539,
+    "purpose": "useful situation example",
+    "pt": "Quero marcar para sábado.",
+    "en": "I want to make an appointment for Saturday.",
+    "zhHans": "我想预约周六。",
+    "zhHant": "我想預約週六。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-quero-pintar-de-castanho",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 540,
+    "purpose": "useful situation example",
+    "pt": "Quero pintar o cabelo de castanho.",
+    "en": "I want to dye my hair brown.",
+    "zhHans": "我想把头发染成棕色。",
+    "zhHant": "我想把頭髮染成啡色。"
+  },
+  {
+    "id": "cartao-cabeleireiro_barbeiro-quero-um-tom-mais-claro",
+    "situacao": "cabeleireiro_barbeiro",
+    "order": 541,
+    "purpose": "useful situation example",
+    "pt": "Quero um tom mais claro.",
+    "en": "I want a lighter tone.",
+    "zhHans": "我想要浅一点的色调。",
+    "zhHant": "我想要淺一點的色調。"
+  },
+  {
+    "id": "cartao-farmacia-qual-e-a-dose-certa",
+    "situacao": "farmacia",
+    "order": 542,
+    "purpose": "useful situation example",
+    "pt": "Qual é a dose certa?",
+    "en": "What is the right dose?",
+    "zhHans": "正确剂量是多少？",
+    "zhHant": "正確劑量是多少？"
+  },
+  {
+    "id": "cartao-farmacia-preciso-de-um-penso-rapido",
+    "situacao": "farmacia",
+    "order": 543,
+    "purpose": "useful situation example",
+    "pt": "Preciso de um penso rápido.",
+    "en": "I need a Band-Aid.",
+    "zhHans": "我需要创可贴。",
+    "zhHant": "我需要OK繃。"
+  },
+  {
+    "id": "cartao-farmacia-tenho-alergia-ao-polen",
+    "situacao": "farmacia",
+    "order": 544,
+    "purpose": "useful situation example",
+    "pt": "Tenho alergia ao pólen.",
+    "en": "I am allergic to pollen.",
+    "zhHans": "我对花粉过敏。",
+    "zhHant": "我對花粉過敏。"
+  },
+  {
+    "id": "cartao-farmacia-procura-a-farmacia-de-servico",
+    "situacao": "farmacia",
+    "order": 545,
+    "purpose": "useful situation example",
+    "pt": "Procura a farmácia de serviço.",
+    "en": "Look for the pharmacy on duty.",
+    "zhHans": "找一下值班药店。",
+    "zhHant": "找一下值班藥局。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-posso-pagar-com-o-multibanco",
+    "situacao": "supermercado_mercado",
+    "order": 546,
+    "purpose": "useful situation example",
+    "pt": "Posso pagar com o multibanco?",
+    "en": "Can I pay by debit card?",
+    "zhHans": "我可以用借记卡付款吗？",
+    "zhHant": "我可以用金融卡付款嗎？"
+  },
+  {
+    "id": "cartao-supermercado_mercado-qual-e-o-prazo-de-validade",
+    "situacao": "supermercado_mercado",
+    "order": 547,
+    "purpose": "useful situation example",
+    "pt": "Qual é o prazo de validade?",
+    "en": "What is the expiry date?",
+    "zhHans": "有效期到什么时候？",
+    "zhHant": "有效期限到什麼時候？"
+  },
+  {
+    "id": "cartao-supermercado_mercado-preciso-de-esclarecer-uma-duvida-sobre-o-peso",
+    "situacao": "supermercado_mercado",
+    "order": 548,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o peso.",
+    "en": "I have a question about weight.",
+    "zhHans": "我需要咨询有关重量的问题。",
+    "zhHant": "我需要查詢有關重量的問題。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-pode-dar-me-uma-fatura",
+    "situacao": "supermercado_mercado",
+    "order": 549,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me uma fatura?",
+    "en": "Can you give me an invoice?",
+    "zhHans": "可以给我一张发票吗？",
+    "zhHant": "可以給我一張發票嗎？"
+  },
+  {
+    "id": "cartao-supermercado_mercado-queria-duas-latas-de-tomate-pelado",
+    "situacao": "supermercado_mercado",
+    "order": 550,
+    "purpose": "useful situation example",
+    "pt": "Queria duas latas de tomate pelado.",
+    "en": "I would like two cans of peeled tomatoes.",
+    "zhHans": "我想要两罐去皮番茄。",
+    "zhHant": "我想要兩罐去皮番茄。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-preciso-de-um-pacote-de-acucar",
+    "situacao": "supermercado_mercado",
+    "order": 551,
+    "purpose": "useful situation example",
+    "pt": "Preciso de um pacote de açúcar.",
+    "en": "I need a packet of sugar.",
+    "zhHans": "我需要一包糖。",
+    "zhHant": "我需要一包糖。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-queria-uma-garrafa-de-azeite",
+    "situacao": "supermercado_mercado",
+    "order": 552,
+    "purpose": "useful situation example",
+    "pt": "Queria uma garrafa de azeite.",
+    "en": "I would like a bottle of olive oil.",
+    "zhHans": "我想要一瓶橄榄油。",
+    "zhHant": "我想要一瓶橄欖油。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-queria-dois-quilos-de-arroz",
+    "situacao": "supermercado_mercado",
+    "order": 553,
+    "purpose": "useful situation example",
+    "pt": "Queria dois quilos de arroz.",
+    "en": "I would like two kilos of rice.",
+    "zhHans": "我想要两公斤米。",
+    "zhHant": "我想要兩公斤米。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-preciso-de-ajuda-para-pesar",
+    "situacao": "supermercado_mercado",
+    "order": 554,
+    "purpose": "useful situation example",
+    "pt": "Preciso de ajuda para pesar.",
+    "en": "I need help to weigh.",
+    "zhHans": "我需要协助稱重。",
+    "zhHant": "我需要協助稱重。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-o-meu-numero-de-contribuinte-e-243-333-218",
+    "situacao": "supermercado_mercado",
+    "order": 555,
+    "purpose": "useful situation example",
+    "pt": "O meu número de contribuinte é 243 333 218.",
+    "en": "My tax number is 243 333 218.",
+    "zhHans": "我的税号是 243 333 218。",
+    "zhHant": "我的稅號是 243 333 218。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-quero-um-queijo-fresco",
+    "situacao": "supermercado_mercado",
+    "order": 556,
+    "purpose": "useful situation example",
+    "pt": "Quero um queijo fresco.",
+    "en": "I want a fresh cheese.",
+    "zhHans": "我想要一块新鲜奶酪。",
+    "zhHant": "我想要一塊新鮮起司。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-a-maca-e-melhor-do-que-as-limas",
+    "situacao": "supermercado_mercado",
+    "order": 557,
+    "purpose": "useful situation example",
+    "pt": "Quanto custam as maçãs?",
+    "en": "How much are the apples?",
+    "zhHans": "苹果多少钱？",
+    "zhHant": "蘋果多少錢？"
+  },
+  {
+    "id": "cartao-supermercado_mercado-compro-quatro-pacotes-de-leite",
+    "situacao": "supermercado_mercado",
+    "order": 558,
+    "purpose": "useful situation example",
+    "pt": "Levo quatro pacotes de leite, por favor.",
+    "en": "I'll take four cartons of milk, please.",
+    "zhHans": "我要四盒牛奶。",
+    "zhHant": "我要四盒牛奶。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-a-carne-de-vaca-esta-no-talho",
+    "situacao": "supermercado_mercado",
+    "order": 559,
+    "purpose": "useful situation example",
+    "pt": "A carne de vaca está no talho.",
+    "en": "The beef is at the butcher's.",
+    "zhHans": "牛肉在肉店。",
+    "zhHant": "牛肉在肉店。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-quero-frango-assado",
+    "situacao": "supermercado_mercado",
+    "order": 560,
+    "purpose": "useful situation example",
+    "pt": "Quero frango assado.",
+    "en": "I want roast chicken.",
+    "zhHans": "我想要烤鸡。",
+    "zhHant": "我想要烤雞。"
+  },
+  {
+    "id": "cartao-cafe_restaurante-pode-explicar-me-o-que-devo-fazer-para-anotar-o-pedido",
+    "situacao": "cafe_restaurante",
+    "order": 561,
+    "purpose": "useful situation example",
+    "pt": "Pode anotar o nosso pedido?",
+    "en": "Could you take our order?",
+    "zhHans": "可以帮我们点餐吗？",
+    "zhHant": "可以幫我們點餐嗎？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-onde-posso-encontrar-informacoes-sobre-a-esplanada",
+    "situacao": "cafe_restaurante",
+    "order": 562,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a esplanada?",
+    "en": "Where can I find information about outdoor terrace?",
+    "zhHans": "我可以在哪里查到有关露天座位的信息？",
+    "zhHant": "我可以在哪裡查到有關露天座位的資訊？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-onde-posso-encontrar-informacoes-sobre-o-couvert",
+    "situacao": "cafe_restaurante",
+    "order": 563,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o couvert?",
+    "en": "Where can I find information about couvert (bread/olives, charged)?",
+    "zhHans": "我可以在哪里查到有关餐前小食（收费）的信息？",
+    "zhHant": "我可以在哪裡查到有關餐前小食（收費）的資訊？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-pode-dar-me-informacoes-sobre-o-prato-principal",
+    "situacao": "cafe_restaurante",
+    "order": 564,
+    "purpose": "useful situation example",
+    "pt": "Quais são os pratos principais?",
+    "en": "What main courses do you have?",
+    "zhHans": "你们有哪些主菜？",
+    "zhHant": "你們有哪些主菜？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-pode-dar-me-informacoes-sobre-a-gorjeta",
+    "situacao": "cafe_restaurante",
+    "order": 565,
+    "purpose": "useful situation example",
+    "pt": "A gorjeta está incluída?",
+    "en": "Is the tip included?",
+    "zhHans": "小费包括在内吗？",
+    "zhHant": "小費包括在內嗎？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-com-quem-devo-falar-sobre-a-alergia-alimentar",
+    "situacao": "cafe_restaurante",
+    "order": 566,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre a alergia alimentar?",
+    "en": "Who should I speak to about food allergy?",
+    "zhHans": "关于食物过敏，我应该和谁联系？",
+    "zhHant": "關於食物過敏，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-preciso-de-esclarecer-uma-duvida-sobre-a-sobremesa",
+    "situacao": "cafe_restaurante",
+    "order": 567,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a sobremesa.",
+    "en": "I have a question about dessert.",
+    "zhHans": "我需要咨询有关甜品的问题。",
+    "zhHant": "我需要查詢有關甜品的問題。"
+  },
+  {
+    "id": "cartao-cafe_restaurante-com-quem-devo-falar-sobre-o-prato-do-dia",
+    "situacao": "cafe_restaurante",
+    "order": 568,
+    "purpose": "useful situation example",
+    "pt": "Qual é o prato do dia?",
+    "en": "What is today's special?",
+    "zhHans": "今天的特色菜是什么？",
+    "zhHant": "今天的特色菜是什麼？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-pode-trazer-a-ementa",
+    "situacao": "cafe_restaurante",
+    "order": 569,
+    "purpose": "useful situation example",
+    "pt": "Pode trazer a ementa?",
+    "en": "Can you bring the menu?",
+    "zhHans": "可以拿菜单给我吗？",
+    "zhHant": "可以拿菜單給我嗎？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-queria-informacoes-sobre-a-entrada",
+    "situacao": "cafe_restaurante",
+    "order": 570,
+    "purpose": "useful situation example",
+    "pt": "Que entradas têm?",
+    "en": "What starters do you have?",
+    "zhHans": "你们有哪些前菜？",
+    "zhHant": "你們有哪些前菜？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-queria-pagar-a-conta-da-agua",
+    "situacao": "cafe_restaurante",
+    "order": 571,
+    "purpose": "useful situation example",
+    "pt": "A conta, por favor.",
+    "en": "The bill, please.",
+    "zhHans": "请结账。",
+    "zhHant": "請結帳。"
+  },
+  {
+    "id": "cartao-cafe_restaurante-vamos-jantar-num-restaurante-portugues",
+    "situacao": "cafe_restaurante",
+    "order": 572,
+    "purpose": "useful situation example",
+    "pt": "Vamos jantar num restaurante português.",
+    "en": "We are going to have dinner at a Portuguese restaurant.",
+    "zhHans": "我们去一家葡萄牙餐厅吃晚饭。",
+    "zhHant": "我們去一家葡萄牙餐廳吃晚餐。"
+  },
+  {
+    "id": "cartao-cafe_restaurante-use-uma-chavena-de-acucar",
+    "situacao": "cafe_restaurante",
+    "order": 573,
+    "purpose": "useful situation example",
+    "pt": "Este prato contém açúcar?",
+    "en": "Does this dish contain sugar?",
+    "zhHans": "这道菜含糖吗？",
+    "zhHant": "這道菜含糖嗎？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-como-uma-sandes",
+    "situacao": "cafe_restaurante",
+    "order": 574,
+    "purpose": "useful situation example",
+    "pt": "Queria uma sandes, por favor.",
+    "en": "I would like a sandwich, please.",
+    "zhHans": "我想要一份三明治。",
+    "zhHant": "我想要一份三文治。"
+  },
+  {
+    "id": "cartao-cafe_restaurante-queria-uma-bica",
+    "situacao": "cafe_restaurante",
+    "order": 575,
+    "purpose": "useful situation example",
+    "pt": "Queria uma bica.",
+    "en": "I would like an espresso.",
+    "zhHans": "我想要一杯意式浓缩咖啡。",
+    "zhHant": "我想要一杯義式濃縮咖啡。"
+  },
+  {
+    "id": "cartao-consultorio_medico-pode-dar-me-informacoes-sobre-o-raio-x",
+    "situacao": "consultorio_medico",
+    "order": 576,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o raio-X?",
+    "en": "Could you give me information about X-ray?",
+    "zhHans": "可以告诉我有关X光的信息吗？",
+    "zhHant": "可以告訴我有關X光的資訊嗎？"
+  },
+  {
+    "id": "cartao-consultorio_medico-preciso-de-esclarecer-uma-duvida-sobre-a-analise-ao-sangue",
+    "situacao": "consultorio_medico",
+    "order": 577,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a análise ao sangue.",
+    "en": "I have a question about blood test.",
+    "zhHans": "我需要咨询有关验血的问题。",
+    "zhHant": "我需要查詢有關驗血的問題。"
+  },
+  {
+    "id": "cartao-consultorio_medico-com-quem-devo-falar-sobre-o-medico-especialista",
+    "situacao": "consultorio_medico",
+    "order": 578,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o médico especialista?",
+    "en": "Who should I speak to about specialist doctor?",
+    "zhHans": "关于专科医生，我应该和谁联系？",
+    "zhHant": "關於專科醫生，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-consultorio_medico-nao-de-medicamentos-sem-consultar-o-medico",
+    "situacao": "consultorio_medico",
+    "order": 579,
+    "purpose": "useful situation example",
+    "pt": "Não dê medicamentos sem consultar o médico.",
+    "en": "Do not give medicines without consulting the doctor.",
+    "zhHans": "不要在未咨询医生的情况下给药。",
+    "zhHant": "不要在未諮詢醫生的情況下給藥。"
+  },
+  {
+    "id": "cartao-consultorio_medico-ha-quanto-tempo-esta-assim",
+    "situacao": "consultorio_medico",
+    "order": 580,
+    "purpose": "useful situation example",
+    "pt": "Há quanto tempo está assim?",
+    "en": "How long have you been like this?",
+    "zhHans": "您这样多久了？",
+    "zhHant": "您這樣多久了？"
+  },
+  {
+    "id": "cartao-consultorio_medico-tenho-de-fazer-uma-radiografia",
+    "situacao": "consultorio_medico",
+    "order": 581,
+    "purpose": "useful situation example",
+    "pt": "Tenho de fazer uma radiografia.",
+    "en": "I have to have an X-ray.",
+    "zhHans": "我得拍一张 X 光片。",
+    "zhHant": "我得照一張 X 光片。"
+  },
+  {
+    "id": "cartao-consultorio_medico-estou-no-consultorio-medico",
+    "situacao": "consultorio_medico",
+    "order": 582,
+    "purpose": "useful situation example",
+    "pt": "Estou no consultório médico.",
+    "en": "I am at the doctor's office.",
+    "zhHans": "我在医生诊所。",
+    "zhHant": "我在醫生診所。"
+  },
+  {
+    "id": "cartao-consultorio_medico-ele-sente-se-cansado-ela-sente-se-cansada",
+    "situacao": "consultorio_medico",
+    "order": 583,
+    "purpose": "useful situation example",
+    "pt": "Sinto-me muito cansado/a.",
+    "en": "I feel very tired.",
+    "zhHans": "我觉得很累。",
+    "zhHant": "我覺得很累。"
+  },
+  {
+    "id": "cartao-consultorio_medico-ele-esta-constipado-ela-esta-constipada",
+    "situacao": "consultorio_medico",
+    "order": 584,
+    "purpose": "useful situation example",
+    "pt": "Estou constipado/a.",
+    "en": "I have a cold.",
+    "zhHans": "我感冒了。",
+    "zhHant": "我感冒了。"
+  },
+  {
+    "id": "cartao-consultorio_medico-marco-consulta-com-o-medico-de-familia",
+    "situacao": "consultorio_medico",
+    "order": 585,
+    "purpose": "useful situation example",
+    "pt": "Marco consulta com o médico de família.",
+    "en": "I make an appointment with the family doctor.",
+    "zhHans": "我和家庭医生预约看诊。",
+    "zhHant": "我和家庭醫生預約看診。"
+  },
+  {
+    "id": "cartao-consultorio_medico-a-usf-e-uma-unidade-de-saude-familiar",
+    "situacao": "consultorio_medico",
+    "order": 586,
+    "purpose": "useful situation example",
+    "pt": "Esta é a minha Unidade de Saúde Familiar.",
+    "en": "This is my Family Health Unit.",
+    "zhHans": "这是我的家庭健康中心。",
+    "zhHant": "這是我的家庭健康中心。"
+  },
+  {
+    "id": "cartao-consultorio_medico-vou-ao-centro-de-saude-da-minha-area",
+    "situacao": "consultorio_medico",
+    "order": 587,
+    "purpose": "useful situation example",
+    "pt": "Vou ao Centro de Saúde da minha área.",
+    "en": "I am going to the health centre in my area.",
+    "zhHans": "我去我所在区域的健康中心。",
+    "zhHant": "我去我所在區域的健康中心。"
+  },
+  {
+    "id": "cartao-consultorio_medico-ele-esta-enjoado-ela-esta-enjoada",
+    "situacao": "consultorio_medico",
+    "order": 588,
+    "purpose": "useful situation example",
+    "pt": "Sinto-me enjoado/a.",
+    "en": "I feel nauseous.",
+    "zhHans": "我觉得恶心。",
+    "zhHant": "我覺得噁心。"
+  },
+  {
+    "id": "cartao-consultorio_medico-a-enfermeira-vai-medir-a-tensao",
+    "situacao": "consultorio_medico",
+    "order": 589,
+    "purpose": "useful situation example",
+    "pt": "A enfermeira vai medir a tensão.",
+    "en": "The nurse is going to measure the blood pressure.",
+    "zhHans": "护士将测量血压。",
+    "zhHant": "護士將量血壓。"
+  },
+  {
+    "id": "cartao-consultorio_medico-esta-com-tosse",
+    "situacao": "consultorio_medico",
+    "order": 590,
+    "purpose": "useful situation example",
+    "pt": "Está com tosse?",
+    "en": "Do you have a cough?",
+    "zhHans": "您咳嗽吗？",
+    "zhHant": "您咳嗽嗎？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-onde-posso-encontrar-informacoes-sobre-a-chave-de-fendas",
+    "situacao": "casa_reparacoes",
+    "order": 591,
+    "purpose": "useful situation example",
+    "pt": "Tem uma chave de fendas?",
+    "en": "Do you have a screwdriver?",
+    "zhHans": "您有螺丝刀吗？",
+    "zhHant": "您有螺絲批嗎？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-onde-posso-encontrar-informacoes-sobre-a-chave-de-casa",
+    "situacao": "casa_reparacoes",
+    "order": 592,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a chave de casa?",
+    "en": "Where can I find information about house key?",
+    "zhHans": "我可以在哪里查到有关家门钥匙的信息？",
+    "zhHant": "我可以在哪裡查到有關家門鑰匙的資訊？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-pode-dar-me-informacoes-sobre-o-esquentador",
+    "situacao": "casa_reparacoes",
+    "order": 593,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o esquentador?",
+    "en": "Could you give me information about gas water heater?",
+    "zhHans": "可以告诉我有关燃气热水器的信息吗？",
+    "zhHant": "可以告訴我有關燃氣熱水器的資訊嗎？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-pode-dar-me-informacoes-sobre-o-canalizador",
+    "situacao": "casa_reparacoes",
+    "order": 594,
+    "purpose": "useful situation example",
+    "pt": "Preciso de chamar um canalizador.",
+    "en": "I need to call a plumber.",
+    "zhHans": "我需要叫水管工。",
+    "zhHant": "我需要找水喉匠。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-pode-dar-me-informacoes-sobre-o-condominio",
+    "situacao": "casa_reparacoes",
+    "order": 595,
+    "purpose": "useful situation example",
+    "pt": "A reparação é responsabilidade do condomínio?",
+    "en": "Is the building management responsible for the repair?",
+    "zhHans": "维修由物业负责吗？",
+    "zhHant": "維修由大廈管理處負責嗎？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-pode-dar-me-informacoes-sobre-o-martelo",
+    "situacao": "casa_reparacoes",
+    "order": 596,
+    "purpose": "useful situation example",
+    "pt": "Preciso de um martelo.",
+    "en": "I need a hammer.",
+    "zhHans": "我需要一把锤子。",
+    "zhHant": "我需要一把鎚仔。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-preciso-de-esclarecer-uma-duvida-sobre-o-contrato-de-arrendamento",
+    "situacao": "casa_reparacoes",
+    "order": 597,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o contrato de arrendamento.",
+    "en": "I have a question about rental contract.",
+    "zhHans": "我需要咨询有关租赁合同的问题。",
+    "zhHant": "我需要查詢有關租賃合同的問題。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-preciso-de-esclarecer-uma-duvida-sobre-a-remodelacao",
+    "situacao": "casa_reparacoes",
+    "order": 598,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a remodelação.",
+    "en": "I have a question about renovation.",
+    "zhHans": "我需要咨询有关翻新装修的问题。",
+    "zhHant": "我需要查詢有關翻新裝修的問題。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-preciso-de-esclarecer-uma-duvida-sobre-a-caldeira",
+    "situacao": "casa_reparacoes",
+    "order": 599,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a caldeira.",
+    "en": "I have a question about boiler.",
+    "zhHans": "我需要咨询有关锅炉的问题。",
+    "zhHant": "我需要查詢有關鍋爐的問題。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-com-quem-devo-falar-sobre-o-eletrodomestico",
+    "situacao": "casa_reparacoes",
+    "order": 600,
+    "purpose": "useful situation example",
+    "pt": "Este eletrodoméstico avariou-se.",
+    "en": "This appliance has broken down.",
+    "zhHans": "这台家电坏了。",
+    "zhHant": "這部家電壞了。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-preciso-de-esclarecer-uma-duvida-sobre-a-humidade",
+    "situacao": "casa_reparacoes",
+    "order": 601,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a humidade.",
+    "en": "I have a question about damp.",
+    "zhHans": "我需要咨询有关潮湿的问题。",
+    "zhHant": "我需要查詢有關潮濕的問題。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-com-quem-devo-falar-sobre-o-orcamento",
+    "situacao": "casa_reparacoes",
+    "order": 602,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o orçamento?",
+    "en": "Who should I speak to about quote / estimate?",
+    "zhHans": "关于報价，我应该和谁联系？",
+    "zhHant": "關於報價，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-com-quem-devo-falar-sobre-a-serra",
+    "situacao": "casa_reparacoes",
+    "order": 603,
+    "purpose": "useful situation example",
+    "pt": "Tem uma serra?",
+    "en": "Do you have a saw?",
+    "zhHans": "您有锯子吗？",
+    "zhHant": "您有鋸嗎？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-queria-informacoes-sobre-o-aquecimento",
+    "situacao": "casa_reparacoes",
+    "order": 604,
+    "purpose": "useful situation example",
+    "pt": "Queria informações sobre o aquecimento.",
+    "en": "I would like information about heating.",
+    "zhHans": "我想了解暖气。",
+    "zhHant": "我想了解暖氣。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-queria-informacoes-sobre-o-eletricista",
+    "situacao": "casa_reparacoes",
+    "order": 605,
+    "purpose": "useful situation example",
+    "pt": "Preciso de chamar um eletricista.",
+    "en": "I need to call an electrician.",
+    "zhHans": "我需要叫电工。",
+    "zhHant": "我需要找電工。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-pode-dar-me-informacoes-sobre-o-titular-da-conta",
+    "situacao": "agua_luz_gas",
+    "order": 606,
+    "purpose": "useful situation example",
+    "pt": "Quero alterar o titular da conta.",
+    "en": "I want to change the account holder.",
+    "zhHans": "我想更改账户持有人。",
+    "zhHant": "我想更改帳戶持有人。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-onde-posso-encontrar-informacoes-sobre-o-iban",
+    "situacao": "agua_luz_gas",
+    "order": 607,
+    "purpose": "useful situation example",
+    "pt": "Onde posso atualizar o IBAN?",
+    "en": "Where can I update the IBAN?",
+    "zhHans": "我可以在哪里更新 IBAN？",
+    "zhHant": "我可以在哪裡更新 IBAN？"
+  },
+  {
+    "id": "cartao-agua_luz_gas-pode-dar-me-informacoes-sobre-o-esquentador",
+    "situacao": "agua_luz_gas",
+    "order": 608,
+    "purpose": "useful situation example",
+    "pt": "O esquentador não acende.",
+    "en": "The water heater will not light.",
+    "zhHans": "热水器点不着。",
+    "zhHant": "熱水爐點不著。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-preciso-de-esclarecer-uma-duvida-sobre-o-debito-direto",
+    "situacao": "agua_luz_gas",
+    "order": 609,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o débito direto.",
+    "en": "I have a question about direct debit.",
+    "zhHans": "我需要咨询有关自动扣款的问题。",
+    "zhHant": "我需要查詢有關自動扣款的問題。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-com-quem-devo-falar-sobre-as-guias-de-pagamento",
+    "situacao": "agua_luz_gas",
+    "order": 610,
+    "purpose": "useful situation example",
+    "pt": "Onde posso obter as guias de pagamento?",
+    "en": "Where can I get the payment slips?",
+    "zhHans": "我可以在哪里取得缴费单？",
+    "zhHant": "我可以在哪裡取得繳費單？"
+  },
+  {
+    "id": "cartao-agua_luz_gas-queria-informacoes-sobre-a-transferencia-bancaria",
+    "situacao": "agua_luz_gas",
+    "order": 611,
+    "purpose": "useful situation example",
+    "pt": "Posso pagar por transferência bancária?",
+    "en": "Can I pay by bank transfer?",
+    "zhHans": "可以银行转账付款吗？",
+    "zhHant": "可以銀行轉帳付款嗎？"
+  },
+  {
+    "id": "cartao-agua_luz_gas-preciso-de-esclarecer-uma-duvida-sobre-a-caldeira",
+    "situacao": "agua_luz_gas",
+    "order": 612,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a caldeira.",
+    "en": "I have a question about boiler.",
+    "zhHans": "我需要咨询有关锅炉的问题。",
+    "zhHant": "我需要查詢有關鍋爐的問題。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-com-quem-devo-falar-sobre-a-comissao",
+    "situacao": "agua_luz_gas",
+    "order": 613,
+    "purpose": "useful situation example",
+    "pt": "Esta forma de pagamento tem comissão?",
+    "en": "Is there a fee for this payment method?",
+    "zhHans": "这种付款方式收手续费吗？",
+    "zhHant": "這種付款方式收手續費嗎？"
+  },
+  {
+    "id": "cartao-agua_luz_gas-queria-informacoes-sobre-o-comprovativo",
+    "situacao": "agua_luz_gas",
+    "order": 614,
+    "purpose": "useful situation example",
+    "pt": "Preciso de um comprovativo de pagamento.",
+    "en": "I need proof of payment.",
+    "zhHans": "我需要付款凭证。",
+    "zhHant": "我需要付款證明。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-pode-dar-me-uma-fatura",
+    "situacao": "agua_luz_gas",
+    "order": 615,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me uma fatura?",
+    "en": "Can you give me an invoice?",
+    "zhHans": "可以给我一张发票吗？",
+    "zhHant": "可以給我一張發票嗎？"
+  },
+  {
+    "id": "cartao-agua_luz_gas-queria-informacoes-sobre-o-aquecimento",
+    "situacao": "agua_luz_gas",
+    "order": 616,
+    "purpose": "useful situation example",
+    "pt": "O aquecimento não está a funcionar.",
+    "en": "The heating is not working.",
+    "zhHans": "暖气坏了。",
+    "zhHant": "暖氣壞了。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-queria-pagar-em-prestacoes-por-favor",
+    "situacao": "agua_luz_gas",
+    "order": 617,
+    "purpose": "useful situation example",
+    "pt": "Queria pagar em prestações, por favor.",
+    "en": "I would like to pay in instalments, please.",
+    "zhHans": "我想分期缴納。",
+    "zhHant": "我想分期繳納。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-queria-reportar-uma-avaria-por-favor",
+    "situacao": "agua_luz_gas",
+    "order": 618,
+    "purpose": "useful situation example",
+    "pt": "Queria reportar uma avaria, por favor.",
+    "en": "I would like to report a fault, please.",
+    "zhHans": "我想報修。",
+    "zhHant": "我想報修。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-pode-comunicar-a-leitura-por-telefone",
+    "situacao": "agua_luz_gas",
+    "order": 619,
+    "purpose": "useful situation example",
+    "pt": "Pode comunicar a leitura por telefone.",
+    "en": "You can submit the reading by phone.",
+    "zhHans": "您可以通过电话提交抄表数值。",
+    "zhHant": "您可以透過電話提交抄錶數值。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-queria-pagar-uma-taxa-por-favor",
+    "situacao": "agua_luz_gas",
+    "order": 620,
+    "purpose": "useful situation example",
+    "pt": "Queria pagar uma taxa, por favor.",
+    "en": "I would like to pay a fee, please.",
+    "zhHans": "我想缴納费用。",
+    "zhHant": "我想繳納費用。"
+  },
+  {
+    "id": "cartao-telemovel_internet-pode-explicar-me-o-que-devo-fazer-para-avisar-com-antecedencia",
+    "situacao": "telemovel_internet",
+    "order": 621,
+    "purpose": "useful situation example",
+    "pt": "Com quanto tempo de antecedência tenho de avisar?",
+    "en": "How much notice do I need to give?",
+    "zhHans": "我需要提前多久通知？",
+    "zhHant": "我需要提前多久通知？"
+  },
+  {
+    "id": "cartao-telemovel_internet-qual-e-o-seu-numero-de-telefone",
+    "situacao": "telemovel_internet",
+    "order": 622,
+    "purpose": "useful situation example",
+    "pt": "Quero manter o meu número de telefone.",
+    "en": "I want to keep my phone number.",
+    "zhHans": "我想保留现有的手机号码。",
+    "zhHant": "我想保留現有的手提電話號碼。"
+  },
+  {
+    "id": "cartao-telemovel_internet-qual-e-a-palavra-passe-do-wi-fi",
+    "situacao": "telemovel_internet",
+    "order": 623,
+    "purpose": "useful situation example",
+    "pt": "Qual é a palavra-passe do Wi-Fi?",
+    "en": "What is the Wi-Fi password?",
+    "zhHans": "Wi-Fi密码是什么？",
+    "zhHant": "Wi-Fi密碼是甚麼？"
+  },
+  {
+    "id": "cartao-telemovel_internet-com-quem-devo-falar-sobre-a-senha-de-acesso",
+    "situacao": "telemovel_internet",
+    "order": 624,
+    "purpose": "useful situation example",
+    "pt": "Esqueci-me da senha de acesso.",
+    "en": "I forgot my login password.",
+    "zhHans": "我忘记登录密码了。",
+    "zhHant": "我忘記登入密碼了。"
+  },
+  {
+    "id": "cartao-telemovel_internet-preciso-de-ajuda-para-reportar-uma-avaria",
+    "situacao": "telemovel_internet",
+    "order": 625,
+    "purpose": "useful situation example",
+    "pt": "Preciso de ajuda para reportar uma avaria.",
+    "en": "I need help to report a fault.",
+    "zhHans": "我需要协助報修。",
+    "zhHant": "我需要協助報修。"
+  },
+  {
+    "id": "cartao-telemovel_internet-preciso-de-um-cartao-sim-portugues",
+    "situacao": "telemovel_internet",
+    "order": 626,
+    "purpose": "useful situation example",
+    "pt": "Preciso de um cartão SIM português.",
+    "en": "I need a Portuguese SIM card.",
+    "zhHans": "我需要一张葡萄牙SIM卡。",
+    "zhHant": "我需要一張葡萄牙SIM卡。"
+  },
+  {
+    "id": "cartao-telemovel_internet-e-possivel-remarcar-aqui",
+    "situacao": "telemovel_internet",
+    "order": 627,
+    "purpose": "useful situation example",
+    "pt": "Posso remarcar a instalação?",
+    "en": "Can I reschedule the installation?",
+    "zhHans": "我可以改约安装时间吗？",
+    "zhHant": "我可以更改安裝預約嗎？"
+  },
+  {
+    "id": "cartao-telemovel_internet-o-periodo-de-fidelizacao-e-de-vinte-e-quatro-meses",
+    "situacao": "telemovel_internet",
+    "order": 628,
+    "purpose": "useful situation example",
+    "pt": "O período de fidelização é de vinte e quatro meses.",
+    "en": "The lock-in period is twenty-four months.",
+    "zhHans": "合约期为二十四个月。",
+    "zhHant": "綁約期為二十四個月。"
+  },
+  {
+    "id": "cartao-telemovel_internet-a-fibra-ainda-nao-esta-disponivel-nesta-morada",
+    "situacao": "telemovel_internet",
+    "order": 629,
+    "purpose": "useful situation example",
+    "pt": "A fibra ainda não está disponível nesta morada.",
+    "en": "Fibre is not yet available at this address.",
+    "zhHans": "这个地址尚未开通光纤。",
+    "zhHant": "這個地址尚未開通光纖。"
+  },
+  {
+    "id": "cartao-telemovel_internet-este-tarifario-inclui-chamadas-e-dados-moveis",
+    "situacao": "telemovel_internet",
+    "order": 630,
+    "purpose": "useful situation example",
+    "pt": "Este tarifário inclui chamadas e dados móveis.",
+    "en": "This plan includes calls and mobile data.",
+    "zhHans": "这个套餐包括通话和移动数据。",
+    "zhHant": "這個方案包括通話和行動數據。"
+  },
+  {
+    "id": "cartao-telemovel_internet-os-dados-moveis-acabaram-antes-do-fim-do-mes",
+    "situacao": "telemovel_internet",
+    "order": 631,
+    "purpose": "useful situation example",
+    "pt": "Os dados móveis acabaram antes do fim do mês.",
+    "en": "My mobile data ran out before the end of the month.",
+    "zhHans": "我的移动数据月底前就用完了。",
+    "zhHant": "我的行動數據月底前就用完了。"
+  },
+  {
+    "id": "cartao-telemovel_internet-a-instalacao-ficou-marcada-para-sexta-feira",
+    "situacao": "telemovel_internet",
+    "order": 632,
+    "purpose": "useful situation example",
+    "pt": "A instalação ficou marcada para sexta-feira.",
+    "en": "The installation was booked for Friday.",
+    "zhHans": "安装预约在星期五。",
+    "zhHant": "安裝預約在星期五。"
+  },
+  {
+    "id": "cartao-telemovel_internet-pedi-a-portabilidade-do-meu-numero-antigo",
+    "situacao": "telemovel_internet",
+    "order": 633,
+    "purpose": "useful situation example",
+    "pt": "Pedi a portabilidade do meu número antigo.",
+    "en": "I requested to port my old number.",
+    "zhHans": "我申请保留原来的号码转网。",
+    "zhHant": "我申請保留原來的號碼轉台。"
+  },
+  {
+    "id": "cartao-telemovel_internet-prefiro-um-cartao-pre-pago-sem-contrato",
+    "situacao": "telemovel_internet",
+    "order": 634,
+    "purpose": "useful situation example",
+    "pt": "Prefiro um cartão pré-pago sem contrato.",
+    "en": "I prefer a prepaid card without a contract.",
+    "zhHans": "我想要无需合同的预付费卡。",
+    "zhHant": "我想要無需合約的預付費卡。"
+  },
+  {
+    "id": "cartao-telemovel_internet-reinicie-o-router-e-espere-dois-minutos",
+    "situacao": "telemovel_internet",
+    "order": 635,
+    "purpose": "useful situation example",
+    "pt": "Reinicie o router e espere dois minutos.",
+    "en": "Restart the router and wait two minutes.",
+    "zhHans": "请重启路由器并等待两分钟。",
+    "zhHant": "請重啟路由器並等待兩分鐘。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-posso-experimentar-estas-calcas",
+    "situacao": "trocas_devolucoes",
+    "order": 636,
+    "purpose": "useful situation example",
+    "pt": "Posso experimentar estas calças?",
+    "en": "May I try on these trousers?",
+    "zhHans": "我可以试穿这条裤子吗？",
+    "zhHant": "我可以試穿這條褲子嗎？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-pode-devolver-o-artigo-no-prazo-de-trinta-dias",
+    "situacao": "trocas_devolucoes",
+    "order": 637,
+    "purpose": "useful situation example",
+    "pt": "Pode devolver o artigo no prazo de trinta dias.",
+    "en": "You can return the item within thirty days.",
+    "zhHans": "您可以在三十天内退货。",
+    "zhHant": "您可以在三十天內退貨。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-queria-trocar-este-artigo-por-outro-tamanho",
+    "situacao": "trocas_devolucoes",
+    "order": 638,
+    "purpose": "useful situation example",
+    "pt": "Queria trocar este artigo por outro tamanho.",
+    "en": "I'd like to exchange this item for another size.",
+    "zhHans": "我想把这件商品换成另一个尺码。",
+    "zhHant": "我想把這件商品換成另一個尺碼。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-com-quem-devo-falar-sobre-o-reembolso",
+    "situacao": "trocas_devolucoes",
+    "order": 639,
+    "purpose": "useful situation example",
+    "pt": "Quando recebo o reembolso?",
+    "en": "When will I receive the refund?",
+    "zhHans": "我什么时候能收到退款？",
+    "zhHant": "我什麼時候能收到退款？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-nao-retire-a-etiqueta-antes-de-experimentar",
+    "situacao": "trocas_devolucoes",
+    "order": 640,
+    "purpose": "useful situation example",
+    "pt": "Não retire a etiqueta antes de experimentar.",
+    "en": "Do not remove the tag before trying it on.",
+    "zhHans": "试穿前请勿撕下标签。",
+    "zhHant": "試穿前請勿撕下標籤。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-tem-este-casaco-no-meu-tamanho",
+    "situacao": "trocas_devolucoes",
+    "order": 641,
+    "purpose": "useful situation example",
+    "pt": "Tem este casaco no meu tamanho?",
+    "en": "Do you have this jacket in my size?",
+    "zhHans": "这件外套有我的尺码吗？",
+    "zhHant": "這件外套有我的尺碼嗎？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-a-quantia-deve-ser-entregue-no-prazo-de-oito-dias",
+    "situacao": "trocas_devolucoes",
+    "order": 642,
+    "purpose": "useful situation example",
+    "pt": "O reembolso demora quantos dias?",
+    "en": "How many days will the refund take?",
+    "zhHans": "退款需要多少天？",
+    "zhHant": "退款需要多少天？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-sem-talao-so-podemos-emitir-um-vale-de-troca",
+    "situacao": "trocas_devolucoes",
+    "order": 643,
+    "purpose": "useful situation example",
+    "pt": "Sem talão, só podemos emitir um vale de troca.",
+    "en": "Without a receipt, we can only issue an exchange voucher.",
+    "zhHans": "没有收据只能开换货券。",
+    "zhHant": "沒有收據只能開換貨券。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-a-deco-tem-recebido-queixas-de-consumidores",
+    "situacao": "trocas_devolucoes",
+    "order": 644,
+    "purpose": "useful situation example",
+    "pt": "Onde posso apresentar uma reclamação?",
+    "en": "Where can I make a complaint?",
+    "zhHans": "我可以在哪里投诉？",
+    "zhHant": "我可以在哪裡投訴？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-entreguei-a-roupa-no-vosso-estabelecimento",
+    "situacao": "trocas_devolucoes",
+    "order": 645,
+    "purpose": "useful situation example",
+    "pt": "Comprei este artigo nesta loja.",
+    "en": "I bought this item in this shop.",
+    "zhHans": "这件商品是在这家店买的。",
+    "zhHant": "這件貨品是在這間店買的。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-este-aparelho-tem-dois-anos-de-garantia",
+    "situacao": "trocas_devolucoes",
+    "order": 646,
+    "purpose": "useful situation example",
+    "pt": "Este aparelho tem dois anos de garantia.",
+    "en": "This appliance has a two-year warranty.",
+    "zhHans": "这台设备有两年保修。",
+    "zhHant": "這台設備有兩年保養。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-a-empresa-e-responsavel-pelos-estragos",
+    "situacao": "trocas_devolucoes",
+    "order": 647,
+    "purpose": "useful situation example",
+    "pt": "A empresa é responsável pelos estragos.",
+    "en": "The company is responsible for the damage.",
+    "zhHans": "该公司应对损坏负责。",
+    "zhHant": "該公司應對損壞負責。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-os-provadores-ficam-ao-fundo-da-loja",
+    "situacao": "trocas_devolucoes",
+    "order": 648,
+    "purpose": "useful situation example",
+    "pt": "Os provadores ficam ao fundo da loja.",
+    "en": "The fitting rooms are at the back of the shop.",
+    "zhHans": "试衣间在商店里面。",
+    "zhHant": "試身室在店內後方。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-a-reclamacao-e-por-roupa-estragada",
+    "situacao": "trocas_devolucoes",
+    "order": 649,
+    "purpose": "useful situation example",
+    "pt": "A reclamação é por roupa estragada.",
+    "en": "The complaint is about damaged clothing.",
+    "zhHans": "投诉是因为衣物损坏。",
+    "zhHant": "投訴是因為衣物損壞。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-o-vestido-fica-um-pouco-apertado",
+    "situacao": "trocas_devolucoes",
+    "order": 650,
+    "purpose": "useful situation example",
+    "pt": "O vestido fica um pouco apertado.",
+    "en": "The dress is a little tight.",
+    "zhHans": "这条裙子有点紧。",
+    "zhHant": "這條裙子有點緊。"
+  },
+  {
+    "id": "cartao-policia_documentos-pode-dar-uma-descricao-da-mochila",
+    "situacao": "policia_documentos",
+    "order": 651,
+    "purpose": "useful situation example",
+    "pt": "Pode dar uma descrição da mochila?",
+    "en": "Can you describe the backpack?",
+    "zhHans": "您可以描述一下背包吗？",
+    "zhHant": "您可以描述一下背包嗎？"
+  },
+  {
+    "id": "cartao-policia_documentos-preciso-de-autorizacao-para-consulta-do-registo-criminal",
+    "situacao": "policia_documentos",
+    "order": 652,
+    "purpose": "useful situation example",
+    "pt": "Preciso de substituir os documentos roubados.",
+    "en": "I need to replace the stolen documents.",
+    "zhHans": "我需要补办被盗的证件。",
+    "zhHant": "我需要補領被盜的證件。"
+  },
+  {
+    "id": "cartao-policia_documentos-com-quem-devo-falar-sobre-o-comprovativo",
+    "situacao": "policia_documentos",
+    "order": 653,
+    "purpose": "useful situation example",
+    "pt": "Este é o comprovativo da compra.",
+    "en": "This is the proof of purchase.",
+    "zhHans": "这是购买凭证。",
+    "zhHant": "這是購買證明。"
+  },
+  {
+    "id": "cartao-policia_documentos-preciso-de-uma-copia-do-auto-da-ocorrencia",
+    "situacao": "policia_documentos",
+    "order": 654,
+    "purpose": "useful situation example",
+    "pt": "Preciso de uma cópia do auto da ocorrência.",
+    "en": "I need a copy of the incident report.",
+    "zhHans": "我需要一份事件报告副本。",
+    "zhHant": "我需要一份事件報告副本。"
+  },
+  {
+    "id": "cartao-policia_documentos-quero-apresentar-uma-denuncia-por-furto",
+    "situacao": "policia_documentos",
+    "order": 655,
+    "purpose": "useful situation example",
+    "pt": "Quero apresentar uma denúncia por furto.",
+    "en": "I want to file a report for theft.",
+    "zhHans": "我要报案，物品被盗。",
+    "zhHant": "我要報案，物品被盜。"
+  },
+  {
+    "id": "cartao-policia_documentos-com-quem-devo-falar-sobre-o-112",
+    "situacao": "policia_documentos",
+    "order": 656,
+    "purpose": "useful situation example",
+    "pt": "É uma emergência. Vou ligar para o 112.",
+    "en": "It is an emergency. I am going to call 112.",
+    "zhHans": "这是紧急情况，我要拨打 112。",
+    "zhHant": "這是緊急情況，我要致電 112。"
+  },
+  {
+    "id": "cartao-policia_documentos-queria-bloquear-o-cartao-por-favor",
+    "situacao": "policia_documentos",
+    "order": 657,
+    "purpose": "useful situation example",
+    "pt": "Queria bloquear o cartão, por favor.",
+    "en": "I would like to block the card, please.",
+    "zhHans": "我想挂失／冻结银行卡。",
+    "zhHant": "我想掛失／凍結銀行卡。"
+  },
+  {
+    "id": "cartao-policia_documentos-nao-consegui-ver-a-cara-do-suspeito",
+    "situacao": "policia_documentos",
+    "order": 658,
+    "purpose": "useful situation example",
+    "pt": "Não consegui ver a cara do suspeito.",
+    "en": "I could not see the suspect's face.",
+    "zhHans": "我没看清嫌疑人的脸。",
+    "zhHant": "我沒有看清疑犯的臉。"
+  },
+  {
+    "id": "cartao-policia_documentos-alguem-sabe-onde-fica-o-acm",
+    "situacao": "policia_documentos",
+    "order": 659,
+    "purpose": "useful situation example",
+    "pt": "Onde ficam os perdidos e achados?",
+    "en": "Where is lost and found?",
+    "zhHans": "失物招领处在哪里？",
+    "zhHant": "失物認領處在哪裡？"
+  },
+  {
+    "id": "cartao-policia_documentos-nao-conhecemos-o-destinatario",
+    "situacao": "policia_documentos",
+    "order": 660,
+    "purpose": "useful situation example",
+    "pt": "Não conheço o suspeito.",
+    "en": "I do not know the suspect.",
+    "zhHans": "我不认识嫌疑人。",
+    "zhHant": "我不認識疑犯。"
+  },
+  {
+    "id": "cartao-policia_documentos-a-deco-tem-recebido-queixas-de-consumidores",
+    "situacao": "policia_documentos",
+    "order": 661,
+    "purpose": "useful situation example",
+    "pt": "Quero denunciar uma burla.",
+    "en": "I want to report a scam.",
+    "zhHans": "我要举报诈骗。",
+    "zhHant": "我要舉報騙案。"
+  },
+  {
+    "id": "cartao-policia_documentos-levaram-o-meu-documento-de-identificacao",
+    "situacao": "policia_documentos",
+    "order": 662,
+    "purpose": "useful situation example",
+    "pt": "Levaram o meu documento de identificação.",
+    "en": "My identity document was taken.",
+    "zhHans": "我的身份证件被拿走了。",
+    "zhHant": "我的身份證明文件被取走了。"
+  },
+  {
+    "id": "cartao-policia_documentos-pergunte-primeiro-nos-perdidos-e-achados",
+    "situacao": "policia_documentos",
+    "order": 663,
+    "purpose": "useful situation example",
+    "pt": "Pergunte primeiro nos perdidos e achados.",
+    "en": "Ask at lost and found first.",
+    "zhHans": "请先到失物招领处询问。",
+    "zhHant": "請先到失物認領處查詢。"
+  },
+  {
+    "id": "cartao-policia_documentos-liguei-ao-banco-para-bloquear-os-cartoes",
+    "situacao": "policia_documentos",
+    "order": 664,
+    "purpose": "useful situation example",
+    "pt": "Liguei ao banco para bloquear os cartões.",
+    "en": "I called the bank to block the cards.",
+    "zhHans": "我给银行打电话冻结银行卡。",
+    "zhHant": "我致電銀行停用銀行卡。"
+  },
+  {
+    "id": "cartao-policia_documentos-o-112-e-o-numero-europeu-de-emergencia",
+    "situacao": "policia_documentos",
+    "order": 665,
+    "purpose": "useful situation example",
+    "pt": "O 112 é o Número Europeu de Emergência.",
+    "en": "112 is the European Emergency Number.",
+    "zhHans": "112 是欧洲紧急电话号码。",
+    "zhHant": "112 是歐洲緊急電話號碼。"
+  },
+  {
+    "id": "cartao-iefp-onde-posso-encontrar-informacoes-sobre-a-declaracao-da-entidade-empregadora",
+    "situacao": "iefp",
+    "order": 666,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a declaração da entidade empregadora?",
+    "en": "Where can I find information about employer's declaration (of dismissal)?",
+    "zhHans": "我可以在哪里查到有关雇主解雇声明的信息？",
+    "zhHant": "我可以在哪裡查到有關僱主解僱聲明的資訊？"
+  },
+  {
+    "id": "cartao-iefp-pode-dar-me-informacoes-sobre-o-curso-de-portugues-para-estrangeiros",
+    "situacao": "iefp",
+    "order": 667,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o curso de português para estrangeiros?",
+    "en": "Could you give me information about Portuguese course for foreigners?",
+    "zhHans": "可以告诉我有关对外葡语课程的信息吗？",
+    "zhHant": "可以告訴我有關對外葡語課程的資訊嗎？"
+  },
+  {
+    "id": "cartao-iefp-onde-posso-encontrar-informacoes-sobre-a-entrevista-de-emprego",
+    "situacao": "iefp",
+    "order": 668,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a entrevista de emprego?",
+    "en": "Where can I find information about job interview?",
+    "zhHans": "我可以在哪里查到有关求职面试的信息？",
+    "zhHant": "我可以在哪裡查到有關求職面試的資訊？"
+  },
+  {
+    "id": "cartao-iefp-onde-posso-encontrar-informacoes-sobre-o-recibo-de-vencimento",
+    "situacao": "iefp",
+    "order": 669,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o recibo de vencimento?",
+    "en": "Where can I find information about payslip?",
+    "zhHans": "我可以在哪里查到有关工资单的信息？",
+    "zhHant": "我可以在哪裡查到有關工資單的資訊？"
+  },
+  {
+    "id": "cartao-iefp-pode-dar-me-informacoes-sobre-o-periodo-experimental",
+    "situacao": "iefp",
+    "order": 670,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o período experimental?",
+    "en": "Could you give me information about probation period?",
+    "zhHans": "可以告诉我有关试用期的信息吗？",
+    "zhHant": "可以告訴我有關試用期的資訊嗎？"
+  },
+  {
+    "id": "cartao-iefp-pode-dar-me-informacoes-sobre-a-rescisao-do-contrato",
+    "situacao": "iefp",
+    "order": 671,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a rescisão do contrato?",
+    "en": "Could you give me information about contract termination?",
+    "zhHans": "可以告诉我有关解除合同的信息吗？",
+    "zhHant": "可以告訴我有關解除合同的資訊嗎？"
+  },
+  {
+    "id": "cartao-iefp-pode-dar-me-informacoes-sobre-o-gestor-pessoal",
+    "situacao": "iefp",
+    "order": 672,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o gestor pessoal?",
+    "en": "Could you give me information about personal case officer?",
+    "zhHans": "可以告诉我有关个人专员的信息吗？",
+    "zhHant": "可以告訴我有關個人專員的資訊嗎？"
+  },
+  {
+    "id": "cartao-iefp-preciso-de-esclarecer-uma-duvida-sobre-a-agencia-de-trabalho-temporario",
+    "situacao": "iefp",
+    "order": 673,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a agência de trabalho temporário.",
+    "en": "I have a question about temp agency.",
+    "zhHans": "我需要咨询有关劳务派遣公司的问题。",
+    "zhHant": "我需要查詢有關勞務派遣公司的問題。"
+  },
+  {
+    "id": "cartao-iefp-pode-dar-me-informacoes-sobre-o-sindicato",
+    "situacao": "iefp",
+    "order": 674,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o sindicato?",
+    "en": "Could you give me information about trade union?",
+    "zhHans": "可以告诉我有关工会的信息吗？",
+    "zhHant": "可以告訴我有關工會的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-pode-explicar-me-o-que-devo-fazer-para-guardar-a-bagagem",
+    "situacao": "trabalho_hotelaria",
+    "order": 675,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para guardar a bagagem?",
+    "en": "Could you explain what I need to do to store luggage?",
+    "zhHans": "可以说明我要怎样寄存行李吗？",
+    "zhHant": "可以說明我要怎樣寄存行李嗎？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-onde-posso-encontrar-informacoes-sobre-a-folga",
+    "situacao": "trabalho_hotelaria",
+    "order": 676,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a folga?",
+    "en": "Where can I find information about day off?",
+    "zhHans": "我可以在哪里查到有关休息日的信息？",
+    "zhHant": "我可以在哪裡查到有關休息日的資訊？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-onde-posso-encontrar-o-carrinho-de-limpeza",
+    "situacao": "trabalho_hotelaria",
+    "order": 677,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o carrinho de limpeza?",
+    "en": "Where can I find housekeeping cart?",
+    "zhHans": "清洁工作车在哪里？",
+    "zhHant": "清潔工作車在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-pode-dar-me-informacoes-sobre-a-reclamacao",
+    "situacao": "trabalho_hotelaria",
+    "order": 678,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a reclamação?",
+    "en": "Could you give me information about complaint?",
+    "zhHans": "可以告诉我有关投诉的信息吗？",
+    "zhHant": "可以告訴我有關投訴的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-onde-posso-encontrar-o-elevador-de-servico",
+    "situacao": "trabalho_hotelaria",
+    "order": 679,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o elevador de serviço?",
+    "en": "Where can I find service lift?",
+    "zhHans": "员工电梯在哪里？",
+    "zhHant": "員工電梯在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-onde-posso-encontrar-o-rececionista",
+    "situacao": "trabalho_hotelaria",
+    "order": 680,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o rececionista?",
+    "en": "Where can I find receptionist?",
+    "zhHans": "前台接待员在哪里？",
+    "zhHant": "前台接待員在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-onde-posso-encontrar-a-governanta",
+    "situacao": "trabalho_hotelaria",
+    "order": 681,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a governanta?",
+    "en": "Where can I find head housekeeper?",
+    "zhHans": "客房部主管在哪里？",
+    "zhHant": "客房部主管在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-onde-posso-encontrar-o-uniforme",
+    "situacao": "trabalho_hotelaria",
+    "order": 682,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o uniforme?",
+    "en": "Where can I find uniform?",
+    "zhHans": "制服在哪里？",
+    "zhHant": "制服在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_hotelaria-preciso-de-esclarecer-uma-duvida-sobre-a-folha-de-tarefas",
+    "situacao": "trabalho_hotelaria",
+    "order": 683,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a folha de tarefas.",
+    "en": "I have a question about task sheet.",
+    "zhHans": "我需要咨询有关工作任务单的问题。",
+    "zhHant": "我需要查詢有關工作任務單的問題。"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-onde-posso-encontrar-informacoes-sobre-o-turno-partido",
+    "situacao": "trabalho_restauracao",
+    "order": 684,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o turno partido?",
+    "en": "Where can I find information about split shift?",
+    "zhHans": "我可以在哪里查到有关两头班（分段班）的信息？",
+    "zhHant": "我可以在哪裡查到有關兩頭班（分段班）的資訊？"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-onde-posso-encontrar-informacoes-sobre-a-gorjeta",
+    "situacao": "trabalho_restauracao",
+    "order": 685,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a gorjeta?",
+    "en": "Where can I find information about tip?",
+    "zhHans": "我可以在哪里查到有关小费的信息？",
+    "zhHant": "我可以在哪裡查到有關小費的資訊？"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-onde-posso-encontrar-informacoes-sobre-o-couvert",
+    "situacao": "trabalho_restauracao",
+    "order": 686,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o couvert?",
+    "en": "Where can I find information about couvert (bread/olives, charged)?",
+    "zhHans": "我可以在哪里查到有关餐前小食（收费）的信息？",
+    "zhHant": "我可以在哪裡查到有關餐前小食（收費）的資訊？"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-pode-dar-me-informacoes-sobre-o-prato-principal",
+    "situacao": "trabalho_restauracao",
+    "order": 687,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o prato principal?",
+    "en": "Could you give me information about main course?",
+    "zhHans": "可以告诉我有关主菜的信息吗？",
+    "zhHant": "可以告訴我有關主菜的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-onde-posso-encontrar-o-ajudante-de-cozinha",
+    "situacao": "trabalho_restauracao",
+    "order": 688,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o ajudante de cozinha?",
+    "en": "Where can I find kitchen assistant?",
+    "zhHans": "厨房帮工在哪里？",
+    "zhHant": "廚房幫工在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-pode-dar-me-informacoes-sobre-a-comanda",
+    "situacao": "trabalho_restauracao",
+    "order": 689,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a comanda?",
+    "en": "Could you give me information about order slip?",
+    "zhHans": "可以告诉我有关点菜单的信息吗？",
+    "zhHant": "可以告訴我有關點菜單的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-onde-posso-encontrar-o-cliente-habitual",
+    "situacao": "trabalho_restauracao",
+    "order": 690,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o cliente habitual?",
+    "en": "Where can I find regular customer?",
+    "zhHans": "熟客在哪里？",
+    "zhHant": "熟客在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-preciso-de-esclarecer-uma-duvida-sobre-a-esplanada-cheia",
+    "situacao": "trabalho_restauracao",
+    "order": 691,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a esplanada cheia.",
+    "en": "I have a question about full terrace.",
+    "zhHans": "我需要咨询有关露天座位已满的问题。",
+    "zhHant": "我需要查詢有關露天座位已滿的問題。"
+  },
+  {
+    "id": "cartao-trabalho_restauracao-como-posso-lavar-a-loica",
+    "situacao": "trabalho_restauracao",
+    "order": 692,
+    "purpose": "useful situation example",
+    "pt": "Como posso lavar a loiça?",
+    "en": "How can I wash the dishes?",
+    "zhHans": "我该怎样洗碗？",
+    "zhHant": "我該怎樣洗碗？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-onde-posso-encontrar-a-tabua-e-o-ferro-de-engomar",
+    "situacao": "trabalho_limpezas",
+    "order": 693,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a tábua e o ferro de engomar?",
+    "en": "Where can I find ironing board and iron?",
+    "zhHans": "烫衣板和熨斗在哪里？",
+    "zhHant": "燙衣板和熨斗在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-onde-posso-encontrar-a-esfregona-e-o-balde",
+    "situacao": "trabalho_limpezas",
+    "order": 694,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a esfregona e o balde?",
+    "en": "Where can I find mop and bucket?",
+    "zhHans": "拖把和水桶在哪里？",
+    "zhHant": "拖把和水桶在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-onde-posso-encontrar-o-material-de-limpeza",
+    "situacao": "trabalho_limpezas",
+    "order": 695,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o material de limpeza?",
+    "en": "Where can I find cleaning supplies?",
+    "zhHans": "清洁用品在哪里？",
+    "zhHant": "清潔用品在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-onde-posso-encontrar-o-produto-de-limpeza",
+    "situacao": "trabalho_limpezas",
+    "order": 696,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o produto de limpeza?",
+    "en": "Where can I find cleaning product?",
+    "zhHans": "清洁剂在哪里？",
+    "zhHant": "清潔劑在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-onde-posso-encontrar-a-chave-de-casa",
+    "situacao": "trabalho_limpezas",
+    "order": 697,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a chave de casa?",
+    "en": "Where can I find house key?",
+    "zhHans": "家门钥匙在哪里？",
+    "zhHant": "家門鑰匙在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-onde-posso-encontrar-o-pano-do-po",
+    "situacao": "trabalho_limpezas",
+    "order": 698,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o pano do pó?",
+    "en": "Where can I find dust cloth?",
+    "zhHans": "抹布在哪里？",
+    "zhHant": "抹布在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-com-quem-devo-falar-sobre-o-pagamento-por-transferencia",
+    "situacao": "trabalho_limpezas",
+    "order": 699,
+    "purpose": "useful situation example",
+    "pt": "Com quem devo falar sobre o pagamento por transferência?",
+    "en": "Who should I speak to about payment by bank transfer?",
+    "zhHans": "关于转账付款，我应该和谁联系？",
+    "zhHant": "關於轉帳付款，我應該聯絡誰？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-onde-posso-encontrar-a-lixivia",
+    "situacao": "trabalho_limpezas",
+    "order": 700,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a lixívia?",
+    "en": "Where can I find bleach?",
+    "zhHans": "漂白水在哪里？",
+    "zhHant": "漂白水在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-preciso-de-esclarecer-uma-duvida-sobre-a-limpeza-a-fundo",
+    "situacao": "trabalho_limpezas",
+    "order": 701,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a limpeza a fundo.",
+    "en": "I have a question about deep clean.",
+    "zhHans": "我需要咨询有关深度清洁的问题。",
+    "zhHant": "我需要查詢有關深度清潔的問題。"
+  },
+  {
+    "id": "cartao-trabalho_limpezas-como-posso-estender-a-roupa",
+    "situacao": "trabalho_limpezas",
+    "order": 702,
+    "purpose": "useful situation example",
+    "pt": "Como posso estender a roupa?",
+    "en": "How can I hang out the laundry?",
+    "zhHans": "我该怎样晾衣服？",
+    "zhHant": "我該怎樣晾衣服？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-pode-explicar-me-o-que-devo-fazer-para-descarregar-o-material",
+    "situacao": "trabalho_construcao",
+    "order": 703,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para descarregar o material?",
+    "en": "Could you explain what I need to do to unload materials?",
+    "zhHans": "可以说明我要怎样卸货（材料）吗？",
+    "zhHant": "可以說明我要怎樣卸貨（材料）嗎？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-preciso-de-esclarecer-uma-duvida-sobre-o-seguro-de-acidentes-de-trabalho",
+    "situacao": "trabalho_construcao",
+    "order": 704,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre o seguro de acidentes de trabalho.",
+    "en": "I have a question about workplace accident insurance.",
+    "zhHans": "我需要咨询有关工伤保险的问题。",
+    "zhHant": "我需要查詢有關工傷保險的問題。"
+  },
+  {
+    "id": "cartao-trabalho_construcao-pode-dar-me-informacoes-sobre-o-orcamento",
+    "situacao": "trabalho_construcao",
+    "order": 705,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o orçamento?",
+    "en": "Could you give me information about quote / estimate?",
+    "zhHans": "可以告诉我有关報价的信息吗？",
+    "zhHant": "可以告訴我有關報價的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-onde-posso-encontrar-o-colete-refletor",
+    "situacao": "trabalho_construcao",
+    "order": 706,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o colete refletor?",
+    "en": "Where can I find hi-vis vest?",
+    "zhHans": "反光背心在哪里？",
+    "zhHant": "反光背心在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-onde-posso-encontrar-a-chave-de-fendas",
+    "situacao": "trabalho_construcao",
+    "order": 707,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a chave de fendas?",
+    "en": "Where can I find screwdriver?",
+    "zhHans": "螺絲刀在哪里？",
+    "zhHant": "螺絲刀在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-pode-dar-me-informacoes-sobre-a-serra",
+    "situacao": "trabalho_construcao",
+    "order": 708,
+    "purpose": "useful situation example",
+    "pt": "Onde está a serra?",
+    "en": "Where is the saw?",
+    "zhHans": "锯子在哪里？",
+    "zhHant": "鋸在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-onde-posso-encontrar-o-canalizador",
+    "situacao": "trabalho_construcao",
+    "order": 709,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o canalizador?",
+    "en": "Where can I find plumber?",
+    "zhHans": "水管工在哪里？",
+    "zhHant": "水管工在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-onde-posso-encontrar-a-betoneira",
+    "situacao": "trabalho_construcao",
+    "order": 710,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a betoneira?",
+    "en": "Where can I find cement mixer?",
+    "zhHans": "搅拌机在哪里？",
+    "zhHant": "攪拌機在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_construcao-onde-posso-encontrar-o-servente",
+    "situacao": "trabalho_construcao",
+    "order": 711,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar o servente?",
+    "en": "Where can I find labourer?",
+    "zhHans": "小工（杂工）在哪里？",
+    "zhHant": "小工（雜工）在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-onde-posso-encontrar-informacoes-sobre-o-pagamento-semanal",
+    "situacao": "trabalho_entregas",
+    "order": 712,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre o pagamento semanal?",
+    "en": "Where can I find information about weekly payout?",
+    "zhHans": "我可以在哪里查到有关周结（每周结算）的信息？",
+    "zhHant": "我可以在哪裡查到有關週結（每週結算）的資訊？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-pode-explicar-me-o-que-devo-fazer-para-ligar-ao-cliente",
+    "situacao": "trabalho_entregas",
+    "order": 713,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para ligar ao cliente?",
+    "en": "Could you explain what I need to do to call the customer?",
+    "zhHans": "可以说明我要怎样给顾客打电话吗？",
+    "zhHant": "可以說明我要怎樣給顧客打電話嗎？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-pode-explicar-me-o-que-devo-fazer-para-estacionar",
+    "situacao": "trabalho_entregas",
+    "order": 714,
+    "purpose": "useful situation example",
+    "pt": "Pode explicar-me o que devo fazer para estacionar?",
+    "en": "Could you explain what I need to do to park?",
+    "zhHans": "可以说明我要怎样停车吗？",
+    "zhHant": "可以說明我要怎樣停車嗎？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-o-codigo-da-porta",
+    "situacao": "trabalho_entregas",
+    "order": 715,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre o código da porta?",
+    "en": "Could you give me information about door/entry code?",
+    "zhHans": "可以告诉我有关门禁密码的信息吗？",
+    "zhHant": "可以告訴我有關門禁密碼的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-onde-posso-encontrar-informacoes-sobre-a-demora",
+    "situacao": "trabalho_entregas",
+    "order": 716,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar informações sobre a demora?",
+    "en": "Where can I find information about delay / wait?",
+    "zhHans": "我可以在哪里查到有关等候／延误的信息？",
+    "zhHant": "我可以在哪裡查到有關等候／延誤的資訊？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-a-zona-de-entrega",
+    "situacao": "trabalho_entregas",
+    "order": 717,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a zona de entrega?",
+    "en": "Could you give me information about delivery zone?",
+    "zhHans": "可以告诉我有关配送区域的信息吗？",
+    "zhHant": "可以告訴我有關配送區域的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-a-conta-bloqueada",
+    "situacao": "trabalho_entregas",
+    "order": 718,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a conta bloqueada?",
+    "en": "Could you give me information about blocked account?",
+    "zhHans": "可以告诉我有关账号被封的信息吗？",
+    "zhHant": "可以告訴我有關帳號被封的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-a-entrega",
+    "situacao": "trabalho_entregas",
+    "order": 719,
+    "purpose": "useful situation example",
+    "pt": "Pode dar-me informações sobre a entrega?",
+    "en": "Could you give me information about delivery?",
+    "zhHans": "可以告诉我有关配送的信息吗？",
+    "zhHant": "可以告訴我有關配送的資訊嗎？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-onde-posso-encontrar-a-mochila-termica",
+    "situacao": "trabalho_entregas",
+    "order": 720,
+    "purpose": "useful situation example",
+    "pt": "Onde posso encontrar a mochila térmica?",
+    "en": "Where can I find thermal delivery bag?",
+    "zhHans": "保溫配送箱在哪里？",
+    "zhHant": "保溫配送箱在哪裡？"
+  },
+  {
+    "id": "cartao-trabalho_entregas-preciso-de-esclarecer-uma-duvida-sobre-a-taxa-de-entrega",
+    "situacao": "trabalho_entregas",
+    "order": 721,
+    "purpose": "useful situation example",
+    "pt": "Preciso de esclarecer uma dúvida sobre a taxa de entrega.",
+    "en": "I have a question about delivery fee.",
+    "zhHans": "我需要咨询有关配送费的问题。",
+    "zhHant": "我需要查詢有關配送費的問題。"
   }
 ];

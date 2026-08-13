@@ -6,6 +6,7 @@ import { GlobalSearchView } from "./components/GlobalSearchView";
 import { ModuleQuiz } from "./components/ModuleQuiz";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { RetrievalReview } from "./components/RetrievalReview";
+import { SituacaoTabs } from "./components/SituacaoTabs";
 import { situacaoCheatSheetLines, situacaoDialogueLines, situacaoGroups, situacaoLabels } from "./data/situacoes";
 import { vocabulary } from "./data/vocabulary";
 import { getVocabularyForSituacao, situacaoVocabulary, wordBank, WORDBANK_VERSION } from "./data/wordBank";
@@ -1398,35 +1399,11 @@ export default function App() {
   function renderSituacoesContent() {
     return (
       <section className="situacao-mode">
-        <div className="situacao-tabs" role="tablist" aria-label="Conteúdo da situação">
-          <button
-            type="button"
-            role="tab"
-            aria-selected={situacaoTab === "vocabulario"}
-            className={situacaoTab === "vocabulario" ? "is-active" : ""}
-            onClick={() => setSituacaoTab("vocabulario")}
-          >
-            Vocabulário
-          </button>
-          <button
-            type="button"
-            role="tab"
-            aria-selected={situacaoTab === "dialogo"}
-            className={situacaoTab === "dialogo" ? "is-active" : ""}
-            onClick={() => setSituacaoTab("dialogo")}
-          >
-            Diálogo
-          </button>
-          <button
-            type="button"
-            role="tab"
-            aria-selected={situacaoTab === "cartao"}
-            className={situacaoTab === "cartao" ? "is-active" : ""}
-            onClick={() => setSituacaoTab("cartao")}
-          >
-            Cartão
-          </button>
-        </div>
+        <SituacaoTabs
+          activeTab={situacaoTab}
+          locale={ui.locale}
+          onChange={setSituacaoTab}
+        />
 
         {situacaoTab === "vocabulario" && renderSituacaoVocabulary()}
         {situacaoTab === "dialogo" && renderSituacaoDialogue()}
@@ -2126,7 +2103,7 @@ function getEntryScreenCopy(locale: "en" | "zhHans" | "zhHant") {
   return {
     manualLabel: "Manual",
     manualDescription: "Work through the 12 textbook modules.",
-    situacoesLabel: "Situações",
+    situacoesLabel: "Situation",
     situacoesDescription: "Learn by real-life situation.",
     languageLabel: "Language"
   };

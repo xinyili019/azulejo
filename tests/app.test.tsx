@@ -303,7 +303,7 @@ describe("App", () => {
     expect(screen.getAllByRole("heading", { name: "Azulejo" })).toHaveLength(1);
     expect(screen.getByText("your Portuguese, tile by tile")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /manual work through the 12 textbook modules/i })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /situações learn by real-life situation/i })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /situation learn by real-life situation/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /settings/i })).toBeInTheDocument();
     expect(screen.getByLabelText(/language/i)).toBeInTheDocument();
 
@@ -337,7 +337,7 @@ describe("App", () => {
     render(<App />);
 
     expect(await screen.findByText("Boa tarde, queria abrir uma conta à ordem.")).toBeInTheDocument();
-    expect(screen.getByRole("tab", { name: "Diálogo" })).toHaveAttribute("aria-selected", "true");
+    expect(screen.getByRole("tab", { name: "Dialogue" })).toHaveAttribute("aria-selected", "true");
     expect(screen.queryByRole("heading", { name: "Azulejo" })).not.toBeInTheDocument();
   });
 
@@ -347,7 +347,7 @@ describe("App", () => {
     expect(screen.getByText(vocabulary[0].english)).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
-    fireEvent.click(screen.getByRole("button", { name: /^situações/i }));
+    fireEvent.click(screen.getByRole("button", { name: /^situation/i }));
     fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
     fireEvent.click(screen.getByRole("button", { name: /^manual/i }));
     expect(screen.getByText(vocabulary[0].english)).toBeInTheDocument();
@@ -374,18 +374,18 @@ describe("App", () => {
     render(<App />);
 
     fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
-    fireEvent.click(screen.getByRole("button", { name: /^situações/i }));
+    fireEvent.click(screen.getByRole("button", { name: /^situation/i }));
 
     expect(screen.getByRole("combobox", { name: "Situação" })).toBeInTheDocument();
     expect(screen.getByRole("option", { name: "Vet · Veterinário" })).toBeInTheDocument();
-    expect(screen.getByRole("tab", { name: "Vocabulário" })).toHaveAttribute("aria-selected", "true");
+    expect(screen.getByRole("tab", { name: "Vocabulary" })).toHaveAttribute("aria-selected", "true");
     expect(screen.getByText("Bank", { selector: ".module-row > span" })).toBeInTheDocument();
     expect(screen.queryByText(/Banco 0%/)).not.toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole("tab", { name: "Diálogo" }));
+    fireEvent.click(screen.getByRole("tab", { name: "Dialogue" }));
     expect(screen.getByText("Boa tarde, queria abrir uma conta à ordem.")).toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole("tab", { name: "Cartão" }));
+    fireEvent.click(screen.getByRole("tab", { name: "Cheat sheet" }));
     expect(screen.getByRole("button", { name: "Print" })).toBeInTheDocument();
   });
 
@@ -409,8 +409,8 @@ describe("App", () => {
 
     render(<App />);
     fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
-    fireEvent.click(screen.getByRole("button", { name: /^situações/i }));
-    fireEvent.click(screen.getByRole("tab", { name: "Diálogo" }));
+    fireEvent.click(screen.getByRole("button", { name: /^situation/i }));
+    fireEvent.click(screen.getByRole("tab", { name: "Dialogue" }));
 
     const dialogue = situacaoDialogueLines.filter((line) => line.situacao === "banco");
     const firstPortuguese = screen.getByText(dialogue[0].pt);
@@ -483,7 +483,7 @@ describe("App", () => {
   it("skips and replays the five-step Situações walkthrough", async () => {
     await importAll({ app: "azulejo", progress: {}, settings: { translationLanguage: "pt-en" } });
     render(<App />);
-    fireEvent.click(screen.getByRole("button", { name: /situações learn by real-life/i }));
+    fireEvent.click(screen.getByRole("button", { name: /situation learn by real-life/i }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
     expect(screen.getByText("1 / 5")).toBeInTheDocument();
@@ -764,7 +764,7 @@ describe("App", () => {
     const speak = vi.mocked(window.speechSynthesis.speak);
 
     fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
-    fireEvent.click(screen.getByRole("button", { name: /^situações/i }));
+    fireEvent.click(screen.getByRole("button", { name: /^situation/i }));
     fireEvent.change(screen.getByRole("combobox", { name: "Situação" }), { target: { value: "financas" } });
     play.mockClear();
     speak.mockClear();

@@ -16,6 +16,7 @@
     "import:situacoes": "node scripts/import-new-situacoes.mjs",
     "refine:bureaucracy": "node scripts/refine-bureaucracy-content.mjs",
     "export:situacoes": "node scripts/export-all-situacoes.mjs",
+    "validate:situacoes": "node scripts/validate-situacoes-content.mjs",
     "validate:data": "node scripts/validate-vocabulary.mjs"
   },
   "dependencies": {
