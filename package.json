@@ -14,6 +14,8 @@
     "merge:vocab": "node scripts/merge-vocabulary-fragments.mjs",
     "generate:audio": "node scripts/generate-audio.mjs",
     "import:situacoes": "node scripts/import-new-situacoes.mjs",
+    "refine:bureaucracy": "node scripts/refine-bureaucracy-content.mjs",
+    "export:situacoes": "node scripts/export-all-situacoes.mjs",
     "validate:data": "node scripts/validate-vocabulary.mjs"
   },
   "dependencies": {

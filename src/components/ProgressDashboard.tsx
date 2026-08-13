@@ -9,6 +9,7 @@ interface ProgressDashboardProps {
   mode?: "manual" | "situacoes";
   situacaoGroups?: SituacaoGroup[];
   getModuleThemeLabel?: (modulo: string) => string | undefined;
+  getSituacaoLabel?: (situacaoId: string, portugueseLabel: string) => string;
   onStartOver: () => void;
 }
 
@@ -19,6 +20,7 @@ export function ProgressDashboard({
   mode = "manual",
   situacaoGroups = [],
   getModuleThemeLabel,
+  getSituacaoLabel,
   onStartOver
 }: ProgressDashboardProps) {
   const total = summarizeProgress(entries, progress);
@@ -36,7 +38,7 @@ export function ProgressDashboard({
       const groupEntries = entries.filter((entry) => entry.situacoes?.includes(item.id));
       return {
         id: item.id,
-        label: item.label,
+        label: getSituacaoLabel?.(item.id, item.label) ?? item.label,
         stats: summarizeProgress(groupEntries, progress)
       };
     })
@@ -90,5 +92,6 @@ export function ProgressDashboard({
 }
 
 function formatProgressModuleLabel(moduleLabel: string, themeLabel?: string) {
-  return themeLabel ? `${moduleLabel} · ${themeLabel}` : moduleLabel;
+  const moduleNumber = moduleLabel.match(/\d+/u)?.[0] ?? moduleLabel;
+  return themeLabel ? `${moduleNumber} · ${themeLabel}` : moduleNumber;
 }

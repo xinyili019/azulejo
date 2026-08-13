@@ -27,6 +27,30 @@ export const situacaoGroups: SituacaoGroup[] = [
       {
         "id": "seguranca_social",
         "label": "Segurança Social"
+      },
+      {
+        "id": "espaco_cidadao",
+        "label": "Espaço Cidadão"
+      },
+      {
+        "id": "imt_carta_conducao",
+        "label": "IMT e Carta de Condução"
+      },
+      {
+        "id": "conservatoria_registo_civil",
+        "label": "Conservatória e Registo Civil"
+      },
+      {
+        "id": "camara_municipal",
+        "label": "Câmara Municipal"
+      },
+      {
+        "id": "reconhecimento_diplomas",
+        "label": "Reconhecimento de Diplomas"
+      },
+      {
+        "id": "consulado_documentos",
+        "label": "Consulado e Documentos Estrangeiros"
       }
     ]
   },
@@ -72,6 +96,38 @@ export const situacaoGroups: SituacaoGroup[] = [
       {
         "id": "farmacia",
         "label": "Farmácia"
+      },
+      {
+        "id": "supermercado_mercado",
+        "label": "Supermercado e Mercado"
+      },
+      {
+        "id": "cafe_restaurante",
+        "label": "Café e Restaurante"
+      },
+      {
+        "id": "consultorio_medico",
+        "label": "Consultório Médico"
+      },
+      {
+        "id": "casa_reparacoes",
+        "label": "Casa: Avarias e Reparações"
+      },
+      {
+        "id": "agua_luz_gas",
+        "label": "Água, Luz e Gás"
+      },
+      {
+        "id": "telemovel_internet",
+        "label": "Telemóvel e Internet"
+      },
+      {
+        "id": "trocas_devolucoes",
+        "label": "Compras, Trocas e Devoluções"
+      },
+      {
+        "id": "policia_documentos",
+        "label": "Polícia e Documentos Perdidos"
       }
     ]
   },
@@ -128,7 +184,21 @@ export const situacaoLabels: Record<string, string> = {
   "convivio": "Convívio",
   "vizinhos": "Vizinhos",
   "cabeleireiro_barbeiro": "Cabeleireiro e Barbeiro",
-  "farmacia": "Farmácia"
+  "farmacia": "Farmácia",
+  "supermercado_mercado": "Supermercado e Mercado",
+  "cafe_restaurante": "Café e Restaurante",
+  "consultorio_medico": "Consultório Médico",
+  "casa_reparacoes": "Casa: Avarias e Reparações",
+  "agua_luz_gas": "Água, Luz e Gás",
+  "telemovel_internet": "Telemóvel e Internet",
+  "trocas_devolucoes": "Compras, Trocas e Devoluções",
+  "policia_documentos": "Polícia e Documentos Perdidos",
+  "espaco_cidadao": "Espaço Cidadão",
+  "imt_carta_conducao": "IMT e Carta de Condução",
+  "conservatoria_registo_civil": "Conservatória e Registo Civil",
+  "camara_municipal": "Câmara Municipal",
+  "reconhecimento_diplomas": "Reconhecimento de Diplomas",
+  "consulado_documentos": "Consulado e Documentos Estrangeiros"
 };
 
 export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
@@ -10082,6 +10152,6227 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "exampleEn": "She is pregnant.",
     "exampleZhHans": "她怀孕了。",
     "exampleZhHant": "她懷孕了。"
+  },
+  {
+    "id": "az-0247",
+    "legacyIds": [
+      "m5-supermercado"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o supermercado",
+    "en": "supermarket",
+    "zhHans": "超市",
+    "zhHant": "超級市場",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Vou ao supermercado.",
+    "exampleEn": "I am going to the supermarket.",
+    "exampleZhHans": "我去超市。",
+    "exampleZhHant": "我去超市。"
+  },
+  {
+    "id": "az-0134",
+    "legacyIds": [
+      "m2-ir-compras"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "ir às compras",
+    "en": "to go shopping",
+    "zhHans": "去购物",
+    "zhHant": "去購物",
+    "examplePt": "Vou às compras ao sábado.",
+    "exampleEn": "I go shopping on Saturdays.",
+    "exampleZhHans": "我周六去购物。",
+    "exampleZhHant": "我週六去購物。"
+  },
+  {
+    "id": "az-0155",
+    "legacyIds": [
+      "m3-mercearia"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a mercearia",
+    "en": "grocery shop",
+    "zhHans": "杂货店",
+    "zhHant": "雜貨店",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Vou à mercearia.",
+    "exampleEn": "I am going to the grocery shop.",
+    "exampleZhHans": "我去杂货店。",
+    "exampleZhHant": "我去雜貨店。"
+  },
+  {
+    "id": "az-0156",
+    "legacyIds": [
+      "m3-padaria"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a padaria",
+    "en": "bakery",
+    "zhHans": "面包店",
+    "zhHant": "麵包店",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Compro pão na padaria.",
+    "exampleEn": "I buy bread at the bakery.",
+    "exampleZhHans": "我在面包店买面包。",
+    "exampleZhHant": "我在麵包店買麵包。"
+  },
+  {
+    "id": "az-0157",
+    "legacyIds": [
+      "m3-talho"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o talho",
+    "en": "butcher's",
+    "zhHans": "肉店",
+    "zhHant": "肉店",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Compro carne no talho.",
+    "exampleEn": "I buy meat at the butcher's.",
+    "exampleZhHans": "我在肉店买肉。",
+    "exampleZhHant": "我在肉店買肉。"
+  },
+  {
+    "id": "az-0158",
+    "legacyIds": [
+      "m3-peixaria"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a peixaria",
+    "en": "fish shop",
+    "zhHans": "鱼店",
+    "zhHant": "魚店",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Compro peixe na peixaria.",
+    "exampleEn": "I buy fish at the fish shop.",
+    "exampleZhHans": "我在鱼店买鱼。",
+    "exampleZhHant": "我在魚店買魚。"
+  },
+  {
+    "id": "az-0146",
+    "legacyIds": [
+      "m3-maca"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a maçã",
+    "en": "apple",
+    "zhHans": "苹果",
+    "zhHant": "蘋果",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A maçã é melhor do que as limas.",
+    "exampleEn": "The apple is better than the limes.",
+    "exampleZhHans": "苹果比青柠更好。",
+    "exampleZhHant": "蘋果比青檸更好。"
+  },
+  {
+    "id": "az-0147",
+    "legacyIds": [
+      "m3-banana"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a banana",
+    "en": "banana",
+    "zhHans": "香蕉",
+    "zhHant": "香蕉",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Compro bananas.",
+    "exampleEn": "I buy bananas.",
+    "exampleZhHans": "我买香蕉。",
+    "exampleZhHant": "我買香蕉。"
+  },
+  {
+    "id": "az-0148",
+    "legacyIds": [
+      "m3-queijo"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o queijo",
+    "en": "cheese",
+    "zhHans": "奶酪",
+    "zhHant": "起司",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Quero um queijo fresco.",
+    "exampleEn": "I want a fresh cheese.",
+    "exampleZhHans": "我想要一块新鲜奶酪。",
+    "exampleZhHant": "我想要一塊新鮮起司。"
+  },
+  {
+    "id": "az-0149",
+    "legacyIds": [
+      "m3-carne-vaca"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a carne de vaca",
+    "en": "beef",
+    "zhHans": "牛肉",
+    "zhHant": "牛肉",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A carne de vaca está no talho.",
+    "exampleEn": "The beef is at the butcher's.",
+    "exampleZhHans": "牛肉在肉店。",
+    "exampleZhHant": "牛肉在肉店。"
+  },
+  {
+    "id": "az-0150",
+    "legacyIds": [
+      "m3-frango"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o frango",
+    "en": "chicken",
+    "zhHans": "鸡肉",
+    "zhHant": "雞肉",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Quero frango assado.",
+    "exampleEn": "I want roast chicken.",
+    "exampleZhHans": "我想要烤鸡。",
+    "exampleZhHant": "我想要烤雞。"
+  },
+  {
+    "id": "az-0137",
+    "legacyIds": [
+      "m3-agua"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a água",
+    "en": "water",
+    "zhHans": "水",
+    "zhHant": "水",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Ponha água na panela.",
+    "exampleEn": "Put water in the pot.",
+    "exampleZhHans": "请把水倒进锅里。",
+    "exampleZhHant": "請把水倒進鍋裡。"
+  },
+  {
+    "id": "az-0138",
+    "legacyIds": [
+      "m3-acucar"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o açúcar",
+    "en": "sugar",
+    "zhHans": "糖",
+    "zhHant": "糖",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preciso de um pacote de açúcar.",
+    "exampleEn": "I need a packet of sugar.",
+    "exampleZhHans": "我需要一包糖。",
+    "exampleZhHant": "我需要一包糖。"
+  },
+  {
+    "id": "az-0139",
+    "legacyIds": [
+      "m3-arroz"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o arroz",
+    "en": "rice",
+    "zhHans": "米",
+    "zhHant": "白飯",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Queria dois quilos de arroz.",
+    "exampleEn": "I would like two kilos of rice.",
+    "exampleZhHans": "我想要两公斤米。",
+    "exampleZhHant": "我想要兩公斤米。"
+  },
+  {
+    "id": "az-0140",
+    "legacyIds": [
+      "m3-azeite"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o azeite",
+    "en": "olive oil",
+    "zhHans": "橄榄油",
+    "zhHant": "橄欖油",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Queria uma garrafa de azeite.",
+    "exampleEn": "I would like a bottle of olive oil.",
+    "exampleZhHans": "我想要一瓶橄榄油。",
+    "exampleZhHant": "我想要一瓶橄欖油。"
+  },
+  {
+    "id": "az-0141",
+    "legacyIds": [
+      "m3-leite"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o leite",
+    "en": "milk",
+    "zhHans": "牛奶",
+    "zhHant": "牛奶",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Compro quatro pacotes de leite.",
+    "exampleEn": "I buy four cartons of milk.",
+    "exampleZhHans": "我买四盒牛奶。",
+    "exampleZhHant": "我買四盒牛奶。"
+  },
+  {
+    "id": "az-0142",
+    "legacyIds": [
+      "m3-pao-forma"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o pão de forma",
+    "en": "sliced bread",
+    "zhHans": "切片面包",
+    "zhHant": "切片麵包",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Compro pão de forma.",
+    "exampleEn": "I buy sliced bread.",
+    "exampleZhHans": "我买切片面包。",
+    "exampleZhHant": "我買切片麵包。"
+  },
+  {
+    "id": "az-0143",
+    "legacyIds": [
+      "m3-cebola"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a cebola",
+    "en": "onion",
+    "zhHans": "洋葱",
+    "zhHant": "洋蔥",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "As cebolas são baratas.",
+    "exampleEn": "The onions are cheap.",
+    "exampleZhHans": "洋葱很便宜。",
+    "exampleZhHant": "洋蔥很便宜。"
+  },
+  {
+    "id": "az-0144",
+    "legacyIds": [
+      "m3-alho"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o alho",
+    "en": "garlic",
+    "zhHans": "蒜",
+    "zhHant": "蒜",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Compro alhos no mercado.",
+    "exampleEn": "I buy garlic at the market.",
+    "exampleZhHans": "我在市场买大蒜。",
+    "exampleZhHant": "我在市場買大蒜。"
+  },
+  {
+    "id": "az-0145",
+    "legacyIds": [
+      "m3-tomate"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o tomate",
+    "en": "tomato",
+    "zhHans": "番茄",
+    "zhHant": "番茄",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Queria duas latas de tomate pelado.",
+    "exampleEn": "I would like two cans of peeled tomatoes.",
+    "exampleZhHans": "我想要两罐去皮番茄。",
+    "exampleZhHant": "我想要兩罐去皮番茄。"
+  },
+  {
+    "id": "az-0165",
+    "legacyIds": [
+      "m3-prazo-validade"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o prazo de validade",
+    "en": "expiry date",
+    "zhHans": "到期日",
+    "zhHant": "到期日",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Qual é o prazo de validade?",
+    "exampleEn": "What is the expiry date?",
+    "exampleZhHans": "有效期到什么时候？",
+    "exampleZhHant": "有效期限到什麼時候？"
+  },
+  {
+    "id": "az-0161",
+    "legacyIds": [
+      "m3-talao"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o talão",
+    "en": "receipt",
+    "zhHans": "收据",
+    "zhHant": "收據",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Aqui tem o talão.",
+    "exampleEn": "Here is the receipt.",
+    "exampleZhHans": "这是您的收据。",
+    "exampleZhHant": "這是您的收據。"
+  },
+  {
+    "id": "az-0162",
+    "legacyIds": [
+      "m3-fatura"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "a fatura",
+    "en": "invoice",
+    "zhHans": "发票",
+    "zhHant": "發票",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pode dar-me uma fatura?",
+    "exampleEn": "Can you give me an invoice?",
+    "exampleZhHans": "可以给我一张发票吗？",
+    "exampleZhHant": "可以給我一張發票嗎？"
+  },
+  {
+    "id": "az-0163",
+    "legacyIds": [
+      "m3-contribuinte"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o número de contribuinte",
+    "en": "tax number",
+    "zhHans": "税号",
+    "zhHant": "稅號",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O meu número de contribuinte é 243 333 218.",
+    "exampleEn": "My tax number is 243 333 218.",
+    "exampleZhHans": "我的税号是 243 333 218。",
+    "exampleZhHant": "我的稅號是 243 333 218。"
+  },
+  {
+    "id": "az-0154",
+    "legacyIds": [
+      "m3-cartao-multibanco"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o cartão multibanco",
+    "en": "debit card",
+    "zhHans": "借记卡",
+    "zhHant": "金融卡",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Posso pagar com o multibanco?",
+    "exampleEn": "Can I pay by debit card?",
+    "exampleZhHans": "我可以用借记卡付款吗？",
+    "exampleZhHant": "我可以用金融卡付款嗎？"
+  },
+  {
+    "id": "az-0260",
+    "legacyIds": [
+      "m5-troco"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "o troco",
+    "en": "change",
+    "zhHans": "找零",
+    "zhHant": "找零",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Ele dá-me o troco.",
+    "exampleEn": "He gives me the change.",
+    "exampleZhHans": "他把零钱找给我。",
+    "exampleZhHant": "他把零錢找給我。"
+  },
+  {
+    "situacao": "supermercado_mercado",
+    "pt": "pesar",
+    "en": "to weigh",
+    "zhHans": "稱重",
+    "zhHant": "稱重",
+    "id": "az-0829",
+    "legacyIds": [
+      "situacao-pesar"
+    ]
+  },
+  {
+    "situacao": "supermercado_mercado",
+    "pt": "o peso",
+    "en": "weight",
+    "zhHans": "重量",
+    "zhHant": "重量",
+    "id": "az-0830",
+    "legacyIds": [
+      "situacao-o-peso"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-0169",
+    "legacyIds": [
+      "m3-caro"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "caro",
+    "en": "expensive",
+    "zhHans": "昂贵的",
+    "zhHant": "昂貴的",
+    "examplePt": "Este produto é caro.",
+    "exampleEn": "This product is expensive.",
+    "exampleZhHans": "这个产品很贵。",
+    "exampleZhHant": "這個產品很貴。"
+  },
+  {
+    "id": "az-0170",
+    "legacyIds": [
+      "m3-barato"
+    ],
+    "situacao": "supermercado_mercado",
+    "pt": "barato",
+    "en": "cheap",
+    "zhHans": "便宜的",
+    "zhHant": "便宜的",
+    "examplePt": "As peras são menos caras.",
+    "exampleEn": "The pears are less expensive.",
+    "exampleZhHans": "梨比较便宜。",
+    "exampleZhHant": "梨比較便宜。"
+  },
+  {
+    "id": "az-0159",
+    "legacyIds": [
+      "m3-restaurante"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "o restaurante",
+    "en": "restaurant",
+    "zhHans": "餐厅",
+    "zhHant": "餐廳",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Vamos jantar num restaurante português.",
+    "exampleEn": "We are going to have dinner at a Portuguese restaurant.",
+    "exampleZhHans": "我们去一家葡萄牙餐厅吃晚饭。",
+    "exampleZhHant": "我們去一家葡萄牙餐廳吃晚餐。"
+  },
+  {
+    "id": "az-0164",
+    "legacyIds": [
+      "m3-ementa"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "a ementa",
+    "en": "menu",
+    "zhHans": "菜单",
+    "zhHant": "選單",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pode trazer a ementa?",
+    "exampleEn": "Can you bring the menu?",
+    "exampleZhHans": "可以拿菜单给我吗？",
+    "exampleZhHant": "可以拿菜單給我嗎？"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a ementa / o menu",
+    "en": "menu",
+    "zhHans": "菜单",
+    "zhHant": "菜單",
+    "id": "az-0744",
+    "legacyIds": [
+      "situacao-a-ementa-o-menu"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "o prato do dia",
+    "en": "dish of the day",
+    "zhHans": "今日特餐",
+    "zhHant": "今日特餐",
+    "id": "az-0745",
+    "legacyIds": [
+      "situacao-o-prato-do-dia"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "o couvert",
+    "en": "couvert (bread/olives, charged)",
+    "zhHans": "餐前小食（收费）",
+    "zhHant": "餐前小食（收費）",
+    "note": "Charged if touched — a PT peculiarity to explain to tourists",
+    "id": "az-1022",
+    "legacyIds": [
+      "situacao-o-couvert"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a entrada",
+    "en": "starter",
+    "zhHans": "前菜",
+    "zhHant": "前菜",
+    "id": "az-1023",
+    "legacyIds": [
+      "situacao-a-entrada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "o prato principal",
+    "en": "main course",
+    "zhHans": "主菜",
+    "zhHant": "主菜",
+    "id": "az-1024",
+    "legacyIds": [
+      "situacao-o-prato-principal"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a sobremesa",
+    "en": "dessert",
+    "zhHans": "甜品",
+    "zhHant": "甜品",
+    "id": "az-1025",
+    "legacyIds": [
+      "situacao-a-sobremesa"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a dose / a meia dose",
+    "en": "full / half portion",
+    "zhHans": "整份／半份",
+    "zhHant": "整份／半份",
+    "note": "PT portion system — meia dose feeds one",
+    "id": "az-1026",
+    "legacyIds": [
+      "situacao-a-dose-a-meia-dose"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "para partilhar",
+    "en": "to share",
+    "zhHans": "分享（合吃）",
+    "zhHant": "分享（合吃）",
+    "id": "az-1027",
+    "legacyIds": [
+      "situacao-para-partilhar"
+    ]
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a imperial / o fino",
+    "en": "draught beer (Lisbon / Porto term)",
+    "zhHans": "生啤（里斯本叫imperial，波爾图叫fino）",
+    "zhHant": "生啤（里斯本叫imperial，波爾圖叫fino）",
+    "id": "az-1028",
+    "legacyIds": [
+      "situacao-a-imperial-o-fino"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "mal passado / no ponto / bem passado",
+    "en": "rare / medium / well done",
+    "zhHans": "三分熟／五分熟／全熟",
+    "zhHant": "三分熟／五分熟／全熟",
+    "id": "az-1029",
+    "legacyIds": [
+      "situacao-mal-passado-no-ponto-bem-passado"
+    ]
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "vegetariano / sem glúten",
+    "en": "vegetarian / gluten-free",
+    "zhHans": "素食／无麩质",
+    "zhHant": "素食／無麩質",
+    "id": "az-1030",
+    "legacyIds": [
+      "situacao-vegetariano-sem-gluten"
+    ]
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a alergia alimentar",
+    "en": "food allergy",
+    "zhHans": "食物过敏",
+    "zhHant": "食物過敏",
+    "id": "az-1031",
+    "legacyIds": [
+      "situacao-a-alergia-alimentar"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a máquina (de pagamento)",
+    "en": "card machine",
+    "zhHans": "刷卡机",
+    "zhHant": "刷卡機",
+    "id": "az-1032",
+    "legacyIds": [
+      "situacao-a-maquina-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "pagar em dinheiro / com cartão",
+    "en": "to pay cash / by card",
+    "zhHans": "现金支付／刷卡",
+    "zhHant": "現金支付／刷卡",
+    "id": "az-1033",
+    "legacyIds": [
+      "situacao-pagar-em-dinheiro-com-cartao"
+    ]
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "pagar em separado / junto",
+    "en": "to pay separately / together",
+    "zhHans": "分开付／一起付",
+    "zhHant": "分開付／一起付",
+    "id": "az-1034",
+    "legacyIds": [
+      "situacao-pagar-em-separado-junto"
+    ]
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "Bom proveito!",
+    "en": "Enjoy your meal!",
+    "zhHans": "请慢用！",
+    "zhHant": "請慢用！",
+    "id": "az-0754",
+    "legacyIds": [
+      "situacao-bom-proveito"
+    ]
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "anotar o pedido",
+    "en": "to take the order",
+    "zhHans": "记录点单",
+    "zhHant": "記錄點單",
+    "id": "az-0746",
+    "legacyIds": [
+      "situacao-anotar-o-pedido"
+    ]
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a esplanada",
+    "en": "outdoor terrace",
+    "zhHans": "露天座位",
+    "zhHant": "露天座位",
+    "id": "az-0747",
+    "legacyIds": [
+      "situacao-a-esplanada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "os talheres / o guardanapo",
+    "en": "cutlery / napkin",
+    "zhHans": "餐具／餐巾",
+    "zhHant": "餐具／餐巾",
+    "id": "az-0749",
+    "legacyIds": [
+      "situacao-os-talheres-o-guardanapo"
+    ],
+    "pos": "noun",
+    "gender": "m-pl"
+  },
+  {
+    "situacao": "cafe_restaurante",
+    "pt": "a gorjeta",
+    "en": "tip",
+    "zhHans": "小费",
+    "zhHant": "小費",
+    "id": "az-0751",
+    "legacyIds": [
+      "situacao-a-gorjeta"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "id": "az-0532",
+    "legacyIds": [
+      "m11-chavena"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "a chávena",
+    "en": "cup",
+    "zhHans": "杯子",
+    "zhHant": "杯子",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Use uma chávena de açúcar.",
+    "exampleEn": "Use a cup of sugar.",
+    "exampleZhHans": "使用一杯糖。",
+    "exampleZhHant": "使用一杯糖。"
+  },
+  {
+    "id": "az-0531",
+    "legacyIds": [
+      "m11-ingrediente"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "o ingrediente",
+    "en": "ingredient",
+    "zhHans": "成分",
+    "zhHant": "成分",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Misture os ingredientes.",
+    "exampleEn": "Mix the ingredients.",
+    "exampleZhHans": "把这些食材混合起来。",
+    "exampleZhHant": "把這些食材混合起來。"
+  },
+  {
+    "id": "az-0151",
+    "legacyIds": [
+      "m3-sandes"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "a sandes",
+    "en": "sandwich",
+    "zhHans": "三明治",
+    "zhHant": "三明治",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Como uma sandes.",
+    "exampleEn": "I eat a sandwich.",
+    "exampleZhHans": "我吃一个三明治。",
+    "exampleZhHant": "我吃一個三明治。"
+  },
+  {
+    "id": "az-0136",
+    "legacyIds": [
+      "m3-cafe"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "o café",
+    "en": "coffee; cafe",
+    "zhHans": "咖啡/咖啡馆",
+    "zhHant": "咖啡/咖啡館",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Queria uma bica.",
+    "exampleEn": "I would like an espresso.",
+    "exampleZhHans": "我想要一杯意式浓缩咖啡。",
+    "exampleZhHant": "我想要一杯義式濃縮咖啡。"
+  },
+  {
+    "id": "az-0166",
+    "legacyIds": [
+      "m3-pedir"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "pedir",
+    "en": "to ask for; to order",
+    "zhHans": "请求/点餐",
+    "zhHant": "請求/點餐",
+    "examplePt": "Vou pedir a conta.",
+    "exampleEn": "I am going to ask for the bill.",
+    "exampleZhHans": "我要结账。",
+    "exampleZhHant": "我要結帳。"
+  },
+  {
+    "id": "az-0231",
+    "legacyIds": [
+      "m5-pagar-a-conta"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "pagar a conta",
+    "en": "to pay the bill",
+    "zhHans": "支付账单",
+    "zhHant": "支付帳單",
+    "examplePt": "Queria pagar a conta da água.",
+    "exampleEn": "I would like to pay the water bill.",
+    "exampleZhHans": "我想付水费账单。",
+    "exampleZhHant": "我想付水費帳單。"
+  },
+  {
+    "id": "az-0160",
+    "legacyIds": [
+      "m3-conta"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "a conta",
+    "en": "bill",
+    "zhHans": "账单",
+    "zhHant": "帳單",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Era a conta, se faz favor.",
+    "exampleEn": "The bill, please.",
+    "exampleZhHans": "请给我账单。",
+    "exampleZhHant": "請給我帳單。"
+  },
+  {
+    "id": "az-0260",
+    "legacyIds": [
+      "m5-troco"
+    ],
+    "situacao": "cafe_restaurante",
+    "pt": "o troco",
+    "en": "change",
+    "zhHans": "找零",
+    "zhHant": "找零",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Ele dá-me o troco.",
+    "exampleEn": "He gives me the change.",
+    "exampleZhHans": "他把零钱找给我。",
+    "exampleZhHant": "他把零錢找給我。"
+  },
+  {
+    "id": "az-0313",
+    "legacyIds": [
+      "m6-consultorio-medico"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "o consultório médico",
+    "en": "doctor's office",
+    "zhHans": "医生办公室",
+    "zhHant": "醫生辦公室",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Estou no consultório médico.",
+    "exampleEn": "I am at the doctor's office.",
+    "exampleZhHans": "我在医生诊所。",
+    "exampleZhHant": "我在醫生診所。"
+  },
+  {
+    "id": "az-0340",
+    "legacyIds": [
+      "m6-marcar-uma-consulta"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "marcar uma consulta",
+    "en": "to book an appointment",
+    "zhHans": "预约",
+    "zhHant": "預約",
+    "examplePt": "Vou marcar uma consulta.",
+    "exampleEn": "I am going to book an appointment.",
+    "exampleZhHans": "我要预约看诊。",
+    "exampleZhHant": "我要預約看診。"
+  },
+  {
+    "id": "az-0348",
+    "legacyIds": [
+      "m6-consultar-o-medico"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "consultar o médico",
+    "en": "to consult the doctor",
+    "zhHans": "咨询医生",
+    "zhHant": "諮詢醫生",
+    "examplePt": "Não dê medicamentos sem consultar o médico.",
+    "exampleEn": "Do not give medicines without consulting the doctor.",
+    "exampleZhHans": "不要在未咨询医生的情况下给药。",
+    "exampleZhHant": "不要在未諮詢醫生的情況下給藥。"
+  },
+  {
+    "id": "az-0381",
+    "legacyIds": [
+      "m7-medico"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "médico(a)",
+    "en": "doctor",
+    "zhHans": "医生",
+    "zhHant": "醫生",
+    "examplePt": "A médica observa o doente.",
+    "exampleEn": "The doctor examines the patient.",
+    "exampleZhHans": "女医生观察病人。",
+    "exampleZhHant": "女醫生觀察病人。"
+  },
+  {
+    "id": "az-0382",
+    "legacyIds": [
+      "m7-observar-doente"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "observar o doente",
+    "en": "to examine the patient",
+    "zhHans": "检查病人",
+    "zhHant": "檢查病人",
+    "examplePt": "A médica observa o doente.",
+    "exampleEn": "The doctor examines the patient.",
+    "exampleZhHans": "女医生观察病人。",
+    "exampleZhHant": "女醫生觀察病人。"
+  },
+  {
+    "id": "az-0316",
+    "legacyIds": [
+      "m6-ha-quanto-tempo"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "há quanto tempo?",
+    "en": "for how long?",
+    "zhHans": "多长时间？",
+    "zhHant": "多長時間？",
+    "examplePt": "Há quanto tempo está assim?",
+    "exampleEn": "How long have you been like this?",
+    "exampleZhHans": "您这样多久了？",
+    "exampleZhHant": "您這樣多久了？"
+  },
+  {
+    "id": "az-0341",
+    "legacyIds": [
+      "m6-doer"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "doer",
+    "en": "to hurt",
+    "zhHans": "疼/痛",
+    "zhHant": "疼痛",
+    "examplePt": "Dói-me a barriga.",
+    "exampleEn": "My belly hurts.",
+    "exampleZhHans": "我肚子疼。",
+    "exampleZhHant": "我肚子痛。"
+  },
+  {
+    "id": "az-0342",
+    "legacyIds": [
+      "m6-doi-me"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "dói-me",
+    "en": "it hurts me",
+    "zhHans": "我疼/我痛",
+    "zhHant": "我痛/我……痛",
+    "examplePt": "Dói-me a cabeça.",
+    "exampleEn": "My head hurts.",
+    "exampleZhHans": "我头疼。",
+    "exampleZhHant": "我頭痛。"
+  },
+  {
+    "id": "az-0297",
+    "legacyIds": [
+      "m6-estar-constipado"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "estar constipado(a)",
+    "en": "to have a cold",
+    "zhHans": "感冒了",
+    "zhHant": "感冒了",
+    "examplePt": "Ele está constipado. Ela está constipada.",
+    "exampleEn": "He has a cold. She has a cold.",
+    "exampleZhHans": "他感冒了。她感冒了。",
+    "exampleZhHant": "他感冒了。她感冒了。"
+  },
+  {
+    "id": "az-0298",
+    "legacyIds": [
+      "m6-ter-febre"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "ter febre",
+    "en": "to have a fever",
+    "zhHans": "发烧",
+    "zhHant": "發燒",
+    "examplePt": "O menino tem febre.",
+    "exampleEn": "The boy has a fever.",
+    "exampleZhHans": "男孩发烧了。",
+    "exampleZhHant": "男孩發燒了。"
+  },
+  {
+    "id": "az-0299",
+    "legacyIds": [
+      "m6-ter-tosse"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "ter tosse",
+    "en": "to have a cough",
+    "zhHans": "咳嗽",
+    "zhHant": "咳嗽",
+    "examplePt": "Está com tosse?",
+    "exampleEn": "Do you have a cough?",
+    "exampleZhHans": "您咳嗽吗？",
+    "exampleZhHant": "您咳嗽嗎？"
+  },
+  {
+    "id": "az-0300",
+    "legacyIds": [
+      "m6-ter-uma-intoxicacao"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "ter uma intoxicação",
+    "en": "to have poisoning",
+    "zhHans": "中毒",
+    "zhHant": "中毒",
+    "examplePt": "Ele tem uma intoxicação.",
+    "exampleEn": "He has poisoning.",
+    "exampleZhHans": "他中毒了。",
+    "exampleZhHant": "他中毒了。"
+  },
+  {
+    "id": "az-0303",
+    "legacyIds": [
+      "m6-estar-enjoado"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "estar enjoado(a)",
+    "en": "to feel nauseous",
+    "zhHans": "感到恶心",
+    "zhHant": "感到噁心",
+    "examplePt": "Ele está enjoado. Ela está enjoada.",
+    "exampleEn": "He feels nauseous. She feels nauseous.",
+    "exampleZhHans": "他觉得恶心。她觉得恶心。",
+    "exampleZhHant": "他覺得噁心。她覺得噁心。"
+  },
+  {
+    "id": "az-0307",
+    "legacyIds": [
+      "m6-sentir-se-cansado"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "sentir-se cansado(a)",
+    "en": "to feel tired",
+    "zhHans": "感到疲倦",
+    "zhHant": "感到疲倦",
+    "examplePt": "Ele sente-se cansado. Ela sente-se cansada.",
+    "exampleEn": "He feels tired. She feels tired.",
+    "exampleZhHans": "他觉得累。她觉得累。",
+    "exampleZhHant": "他覺得累。她覺得累。"
+  },
+  {
+    "id": "az-0308",
+    "legacyIds": [
+      "m6-sem-forcas"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "sem forças",
+    "en": "weak",
+    "zhHans": "虚弱的",
+    "zhHant": "虛弱的",
+    "examplePt": "Estou sem forças.",
+    "exampleEn": "I have no strength.",
+    "exampleZhHans": "我没有力气。",
+    "exampleZhHant": "我沒有力氣。"
+  },
+  {
+    "id": "az-0349",
+    "legacyIds": [
+      "m6-tonto"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "tonto(a)",
+    "en": "dizzy",
+    "zhHans": "晕眩的",
+    "zhHant": "暈眩的",
+    "examplePt": "Sinto-me tonto. Sinto-me tonta.",
+    "exampleEn": "I feel dizzy.",
+    "exampleZhHans": "我觉得头晕。",
+    "exampleZhHant": "我覺得頭暈。"
+  },
+  {
+    "id": "az-0344",
+    "legacyIds": [
+      "m6-peito"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "o peito",
+    "en": "chest",
+    "zhHans": "胸部",
+    "zhHant": "胸部",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Dói-te o peito?",
+    "exampleEn": "Does your chest hurt?",
+    "exampleZhHans": "你胸口疼吗？",
+    "exampleZhHant": "你胸口痛嗎？"
+  },
+  {
+    "id": "az-0345",
+    "legacyIds": [
+      "m6-ouvidos"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "os ouvidos",
+    "en": "ears",
+    "zhHans": "耳朵",
+    "zhHant": "耳朵",
+    "pos": "noun",
+    "gender": "m-pl",
+    "examplePt": "Doem-me os ouvidos.",
+    "exampleEn": "My ears hurt.",
+    "exampleZhHans": "我耳朵疼。",
+    "exampleZhHant": "我耳朵痛。"
+  },
+  {
+    "id": "az-0346",
+    "legacyIds": [
+      "m6-estomago"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "o estômago",
+    "en": "stomach",
+    "zhHans": "胃",
+    "zhHant": "胃",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Dói-me o estômago.",
+    "exampleEn": "My stomach hurts.",
+    "exampleZhHans": "我胃疼。",
+    "exampleZhHant": "我胃痛。"
+  },
+  {
+    "id": "az-0284",
+    "legacyIds": [
+      "m6-hospital"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "o hospital",
+    "en": "hospital",
+    "zhHans": "医院",
+    "zhHant": "醫院",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Vou ao hospital.",
+    "exampleEn": "I am going to the hospital.",
+    "exampleZhHans": "我去医院。",
+    "exampleZhHant": "我去醫院。"
+  },
+  {
+    "id": "az-0285",
+    "legacyIds": [
+      "m6-centro-de-saude"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "o Centro de Saúde",
+    "en": "health centre",
+    "zhHans": "健康中心/社区诊所",
+    "zhHant": "健康中心/社區診所",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Vou ao Centro de Saúde da minha área.",
+    "exampleEn": "I am going to the health centre in my area.",
+    "exampleZhHans": "我去我所在区域的健康中心。",
+    "exampleZhHant": "我去我所在區域的健康中心。"
+  },
+  {
+    "id": "az-0286",
+    "legacyIds": [
+      "m6-usf"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "a USF",
+    "en": "family health unit",
+    "zhHans": "家庭保健单位",
+    "zhHant": "家庭健康單位",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A USF é uma Unidade de Saúde Familiar.",
+    "exampleEn": "The USF is a Family Health Unit.",
+    "exampleZhHans": "USF 是家庭健康单位。",
+    "exampleZhHant": "USF 是家庭健康單位。"
+  },
+  {
+    "id": "az-0292",
+    "legacyIds": [
+      "m6-medico-de-familia"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "médico(a) de família",
+    "en": "family doctor",
+    "zhHans": "家庭医生",
+    "zhHant": "家庭醫生",
+    "examplePt": "Marco consulta com o médico de família.",
+    "exampleEn": "I make an appointment with the family doctor.",
+    "exampleZhHans": "我和家庭医生预约看诊。",
+    "exampleZhHant": "我和家庭醫生預約看診。"
+  },
+  {
+    "id": "az-0294",
+    "legacyIds": [
+      "m6-medir-a-tensao"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "medir a tensão",
+    "en": "to measure blood pressure",
+    "zhHans": "测量血压",
+    "zhHant": "測量血壓",
+    "examplePt": "A enfermeira vai medir a tensão.",
+    "exampleEn": "The nurse is going to measure the blood pressure.",
+    "exampleZhHans": "护士将测量血压。",
+    "exampleZhHant": "護士將量血壓。"
+  },
+  {
+    "id": "az-0295",
+    "legacyIds": [
+      "m6-fazer-uma-radiografia"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "fazer uma radiografia",
+    "en": "to have an X-ray",
+    "zhHans": "照X光",
+    "zhHant": "照X光",
+    "examplePt": "Tenho de fazer uma radiografia.",
+    "exampleEn": "I have to have an X-ray.",
+    "exampleZhHans": "我得拍一张 X 光片。",
+    "exampleZhHant": "我得照一張 X 光片。"
+  },
+  {
+    "id": "az-0296",
+    "legacyIds": [
+      "m6-fazer-analises"
+    ],
+    "situacao": "consultorio_medico",
+    "pt": "fazer análises",
+    "en": "to have tests",
+    "zhHans": "做化验/做检查",
+    "zhHant": "做化驗/做檢查",
+    "examplePt": "Deve fazer análises.",
+    "exampleEn": "You should have tests done.",
+    "exampleZhHans": "您应该做化验。",
+    "exampleZhHant": "您應該做化驗。"
+  },
+  {
+    "situacao": "consultorio_medico",
+    "pt": "o raio-X",
+    "en": "X-ray",
+    "zhHans": "X光",
+    "zhHant": "X光",
+    "id": "az-0873",
+    "legacyIds": [
+      "situacao-o-raio-x"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "consultorio_medico",
+    "pt": "a análise ao sangue",
+    "en": "blood test",
+    "zhHans": "验血",
+    "zhHant": "驗血",
+    "id": "az-0874",
+    "legacyIds": [
+      "situacao-a-analise-ao-sangue"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consultorio_medico",
+    "pt": "o médico especialista",
+    "en": "specialist doctor",
+    "zhHans": "专科医生",
+    "zhHant": "專科醫生",
+    "id": "az-0877",
+    "legacyIds": [
+      "situacao-o-medico-especialista"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "consultorio_medico",
+    "pt": "o encaminhamento / a referenciação",
+    "en": "referral",
+    "zhHans": "转诊",
+    "zhHant": "轉診",
+    "note": "GP referral needed for SNS specialists",
+    "id": "az-0878",
+    "legacyIds": [
+      "situacao-o-encaminhamento-a-referenciacao"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o aquecimento",
+    "en": "heating",
+    "zhHans": "暖气",
+    "zhHant": "暖氣",
+    "id": "az-0967",
+    "legacyIds": [
+      "situacao-o-aquecimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o esquentador",
+    "en": "gas water heater",
+    "zhHans": "燃气热水器",
+    "zhHant": "燃氣熱水器",
+    "note": "Very common in PT flats; learn this word",
+    "id": "az-0968",
+    "legacyIds": [
+      "situacao-o-esquentador"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a caldeira",
+    "en": "boiler",
+    "zhHans": "锅炉",
+    "zhHant": "鍋爐",
+    "id": "az-0969",
+    "legacyIds": [
+      "situacao-a-caldeira"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o eletrodoméstico",
+    "en": "household appliance",
+    "zhHans": "家用电器",
+    "zhHant": "家用電器",
+    "id": "az-0970",
+    "legacyIds": [
+      "situacao-o-eletrodomestico"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a máquina de lavar roupa / loiça",
+    "en": "washing machine / dishwasher",
+    "zhHans": "洗衣机／洗碗机",
+    "zhHant": "洗衣機／洗碗機",
+    "id": "az-0971",
+    "legacyIds": [
+      "situacao-a-maquina-de-lavar-roupa-loica"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "avariado/a",
+    "en": "broken / out of order",
+    "zhHans": "坏了／故障",
+    "zhHant": "壞了／故障",
+    "id": "az-0972",
+    "legacyIds": [
+      "situacao-avariado-a"
+    ]
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a reparação / o arranjo",
+    "en": "repair",
+    "zhHans": "维修",
+    "zhHant": "維修",
+    "id": "az-0973",
+    "legacyIds": [
+      "situacao-a-reparacao-o-arranjo"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a humidade",
+    "en": "damp",
+    "zhHans": "潮湿",
+    "zhHant": "潮濕",
+    "note": "Chronic issue in Portuguese housing",
+    "id": "az-0974",
+    "legacyIds": [
+      "situacao-a-humidade"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o bolor / o mofo",
+    "en": "mould",
+    "zhHans": "霉菌",
+    "zhHant": "霉菌",
+    "id": "az-0975",
+    "legacyIds": [
+      "situacao-o-bolor-o-mofo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "reportar uma avaria",
+    "en": "to report a fault",
+    "zhHans": "報修",
+    "zhHant": "報修",
+    "id": "az-1011",
+    "legacyIds": [
+      "situacao-reportar-uma-avaria"
+    ]
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a manutenção",
+    "en": "maintenance",
+    "zhHans": "维修部",
+    "zhHant": "維修部",
+    "id": "az-1012",
+    "legacyIds": [
+      "situacao-a-manutencao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o martelo",
+    "en": "hammer",
+    "zhHans": "錘子",
+    "zhHant": "錘子",
+    "id": "az-1060",
+    "legacyIds": [
+      "situacao-o-martelo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o berbequim / a broca",
+    "en": "drill / drill bit",
+    "zhHans": "电钻／钻头",
+    "zhHant": "電鑽／鑽頭",
+    "id": "az-1061",
+    "legacyIds": [
+      "situacao-o-berbequim-a-broca"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a serra",
+    "en": "saw",
+    "zhHans": "锯子",
+    "zhHant": "鋸子",
+    "id": "az-1062",
+    "legacyIds": [
+      "situacao-a-serra"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a chave de fendas",
+    "en": "screwdriver",
+    "zhHans": "螺絲刀",
+    "zhHant": "螺絲刀",
+    "id": "az-1063",
+    "legacyIds": [
+      "situacao-a-chave-de-fendas"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a escada",
+    "en": "ladder",
+    "zhHans": "梯子",
+    "zhHant": "梯子",
+    "id": "az-1064",
+    "legacyIds": [
+      "situacao-a-escada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o ladrilho / o azulejo",
+    "en": "floor tile / wall tile",
+    "zhHans": "地砖／瓷砖",
+    "zhHant": "地磚／瓷磚",
+    "id": "az-1065",
+    "legacyIds": [
+      "situacao-o-ladrilho-o-azulejo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o pladur / o gesso",
+    "en": "drywall / plaster",
+    "zhHans": "石膏板／石膏",
+    "zhHant": "石膏板／石膏",
+    "id": "az-1066",
+    "legacyIds": [
+      "situacao-o-pladur-o-gesso"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a tinta / pintar",
+    "en": "paint / to paint",
+    "zhHans": "油漆／刷漆",
+    "zhHant": "油漆／刷漆",
+    "id": "az-1067",
+    "legacyIds": [
+      "situacao-a-tinta-pintar"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o rolo / o pincel",
+    "en": "roller / brush",
+    "zhHans": "滾筒／刷子",
+    "zhHant": "滾筒／刷子",
+    "id": "az-1068",
+    "legacyIds": [
+      "situacao-o-rolo-o-pincel"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o eletricista",
+    "en": "electrician",
+    "zhHans": "电工",
+    "zhHant": "電工",
+    "id": "az-1069",
+    "legacyIds": [
+      "situacao-o-eletricista"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o canalizador",
+    "en": "plumber",
+    "zhHans": "水管工",
+    "zhHant": "水管工",
+    "id": "az-1070",
+    "legacyIds": [
+      "situacao-o-canalizador"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a remodelação",
+    "en": "renovation",
+    "zhHans": "翻新装修",
+    "zhHant": "翻新裝修",
+    "note": "Most immigrant construction work is renovations",
+    "id": "az-1071",
+    "legacyIds": [
+      "situacao-a-remodelacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o orçamento",
+    "en": "quote / estimate",
+    "zhHans": "報价",
+    "zhHant": "報價",
+    "id": "az-1077",
+    "legacyIds": [
+      "situacao-o-orcamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "a chave de casa",
+    "en": "house key",
+    "zhHans": "家门钥匙",
+    "zhHant": "家門鑰匙",
+    "id": "az-1052",
+    "legacyIds": [
+      "situacao-a-chave-de-casa"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o elevador está avariado",
+    "en": "the lift is broken",
+    "zhHans": "电梯坏了",
+    "zhHant": "電梯壞了",
+    "id": "az-1096",
+    "legacyIds": [
+      "situacao-o-elevador-esta-avariado"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o condomínio",
+    "en": "building service charge",
+    "zhHans": "大厦管理费",
+    "zhHant": "大廈管理費",
+    "id": "az-0715",
+    "legacyIds": [
+      "situacao-o-condominio"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o contrato de arrendamento",
+    "en": "rental contract",
+    "zhHans": "租赁合同",
+    "zhHant": "租賃合同",
+    "id": "az-0643",
+    "legacyIds": [
+      "situacao-o-contrato-de-arrendamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o senhorio / a senhoria",
+    "en": "landlord / landlady",
+    "zhHans": "房东",
+    "zhHant": "房東",
+    "id": "az-0707",
+    "legacyIds": [
+      "situacao-o-senhorio-a-senhoria"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "casa_reparacoes",
+    "pt": "o inquilino / a inquilina",
+    "en": "tenant",
+    "zhHans": "房客",
+    "zhHant": "房客",
+    "id": "az-0708",
+    "legacyIds": [
+      "situacao-o-inquilino-a-inquilina"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-0137",
+    "legacyIds": [
+      "m3-agua"
+    ],
+    "situacao": "agua_luz_gas",
+    "pt": "a água",
+    "en": "water",
+    "zhHans": "水",
+    "zhHant": "水",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Ponha água na panela.",
+    "exampleEn": "Put water in the pot.",
+    "exampleZhHans": "请把水倒进锅里。",
+    "exampleZhHant": "請把水倒進鍋裡。"
+  },
+  {
+    "id": "az-0160",
+    "legacyIds": [
+      "m3-conta"
+    ],
+    "situacao": "agua_luz_gas",
+    "pt": "a conta",
+    "en": "bill",
+    "zhHans": "账单",
+    "zhHant": "帳單",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Era a conta, se faz favor.",
+    "exampleEn": "The bill, please.",
+    "exampleZhHans": "请给我账单。",
+    "exampleZhHant": "請給我帳單。"
+  },
+  {
+    "id": "az-0162",
+    "legacyIds": [
+      "m3-fatura"
+    ],
+    "situacao": "agua_luz_gas",
+    "pt": "a fatura",
+    "en": "invoice",
+    "zhHans": "发票",
+    "zhHant": "發票",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pode dar-me uma fatura?",
+    "exampleEn": "Can you give me an invoice?",
+    "exampleZhHans": "可以给我一张发票吗？",
+    "exampleZhHant": "可以給我一張發票嗎？"
+  },
+  {
+    "id": "az-0231",
+    "legacyIds": [
+      "m5-pagar-a-conta"
+    ],
+    "situacao": "agua_luz_gas",
+    "pt": "pagar a conta",
+    "en": "to pay the bill",
+    "zhHans": "支付账单",
+    "zhHant": "支付帳單",
+    "examplePt": "Queria pagar a conta da água.",
+    "exampleEn": "I would like to pay the water bill.",
+    "exampleZhHans": "我想付水费账单。",
+    "exampleZhHant": "我想付水費帳單。"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "o IBAN",
+    "en": "IBAN (bank account number)",
+    "zhHans": "IBAN（國际银行账号）",
+    "zhHant": "IBAN（國際銀行帳號）",
+    "note": "Needed for salary, rent, utilities",
+    "id": "az-0602",
+    "legacyIds": [
+      "situacao-o-iban"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "a transferência bancária",
+    "en": "bank transfer",
+    "zhHans": "银行转账",
+    "zhHant": "銀行轉帳",
+    "id": "az-0606",
+    "legacyIds": [
+      "situacao-a-transferencia-bancaria"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "o titular da conta",
+    "en": "account holder",
+    "zhHans": "账户持有人",
+    "zhHant": "帳戶持有人",
+    "id": "az-0612",
+    "legacyIds": [
+      "situacao-o-titular-da-conta"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "o homebanking / a app do banco",
+    "en": "online banking / banking app",
+    "zhHans": "网上银行／银行应用程式",
+    "zhHant": "網上銀行／銀行應用程式",
+    "id": "az-0613",
+    "legacyIds": [
+      "situacao-o-homebanking-a-app-do-banco"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "as guias de pagamento",
+    "en": "payment slips",
+    "zhHans": "缴费单",
+    "zhHant": "繳費單",
+    "id": "az-0626",
+    "legacyIds": [
+      "situacao-as-guias-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "pagar uma taxa",
+    "en": "to pay a fee",
+    "zhHans": "缴納费用",
+    "zhHant": "繳納費用",
+    "id": "az-0646",
+    "legacyIds": [
+      "situacao-pagar-uma-taxa"
+    ]
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "o comprovativo",
+    "en": "proof / receipt (of application)",
+    "zhHans": "申请憑证",
+    "zhHant": "申請憑證",
+    "id": "az-0704",
+    "legacyIds": [
+      "situacao-o-comprovativo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "despesas incluídas",
+    "en": "bills included",
+    "zhHans": "包水电杂费",
+    "zhHant": "包水電雜費",
+    "id": "az-0713",
+    "legacyIds": [
+      "situacao-despesas-incluidas"
+    ]
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "o débito direto",
+    "en": "direct debit",
+    "zhHans": "自动扣款",
+    "zhHant": "自動扣款",
+    "note": "How utilities are usually paid",
+    "id": "az-0796",
+    "legacyIds": [
+      "situacao-o-debito-direto"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "a comissão",
+    "en": "fee / charge",
+    "zhHans": "手续费",
+    "zhHant": "手續費",
+    "id": "az-0805",
+    "legacyIds": [
+      "situacao-a-comissao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "pagar em prestações",
+    "en": "to pay in instalments",
+    "zhHans": "分期缴納",
+    "zhHant": "分期繳納",
+    "id": "az-0811",
+    "legacyIds": [
+      "situacao-pagar-em-prestacoes"
+    ]
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "o aquecimento",
+    "en": "heating",
+    "zhHans": "暖气",
+    "zhHant": "暖氣",
+    "id": "az-0967",
+    "legacyIds": [
+      "situacao-o-aquecimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "o esquentador",
+    "en": "gas water heater",
+    "zhHans": "燃气热水器",
+    "zhHant": "燃氣熱水器",
+    "note": "Very common in PT flats; learn this word",
+    "id": "az-0968",
+    "legacyIds": [
+      "situacao-o-esquentador"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "a caldeira",
+    "en": "boiler",
+    "zhHans": "锅炉",
+    "zhHant": "鍋爐",
+    "id": "az-0969",
+    "legacyIds": [
+      "situacao-a-caldeira"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "avariado/a",
+    "en": "broken / out of order",
+    "zhHans": "坏了／故障",
+    "zhHant": "壞了／故障",
+    "id": "az-0972",
+    "legacyIds": [
+      "situacao-avariado-a"
+    ]
+  },
+  {
+    "situacao": "agua_luz_gas",
+    "pt": "reportar uma avaria",
+    "en": "to report a fault",
+    "zhHans": "報修",
+    "zhHant": "報修",
+    "id": "az-1011",
+    "legacyIds": [
+      "situacao-reportar-uma-avaria"
+    ]
+  },
+  {
+    "id": "az-0017",
+    "legacyIds": [
+      "m1-telefone"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "o telefone",
+    "en": "telephone",
+    "zhHans": "电话",
+    "zhHant": "電話",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Qual é o seu número de telefone?",
+    "exampleEn": "What is your telephone number?",
+    "exampleZhHans": "您的电话号码是多少？",
+    "exampleZhHant": "您的電話號碼是多少？"
+  },
+  {
+    "id": "az-0018",
+    "legacyIds": [
+      "m1-telemovel"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "o telemóvel",
+    "en": "mobile phone",
+    "zhHans": "手机/移动电话",
+    "zhHant": "手機/行動電話",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O meu telemóvel é novo.",
+    "exampleEn": "My mobile phone is new.",
+    "exampleZhHans": "我的手机是新的。",
+    "exampleZhHant": "我的手機是新的。"
+  },
+  {
+    "id": "az-0254",
+    "legacyIds": [
+      "m5-atender"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "atender",
+    "en": "to answer",
+    "zhHans": "接电话",
+    "zhHant": "接電話",
+    "examplePt": "Não atenda o telemóvel.",
+    "exampleEn": "Do not answer the mobile phone.",
+    "exampleZhHans": "不要接手机。",
+    "exampleZhHant": "不要接手機。"
+  },
+  {
+    "id": "az-0255",
+    "legacyIds": [
+      "m5-desligar"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "desligar",
+    "en": "to turn off",
+    "zhHans": "关闭",
+    "zhHant": "關閉",
+    "examplePt": "Desligue o telemóvel.",
+    "exampleEn": "Turn off the mobile phone.",
+    "exampleZhHans": "请关掉手机。",
+    "exampleZhHant": "請關掉手機。"
+  },
+  {
+    "id": "az-0460",
+    "legacyIds": [
+      "m9-falar-telemovel"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "falar ao telemóvel",
+    "en": "to talk on the mobile phone",
+    "zhHans": "用手机通话",
+    "zhHant": "用手機通話",
+    "examplePt": "As pessoas falam ao telemóvel.",
+    "exampleEn": "People talk on mobile phones.",
+    "exampleZhHans": "人们用手机通话。",
+    "exampleZhHant": "人們用手機通話。"
+  },
+  {
+    "id": "az-0482",
+    "legacyIds": [
+      "m10-navegar-na-net"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "navegar na net",
+    "en": "to browse the internet",
+    "zhHans": "浏览互联网",
+    "zhHant": "瀏覽網路",
+    "examplePt": "Eu tenho navegado na net.",
+    "exampleEn": "I have been browsing the internet.",
+    "exampleZhHans": "我最近一直在上网。",
+    "exampleZhHant": "我最近一直在上網。"
+  },
+  {
+    "id": "az-0506",
+    "legacyIds": [
+      "m11-mensagem"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "a mensagem",
+    "en": "message",
+    "zhHans": "信息",
+    "zhHant": "訊息",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Mandei uma mensagem.",
+    "exampleEn": "I sent a message.",
+    "exampleZhHans": "我发了一条消息。",
+    "exampleZhHant": "我發了一則訊息。"
+  },
+  {
+    "id": "az-0509",
+    "legacyIds": [
+      "m11-email"
+    ],
+    "situacao": "telemovel_internet",
+    "pt": "o e-mail",
+    "en": "email",
+    "zhHans": "电子邮件",
+    "zhHant": "電子郵件",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Enviei o currículo por e-mail.",
+    "exampleEn": "I sent the resume by email.",
+    "exampleZhHans": "我通过电子邮件发送了简历。",
+    "exampleZhHant": "我透過電子郵件寄出了履歷。"
+  },
+  {
+    "situacao": "telemovel_internet",
+    "pt": "a senha de acesso",
+    "en": "access password (portal login)",
+    "zhHans": "登入密码",
+    "zhHant": "登入密碼",
+    "id": "az-0620",
+    "legacyIds": [
+      "situacao-a-senha-de-acesso"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "telemovel_internet",
+    "pt": "a aplicação / a app",
+    "en": "the app",
+    "zhHans": "应用程式",
+    "zhHant": "應用程式",
+    "id": "az-0781",
+    "legacyIds": [
+      "situacao-a-aplicacao-a-app"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "telemovel_internet",
+    "pt": "avariado/a",
+    "en": "broken / out of order",
+    "zhHans": "坏了／故障",
+    "zhHant": "壞了／故障",
+    "id": "az-0972",
+    "legacyIds": [
+      "situacao-avariado-a"
+    ]
+  },
+  {
+    "situacao": "telemovel_internet",
+    "pt": "reportar uma avaria",
+    "en": "to report a fault",
+    "zhHans": "報修",
+    "zhHant": "報修",
+    "id": "az-1011",
+    "legacyIds": [
+      "situacao-reportar-uma-avaria"
+    ]
+  },
+  {
+    "situacao": "telemovel_internet",
+    "pt": "remarcar",
+    "en": "to reschedule",
+    "zhHans": "改期",
+    "zhHant": "改期",
+    "id": "az-1053",
+    "legacyIds": [
+      "situacao-remarcar"
+    ]
+  },
+  {
+    "situacao": "telemovel_internet",
+    "pt": "avisar com antecedência",
+    "en": "to give advance notice",
+    "zhHans": "提前通知",
+    "zhHant": "提前通知",
+    "id": "az-1054",
+    "legacyIds": [
+      "situacao-avisar-com-antecedencia"
+    ]
+  },
+  {
+    "situacao": "telemovel_internet",
+    "pt": "o contrato",
+    "en": "contract",
+    "zhHans": "合约",
+    "zhHant": "合約",
+    "id": "az-1134",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-contrato"
+    ],
+    "examplePt": "Li o contrato todo.",
+    "exampleEn": "I read the entire contract.",
+    "exampleZhHans": "我把合约全看了。",
+    "exampleZhHant": "我把合約全看了。"
+  },
+  {
+    "id": "az-0134",
+    "legacyIds": [
+      "m2-ir-compras"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "ir às compras",
+    "en": "to go shopping",
+    "zhHans": "去购物",
+    "zhHant": "去購物",
+    "examplePt": "Vou às compras ao sábado.",
+    "exampleEn": "I go shopping on Saturdays.",
+    "exampleZhHans": "我周六去购物。",
+    "exampleZhHant": "我週六去購物。"
+  },
+  {
+    "id": "az-0197",
+    "legacyIds": [
+      "m4-centro-comercial"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "o centro comercial",
+    "en": "shopping centre",
+    "zhHans": "购物中心",
+    "zhHant": "購物中心",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Vou ao centro comercial.",
+    "exampleEn": "I am going to the shopping centre.",
+    "exampleZhHans": "我去购物中心。",
+    "exampleZhHant": "我去購物中心。"
+  },
+  {
+    "id": "az-0216",
+    "legacyIds": [
+      "m5-loja-de-roupa"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "a loja de roupa",
+    "en": "clothes shop",
+    "zhHans": "服装店",
+    "zhHant": "服飾店",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A loja de roupa está aberta.",
+    "exampleEn": "The clothes shop is open.",
+    "exampleZhHans": "服装店开着。",
+    "exampleZhHant": "服裝店開著。"
+  },
+  {
+    "id": "az-0450",
+    "legacyIds": [
+      "m9-calcas-ganga"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "as calças de ganga",
+    "en": "jeans",
+    "zhHans": "牛仔裤",
+    "zhHant": "牛仔褲",
+    "pos": "noun",
+    "gender": "f-pl",
+    "examplePt": "Ele usava calças de ganga.",
+    "exampleEn": "He used to wear jeans.",
+    "exampleZhHans": "他以前穿牛仔裤。",
+    "exampleZhHant": "他以前穿牛仔褲。"
+  },
+  {
+    "id": "az-0511",
+    "legacyIds": [
+      "m11-marca"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "a marca",
+    "en": "brand",
+    "zhHans": "品牌",
+    "zhHant": "品牌",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "O telemóvel é da marca Vodafone.",
+    "exampleEn": "The mobile phone is from the Vodafone brand.",
+    "exampleZhHans": "这部手机是 Vodafone 品牌的。",
+    "exampleZhHant": "這支手機是 Vodafone 品牌的。"
+  },
+  {
+    "id": "az-0522",
+    "legacyIds": [
+      "m11-roupa-estragada"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "a roupa estragada",
+    "en": "damaged clothing",
+    "zhHans": "损坏的衣服",
+    "zhHant": "損壞的衣服",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A reclamação é por roupa estragada.",
+    "exampleEn": "The complaint is about damaged clothing.",
+    "exampleZhHans": "投诉是因为衣物损坏。",
+    "exampleZhHant": "投訴是因為衣物損壞。"
+  },
+  {
+    "id": "az-0523",
+    "legacyIds": [
+      "m11-estabelecimento"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "o estabelecimento",
+    "en": "establishment; shop",
+    "zhHans": "机构/商店",
+    "zhHant": "機構/商店",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Entreguei a roupa no vosso estabelecimento.",
+    "exampleEn": "I delivered the clothing to your establishment.",
+    "exampleZhHans": "我把衣服交到了贵店。",
+    "exampleZhHant": "我把衣服交到了貴店。"
+  },
+  {
+    "id": "az-0525",
+    "legacyIds": [
+      "m11-estrago"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "o estrago",
+    "en": "damage",
+    "zhHans": "损害",
+    "zhHant": "損害",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "A empresa é responsável pelos estragos.",
+    "exampleEn": "The company is responsible for the damage.",
+    "exampleZhHans": "该公司应对损坏负责。",
+    "exampleZhHant": "該公司應對損壞負責。"
+  },
+  {
+    "id": "az-0526",
+    "legacyIds": [
+      "m11-exigir"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "exigir",
+    "en": "to demand",
+    "zhHans": "要求",
+    "zhHant": "要求",
+    "examplePt": "Exijo uma indemnização.",
+    "exampleEn": "I demand compensation.",
+    "exampleZhHans": "我要求赔偿。",
+    "exampleZhHant": "我要求賠償。"
+  },
+  {
+    "id": "az-0528",
+    "legacyIds": [
+      "m11-recibo"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "o recibo",
+    "en": "receipt",
+    "zhHans": "收据/付款凭证",
+    "zhHant": "收據/付款憑證",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Junto cópia do recibo de compra.",
+    "exampleEn": "I am enclosing a copy of the purchase receipt.",
+    "exampleZhHans": "我附上购买收据的副本。",
+    "exampleZhHant": "我附上購買收據的副本。"
+  },
+  {
+    "id": "az-0529",
+    "legacyIds": [
+      "m11-prazo"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "o prazo",
+    "en": "deadline",
+    "zhHans": "最后期限",
+    "zhHant": "最後期限",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
+    "exampleEn": "The amount must be delivered within eight days.",
+    "exampleZhHans": "该金额应在八天期限内交付。",
+    "exampleZhHant": "該金額應在八天期限內交付。"
+  },
+  {
+    "id": "az-0533",
+    "legacyIds": [
+      "m11-reclamar"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "reclamar",
+    "en": "to complain",
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴",
+    "examplePt": "Temos de reclamar.",
+    "exampleEn": "We have to complain.",
+    "exampleZhHans": "我们必须投诉。",
+    "exampleZhHant": "我們必須投訴。"
+  },
+  {
+    "id": "az-0534",
+    "legacyIds": [
+      "m11-queixa"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "a queixa",
+    "en": "complaint",
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A DECO tem recebido queixas de consumidores.",
+    "exampleEn": "DECO has received complaints from consumers.",
+    "exampleZhHans": "DECO 一直收到消费者的投诉。",
+    "exampleZhHant": "DECO 一直收到消費者的投訴。"
+  },
+  {
+    "id": "az-0535",
+    "legacyIds": [
+      "m11-consumidor"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "o consumidor",
+    "en": "consumer",
+    "zhHans": "消费者",
+    "zhHant": "消費者",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Os consumidores fizeram queixas.",
+    "exampleEn": "Consumers made complaints.",
+    "exampleZhHans": "消费者提出了投诉。",
+    "exampleZhHant": "消費者提出了投訴。"
+  },
+  {
+    "id": "az-0161",
+    "legacyIds": [
+      "m3-talao"
+    ],
+    "situacao": "trocas_devolucoes",
+    "pt": "o talão",
+    "en": "receipt",
+    "zhHans": "收据",
+    "zhHant": "收據",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Aqui tem o talão.",
+    "exampleEn": "Here is the receipt.",
+    "exampleZhHans": "这是您的收据。",
+    "exampleZhHant": "這是您的收據。"
+  },
+  {
+    "id": "az-0324",
+    "legacyIds": [
+      "m6-assalto"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "o assalto",
+    "en": "robbery",
+    "zhHans": "抢劫",
+    "zhHant": "搶劫",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O 112 atende situações de assalto.",
+    "exampleEn": "112 handles robbery situations.",
+    "exampleZhHans": "112 处理抢劫情况。",
+    "exampleZhHant": "112 處理搶劫情況。"
+  },
+  {
+    "id": "az-0323",
+    "legacyIds": [
+      "m6-incendio"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "o incêndio",
+    "en": "fire",
+    "zhHans": "火灾",
+    "zhHant": "火災",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O 112 atende situações de incêndio.",
+    "exampleEn": "112 handles fire situations.",
+    "exampleZhHans": "112 处理火灾情况。",
+    "exampleZhHant": "112 處理火災情況。"
+  },
+  {
+    "id": "az-0320",
+    "legacyIds": [
+      "m6-numero-europeu-de-emergencia"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "o Número Europeu de Emergência",
+    "en": "European emergency number",
+    "zhHans": "欧洲紧急电话号码",
+    "zhHant": "歐洲緊急電話號碼",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O 112 é o Número Europeu de Emergência.",
+    "exampleEn": "112 is the European Emergency Number.",
+    "exampleZhHans": "112 是欧洲紧急电话号码。",
+    "exampleZhHant": "112 是歐洲緊急電話號碼。"
+  },
+  {
+    "situacao": "policia_documentos",
+    "pt": "o 112",
+    "en": "112 (emergency number)",
+    "zhHans": "112（紧急救援电话）",
+    "zhHant": "112（緊急救援電話）",
+    "id": "az-0653",
+    "legacyIds": [
+      "situacao-o-112"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-0552",
+    "legacyIds": [
+      "m11-assaltar"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "assaltar",
+    "en": "to rob",
+    "zhHans": "抢劫",
+    "zhHant": "搶劫",
+    "examplePt": "O banco foi assaltado ontem de manhã.",
+    "exampleEn": "The bank was robbed yesterday morning.",
+    "exampleZhHans": "银行昨天早上被抢劫了。",
+    "exampleZhHant": "銀行昨天早上被搶劫了。"
+  },
+  {
+    "id": "az-0534",
+    "legacyIds": [
+      "m11-queixa"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "a queixa",
+    "en": "complaint",
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A DECO tem recebido queixas de consumidores.",
+    "exampleEn": "DECO has received complaints from consumers.",
+    "exampleZhHans": "DECO 一直收到消费者的投诉。",
+    "exampleZhHant": "DECO 一直收到消費者的投訴。"
+  },
+  {
+    "id": "az-0239",
+    "legacyIds": [
+      "m5-passaporte"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "o passaporte",
+    "en": "passport",
+    "zhHans": "护照",
+    "zhHant": "護照",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Deve levar o passaporte.",
+    "exampleEn": "You should take the passport.",
+    "exampleZhHans": "您应该带上护照。",
+    "exampleZhHant": "您應該帶上護照。"
+  },
+  {
+    "id": "az-0240",
+    "legacyIds": [
+      "m5-registo-criminal"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "o registo criminal",
+    "en": "criminal record",
+    "zhHans": "犯罪记录",
+    "zhHant": "犯罪記錄",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preciso de autorização para consulta do registo criminal.",
+    "exampleEn": "I need authorisation to consult the criminal record.",
+    "exampleZhHans": "我需要授权查询犯罪记录。",
+    "exampleZhHant": "我需要授權查詢犯罪紀錄。"
+  },
+  {
+    "id": "az-0506",
+    "legacyIds": [
+      "m11-mensagem"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "a mensagem",
+    "en": "message",
+    "zhHans": "信息",
+    "zhHant": "訊息",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Mandei uma mensagem.",
+    "exampleEn": "I sent a message.",
+    "exampleZhHans": "我发了一条消息。",
+    "exampleZhHant": "我發了一則訊息。"
+  },
+  {
+    "id": "az-0542",
+    "legacyIds": [
+      "m11-destinatario"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "o destinatário",
+    "en": "recipient",
+    "zhHans": "接受者",
+    "zhHant": "接受者",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Não conhecemos o destinatário.",
+    "exampleEn": "We do not know the recipient.",
+    "exampleZhHans": "我们不认识收件人。",
+    "exampleZhHant": "我們不認識收件人。"
+  },
+  {
+    "id": "az-0553",
+    "legacyIds": [
+      "m11-alguem"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "alguém",
+    "en": "someone",
+    "zhHans": "某人",
+    "zhHant": "某人",
+    "examplePt": "Alguém sabe onde fica o ACM?",
+    "exampleEn": "Does anyone know where the ACM is?",
+    "exampleZhHans": "有人知道 ACM 在哪里吗？",
+    "exampleZhHant": "有人知道 ACM 在哪裡嗎？"
+  },
+  {
+    "id": "az-0554",
+    "legacyIds": [
+      "m11-ninguem"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "ninguém",
+    "en": "no one",
+    "zhHans": "没有人",
+    "zhHant": "沒有人",
+    "examplePt": "Ninguém deve estar ilegal.",
+    "exampleEn": "No one should be in an illegal situation.",
+    "exampleZhHans": "任何人都不应该处于非法状态。",
+    "exampleZhHant": "任何人都不應該處於非法狀態。"
+  },
+  {
+    "id": "az-0579",
+    "legacyIds": [
+      "m12-preencher"
+    ],
+    "situacao": "policia_documentos",
+    "pt": "preencher",
+    "en": "to fill in",
+    "zhHans": "填写",
+    "zhHant": "填寫",
+    "examplePt": "Basta preencher o requerimento.",
+    "exampleEn": "It is enough to fill in the application form.",
+    "exampleZhHans": "只需填写申请表。",
+    "exampleZhHant": "只需填寫申請表。"
+  },
+  {
+    "situacao": "policia_documentos",
+    "pt": "o comprovativo",
+    "en": "proof / receipt (of application)",
+    "zhHans": "申请憑证",
+    "zhHant": "申請憑證",
+    "id": "az-0704",
+    "legacyIds": [
+      "situacao-o-comprovativo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "policia_documentos",
+    "pt": "bloquear o cartão",
+    "en": "to block the card",
+    "zhHans": "挂失／冻结银行卡",
+    "zhHant": "掛失／凍結銀行卡",
+    "id": "az-0800",
+    "legacyIds": [
+      "situacao-bloquear-o-cartao"
+    ]
+  },
+  {
+    "id": "az-1267",
+    "legacyIds": [
+      "situacao-o-contrato-de-fornecimento"
+    ],
+    "pt": "o contrato de fornecimento",
+    "en": "utility supply contract",
+    "zhHans": "公用事业供应合同",
+    "zhHant": "公用事業供應合約",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O contrato de fornecimento fica em nome da inquilina.",
+    "exampleEn": "The utility contract is in the tenant's name.",
+    "exampleZhHans": "公用事业合同登记在房客名下。",
+    "exampleZhHant": "公用事業合約登記在房客名下。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1268",
+    "legacyIds": [
+      "situacao-o-contador"
+    ],
+    "pt": "o contador",
+    "en": "meter",
+    "zhHans": "计量表",
+    "zhHant": "計量錶",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O contador da eletricidade fica no corredor.",
+    "exampleEn": "The electricity meter is in the corridor.",
+    "exampleZhHans": "电表在走廊里。",
+    "exampleZhHant": "電錶在走廊裡。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1269",
+    "legacyIds": [
+      "situacao-a-leitura-do-contador"
+    ],
+    "pt": "a leitura do contador",
+    "en": "meter reading",
+    "zhHans": "抄表数值",
+    "zhHant": "抄錶數值",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Enviei a leitura do contador pela aplicação.",
+    "exampleEn": "I sent the meter reading through the app.",
+    "exampleZhHans": "我通过应用程序提交了抄表数值。",
+    "exampleZhHant": "我透過應用程式提交了抄錶數值。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1270",
+    "legacyIds": [
+      "situacao-a-potencia-contratada"
+    ],
+    "pt": "a potência contratada",
+    "en": "contracted power level",
+    "zhHans": "合同电力容量",
+    "zhHant": "合約電力容量",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Esta potência contratada não chega para a casa toda.",
+    "exampleEn": "This contracted power level is not enough for the whole home.",
+    "exampleZhHans": "这个合同电力容量不够全屋使用。",
+    "exampleZhHant": "這個合約電力容量不夠全屋使用。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1271",
+    "legacyIds": [
+      "situacao-a-tarifa-bi-horaria"
+    ],
+    "pt": "a tarifa bi-horária",
+    "en": "time-of-use tariff",
+    "zhHans": "分时电价",
+    "zhHant": "分時電價",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A tarifa bi-horária fica mais barata durante a noite.",
+    "exampleEn": "The time-of-use tariff is cheaper at night.",
+    "exampleZhHans": "分时电价在夜间更便宜。",
+    "exampleZhHant": "分時電價在夜間更便宜。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1272",
+    "legacyIds": [
+      "situacao-a-falha-de-eletricidade"
+    ],
+    "pt": "a falha de eletricidade",
+    "en": "power cut",
+    "zhHans": "停电",
+    "zhHant": "停電",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Houve uma falha de eletricidade no prédio.",
+    "exampleEn": "There was a power cut in the building.",
+    "exampleZhHans": "这栋楼停电了。",
+    "exampleZhHant": "這棟樓停電了。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1273",
+    "legacyIds": [
+      "situacao-a-fuga-de-gas"
+    ],
+    "pt": "a fuga de gás",
+    "en": "gas leak",
+    "zhHans": "燃气泄漏",
+    "zhHant": "燃氣洩漏",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Se sentir cheiro, feche o gás e comunique a fuga.",
+    "exampleEn": "If you smell gas, turn it off and report the leak.",
+    "exampleZhHans": "闻到气味时要关闭燃气并报告泄漏。",
+    "exampleZhHant": "聞到氣味時要關閉燃氣並報告洩漏。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1274",
+    "legacyIds": [
+      "situacao-mudar-o-titular"
+    ],
+    "pt": "mudar o titular",
+    "en": "to change the account holder",
+    "zhHans": "更改户名",
+    "zhHant": "更改戶名",
+    "pos": "verb",
+    "examplePt": "Quero mudar o titular do contrato.",
+    "exampleEn": "I want to change the account holder on the contract.",
+    "exampleZhHans": "我想更改合同户名。",
+    "exampleZhHant": "我想更改合約戶名。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1275",
+    "legacyIds": [
+      "situacao-comunicar-a-leitura"
+    ],
+    "pt": "comunicar a leitura",
+    "en": "to submit a meter reading",
+    "zhHans": "提交抄表数值",
+    "zhHant": "提交抄錶數值",
+    "examplePt": "Pode comunicar a leitura por telefone.",
+    "exampleEn": "You can submit the reading by phone.",
+    "exampleZhHans": "您可以通过电话提交抄表数值。",
+    "exampleZhHant": "您可以透過電話提交抄錶數值。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1276",
+    "legacyIds": [
+      "situacao-a-data-limite-de-pagamento"
+    ],
+    "pt": "a data limite de pagamento",
+    "en": "payment deadline",
+    "zhHans": "付款截止日期",
+    "zhHant": "付款截止日期",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A data limite de pagamento é dia vinte.",
+    "exampleEn": "The payment deadline is the twentieth.",
+    "exampleZhHans": "付款截止日期是二十日。",
+    "exampleZhHant": "付款截止日期是二十日。",
+    "situacao": "agua_luz_gas"
+  },
+  {
+    "id": "az-1277",
+    "legacyIds": [
+      "situacao-o-cartao-sim"
+    ],
+    "pt": "o cartão SIM",
+    "en": "SIM card",
+    "zhHans": "SIM卡",
+    "zhHant": "SIM卡",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preciso de um cartão SIM português.",
+    "exampleEn": "I need a Portuguese SIM card.",
+    "exampleZhHans": "我需要一张葡萄牙SIM卡。",
+    "exampleZhHant": "我需要一張葡萄牙SIM卡。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1278",
+    "legacyIds": [
+      "situacao-o-tarifario"
+    ],
+    "pt": "o tarifário",
+    "en": "mobile plan",
+    "zhHans": "手机套餐",
+    "zhHant": "手機方案",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Este tarifário inclui chamadas e dados móveis.",
+    "exampleEn": "This plan includes calls and mobile data.",
+    "exampleZhHans": "这个套餐包括通话和移动数据。",
+    "exampleZhHant": "這個方案包括通話和行動數據。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1279",
+    "legacyIds": [
+      "situacao-pre-pago"
+    ],
+    "pt": "pré-pago",
+    "en": "prepaid",
+    "zhHans": "预付费的",
+    "zhHant": "預付費的",
+    "examplePt": "Prefiro um cartão pré-pago sem contrato.",
+    "exampleEn": "I prefer a prepaid card without a contract.",
+    "exampleZhHans": "我想要无需合同的预付费卡。",
+    "exampleZhHant": "我想要無需合約的預付費卡。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1280",
+    "legacyIds": [
+      "situacao-pos-pago"
+    ],
+    "pt": "pós-pago",
+    "en": "postpaid",
+    "zhHans": "后付费的",
+    "zhHant": "後付費的",
+    "examplePt": "O tarifário pós-pago tem fidelização.",
+    "exampleEn": "The postpaid plan has a lock-in period.",
+    "exampleZhHans": "后付费套餐有合约期。",
+    "exampleZhHant": "後付費方案有綁約期。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1281",
+    "legacyIds": [
+      "situacao-os-dados-moveis"
+    ],
+    "pt": "os dados móveis",
+    "en": "mobile data",
+    "zhHans": "移动数据",
+    "zhHant": "行動數據",
+    "pos": "noun",
+    "gender": "m-pl",
+    "examplePt": "Os dados móveis acabaram antes do fim do mês.",
+    "exampleEn": "My mobile data ran out before the end of the month.",
+    "exampleZhHans": "我的移动数据月底前就用完了。",
+    "exampleZhHant": "我的行動數據月底前就用完了。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1282",
+    "legacyIds": [
+      "situacao-a-rede"
+    ],
+    "pt": "a rede",
+    "en": "network",
+    "zhHans": "网络",
+    "zhHant": "網絡",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A rede está em baixo nesta zona.",
+    "exampleEn": "The network is down in this area.",
+    "exampleZhHans": "这个地区的网络中断了。",
+    "exampleZhHant": "這個地區的網絡中斷了。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1283",
+    "legacyIds": [
+      "situacao-a-cobertura"
+    ],
+    "pt": "a cobertura",
+    "en": "coverage",
+    "zhHans": "信号覆盖",
+    "zhHant": "訊號覆蓋",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Há pouca cobertura dentro de casa.",
+    "exampleEn": "There is poor coverage inside the house.",
+    "exampleZhHans": "屋内信号覆盖很差。",
+    "exampleZhHant": "屋內訊號覆蓋很差。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1284",
+    "legacyIds": [
+      "situacao-o-sinal"
+    ],
+    "pt": "o sinal",
+    "en": "signal",
+    "zhHans": "信号",
+    "zhHant": "訊號",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O sinal do Wi-Fi não chega ao quarto.",
+    "exampleEn": "The Wi-Fi signal does not reach the bedroom.",
+    "exampleZhHans": "Wi-Fi信号到不了卧室。",
+    "exampleZhHant": "Wi-Fi訊號到不了睡房。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1285",
+    "legacyIds": [
+      "situacao-o-router"
+    ],
+    "pt": "o router",
+    "en": "router",
+    "zhHans": "路由器",
+    "zhHant": "路由器",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Reinicie o router e espere dois minutos.",
+    "exampleEn": "Restart the router and wait two minutes.",
+    "exampleZhHans": "请重启路由器并等待两分钟。",
+    "exampleZhHant": "請重啟路由器並等待兩分鐘。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1286",
+    "legacyIds": [
+      "situacao-a-palavra-passe-do-wi-fi"
+    ],
+    "pt": "a palavra-passe do Wi-Fi",
+    "en": "Wi-Fi password",
+    "zhHans": "Wi-Fi密码",
+    "zhHant": "Wi-Fi密碼",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Qual é a palavra-passe do Wi-Fi?",
+    "exampleEn": "What is the Wi-Fi password?",
+    "exampleZhHans": "Wi-Fi密码是什么？",
+    "exampleZhHant": "Wi-Fi密碼是甚麼？",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1287",
+    "legacyIds": [
+      "situacao-a-fibra"
+    ],
+    "pt": "a fibra",
+    "en": "fibre broadband",
+    "zhHans": "光纤宽带",
+    "zhHant": "光纖寬頻",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A fibra ainda não está disponível nesta morada.",
+    "exampleEn": "Fibre is not yet available at this address.",
+    "exampleZhHans": "这个地址尚未开通光纤。",
+    "exampleZhHant": "這個地址尚未開通光纖。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1288",
+    "legacyIds": [
+      "situacao-a-instalacao"
+    ],
+    "pt": "a instalação",
+    "en": "installation",
+    "zhHans": "安装",
+    "zhHant": "安裝",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A instalação ficou marcada para sexta-feira.",
+    "exampleEn": "The installation was booked for Friday.",
+    "exampleZhHans": "安装预约在星期五。",
+    "exampleZhHant": "安裝預約在星期五。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1289",
+    "legacyIds": [
+      "situacao-o-tecnico"
+    ],
+    "pt": "o técnico",
+    "en": "technician",
+    "zhHans": "技术人员",
+    "zhHant": "技術人員",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O técnico liga antes de chegar.",
+    "exampleEn": "The technician will call before arriving.",
+    "exampleZhHans": "技术人员到达前会打电话。",
+    "exampleZhHant": "技術人員到達前會打電話。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1290",
+    "legacyIds": [
+      "situacao-o-periodo-de-fidelizacao"
+    ],
+    "pt": "o período de fidelização",
+    "en": "lock-in period",
+    "zhHans": "合约期",
+    "zhHant": "綁約期",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O período de fidelização é de vinte e quatro meses.",
+    "exampleEn": "The lock-in period is twenty-four months.",
+    "exampleZhHans": "合约期为二十四个月。",
+    "exampleZhHant": "綁約期為二十四個月。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1291",
+    "legacyIds": [
+      "situacao-a-portabilidade-do-numero"
+    ],
+    "pt": "a portabilidade do número",
+    "en": "number porting",
+    "zhHans": "携号转网",
+    "zhHant": "攜號轉台",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pedi a portabilidade do meu número antigo.",
+    "exampleEn": "I requested to port my old number.",
+    "exampleZhHans": "我申请保留原来的号码转网。",
+    "exampleZhHant": "我申請保留原來的號碼轉台。",
+    "situacao": "telemovel_internet"
+  },
+  {
+    "id": "az-1292",
+    "legacyIds": [
+      "situacao-o-tamanho"
+    ],
+    "pt": "o tamanho",
+    "en": "size",
+    "zhHans": "尺码",
+    "zhHant": "尺碼",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Tem este casaco no meu tamanho?",
+    "exampleEn": "Do you have this jacket in my size?",
+    "exampleZhHans": "这件外套有我的尺码吗？",
+    "exampleZhHant": "這件外套有我的尺碼嗎？",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1293",
+    "legacyIds": [
+      "situacao-o-provador"
+    ],
+    "pt": "o provador",
+    "en": "fitting room",
+    "zhHans": "试衣间",
+    "zhHant": "試身室",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Os provadores ficam ao fundo da loja.",
+    "exampleEn": "The fitting rooms are at the back of the shop.",
+    "exampleZhHans": "试衣间在商店里面。",
+    "exampleZhHant": "試身室在店內後方。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1294",
+    "legacyIds": [
+      "situacao-experimentar"
+    ],
+    "pt": "experimentar",
+    "en": "to try on",
+    "zhHans": "试穿",
+    "zhHant": "試穿",
+    "pos": "verb",
+    "examplePt": "Posso experimentar estas calças?",
+    "exampleEn": "May I try on these trousers?",
+    "exampleZhHans": "我可以试穿这条裤子吗？",
+    "exampleZhHant": "我可以試穿這條褲子嗎？",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1295",
+    "legacyIds": [
+      "situacao-servir"
+    ],
+    "pt": "servir",
+    "en": "to fit",
+    "zhHans": "合身",
+    "zhHant": "合身",
+    "pos": "verb",
+    "examplePt": "Este número não me serve.",
+    "exampleEn": "This size does not fit me.",
+    "exampleZhHans": "这个尺码不合身。",
+    "exampleZhHant": "這個尺碼不合身。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1296",
+    "legacyIds": [
+      "situacao-apertado-a"
+    ],
+    "pt": "apertado/a",
+    "en": "tight",
+    "zhHans": "紧的",
+    "zhHant": "緊的",
+    "examplePt": "O vestido fica um pouco apertado.",
+    "exampleEn": "The dress is a little tight.",
+    "exampleZhHans": "这条裙子有点紧。",
+    "exampleZhHant": "這條裙子有點緊。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1297",
+    "legacyIds": [
+      "situacao-largo-a"
+    ],
+    "pt": "largo/a",
+    "en": "loose",
+    "zhHans": "宽松的",
+    "zhHant": "寬鬆的",
+    "examplePt": "As calças ficam demasiado largas.",
+    "exampleEn": "The trousers are too loose.",
+    "exampleZhHans": "这条裤子太宽松。",
+    "exampleZhHant": "這條褲子太寬鬆。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1298",
+    "legacyIds": [
+      "situacao-trocar-um-artigo"
+    ],
+    "pt": "trocar um artigo",
+    "en": "to exchange an item",
+    "zhHans": "换货",
+    "zhHant": "換貨",
+    "examplePt": "Queria trocar este artigo por outro tamanho.",
+    "exampleEn": "I'd like to exchange this item for another size.",
+    "exampleZhHans": "我想把这件商品换成另一个尺码。",
+    "exampleZhHant": "我想把這件商品換成另一個尺碼。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1299",
+    "legacyIds": [
+      "situacao-devolver-um-artigo"
+    ],
+    "pt": "devolver um artigo",
+    "en": "to return an item",
+    "zhHans": "退货",
+    "zhHant": "退貨",
+    "examplePt": "Pode devolver o artigo no prazo de trinta dias.",
+    "exampleEn": "You can return the item within thirty days.",
+    "exampleZhHans": "您可以在三十天内退货。",
+    "exampleZhHant": "您可以在三十天內退貨。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "situacao": "trocas_devolucoes",
+    "pt": "o reembolso",
+    "en": "tax refund",
+    "zhHans": "退税",
+    "zhHant": "退稅",
+    "id": "az-0810",
+    "legacyIds": [
+      "situacao-o-reembolso"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-1300",
+    "legacyIds": [
+      "situacao-o-defeito"
+    ],
+    "pt": "o defeito",
+    "en": "defect",
+    "zhHans": "瑕疵",
+    "zhHant": "瑕疵",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O fecho tem um defeito.",
+    "exampleEn": "The zip has a defect.",
+    "exampleZhHans": "拉链有瑕疵。",
+    "exampleZhHant": "拉鏈有瑕疵。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1301",
+    "legacyIds": [
+      "situacao-a-garantia"
+    ],
+    "pt": "a garantia",
+    "en": "warranty",
+    "zhHans": "保修",
+    "zhHant": "保養",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Este aparelho tem dois anos de garantia.",
+    "exampleEn": "This appliance has a two-year warranty.",
+    "exampleZhHans": "这台设备有两年保修。",
+    "exampleZhHant": "這台設備有兩年保養。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1302",
+    "legacyIds": [
+      "situacao-a-etiqueta"
+    ],
+    "pt": "a etiqueta",
+    "en": "label / tag",
+    "zhHans": "标签",
+    "zhHant": "標籤",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Não retire a etiqueta antes de experimentar.",
+    "exampleEn": "Do not remove the tag before trying it on.",
+    "exampleZhHans": "试穿前请勿撕下标签。",
+    "exampleZhHant": "試穿前請勿撕下標籤。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1303",
+    "legacyIds": [
+      "situacao-a-promocao"
+    ],
+    "pt": "a promoção",
+    "en": "special offer",
+    "zhHans": "促销",
+    "zhHant": "促銷",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A promoção termina no domingo.",
+    "exampleEn": "The special offer ends on Sunday.",
+    "exampleZhHans": "促销活动星期日结束。",
+    "exampleZhHant": "促銷活動星期日結束。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1304",
+    "legacyIds": [
+      "situacao-esgotado-a"
+    ],
+    "pt": "esgotado/a",
+    "en": "sold out",
+    "zhHans": "售罄的",
+    "zhHant": "售罄的",
+    "examplePt": "Esse tamanho está esgotado.",
+    "exampleEn": "That size is sold out.",
+    "exampleZhHans": "那个尺码已经售罄。",
+    "exampleZhHant": "那個尺碼已經售罄。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1305",
+    "legacyIds": [
+      "situacao-o-vale-de-troca"
+    ],
+    "pt": "o vale de troca",
+    "en": "exchange voucher",
+    "zhHans": "换货券",
+    "zhHant": "換貨券",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Sem talão, só podemos emitir um vale de troca.",
+    "exampleEn": "Without a receipt, we can only issue an exchange voucher.",
+    "exampleZhHans": "没有收据只能开换货券。",
+    "exampleZhHant": "沒有收據只能開換貨券。",
+    "situacao": "trocas_devolucoes"
+  },
+  {
+    "id": "az-1306",
+    "legacyIds": [
+      "situacao-a-esquadra"
+    ],
+    "pt": "a esquadra",
+    "en": "police station",
+    "zhHans": "警察局",
+    "zhHant": "警署",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A esquadra mais próxima fica nesta rua.",
+    "exampleEn": "The nearest police station is on this street.",
+    "exampleZhHans": "最近的警察局在这条街上。",
+    "exampleZhHant": "最近的警署在這條街上。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1307",
+    "legacyIds": [
+      "situacao-a-policia"
+    ],
+    "pt": "a polícia",
+    "en": "police",
+    "zhHans": "警察",
+    "zhHant": "警察",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A polícia chegou poucos minutos depois.",
+    "exampleEn": "The police arrived a few minutes later.",
+    "exampleZhHans": "警察几分钟后到达。",
+    "exampleZhHant": "警察幾分鐘後到達。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1308",
+    "legacyIds": [
+      "situacao-apresentar-uma-denuncia"
+    ],
+    "pt": "apresentar uma denúncia",
+    "en": "to file a police report",
+    "zhHans": "报案",
+    "zhHant": "報案",
+    "examplePt": "Quero apresentar uma denúncia por furto.",
+    "exampleEn": "I want to file a report for theft.",
+    "exampleZhHans": "我要报案，物品被盗。",
+    "exampleZhHant": "我要報案，物品被盜。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1309",
+    "legacyIds": [
+      "situacao-a-ocorrencia"
+    ],
+    "pt": "a ocorrência",
+    "en": "incident",
+    "zhHans": "事件记录",
+    "zhHant": "事件紀錄",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "O agente registou a ocorrência.",
+    "exampleEn": "The officer recorded the incident.",
+    "exampleZhHans": "警员记录了这起事件。",
+    "exampleZhHant": "警員記錄了這宗事件。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1310",
+    "legacyIds": [
+      "situacao-o-furto"
+    ],
+    "pt": "o furto",
+    "en": "theft",
+    "zhHans": "盗窃",
+    "zhHant": "盜竊",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O furto aconteceu dentro do autocarro.",
+    "exampleEn": "The theft happened on the bus.",
+    "exampleZhHans": "盗窃发生在公交车上。",
+    "exampleZhHant": "盜竊發生在巴士上。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1311",
+    "legacyIds": [
+      "situacao-a-carteira"
+    ],
+    "pt": "a carteira",
+    "en": "wallet",
+    "zhHans": "钱包",
+    "zhHant": "銀包",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Perdi a carteira com os documentos.",
+    "exampleEn": "I lost my wallet with my documents.",
+    "exampleZhHans": "我丢了装有证件的钱包。",
+    "exampleZhHant": "我遺失了裝有證件的銀包。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1312",
+    "legacyIds": [
+      "situacao-o-documento-de-identificacao"
+    ],
+    "pt": "o documento de identificação",
+    "en": "identity document",
+    "zhHans": "身份证件",
+    "zhHant": "身份證明文件",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Levaram o meu documento de identificação.",
+    "exampleEn": "My identity document was taken.",
+    "exampleZhHans": "我的身份证件被拿走了。",
+    "exampleZhHant": "我的身份證明文件被取走了。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1313",
+    "legacyIds": [
+      "situacao-os-perdidos-e-achados"
+    ],
+    "pt": "os perdidos e achados",
+    "en": "lost and found",
+    "zhHans": "失物招领处",
+    "zhHant": "失物認領處",
+    "pos": "noun",
+    "gender": "m-pl",
+    "examplePt": "Pergunte primeiro nos perdidos e achados.",
+    "exampleEn": "Ask at lost and found first.",
+    "exampleZhHans": "请先到失物招领处询问。",
+    "exampleZhHant": "請先到失物認領處查詢。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1314",
+    "legacyIds": [
+      "situacao-a-descricao"
+    ],
+    "pt": "a descrição",
+    "en": "description",
+    "zhHans": "描述",
+    "zhHant": "描述",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pode dar uma descrição da mochila?",
+    "exampleEn": "Can you describe the backpack?",
+    "exampleZhHans": "您可以描述一下背包吗？",
+    "exampleZhHant": "您可以描述一下背包嗎？",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1315",
+    "legacyIds": [
+      "situacao-a-testemunha"
+    ],
+    "pt": "a testemunha",
+    "en": "witness",
+    "zhHans": "目击者",
+    "zhHant": "目擊證人",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Uma testemunha viu o que aconteceu.",
+    "exampleEn": "A witness saw what happened.",
+    "exampleZhHans": "一名目击者看到了事情经过。",
+    "exampleZhHant": "一名目擊證人看到了事情經過。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1316",
+    "legacyIds": [
+      "situacao-o-suspeito"
+    ],
+    "pt": "o suspeito",
+    "en": "suspect",
+    "zhHans": "嫌疑人",
+    "zhHant": "疑犯",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Não consegui ver a cara do suspeito.",
+    "exampleEn": "I could not see the suspect's face.",
+    "exampleZhHans": "我没看清嫌疑人的脸。",
+    "exampleZhHant": "我沒有看清疑犯的臉。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1317",
+    "legacyIds": [
+      "situacao-o-auto-da-ocorrencia"
+    ],
+    "pt": "o auto da ocorrência",
+    "en": "incident report",
+    "zhHans": "事件报告",
+    "zhHant": "事件報告",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preciso de uma cópia do auto da ocorrência.",
+    "exampleEn": "I need a copy of the incident report.",
+    "exampleZhHans": "我需要一份事件报告副本。",
+    "exampleZhHant": "我需要一份事件報告副本。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1318",
+    "legacyIds": [
+      "situacao-o-numero-da-ocorrencia"
+    ],
+    "pt": "o número da ocorrência",
+    "en": "incident reference number",
+    "zhHans": "事件编号",
+    "zhHant": "事件編號",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Guarde o número da ocorrência.",
+    "exampleEn": "Keep the incident reference number.",
+    "exampleZhHans": "请保留事件编号。",
+    "exampleZhHant": "請保留事件編號。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1319",
+    "legacyIds": [
+      "situacao-bloquear-os-cartoes"
+    ],
+    "pt": "bloquear os cartões",
+    "en": "to block the cards",
+    "zhHans": "冻结银行卡",
+    "zhHant": "停用銀行卡",
+    "examplePt": "Liguei ao banco para bloquear os cartões.",
+    "exampleEn": "I called the bank to block the cards.",
+    "exampleZhHans": "我给银行打电话冻结银行卡。",
+    "exampleZhHant": "我致電銀行停用銀行卡。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "id": "az-1320",
+    "legacyIds": [
+      "situacao-foi-roubado-a"
+    ],
+    "pt": "foi roubado/a",
+    "en": "was stolen",
+    "zhHans": "被盗了",
+    "zhHant": "被盜了",
+    "examplePt": "O meu telemóvel foi roubado.",
+    "exampleEn": "My phone was stolen.",
+    "exampleZhHans": "我的手机被盗了。",
+    "exampleZhHant": "我的手機被盜了。",
+    "situacao": "policia_documentos"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "o Espaço Cidadão",
+    "en": "Citizen's Desk (one-stop services)",
+    "zhHans": "公民服务站",
+    "zhHant": "公民服務站",
+    "note": "Renew CC, CMD activation, IRS help — often inside the junta",
+    "id": "az-0847",
+    "legacyIds": [
+      "situacao-o-espaco-cidadao"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "a Chave Móvel Digital (CMD)",
+    "en": "Digital Mobile Key (gov. login)",
+    "zhHans": "数字移动密钥（政府通用登录）",
+    "zhHant": "數字移動密鑰（政府通用登錄）",
+    "note": "One login for Finanças, SS, SNS portals",
+    "id": "az-0824",
+    "legacyIds": [
+      "situacao-a-chave-movel-digital-cmd"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "a senha de acesso",
+    "en": "access password (portal login)",
+    "zhHans": "登入密码",
+    "zhHant": "登入密碼",
+    "id": "az-0620",
+    "legacyIds": [
+      "situacao-a-senha-de-acesso"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "atualizar a morada",
+    "en": "to update one's address",
+    "zhHans": "更新地址",
+    "zhHant": "更新地址",
+    "id": "az-0624",
+    "legacyIds": [
+      "situacao-atualizar-a-morada"
+    ]
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "o comprovativo de morada",
+    "en": "proof of address",
+    "zhHans": "住址证明",
+    "zhHant": "住址證明",
+    "note": "Utility bill, rental contract or junta attestation",
+    "id": "az-0611",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-morada"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-0579",
+    "legacyIds": [
+      "m12-preencher"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "preencher",
+    "en": "to fill in",
+    "zhHans": "填写",
+    "zhHant": "填寫",
+    "examplePt": "Basta preencher o requerimento.",
+    "exampleEn": "It is enough to fill in the application form.",
+    "exampleZhHans": "只需填写申请表。",
+    "exampleZhHant": "只需填寫申請表。"
+  },
+  {
+    "id": "az-0580",
+    "legacyIds": [
+      "m12-tratar-de"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "tratar de",
+    "en": "to take care of",
+    "zhHans": "办理/处理",
+    "zhHant": "辦理/處理",
+    "examplePt": "Ajudam-te a tratar de tudo.",
+    "exampleEn": "They help you take care of everything.",
+    "exampleZhHans": "他们会帮你处理一切。",
+    "exampleZhHant": "他們會幫你處理一切。"
+  },
+  {
+    "id": "az-0595",
+    "legacyIds": [
+      "m12-balcao"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "o balcão",
+    "en": "counter",
+    "zhHans": "柜台/服务台",
+    "zhHant": "櫃台/服務台",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Falou do outro lado do balcão.",
+    "exampleEn": "He spoke from the other side of the counter.",
+    "exampleZhHans": "他在柜台的另一边说话。",
+    "exampleZhHant": "他在櫃台的另一邊說話。"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "tirar a senha",
+    "en": "to take a queue ticket",
+    "zhHans": "取号（排队票）",
+    "zhHant": "取號（排隊票）",
+    "note": "Same word 'senha' = ticket AND password",
+    "id": "az-0621",
+    "legacyIds": [
+      "situacao-tirar-a-senha"
+    ]
+  },
+  {
+    "id": "az-0232",
+    "legacyIds": [
+      "m5-senha"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "a senha",
+    "en": "ticket number",
+    "zhHans": "票号",
+    "zhHant": "票號",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pode dar-me a sua senha?",
+    "exampleEn": "Can you give me your ticket number?",
+    "exampleZhHans": "您可以给我您的号码票吗？",
+    "exampleZhHant": "您可以給我您的號碼牌嗎？"
+  },
+  {
+    "id": "az-0529",
+    "legacyIds": [
+      "m11-prazo"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "o prazo",
+    "en": "deadline",
+    "zhHans": "最后期限",
+    "zhHant": "最後期限",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "A quantia deve ser entregue no prazo de oito dias.",
+    "exampleEn": "The amount must be delivered within eight days.",
+    "exampleZhHans": "该金额应在八天期限内交付。",
+    "exampleZhHant": "該金額應在八天期限內交付。"
+  },
+  {
+    "id": "az-0509",
+    "legacyIds": [
+      "m11-email"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "o e-mail",
+    "en": "email",
+    "zhHans": "电子邮件",
+    "zhHant": "電子郵件",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Enviei o currículo por e-mail.",
+    "exampleEn": "I sent the resume by email.",
+    "exampleZhHans": "我通过电子邮件发送了简历。",
+    "exampleZhHant": "我透過電子郵件寄出了履歷。"
+  },
+  {
+    "id": "az-0506",
+    "legacyIds": [
+      "m11-mensagem"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "a mensagem",
+    "en": "message",
+    "zhHans": "信息",
+    "zhHant": "訊息",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Mandei uma mensagem.",
+    "exampleEn": "I sent a message.",
+    "exampleZhHans": "我发了一条消息。",
+    "exampleZhHant": "我發了一則訊息。"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "o formulário",
+    "en": "form",
+    "zhHans": "表格",
+    "zhHant": "表格",
+    "id": "az-0862",
+    "legacyIds": [
+      "situacao-o-formulario"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "assinar",
+    "en": "to sign",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0863",
+    "legacyIds": [
+      "situacao-assinar"
+    ]
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "a assinatura",
+    "en": "signature",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0802",
+    "legacyIds": [
+      "situacao-a-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "o comprovativo",
+    "en": "proof / receipt (of application)",
+    "zhHans": "申请憑证",
+    "zhHant": "申請憑證",
+    "id": "az-0704",
+    "legacyIds": [
+      "situacao-o-comprovativo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "o horário de atendimento",
+    "en": "office hours",
+    "zhHans": "办公时间",
+    "zhHant": "辦公時間",
+    "id": "az-0854",
+    "legacyIds": [
+      "situacao-o-horario-de-atendimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "a senha de atendimento",
+    "en": "queue ticket",
+    "zhHans": "排队取号",
+    "zhHant": "排隊取號",
+    "id": "az-0855",
+    "legacyIds": [
+      "situacao-a-senha-de-atendimento"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "o comprovativo de pagamento",
+    "en": "proof of payment",
+    "zhHans": "缴费憑证",
+    "zhHant": "繳費憑證",
+    "id": "az-0864",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "levantar o documento",
+    "en": "to collect the document",
+    "zhHans": "领取文件",
+    "zhHant": "領取文件",
+    "id": "az-0865",
+    "legacyIds": [
+      "situacao-levantar-o-documento"
+    ]
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "pagar uma taxa",
+    "en": "to pay a fee",
+    "zhHans": "缴納费用",
+    "zhHant": "繳納費用",
+    "id": "az-0646",
+    "legacyIds": [
+      "situacao-pagar-uma-taxa"
+    ]
+  },
+  {
+    "id": "az-0162",
+    "legacyIds": [
+      "m3-fatura"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "a fatura",
+    "en": "invoice",
+    "zhHans": "发票",
+    "zhHant": "發票",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pode dar-me uma fatura?",
+    "exampleEn": "Can you give me an invoice?",
+    "exampleZhHans": "可以给我一张发票吗？",
+    "exampleZhHant": "可以給我一張發票嗎？"
+  },
+  {
+    "id": "az-0017",
+    "legacyIds": [
+      "m1-telefone"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "o telefone",
+    "en": "telephone",
+    "zhHans": "电话",
+    "zhHant": "電話",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Qual é o seu número de telefone?",
+    "exampleEn": "What is your telephone number?",
+    "exampleZhHans": "您的电话号码是多少？",
+    "exampleZhHant": "您的電話號碼是多少？"
+  },
+  {
+    "id": "az-0018",
+    "legacyIds": [
+      "m1-telemovel"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "o telemóvel",
+    "en": "mobile phone",
+    "zhHans": "手机/移动电话",
+    "zhHant": "手機/行動電話",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O meu telemóvel é novo.",
+    "exampleEn": "My mobile phone is new.",
+    "exampleZhHans": "我的手机是新的。",
+    "exampleZhHant": "我的手機是新的。"
+  },
+  {
+    "situacao": "espaco_cidadao",
+    "pt": "a aplicação / a app",
+    "en": "the app",
+    "zhHans": "应用程式",
+    "zhHant": "應用程式",
+    "id": "az-0781",
+    "legacyIds": [
+      "situacao-a-aplicacao-a-app"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "id": "az-0254",
+    "legacyIds": [
+      "m5-atender"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "atender",
+    "en": "to answer",
+    "zhHans": "接电话",
+    "zhHant": "接電話",
+    "examplePt": "Não atenda o telemóvel.",
+    "exampleEn": "Do not answer the mobile phone.",
+    "exampleZhHans": "不要接手机。",
+    "exampleZhHant": "不要接手機。"
+  },
+  {
+    "id": "az-0255",
+    "legacyIds": [
+      "m5-desligar"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "desligar",
+    "en": "to turn off",
+    "zhHans": "关闭",
+    "zhHant": "關閉",
+    "examplePt": "Desligue o telemóvel.",
+    "exampleEn": "Turn off the mobile phone.",
+    "exampleZhHans": "请关掉手机。",
+    "exampleZhHant": "請關掉手機。"
+  },
+  {
+    "id": "az-0596",
+    "legacyIds": [
+      "m12-informar-se"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "informar-se",
+    "en": "to get informed",
+    "zhHans": "了解情况",
+    "zhHant": "了解情況",
+    "examplePt": "Tenta informar-se sobre os candidatos.",
+    "exampleEn": "He tries to find out about the candidates.",
+    "exampleZhHans": "他试图了解候选人的情况。",
+    "exampleZhHant": "他試圖了解候選人的情況。"
+  },
+  {
+    "id": "az-0570",
+    "legacyIds": [
+      "m12-gratuito"
+    ],
+    "situacao": "espaco_cidadao",
+    "pt": "gratuito(a)",
+    "en": "free of charge",
+    "zhHans": "免费",
+    "zhHant": "免費",
+    "examplePt": "O serviço é gratuito. A consulta é gratuita.",
+    "exampleEn": "The service is free of charge. The consultation is free of charge.",
+    "exampleZhHans": "该服务是免费的。咨询是免费的。",
+    "exampleZhHant": "該服務是免費的。諮詢是免費的。"
+  },
+  {
+    "id": "az-0428",
+    "legacyIds": [
+      "m8-carta-conducao"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "a carta de condução",
+    "en": "driving licence",
+    "zhHans": "驾驶执照",
+    "zhHant": "駕駛執照",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Tenho carta de condução.",
+    "exampleEn": "I have a driving licence.",
+    "exampleZhHans": "我有驾驶执照。",
+    "exampleZhHant": "我有駕駛執照。"
+  },
+  {
+    "id": "az-0239",
+    "legacyIds": [
+      "m5-passaporte"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "o passaporte",
+    "en": "passport",
+    "zhHans": "护照",
+    "zhHant": "護照",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Deve levar o passaporte.",
+    "exampleEn": "You should take the passport.",
+    "exampleZhHans": "您应该带上护照。",
+    "exampleZhHant": "您應該帶上護照。"
+  },
+  {
+    "id": "az-0241",
+    "legacyIds": [
+      "m5-pessoalmente"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "pessoalmente",
+    "en": "in person",
+    "zhHans": "亲自",
+    "zhHant": "親自",
+    "examplePt": "Tem de vir cá pessoalmente.",
+    "exampleEn": "You have to come here in person.",
+    "exampleZhHans": "您必须亲自来这里。",
+    "exampleZhHant": "您必須親自來這裡。"
+  },
+  {
+    "id": "az-0234",
+    "legacyIds": [
+      "m5-impresso"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "o impresso",
+    "en": "form",
+    "zhHans": "表格",
+    "zhHant": "表格",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preencha este impresso.",
+    "exampleEn": "Fill in this form.",
+    "exampleZhHans": "请填写这张表格。",
+    "exampleZhHant": "請填寫這張表格。"
+  },
+  {
+    "id": "az-0235",
+    "legacyIds": [
+      "m5-renovar"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "renovar",
+    "en": "to renew",
+    "zhHans": "续签/更新",
+    "zhHant": "續簽/更新",
+    "examplePt": "Queria renovar a autorização de residência.",
+    "exampleEn": "I would like to renew the residence permit.",
+    "exampleZhHans": "我想续居留许可。",
+    "exampleZhHant": "我想續居留許可。"
+  },
+  {
+    "id": "az-0236",
+    "legacyIds": [
+      "m5-documentos-necessarios"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "os documentos necessários",
+    "en": "required documents",
+    "zhHans": "所需文件",
+    "zhHant": "所需文件",
+    "pos": "noun",
+    "gender": "m-pl",
+    "examplePt": "Que documentos necessários devo trazer?",
+    "exampleEn": "What required documents should I bring?",
+    "exampleZhHans": "我应该带哪些必要文件？",
+    "exampleZhHant": "我應該帶哪些必要文件？"
+  },
+  {
+    "id": "az-0237",
+    "legacyIds": [
+      "m5-requerente"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "o requerente",
+    "en": "applicant",
+    "zhHans": "申请人",
+    "zhHant": "申請人",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O requerente assina o pedido.",
+    "exampleEn": "The applicant signs the request.",
+    "exampleZhHans": "申请人在申请书上签字。",
+    "exampleZhHant": "申請人在申請書上簽字。"
+  },
+  {
+    "id": "az-0238",
+    "legacyIds": [
+      "m5-fotografia-tipo-passe"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "a fotografia tipo passe",
+    "en": "passport photo",
+    "zhHans": "护照照片",
+    "zhHant": "護照照片",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Preciso de duas fotografias tipo passe.",
+    "exampleEn": "I need two passport-style photographs.",
+    "exampleZhHans": "我需要两张证件照。",
+    "exampleZhHant": "我需要兩張證件照。"
+  },
+  {
+    "id": "az-0240",
+    "legacyIds": [
+      "m5-registo-criminal"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "o registo criminal",
+    "en": "criminal record",
+    "zhHans": "犯罪记录",
+    "zhHant": "犯罪記錄",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preciso de autorização para consulta do registo criminal.",
+    "exampleEn": "I need authorisation to consult the criminal record.",
+    "exampleZhHans": "我需要授权查询犯罪记录。",
+    "exampleZhHant": "我需要授權查詢犯罪紀錄。"
+  },
+  {
+    "id": "az-0268",
+    "legacyIds": [
+      "m5-cartao-de-residencia"
+    ],
+    "situacao": "imt_carta_conducao",
+    "pt": "o cartão de residência",
+    "en": "residence card",
+    "zhHans": "居留卡",
+    "zhHant": "居留卡",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preciso do cartão de residência.",
+    "exampleEn": "I need the residence card.",
+    "exampleZhHans": "我需要居留卡。",
+    "exampleZhHant": "我需要居留卡。"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a autorização de residência (AR)",
+    "en": "residence permit",
+    "zhHans": "居留許可",
+    "zhHant": "居留許可",
+    "id": "az-0659",
+    "legacyIds": [
+      "situacao-a-autorizacao-de-residencia-ar"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a marcação / o agendamento",
+    "en": "appointment / booking",
+    "zhHans": "预约",
+    "zhHant": "預約",
+    "id": "az-0663",
+    "legacyIds": [
+      "situacao-a-marcacao-o-agendamento"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a recolha de dados biométricos",
+    "en": "biometric data collection",
+    "zhHans": "採集生物识別资料（按指紋等）",
+    "zhHant": "採集生物識別資料（按指紋等）",
+    "id": "az-0664",
+    "legacyIds": [
+      "situacao-a-recolha-de-dados-biometricos"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "caducado/a",
+    "en": "expired",
+    "zhHans": "已过期",
+    "zhHant": "已過期",
+    "note": "AR expired <6 months can still renew",
+    "id": "az-0668",
+    "legacyIds": [
+      "situacao-caducado-a"
+    ]
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "as taxas",
+    "en": "fees",
+    "zhHans": "费用",
+    "zhHant": "費用",
+    "id": "az-0669",
+    "legacyIds": [
+      "situacao-as-taxas"
+    ],
+    "pos": "noun",
+    "gender": "f-pl"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a assinatura",
+    "en": "signature",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0802",
+    "legacyIds": [
+      "situacao-a-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a Chave Móvel Digital (CMD)",
+    "en": "Digital Mobile Key (gov. login)",
+    "zhHans": "数字移动密钥（政府通用登录）",
+    "zhHant": "數字移動密鑰（政府通用登錄）",
+    "note": "One login for Finanças, SS, SNS portals",
+    "id": "az-0824",
+    "legacyIds": [
+      "situacao-a-chave-movel-digital-cmd"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a fotocópia autenticada",
+    "en": "certified photocopy",
+    "zhHans": "认证副本",
+    "zhHant": "認證副本",
+    "id": "az-0851",
+    "legacyIds": [
+      "situacao-a-fotocopia-autenticada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "o reconhecimento de assinatura",
+    "en": "signature certification",
+    "zhHans": "签名认证",
+    "zhHant": "簽名認證",
+    "id": "az-0852",
+    "legacyIds": [
+      "situacao-o-reconhecimento-de-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "assinar",
+    "en": "to sign",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0863",
+    "legacyIds": [
+      "situacao-assinar"
+    ]
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "o comprovativo de pagamento",
+    "en": "proof of payment",
+    "zhHans": "缴费憑证",
+    "zhHant": "繳費憑證",
+    "id": "az-0864",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "o atestado médico",
+    "en": "medical certificate",
+    "zhHans": "医生证明",
+    "zhHant": "醫生證明",
+    "id": "az-0884",
+    "legacyIds": [
+      "situacao-o-atestado-medico"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a apostila (de Haia)",
+    "en": "(Hague) apostille",
+    "zhHans": "海牙认证",
+    "zhHant": "海牙認證",
+    "note": "Foreign documents must be apostilled",
+    "id": "az-0887",
+    "legacyIds": [
+      "situacao-a-apostila-de-haia"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "a tradução certificada",
+    "en": "certified translation",
+    "zhHans": "认证翻译",
+    "zhHant": "認證翻譯",
+    "id": "az-0888",
+    "legacyIds": [
+      "situacao-a-traducao-certificada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "o comprovativo de agendamento",
+    "en": "proof of appointment",
+    "zhHans": "预约憑证",
+    "zhHant": "預約憑證",
+    "id": "az-0893",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-agendamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "o número de processo",
+    "en": "case number",
+    "zhHans": "案件編号",
+    "zhHant": "案件編號",
+    "id": "az-0894",
+    "legacyIds": [
+      "situacao-o-numero-de-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "imt_carta_conducao",
+    "pt": "o estado do processo",
+    "en": "case status",
+    "zhHans": "案件状态",
+    "zhHant": "案件狀態",
+    "id": "az-0895",
+    "legacyIds": [
+      "situacao-o-estado-do-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-0463",
+    "legacyIds": [
+      "m9-cedula"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a cédula",
+    "en": "birth certificate",
+    "zhHans": "出生证明",
+    "zhHant": "出生證明",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A escola pede a cédula da criança.",
+    "exampleEn": "The school asks for the child's birth certificate.",
+    "exampleZhHans": "学校要求提供孩子的出生证明。",
+    "exampleZhHant": "學校要求提供孩子的出生證明。"
+  },
+  {
+    "id": "az-0517",
+    "legacyIds": [
+      "m11-diploma"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o diploma",
+    "en": "diploma",
+    "zhHans": "文凭",
+    "zhHant": "文憑",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Recebi o meu diploma de Informática.",
+    "exampleEn": "I received my diploma in Computer Science.",
+    "exampleZhHans": "我收到了我的信息学文凭。",
+    "exampleZhHant": "我收到了我的資訊學文憑。"
+  },
+  {
+    "id": "az-0546",
+    "legacyIds": [
+      "m11-residente"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "residente",
+    "en": "resident",
+    "zhHans": "居民",
+    "zhHant": "居民",
+    "examplePt": "Olga Ivanova é residente em Lisboa.",
+    "exampleEn": "Olga Ivanova is a resident of Lisbon.",
+    "exampleZhHans": "Olga Ivanova 是里斯本居民。",
+    "exampleZhHant": "Olga Ivanova 是里斯本居民。"
+  },
+  {
+    "id": "az-0559",
+    "legacyIds": [
+      "m12-cidadania"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a cidadania",
+    "en": "citizenship",
+    "zhHans": "公民身份/公民权",
+    "zhHant": "公民身分/公民權",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Cidadania é a qualidade ou direito do cidadão.",
+    "exampleEn": "Citizenship is the status or right of the citizen.",
+    "exampleZhHans": "公民身份是公民的资格或权利。",
+    "exampleZhHant": "公民身分是公民的資格或權利。"
+  },
+  {
+    "id": "az-0560",
+    "legacyIds": [
+      "m12-cidadao"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o cidadão",
+    "en": "citizen",
+    "zhHans": "公民",
+    "zhHant": "公民",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Ser cidadão significa envolver-se na comunidade.",
+    "exampleEn": "Being a citizen means getting involved in the community.",
+    "exampleZhHans": "作为公民意味着参与社区事务。",
+    "exampleZhHant": "作為公民意味著參與社區事務。"
+  },
+  {
+    "id": "az-0576",
+    "legacyIds": [
+      "m12-adquirir"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "adquirir",
+    "en": "to acquire",
+    "zhHans": "获得",
+    "zhHant": "獲得",
+    "examplePt": "Quero adquirir a nacionalidade portuguesa.",
+    "exampleEn": "I want to acquire Portuguese nationality.",
+    "exampleZhHans": "我想取得葡萄牙国籍。",
+    "exampleZhHant": "我想取得葡萄牙國籍。"
+  },
+  {
+    "id": "az-0577",
+    "legacyIds": [
+      "m12-requerimento"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o requerimento",
+    "en": "application form",
+    "zhHans": "申请表",
+    "zhHant": "申請表",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Deve juntar documentos ao requerimento.",
+    "exampleEn": "You must attach documents to the application form.",
+    "exampleZhHans": "应把文件附在申请表上。",
+    "exampleZhHant": "應把文件附在申請表上。"
+  },
+  {
+    "id": "az-0578",
+    "legacyIds": [
+      "m12-certificado"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o certificado",
+    "en": "certificate",
+    "zhHans": "证书",
+    "zhHant": "證書",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
+    "exampleEn": "You have to present a Portuguese Language Certificate.",
+    "exampleZhHans": "必须提交一份葡萄牙语证书。",
+    "exampleZhHant": "必須提交一份葡萄牙語證書。"
+  },
+  {
+    "id": "az-0579",
+    "legacyIds": [
+      "m12-preencher"
+    ],
+    "situacao": "conservatoria_registo_civil",
+    "pt": "preencher",
+    "en": "to fill in",
+    "zhHans": "填写",
+    "zhHant": "填寫",
+    "examplePt": "Basta preencher o requerimento.",
+    "exampleEn": "It is enough to fill in the application form.",
+    "exampleZhHans": "只需填写申请表。",
+    "exampleZhHant": "只需填寫申請表。"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a certidão",
+    "en": "certificate / official copy",
+    "zhHans": "证明书／正式副本",
+    "zhHant": "證明書／正式副本",
+    "id": "az-0644",
+    "legacyIds": [
+      "situacao-a-certidao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o carimbo",
+    "en": "official stamp",
+    "zhHans": "公章",
+    "zhHant": "公章",
+    "id": "az-0645",
+    "legacyIds": [
+      "situacao-o-carimbo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "pagar uma taxa",
+    "en": "to pay a fee",
+    "zhHans": "缴納费用",
+    "zhHant": "繳納費用",
+    "id": "az-0646",
+    "legacyIds": [
+      "situacao-pagar-uma-taxa"
+    ]
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a assinatura",
+    "en": "signature",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0802",
+    "legacyIds": [
+      "situacao-a-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a fotocópia autenticada",
+    "en": "certified photocopy",
+    "zhHans": "认证副本",
+    "zhHant": "認證副本",
+    "id": "az-0851",
+    "legacyIds": [
+      "situacao-a-fotocopia-autenticada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o reconhecimento de assinatura",
+    "en": "signature certification",
+    "zhHans": "签名认证",
+    "zhHant": "簽名認證",
+    "id": "az-0852",
+    "legacyIds": [
+      "situacao-o-reconhecimento-de-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a declaração",
+    "en": "declaration / statement",
+    "zhHans": "声明书",
+    "zhHant": "聲明書",
+    "id": "az-0857",
+    "legacyIds": [
+      "situacao-a-declaracao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o formulário",
+    "en": "form",
+    "zhHans": "表格",
+    "zhHant": "表格",
+    "id": "az-0862",
+    "legacyIds": [
+      "situacao-o-formulario"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "assinar",
+    "en": "to sign",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0863",
+    "legacyIds": [
+      "situacao-assinar"
+    ]
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o comprovativo de pagamento",
+    "en": "proof of payment",
+    "zhHans": "缴费憑证",
+    "zhHant": "繳費憑證",
+    "id": "az-0864",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "levantar o documento",
+    "en": "to collect the document",
+    "zhHans": "领取文件",
+    "zhHant": "領取文件",
+    "id": "az-0865",
+    "legacyIds": [
+      "situacao-levantar-o-documento"
+    ]
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o pedido de nacionalidade",
+    "en": "citizenship application",
+    "zhHans": "入籍申请",
+    "zhHant": "入籍申請",
+    "id": "az-0886",
+    "legacyIds": [
+      "situacao-o-pedido-de-nacionalidade"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a apostila (de Haia)",
+    "en": "(Hague) apostille",
+    "zhHans": "海牙认证",
+    "zhHant": "海牙認證",
+    "note": "Foreign documents must be apostilled",
+    "id": "az-0887",
+    "legacyIds": [
+      "situacao-a-apostila-de-haia"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a tradução certificada",
+    "en": "certified translation",
+    "zhHans": "认证翻译",
+    "zhHant": "認證翻譯",
+    "id": "az-0888",
+    "legacyIds": [
+      "situacao-a-traducao-certificada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "a certidão de nascimento",
+    "en": "birth certificate",
+    "zhHans": "出生证明",
+    "zhHant": "出生證明",
+    "id": "az-0889",
+    "legacyIds": [
+      "situacao-a-certidao-de-nascimento"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o registo criminal do país de origem",
+    "en": "criminal record from home country",
+    "zhHans": "原籍國无犯罪记录",
+    "zhHant": "原籍國無犯罪記錄",
+    "id": "az-0890",
+    "legacyIds": [
+      "situacao-o-registo-criminal-do-pais-de-origem"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o número de processo",
+    "en": "case number",
+    "zhHans": "案件編号",
+    "zhHant": "案件編號",
+    "id": "az-0894",
+    "legacyIds": [
+      "situacao-o-numero-de-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "conservatoria_registo_civil",
+    "pt": "o estado do processo",
+    "en": "case status",
+    "zhHans": "案件状态",
+    "zhHant": "案件狀態",
+    "id": "az-0895",
+    "legacyIds": [
+      "situacao-o-estado-do-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-0594",
+    "legacyIds": [
+      "m12-camara-municipal"
+    ],
+    "situacao": "camara_municipal",
+    "pt": "a Câmara Municipal",
+    "en": "city council",
+    "zhHans": "市议会",
+    "zhHant": "市議會",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "É candidato à presidência da Câmara Municipal.",
+    "exampleEn": "He is a candidate for president of the City Council.",
+    "exampleZhHans": "他是市政厅主席职位的候选人。",
+    "exampleZhHant": "他是市政廳主席職位的候選人。"
+  },
+  {
+    "id": "az-0581",
+    "legacyIds": [
+      "m12-comunidade"
+    ],
+    "situacao": "camara_municipal",
+    "pt": "a comunidade",
+    "en": "community",
+    "zhHans": "社区/共同体",
+    "zhHant": "社區/共同體",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Participa na vida da comunidade.",
+    "exampleEn": "Participate in community life.",
+    "exampleZhHans": "参与社区生活。",
+    "exampleZhHant": "參與社區生活。"
+  },
+  {
+    "id": "az-0586",
+    "legacyIds": [
+      "m12-residir"
+    ],
+    "situacao": "camara_municipal",
+    "pt": "residir",
+    "en": "to reside",
+    "zhHans": "居住",
+    "zhHant": "居住",
+    "examplePt": "Pode residir no espaço europeu.",
+    "exampleEn": "You can reside in the European area.",
+    "exampleZhHans": "可以在欧洲空间居住。",
+    "exampleZhHant": "可以在歐洲空間居住。"
+  },
+  {
+    "id": "az-0592",
+    "legacyIds": [
+      "m12-sugestao"
+    ],
+    "situacao": "camara_municipal",
+    "pt": "a sugestão",
+    "en": "suggestion",
+    "zhHans": "建议",
+    "zhHant": "建議",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pode apresentar sugestões.",
+    "exampleEn": "You can make suggestions.",
+    "exampleZhHans": "可以提出建议。",
+    "exampleZhHant": "可以提出建議。"
+  },
+  {
+    "id": "az-0596",
+    "legacyIds": [
+      "m12-informar-se"
+    ],
+    "situacao": "camara_municipal",
+    "pt": "informar-se",
+    "en": "to get informed",
+    "zhHans": "了解情况",
+    "zhHant": "了解情況",
+    "examplePt": "Tenta informar-se sobre os candidatos.",
+    "exampleEn": "He tries to find out about the candidates.",
+    "exampleZhHans": "他试图了解候选人的情况。",
+    "exampleZhHant": "他試圖了解候選人的情況。"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o carimbo",
+    "en": "official stamp",
+    "zhHans": "公章",
+    "zhHant": "公章",
+    "id": "az-0645",
+    "legacyIds": [
+      "situacao-o-carimbo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "pagar uma taxa",
+    "en": "to pay a fee",
+    "zhHans": "缴納费用",
+    "zhHant": "繳納費用",
+    "id": "az-0646",
+    "legacyIds": [
+      "situacao-pagar-uma-taxa"
+    ]
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o lixo / a reciclagem",
+    "en": "rubbish / recycling",
+    "zhHans": "垃圾／回收",
+    "zhHant": "垃圾／回收",
+    "id": "az-0760",
+    "legacyIds": [
+      "situacao-o-lixo-a-reciclagem"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o horário de funcionamento",
+    "en": "opening hours",
+    "zhHans": "營业时间",
+    "zhHant": "營業時間",
+    "id": "az-0846",
+    "legacyIds": [
+      "situacao-o-horario-de-funcionamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o horário de atendimento",
+    "en": "office hours",
+    "zhHans": "办公时间",
+    "zhHant": "辦公時間",
+    "id": "az-0854",
+    "legacyIds": [
+      "situacao-o-horario-de-atendimento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "a senha de atendimento",
+    "en": "queue ticket",
+    "zhHans": "排队取号",
+    "zhHant": "排隊取號",
+    "id": "az-0855",
+    "legacyIds": [
+      "situacao-a-senha-de-atendimento"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "a declaração",
+    "en": "declaration / statement",
+    "zhHans": "声明书",
+    "zhHant": "聲明書",
+    "id": "az-0857",
+    "legacyIds": [
+      "situacao-a-declaracao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "a freguesia",
+    "en": "parish (administrative area)",
+    "zhHans": "堂区（行政区）",
+    "zhHant": "堂區（行政區）",
+    "id": "az-0859",
+    "legacyIds": [
+      "situacao-a-freguesia"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o munícipe / o morador",
+    "en": "resident",
+    "zhHans": "居民",
+    "zhHant": "居民",
+    "id": "az-0860",
+    "legacyIds": [
+      "situacao-o-municipe-o-morador"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o formulário",
+    "en": "form",
+    "zhHans": "表格",
+    "zhHant": "表格",
+    "id": "az-0862",
+    "legacyIds": [
+      "situacao-o-formulario"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "assinar",
+    "en": "to sign",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0863",
+    "legacyIds": [
+      "situacao-assinar"
+    ]
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o comprovativo de pagamento",
+    "en": "proof of payment",
+    "zhHans": "缴费憑证",
+    "zhHant": "繳費憑證",
+    "id": "az-0864",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "levantar o documento",
+    "en": "to collect the document",
+    "zhHans": "领取文件",
+    "zhHant": "領取文件",
+    "id": "az-0865",
+    "legacyIds": [
+      "situacao-levantar-o-documento"
+    ]
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "estacionar",
+    "en": "to park",
+    "zhHans": "停车",
+    "zhHant": "停車",
+    "id": "az-1095",
+    "legacyIds": [
+      "situacao-estacionar"
+    ]
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o lixo",
+    "en": "trash",
+    "zhHans": "垃圾",
+    "zhHant": "垃圾",
+    "id": "az-1196",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-lixo"
+    ],
+    "examplePt": "Já pus o lixo fora.",
+    "exampleEn": "I already took out the trash.",
+    "exampleZhHans": "我已经把垃圾拿出去了。",
+    "exampleZhHant": "我已經把垃圾拿出去了。"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "a reciclagem",
+    "en": "recycling",
+    "zhHans": "回收",
+    "zhHant": "回收",
+    "id": "az-1197",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-reciclagem"
+    ],
+    "examplePt": "A reciclagem é ao fundo.",
+    "exampleEn": "Recycling is in the background.",
+    "exampleZhHans": "回收站在最里面。",
+    "exampleZhHant": "回收站在最裡面。"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o contentor",
+    "en": "bin / container",
+    "zhHans": "垃圾箱",
+    "zhHant": "垃圾箱",
+    "id": "az-1198",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-contentor"
+    ],
+    "examplePt": "O contentor está cheio.",
+    "exampleEn": "The container is full.",
+    "exampleZhHans": "垃圾箱满了。",
+    "exampleZhHant": "垃圾箱滿了。"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "a garagem",
+    "en": "garage",
+    "zhHans": "车库",
+    "zhHant": "車庫",
+    "id": "az-1203",
+    "pos": "noun",
+    "gender": "f",
+    "legacyIds": [
+      "situacao-a-garagem"
+    ],
+    "examplePt": "O carro está na garagem.",
+    "exampleEn": "The car is in the garage.",
+    "exampleZhHans": "车在车库里。",
+    "exampleZhHant": "車在車庫裡。"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o lugar de estacionamento",
+    "en": "parking spot",
+    "zhHans": "停车位",
+    "zhHant": "停車位",
+    "id": "az-1204",
+    "pos": "noun",
+    "gender": "m",
+    "legacyIds": [
+      "situacao-o-lugar-de-estacionamento"
+    ],
+    "examplePt": "O meu lugar é o dez.",
+    "exampleEn": "My place is ten.",
+    "exampleZhHans": "我的车位是十号。",
+    "exampleZhHant": "我的車位是十號。"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "o entulho",
+    "en": "rubble / construction waste",
+    "zhHans": "建筑垃圾",
+    "zhHant": "建築垃圾",
+    "id": "az-1072",
+    "legacyIds": [
+      "situacao-o-entulho"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "camara_municipal",
+    "pt": "a reclamação",
+    "en": "complaint",
+    "zhHans": "投诉",
+    "zhHant": "投訴",
+    "id": "az-1010",
+    "legacyIds": [
+      "situacao-a-reclamacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "id": "az-0533",
+    "legacyIds": [
+      "m11-reclamar"
+    ],
+    "situacao": "camara_municipal",
+    "pt": "reclamar",
+    "en": "to complain",
+    "zhHans": "抱怨/投诉",
+    "zhHant": "抱怨/投訴",
+    "examplePt": "Temos de reclamar.",
+    "exampleEn": "We have to complain.",
+    "exampleZhHans": "我们必须投诉。",
+    "exampleZhHant": "我們必須投訴。"
+  },
+  {
+    "id": "az-0517",
+    "legacyIds": [
+      "m11-diploma"
+    ],
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o diploma",
+    "en": "diploma",
+    "zhHans": "文凭",
+    "zhHant": "文憑",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Recebi o meu diploma de Informática.",
+    "exampleEn": "I received my diploma in Computer Science.",
+    "exampleZhHans": "我收到了我的信息学文凭。",
+    "exampleZhHant": "我收到了我的資訊學文憑。"
+  },
+  {
+    "id": "az-0518",
+    "legacyIds": [
+      "m11-competencia"
+    ],
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a competência",
+    "en": "skill; competence",
+    "zhHans": "能力/技能",
+    "zhHant": "能力/技能",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Desenvolvi competências na minha formação.",
+    "exampleEn": "I developed skills during my training.",
+    "exampleZhHans": "我在培训中培养了技能。",
+    "exampleZhHant": "我在培訓中培養了技能。"
+  },
+  {
+    "id": "az-0536",
+    "legacyIds": [
+      "m11-candidatura"
+    ],
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a candidatura",
+    "en": "application",
+    "zhHans": "申请",
+    "zhHant": "申請/求職申請",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Saiu o resultado das candidaturas.",
+    "exampleEn": "The application results have been released.",
+    "exampleZhHans": "申请结果出来了。",
+    "exampleZhHant": "申請結果出來了。"
+  },
+  {
+    "id": "az-0537",
+    "legacyIds": [
+      "m11-tradutor"
+    ],
+    "situacao": "reconhecimento_diplomas",
+    "pt": "tradutor(a)",
+    "en": "translator",
+    "zhHans": "翻译者",
+    "zhHant": "翻譯者",
+    "examplePt": "Há uma vaga de tradutor.",
+    "exampleEn": "There is a translator vacancy.",
+    "exampleZhHans": "有一个译员职位空缺。",
+    "exampleZhHant": "有一個譯員職位空缺。"
+  },
+  {
+    "id": "az-0577",
+    "legacyIds": [
+      "m12-requerimento"
+    ],
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o requerimento",
+    "en": "application form",
+    "zhHans": "申请表",
+    "zhHant": "申請表",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Deve juntar documentos ao requerimento.",
+    "exampleEn": "You must attach documents to the application form.",
+    "exampleZhHans": "应把文件附在申请表上。",
+    "exampleZhHant": "應把文件附在申請表上。"
+  },
+  {
+    "id": "az-0578",
+    "legacyIds": [
+      "m12-certificado"
+    ],
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o certificado",
+    "en": "certificate",
+    "zhHans": "证书",
+    "zhHant": "證書",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
+    "exampleEn": "You have to present a Portuguese Language Certificate.",
+    "exampleZhHans": "必须提交一份葡萄牙语证书。",
+    "exampleZhHant": "必須提交一份葡萄牙語證書。"
+  },
+  {
+    "id": "az-0579",
+    "legacyIds": [
+      "m12-preencher"
+    ],
+    "situacao": "reconhecimento_diplomas",
+    "pt": "preencher",
+    "en": "to fill in",
+    "zhHans": "填写",
+    "zhHant": "填寫",
+    "examplePt": "Basta preencher o requerimento.",
+    "exampleEn": "It is enough to fill in the application form.",
+    "exampleZhHans": "只需填写申请表。",
+    "exampleZhHant": "只需填寫申請表。"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a certidão",
+    "en": "certificate / official copy",
+    "zhHans": "证明书／正式副本",
+    "zhHant": "證明書／正式副本",
+    "id": "az-0644",
+    "legacyIds": [
+      "situacao-a-certidao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "pagar uma taxa",
+    "en": "to pay a fee",
+    "zhHans": "缴納费用",
+    "zhHant": "繳納費用",
+    "id": "az-0646",
+    "legacyIds": [
+      "situacao-pagar-uma-taxa"
+    ]
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o certificado de habilitações",
+    "en": "qualifications certificate",
+    "zhHans": "学历证明",
+    "zhHant": "學歷證明",
+    "id": "az-0694",
+    "legacyIds": [
+      "situacao-o-certificado-de-habilitacoes"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a Chave Móvel Digital (CMD)",
+    "en": "Digital Mobile Key (gov. login)",
+    "zhHans": "数字移动密钥（政府通用登录）",
+    "zhHant": "數字移動密鑰（政府通用登錄）",
+    "note": "One login for Finanças, SS, SNS portals",
+    "id": "az-0824",
+    "legacyIds": [
+      "situacao-a-chave-movel-digital-cmd"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o certificado digital",
+    "en": "digital certificate",
+    "zhHans": "数字证书",
+    "zhHant": "數字證書",
+    "id": "az-0825",
+    "legacyIds": [
+      "situacao-o-certificado-digital"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a fotocópia autenticada",
+    "en": "certified photocopy",
+    "zhHans": "认证副本",
+    "zhHant": "認證副本",
+    "id": "az-0851",
+    "legacyIds": [
+      "situacao-a-fotocopia-autenticada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o reconhecimento de assinatura",
+    "en": "signature certification",
+    "zhHans": "签名认证",
+    "zhHant": "簽名認證",
+    "id": "az-0852",
+    "legacyIds": [
+      "situacao-o-reconhecimento-de-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o formulário",
+    "en": "form",
+    "zhHans": "表格",
+    "zhHant": "表格",
+    "id": "az-0862",
+    "legacyIds": [
+      "situacao-o-formulario"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "assinar",
+    "en": "to sign",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0863",
+    "legacyIds": [
+      "situacao-assinar"
+    ]
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o comprovativo de pagamento",
+    "en": "proof of payment",
+    "zhHans": "缴费憑证",
+    "zhHant": "繳費憑證",
+    "id": "az-0864",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a apostila (de Haia)",
+    "en": "(Hague) apostille",
+    "zhHans": "海牙认证",
+    "zhHant": "海牙認證",
+    "note": "Foreign documents must be apostilled",
+    "id": "az-0887",
+    "legacyIds": [
+      "situacao-a-apostila-de-haia"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a tradução certificada",
+    "en": "certified translation",
+    "zhHans": "认证翻译",
+    "zhHant": "認證翻譯",
+    "id": "az-0888",
+    "legacyIds": [
+      "situacao-a-traducao-certificada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o número de processo",
+    "en": "case number",
+    "zhHans": "案件編号",
+    "zhHant": "案件編號",
+    "id": "az-0894",
+    "legacyIds": [
+      "situacao-o-numero-de-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o estado do processo",
+    "en": "case status",
+    "zhHans": "案件状态",
+    "zhHant": "案件狀態",
+    "id": "az-0895",
+    "legacyIds": [
+      "situacao-o-estado-do-processo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a notificação",
+    "en": "official notification",
+    "zhHans": "官方通知",
+    "zhHant": "官方通知",
+    "id": "az-0896",
+    "legacyIds": [
+      "situacao-a-notificacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "em análise",
+    "en": "under review",
+    "zhHans": "审核中",
+    "zhHant": "審核中",
+    "id": "az-0897",
+    "legacyIds": [
+      "situacao-em-analise"
+    ]
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "deferido / indeferido",
+    "en": "approved / rejected",
+    "zhHans": "获批／被拒",
+    "zhHant": "獲批／被拒",
+    "id": "az-0898",
+    "legacyIds": [
+      "situacao-deferido-indeferido"
+    ]
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "a equivalência de estudos",
+    "en": "recognition of foreign studies",
+    "zhHans": "学历同等认证",
+    "zhHant": "學歷同等認證",
+    "note": "For children schooled abroad",
+    "id": "az-0921",
+    "legacyIds": [
+      "situacao-a-equivalencia-de-estudos"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "reconhecimento_diplomas",
+    "pt": "o certificado de formação",
+    "en": "training certificate",
+    "zhHans": "培训证书",
+    "zhHant": "培訓證書",
+    "id": "az-0943",
+    "legacyIds": [
+      "situacao-o-certificado-de-formacao"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "id": "az-0239",
+    "legacyIds": [
+      "m5-passaporte"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o passaporte",
+    "en": "passport",
+    "zhHans": "护照",
+    "zhHant": "護照",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Deve levar o passaporte.",
+    "exampleEn": "You should take the passport.",
+    "exampleZhHans": "您应该带上护照。",
+    "exampleZhHant": "您應該帶上護照。"
+  },
+  {
+    "id": "az-0240",
+    "legacyIds": [
+      "m5-registo-criminal"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o registo criminal",
+    "en": "criminal record",
+    "zhHans": "犯罪记录",
+    "zhHant": "犯罪記錄",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Preciso de autorização para consulta do registo criminal.",
+    "exampleEn": "I need authorisation to consult the criminal record.",
+    "exampleZhHans": "我需要授权查询犯罪记录。",
+    "exampleZhHant": "我需要授權查詢犯罪紀錄。"
+  },
+  {
+    "id": "az-0509",
+    "legacyIds": [
+      "m11-email"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o e-mail",
+    "en": "email",
+    "zhHans": "电子邮件",
+    "zhHant": "電子郵件",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Enviei o currículo por e-mail.",
+    "exampleEn": "I sent the resume by email.",
+    "exampleZhHans": "我通过电子邮件发送了简历。",
+    "exampleZhHant": "我透過電子郵件寄出了履歷。"
+  },
+  {
+    "id": "az-0510",
+    "legacyIds": [
+      "m11-exmo-senhor"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "Ex.mo Senhor",
+    "en": "Dear Sir",
+    "zhHans": "尊敬的先生",
+    "zhHant": "尊敬的先生",
+    "examplePt": "Ex.mo Senhor, solicito uma informação.",
+    "exampleEn": "Dear Sir, I am requesting information.",
+    "exampleZhHans": "尊敬的先生，我想咨询一项信息。",
+    "exampleZhHant": "尊敬的先生，我想諮詢一項資訊。"
+  },
+  {
+    "id": "az-0520",
+    "legacyIds": [
+      "m11-anexo"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o anexo",
+    "en": "attachment; enclosure",
+    "zhHans": "附件/附录",
+    "zhHant": "附件/附錄",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Anexo: Currículo.",
+    "exampleEn": "Attachment: Resume.",
+    "exampleZhHans": "附件：简历。",
+    "exampleZhHant": "附件：履歷。"
+  },
+  {
+    "id": "az-0521",
+    "legacyIds": [
+      "m11-assunto"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o assunto",
+    "en": "subject",
+    "zhHans": "主题",
+    "zhHant": "主題",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Assunto: Reclamação por roupa estragada.",
+    "exampleEn": "Subject: Complaint about damaged clothing.",
+    "exampleZhHans": "主题：关于衣物损坏的投诉。",
+    "exampleZhHant": "主旨：關於衣物損壞的投訴。"
+  },
+  {
+    "id": "az-0542",
+    "legacyIds": [
+      "m11-destinatario"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o destinatário",
+    "en": "recipient",
+    "zhHans": "接受者",
+    "zhHant": "接受者",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Não conhecemos o destinatário.",
+    "exampleEn": "We do not know the recipient.",
+    "exampleZhHans": "我们不认识收件人。",
+    "exampleZhHant": "我們不認識收件人。"
+  },
+  {
+    "id": "az-0577",
+    "legacyIds": [
+      "m12-requerimento"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o requerimento",
+    "en": "application form",
+    "zhHans": "申请表",
+    "zhHant": "申請表",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Deve juntar documentos ao requerimento.",
+    "exampleEn": "You must attach documents to the application form.",
+    "exampleZhHans": "应把文件附在申请表上。",
+    "exampleZhHant": "應把文件附在申請表上。"
+  },
+  {
+    "id": "az-0578",
+    "legacyIds": [
+      "m12-certificado"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "o certificado",
+    "en": "certificate",
+    "zhHans": "证书",
+    "zhHant": "證書",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Tem de apresentar um Certificado de Língua Portuguesa.",
+    "exampleEn": "You have to present a Portuguese Language Certificate.",
+    "exampleZhHans": "必须提交一份葡萄牙语证书。",
+    "exampleZhHant": "必須提交一份葡萄牙語證書。"
+  },
+  {
+    "id": "az-0579",
+    "legacyIds": [
+      "m12-preencher"
+    ],
+    "situacao": "consulado_documentos",
+    "pt": "preencher",
+    "en": "to fill in",
+    "zhHans": "填写",
+    "zhHant": "填寫",
+    "examplePt": "Basta preencher o requerimento.",
+    "exampleEn": "It is enough to fill in the application form.",
+    "exampleZhHans": "只需填写申请表。",
+    "exampleZhHant": "只需填寫申請表。"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a certidão de residência fiscal",
+    "en": "certificate of tax residency",
+    "zhHans": "税务居民证明",
+    "zhHant": "稅務居民證明",
+    "id": "az-0625",
+    "legacyIds": [
+      "situacao-a-certidao-de-residencia-fiscal"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a certidão",
+    "en": "certificate / official copy",
+    "zhHans": "证明书／正式副本",
+    "zhHant": "證明書／正式副本",
+    "id": "az-0644",
+    "legacyIds": [
+      "situacao-a-certidao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "o carimbo",
+    "en": "official stamp",
+    "zhHans": "公章",
+    "zhHant": "公章",
+    "id": "az-0645",
+    "legacyIds": [
+      "situacao-o-carimbo"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "pagar uma taxa",
+    "en": "to pay a fee",
+    "zhHans": "缴納费用",
+    "zhHant": "繳納費用",
+    "id": "az-0646",
+    "legacyIds": [
+      "situacao-pagar-uma-taxa"
+    ]
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a assinatura",
+    "en": "signature",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0802",
+    "legacyIds": [
+      "situacao-a-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a fotocópia autenticada",
+    "en": "certified photocopy",
+    "zhHans": "认证副本",
+    "zhHant": "認證副本",
+    "id": "az-0851",
+    "legacyIds": [
+      "situacao-a-fotocopia-autenticada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "o reconhecimento de assinatura",
+    "en": "signature certification",
+    "zhHans": "签名认证",
+    "zhHant": "簽名認證",
+    "id": "az-0852",
+    "legacyIds": [
+      "situacao-o-reconhecimento-de-assinatura"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a declaração",
+    "en": "declaration / statement",
+    "zhHans": "声明书",
+    "zhHant": "聲明書",
+    "id": "az-0857",
+    "legacyIds": [
+      "situacao-a-declaracao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "o formulário",
+    "en": "form",
+    "zhHans": "表格",
+    "zhHant": "表格",
+    "id": "az-0862",
+    "legacyIds": [
+      "situacao-o-formulario"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "assinar",
+    "en": "to sign",
+    "zhHans": "签名",
+    "zhHant": "簽名",
+    "id": "az-0863",
+    "legacyIds": [
+      "situacao-assinar"
+    ]
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "o comprovativo de pagamento",
+    "en": "proof of payment",
+    "zhHans": "缴费憑证",
+    "zhHant": "繳費憑證",
+    "id": "az-0864",
+    "legacyIds": [
+      "situacao-o-comprovativo-de-pagamento"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "levantar o documento",
+    "en": "to collect the document",
+    "zhHans": "领取文件",
+    "zhHant": "領取文件",
+    "id": "az-0865",
+    "legacyIds": [
+      "situacao-levantar-o-documento"
+    ]
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a apostila (de Haia)",
+    "en": "(Hague) apostille",
+    "zhHans": "海牙认证",
+    "zhHant": "海牙認證",
+    "note": "Foreign documents must be apostilled",
+    "id": "az-0887",
+    "legacyIds": [
+      "situacao-a-apostila-de-haia"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a tradução certificada",
+    "en": "certified translation",
+    "zhHans": "认证翻译",
+    "zhHant": "認證翻譯",
+    "id": "az-0888",
+    "legacyIds": [
+      "situacao-a-traducao-certificada"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a certidão de nascimento",
+    "en": "birth certificate",
+    "zhHans": "出生证明",
+    "zhHant": "出生證明",
+    "id": "az-0889",
+    "legacyIds": [
+      "situacao-a-certidao-de-nascimento"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "o registo criminal do país de origem",
+    "en": "criminal record from home country",
+    "zhHans": "原籍國无犯罪记录",
+    "zhHant": "原籍國無犯罪記錄",
+    "id": "az-0890",
+    "legacyIds": [
+      "situacao-o-registo-criminal-do-pais-de-origem"
+    ],
+    "pos": "noun",
+    "gender": "m"
+  },
+  {
+    "situacao": "consulado_documentos",
+    "pt": "a notificação",
+    "en": "official notification",
+    "zhHans": "官方通知",
+    "zhHant": "官方通知",
+    "id": "az-0896",
+    "legacyIds": [
+      "situacao-a-notificacao"
+    ],
+    "pos": "noun",
+    "gender": "f"
+  },
+  {
+    "id": "az-1321",
+    "legacyIds": [
+      "situacao-o-imt"
+    ],
+    "pt": "o IMT",
+    "en": "Institute for Mobility and Transport (IMT)",
+    "zhHans": "交通与运输局（IMT）",
+    "zhHant": "交通及運輸局（IMT）",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O pedido foi enviado ao IMT.",
+    "exampleEn": "The application was sent to the IMT.",
+    "exampleZhHans": "申请已提交给IMT。",
+    "exampleZhHant": "申請已提交給IMT。",
+    "situacao": "imt_carta_conducao"
+  },
+  {
+    "id": "az-1322",
+    "legacyIds": [
+      "situacao-trocar-a-carta-de-conducao"
+    ],
+    "pt": "trocar a carta de condução",
+    "en": "to exchange a driving licence",
+    "zhHans": "换领驾驶证",
+    "zhHant": "換領駕駛執照",
+    "examplePt": "Quero trocar a minha carta estrangeira.",
+    "exampleEn": "I want to exchange my foreign licence.",
+    "exampleZhHans": "我想换领外国驾驶证。",
+    "exampleZhHant": "我想換領外國駕駛執照。",
+    "situacao": "imt_carta_conducao"
+  },
+  {
+    "id": "az-1323",
+    "legacyIds": [
+      "situacao-o-atestado-medico-eletronico"
+    ],
+    "pt": "o atestado médico eletrónico",
+    "en": "electronic medical certificate",
+    "zhHans": "电子健康证明",
+    "zhHant": "電子健康證明",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O médico enviou o atestado eletrónico ao IMT.",
+    "exampleEn": "The doctor sent the electronic certificate to the IMT.",
+    "exampleZhHans": "医生已将电子健康证明发送给IMT。",
+    "exampleZhHant": "醫生已將電子健康證明傳送給IMT。",
+    "situacao": "imt_carta_conducao"
+  },
+  {
+    "id": "az-1324",
+    "legacyIds": [
+      "situacao-a-conservatoria"
+    ],
+    "pt": "a conservatória",
+    "en": "registry office",
+    "zhHans": "登记处",
+    "zhHant": "登記處",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A certidão pode ser pedida na conservatória.",
+    "exampleEn": "The certificate can be requested at the registry office.",
+    "exampleZhHans": "可以在登记处申请证明。",
+    "exampleZhHant": "可以在登記處申請證明。",
+    "situacao": "conservatoria_registo_civil"
+  },
+  {
+    "id": "az-1325",
+    "legacyIds": [
+      "situacao-o-registo-civil"
+    ],
+    "pt": "o registo civil",
+    "en": "civil registry",
+    "zhHans": "民事登记",
+    "zhHant": "民事登記",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O casamento consta do registo civil.",
+    "exampleEn": "The marriage is recorded in the civil registry.",
+    "exampleZhHans": "婚姻已登记在民事登记册中。",
+    "exampleZhHant": "婚姻已登記在民事登記冊中。",
+    "situacao": "conservatoria_registo_civil"
+  },
+  {
+    "id": "az-1326",
+    "legacyIds": [
+      "situacao-a-certidao-de-casamento"
+    ],
+    "pt": "a certidão de casamento",
+    "en": "marriage certificate",
+    "zhHans": "结婚证明",
+    "zhHant": "結婚證明書",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Preciso de uma certidão de casamento recente.",
+    "exampleEn": "I need a recent marriage certificate.",
+    "exampleZhHans": "我需要一份近期的结婚证明。",
+    "exampleZhHant": "我需要一份近期的結婚證明書。",
+    "situacao": "conservatoria_registo_civil"
+  },
+  {
+    "id": "az-1327",
+    "legacyIds": [
+      "situacao-a-transcricao-do-casamento"
+    ],
+    "pt": "a transcrição do casamento",
+    "en": "registration of a foreign marriage",
+    "zhHans": "境外婚姻转录登记",
+    "zhHant": "海外婚姻轉錄登記",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Pedi a transcrição do casamento celebrado no estrangeiro.",
+    "exampleEn": "I requested registration of the marriage celebrated abroad.",
+    "exampleZhHans": "我申请了境外婚姻转录登记。",
+    "exampleZhHant": "我申請了海外婚姻轉錄登記。",
+    "situacao": "conservatoria_registo_civil"
+  },
+  {
+    "id": "az-1328",
+    "legacyIds": [
+      "situacao-o-municipio"
+    ],
+    "pt": "o município",
+    "en": "municipality",
+    "zhHans": "市镇",
+    "zhHant": "市鎮",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O serviço é gerido pelo município.",
+    "exampleEn": "The service is managed by the municipality.",
+    "exampleZhHans": "该服务由市镇管理。",
+    "exampleZhHant": "該服務由市鎮管理。",
+    "situacao": "camara_municipal"
+  },
+  {
+    "id": "az-1329",
+    "legacyIds": [
+      "situacao-o-distico-de-residente"
+    ],
+    "pt": "o dístico de residente",
+    "en": "resident parking permit",
+    "zhHans": "居民停车证",
+    "zhHant": "居民泊車證",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Pedi o dístico de residente para esta zona.",
+    "exampleEn": "I applied for a resident parking permit for this area.",
+    "exampleZhHans": "我申请了这个区域的居民停车证。",
+    "exampleZhHant": "我申請了這個區域的居民泊車證。",
+    "situacao": "camara_municipal"
+  },
+  {
+    "id": "az-1330",
+    "legacyIds": [
+      "situacao-os-monos"
+    ],
+    "pt": "os monos",
+    "en": "bulky household waste",
+    "zhHans": "大件垃圾",
+    "zhHant": "大型家居廢物",
+    "pos": "noun",
+    "gender": "m-pl",
+    "examplePt": "A Câmara recolhe os monos mediante marcação.",
+    "exampleEn": "The council collects bulky waste by appointment.",
+    "exampleZhHans": "市政府预约上门收取大件垃圾。",
+    "exampleZhHant": "市政府預約上門收取大型家居廢物。",
+    "situacao": "camara_municipal"
+  },
+  {
+    "id": "az-1331",
+    "legacyIds": [
+      "situacao-o-reconhecimento-automatico"
+    ],
+    "pt": "o reconhecimento automático",
+    "en": "automatic recognition",
+    "zhHans": "自动认可",
+    "zhHant": "自動認可",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "O meu diploma permite reconhecimento automático.",
+    "exampleEn": "My diploma is eligible for automatic recognition.",
+    "exampleZhHans": "我的文凭符合自动认可条件。",
+    "exampleZhHant": "我的文憑符合自動認可條件。",
+    "situacao": "reconhecimento_diplomas"
+  },
+  {
+    "id": "az-1332",
+    "legacyIds": [
+      "situacao-o-reconhecimento-de-nivel"
+    ],
+    "pt": "o reconhecimento de nível",
+    "en": "level recognition",
+    "zhHans": "等级认可",
+    "zhHant": "級別認可",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Pedi o reconhecimento de nível de mestre.",
+    "exampleEn": "I requested recognition at master's level.",
+    "exampleZhHans": "我申请了硕士等级认可。",
+    "exampleZhHant": "我申請了碩士級別認可。",
+    "situacao": "reconhecimento_diplomas"
+  },
+  {
+    "id": "az-1333",
+    "legacyIds": [
+      "situacao-o-reconhecimento-especifico"
+    ],
+    "pt": "o reconhecimento específico",
+    "en": "specific recognition",
+    "zhHans": "专业认可",
+    "zhHant": "特定認可",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "A profissão exige reconhecimento específico.",
+    "exampleEn": "The profession requires specific recognition.",
+    "exampleZhHans": "该职业要求专业认可。",
+    "exampleZhHant": "該職業要求特定認可。",
+    "situacao": "reconhecimento_diplomas"
+  },
+  {
+    "id": "az-1334",
+    "legacyIds": [
+      "situacao-o-certificado-de-disciplinas"
+    ],
+    "pt": "o certificado de disciplinas",
+    "en": "academic transcript",
+    "zhHans": "成绩单",
+    "zhHant": "成績單",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Anexei o certificado de disciplinas ao pedido.",
+    "exampleEn": "I attached the academic transcript to the application.",
+    "exampleZhHans": "我在申请中附上了成绩单。",
+    "exampleZhHant": "我在申請中附上了成績單。",
+    "situacao": "reconhecimento_diplomas"
+  },
+  {
+    "id": "az-1335",
+    "legacyIds": [
+      "situacao-o-consulado"
+    ],
+    "pt": "o consulado",
+    "en": "consulate",
+    "zhHans": "领事馆",
+    "zhHant": "領事館",
+    "pos": "noun",
+    "gender": "m",
+    "examplePt": "Marquei atendimento no consulado.",
+    "exampleEn": "I booked an appointment at the consulate.",
+    "exampleZhHans": "我预约了领事馆服务。",
+    "exampleZhHant": "我預約了領事館服務。",
+    "situacao": "consulado_documentos"
+  },
+  {
+    "id": "az-1336",
+    "legacyIds": [
+      "situacao-a-embaixada"
+    ],
+    "pt": "a embaixada",
+    "en": "embassy",
+    "zhHans": "大使馆",
+    "zhHant": "大使館",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "A embaixada confirmou a informação.",
+    "exampleEn": "The embassy confirmed the information.",
+    "exampleZhHans": "大使馆确认了信息。",
+    "exampleZhHant": "大使館確認了資料。",
+    "situacao": "consulado_documentos"
+  },
+  {
+    "id": "az-1337",
+    "legacyIds": [
+      "situacao-a-procuracao"
+    ],
+    "pt": "a procuração",
+    "en": "power of attorney",
+    "zhHans": "授权委托书",
+    "zhHant": "授權書",
+    "pos": "noun",
+    "gender": "f",
+    "examplePt": "Assinei uma procuração para tratar do processo.",
+    "exampleEn": "I signed a power of attorney for someone to handle the case.",
+    "exampleZhHans": "我签署了授权委托书代办手续。",
+    "exampleZhHant": "我簽署了授權書代辦手續。",
+    "situacao": "consulado_documentos"
   }
 ];
 
@@ -13712,6 +20003,1182 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "en": "If you're no better in three days, see a doctor.",
     "zhHans": "三天没好就去看医生。",
     "zhHant": "三天沒好就去看醫生。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-bom-dia-onde-encontro-o-leite-sem-lactose",
+    "situacao": "supermercado_mercado",
+    "order": 403,
+    "pt": "Bom dia. Onde encontro o leite sem lactose?",
+    "en": "Good morning. Where can I find lactose-free milk?",
+    "zhHans": "早上好。无乳糖牛奶在哪里？",
+    "zhHant": "早晨。無乳糖牛奶在哪裡？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-fica-no-corredor-seis-ao-lado-dos-iogurtes",
+    "situacao": "supermercado_mercado",
+    "order": 404,
+    "pt": "Fica no corredor seis, ao lado dos iogurtes.",
+    "en": "It's in aisle six, next to the yoghurts.",
+    "zhHans": "在六号通道，酸奶旁边。",
+    "zhHant": "在六號通道，乳酪旁邊。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-e-este-tomate-e-vendido-ao-quilo",
+    "situacao": "supermercado_mercado",
+    "order": 405,
+    "pt": "E estes tomates vendem-se ao quilo?",
+    "en": "And are these tomatoes sold by the kilo?",
+    "zhHans": "这些西红柿按公斤卖吗？",
+    "zhHant": "這些番茄按公斤賣嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-sim-tem-de-o-pesar-antes-de-ir-para-a-caixa",
+    "situacao": "supermercado_mercado",
+    "order": 406,
+    "pt": "Sim. Tem de os pesar antes de ir para a caixa.",
+    "en": "Yes. You need to weigh them before going to the checkout.",
+    "zhHans": "是的，结账前需要先称重。",
+    "zhHant": "是的，付款前需要先磅重。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-este-produto-esta-em-promocao",
+    "situacao": "supermercado_mercado",
+    "order": 407,
+    "pt": "Este produto está em promoção?",
+    "en": "Is this product on special offer?",
+    "zhHans": "这个商品在促销吗？",
+    "zhHant": "這件商品有促銷嗎？"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-sim-mas-so-com-o-cartao-da-loja",
+    "situacao": "supermercado_mercado",
+    "order": 408,
+    "pt": "Sim, mas só com o cartão da loja.",
+    "en": "Yes, but only with the store card.",
+    "zhHans": "是的，但仅限使用会员卡。",
+    "zhHant": "是的，但只限使用會員卡。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-queria-fatura-com-numero-de-contribuinte-por-favor",
+    "situacao": "supermercado_mercado",
+    "order": 409,
+    "pt": "Queria fatura com NIF, por favor.",
+    "en": "I'd like a receipt with my NIF, please.",
+    "zhHans": "请在发票上填写我的税号。",
+    "zhHant": "請在發票上填寫我的稅號。"
+  },
+  {
+    "id": "dialogo-supermercado_mercado-claro-pode-indicar-o-nif",
+    "situacao": "supermercado_mercado",
+    "order": 410,
+    "pt": "Claro. Pode indicar o NIF?",
+    "en": "Of course. Can you give me the NIF?",
+    "zhHans": "当然，请告诉我税号。",
+    "zhHant": "當然，請告訴我稅號。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-boa-tarde-tem-mesa-para-duas-pessoas",
+    "situacao": "cafe_restaurante",
+    "order": 411,
+    "pt": "Boa tarde. Tem mesa para duas pessoas?",
+    "en": "Good afternoon. Do you have a table for two?",
+    "zhHans": "下午好。有两个人的桌位吗？",
+    "zhHant": "午安。有兩個人的座位嗎？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-tenho-uma-mesa-la-dentro-ou-outra-na-esplanada",
+    "situacao": "cafe_restaurante",
+    "order": 412,
+    "pt": "Temos uma mesa lá dentro e outra na esplanada.",
+    "en": "We have one table inside and another on the terrace.",
+    "zhHans": "里面和露台各有一张桌子。",
+    "zhHant": "室內和露台各有一張桌子。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-preferimos-a-esplanada-qual-e-o-prato-do-dia",
+    "situacao": "cafe_restaurante",
+    "order": 413,
+    "pt": "Preferimos a esplanada. Qual é o prato do dia?",
+    "en": "We prefer the terrace. What's today's special?",
+    "zhHans": "我们想坐露台。今日特餐是什么？",
+    "zhHant": "我們想坐露台。今日特餐是甚麼？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-e-peixe-grelhado-com-arroz-e-salada",
+    "situacao": "cafe_restaurante",
+    "order": 414,
+    "pt": "É peixe grelhado com arroz e salada.",
+    "en": "It's grilled fish with rice and salad.",
+    "zhHans": "是烤鱼配米饭和沙拉。",
+    "zhHant": "是烤魚配飯和沙律。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-este-prato-contem-frutos-secos-tenho-alergia",
+    "situacao": "cafe_restaurante",
+    "order": 415,
+    "pt": "Este prato contém frutos secos? Tenho alergia.",
+    "en": "Does this dish contain nuts? I have an allergy.",
+    "zhHans": "这道菜含坚果吗？我过敏。",
+    "zhHant": "這道菜含果仁嗎？我有敏感。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-nao-contem-mas-vou-confirmar-com-a-cozinha",
+    "situacao": "cafe_restaurante",
+    "order": 416,
+    "pt": "Não contém, mas vou confirmar com a cozinha.",
+    "en": "It doesn't, but I'll confirm with the kitchen.",
+    "zhHans": "不含，但我会向厨房确认。",
+    "zhHant": "不含，但我會向廚房確認。"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-podemos-pagar-em-separado",
+    "situacao": "cafe_restaurante",
+    "order": 417,
+    "pt": "Podemos pagar em separado?",
+    "en": "Can we pay separately?",
+    "zhHans": "我们可以分开付款吗？",
+    "zhHant": "我們可以分開付款嗎？"
+  },
+  {
+    "id": "dialogo-cafe_restaurante-sim-querem-pagar-com-cartao-ou-em-dinheiro",
+    "situacao": "cafe_restaurante",
+    "order": 418,
+    "pt": "Sim. Querem pagar com cartão ou em dinheiro?",
+    "en": "Yes. Would you like to pay by card or cash?",
+    "zhHans": "可以。刷卡还是现金？",
+    "zhHant": "可以。用卡還是現金？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-bom-dia-o-que-o-traz-ca-hoje",
+    "situacao": "consultorio_medico",
+    "order": 419,
+    "pt": "Bom dia. O que o traz cá hoje?",
+    "en": "Good morning. What brings you in today?",
+    "zhHans": "早上好。今天哪里不舒服？",
+    "zhHant": "早晨。今天哪裡不舒服？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-tenho-uma-dor-no-peito-desde-ontem",
+    "situacao": "consultorio_medico",
+    "order": 420,
+    "pt": "Tenho uma dor no peito desde ontem.",
+    "en": "I've had chest pain since yesterday.",
+    "zhHans": "我从昨天起胸痛。",
+    "zhHant": "我從昨天起胸口痛。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-a-dor-e-constante-ou-vai-e-vem",
+    "situacao": "consultorio_medico",
+    "order": 421,
+    "pt": "A dor é constante ou vai e vem?",
+    "en": "Is the pain constant, or does it come and go?",
+    "zhHans": "疼痛是持续的还是间歇的？",
+    "zhHant": "疼痛是持續的還是間歇的？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-vai-e-vem-e-piora-quando-respiro-fundo",
+    "situacao": "consultorio_medico",
+    "order": 422,
+    "pt": "Vai e vem e piora quando respiro fundo.",
+    "en": "It comes and goes and gets worse when I breathe deeply.",
+    "zhHans": "时有时无，深呼吸时更痛。",
+    "zhHant": "時有時無，深呼吸時更痛。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-tem-febre-tosse-ou-falta-de-ar",
+    "situacao": "consultorio_medico",
+    "order": 423,
+    "pt": "Tem febre, tosse ou falta de ar?",
+    "en": "Do you have a fever, cough, or shortness of breath?",
+    "zhHans": "有发烧、咳嗽或呼吸困难吗？",
+    "zhHant": "有發燒、咳嗽或呼吸困難嗎？"
+  },
+  {
+    "id": "dialogo-consultorio_medico-tenho-tosse-mas-nao-tenho-febre",
+    "situacao": "consultorio_medico",
+    "order": 424,
+    "pt": "Tenho tosse, mas não tenho febre.",
+    "en": "I have a cough, but no fever.",
+    "zhHans": "我咳嗽，但没有发烧。",
+    "zhHant": "我咳嗽，但沒有發燒。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-vou-examina-lo-e-pedir-uma-radiografia",
+    "situacao": "consultorio_medico",
+    "order": 425,
+    "pt": "Vou examiná-lo e pedir uma radiografia.",
+    "en": "I'm going to examine you and request an X-ray.",
+    "zhHans": "我会为您检查并安排X光。",
+    "zhHant": "我會為您檢查並安排X光。"
+  },
+  {
+    "id": "dialogo-consultorio_medico-quando-devo-voltar-para-mostrar-o-resultado",
+    "situacao": "consultorio_medico",
+    "order": 426,
+    "pt": "Quando devo voltar para mostrar o resultado?",
+    "en": "When should I come back to show you the result?",
+    "zhHans": "我什么时候回来给您看结果？",
+    "zhHant": "我甚麼時候回來給您看結果？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-bom-dia-estou-a-ligar-por-causa-de-uma-avaria-em-casa",
+    "situacao": "casa_reparacoes",
+    "order": 427,
+    "pt": "Bom dia. Estou a ligar por causa de uma avaria em casa.",
+    "en": "Good morning. I'm calling about a fault at home.",
+    "zhHans": "早上好。我打电话是因为家里出了故障。",
+    "zhHant": "早晨。我致電是因為家裡出了故障。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-pode-explicar-o-que-aconteceu",
+    "situacao": "casa_reparacoes",
+    "order": 428,
+    "pt": "Pode explicar o que aconteceu?",
+    "en": "Can you explain what happened?",
+    "zhHans": "可以说明发生了什么吗？",
+    "zhHant": "可以說明發生了甚麼嗎？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-ha-uma-fuga-de-agua-debaixo-do-lava-loica",
+    "situacao": "casa_reparacoes",
+    "order": 429,
+    "pt": "Há uma fuga de água debaixo do lava-loiça.",
+    "en": "There's a water leak under the kitchen sink.",
+    "zhHans": "厨房水槽下面漏水。",
+    "zhHant": "廚房洗手盆下面漏水。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-ja-fechou-a-torneira-de-seguranca",
+    "situacao": "casa_reparacoes",
+    "order": 430,
+    "pt": "Já fechou a torneira de corte?",
+    "en": "Have you turned off the stopcock?",
+    "zhHans": "您已经关掉总水阀了吗？",
+    "zhHant": "您已經關掉總水掣了嗎？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-sim-mas-agora-nao-temos-agua-em-casa",
+    "situacao": "casa_reparacoes",
+    "order": 431,
+    "pt": "Sim, mas agora não temos água em casa.",
+    "en": "Yes, but now we have no water at home.",
+    "zhHans": "关了，但现在家里没水。",
+    "zhHant": "關了，但現在家裡沒有水。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-o-canalizador-pode-ir-ai-entre-as-duas-e-as-quatro",
+    "situacao": "casa_reparacoes",
+    "order": 432,
+    "pt": "O canalizador pode ir aí entre as duas e as quatro.",
+    "en": "The plumber can go there between two and four.",
+    "zhHans": "水管工可以在两点到四点之间到。",
+    "zhHant": "水喉匠可以在兩點至四點之間到。"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-pode-enviar-me-primeiro-o-orcamento",
+    "situacao": "casa_reparacoes",
+    "order": 433,
+    "pt": "Pode enviar-me primeiro o orçamento?",
+    "en": "Can you send me the quote first?",
+    "zhHans": "可以先把报价发给我吗？",
+    "zhHant": "可以先把報價傳給我嗎？"
+  },
+  {
+    "id": "dialogo-casa_reparacoes-sim-ele-verifica-a-avaria-e-envia-lhe-o-valor",
+    "situacao": "casa_reparacoes",
+    "order": 434,
+    "pt": "Sim. Ele verifica a avaria e depois envia-lhe o orçamento.",
+    "en": "Yes. He'll inspect the fault and then send you the quote.",
+    "zhHans": "可以。他会检查故障，然后把报价发给您。",
+    "zhHant": "可以。他會檢查故障，然後把報價傳給您。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-boa-tarde-quero-por-o-contrato-da-eletricidade-em-meu-nome",
+    "situacao": "agua_luz_gas",
+    "order": 435,
+    "pt": "Boa tarde. Quero pôr o contrato da eletricidade em meu nome.",
+    "en": "Good afternoon. I want to put the electricity contract in my name.",
+    "zhHans": "下午好。我想把电力合同改成我的名字。",
+    "zhHant": "午安。我想把電力合約改成我的名字。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-tem-o-contrato-de-arrendamento-e-uma-leitura-do-contador",
+    "situacao": "agua_luz_gas",
+    "order": 436,
+    "pt": "Tem o contrato de arrendamento e uma leitura do contador?",
+    "en": "Do you have the tenancy agreement and a meter reading?",
+    "zhHans": "您有租赁合同和抄表数值吗？",
+    "zhHant": "您有租賃合約和抄錶數值嗎？"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-tenho-tambem-queria-aderir-ao-debito-direto",
+    "situacao": "agua_luz_gas",
+    "order": 437,
+    "pt": "Tenho. Também queria aderir ao débito direto.",
+    "en": "I do. I'd also like to set up direct debit.",
+    "zhHans": "有。我还想开通自动扣款。",
+    "zhHant": "有。我還想設定直接付款。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-preciso-do-seu-iban-e-documento-de-identificacao",
+    "situacao": "agua_luz_gas",
+    "order": 438,
+    "pt": "Preciso do seu IBAN e documento de identificação.",
+    "en": "I need your IBAN and identity document.",
+    "zhHans": "我需要您的IBAN和身份证件。",
+    "zhHant": "我需要您的IBAN和身份證明文件。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-qual-e-a-potencia-contratada-mais-indicada",
+    "situacao": "agua_luz_gas",
+    "order": 439,
+    "pt": "Qual é a potência contratada mais indicada?",
+    "en": "Which contracted power level is most suitable?",
+    "zhHans": "哪种合同电力容量最合适？",
+    "zhHant": "哪種合約電力容量最合適？"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-para-duas-pessoas-3-45-kva-costuma-ser-suficiente",
+    "situacao": "agua_luz_gas",
+    "order": 440,
+    "pt": "Para duas pessoas, 3,45 kVA costuma ser suficiente.",
+    "en": "For two people, 3.45 kVA is usually enough.",
+    "zhHans": "两个人通常3.45千伏安就够了。",
+    "zhHant": "兩個人通常3.45千伏安就夠了。"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-quando-comeca-o-fornecimento",
+    "situacao": "agua_luz_gas",
+    "order": 441,
+    "pt": "Quando começa o fornecimento?",
+    "en": "When does the supply start?",
+    "zhHans": "什么时候开始供电？",
+    "zhHant": "甚麼時候開始供電？"
+  },
+  {
+    "id": "dialogo-agua_luz_gas-se-nao-houver-problemas-fica-ativo-amanha",
+    "situacao": "agua_luz_gas",
+    "order": 442,
+    "pt": "Se não houver problemas, o contrato fica ativo amanhã.",
+    "en": "If there are no issues, the contract will be active tomorrow.",
+    "zhHans": "如果没有问题，合同明天就会生效。",
+    "zhHant": "如果沒有問題，合約明天就會生效。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-bom-dia-queria-internet-para-esta-morada",
+    "situacao": "telemovel_internet",
+    "order": 443,
+    "pt": "Bom dia. Queria internet para esta morada.",
+    "en": "Good morning. I'd like internet service at this address.",
+    "zhHans": "早上好。我想为这个地址办理网络。",
+    "zhHant": "早晨。我想為這個地址申請上網服務。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-vou-verificar-se-ha-cobertura-de-fibra",
+    "situacao": "telemovel_internet",
+    "order": 444,
+    "pt": "Vou verificar se há cobertura de fibra.",
+    "en": "I'll check whether fibre is available.",
+    "zhHans": "我来查看是否有光纤覆盖。",
+    "zhHant": "我來查看是否有光纖覆蓋。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-ha-fibra-o-tarifario-tem-fidelizacao",
+    "situacao": "telemovel_internet",
+    "order": 445,
+    "pt": "Há fibra. O tarifário tem fidelização?",
+    "en": "Fibre is available. Does the plan have a lock-in period?",
+    "zhHans": "有光纤。这个套餐有合约期吗？",
+    "zhHant": "有光纖。這個方案有綁約期嗎？"
+  },
+  {
+    "id": "dialogo-telemovel_internet-sim-durante-vinte-e-quatro-meses",
+    "situacao": "telemovel_internet",
+    "order": 446,
+    "pt": "Sim, durante vinte e quatro meses.",
+    "en": "Yes, for twenty-four months.",
+    "zhHans": "有，二十四个月。",
+    "zhHant": "有，二十四個月。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-e-quanto-tempo-demora-a-instalacao",
+    "situacao": "telemovel_internet",
+    "order": 447,
+    "pt": "E quanto tempo demora a instalação?",
+    "en": "And how long does installation take?",
+    "zhHans": "安装需要多长时间？",
+    "zhHant": "安裝需要多長時間？"
+  },
+  {
+    "id": "dialogo-telemovel_internet-o-tecnico-pode-ir-na-proxima-terca-feira-de-manha",
+    "situacao": "telemovel_internet",
+    "order": 448,
+    "pt": "O técnico pode ir na próxima terça-feira de manhã.",
+    "en": "The technician can go next Tuesday morning.",
+    "zhHans": "技术人员下周二上午可以上门。",
+    "zhHant": "技術人員下星期二上午可以上門。"
+  },
+  {
+    "id": "dialogo-telemovel_internet-preciso-de-ficar-em-casa-durante-toda-a-manha",
+    "situacao": "telemovel_internet",
+    "order": 449,
+    "pt": "Preciso de ficar em casa durante toda a manhã?",
+    "en": "Do I need to stay home all morning?",
+    "zhHans": "我需要整个上午都在家吗？",
+    "zhHant": "我需要整個上午都在家嗎？"
+  },
+  {
+    "id": "dialogo-telemovel_internet-ele-liga-cerca-de-meia-hora-antes-de-chegar",
+    "situacao": "telemovel_internet",
+    "order": 450,
+    "pt": "Ele liga cerca de meia hora antes de chegar.",
+    "en": "He'll call about half an hour before arriving.",
+    "zhHans": "他会在到达前约半小时打电话。",
+    "zhHant": "他會在到達前約半小時致電。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-boa-tarde-queria-trocar-estas-calcas",
+    "situacao": "trocas_devolucoes",
+    "order": 451,
+    "pt": "Boa tarde. Queria trocar estas calças.",
+    "en": "Good afternoon. I'd like to exchange these trousers.",
+    "zhHans": "下午好。我想换这条裤子。",
+    "zhHant": "午安。我想換這條褲子。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-tem-o-talao-e-a-etiqueta",
+    "situacao": "trocas_devolucoes",
+    "order": 452,
+    "pt": "Tem o talão e a etiqueta?",
+    "en": "Do you have the receipt and the tag?",
+    "zhHans": "您有收据和标签吗？",
+    "zhHant": "您有收據和標籤嗎？"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-sim-so-experimentei-em-casa-mas-ficam-apertadas",
+    "situacao": "trocas_devolucoes",
+    "order": 453,
+    "pt": "Sim. Só experimentei em casa, mas ficam apertadas.",
+    "en": "Yes. I only tried them on at home, but they're tight.",
+    "zhHans": "有。我只在家试穿过，但太紧了。",
+    "zhHant": "有。我只在家試穿過，但太緊了。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-quer-outro-tamanho-ou-prefere-o-reembolso",
+    "situacao": "trocas_devolucoes",
+    "order": 454,
+    "pt": "Quer outro tamanho ou prefere o reembolso?",
+    "en": "Would you like another size or a refund?",
+    "zhHans": "您想换尺码还是退款？",
+    "zhHant": "您想換尺碼還是退款？"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-queria-o-tamanho-acima-se-houver",
+    "situacao": "trocas_devolucoes",
+    "order": 455,
+    "pt": "Queria o tamanho acima, se houver.",
+    "en": "I'd like the next size up, if available.",
+    "zhHans": "如果有，我想要大一码。",
+    "zhHant": "如果有，我想要大一個尺碼。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-esse-tamanho-esta-esgotado-nesta-loja",
+    "situacao": "trocas_devolucoes",
+    "order": 456,
+    "pt": "Esse tamanho está esgotado nesta loja.",
+    "en": "That size is sold out in this shop.",
+    "zhHans": "这家店那个尺码售罄了。",
+    "zhHant": "這間店那個尺碼售罄了。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-entao-prefiro-receber-o-dinheiro-de-volta",
+    "situacao": "trocas_devolucoes",
+    "order": 457,
+    "pt": "Então prefiro receber o dinheiro de volta.",
+    "en": "Then I'd prefer to get my money back.",
+    "zhHans": "那我想退款。",
+    "zhHant": "那我想退款。"
+  },
+  {
+    "id": "dialogo-trocas_devolucoes-o-reembolso-sera-feito-para-o-mesmo-cartao",
+    "situacao": "trocas_devolucoes",
+    "order": 458,
+    "pt": "O reembolso será feito para o mesmo cartão.",
+    "en": "The refund will be made to the same card.",
+    "zhHans": "退款会退回原卡。",
+    "zhHant": "退款會退回原卡。"
+  },
+  {
+    "id": "dialogo-policia_documentos-boa-noite-quero-apresentar-uma-denuncia",
+    "situacao": "policia_documentos",
+    "order": 459,
+    "pt": "Boa noite. Quero apresentar uma denúncia.",
+    "en": "Good evening. I want to file a police report.",
+    "zhHans": "晚上好。我要报案。",
+    "zhHant": "晚上好。我要報案。"
+  },
+  {
+    "id": "dialogo-policia_documentos-o-que-aconteceu",
+    "situacao": "policia_documentos",
+    "order": 460,
+    "pt": "O que aconteceu?",
+    "en": "What happened?",
+    "zhHans": "发生了什么？",
+    "zhHant": "發生了甚麼事？"
+  },
+  {
+    "id": "dialogo-policia_documentos-roubaram-me-a-carteira-no-metro",
+    "situacao": "policia_documentos",
+    "order": 461,
+    "pt": "Roubaram-me a carteira no metro.",
+    "en": "My wallet was stolen on the metro.",
+    "zhHans": "我的钱包在地铁里被偷了。",
+    "zhHant": "我的銀包在地鐵裡被偷了。"
+  },
+  {
+    "id": "dialogo-policia_documentos-a-que-horas-e-em-que-estacao",
+    "situacao": "policia_documentos",
+    "order": 462,
+    "pt": "A que horas e em que estação?",
+    "en": "At what time and at which station?",
+    "zhHans": "几点？在哪个车站？",
+    "zhHant": "幾點？在哪個車站？"
+  },
+  {
+    "id": "dialogo-policia_documentos-por-volta-das-seis-entre-o-saldanha-e-o-marques",
+    "situacao": "policia_documentos",
+    "order": 463,
+    "pt": "Por volta das seis, entre Saldanha e o Marquês de Pombal.",
+    "en": "At around six, between Saldanha and Marquês de Pombal.",
+    "zhHans": "大约六点，在Saldanha和Marquês de Pombal之间。",
+    "zhHant": "大約六點，在Saldanha和Marquês de Pombal之間。"
+  },
+  {
+    "id": "dialogo-policia_documentos-que-documentos-estavam-na-carteira",
+    "situacao": "policia_documentos",
+    "order": 464,
+    "pt": "Que documentos estavam na carteira?",
+    "en": "Which documents were in the wallet?",
+    "zhHans": "钱包里有哪些证件？",
+    "zhHant": "銀包裡有哪些證件？"
+  },
+  {
+    "id": "dialogo-policia_documentos-o-cartao-de-residencia-o-cartao-do-banco-e-a-carta-de-conducao",
+    "situacao": "policia_documentos",
+    "order": 465,
+    "pt": "O cartão de residência, o cartão do banco e a carta de condução.",
+    "en": "My residence card, bank card, and driving licence.",
+    "zhHans": "居留卡、银行卡和驾驶证。",
+    "zhHant": "居留卡、銀行卡和駕駛執照。"
+  },
+  {
+    "id": "dialogo-policia_documentos-vou-registar-a-ocorrencia-e-dar-lhe-uma-copia-do-auto",
+    "situacao": "policia_documentos",
+    "order": 466,
+    "pt": "Vou registar a ocorrência e dar-lhe uma cópia do auto.",
+    "en": "I'll record the incident and give you a copy of the report.",
+    "zhHans": "我会登记事件并给您一份报告副本。",
+    "zhHant": "我會登記事件並給您一份報告副本。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-bom-dia-preciso-de-ativar-a-chave-movel-digital",
+    "situacao": "espaco_cidadao",
+    "order": 467,
+    "purpose": "opening",
+    "pt": "Bom dia. Preciso de ativar a Chave Móvel Digital.",
+    "en": "Good morning. I need to activate my Digital Mobile Key.",
+    "zhHans": "早上好。我需要开通数字移动密钥。",
+    "zhHant": "早晨。我需要啟用數碼流動金鑰。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-este-servico-esta-disponivel-neste-espaco-cidadao",
+    "situacao": "espaco_cidadao",
+    "order": 468,
+    "purpose": "availability",
+    "pt": "Este serviço está disponível neste Espaço Cidadão?",
+    "en": "Is this service available at this Citizen's Desk?",
+    "zhHans": "这个市民服务中心可以办理这项服务吗？",
+    "zhHant": "這個市民服務中心可以辦理這項服務嗎？"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-sim-aqui-fazemos-a-ativacao-com-apoio-de-um-assistente",
+    "situacao": "espaco_cidadao",
+    "order": 469,
+    "purpose": "availability",
+    "pt": "Sim. Aqui fazemos a ativação com apoio de um assistente.",
+    "en": "Yes. We provide assisted activation here.",
+    "zhHans": "可以。这里有工作人员协助开通。",
+    "zhHant": "可以。這裡有職員協助啟用。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-e-preciso-marcar-atendimento",
+    "situacao": "espaco_cidadao",
+    "order": 470,
+    "purpose": "appointment",
+    "pt": "É preciso marcar atendimento?",
+    "en": "Do I need an appointment?",
+    "zhHans": "需要预约吗？",
+    "zhHant": "需要預約嗎？"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-nao-o-atendimento-normal-e-feito-sem-marcacao",
+    "situacao": "espaco_cidadao",
+    "order": 471,
+    "purpose": "appointment",
+    "pt": "Não. O atendimento normal é feito sem marcação.",
+    "en": "No. Regular service is provided without an appointment.",
+    "zhHans": "不需要。普通服务无需预约。",
+    "zhHant": "不需要。一般服務毋須預約。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-trouxe-o-documento-de-identificacao-e-o-telemovel",
+    "situacao": "espaco_cidadao",
+    "order": 472,
+    "purpose": "documents",
+    "pt": "Trouxe o documento de identificação e o telemóvel.",
+    "en": "I brought my identity document and phone.",
+    "zhHans": "我带了身份证件和手机。",
+    "zhHant": "我帶了身份證明文件和手機。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-nao-me-lembro-do-pin-e-ja-nao-uso-o-email-antigo",
+    "situacao": "espaco_cidadao",
+    "order": 473,
+    "purpose": "problem",
+    "pt": "Não me lembro do PIN e já não uso o email antigo.",
+    "en": "I don't remember the PIN and no longer use my old email.",
+    "zhHans": "我不记得密码，也不再使用原来的邮箱。",
+    "zhHant": "我不記得密碼，也不再使用以前的電郵。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-vamos-primeiro-confirmar-a-sua-identidade-e-atualizar-os-contactos",
+    "situacao": "espaco_cidadao",
+    "order": 474,
+    "purpose": "recovery",
+    "pt": "Vamos primeiro confirmar a sua identidade e atualizar os contactos.",
+    "en": "We will first confirm your identity and update your contact details.",
+    "zhHans": "我们先核实您的身份并更新联系方式。",
+    "zhHant": "我們先核實您的身份並更新聯絡資料。"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-no-fim-recebo-algum-comprovativo",
+    "situacao": "espaco_cidadao",
+    "order": 475,
+    "purpose": "confirmation",
+    "pt": "No fim, recebo algum comprovativo?",
+    "en": "Will I receive confirmation when it is finished?",
+    "zhHans": "办完后会收到凭证吗？",
+    "zhHant": "辦妥後會收到確認嗎？"
+  },
+  {
+    "id": "dialogo-espaco_cidadao-sim-pode-confirmar-a-ativacao-no-ecra-e-guardar-a-mensagem",
+    "situacao": "espaco_cidadao",
+    "order": 476,
+    "purpose": "confirmation",
+    "pt": "Sim. Pode confirmar a ativação no ecrã e guardar a mensagem.",
+    "en": "Yes. You can confirm activation on screen and keep the message.",
+    "zhHans": "会。您可以在屏幕上确认开通并保存通知。",
+    "zhHant": "會。您可以在畫面上確認啟用並保留訊息。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-bom-dia-quero-trocar-a-minha-carta-de-conducao-estrangeira",
+    "situacao": "imt_carta_conducao",
+    "order": 477,
+    "purpose": "opening",
+    "pt": "Bom dia. Quero trocar a minha carta de condução estrangeira.",
+    "en": "Good morning. I want to exchange my foreign driving licence.",
+    "zhHans": "早上好。我想换领外国驾驶证。",
+    "zhHant": "早晨。我想換領外國駕駛執照。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-em-que-pais-foi-emitida-e-desde-quando-reside-em-portugal",
+    "situacao": "imt_carta_conducao",
+    "order": 478,
+    "purpose": "eligibility",
+    "pt": "Em que país foi emitida e desde quando reside em Portugal?",
+    "en": "Which country issued it, and since when have you lived in Portugal?",
+    "zhHans": "驾驶证由哪个国家签发？您从什么时候开始在葡萄牙居住？",
+    "zhHant": "駕駛執照由哪個國家簽發？您從甚麼時候開始在葡萄牙居住？"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-foi-emitida-na-china-e-tenho-residencia-desde-marco",
+    "situacao": "imt_carta_conducao",
+    "order": 479,
+    "purpose": "eligibility",
+    "pt": "Foi emitida na China e tenho residência desde março.",
+    "en": "It was issued in China, and I have been resident since March.",
+    "zhHans": "由中国签发，我从三月起在葡萄牙居住。",
+    "zhHant": "由中國簽發，我從三月起在葡萄牙居住。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-a-lista-de-documentos-depende-do-pais-vamos-confirmar-o-seu-caso",
+    "situacao": "imt_carta_conducao",
+    "order": 480,
+    "purpose": "documents",
+    "pt": "A lista de documentos depende do país. Vamos confirmar o seu caso.",
+    "en": "The document list depends on the country. Let us check your case.",
+    "zhHans": "所需文件取决于签发国。我们先核对您的情况。",
+    "zhHant": "所需文件視乎簽發國。我們先核對您的情況。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-tenho-a-carta-original-o-atestado-medico-e-o-titulo-de-residencia",
+    "situacao": "imt_carta_conducao",
+    "order": 481,
+    "purpose": "documents",
+    "pt": "Tenho a carta original, o atestado médico e o título de residência.",
+    "en": "I have the original licence, medical certificate, and residence permit.",
+    "zhHans": "我带了驾驶证原件、健康证明和居留证。",
+    "zhHant": "我帶了駕駛執照正本、健康證明和居留證。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-pode-ainda-ser-necessaria-uma-declaracao-de-autenticidade-ou-traducao-certificada",
+    "situacao": "imt_carta_conducao",
+    "order": 482,
+    "purpose": "documents",
+    "pt": "Pode ainda ser necessária uma declaração de autenticidade ou tradução certificada.",
+    "en": "A declaration of authenticity or certified translation may also be required.",
+    "zhHans": "还可能需要真实性声明或认证翻译。",
+    "zhHant": "還可能需要真實性聲明或核證翻譯。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-posso-entregar-tudo-online",
+    "situacao": "imt_carta_conducao",
+    "order": 483,
+    "purpose": "submission",
+    "pt": "Posso entregar tudo online?",
+    "en": "Can I submit everything online?",
+    "zhHans": "可以全部在线提交吗？",
+    "zhHant": "可以全部網上提交嗎？"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-o-pedido-comeca-no-formulario-online-siga-depois-as-instrucoes-do-imt",
+    "situacao": "imt_carta_conducao",
+    "order": 484,
+    "purpose": "submission",
+    "pt": "O pedido começa no formulário online; siga depois as instruções do IMT.",
+    "en": "The application starts with the online form; then follow the IMT instructions.",
+    "zhHans": "申请从在线表格开始，之后请按IMT的指示办理。",
+    "zhHant": "申請由網上表格開始，之後請按IMT的指示辦理。"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-qual-e-o-custo-e-como-faco-o-pagamento",
+    "situacao": "imt_carta_conducao",
+    "order": 485,
+    "purpose": "cost",
+    "pt": "Qual é o custo e como faço o pagamento?",
+    "en": "What does it cost, and how do I pay?",
+    "zhHans": "费用是多少？如何付款？",
+    "zhHant": "費用是多少？如何付款？"
+  },
+  {
+    "id": "dialogo-imt_carta_conducao-a-taxa-base-aparece-no-pedido-guarde-a-referencia-para-acompanhar-o-processo",
+    "situacao": "imt_carta_conducao",
+    "order": 486,
+    "purpose": "tracking",
+    "pt": "A taxa base aparece no pedido. Guarde a referência para acompanhar o processo.",
+    "en": "The base fee appears in the application. Keep the reference to track the process.",
+    "zhHans": "基本费用会显示在申请中。请保存编号以查询进度。",
+    "zhHant": "基本費用會顯示在申請中。請保留編號以查詢進度。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-bom-dia-quero-transcrever-um-casamento-celebrado-no-estrangeiro",
+    "situacao": "conservatoria_registo_civil",
+    "order": 487,
+    "purpose": "opening",
+    "pt": "Bom dia. Quero transcrever um casamento celebrado no estrangeiro.",
+    "en": "Good morning. I want to register a marriage celebrated abroad.",
+    "zhHans": "早上好。我想登记在国外缔结的婚姻。",
+    "zhHant": "早晨。我想登記在外國締結的婚姻。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-uma-das-pessoas-do-casal-tem-nacionalidade-portuguesa",
+    "situacao": "conservatoria_registo_civil",
+    "order": 488,
+    "purpose": "eligibility",
+    "pt": "Uma das pessoas do casal tem nacionalidade portuguesa?",
+    "en": "Is either spouse a Portuguese national?",
+    "zhHans": "夫妻中有一方是葡萄牙公民吗？",
+    "zhHant": "夫妻中有一方是葡萄牙公民嗎？"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-sim-eu-sou-portuguesa-e-o-casamento-foi-celebrado-em-xangai",
+    "situacao": "conservatoria_registo_civil",
+    "order": 489,
+    "purpose": "eligibility",
+    "pt": "Sim, eu sou portuguesa e o casamento foi celebrado em Xangai.",
+    "en": "Yes, I am Portuguese, and the marriage was celebrated in Shanghai.",
+    "zhHans": "是的，我是葡萄牙公民，婚姻在上海登记。",
+    "zhHant": "是的，我是葡萄牙公民，婚姻在上海登記。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-precisa-da-certidao-de-casamento-e-dos-documentos-de-identificacao-do-casal",
+    "situacao": "conservatoria_registo_civil",
+    "order": 490,
+    "purpose": "documents",
+    "pt": "Precisa da certidão de casamento e dos documentos de identificação do casal.",
+    "en": "You need the marriage certificate and both spouses' identity documents.",
+    "zhHans": "需要结婚证明和夫妻双方的身份证件。",
+    "zhHant": "需要結婚證明書和夫妻雙方的身份證明文件。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-o-meu-marido-estrangeiro-tambem-precisa-da-certidao-de-nascimento",
+    "situacao": "conservatoria_registo_civil",
+    "order": 491,
+    "purpose": "documents",
+    "pt": "O meu marido estrangeiro também precisa da certidão de nascimento?",
+    "en": "Does my foreign husband also need his birth certificate?",
+    "zhHans": "我的外籍丈夫也需要出生证明吗？",
+    "zhHant": "我的外籍丈夫也需要出生證明書嗎？"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-sim-traga-a-e-indique-se-existe-convencao-antenupcial",
+    "situacao": "conservatoria_registo_civil",
+    "order": 492,
+    "purpose": "documents",
+    "pt": "Sim. Traga-a e indique se existe convenção antenupcial.",
+    "en": "Yes. Bring it and state whether there is a prenuptial agreement.",
+    "zhHans": "需要。请带上，并说明是否有婚前协议。",
+    "zhHant": "需要。請帶同，並說明是否有婚前協議。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-a-certidao-chinesa-tem-de-ser-legalizada-e-traduzida",
+    "situacao": "conservatoria_registo_civil",
+    "order": 493,
+    "purpose": "legalisation",
+    "pt": "A certidão chinesa tem de ser legalizada e traduzida?",
+    "en": "Must the Chinese certificate be legalised and translated?",
+    "zhHans": "中国证明需要认证和翻译吗？",
+    "zhHant": "中國證明書需要認證和翻譯嗎？"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-vamos-verificar-a-legalizacao-e-se-a-traducao-certificada-e-necessaria",
+    "situacao": "conservatoria_registo_civil",
+    "order": 494,
+    "purpose": "legalisation",
+    "pt": "Vamos verificar a legalização e se a tradução certificada é necessária.",
+    "en": "We will check the legalisation and whether a certified translation is required.",
+    "zhHans": "我们会核查认证要求以及是否需要认证翻译。",
+    "zhHant": "我們會核查認證要求以及是否需要核證翻譯。"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-quanto-tempo-demora-e-como-sei-que-ficou-concluido",
+    "situacao": "conservatoria_registo_civil",
+    "order": 495,
+    "purpose": "timing",
+    "pt": "Quanto tempo demora e como sei que ficou concluído?",
+    "en": "How long does it take, and how will I know it is complete?",
+    "zhHans": "需要多长时间？我怎样知道手续已完成？",
+    "zhHant": "需要多長時間？我怎樣知道手續已完成？"
+  },
+  {
+    "id": "dialogo-conservatoria_registo_civil-guarde-a-referencia-do-processo-o-servico-contacta-a-se-faltar-algum-documento",
+    "situacao": "conservatoria_registo_civil",
+    "order": 496,
+    "purpose": "tracking",
+    "pt": "Guarde a referência do processo; o serviço contacta-a se faltar algum documento.",
+    "en": "Keep the case reference; the office will contact you if a document is missing.",
+    "zhHans": "请保存申请编号；如缺少文件，登记处会联系您。",
+    "zhHant": "請保留申請編號；如欠缺文件，登記處會聯絡您。"
+  },
+  {
+    "id": "dialogo-camara_municipal-bom-dia-quero-comunicar-um-buraco-perigoso-no-passeio",
+    "situacao": "camara_municipal",
+    "order": 497,
+    "purpose": "opening",
+    "pt": "Bom dia. Quero comunicar um buraco perigoso no passeio.",
+    "en": "Good morning. I want to report a dangerous hole in the pavement.",
+    "zhHans": "早上好。我想报告人行道上一个危险的坑。",
+    "zhHant": "早晨。我想報告行人路上一個危險的坑。"
+  },
+  {
+    "id": "dialogo-camara_municipal-pode-indicar-a-rua-e-o-numero-de-porta-mais-proximo",
+    "situacao": "camara_municipal",
+    "order": 498,
+    "purpose": "details",
+    "pt": "Pode indicar a rua e o número de porta mais próximo?",
+    "en": "Can you give the street and nearest door number?",
+    "zhHans": "可以提供街道和最近的门牌号吗？",
+    "zhHant": "可以提供街道和最近的門牌號碼嗎？"
+  },
+  {
+    "id": "dialogo-camara_municipal-e-na-rua-das-flores-em-frente-ao-numero-vinte",
+    "situacao": "camara_municipal",
+    "order": 499,
+    "purpose": "details",
+    "pt": "É na Rua das Flores, em frente ao número vinte.",
+    "en": "It is on Rua das Flores, opposite number twenty.",
+    "zhHans": "在花街二十号对面。",
+    "zhHant": "在花街二十號對面。"
+  },
+  {
+    "id": "dialogo-camara_municipal-tem-uma-fotografia-que-mostre-o-problema",
+    "situacao": "camara_municipal",
+    "order": 500,
+    "purpose": "evidence",
+    "pt": "Tem uma fotografia que mostre o problema?",
+    "en": "Do you have a photograph showing the problem?",
+    "zhHans": "您有显示问题的照片吗？",
+    "zhHant": "您有顯示問題的相片嗎？"
+  },
+  {
+    "id": "dialogo-camara_municipal-sim-posso-anexa-la-ao-pedido",
+    "situacao": "camara_municipal",
+    "order": 501,
+    "purpose": "evidence",
+    "pt": "Sim. Posso anexá-la ao pedido.",
+    "en": "Yes. I can attach it to the report.",
+    "zhHans": "有。我可以把照片附在报告中。",
+    "zhHant": "有。我可以把相片附在報告中。"
+  },
+  {
+    "id": "dialogo-camara_municipal-pode-submeter-no-portal-do-municipio-ou-deixa-la-aqui-no-atendimento",
+    "situacao": "camara_municipal",
+    "order": 502,
+    "purpose": "submission",
+    "pt": "Pode submeter no portal do município ou deixá-la aqui no atendimento.",
+    "en": "You can submit it on the municipal portal or leave it here at the service desk.",
+    "zhHans": "可以在市政府网站提交，也可以在这里办理。",
+    "zhHant": "可以在市政府網站提交，也可以在這裡辦理。"
+  },
+  {
+    "id": "dialogo-camara_municipal-ha-risco-de-alguem-cair-pode-ser-tratado-como-urgente",
+    "situacao": "camara_municipal",
+    "order": 503,
+    "purpose": "priority",
+    "pt": "Há risco de alguém cair. Pode ser tratado como urgente?",
+    "en": "Someone could fall. Can it be treated as urgent?",
+    "zhHans": "有人可能摔倒。可以按紧急情况处理吗？",
+    "zhHant": "有人可能跌倒。可以按緊急情況處理嗎？"
+  },
+  {
+    "id": "dialogo-camara_municipal-vou-assinalar-o-risco-a-equipa-responsavel",
+    "situacao": "camara_municipal",
+    "order": 504,
+    "purpose": "priority",
+    "pt": "Vou assinalar o risco à equipa responsável.",
+    "en": "I will flag the risk to the responsible team.",
+    "zhHans": "我会向负责部门标明这一风险。",
+    "zhHant": "我會向負責部門標明這項風險。"
+  },
+  {
+    "id": "dialogo-camara_municipal-pode-dar-me-o-numero-da-ocorrencia",
+    "situacao": "camara_municipal",
+    "order": 505,
+    "purpose": "tracking",
+    "pt": "Pode dar-me o número da ocorrência?",
+    "en": "Can you give me the report reference number?",
+    "zhHans": "可以给我报告编号吗？",
+    "zhHant": "可以給我報告編號嗎？"
+  },
+  {
+    "id": "dialogo-camara_municipal-sim-com-este-numero-pode-acompanhar-a-resposta-do-municipio",
+    "situacao": "camara_municipal",
+    "order": 506,
+    "purpose": "tracking",
+    "pt": "Sim. Com este número pode acompanhar a resposta do município.",
+    "en": "Yes. You can use this number to follow the council's response.",
+    "zhHans": "可以。您可以用这个编号查询市政府的处理进度。",
+    "zhHant": "可以。您可以用這個編號查詢市政府的處理進度。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-bom-dia-quero-pedir-o-reconhecimento-do-meu-diploma-estrangeiro",
+    "situacao": "reconhecimento_diplomas",
+    "order": 507,
+    "purpose": "opening",
+    "pt": "Bom dia. Quero pedir o reconhecimento do meu diploma estrangeiro.",
+    "en": "Good morning. I want to apply for recognition of my foreign diploma.",
+    "zhHans": "早上好。我想申请外国文凭认可。",
+    "zhHant": "早晨。我想申請外國文憑認可。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-precisa-apenas-do-grau-ou-tambem-do-curso-e-da-area-cientifica",
+    "situacao": "reconhecimento_diplomas",
+    "order": 508,
+    "purpose": "route",
+    "pt": "Precisa apenas do grau ou também do curso e da área científica?",
+    "en": "Do you need only the degree level, or also the course and subject area?",
+    "zhHans": "您只需要认可学位等级，还是还要认可专业和学科领域？",
+    "zhHant": "您只需要認可學位級別，還是也要認可課程和學科範疇？"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-preciso-que-o-meu-mestrado-em-engenharia-seja-reconhecido-nessa-area",
+    "situacao": "reconhecimento_diplomas",
+    "order": 509,
+    "purpose": "route",
+    "pt": "Preciso que o meu mestrado em engenharia seja reconhecido nessa área.",
+    "en": "I need my master's in engineering recognised in that subject area.",
+    "zhHans": "我需要工程学硕士在该专业领域获得认可。",
+    "zhHant": "我需要工程學碩士在該專業範疇獲得認可。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-nesse-caso-verifique-o-reconhecimento-especifico-o-automatico-so-se-aplica-a-diplomas-da-lista",
+    "situacao": "reconhecimento_diplomas",
+    "order": 510,
+    "purpose": "route",
+    "pt": "Nesse caso, verifique o reconhecimento específico; o automático só se aplica a diplomas da lista.",
+    "en": "In that case, check specific recognition; automatic recognition only applies to listed diplomas.",
+    "zhHans": "这种情况请查看专业认可；自动认可只适用于名单内的文凭。",
+    "zhHant": "這種情況請查看特定認可；自動認可只適用於名單內的文憑。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-o-pedido-e-entregue-diretamente-na-universidade",
+    "situacao": "reconhecimento_diplomas",
+    "order": 511,
+    "purpose": "submission",
+    "pt": "O pedido é entregue diretamente na universidade?",
+    "en": "Is the application submitted directly to the university?",
+    "zhHans": "申请要直接交给大学吗？",
+    "zhHant": "申請要直接交給大學嗎？"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-e-submetido-no-formulario-online-onde-escolhe-a-instituicao-responsavel",
+    "situacao": "reconhecimento_diplomas",
+    "order": 512,
+    "purpose": "submission",
+    "pt": "É submetido no formulário online, onde escolhe a instituição responsável.",
+    "en": "It is submitted through the online form, where you choose the responsible institution.",
+    "zhHans": "请通过在线表格提交，并在表格中选择负责机构。",
+    "zhHant": "請透過網上表格提交，並在表格中選擇負責機構。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-vou-anexar-o-diploma-e-o-certificado-com-disciplinas-e-notas",
+    "situacao": "reconhecimento_diplomas",
+    "order": 513,
+    "purpose": "documents",
+    "pt": "Vou anexar o diploma e o certificado com disciplinas e notas.",
+    "en": "I will attach the diploma and transcript with subjects and grades.",
+    "zhHans": "我会上传文凭及载有课程和成绩的成绩单。",
+    "zhHant": "我會上載文憑及載有科目和成績的成績單。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-confirme-tambem-as-regras-de-autenticacao-e-traducao-dos-documentos",
+    "situacao": "reconhecimento_diplomas",
+    "order": 514,
+    "purpose": "documents",
+    "pt": "Confirme também as regras de autenticação e tradução dos documentos.",
+    "en": "Also check the authentication and translation rules for the documents.",
+    "zhHans": "还请确认文件认证和翻译要求。",
+    "zhHant": "還請確認文件認證和翻譯要求。"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-o-preco-e-o-prazo-sao-iguais-para-todos-os-tipos",
+    "situacao": "reconhecimento_diplomas",
+    "order": 515,
+    "purpose": "cost",
+    "pt": "O preço e o prazo são iguais para todos os tipos?",
+    "en": "Are the price and deadline the same for every type?",
+    "zhHans": "所有认可类型的费用和期限都一样吗？",
+    "zhHant": "所有認可類型的費用和期限都一樣嗎？"
+  },
+  {
+    "id": "dialogo-reconhecimento_diplomas-nao-dependem-do-tipo-e-da-instituicao-o-prazo-conta-apos-o-processo-estar-completo",
+    "situacao": "reconhecimento_diplomas",
+    "order": 516,
+    "purpose": "timing",
+    "pt": "Não. Dependem do tipo e da instituição; o prazo conta após o processo estar completo.",
+    "en": "No. They depend on the type and institution; the deadline starts once the file is complete.",
+    "zhHans": "不一样，取决于认可类型和机构；期限从材料齐全后开始计算。",
+    "zhHant": "不一樣，視乎認可類型和機構；期限由文件齊全後開始計算。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-bom-dia-preciso-de-fazer-uma-procuracao-para-usar-em-portugal",
+    "situacao": "consulado_documentos",
+    "order": 517,
+    "purpose": "opening",
+    "pt": "Bom dia. Preciso de fazer uma procuração para usar em Portugal.",
+    "en": "Good morning. I need to make a power of attorney for use in Portugal.",
+    "zhHans": "早上好。我需要办理一份在葡萄牙使用的授权书。",
+    "zhHant": "早晨。我需要辦理一份在葡萄牙使用的授權書。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-ja-marcou-atendimento-no-portal-consular",
+    "situacao": "consulado_documentos",
+    "order": 518,
+    "purpose": "appointment",
+    "pt": "Já marcou atendimento no portal consular?",
+    "en": "Have you booked an appointment on the consular portal?",
+    "zhHans": "您已经在领事服务网站预约了吗？",
+    "zhHant": "您已經在領事服務網站預約了嗎？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-sim-queria-confirmar-o-que-tenho-de-levar",
+    "situacao": "consulado_documentos",
+    "order": 519,
+    "purpose": "appointment",
+    "pt": "Sim. Queria confirmar o que tenho de levar.",
+    "en": "Yes. I would like to confirm what I must bring.",
+    "zhHans": "预约了。我想确认需要带什么。",
+    "zhHant": "預約了。我想確認需要帶甚麼。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-traga-o-passaporte-valido-e-o-texto-da-procuracao",
+    "situacao": "consulado_documentos",
+    "order": 520,
+    "purpose": "documents",
+    "pt": "Traga o passaporte válido e o texto da procuração.",
+    "en": "Bring your valid passport and the power-of-attorney text.",
+    "zhHans": "请带有效护照和授权书文本。",
+    "zhHant": "請帶有效護照和授權書文本。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-posso-trazer-o-documento-ja-assinado",
+    "situacao": "consulado_documentos",
+    "order": 521,
+    "purpose": "signature",
+    "pt": "Posso trazer o documento já assinado?",
+    "en": "Can I bring the document already signed?",
+    "zhHans": "可以把已经签好的文件带来吗？",
+    "zhHant": "可以把已經簽署的文件帶來嗎？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-nao-deve-assinar-perante-o-funcionario-consular",
+    "situacao": "consulado_documentos",
+    "order": 522,
+    "purpose": "signature",
+    "pt": "Não. Deve assinar perante o funcionário consular.",
+    "en": "No. You must sign in front of the consular officer.",
+    "zhHans": "不可以。您必须在领事工作人员面前签字。",
+    "zhHant": "不可以。您必須在領事職員面前簽署。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-quanto-custa-e-que-meios-de-pagamento-aceitam",
+    "situacao": "consulado_documentos",
+    "order": 523,
+    "purpose": "cost",
+    "pt": "Quanto custa e que meios de pagamento aceitam?",
+    "en": "How much does it cost, and which payment methods do you accept?",
+    "zhHans": "费用是多少？接受哪些付款方式？",
+    "zhHant": "費用是多少？接受哪些付款方式？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-o-valor-e-o-pagamento-dependem-do-posto-confirme-na-tabela-consular",
+    "situacao": "consulado_documentos",
+    "order": 524,
+    "purpose": "cost",
+    "pt": "O valor e o pagamento dependem do posto; confirme na tabela consular.",
+    "en": "The fee and payment method depend on the post; check the consular fee table.",
+    "zhHans": "费用和付款方式因领事机构而异，请查看领事收费表。",
+    "zhHant": "費用和付款方式視乎領事機構，請查看領事收費表。"
+  },
+  {
+    "id": "dialogo-consulado_documentos-o-documento-fica-pronto-no-proprio-dia",
+    "situacao": "consulado_documentos",
+    "order": 525,
+    "purpose": "collection",
+    "pt": "O documento fica pronto no próprio dia?",
+    "en": "Will the document be ready the same day?",
+    "zhHans": "文件当天能办好吗？",
+    "zhHant": "文件當天能辦妥嗎？"
+  },
+  {
+    "id": "dialogo-consulado_documentos-confirmaremos-o-prazo-quando-verificarmos-o-documento",
+    "situacao": "consulado_documentos",
+    "order": 526,
+    "purpose": "timing",
+    "pt": "Confirmaremos o prazo quando verificarmos o documento.",
+    "en": "We will confirm the timeframe after checking the document.",
+    "zhHans": "核查文件后，我们会确认办理时间。",
+    "zhHant": "核查文件後，我們會確認辦理時間。"
   }
 ];
 
@@ -16118,5 +23585,845 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "en": "I'd like some band-aids.",
     "zhHans": "我要创可贴。",
     "zhHant": "我要OK繃。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-onde-encontro-este-produto",
+    "situacao": "supermercado_mercado",
+    "order": 267,
+    "pt": "Onde encontro este produto?",
+    "en": "Where can I find this product?",
+    "zhHans": "这个商品在哪里？",
+    "zhHant": "這件商品在哪裡？"
+  },
+  {
+    "id": "cartao-supermercado_mercado-pode-pesar-isto-por-favor",
+    "situacao": "supermercado_mercado",
+    "order": 268,
+    "pt": "Pode pesar isto, por favor?",
+    "en": "Can you weigh this, please?",
+    "zhHans": "可以帮我称一下吗？",
+    "zhHant": "可以幫我磅一下嗎？"
+  },
+  {
+    "id": "cartao-supermercado_mercado-este-preco-e-por-quilo",
+    "situacao": "supermercado_mercado",
+    "order": 269,
+    "pt": "Este preço é por quilo?",
+    "en": "Is this price per kilo?",
+    "zhHans": "这个价格是每公斤吗？",
+    "zhHant": "這個價錢是每公斤嗎？"
+  },
+  {
+    "id": "cartao-supermercado_mercado-queria-fatura-com-nif",
+    "situacao": "supermercado_mercado",
+    "order": 270,
+    "pt": "Queria fatura com NIF.",
+    "en": "I'd like a receipt with my NIF.",
+    "zhHans": "请开具含税号的发票。",
+    "zhHant": "請開具含稅號的發票。"
+  },
+  {
+    "id": "cartao-supermercado_mercado-posso-pagar-com-cartao",
+    "situacao": "supermercado_mercado",
+    "order": 271,
+    "pt": "Posso pagar com cartão?",
+    "en": "Can I pay by card?",
+    "zhHans": "可以刷卡吗？",
+    "zhHant": "可以用卡付款嗎？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-tem-mesa-para-duas-pessoas",
+    "situacao": "cafe_restaurante",
+    "order": 272,
+    "pt": "Tem mesa para duas pessoas?",
+    "en": "Do you have a table for two?",
+    "zhHans": "有两个人的桌位吗？",
+    "zhHant": "有兩個人的座位嗎？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-qual-e-o-prato-do-dia",
+    "situacao": "cafe_restaurante",
+    "order": 273,
+    "pt": "Qual é o prato do dia?",
+    "en": "What's today's special?",
+    "zhHans": "今日特餐是什么？",
+    "zhHant": "今日特餐是甚麼？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-tenho-alergia-a-frutos-secos",
+    "situacao": "cafe_restaurante",
+    "order": 274,
+    "pt": "Tenho alergia a frutos secos.",
+    "en": "I'm allergic to nuts.",
+    "zhHans": "我对坚果过敏。",
+    "zhHant": "我對果仁敏感。"
+  },
+  {
+    "id": "cartao-cafe_restaurante-podemos-pagar-em-separado",
+    "situacao": "cafe_restaurante",
+    "order": 275,
+    "pt": "Podemos pagar em separado?",
+    "en": "Can we pay separately?",
+    "zhHans": "可以分开付款吗？",
+    "zhHant": "可以分開付款嗎？"
+  },
+  {
+    "id": "cartao-cafe_restaurante-a-conta-por-favor",
+    "situacao": "cafe_restaurante",
+    "order": 276,
+    "pt": "A conta, por favor.",
+    "en": "The bill, please.",
+    "zhHans": "请结账。",
+    "zhHant": "唔該埋單。"
+  },
+  {
+    "id": "cartao-consultorio_medico-tenho-esta-dor-ha-tres-dias",
+    "situacao": "consultorio_medico",
+    "order": 277,
+    "pt": "Tenho esta dor há três dias.",
+    "en": "I've had this pain for three days.",
+    "zhHans": "我已经痛了三天。",
+    "zhHant": "我已經痛了三天。"
+  },
+  {
+    "id": "cartao-consultorio_medico-a-dor-piora-quando-respiro",
+    "situacao": "consultorio_medico",
+    "order": 278,
+    "pt": "A dor piora quando respiro.",
+    "en": "The pain gets worse when I breathe.",
+    "zhHans": "呼吸时疼痛加重。",
+    "zhHant": "呼吸時疼痛加重。"
+  },
+  {
+    "id": "cartao-consultorio_medico-estou-a-tomar-este-medicamento",
+    "situacao": "consultorio_medico",
+    "order": 279,
+    "pt": "Estou a tomar este medicamento.",
+    "en": "I'm taking this medicine.",
+    "zhHans": "我正在服用这种药。",
+    "zhHant": "我正在服用這種藥。"
+  },
+  {
+    "id": "cartao-consultorio_medico-sou-alergico-a-penicilina",
+    "situacao": "consultorio_medico",
+    "order": 280,
+    "pt": "Sou alérgico a penicilina.",
+    "en": "I'm allergic to penicillin.",
+    "zhHans": "我对青霉素过敏。",
+    "zhHant": "我對盤尼西林敏感。"
+  },
+  {
+    "id": "cartao-consultorio_medico-quando-devo-voltar",
+    "situacao": "consultorio_medico",
+    "order": 281,
+    "pt": "Quando devo voltar?",
+    "en": "When should I come back?",
+    "zhHans": "我什么时候再来？",
+    "zhHant": "我甚麼時候再來？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-ha-uma-fuga-de-agua",
+    "situacao": "casa_reparacoes",
+    "order": 282,
+    "pt": "Há uma fuga de água.",
+    "en": "There's a water leak.",
+    "zhHans": "漏水了。",
+    "zhHant": "漏水了。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-o-esquentador-nao-liga",
+    "situacao": "casa_reparacoes",
+    "order": 283,
+    "pt": "O esquentador não liga.",
+    "en": "The water heater won't turn on.",
+    "zhHans": "热水器无法启动。",
+    "zhHant": "熱水爐無法啟動。"
+  },
+  {
+    "id": "cartao-casa_reparacoes-pode-enviar-me-um-orcamento",
+    "situacao": "casa_reparacoes",
+    "order": 284,
+    "pt": "Pode enviar-me um orçamento?",
+    "en": "Can you send me a quote?",
+    "zhHans": "可以给我发报价吗？",
+    "zhHant": "可以傳報價給我嗎？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-quando-pode-vir-fazer-a-reparacao",
+    "situacao": "casa_reparacoes",
+    "order": 285,
+    "pt": "Quando pode vir fazer a reparação?",
+    "en": "When can you come and repair it?",
+    "zhHans": "什么时候可以来维修？",
+    "zhHant": "甚麼時候可以來維修？"
+  },
+  {
+    "id": "cartao-casa_reparacoes-a-avaria-e-urgente",
+    "situacao": "casa_reparacoes",
+    "order": 286,
+    "pt": "A avaria é urgente.",
+    "en": "The fault is urgent.",
+    "zhHans": "这个故障很紧急。",
+    "zhHant": "這個故障很緊急。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-quero-mudar-o-titular-do-contrato",
+    "situacao": "agua_luz_gas",
+    "order": 287,
+    "pt": "Quero mudar o titular do contrato.",
+    "en": "I want to change the account holder.",
+    "zhHans": "我想更改合同户名。",
+    "zhHant": "我想更改合約戶名。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-quero-comunicar-a-leitura-do-contador",
+    "situacao": "agua_luz_gas",
+    "order": 288,
+    "pt": "Quero comunicar a leitura do contador.",
+    "en": "I want to submit a meter reading.",
+    "zhHans": "我想提交抄表数值。",
+    "zhHant": "我想提交抄錶數值。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-a-fatura-parece-estar-errada",
+    "situacao": "agua_luz_gas",
+    "order": 289,
+    "pt": "A fatura parece estar errada.",
+    "en": "The bill seems to be wrong.",
+    "zhHans": "账单似乎有误。",
+    "zhHant": "賬單似乎有誤。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-estamos-sem-eletricidade",
+    "situacao": "agua_luz_gas",
+    "order": 290,
+    "pt": "Estamos sem eletricidade.",
+    "en": "We have no electricity.",
+    "zhHans": "我们停电了。",
+    "zhHant": "我們停電了。"
+  },
+  {
+    "id": "cartao-agua_luz_gas-sinto-cheiro-a-gas",
+    "situacao": "agua_luz_gas",
+    "order": 291,
+    "pt": "Sinto cheiro a gás.",
+    "en": "I can smell gas.",
+    "zhHans": "我闻到燃气味。",
+    "zhHant": "我聞到燃氣味。"
+  },
+  {
+    "id": "cartao-telemovel_internet-queria-um-cartao-pre-pago",
+    "situacao": "telemovel_internet",
+    "order": 292,
+    "pt": "Queria um cartão pré-pago.",
+    "en": "I'd like a prepaid SIM card.",
+    "zhHans": "我想要一张预付费卡。",
+    "zhHant": "我想要一張預付費卡。"
+  },
+  {
+    "id": "cartao-telemovel_internet-este-tarifario-tem-fidelizacao",
+    "situacao": "telemovel_internet",
+    "order": 293,
+    "pt": "Este tarifário tem fidelização?",
+    "en": "Does this plan have a lock-in period?",
+    "zhHans": "这个套餐有合约期吗？",
+    "zhHant": "這個方案有綁約期嗎？"
+  },
+  {
+    "id": "cartao-telemovel_internet-a-internet-esta-sempre-a-falhar",
+    "situacao": "telemovel_internet",
+    "order": 294,
+    "pt": "A internet está sempre a falhar.",
+    "en": "The internet keeps dropping out.",
+    "zhHans": "网络总是断线。",
+    "zhHant": "網絡經常斷線。"
+  },
+  {
+    "id": "cartao-telemovel_internet-o-router-nao-tem-sinal",
+    "situacao": "telemovel_internet",
+    "order": 295,
+    "pt": "O router não tem sinal.",
+    "en": "The router has no signal.",
+    "zhHans": "路由器没有信号。",
+    "zhHant": "路由器沒有訊號。"
+  },
+  {
+    "id": "cartao-telemovel_internet-quando-pode-vir-o-tecnico",
+    "situacao": "telemovel_internet",
+    "order": 296,
+    "pt": "Quando pode vir o técnico?",
+    "en": "When can the technician come?",
+    "zhHans": "技术人员什么时候能来？",
+    "zhHant": "技術人員甚麼時候能來？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-posso-experimentar",
+    "situacao": "trocas_devolucoes",
+    "order": 297,
+    "pt": "Posso experimentar?",
+    "en": "May I try it on?",
+    "zhHans": "可以试穿吗？",
+    "zhHant": "可以試穿嗎？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-tem-este-modelo-noutro-tamanho",
+    "situacao": "trocas_devolucoes",
+    "order": 298,
+    "pt": "Tem este modelo noutro tamanho?",
+    "en": "Do you have this in another size?",
+    "zhHans": "这个款式有其他尺码吗？",
+    "zhHant": "這個款式有其他尺碼嗎？"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-queria-trocar-este-artigo",
+    "situacao": "trocas_devolucoes",
+    "order": 299,
+    "pt": "Queria trocar este artigo.",
+    "en": "I'd like to exchange this item.",
+    "zhHans": "我想换这件商品。",
+    "zhHant": "我想換這件商品。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-o-produto-veio-com-defeito",
+    "situacao": "trocas_devolucoes",
+    "order": 300,
+    "pt": "O produto veio com defeito.",
+    "en": "The product arrived defective.",
+    "zhHans": "商品到货时有瑕疵。",
+    "zhHant": "商品到貨時有瑕疵。"
+  },
+  {
+    "id": "cartao-trocas_devolucoes-prefiro-o-reembolso",
+    "situacao": "trocas_devolucoes",
+    "order": 301,
+    "pt": "Prefiro o reembolso.",
+    "en": "I'd prefer a refund.",
+    "zhHans": "我想退款。",
+    "zhHant": "我想退款。"
+  },
+  {
+    "id": "cartao-policia_documentos-perdi-a-carteira",
+    "situacao": "policia_documentos",
+    "order": 302,
+    "pt": "Perdi a carteira.",
+    "en": "I lost my wallet.",
+    "zhHans": "我丢了钱包。",
+    "zhHant": "我遺失了銀包。"
+  },
+  {
+    "id": "cartao-policia_documentos-o-meu-telemovel-foi-roubado",
+    "situacao": "policia_documentos",
+    "order": 303,
+    "pt": "O meu telemóvel foi roubado.",
+    "en": "My phone was stolen.",
+    "zhHans": "我的手机被盗了。",
+    "zhHant": "我的手機被盜了。"
+  },
+  {
+    "id": "cartao-policia_documentos-quero-apresentar-uma-denuncia",
+    "situacao": "policia_documentos",
+    "order": 304,
+    "pt": "Quero apresentar uma denúncia.",
+    "en": "I want to file a police report.",
+    "zhHans": "我要报案。",
+    "zhHant": "我要報案。"
+  },
+  {
+    "id": "cartao-policia_documentos-preciso-de-uma-copia-do-auto",
+    "situacao": "policia_documentos",
+    "order": 305,
+    "pt": "Preciso de uma cópia do auto.",
+    "en": "I need a copy of the report.",
+    "zhHans": "我需要报告副本。",
+    "zhHant": "我需要報告副本。"
+  },
+  {
+    "id": "cartao-policia_documentos-qual-e-o-numero-da-ocorrencia",
+    "situacao": "policia_documentos",
+    "order": 306,
+    "pt": "Qual é o número da ocorrência?",
+    "en": "What is the incident reference number?",
+    "zhHans": "事件编号是多少？",
+    "zhHant": "事件編號是多少？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-quero-alterar-e-confirmar-a-morada-do-cartao-de-cidadao",
+    "situacao": "espaco_cidadao",
+    "order": 307,
+    "purpose": "other-service",
+    "pt": "Quero alterar e confirmar a morada do Cartão de Cidadão.",
+    "en": "I want to change and confirm the address on my Citizen Card.",
+    "zhHans": "我想更改并确认公民卡地址。",
+    "zhHant": "我想更改並確認公民證地址。"
+  },
+  {
+    "id": "cartao-espaco_cidadao-este-balcao-faz-renovacao-da-carta-de-conducao",
+    "situacao": "espaco_cidadao",
+    "order": 308,
+    "purpose": "availability",
+    "pt": "Este balcão faz renovação da carta de condução?",
+    "en": "Does this desk renew driving licences?",
+    "zhHans": "这个服务台可以续期驾驶证吗？",
+    "zhHant": "這個服務台可以續期駕駛執照嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-falta-algum-documento-para-concluir-o-servico",
+    "situacao": "espaco_cidadao",
+    "order": 309,
+    "purpose": "documents",
+    "pt": "Falta algum documento para concluir o serviço?",
+    "en": "Is any document missing to complete the service?",
+    "zhHans": "办完这项服务还缺什么文件吗？",
+    "zhHant": "辦妥這項服務還欠甚麼文件嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-este-servico-tem-algum-custo",
+    "situacao": "espaco_cidadao",
+    "order": 310,
+    "purpose": "cost",
+    "pt": "Este serviço tem algum custo?",
+    "en": "Is there a fee for this service?",
+    "zhHans": "这项服务收费吗？",
+    "zhHant": "這項服務收費嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-pode-mostrar-me-como-fazer-isto-online-da-proxima-vez",
+    "situacao": "espaco_cidadao",
+    "order": 311,
+    "purpose": "assistance",
+    "pt": "Pode mostrar-me como fazer isto online da próxima vez?",
+    "en": "Can you show me how to do this online next time?",
+    "zhHans": "可以教我下次怎样在线办理吗？",
+    "zhHant": "可以教我下次怎樣在網上辦理嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-pode-repetir-o-ultimo-passo-mais-devagar",
+    "situacao": "espaco_cidadao",
+    "order": 312,
+    "purpose": "recovery",
+    "pt": "Pode repetir o último passo mais devagar?",
+    "en": "Can you repeat the last step more slowly?",
+    "zhHans": "可以慢一点重复最后一个步骤吗？",
+    "zhHant": "可以慢一點重複最後一個步驟嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-preciso-de-confirmar-a-alteracao-depois",
+    "situacao": "espaco_cidadao",
+    "order": 313,
+    "purpose": "confirmation",
+    "pt": "Preciso de confirmar a alteração depois?",
+    "en": "Do I need to confirm the change afterwards?",
+    "zhHans": "之后还需要确认更改吗？",
+    "zhHant": "之後還需要確認更改嗎？"
+  },
+  {
+    "id": "cartao-espaco_cidadao-onde-posso-consultar-o-estado-deste-pedido",
+    "situacao": "espaco_cidadao",
+    "order": 314,
+    "purpose": "tracking",
+    "pt": "Onde posso consultar o estado deste pedido?",
+    "en": "Where can I check the status of this request?",
+    "zhHans": "在哪里可以查询这项申请的状态？",
+    "zhHant": "在哪裡可以查詢這項申請的狀態？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-posso-conduzir-em-portugal-com-esta-carta",
+    "situacao": "imt_carta_conducao",
+    "order": 315,
+    "purpose": "eligibility",
+    "pt": "Posso conduzir em Portugal com esta carta?",
+    "en": "Can I drive in Portugal with this licence?",
+    "zhHans": "我可以持这本驾驶证在葡萄牙驾驶吗？",
+    "zhHant": "我可以持這本駕駛執照在葡萄牙駕駛嗎？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-qual-e-o-prazo-para-fazer-a-troca",
+    "situacao": "imt_carta_conducao",
+    "order": 316,
+    "purpose": "deadline",
+    "pt": "Qual é o prazo para fazer a troca?",
+    "en": "What is the deadline for exchanging it?",
+    "zhHans": "换领期限是多久？",
+    "zhHant": "換領期限是多久？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-preciso-de-ir-a-um-balcao-ou-basta-o-pedido-online",
+    "situacao": "imt_carta_conducao",
+    "order": 317,
+    "purpose": "appointment",
+    "pt": "Preciso de ir a um balcão ou basta o pedido online?",
+    "en": "Must I visit a desk, or is the online application enough?",
+    "zhHans": "需要到服务台办理，还是在线申请即可？",
+    "zhHant": "需要到服務櫃位辦理，還是網上申請即可？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-qual-destes-documentos-ainda-falta",
+    "situacao": "imt_carta_conducao",
+    "order": 318,
+    "purpose": "documents",
+    "pt": "Qual destes documentos ainda falta?",
+    "en": "Which of these documents is still missing?",
+    "zhHans": "这些文件中还缺哪一份？",
+    "zhHant": "這些文件中還欠哪一份？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-onde-encontro-a-referencia-para-pagar",
+    "situacao": "imt_carta_conducao",
+    "order": 319,
+    "purpose": "payment",
+    "pt": "Onde encontro a referência para pagar?",
+    "en": "Where can I find the payment reference?",
+    "zhHans": "在哪里可以找到付款编号？",
+    "zhHant": "在哪裡可以找到付款編號？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-recebo-algum-comprovativo-enquanto-espero-pela-nova-carta",
+    "situacao": "imt_carta_conducao",
+    "order": 320,
+    "purpose": "temporary-proof",
+    "pt": "Recebo algum comprovativo enquanto espero pela nova carta?",
+    "en": "Will I receive proof while waiting for the new licence?",
+    "zhHans": "等待新驾驶证期间会收到临时凭证吗？",
+    "zhHant": "等候新駕駛執照期間會收到臨時證明嗎？"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-recebi-um-pedido-de-documentos-adicionais",
+    "situacao": "imt_carta_conducao",
+    "order": 321,
+    "purpose": "problem",
+    "pt": "Recebi um pedido de documentos adicionais.",
+    "en": "I received a request for additional documents.",
+    "zhHans": "我收到补交文件的通知。",
+    "zhHant": "我收到補交文件的通知。"
+  },
+  {
+    "id": "cartao-imt_carta_conducao-a-referencia-do-meu-pedido-e-esta",
+    "situacao": "imt_carta_conducao",
+    "order": 322,
+    "purpose": "tracking",
+    "pt": "A referência do meu pedido é esta.",
+    "en": "This is my application reference.",
+    "zhHans": "这是我的申请编号。",
+    "zhHant": "這是我的申請編號。"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-quero-pedir-uma-certidao-de-nascimento-em-papel",
+    "situacao": "conservatoria_registo_civil",
+    "order": 323,
+    "purpose": "other-service",
+    "pt": "Quero pedir uma certidão de nascimento em papel.",
+    "en": "I want to request a paper birth certificate.",
+    "zhHans": "我想申请纸质出生证明。",
+    "zhHant": "我想申請紙本出生證明書。"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-preciso-de-uma-certidao-de-copia-integral",
+    "situacao": "conservatoria_registo_civil",
+    "order": 324,
+    "purpose": "format",
+    "pt": "Preciso de uma certidão de cópia integral.",
+    "en": "I need a full-form certificate.",
+    "zhHans": "我需要完整副本证明。",
+    "zhHant": "我需要完整副本證明書。"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-posso-receber-um-codigo-de-acesso-a-certidao-online",
+    "situacao": "conservatoria_registo_civil",
+    "order": 325,
+    "purpose": "format",
+    "pt": "Posso receber um código de acesso à certidão online?",
+    "en": "Can I receive an access code for the online certificate?",
+    "zhHans": "可以取得在线证明的访问码吗？",
+    "zhHant": "可以取得網上證明書的存取碼嗎？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-quanto-custa-esta-certidao",
+    "situacao": "conservatoria_registo_civil",
+    "order": 326,
+    "purpose": "cost",
+    "pt": "Quanto custa esta certidão?",
+    "en": "How much does this certificate cost?",
+    "zhHans": "这份证明多少钱？",
+    "zhHant": "這份證明書多少錢？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-ha-um-erro-no-nome-que-consta-do-registo",
+    "situacao": "conservatoria_registo_civil",
+    "order": 327,
+    "purpose": "correction",
+    "pt": "Há um erro no nome que consta do registo.",
+    "en": "There is an error in the name recorded in the registry.",
+    "zhHans": "登记中的姓名有错误。",
+    "zhHant": "登記中的姓名有錯誤。"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-como-posso-entregar-o-documento-que-falta",
+    "situacao": "conservatoria_registo_civil",
+    "order": 328,
+    "purpose": "documents",
+    "pt": "Como posso entregar o documento que falta?",
+    "en": "How can I provide the missing document?",
+    "zhHans": "怎样补交缺少的文件？",
+    "zhHant": "怎樣補交欠缺的文件？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-a-certidao-e-enviada-ou-tenho-de-a-levantar",
+    "situacao": "conservatoria_registo_civil",
+    "order": 329,
+    "purpose": "collection",
+    "pt": "A certidão é enviada ou tenho de a levantar?",
+    "en": "Will the certificate be sent, or must I collect it?",
+    "zhHans": "证明会寄出，还是需要领取？",
+    "zhHant": "證明書會寄出，還是需要領取？"
+  },
+  {
+    "id": "cartao-conservatoria_registo_civil-quero-saber-em-que-estado-esta-o-processo",
+    "situacao": "conservatoria_registo_civil",
+    "order": 330,
+    "purpose": "tracking",
+    "pt": "Quero saber em que estado está o processo.",
+    "en": "I want to know the current status of the case.",
+    "zhHans": "我想查询手续的当前状态。",
+    "zhHant": "我想查詢手續的目前狀態。"
+  },
+  {
+    "id": "cartao-camara_municipal-quero-pedir-um-distico-de-estacionamento-para-residente",
+    "situacao": "camara_municipal",
+    "order": 331,
+    "purpose": "parking",
+    "pt": "Quero pedir um dístico de estacionamento para residente.",
+    "en": "I want to apply for a resident parking permit.",
+    "zhHans": "我想申请居民停车证。",
+    "zhHant": "我想申請居民泊車證。"
+  },
+  {
+    "id": "cartao-camara_municipal-como-marco-a-recolha-de-um-sofa-e-de-um-colchao",
+    "situacao": "camara_municipal",
+    "order": 332,
+    "purpose": "waste",
+    "pt": "Como marco a recolha de um sofá e de um colchão?",
+    "en": "How do I arrange collection of a sofa and mattress?",
+    "zhHans": "怎样预约收取沙发和床垫？",
+    "zhHant": "怎樣預約收取梳化和床褥？"
+  },
+  {
+    "id": "cartao-camara_municipal-preciso-de-licenca-para-fazer-estas-obras",
+    "situacao": "camara_municipal",
+    "order": 333,
+    "purpose": "licence",
+    "pt": "Preciso de licença para fazer estas obras?",
+    "en": "Do I need a permit for this building work?",
+    "zhHans": "进行这些工程需要许可证吗？",
+    "zhHant": "進行這些工程需要許可證嗎？"
+  },
+  {
+    "id": "cartao-camara_municipal-quero-apresentar-uma-reclamacao-por-causa-do-ruido",
+    "situacao": "camara_municipal",
+    "order": 334,
+    "purpose": "noise",
+    "pt": "Quero apresentar uma reclamação por causa do ruído.",
+    "en": "I want to make a complaint about noise.",
+    "zhHans": "我想投诉噪音问题。",
+    "zhHant": "我想投訴噪音問題。"
+  },
+  {
+    "id": "cartao-camara_municipal-este-assunto-precisa-de-marcacao-no-atendimento-municipal",
+    "situacao": "camara_municipal",
+    "order": 335,
+    "purpose": "appointment",
+    "pt": "Este assunto precisa de marcação no atendimento municipal?",
+    "en": "Does this matter require an appointment at the municipal office?",
+    "zhHans": "这项事务需要预约市政府服务吗？",
+    "zhHant": "這項事務需要預約市政府服務嗎？"
+  },
+  {
+    "id": "cartao-camara_municipal-que-comprovativos-tenho-de-juntar-ao-requerimento",
+    "situacao": "camara_municipal",
+    "order": 336,
+    "purpose": "documents",
+    "pt": "Que comprovativos tenho de juntar ao requerimento?",
+    "en": "Which supporting documents must I attach to the application?",
+    "zhHans": "申请需要附上哪些证明文件？",
+    "zhHant": "申請需要附上哪些證明文件？"
+  },
+  {
+    "id": "cartao-camara_municipal-onde-posso-consultar-as-taxas-municipais",
+    "situacao": "camara_municipal",
+    "order": 337,
+    "purpose": "cost",
+    "pt": "Onde posso consultar as taxas municipais?",
+    "en": "Where can I check the municipal fees?",
+    "zhHans": "在哪里可以查询市政费用？",
+    "zhHant": "在哪裡可以查詢市政費用？"
+  },
+  {
+    "id": "cartao-camara_municipal-ainda-nao-recebi-resposta-ao-meu-requerimento",
+    "situacao": "camara_municipal",
+    "order": 338,
+    "purpose": "tracking",
+    "pt": "Ainda não recebi resposta ao meu requerimento.",
+    "en": "I have not yet received a response to my application.",
+    "zhHans": "我的申请还没有收到回复。",
+    "zhHant": "我的申請還沒有收到回覆。"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-o-meu-diploma-consta-da-lista-de-reconhecimento-automatico",
+    "situacao": "reconhecimento_diplomas",
+    "order": 339,
+    "purpose": "route",
+    "pt": "O meu diploma consta da lista de reconhecimento automático?",
+    "en": "Is my diploma on the automatic-recognition list?",
+    "zhHans": "我的文凭在自动认可名单中吗？",
+    "zhHant": "我的文憑在自動認可名單中嗎？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-esta-e-uma-profissao-regulamentada-em-portugal",
+    "situacao": "reconhecimento_diplomas",
+    "order": 340,
+    "purpose": "profession",
+    "pt": "Esta é uma profissão regulamentada em Portugal?",
+    "en": "Is this a regulated profession in Portugal?",
+    "zhHans": "这是葡萄牙的受监管职业吗？",
+    "zhHant": "這是葡萄牙的受規管職業嗎？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-aceitam-estes-documentos-em-ingles-ou-precisam-de-traducao",
+    "situacao": "reconhecimento_diplomas",
+    "order": 341,
+    "purpose": "translation",
+    "pt": "Aceitam estes documentos em inglês ou precisam de tradução?",
+    "en": "Do you accept these documents in English, or is a translation required?",
+    "zhHans": "这些英文文件可以接受，还是需要翻译？",
+    "zhHant": "這些英文文件可以接受，還是需要翻譯？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-ja-paguei-onde-envio-o-comprovativo",
+    "situacao": "reconhecimento_diplomas",
+    "order": 342,
+    "purpose": "payment",
+    "pt": "Já paguei. Onde envio o comprovativo?",
+    "en": "I have paid. Where do I send the receipt?",
+    "zhHans": "我已经付款。付款凭证要发到哪里？",
+    "zhHant": "我已經付款。付款證明要傳送到哪裡？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-o-formulario-da-erro-quando-tento-anexar-o-diploma",
+    "situacao": "reconhecimento_diplomas",
+    "order": 343,
+    "purpose": "problem",
+    "pt": "O formulário dá erro quando tento anexar o diploma.",
+    "en": "The form shows an error when I try to attach the diploma.",
+    "zhHans": "上传文凭时表格显示错误。",
+    "zhHant": "上載文憑時表格顯示錯誤。"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-posso-acrescentar-um-documento-ao-pedido-ja-submetido",
+    "situacao": "reconhecimento_diplomas",
+    "order": 344,
+    "purpose": "documents",
+    "pt": "Posso acrescentar um documento ao pedido já submetido?",
+    "en": "Can I add a document to an application already submitted?",
+    "zhHans": "已提交的申请可以补充文件吗？",
+    "zhHant": "已提交的申請可以補充文件嗎？"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-tambem-quero-pedir-a-conversao-da-classificacao-final",
+    "situacao": "reconhecimento_diplomas",
+    "order": 345,
+    "purpose": "grade",
+    "pt": "Também quero pedir a conversão da classificação final.",
+    "en": "I also want to request conversion of my final grade.",
+    "zhHans": "我还想申请最终成绩换算。",
+    "zhHant": "我還想申請最終成績換算。"
+  },
+  {
+    "id": "cartao-reconhecimento_diplomas-vou-contactar-a-instituicao-e-indicar-a-referencia-do-pedido",
+    "situacao": "reconhecimento_diplomas",
+    "order": 346,
+    "purpose": "tracking",
+    "pt": "Vou contactar a instituição e indicar a referência do pedido.",
+    "en": "I will contact the institution and give the application reference.",
+    "zhHans": "我会联系负责机构并提供申请编号。",
+    "zhHant": "我會聯絡負責機構並提供申請編號。"
+  },
+  {
+    "id": "cartao-consulado_documentos-quero-renovar-o-passaporte-que-documentos-devo-levar",
+    "situacao": "consulado_documentos",
+    "order": 347,
+    "purpose": "passport",
+    "pt": "Quero renovar o passaporte. Que documentos devo levar?",
+    "en": "I want to renew my passport. Which documents should I bring?",
+    "zhHans": "我想续期护照。需要带哪些文件？",
+    "zhHant": "我想續期護照。需要帶哪些文件？"
+  },
+  {
+    "id": "cartao-consulado_documentos-perdi-o-passaporte-e-preciso-de-viajar-com-urgencia",
+    "situacao": "consulado_documentos",
+    "order": 348,
+    "purpose": "emergency",
+    "pt": "Perdi o passaporte e preciso de viajar com urgência.",
+    "en": "I lost my passport and need to travel urgently.",
+    "zhHans": "我丢了护照，需要紧急出行。",
+    "zhHant": "我遺失了護照，需要緊急出行。"
+  },
+  {
+    "id": "cartao-consulado_documentos-este-documento-precisa-de-apostila-ou-de-legalizacao-consular",
+    "situacao": "consulado_documentos",
+    "order": 349,
+    "purpose": "legalisation",
+    "pt": "Este documento precisa de apostila ou de legalização consular?",
+    "en": "Does this document need an apostille or consular legalisation?",
+    "zhHans": "这份文件需要海牙认证还是领事认证？",
+    "zhHant": "這份文件需要海牙認證還是領事認證？"
+  },
+  {
+    "id": "cartao-consulado_documentos-quero-reconhecer-a-minha-assinatura-neste-documento",
+    "situacao": "consulado_documentos",
+    "order": 350,
+    "purpose": "signature",
+    "pt": "Quero reconhecer a minha assinatura neste documento.",
+    "en": "I want to have my signature certified on this document.",
+    "zhHans": "我想认证这份文件上的签名。",
+    "zhHant": "我想核證這份文件上的簽名。"
+  },
+  {
+    "id": "cartao-consulado_documentos-quero-registar-em-portugal-o-meu-casamento-no-estrangeiro",
+    "situacao": "consulado_documentos",
+    "order": 351,
+    "purpose": "civil-record",
+    "pt": "Quero registar em Portugal o meu casamento no estrangeiro.",
+    "en": "I want to register my foreign marriage in Portugal.",
+    "zhHans": "我想在葡萄牙登记我的境外婚姻。",
+    "zhHant": "我想在葡萄牙登記我的海外婚姻。"
+  },
+  {
+    "id": "cartao-consulado_documentos-nao-encontro-horarios-disponiveis-para-marcacao",
+    "situacao": "consulado_documentos",
+    "order": 352,
+    "purpose": "appointment",
+    "pt": "Não encontro horários disponíveis para marcação.",
+    "en": "I cannot find any available appointment times.",
+    "zhHans": "我找不到可预约的时间。",
+    "zhHant": "我找不到可預約的時間。"
+  },
+  {
+    "id": "cartao-consulado_documentos-pode-confirmar-se-esta-copia-tem-de-ser-autenticada",
+    "situacao": "consulado_documentos",
+    "order": 353,
+    "purpose": "documents",
+    "pt": "Pode confirmar se esta cópia tem de ser autenticada?",
+    "en": "Can you confirm whether this copy must be certified?",
+    "zhHans": "可以确认这份副本是否需要认证吗？",
+    "zhHant": "可以確認這份副本是否需要核證嗎？"
+  },
+  {
+    "id": "cartao-consulado_documentos-como-acompanho-o-pedido-depois-de-o-entregar",
+    "situacao": "consulado_documentos",
+    "order": 354,
+    "purpose": "tracking",
+    "pt": "Como acompanho o pedido depois de o entregar?",
+    "en": "How can I track the request after submitting it?",
+    "zhHans": "提交后怎样查询申请进度？",
+    "zhHant": "提交後怎樣查詢申請進度？"
   }
 ];

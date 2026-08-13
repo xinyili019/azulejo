@@ -12,6 +12,8 @@ const situacoesOutputDir = join(outputDir, "situacoes");
 const dialogoOutputDir = join(situacoesOutputDir, "dialogo");
 const cartaoOutputDir = join(situacoesOutputDir, "cartao");
 const force = process.argv.includes("--force");
+const onlyArgument = process.argv.find((argument) => argument.startsWith("--only="));
+const onlyIds = onlyArgument ? new Set(onlyArgument.slice("--only=".length).split(",").filter(Boolean)) : null;
 const voice = process.env.AZULEJO_TTS_VOICE ?? "Joana";
 
 const source = readFileSync(sourcePath, "utf8");
@@ -80,6 +82,7 @@ let generatedSituacaoLines = 0;
 let skippedSituacaoLines = 0;
 
 for (const entry of entries) {
+  if (onlyIds && !onlyIds.has(entry.id)) continue;
   const outputPath = join(outputDir, `${entry.audioId}.m4a`);
   if (!force && exists(outputPath)) {
     skippedWords += 1;
@@ -98,6 +101,7 @@ for (const entry of entries) {
 }
 
 for (const entry of situacaoWordEntries.values()) {
+  if (onlyIds && !onlyIds.has(entry.id)) continue;
   const outputPath = join(outputDir, `${entry.audioId}.m4a`);
   if (!force && exists(outputPath)) {
     skippedWords += 1;
@@ -118,6 +122,7 @@ for (const entry of situacaoWordEntries.values()) {
 }
 
 for (const line of situacaoDialogueLines) {
+  if (onlyIds && !onlyIds.has(line.id)) continue;
   const outputPath = join(dialogoOutputDir, `${line.id}.m4a`);
   if (!force && exists(outputPath)) {
     skippedSituacaoLines += 1;
@@ -128,6 +133,7 @@ for (const line of situacaoDialogueLines) {
 }
 
 for (const line of situacaoCheatSheetLines) {
+  if (onlyIds && !onlyIds.has(line.id)) continue;
   const outputPath = join(cartaoOutputDir, `${line.id}.m4a`);
   if (!force && exists(outputPath)) {
     skippedSituacaoLines += 1;

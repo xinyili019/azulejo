@@ -85,16 +85,16 @@ const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
 const SUPPORTED_DIRECTIONS = new Set<Direction>(LANGUAGE_OPTIONS.map((option) => option.value));
 const MODULE_THEME_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
   "Módulo 1": { en: "Basics", zhHans: "基础", zhHant: "基礎" },
-  "Módulo 2": { en: "Daily", zhHans: "日常", zhHant: "日常" },
+  "Módulo 2": { en: "Routines", zhHans: "作息", zhHant: "作息" },
   "Módulo 3": { en: "Food", zhHans: "饮食", zhHant: "飲食" },
   "Módulo 4": { en: "Leisure", zhHans: "休闲", zhHant: "休閒" },
   "Módulo 5": { en: "Services", zhHans: "办事", zhHant: "辦事" },
   "Módulo 6": { en: "Health", zhHans: "健康", zhHant: "健康" },
-  "Módulo 7": { en: "Work", zhHans: "工作", zhHant: "工作" },
+  "Módulo 7": { en: "Workplace", zhHans: "职场", zhHant: "職場" },
   "Módulo 8": { en: "Jobs", zhHans: "求职", zhHant: "求職" },
-  "Módulo 9": { en: "Places", zhHans: "地点", zhHant: "地點" },
-  "Módulo 10": { en: "Habits", zhHans: "习惯", zhHant: "習慣" },
-  "Módulo 11": { en: "Letters", zhHans: "信件", zhHant: "信件" },
+  "Módulo 9": { en: "People", zhHans: "描述", zhHant: "描述" },
+  "Módulo 10": { en: "Lifestyle", zhHans: "生活", zhHant: "生活" },
+  "Módulo 11": { en: "Writing", zhHans: "沟通", zhHant: "溝通" },
   "Módulo 12": { en: "Civic", zhHans: "公民", zhHant: "公民" }
 };
 const SITUACAO_TARGET_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", string>> = {
@@ -119,7 +119,21 @@ const SITUACAO_TARGET_LABELS: Record<string, Record<"en" | "zhHans" | "zhHant", 
   convivio: { en: "social gathering", zhHans: "聚会", zhHant: "聚會" },
   vizinhos: { en: "neighbours", zhHans: "邻居", zhHant: "鄰居" },
   cabeleireiro_barbeiro: { en: "hairdresser and barber", zhHans: "理发店", zhHant: "理髮店" },
-  farmacia: { en: "pharmacy", zhHans: "药房", zhHant: "藥房" }
+  farmacia: { en: "pharmacy", zhHans: "药房", zhHant: "藥房" },
+  supermercado_mercado: { en: "supermarket and market", zhHans: "超市与市场", zhHant: "超市與市場" },
+  cafe_restaurante: { en: "café and restaurant", zhHans: "咖啡馆与餐厅", zhHant: "咖啡店與餐廳" },
+  consultorio_medico: { en: "doctor's office", zhHans: "医生诊所", zhHant: "醫生診所" },
+  casa_reparacoes: { en: "home repairs", zhHans: "家居维修", zhHant: "家居維修" },
+  agua_luz_gas: { en: "water, electricity and gas", zhHans: "水电燃气", zhHant: "水電煤氣" },
+  telemovel_internet: { en: "mobile and internet", zhHans: "手机与网络", zhHant: "手機與網絡" },
+  trocas_devolucoes: { en: "exchanges and returns", zhHans: "换货与退货", zhHant: "換貨與退貨" },
+  policia_documentos: { en: "police and lost documents", zhHans: "警察与证件遗失", zhHant: "警察與證件遺失" },
+  espaco_cidadao: { en: "Citizen's Desk", zhHans: "市民服务中心", zhHant: "市民服務中心" },
+  imt_carta_conducao: { en: "IMT and driving licence", zhHans: "交通局与驾驶证", zhHant: "交通局與駕駛執照" },
+  conservatoria_registo_civil: { en: "registry and civil records", zhHans: "登记处与民事登记", zhHant: "登記處與民事登記" },
+  camara_municipal: { en: "city council", zhHans: "市政府", zhHant: "市政府" },
+  reconhecimento_diplomas: { en: "diploma recognition", zhHans: "文凭认可", zhHant: "文憑認可" },
+  consulado_documentos: { en: "consulate and foreign documents", zhHans: "领事馆与外国文件", zhHant: "領事館與外國文件" }
 };
 
 interface RetrievalState {
@@ -1690,6 +1704,7 @@ export default function App() {
         mode={appMode}
         situacaoGroups={situacaoGroups}
         getModuleThemeLabel={(moduleName) => getModuleThemeLabel(moduleName, ui.locale)}
+        getSituacaoLabel={(id, portugueseLabel) => getSituacaoTargetLabel(id, portugueseLabel, ui.locale)}
         onStartOver={handleStartOver}
       />
       {renderInstallControl()}
@@ -1831,8 +1846,17 @@ function getModuleThemeLabel(modulo: string, locale: "en" | "zhHans" | "zhHant")
 }
 
 function formatSituacaoOptionLabel(situacaoId: string, label: string, locale: "en" | "zhHans" | "zhHant") {
-  const targetLabel = SITUACAO_TARGET_LABELS[situacaoId]?.[locale];
-  return targetLabel ? `${label} - ${targetLabel}` : label;
+  const targetLabel = localizeSituacaoTargetLabel(SITUACAO_TARGET_LABELS[situacaoId]?.[locale], locale);
+  return targetLabel ? `${targetLabel} - ${label}` : label;
+}
+
+function getSituacaoTargetLabel(situacaoId: string, fallback: string, locale: "en" | "zhHans" | "zhHant") {
+  return localizeSituacaoTargetLabel(SITUACAO_TARGET_LABELS[situacaoId]?.[locale], locale) ?? fallback;
+}
+
+function localizeSituacaoTargetLabel(label: string | undefined, locale: "en" | "zhHans" | "zhHant") {
+  if (!label || locale !== "en") return label;
+  return `${label.charAt(0).toUpperCase()}${label.slice(1)}`;
 }
 
 function getSituacaoControlLabel(locale: "en" | "zhHans" | "zhHant") {

@@ -58,6 +58,7 @@ export interface SituacaoContentLine {
   en: string;
   zhHans: string;
   zhHant: string;
+  purpose?: string;
   note?: string;
 }
 

@@ -1467,6 +1467,11 @@ input[type="search"] {
   font-size: 0.9rem;
 }
 
+.module-progress .module-row {
+  grid-template-columns: minmax(0, 32%) minmax(0, 1fr) max-content;
+  gap: 8px;
+}
+
 .situacao-readiness-row {
   grid-template-columns: minmax(0, 38%) minmax(0, 1fr) max-content;
 }
