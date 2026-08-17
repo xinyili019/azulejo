@@ -677,6 +677,23 @@ console.log(`Audio IDs written to ${audioIdsPath}.`);
 
 function validateContent(ids, dialogueLines, cardLines) {
   const errors = [];
+  const cardStructurePatterns = [
+    /^Queria informações sobre /u,
+    /^Pode dar-me informações sobre /u,
+    /^Preciso de esclarecer uma dúvida sobre /u,
+    /^Com quem devo falar sobre /u,
+    /^Onde posso encontrar informações sobre /u,
+    /^Gostaria de saber mais sobre /u,
+    /^Quem me pode orientar sobre /u,
+    /^Tenho uma questão relacionada com /u,
+    /^Consegue ajudar-me com uma dúvida sobre /u,
+    /^A quem posso pedir esclarecimentos sobre /u,
+    /^Pode explicar-me melhor o que preciso de saber sobre /u,
+    /^Onde posso obter ajuda para questões sobre /u,
+    /^Preciso de confirmar uma informação sobre /u,
+    /^Há algum guia disponível sobre /u,
+    /^Existe algum serviço de apoio para dúvidas sobre /u
+  ];
   for (const id of ids) {
     const situationDialogues = dialogueLines.filter((line) => line.situacao === id);
     const situationCards = cardLines.filter((line) => line.situacao === id);
@@ -688,6 +705,18 @@ function validateContent(ids, dialogueLines, cardLines) {
     const dialogueKeys = new Set(situationDialogues.map((line) => normalize(line.pt)));
     const overlap = situationCards.filter((line) => dialogueKeys.has(normalize(line.pt))).length;
     if (overlap > 2) errors.push(`${id}: ${overlap} repeated lines across dialogue and card.`);
+    for (const pattern of cardStructurePatterns) {
+      const matches = situationCards.filter((line) => pattern.test(line.pt));
+      if (matches.length > 1) errors.push(`${id}: repeated Cartão sentence structure "${matches[0].pt}".`);
+    }
+    const structureCounts = new Map();
+    for (const line of situationCards) {
+      const structure = normalize(line.pt).split(" ").slice(0, 5).join(" ");
+      structureCounts.set(structure, (structureCounts.get(structure) ?? 0) + 1);
+    }
+    for (const [structure, count] of structureCounts) {
+      if (count > 1) errors.push(`${id}: Cartão structure starts ${count} times with "${structure}".`);
+    }
   }
 
   const occurrences = new Map();
@@ -721,7 +750,12 @@ function createFallbackCard(row, index, situationId) {
         [`Preciso de ajuda para ${action}.`, `I need help to ${englishAction(row.en)}.`, `我需要协助${row.zhHans}。`, `我需要協助${row.zhHant}。`],
         [`É possível ${action} aqui?`, `Is it possible to ${englishAction(row.en)} here?`, `可以在这里${row.zhHans}吗？`, `可以在這裡${row.zhHant}嗎？`],
         [`Pode explicar-me o que devo fazer para ${action}?`, `Could you explain what I need to do to ${englishAction(row.en)}?`, `可以说明我要怎样${row.zhHans}吗？`, `可以說明我要怎樣${row.zhHant}嗎？`],
-        [`Queria ${action}, por favor.`, `I would like to ${englishAction(row.en)}, please.`, `我想${row.zhHans}。`, `我想${row.zhHant}。`]
+        [`Queria ${action}, por favor.`, `I would like to ${englishAction(row.en)}, please.`, `我想${row.zhHans}。`, `我想${row.zhHant}。`],
+        [`Pode ajudar-me a ${action}?`, `Can you help me to ${englishAction(row.en)}?`, `您能帮我${row.zhHans}吗？`, `您能幫我${row.zhHant}嗎？`],
+        [`Não sei como ${action}. Pode explicar-me?`, `I do not know how to ${englishAction(row.en)}. Could you explain?`, `我不知道怎样${row.zhHans}。您能说明吗？`, `我不知道怎樣${row.zhHant}。您能說明嗎？`],
+        [`Quem me pode ajudar a ${action}?`, `Who can help me to ${englishAction(row.en)}?`, `谁可以帮我${row.zhHans}？`, `誰可以幫我${row.zhHant}？`],
+        [`Preciso de orientação para ${action}.`, `I need guidance on how to ${englishAction(row.en)}.`, `我需要有人指导我怎样${row.zhHans}。`, `我需要有人指導我怎樣${row.zhHant}。`],
+        [`Pode mostrar-me como ${action}?`, `Could you show me how to ${englishAction(row.en)}?`, `您能给我演示怎样${row.zhHans}吗？`, `您能給我示範怎樣${row.zhHant}嗎？`]
       ]
     : workConcrete
       ? [[
@@ -735,7 +769,17 @@ function createFallbackCard(row, index, situationId) {
           [`Pode dar-me informações sobre ${row.pt}?`, `Could you give me information about ${row.en}?`, `可以告诉我有关${row.zhHans}的信息吗？`, `可以告訴我有關${row.zhHant}的資訊嗎？`],
           [`Preciso de esclarecer uma dúvida sobre ${row.pt}.`, `I have a question about ${row.en}.`, `我需要咨询有关${row.zhHans}的问题。`, `我需要查詢有關${row.zhHant}的問題。`],
           [`Com quem devo falar sobre ${row.pt}?`, `Who should I speak to about ${row.en}?`, `关于${row.zhHans}，我应该和谁联系？`, `關於${row.zhHant}，我應該聯絡誰？`],
-          [`Onde posso encontrar informações sobre ${row.pt}?`, `Where can I find information about ${row.en}?`, `我可以在哪里查到有关${row.zhHans}的信息？`, `我可以在哪裡查到有關${row.zhHant}的資訊？`]
+          [`Onde posso encontrar informações sobre ${row.pt}?`, `Where can I find information about ${row.en}?`, `我可以在哪里查到有关${row.zhHans}的信息？`, `我可以在哪裡查到有關${row.zhHant}的資訊？`],
+          [`Gostaria de saber mais sobre ${row.pt}.`, `I would like to know more about ${row.en}.`, `我想进一步了解${row.zhHans}。`, `我想進一步了解${row.zhHant}。`],
+          [`Quem me pode orientar sobre ${row.pt}?`, `Who can advise me about ${row.en}?`, `关于${row.zhHans}，谁可以给我指引？`, `關於${row.zhHant}，誰可以給我指引？`],
+          [`Tenho uma questão relacionada com ${row.pt}.`, `I have a question related to ${row.en}.`, `我有一个与${row.zhHans}有关的问题。`, `我有一個與${row.zhHant}有關的問題。`],
+          [`Consegue ajudar-me com uma dúvida sobre ${row.pt}?`, `Can you help me with a question about ${row.en}?`, `您能帮我解答一个有关${row.zhHans}的问题吗？`, `您能幫我解答一個有關${row.zhHant}的問題嗎？`],
+          [`A quem posso pedir esclarecimentos sobre ${row.pt}?`, `Who can I ask for clarification about ${row.en}?`, `关于${row.zhHans}，我可以向谁咨询？`, `關於${row.zhHant}，我可以向誰查詢？`],
+          [`Pode explicar-me melhor o que preciso de saber sobre ${row.pt}?`, `Could you explain what I need to know about ${row.en}?`, `您能说明我需要了解${row.zhHans}的哪些信息吗？`, `您能說明我需要了解${row.zhHant}的哪些資訊嗎？`],
+          [`Onde posso obter ajuda para questões sobre ${row.pt}?`, `Where can I get help with questions about ${row.en}?`, `我可以在哪里获得有关${row.zhHans}的帮助？`, `我可以在哪裡獲得有關${row.zhHant}的協助？`],
+          [`Preciso de confirmar uma informação sobre ${row.pt}.`, `I need to confirm some information about ${row.en}.`, `我需要确认一些有关${row.zhHans}的信息。`, `我需要確認一些有關${row.zhHant}的資訊。`],
+          [`Há algum guia disponível sobre ${row.pt}?`, `Is there a guide available about ${row.en}?`, `有关于${row.zhHans}的指南吗？`, `有關於${row.zhHant}的指南嗎？`],
+          [`Existe algum serviço de apoio para dúvidas sobre ${row.pt}?`, `Is there a support service for questions about ${row.en}?`, `有解答${row.zhHans}相关问题的支持服务吗？`, `有解答${row.zhHant}相關問題的支援服務嗎？`]
         ];
   const [pt, en, zhHans, zhHant] = templates[index % templates.length];
   return { pt, en, zhHans, zhHant };

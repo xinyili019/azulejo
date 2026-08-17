@@ -24332,10 +24332,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-seguranca-social-como-peco-o-abono-de-familia-para-o-meu-filho",
     "situacao": "seguranca_social",
     "order": 135,
-    "pt": "Como peço o abono de família para o meu filho?",
-    "en": "How do I apply for family allowance for my child?",
-    "zhHans": "怎么给孩子申请家庭津贴？",
-    "zhHant": "怎麼給孩子申請家庭津貼？"
+    "pt": "Quero pedir o abono de família para o meu filho. O que tenho de fazer?",
+    "en": "I want to apply for family allowance for my child. What do I need to do?",
+    "zhHans": "我想给孩子申请家庭津贴。我需要怎么做？",
+    "zhHant": "我想給孩子申請家庭津貼。我需要怎麼做？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-arrendamento-o-esquentador-esta-avariado-pode-mandar-arranjar",
@@ -24431,10 +24432,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-trabalho-hotelaria-o-hospede-do-n-pediu-um-berco-uma-cama-extra",
     "situacao": "trabalho_hotelaria",
     "order": 146,
-    "pt": "O hóspede do [n.º] pediu um berço / uma cama extra.",
-    "en": "The guest in [room] asked for a cot / extra bed.",
-    "zhHans": "[房号]的住客要一张婴儿床／加床。",
-    "zhHant": "[房號]的住客要一張嬰兒床／加床。"
+    "pt": "É preciso levar um berço ou uma cama extra ao quarto [n.º].",
+    "en": "A cot or an extra bed needs to be taken to room [no.].",
+    "zhHans": "需要把一张婴儿床或加床送到[房号]。",
+    "zhHant": "需要把一張嬰兒床或加床送到[房號]。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho-hotelaria-o-ar-condicionado-do-n-esta-avariado-chamo-a-manutenca",
@@ -26353,30 +26355,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "banco",
     "order": 356,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a transferência imediata?",
-    "en": "Where can I find information about instant transfer?",
-    "zhHans": "我可以在哪里查到有关即时转账的信息？",
-    "zhHant": "我可以在哪裡查到有關即時轉帳的資訊？"
+    "pt": "Gostaria de saber mais sobre a transferência imediata.",
+    "en": "I would like to know more about instant transfer.",
+    "zhHans": "我想进一步了解即时转账。",
+    "zhHant": "我想進一步了解即時轉帳。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-o-extrato-bancario",
     "situacao": "banco",
     "order": 357,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o extrato bancário?",
-    "en": "Where can I find information about bank statement?",
-    "zhHans": "我可以在哪里查到有关银行对账单的信息？",
-    "zhHant": "我可以在哪裡查到有關銀行對帳單的資訊？"
+    "pt": "Quem me pode orientar sobre o extrato bancário?",
+    "en": "Who can advise me about bank statement?",
+    "zhHans": "关于银行对账单，谁可以给我指引？",
+    "zhHant": "關於銀行對帳單，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-a-conta-poupanca",
     "situacao": "banco",
     "order": 358,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a conta poupança?",
-    "en": "Where can I find information about savings account?",
-    "zhHans": "我可以在哪里查到有关储蓄账户的信息？",
-    "zhHant": "我可以在哪裡查到有關儲蓄帳戶的資訊？"
+    "pt": "Tenho uma questão relacionada com a conta poupança.",
+    "en": "I have a question related to savings account.",
+    "zhHans": "我有一个与储蓄账户有关的问题。",
+    "zhHant": "我有一個與儲蓄帳戶有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-banco-pode-dar-me-informacoes-sobre-o-limite-de-levantamento",
@@ -26393,40 +26398,44 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "banco",
     "order": 360,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a assinatura?",
-    "en": "Where can I find information about signature?",
-    "zhHans": "我可以在哪里查到有关签名的信息？",
-    "zhHant": "我可以在哪裡查到有關簽名的資訊？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a assinatura?",
+    "en": "Can you help me with a question about signature?",
+    "zhHans": "您能帮我解答一个有关签名的问题吗？",
+    "zhHant": "您能幫我解答一個有關簽名的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-banco-pode-dar-me-informacoes-sobre-o-credito-habitacao",
     "situacao": "banco",
     "order": 361,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o crédito habitação?",
-    "en": "Could you give me information about mortgage?",
-    "zhHans": "可以告诉我有关房屋貸款的信息吗？",
-    "zhHant": "可以告訴我有關房屋貸款的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre o crédito habitação?",
+    "en": "Who can I ask for clarification about mortgage?",
+    "zhHans": "关于房屋貸款，我可以向谁咨询？",
+    "zhHant": "關於房屋貸款，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-banco-pode-dar-me-informacoes-sobre-o-titular-da-conta",
     "situacao": "banco",
     "order": 362,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o titular da conta?",
-    "en": "Could you give me information about account holder?",
-    "zhHans": "可以告诉我有关账户持有人的信息吗？",
-    "zhHant": "可以告訴我有關帳戶持有人的資訊嗎？"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre o titular da conta?",
+    "en": "Could you explain what I need to know about account holder?",
+    "zhHans": "您能说明我需要了解账户持有人的哪些信息吗？",
+    "zhHant": "您能說明我需要了解帳戶持有人的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-banco-onde-posso-encontrar-informacoes-sobre-o-mb-way",
     "situacao": "banco",
     "order": 363,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o MB Way?",
-    "en": "Where can I find information about MB Way (mobile payment app)?",
-    "zhHans": "我可以在哪里查到有关MB Way（手机支付应用）的信息？",
-    "zhHant": "我可以在哪裡查到有關MB Way（手機支付應用）的資訊？"
+    "pt": "Onde posso obter ajuda para questões sobre o MB Way?",
+    "en": "Where can I get help with questions about MB Way (mobile payment app)?",
+    "zhHans": "我可以在哪里获得有关MB Way（手机支付应用）的帮助？",
+    "zhHant": "我可以在哪裡獲得有關MB Way（手機支付應用）的協助？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-financas-onde-posso-encontrar-informacoes-sobre-o-recibo-verde-eletronico",
@@ -26453,60 +26462,66 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "financas",
     "order": 366,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o Portal das Finanças?",
-    "en": "Where can I find information about the Finanças online portal?",
-    "zhHans": "我可以在哪里查到有关财政入口网站的信息？",
-    "zhHant": "我可以在哪裡查到有關財政入口網站的資訊？"
+    "pt": "Gostaria de saber mais sobre o Portal das Finanças.",
+    "en": "I would like to know more about the Finanças online portal.",
+    "zhHans": "我想进一步了解财政入口网站。",
+    "zhHant": "我想進一步了解財政入口網站。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-financas-onde-posso-encontrar-informacoes-sobre-o-rendimento",
     "situacao": "financas",
     "order": 367,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o rendimento?",
-    "en": "Where can I find information about income?",
-    "zhHans": "我可以在哪里查到有关收入的信息？",
-    "zhHant": "我可以在哪裡查到有關收入的資訊？"
+    "pt": "Quem me pode orientar sobre o rendimento?",
+    "en": "Who can advise me about income?",
+    "zhHans": "关于收入，谁可以给我指引？",
+    "zhHant": "關於收入，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-financas-pode-dar-me-informacoes-sobre-o-certificado-digital",
     "situacao": "financas",
     "order": 368,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o certificado digital?",
-    "en": "Could you give me information about digital certificate?",
-    "zhHans": "可以告诉我有关数字证书的信息吗？",
-    "zhHant": "可以告訴我有關數字證書的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com o certificado digital.",
+    "en": "I have a question related to digital certificate.",
+    "zhHans": "我有一个与数字证书有关的问题。",
+    "zhHant": "我有一個與數字證書有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-financas-onde-posso-encontrar-informacoes-sobre-o-imi",
     "situacao": "financas",
     "order": 369,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o IMI?",
-    "en": "Where can I find information about property tax?",
-    "zhHans": "我可以在哪里查到有关房产税（IMI）的信息？",
-    "zhHant": "我可以在哪裡查到有關房產稅（IMI）的資訊？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre o IMI?",
+    "en": "Can you help me with a question about property tax?",
+    "zhHans": "您能帮我解答一个有关房产税（IMI）的问题吗？",
+    "zhHant": "您能幫我解答一個有關房產稅（IMI）的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-financas-pode-dar-me-informacoes-sobre-o-reembolso",
     "situacao": "financas",
     "order": 370,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o reembolso?",
-    "en": "Could you give me information about tax refund?",
-    "zhHans": "可以告诉我有关退税的信息吗？",
-    "zhHant": "可以告訴我有關退稅的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre o reembolso?",
+    "en": "Who can I ask for clarification about tax refund?",
+    "zhHans": "关于退税，我可以向谁咨询？",
+    "zhHant": "關於退稅，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-financas-pode-dar-me-informacoes-sobre-o-iva",
     "situacao": "financas",
     "order": 371,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o IVA?",
-    "en": "Could you give me information about VAT?",
-    "zhHans": "可以告诉我有关增值税（IVA）的信息吗？",
-    "zhHant": "可以告訴我有關增值稅（IVA）的資訊嗎？"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre o IVA?",
+    "en": "Could you explain what I need to know about VAT?",
+    "zhHans": "您能说明我需要了解增值税（IVA）的哪些信息吗？",
+    "zhHant": "您能說明我需要了解增值稅（IVA）的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-financas-preciso-de-esclarecer-uma-duvida-sobre-o-representante-fiscal",
@@ -26543,30 +26558,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "correios",
     "order": 375,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o vale postal?",
-    "en": "Where can I find information about postal money order?",
-    "zhHans": "我可以在哪里查到有关邮政汇票的信息？",
-    "zhHant": "我可以在哪裡查到有關郵政匯票的資訊？"
+    "pt": "Gostaria de saber mais sobre o vale postal.",
+    "en": "I would like to know more about postal money order.",
+    "zhHans": "我想进一步了解邮政汇票。",
+    "zhHant": "我想進一步了解郵政匯票。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-correios-pode-dar-me-informacoes-sobre-o-codigo-de-rastreio",
     "situacao": "correios",
     "order": 376,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o código de rastreio?",
-    "en": "Could you give me information about tracking number?",
-    "zhHans": "可以告诉我有关追踪編号的信息吗？",
-    "zhHant": "可以告訴我有關追蹤編號的資訊嗎？"
+    "pt": "Quem me pode orientar sobre o código de rastreio?",
+    "en": "Who can advise me about tracking number?",
+    "zhHans": "关于追踪編号，谁可以给我指引？",
+    "zhHant": "關於追蹤編號，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-correios-pode-dar-me-informacoes-sobre-a-taxa-alfandegaria",
     "situacao": "correios",
     "order": 377,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a taxa alfandegária?",
-    "en": "Could you give me information about customs fee?",
-    "zhHans": "可以告诉我有关关税的信息吗？",
-    "zhHant": "可以告訴我有關關稅的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com a taxa alfandegária.",
+    "en": "I have a question related to customs fee.",
+    "zhHans": "我有一个与关税有关的问题。",
+    "zhHant": "我有一個與關稅有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-correios-com-quem-devo-falar-sobre-a-segunda-tentativa-de-entrega",
@@ -26593,20 +26611,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "correios",
     "order": 380,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a entrega ao domicílio.",
-    "en": "I have a question about home delivery.",
-    "zhHans": "我需要咨询有关送货上门的问题。",
-    "zhHant": "我需要查詢有關送貨上門的問題。"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a entrega ao domicílio?",
+    "en": "Can you help me with a question about home delivery?",
+    "zhHans": "您能帮我解答一个有关送货上门的问题吗？",
+    "zhHant": "您能幫我解答一個有關送貨上門的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-correios-preciso-de-esclarecer-uma-duvida-sobre-o-aviso-de-rececao",
     "situacao": "correios",
     "order": 381,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o aviso de receção.",
-    "en": "I have a question about proof of delivery (return receipt).",
-    "zhHans": "我需要咨询有关回执（签收证明）的问题。",
-    "zhHant": "我需要查詢有關回執（簽收證明）的問題。"
+    "pt": "A quem posso pedir esclarecimentos sobre o aviso de receção?",
+    "en": "Who can I ask for clarification about proof of delivery (return receipt)?",
+    "zhHans": "关于回执（签收证明），我可以向谁咨询？",
+    "zhHant": "關於回執（簽收證明），我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-junta_de_freguesia-onde-posso-encontrar-informacoes-sobre-a-fotocopia-autenticada",
@@ -26623,10 +26643,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "junta_de_freguesia",
     "order": 383,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o agregado familiar?",
-    "en": "Where can I find information about household?",
-    "zhHans": "我可以在哪里查到有关家庭成员（同户）的信息？",
-    "zhHant": "我可以在哪裡查到有關家庭成員（同戶）的資訊？"
+    "pt": "Gostaria de saber mais sobre o agregado familiar.",
+    "en": "I would like to know more about household.",
+    "zhHans": "我想进一步了解家庭成员（同户）。",
+    "zhHant": "我想進一步了解家庭成員（同戶）。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-junta_de_freguesia-pode-dar-me-informacoes-sobre-o-contrato-de-arrendamento",
@@ -26643,30 +26664,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "junta_de_freguesia",
     "order": 385,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o recenseamento eleitoral?",
-    "en": "Could you give me information about electoral registration?",
-    "zhHans": "可以告诉我有关选民登记的信息吗？",
-    "zhHant": "可以告訴我有關選民登記的資訊嗎？"
+    "pt": "Quem me pode orientar sobre o recenseamento eleitoral?",
+    "en": "Who can advise me about electoral registration?",
+    "zhHans": "关于选民登记，谁可以给我指引？",
+    "zhHant": "關於選民登記，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-junta_de_freguesia-pode-dar-me-informacoes-sobre-o-atestado-de-residencia",
     "situacao": "junta_de_freguesia",
     "order": 386,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o atestado de residência?",
-    "en": "Could you give me information about certificate of residence?",
-    "zhHans": "可以告诉我有关居住证明书的信息吗？",
-    "zhHant": "可以告訴我有關居住證明書的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com o atestado de residência.",
+    "en": "I have a question related to certificate of residence.",
+    "zhHans": "我有一个与居住证明书有关的问题。",
+    "zhHant": "我有一個與居住證明書有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-junta_de_freguesia-pode-dar-me-informacoes-sobre-a-taxa-de-emissao",
     "situacao": "junta_de_freguesia",
     "order": 387,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a taxa de emissão?",
-    "en": "Could you give me information about issuance fee?",
-    "zhHans": "可以告诉我有关办理费用的信息吗？",
-    "zhHant": "可以告訴我有關辦理費用的資訊嗎？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a taxa de emissão?",
+    "en": "Can you help me with a question about issuance fee?",
+    "zhHans": "您能帮我解答一个有关办理费用的问题吗？",
+    "zhHant": "您能幫我解答一個有關辦理費用的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-junta_de_freguesia-com-quem-devo-falar-sobre-o-atestado-de-agregado-familiar",
@@ -26703,10 +26727,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "junta_de_freguesia",
     "order": 391,
     "purpose": "useful situation example",
-    "pt": "Com quem devo falar sobre o comprovativo de pagamento?",
-    "en": "Who should I speak to about proof of payment?",
-    "zhHans": "关于缴费憑证，我应该和谁联系？",
-    "zhHant": "關於繳費憑證，我應該聯絡誰？"
+    "pt": "A quem posso pedir esclarecimentos sobre o comprovativo de pagamento?",
+    "en": "Who can I ask for clarification about proof of payment?",
+    "zhHans": "关于缴费憑证，我可以向谁咨询？",
+    "zhHant": "關於繳費憑證，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-aima-onde-posso-encontrar-informacoes-sobre-a-declaracao-da-entidade-patronal",
@@ -26723,20 +26748,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "aima",
     "order": 393,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a prorrogação de permanência?",
-    "en": "Where can I find information about extension of stay?",
-    "zhHans": "我可以在哪里查到有关延期居留的信息？",
-    "zhHant": "我可以在哪裡查到有關延期居留的資訊？"
+    "pt": "Gostaria de saber mais sobre a prorrogação de permanência.",
+    "en": "I would like to know more about extension of stay.",
+    "zhHans": "我想进一步了解延期居留。",
+    "zhHant": "我想進一步了解延期居留。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-aima-onde-posso-encontrar-informacoes-sobre-o-portal-das-renovacoes",
     "situacao": "aima",
     "order": 394,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o Portal das Renovações?",
-    "en": "Where can I find information about the online Renewals Portal?",
-    "zhHans": "我可以在哪里查到有关线上续期平台的信息？",
-    "zhHant": "我可以在哪裡查到有關線上續期平台的資訊？"
+    "pt": "Quem me pode orientar sobre o Portal das Renovações?",
+    "en": "Who can advise me about the online Renewals Portal?",
+    "zhHans": "关于线上续期平台，谁可以给我指引？",
+    "zhHant": "關於線上續期平台，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-aima-pode-dar-me-informacoes-sobre-a-recolha-de-dados-biometricos",
@@ -26753,10 +26780,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "aima",
     "order": 396,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a certidão de nascimento?",
-    "en": "Could you give me information about birth certificate?",
-    "zhHans": "可以告诉我有关出生证明的信息吗？",
-    "zhHant": "可以告訴我有關出生證明的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com a certidão de nascimento.",
+    "en": "I have a question related to birth certificate.",
+    "zhHans": "我有一个与出生证明有关的问题。",
+    "zhHant": "我有一個與出生證明有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-aima-preciso-de-esclarecer-uma-duvida-sobre-o-comprovativo-de-meios-de-subsistencia",
@@ -26773,30 +26801,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "aima",
     "order": 398,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o número de processo?",
-    "en": "Could you give me information about case number?",
-    "zhHans": "可以告诉我有关案件編号的信息吗？",
-    "zhHant": "可以告訴我有關案件編號的資訊嗎？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre o número de processo?",
+    "en": "Can you help me with a question about case number?",
+    "zhHans": "您能帮我解答一个有关案件編号的问题吗？",
+    "zhHant": "您能幫我解答一個有關案件編號的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-aima-pode-dar-me-informacoes-sobre-a-residencia-legal",
     "situacao": "aima",
     "order": 399,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a residência legal?",
-    "en": "Could you give me information about legal residence?",
-    "zhHans": "可以告诉我有关合法居留的信息吗？",
-    "zhHant": "可以告訴我有關合法居留的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre a residência legal?",
+    "en": "Who can I ask for clarification about legal residence?",
+    "zhHans": "关于合法居留，我可以向谁咨询？",
+    "zhHant": "關於合法居留，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-aima-preciso-de-esclarecer-uma-duvida-sobre-o-registo-criminal-do-pais-de-origem",
     "situacao": "aima",
     "order": 400,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o registo criminal do país de origem.",
-    "en": "I have a question about criminal record from home country.",
-    "zhHans": "我需要咨询有关原籍國无犯罪记录的问题。",
-    "zhHant": "我需要查詢有關原籍國無犯罪記錄的問題。"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre o registo criminal do país de origem?",
+    "en": "Could you explain what I need to know about criminal record from home country?",
+    "zhHans": "您能说明我需要了解原籍國无犯罪记录的哪些信息吗？",
+    "zhHant": "您能說明我需要了解原籍國無犯罪記錄的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-a-declaracao-trimestral",
@@ -26813,20 +26844,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "seguranca_social",
     "order": 402,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o registo do nascimento?",
-    "en": "Where can I find information about birth registration?",
-    "zhHans": "我可以在哪里查到有关出生登记的信息？",
-    "zhHant": "我可以在哪裡查到有關出生登記的資訊？"
+    "pt": "Gostaria de saber mais sobre o registo do nascimento.",
+    "en": "I would like to know more about birth registration.",
+    "zhHans": "我想进一步了解出生登记。",
+    "zhHant": "我想進一步了解出生登記。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-o-plano-prestacional",
     "situacao": "seguranca_social",
     "order": 403,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o plano prestacional?",
-    "en": "Where can I find information about instalment plan?",
-    "zhHans": "我可以在哪里查到有关分期还款计划的信息？",
-    "zhHant": "我可以在哪裡查到有關分期還款計劃的資訊？"
+    "pt": "Quem me pode orientar sobre o plano prestacional?",
+    "en": "Who can advise me about instalment plan?",
+    "zhHans": "关于分期还款计划，谁可以给我指引？",
+    "zhHant": "關於分期還款計劃，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-balcao-da-seguranca-social",
@@ -26843,60 +26876,66 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "seguranca_social",
     "order": 405,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a baixa por doença?",
-    "en": "Where can I find information about paid sick leave?",
-    "zhHans": "我可以在哪里查到有关病假津贴的信息？",
-    "zhHant": "我可以在哪裡查到有關病假津貼的資訊？"
+    "pt": "Tenho uma questão relacionada com a baixa por doença.",
+    "en": "I have a question related to paid sick leave.",
+    "zhHans": "我有一个与病假津贴有关的问题。",
+    "zhHant": "我有一個與病假津貼有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-trabalhador-independente",
     "situacao": "seguranca_social",
     "order": 406,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o trabalhador independente?",
-    "en": "Could you give me information about self-employed worker?",
-    "zhHans": "可以告诉我有关自雇人士的信息吗？",
-    "zhHant": "可以告訴我有關自僱人士的資訊嗎？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre o trabalhador independente?",
+    "en": "Can you help me with a question about self-employed worker?",
+    "zhHans": "您能帮我解答一个有关自雇人士的问题吗？",
+    "zhHant": "您能幫我解答一個有關自僱人士的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-a-isencao-de-contribuicoes",
     "situacao": "seguranca_social",
     "order": 407,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a isenção de contribuições?",
-    "en": "Could you give me information about contributions exemption?",
-    "zhHans": "可以告诉我有关供款豁免的信息吗？",
-    "zhHant": "可以告訴我有關供款豁免的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre a isenção de contribuições?",
+    "en": "Who can I ask for clarification about contributions exemption?",
+    "zhHans": "关于供款豁免，我可以向谁咨询？",
+    "zhHant": "關於供款豁免，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-onde-posso-encontrar-informacoes-sobre-os-descontos",
     "situacao": "seguranca_social",
     "order": 408,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre os descontos?",
-    "en": "Where can I find information about (social security) contributions?",
-    "zhHans": "我可以在哪里查到有关社保供款（扣缴）的信息？",
-    "zhHant": "我可以在哪裡查到有關社保供款（扣繳）的資訊？"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre os descontos?",
+    "en": "Could you explain what I need to know about (social security) contributions?",
+    "zhHans": "您能说明我需要了解社保供款（扣缴）的哪些信息吗？",
+    "zhHant": "您能說明我需要了解社保供款（扣繳）的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-abono-pre-natal",
     "situacao": "seguranca_social",
     "order": 409,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o abono pré-natal?",
-    "en": "Could you give me information about prenatal allowance?",
-    "zhHans": "可以告诉我有关产前津贴的信息吗？",
-    "zhHant": "可以告訴我有關產前津貼的資訊嗎？"
+    "pt": "Onde posso obter ajuda para questões sobre o abono pré-natal?",
+    "en": "Where can I get help with questions about prenatal allowance?",
+    "zhHans": "我可以在哪里获得有关产前津贴的帮助？",
+    "zhHant": "我可以在哪裡獲得有關產前津貼的協助？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-seguranca_social-pode-dar-me-informacoes-sobre-o-comprovativo",
     "situacao": "seguranca_social",
     "order": 410,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o comprovativo?",
-    "en": "Could you give me information about proof / receipt (of application)?",
-    "zhHans": "可以告诉我有关申请憑证的信息吗？",
-    "zhHant": "可以告訴我有關申請憑證的資訊嗎？"
+    "pt": "Preciso de confirmar uma informação sobre o comprovativo.",
+    "en": "I need to confirm some information about proof / receipt (of application).",
+    "zhHans": "我需要确认一些有关申请憑证的信息。",
+    "zhHant": "我需要確認一些有關申請憑證的資訊。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-espaco_cidadao-onde-posso-encontrar-informacoes-sobre-o-comprovativo-de-pagamento",
@@ -26913,10 +26952,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "espaco_cidadao",
     "order": 412,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o comprovativo de morada?",
-    "en": "Where can I find information about proof of address?",
-    "zhHans": "我可以在哪里查到有关住址证明的信息？",
-    "zhHant": "我可以在哪裡查到有關住址證明的資訊？"
+    "pt": "Gostaria de saber mais sobre o comprovativo de morada.",
+    "en": "I would like to know more about proof of address.",
+    "zhHans": "我想进一步了解住址证明。",
+    "zhHant": "我想進一步了解住址證明。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-espaco_cidadao-pode-explicar-me-o-que-devo-fazer-para-atualizar-a-morada",
@@ -26933,10 +26973,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "espaco_cidadao",
     "order": 414,
     "purpose": "useful situation example",
-    "pt": "Pode explicar-me o que devo fazer para tirar a senha?",
-    "en": "Could you explain what I need to do to take a queue ticket?",
-    "zhHans": "可以说明我要怎样取号（排队票）吗？",
-    "zhHant": "可以說明我要怎樣取號（排隊票）嗎？"
+    "pt": "Onde tiro a senha para ser atendido?",
+    "en": "Where do I take a queue ticket to be served?",
+    "zhHans": "我应该在哪里取号等候办理？",
+    "zhHant": "我應該在哪裡取號等候辦理？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-espaco_cidadao-pode-dar-me-informacoes-sobre-o-comprovativo",
@@ -26983,10 +27024,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "espaco_cidadao",
     "order": 419,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a senha de acesso.",
-    "en": "I have a question about access password (portal login).",
-    "zhHans": "我需要咨询有关登入密码的问题。",
-    "zhHant": "我需要查詢有關登入密碼的問題。"
+    "pt": "Quem me pode orientar sobre a senha de acesso?",
+    "en": "Who can advise me about access password (portal login)?",
+    "zhHans": "关于登入密码，谁可以给我指引？",
+    "zhHant": "關於登入密碼，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-espaco_cidadao-com-quem-devo-falar-sobre-a-senha-de-atendimento",
@@ -27013,10 +27055,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "espaco_cidadao",
     "order": 422,
     "purpose": "useful situation example",
-    "pt": "Com quem devo falar sobre o formulário?",
-    "en": "Who should I speak to about form?",
-    "zhHans": "关于表格，我应该和谁联系？",
-    "zhHant": "關於表格，我應該聯絡誰？"
+    "pt": "Tenho uma questão relacionada com o formulário.",
+    "en": "I have a question related to form.",
+    "zhHans": "我有一个与表格有关的问题。",
+    "zhHant": "我有一個與表格有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-imt_carta_conducao-onde-posso-encontrar-informacoes-sobre-o-comprovativo-de-agendamento",
@@ -27043,20 +27086,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "imt_carta_conducao",
     "order": 425,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre as taxas?",
-    "en": "Where can I find information about fees?",
-    "zhHans": "我可以在哪里查到有关费用的信息？",
-    "zhHant": "我可以在哪裡查到有關費用的資訊？"
+    "pt": "Gostaria de saber mais sobre as taxas.",
+    "en": "I would like to know more about fees.",
+    "zhHans": "我想进一步了解费用。",
+    "zhHant": "我想進一步了解費用。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-imt_carta_conducao-pode-dar-me-informacoes-sobre-o-atestado-medico",
     "situacao": "imt_carta_conducao",
     "order": 426,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o atestado médico?",
-    "en": "Could you give me information about medical certificate?",
-    "zhHans": "可以告诉我有关医生证明的信息吗？",
-    "zhHant": "可以告訴我有關醫生證明的資訊嗎？"
+    "pt": "Quem me pode orientar sobre o atestado médico?",
+    "en": "Who can advise me about medical certificate?",
+    "zhHans": "关于医生证明，谁可以给我指引？",
+    "zhHant": "關於醫生證明，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-imt_carta_conducao-preciso-de-esclarecer-uma-duvida-sobre-a-recolha-de-dados-biometricos",
@@ -27073,10 +27118,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "imt_carta_conducao",
     "order": 428,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a fotocópia autenticada.",
-    "en": "I have a question about certified photocopy.",
-    "zhHans": "我需要咨询有关认证副本的问题。",
-    "zhHant": "我需要查詢有關認證副本的問題。"
+    "pt": "Tenho uma questão relacionada com a fotocópia autenticada.",
+    "en": "I have a question related to certified photocopy.",
+    "zhHans": "我有一个与认证副本有关的问题。",
+    "zhHant": "我有一個與認證副本有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-imt_carta_conducao-com-quem-devo-falar-sobre-o-reconhecimento-de-assinatura",
@@ -27103,10 +27149,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "imt_carta_conducao",
     "order": 431,
     "purpose": "useful situation example",
-    "pt": "Com quem devo falar sobre a tradução certificada?",
-    "en": "Who should I speak to about certified translation?",
-    "zhHans": "关于认证翻译，我应该和谁联系？",
-    "zhHant": "關於認證翻譯，我應該聯絡誰？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a tradução certificada?",
+    "en": "Can you help me with a question about certified translation?",
+    "zhHans": "您能帮我解答一个有关认证翻译的问题吗？",
+    "zhHant": "您能幫我解答一個有關認證翻譯的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-imt_carta_conducao-queria-informacoes-sobre-o-comprovativo-de-pagamento",
@@ -27123,10 +27170,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "imt_carta_conducao",
     "order": 433,
     "purpose": "useful situation example",
-    "pt": "Queria informações sobre o número de processo.",
-    "en": "I would like information about case number.",
-    "zhHans": "我想了解案件編号。",
-    "zhHant": "我想了解案件編號。"
+    "pt": "A quem posso pedir esclarecimentos sobre o número de processo?",
+    "en": "Who can I ask for clarification about case number?",
+    "zhHans": "关于案件編号，我可以向谁咨询？",
+    "zhHant": "關於案件編號，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-imt_carta_conducao-que-documentos-necessarios-devo-trazer",
@@ -27153,10 +27201,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 436,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o reconhecimento de assinatura?",
-    "en": "Where can I find information about signature certification?",
-    "zhHans": "我可以在哪里查到有关签名认证的信息？",
-    "zhHant": "我可以在哪裡查到有關簽名認證的資訊？"
+    "pt": "Gostaria de saber mais sobre o reconhecimento de assinatura.",
+    "en": "I would like to know more about signature certification.",
+    "zhHans": "我想进一步了解签名认证。",
+    "zhHant": "我想進一步了解簽名認證。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-conservatoria_registo_civil-pode-dar-me-informacoes-sobre-o-estado-do-processo",
@@ -27173,20 +27222,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 438,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a certidão?",
-    "en": "Where can I find information about certificate / official copy?",
-    "zhHans": "我可以在哪里查到有关证明书／正式副本的信息？",
-    "zhHant": "我可以在哪裡查到有關證明書／正式副本的資訊？"
+    "pt": "Quem me pode orientar sobre a certidão?",
+    "en": "Who can advise me about certificate / official copy?",
+    "zhHans": "关于证明书／正式副本，谁可以给我指引？",
+    "zhHant": "關於證明書／正式副本，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-conservatoria_registo_civil-pode-dar-me-informacoes-sobre-o-formulario",
     "situacao": "conservatoria_registo_civil",
     "order": 439,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o formulário?",
-    "en": "Could you give me information about form?",
-    "zhHans": "可以告诉我有关表格的信息吗？",
-    "zhHant": "可以告訴我有關表格的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com o formulário.",
+    "en": "I have a question related to form.",
+    "zhHans": "我有一个与表格有关的问题。",
+    "zhHant": "我有一個與表格有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-conservatoria_registo_civil-preciso-de-esclarecer-uma-duvida-sobre-a-traducao-certificada",
@@ -27213,30 +27264,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 442,
     "purpose": "useful situation example",
-    "pt": "Com quem devo falar sobre a certidão de nascimento?",
-    "en": "Who should I speak to about birth certificate?",
-    "zhHans": "关于出生证明，我应该和谁联系？",
-    "zhHant": "關於出生證明，我應該聯絡誰？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a certidão de nascimento?",
+    "en": "Can you help me with a question about birth certificate?",
+    "zhHans": "您能帮我解答一个有关出生证明的问题吗？",
+    "zhHant": "您能幫我解答一個有關出生證明的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-conservatoria_registo_civil-com-quem-devo-falar-sobre-a-fotocopia-autenticada",
     "situacao": "conservatoria_registo_civil",
     "order": 443,
     "purpose": "useful situation example",
-    "pt": "Com quem devo falar sobre a fotocópia autenticada?",
-    "en": "Who should I speak to about certified photocopy?",
-    "zhHans": "关于认证副本，我应该和谁联系？",
-    "zhHant": "關於認證副本，我應該聯絡誰？"
+    "pt": "A quem posso pedir esclarecimentos sobre a fotocópia autenticada?",
+    "en": "Who can I ask for clarification about certified photocopy?",
+    "zhHans": "关于认证副本，我可以向谁咨询？",
+    "zhHant": "關於認證副本，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-conservatoria_registo_civil-preciso-de-esclarecer-uma-duvida-sobre-a-assinatura",
     "situacao": "conservatoria_registo_civil",
     "order": 444,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a assinatura.",
-    "en": "I have a question about signature.",
-    "zhHans": "我需要咨询有关签名的问题。",
-    "zhHant": "我需要查詢有關簽名的問題。"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre a assinatura?",
+    "en": "Could you explain what I need to know about signature?",
+    "zhHans": "您能说明我需要了解签名的哪些信息吗？",
+    "zhHant": "您能說明我需要了解簽名的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-conservatoria_registo_civil-queria-informacoes-sobre-o-pedido-de-nacionalidade",
@@ -27253,10 +27307,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 446,
     "purpose": "useful situation example",
-    "pt": "Queria informações sobre o número de processo.",
-    "en": "I would like information about case number.",
-    "zhHans": "我想了解案件編号。",
-    "zhHant": "我想了解案件編號。"
+    "pt": "Onde posso obter ajuda para questões sobre o número de processo?",
+    "en": "Where can I get help with questions about case number?",
+    "zhHans": "我可以在哪里获得有关案件編号的帮助？",
+    "zhHant": "我可以在哪裡獲得有關案件編號的協助？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-camara_municipal-onde-posso-encontrar-informacoes-sobre-o-horario-de-atendimento",
@@ -27283,10 +27338,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "camara_municipal",
     "order": 449,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o formulário?",
-    "en": "Where can I find information about form?",
-    "zhHans": "我可以在哪里查到有关表格的信息？",
-    "zhHant": "我可以在哪裡查到有關表格的資訊？"
+    "pt": "Gostaria de saber mais sobre o formulário.",
+    "en": "I would like to know more about form.",
+    "zhHans": "我想进一步了解表格。",
+    "zhHant": "我想進一步了解表格。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-camara_municipal-pode-explicar-me-o-que-devo-fazer-para-estacionar",
@@ -27303,20 +27359,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "camara_municipal",
     "order": 451,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o entulho?",
-    "en": "Where can I find information about rubble / construction waste?",
-    "zhHans": "我可以在哪里查到有关建筑垃圾的信息？",
-    "zhHant": "我可以在哪裡查到有關建築垃圾的資訊？"
+    "pt": "Quem me pode orientar sobre o entulho?",
+    "en": "Who can advise me about rubble / construction waste?",
+    "zhHans": "关于建筑垃圾，谁可以给我指引？",
+    "zhHant": "關於建築垃圾，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-camara_municipal-pode-dar-me-informacoes-sobre-a-declaracao",
     "situacao": "camara_municipal",
     "order": 452,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a declaração?",
-    "en": "Could you give me information about declaration / statement?",
-    "zhHans": "可以告诉我有关声明书的信息吗？",
-    "zhHant": "可以告訴我有關聲明書的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com a declaração.",
+    "en": "I have a question related to declaration / statement.",
+    "zhHans": "我有一个与声明书有关的问题。",
+    "zhHant": "我有一個與聲明書有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-camara_municipal-com-quem-devo-falar-sobre-o-horario-de-funcionamento",
@@ -27363,10 +27421,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "camara_municipal",
     "order": 457,
     "purpose": "useful situation example",
-    "pt": "Queria informações sobre a reclamação.",
-    "en": "I would like information about complaint.",
-    "zhHans": "我想了解投诉。",
-    "zhHant": "我想了解投訴。"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a reclamação?",
+    "en": "Can you help me with a question about complaint?",
+    "zhHans": "您能帮我解答一个有关投诉的问题吗？",
+    "zhHant": "您能幫我解答一個有關投訴的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-camara_municipal-preciso-de-ajuda-para-pagar-uma-taxa",
@@ -27393,20 +27452,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "reconhecimento_diplomas",
     "order": 460,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a equivalência de estudos?",
-    "en": "Where can I find information about recognition of foreign studies?",
-    "zhHans": "我可以在哪里查到有关学历同等认证的信息？",
-    "zhHant": "我可以在哪裡查到有關學歷同等認證的資訊？"
+    "pt": "Gostaria de saber mais sobre a equivalência de estudos.",
+    "en": "I would like to know more about recognition of foreign studies.",
+    "zhHans": "我想进一步了解学历同等认证。",
+    "zhHant": "我想進一步了解學歷同等認證。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-reconhecimento_diplomas-onde-posso-encontrar-informacoes-sobre-o-numero-de-processo",
     "situacao": "reconhecimento_diplomas",
     "order": 461,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o número de processo?",
-    "en": "Where can I find information about case number?",
-    "zhHans": "我可以在哪里查到有关案件編号的信息？",
-    "zhHant": "我可以在哪裡查到有關案件編號的資訊？"
+    "pt": "Quem me pode orientar sobre o número de processo?",
+    "en": "Who can advise me about case number?",
+    "zhHans": "关于案件編号，谁可以给我指引？",
+    "zhHant": "關於案件編號，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-reconhecimento_diplomas-pode-dar-me-informacoes-sobre-o-comprovativo-de-pagamento",
@@ -27433,30 +27494,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "reconhecimento_diplomas",
     "order": 464,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o certificado digital?",
-    "en": "Could you give me information about digital certificate?",
-    "zhHans": "可以告诉我有关数字证书的信息吗？",
-    "zhHant": "可以告訴我有關數字證書的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com o certificado digital.",
+    "en": "I have a question related to digital certificate.",
+    "zhHans": "我有一个与数字证书有关的问题。",
+    "zhHant": "我有一個與數字證書有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-reconhecimento_diplomas-onde-posso-encontrar-informacoes-sobre-o-formulario",
     "situacao": "reconhecimento_diplomas",
     "order": 465,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o formulário?",
-    "en": "Where can I find information about form?",
-    "zhHans": "我可以在哪里查到有关表格的信息？",
-    "zhHant": "我可以在哪裡查到有關表格的資訊？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre o formulário?",
+    "en": "Can you help me with a question about form?",
+    "zhHans": "您能帮我解答一个有关表格的问题吗？",
+    "zhHant": "您能幫我解答一個有關表格的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-reconhecimento_diplomas-pode-dar-me-informacoes-sobre-a-notificacao",
     "situacao": "reconhecimento_diplomas",
     "order": 466,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a notificação?",
-    "en": "Could you give me information about official notification?",
-    "zhHans": "可以告诉我有关官方通知的信息吗？",
-    "zhHant": "可以告訴我有關官方通知的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre a notificação?",
+    "en": "Who can I ask for clarification about official notification?",
+    "zhHans": "关于官方通知，我可以向谁咨询？",
+    "zhHant": "關於官方通知，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-reconhecimento_diplomas-preciso-de-esclarecer-uma-duvida-sobre-a-fotocopia-autenticada",
@@ -27483,10 +27547,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "reconhecimento_diplomas",
     "order": 469,
     "purpose": "useful situation example",
-    "pt": "Com quem devo falar sobre a tradução certificada?",
-    "en": "Who should I speak to about certified translation?",
-    "zhHans": "关于认证翻译，我应该和谁联系？",
-    "zhHant": "關於認證翻譯，我應該聯絡誰？"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre a tradução certificada?",
+    "en": "Could you explain what I need to know about certified translation?",
+    "zhHans": "您能说明我需要了解认证翻译的哪些信息吗？",
+    "zhHant": "您能說明我需要了解認證翻譯的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-reconhecimento_diplomas-queria-informacoes-sobre-o-certificado-de-formacao",
@@ -27533,30 +27598,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consulado_documentos",
     "order": 474,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a assinatura?",
-    "en": "Where can I find information about signature?",
-    "zhHans": "我可以在哪里查到有关签名的信息？",
-    "zhHant": "我可以在哪裡查到有關簽名的資訊？"
+    "pt": "Gostaria de saber mais sobre a assinatura.",
+    "en": "I would like to know more about signature.",
+    "zhHans": "我想进一步了解签名。",
+    "zhHant": "我想進一步了解簽名。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-consulado_documentos-pode-dar-me-informacoes-sobre-a-notificacao",
     "situacao": "consulado_documentos",
     "order": 475,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a notificação?",
-    "en": "Could you give me information about official notification?",
-    "zhHans": "可以告诉我有关官方通知的信息吗？",
-    "zhHant": "可以告訴我有關官方通知的資訊嗎？"
+    "pt": "Quem me pode orientar sobre a notificação?",
+    "en": "Who can advise me about official notification?",
+    "zhHans": "关于官方通知，谁可以给我指引？",
+    "zhHant": "關於官方通知，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-consulado_documentos-pode-dar-me-informacoes-sobre-a-certidao",
     "situacao": "consulado_documentos",
     "order": 476,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a certidão?",
-    "en": "Could you give me information about certificate / official copy?",
-    "zhHans": "可以告诉我有关证明书／正式副本的信息吗？",
-    "zhHant": "可以告訴我有關證明書／正式副本的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com a certidão.",
+    "en": "I have a question related to certificate / official copy.",
+    "zhHans": "我有一个与证明书／正式副本有关的问题。",
+    "zhHant": "我有一個與證明書／正式副本有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-consulado_documentos-queria-informacoes-sobre-o-registo-criminal-do-pais-de-origem",
@@ -27583,10 +27651,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consulado_documentos",
     "order": 479,
     "purpose": "useful situation example",
-    "pt": "Queria informações sobre a certidão de residência fiscal.",
-    "en": "I would like information about certificate of tax residency.",
-    "zhHans": "我想了解税务居民证明。",
-    "zhHant": "我想了解稅務居民證明。"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a certidão de residência fiscal?",
+    "en": "Can you help me with a question about certificate of tax residency?",
+    "zhHans": "您能帮我解答一个有关税务居民证明的问题吗？",
+    "zhHant": "您能幫我解答一個有關稅務居民證明的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-consulado_documentos-com-quem-devo-falar-sobre-a-traducao-certificada",
@@ -27603,10 +27672,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consulado_documentos",
     "order": 481,
     "purpose": "useful situation example",
-    "pt": "Queria informações sobre o comprovativo de pagamento.",
-    "en": "I would like information about proof of payment.",
-    "zhHans": "我想了解缴费憑证。",
-    "zhHant": "我想了解繳費憑證。"
+    "pt": "A quem posso pedir esclarecimentos sobre o comprovativo de pagamento?",
+    "en": "Who can I ask for clarification about proof of payment?",
+    "zhHans": "关于缴费憑证，我可以向谁咨询？",
+    "zhHant": "關於繳費憑證，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-consulado_documentos-preciso-de-esclarecer-uma-duvida-sobre-a-declaracao",
@@ -27653,20 +27723,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "saude",
     "order": 486,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o resultado?",
-    "en": "Where can I find information about result?",
-    "zhHans": "我可以在哪里查到有关结果的信息？",
-    "zhHant": "我可以在哪裡查到有關結果的資訊？"
+    "pt": "Gostaria de saber mais sobre o resultado.",
+    "en": "I would like to know more about result.",
+    "zhHans": "我想进一步了解结果。",
+    "zhHant": "我想進一步了解結果。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-saude-pode-dar-me-informacoes-sobre-o-raio-x",
     "situacao": "saude",
     "order": 487,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o raio-X?",
-    "en": "Could you give me information about X-ray?",
-    "zhHans": "可以告诉我有关X光的信息吗？",
-    "zhHant": "可以告訴我有關X光的資訊嗎？"
+    "pt": "Quem me pode orientar sobre o raio-X?",
+    "en": "Who can advise me about X-ray?",
+    "zhHans": "关于X光，谁可以给我指引？",
+    "zhHant": "關於X光，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-o-medico-de-familia",
@@ -27683,30 +27755,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "saude",
     "order": 489,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a análise ao sangue.",
-    "en": "I have a question about blood test.",
-    "zhHans": "我需要咨询有关验血的问题。",
-    "zhHant": "我需要查詢有關驗血的問題。"
+    "pt": "Tenho uma questão relacionada com a análise ao sangue.",
+    "en": "I have a question related to blood test.",
+    "zhHans": "我有一个与验血有关的问题。",
+    "zhHant": "我有一個與驗血有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-o-seguro-de-saude",
     "situacao": "saude",
     "order": 490,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o seguro de saúde.",
-    "en": "I have a question about health insurance.",
-    "zhHans": "我需要咨询有关医疗保险的问题。",
-    "zhHant": "我需要查詢有關醫療保險的問題。"
+    "pt": "Consegue ajudar-me com uma dúvida sobre o seguro de saúde?",
+    "en": "Can you help me with a question about health insurance?",
+    "zhHans": "您能帮我解答一个有关医疗保险的问题吗？",
+    "zhHant": "您能幫我解答一個有關醫療保險的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-o-atestado-medico",
     "situacao": "saude",
     "order": 491,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o atestado médico.",
-    "en": "I have a question about medical certificate.",
-    "zhHans": "我需要咨询有关医生证明的问题。",
-    "zhHant": "我需要查詢有關醫生證明的問題。"
+    "pt": "A quem posso pedir esclarecimentos sobre o atestado médico?",
+    "en": "Who can I ask for clarification about medical certificate?",
+    "zhHans": "关于医生证明，我可以向谁咨询？",
+    "zhHant": "關於醫生證明，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-a-escola-da-area-de-residencia",
@@ -27723,20 +27798,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "escola",
     "order": 493,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre os manuais escolares?",
-    "en": "Where can I find information about textbooks?",
-    "zhHans": "我可以在哪里查到有关教科书的信息？",
-    "zhHant": "我可以在哪裡查到有關教科書的資訊？"
+    "pt": "Gostaria de saber mais sobre os manuais escolares.",
+    "en": "I would like to know more about textbooks.",
+    "zhHans": "我想进一步了解教科书。",
+    "zhHant": "我想進一步了解教科書。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-o-diretor-de-turma",
     "situacao": "escola",
     "order": 494,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o diretor de turma?",
-    "en": "Where can I find information about form tutor / homeroom teacher?",
-    "zhHans": "我可以在哪里查到有关班主任的信息？",
-    "zhHant": "我可以在哪裡查到有關班主任的資訊？"
+    "pt": "Quem me pode orientar sobre o diretor de turma?",
+    "en": "Who can advise me about form tutor / homeroom teacher?",
+    "zhHans": "关于班主任，谁可以给我指引？",
+    "zhHant": "關於班主任，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-escola-pode-dar-me-informacoes-sobre-o-portal-das-matriculas",
@@ -27753,40 +27830,44 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "escola",
     "order": 496,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a reunião de pais?",
-    "en": "Could you give me information about parents' meeting?",
-    "zhHans": "可以告诉我有关家长会的信息吗？",
-    "zhHant": "可以告訴我有關家長會的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com a reunião de pais.",
+    "en": "I have a question related to parents' meeting.",
+    "zhHans": "我有一个与家长会有关的问题。",
+    "zhHant": "我有一個與家長會有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-a-creche",
     "situacao": "escola",
     "order": 497,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a creche?",
-    "en": "Where can I find information about nursery (0-3)?",
-    "zhHans": "我可以在哪里查到有关託儿所的信息？",
-    "zhHant": "我可以在哪裡查到有關託兒所的資訊？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a creche?",
+    "en": "Can you help me with a question about nursery (0-3)?",
+    "zhHans": "您能帮我解答一个有关託儿所的问题吗？",
+    "zhHant": "您能幫我解答一個有關託兒所的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-escola-pode-dar-me-informacoes-sobre-o-cartao-do-aluno",
     "situacao": "escola",
     "order": 498,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o cartão do aluno?",
-    "en": "Could you give me information about student card?",
-    "zhHans": "可以告诉我有关学生卡的信息吗？",
-    "zhHant": "可以告訴我有關學生卡的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre o cartão do aluno?",
+    "en": "Who can I ask for clarification about student card?",
+    "zhHans": "关于学生卡，我可以向谁咨询？",
+    "zhHant": "關於學生卡，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-escola-onde-posso-encontrar-informacoes-sobre-a-falta",
     "situacao": "escola",
     "order": 499,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a falta?",
-    "en": "Where can I find information about absence?",
-    "zhHans": "我可以在哪里查到有关缺勤的信息？",
-    "zhHant": "我可以在哪裡查到有關缺勤的資訊？"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre a falta?",
+    "en": "Could you explain what I need to know about absence?",
+    "zhHans": "您能说明我需要了解缺勤的哪些信息吗？",
+    "zhHant": "您能說明我需要了解缺勤的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-escola-preciso-de-esclarecer-uma-duvida-sobre-o-encarregado-de-educacao",
@@ -27823,50 +27904,55 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "arrendamento",
     "order": 503,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o agente imobiliário?",
-    "en": "Could you give me information about real estate agent?",
-    "zhHans": "可以告诉我有关房产中介的信息吗？",
-    "zhHant": "可以告訴我有關房產中介的資訊嗎？"
+    "pt": "Gostaria de saber mais sobre o agente imobiliário.",
+    "en": "I would like to know more about real estate agent.",
+    "zhHans": "我想进一步了解房产中介。",
+    "zhHant": "我想進一步了解房產中介。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-arrendamento-onde-posso-encontrar-informacoes-sobre-o-anuncio",
     "situacao": "arrendamento",
     "order": 504,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o anúncio?",
-    "en": "Where can I find information about listing / advert?",
-    "zhHans": "我可以在哪里查到有关租房广告的信息？",
-    "zhHant": "我可以在哪裡查到有關租房廣告的資訊？"
+    "pt": "Quem me pode orientar sobre o anúncio?",
+    "en": "Who can advise me about listing / advert?",
+    "zhHans": "关于租房广告，谁可以给我指引？",
+    "zhHant": "關於租房廣告，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-o-eletrodomestico",
     "situacao": "arrendamento",
     "order": 505,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o eletrodoméstico?",
-    "en": "Could you give me information about household appliance?",
-    "zhHans": "可以告诉我有关家用电器的信息吗？",
-    "zhHant": "可以告訴我有關家用電器的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com o eletrodoméstico.",
+    "en": "I have a question related to household appliance.",
+    "zhHans": "我有一个与家用电器有关的问题。",
+    "zhHant": "我有一個與家用電器有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-o-condominio",
     "situacao": "arrendamento",
     "order": 506,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o condomínio?",
-    "en": "Could you give me information about building service charge?",
-    "zhHans": "可以告诉我有关大厦管理费的信息吗？",
-    "zhHant": "可以告訴我有關大廈管理費的資訊嗎？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre o condomínio?",
+    "en": "Can you help me with a question about building service charge?",
+    "zhHans": "您能帮我解答一个有关大厦管理费的问题吗？",
+    "zhHant": "您能幫我解答一個有關大廈管理費的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-arrendamento-pode-dar-me-informacoes-sobre-o-fiador",
     "situacao": "arrendamento",
     "order": 507,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o fiador?",
-    "en": "Could you give me information about guarantor?",
-    "zhHans": "可以告诉我有关担保人的信息吗？",
-    "zhHant": "可以告訴我有關擔保人的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre o fiador?",
+    "en": "Who can I ask for clarification about guarantor?",
+    "zhHans": "关于担保人，我可以向谁咨询？",
+    "zhHant": "關於擔保人，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-arrendamento-preciso-de-esclarecer-uma-duvida-sobre-o-contrato-de-arrendamento",
@@ -27883,10 +27969,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "arrendamento",
     "order": 509,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a devolução da caução.",
-    "en": "I have a question about return of the deposit.",
-    "zhHans": "我需要咨询有关退还押金的问题。",
-    "zhHant": "我需要查詢有關退還押金的問題。"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre a devolução da caução?",
+    "en": "Could you explain what I need to know about return of the deposit?",
+    "zhHans": "您能说明我需要了解退还押金的哪些信息吗？",
+    "zhHant": "您能說明我需要了解退還押金的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-transportes-onde-posso-encontrar-informacoes-sobre-o-titulo-de-transporte",
@@ -27903,20 +27990,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "transportes",
     "order": 511,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o lugar reservado?",
-    "en": "Where can I find information about reserved seat?",
-    "zhHans": "我可以在哪里查到有关预留座位的信息？",
-    "zhHant": "我可以在哪裡查到有關預留座位的資訊？"
+    "pt": "Gostaria de saber mais sobre o lugar reservado.",
+    "en": "I would like to know more about reserved seat.",
+    "zhHans": "我想进一步了解预留座位。",
+    "zhHant": "我想進一步了解預留座位。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-transportes-onde-posso-encontrar-informacoes-sobre-o-horario",
     "situacao": "transportes",
     "order": 512,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o horário?",
-    "en": "Where can I find information about timetable?",
-    "zhHans": "我可以在哪里查到有关时刻表的信息？",
-    "zhHant": "我可以在哪裡查到有關時刻表的資訊？"
+    "pt": "Quem me pode orientar sobre o horário?",
+    "en": "Who can advise me about timetable?",
+    "zhHans": "关于时刻表，谁可以给我指引？",
+    "zhHant": "關於時刻表，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-transportes-pode-dar-me-informacoes-sobre-a-app-do-operador",
@@ -27933,30 +28022,33 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "transportes",
     "order": 514,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o elétrico?",
-    "en": "Could you give me information about tram?",
-    "zhHans": "可以告诉我有关有轨电车的信息吗？",
-    "zhHant": "可以告訴我有關有軌電車的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com o elétrico.",
+    "en": "I have a question related to tram.",
+    "zhHans": "我有一个与有轨电车有关的问题。",
+    "zhHant": "我有一個與有軌電車有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-transportes-pode-dar-me-informacoes-sobre-a-estacao",
     "situacao": "transportes",
     "order": 515,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a estação?",
-    "en": "Could you give me information about station?",
-    "zhHans": "可以告诉我有关车站（火车/地铁站）的信息吗？",
-    "zhHant": "可以告訴我有關車站（火車/地鐵站）的資訊嗎？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a estação?",
+    "en": "Can you help me with a question about station?",
+    "zhHans": "您能帮我解答一个有关车站（火车/地铁站）的问题吗？",
+    "zhHant": "您能幫我解答一個有關車站（火車/地鐵站）的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-transportes-pode-dar-me-informacoes-sobre-o-sentido",
     "situacao": "transportes",
     "order": 516,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o sentido?",
-    "en": "Could you give me information about direction?",
-    "zhHans": "可以告诉我有关方向的信息吗？",
-    "zhHant": "可以告訴我有關方向的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre o sentido?",
+    "en": "Who can I ask for clarification about direction?",
+    "zhHans": "关于方向，我可以向谁咨询？",
+    "zhHant": "關於方向，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-transportes-como-posso-viajar-sem-titulo",
@@ -28423,10 +28515,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "cafe_restaurante",
     "order": 563,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o couvert?",
-    "en": "Where can I find information about couvert (bread/olives, charged)?",
-    "zhHans": "我可以在哪里查到有关餐前小食（收费）的信息？",
-    "zhHant": "我可以在哪裡查到有關餐前小食（收費）的資訊？"
+    "pt": "Gostaria de saber mais sobre o couvert.",
+    "en": "I would like to know more about couvert (bread/olives, charged).",
+    "zhHans": "我想进一步了解餐前小食（收费）。",
+    "zhHant": "我想進一步了解餐前小食（收費）。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-cafe_restaurante-pode-dar-me-informacoes-sobre-o-prato-principal",
@@ -28473,10 +28566,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "cafe_restaurante",
     "order": 568,
     "purpose": "useful situation example",
-    "pt": "Qual é o prato do dia?",
-    "en": "What is today's special?",
-    "zhHans": "今天的特色菜是什么？",
-    "zhHant": "今天的特色菜是什麼？"
+    "pt": "Pode dizer-me o que inclui o prato do dia?",
+    "en": "Could you tell me what today's special includes?",
+    "zhHans": "您能告诉我今日特色菜包括什么吗？",
+    "zhHant": "您能告訴我今日特色菜包括什麼嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-cafe_restaurante-pode-trazer-a-ementa",
@@ -28503,10 +28597,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "cafe_restaurante",
     "order": 571,
     "purpose": "useful situation example",
-    "pt": "A conta, por favor.",
-    "en": "The bill, please.",
-    "zhHans": "请结账。",
-    "zhHant": "請結帳。"
+    "pt": "Podia trazer-me a conta, por favor?",
+    "en": "Could you bring me the bill, please?",
+    "zhHans": "请把账单拿给我，好吗？",
+    "zhHant": "請把帳單拿給我，好嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-cafe_restaurante-vamos-jantar-num-restaurante-portugues",
@@ -28773,20 +28868,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "casa_reparacoes",
     "order": 598,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a remodelação.",
-    "en": "I have a question about renovation.",
-    "zhHans": "我需要咨询有关翻新装修的问题。",
-    "zhHant": "我需要查詢有關翻新裝修的問題。"
+    "pt": "Gostaria de saber mais sobre a remodelação.",
+    "en": "I would like to know more about renovation.",
+    "zhHans": "我想进一步了解翻新装修。",
+    "zhHant": "我想進一步了解翻新裝修。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-casa_reparacoes-preciso-de-esclarecer-uma-duvida-sobre-a-caldeira",
     "situacao": "casa_reparacoes",
     "order": 599,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a caldeira.",
-    "en": "I have a question about boiler.",
-    "zhHans": "我需要咨询有关锅炉的问题。",
-    "zhHant": "我需要查詢有關鍋爐的問題。"
+    "pt": "Quem me pode orientar sobre a caldeira?",
+    "en": "Who can advise me about boiler?",
+    "zhHans": "关于锅炉，谁可以给我指引？",
+    "zhHant": "關於鍋爐，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-casa_reparacoes-com-quem-devo-falar-sobre-o-eletrodomestico",
@@ -28803,10 +28900,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "casa_reparacoes",
     "order": 601,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a humidade.",
-    "en": "I have a question about damp.",
-    "zhHans": "我需要咨询有关潮湿的问题。",
-    "zhHant": "我需要查詢有關潮濕的問題。"
+    "pt": "Tenho uma questão relacionada com a humidade.",
+    "en": "I have a question related to damp.",
+    "zhHans": "我有一个与潮湿有关的问题。",
+    "zhHant": "我有一個與潮濕有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-casa_reparacoes-com-quem-devo-falar-sobre-o-orcamento",
@@ -28913,10 +29011,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "agua_luz_gas",
     "order": 612,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a caldeira.",
-    "en": "I have a question about boiler.",
-    "zhHans": "我需要咨询有关锅炉的问题。",
-    "zhHant": "我需要查詢有關鍋爐的問題。"
+    "pt": "Gostaria de saber mais sobre a caldeira.",
+    "en": "I would like to know more about boiler.",
+    "zhHans": "我想进一步了解锅炉。",
+    "zhHant": "我想進一步了解鍋爐。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-agua_luz_gas-com-quem-devo-falar-sobre-a-comissao",
@@ -29333,10 +29432,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "policia_documentos",
     "order": 654,
     "purpose": "useful situation example",
-    "pt": "Preciso de uma cópia do auto da ocorrência.",
-    "en": "I need a copy of the incident report.",
-    "zhHans": "我需要一份事件报告副本。",
-    "zhHant": "我需要一份事件報告副本。"
+    "pt": "Pode dar-me uma cópia do auto da ocorrência?",
+    "en": "Could you give me a copy of the incident report?",
+    "zhHans": "您能给我一份事件报告副本吗？",
+    "zhHant": "您能給我一份事件報告副本嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-policia_documentos-quero-apresentar-uma-denuncia-por-furto",
@@ -29473,50 +29573,55 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "iefp",
     "order": 668,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a entrevista de emprego?",
-    "en": "Where can I find information about job interview?",
-    "zhHans": "我可以在哪里查到有关求职面试的信息？",
-    "zhHant": "我可以在哪裡查到有關求職面試的資訊？"
+    "pt": "Gostaria de saber mais sobre a entrevista de emprego.",
+    "en": "I would like to know more about job interview.",
+    "zhHans": "我想进一步了解求职面试。",
+    "zhHant": "我想進一步了解求職面試。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-iefp-onde-posso-encontrar-informacoes-sobre-o-recibo-de-vencimento",
     "situacao": "iefp",
     "order": 669,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o recibo de vencimento?",
-    "en": "Where can I find information about payslip?",
-    "zhHans": "我可以在哪里查到有关工资单的信息？",
-    "zhHant": "我可以在哪裡查到有關工資單的資訊？"
+    "pt": "Quem me pode orientar sobre o recibo de vencimento?",
+    "en": "Who can advise me about payslip?",
+    "zhHans": "关于工资单，谁可以给我指引？",
+    "zhHant": "關於工資單，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-iefp-pode-dar-me-informacoes-sobre-o-periodo-experimental",
     "situacao": "iefp",
     "order": 670,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o período experimental?",
-    "en": "Could you give me information about probation period?",
-    "zhHans": "可以告诉我有关试用期的信息吗？",
-    "zhHant": "可以告訴我有關試用期的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com o período experimental.",
+    "en": "I have a question related to probation period.",
+    "zhHans": "我有一个与试用期有关的问题。",
+    "zhHant": "我有一個與試用期有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-iefp-pode-dar-me-informacoes-sobre-a-rescisao-do-contrato",
     "situacao": "iefp",
     "order": 671,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a rescisão do contrato?",
-    "en": "Could you give me information about contract termination?",
-    "zhHans": "可以告诉我有关解除合同的信息吗？",
-    "zhHant": "可以告訴我有關解除合同的資訊嗎？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a rescisão do contrato?",
+    "en": "Can you help me with a question about contract termination?",
+    "zhHans": "您能帮我解答一个有关解除合同的问题吗？",
+    "zhHant": "您能幫我解答一個有關解除合同的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-iefp-pode-dar-me-informacoes-sobre-o-gestor-pessoal",
     "situacao": "iefp",
     "order": 672,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o gestor pessoal?",
-    "en": "Could you give me information about personal case officer?",
-    "zhHans": "可以告诉我有关个人专员的信息吗？",
-    "zhHant": "可以告訴我有關個人專員的資訊嗎？"
+    "pt": "A quem posso pedir esclarecimentos sobre o gestor pessoal?",
+    "en": "Who can I ask for clarification about personal case officer?",
+    "zhHans": "关于个人专员，我可以向谁咨询？",
+    "zhHant": "關於個人專員，我可以向誰查詢？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-iefp-preciso-de-esclarecer-uma-duvida-sobre-a-agencia-de-trabalho-temporario",
@@ -29533,10 +29638,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "iefp",
     "order": 674,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre o sindicato?",
-    "en": "Could you give me information about trade union?",
-    "zhHans": "可以告诉我有关工会的信息吗？",
-    "zhHant": "可以告訴我有關工會的資訊嗎？"
+    "pt": "Pode explicar-me melhor o que preciso de saber sobre o sindicato?",
+    "en": "Could you explain what I need to know about trade union?",
+    "zhHans": "您能说明我需要了解工会的哪些信息吗？",
+    "zhHant": "您能說明我需要了解工會的哪些資訊嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_hotelaria-pode-explicar-me-o-que-devo-fazer-para-guardar-a-bagagem",
@@ -29643,20 +29749,22 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_restauracao",
     "order": 685,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a gorjeta?",
-    "en": "Where can I find information about tip?",
-    "zhHans": "我可以在哪里查到有关小费的信息？",
-    "zhHant": "我可以在哪裡查到有關小費的資訊？"
+    "pt": "Gostaria de saber mais sobre a gorjeta.",
+    "en": "I would like to know more about tip.",
+    "zhHans": "我想进一步了解小费。",
+    "zhHant": "我想進一步了解小費。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_restauracao-onde-posso-encontrar-informacoes-sobre-o-couvert",
     "situacao": "trabalho_restauracao",
     "order": 686,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre o couvert?",
-    "en": "Where can I find information about couvert (bread/olives, charged)?",
-    "zhHans": "我可以在哪里查到有关餐前小食（收费）的信息？",
-    "zhHant": "我可以在哪裡查到有關餐前小食（收費）的資訊？"
+    "pt": "Quem me pode orientar sobre o couvert?",
+    "en": "Who can advise me about couvert (bread/olives, charged)?",
+    "zhHans": "关于餐前小食（收费），谁可以给我指引？",
+    "zhHant": "關於餐前小食（收費），誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_restauracao-pode-dar-me-informacoes-sobre-o-prato-principal",
@@ -29683,10 +29791,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_restauracao",
     "order": 689,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a comanda?",
-    "en": "Could you give me information about order slip?",
-    "zhHans": "可以告诉我有关点菜单的信息吗？",
-    "zhHant": "可以告訴我有關點菜單的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com a comanda.",
+    "en": "I have a question related to order slip.",
+    "zhHans": "我有一个与点菜单有关的问题。",
+    "zhHant": "我有一個與點菜單有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_restauracao-onde-posso-encontrar-o-cliente-habitual",
@@ -29933,10 +30042,11 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_entregas",
     "order": 714,
     "purpose": "useful situation example",
-    "pt": "Pode explicar-me o que devo fazer para estacionar?",
-    "en": "Could you explain what I need to do to park?",
-    "zhHans": "可以说明我要怎样停车吗？",
-    "zhHant": "可以說明我要怎樣停車嗎？"
+    "pt": "Qual é a forma correta de estacionar aqui?",
+    "en": "What is the correct way to park here?",
+    "zhHans": "在这里应该怎样正确停车？",
+    "zhHant": "在這裡應該怎樣正確停車？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-o-codigo-da-porta",
@@ -29953,40 +30063,44 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_entregas",
     "order": 716,
     "purpose": "useful situation example",
-    "pt": "Onde posso encontrar informações sobre a demora?",
-    "en": "Where can I find information about delay / wait?",
-    "zhHans": "我可以在哪里查到有关等候／延误的信息？",
-    "zhHant": "我可以在哪裡查到有關等候／延誤的資訊？"
+    "pt": "Gostaria de saber mais sobre a demora.",
+    "en": "I would like to know more about delay / wait.",
+    "zhHans": "我想进一步了解等候／延误。",
+    "zhHant": "我想進一步了解等候／延誤。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-a-zona-de-entrega",
     "situacao": "trabalho_entregas",
     "order": 717,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a zona de entrega?",
-    "en": "Could you give me information about delivery zone?",
-    "zhHans": "可以告诉我有关配送区域的信息吗？",
-    "zhHant": "可以告訴我有關配送區域的資訊嗎？"
+    "pt": "Quem me pode orientar sobre a zona de entrega?",
+    "en": "Who can advise me about delivery zone?",
+    "zhHans": "关于配送区域，谁可以给我指引？",
+    "zhHant": "關於配送區域，誰可以給我指引？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-a-conta-bloqueada",
     "situacao": "trabalho_entregas",
     "order": 718,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a conta bloqueada?",
-    "en": "Could you give me information about blocked account?",
-    "zhHans": "可以告诉我有关账号被封的信息吗？",
-    "zhHant": "可以告訴我有關帳號被封的資訊嗎？"
+    "pt": "Tenho uma questão relacionada com a conta bloqueada.",
+    "en": "I have a question related to blocked account.",
+    "zhHans": "我有一个与账号被封有关的问题。",
+    "zhHant": "我有一個與帳號被封有關的問題。",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_entregas-pode-dar-me-informacoes-sobre-a-entrega",
     "situacao": "trabalho_entregas",
     "order": 719,
     "purpose": "useful situation example",
-    "pt": "Pode dar-me informações sobre a entrega?",
-    "en": "Could you give me information about delivery?",
-    "zhHans": "可以告诉我有关配送的信息吗？",
-    "zhHant": "可以告訴我有關配送的資訊嗎？"
+    "pt": "Consegue ajudar-me com uma dúvida sobre a entrega?",
+    "en": "Can you help me with a question about delivery?",
+    "zhHans": "您能帮我解答一个有关配送的问题吗？",
+    "zhHant": "您能幫我解答一個有關配送的問題嗎？",
+    "audioMode": "browser"
   },
   {
     "id": "cartao-trabalho_entregas-onde-posso-encontrar-a-mochila-termica",

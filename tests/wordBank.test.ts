@@ -63,6 +63,44 @@ describe("complete situation content", () => {
     expect(situacaoDialogueLines.filter((line) => line.situacao === situacao).length).toBeGreaterThanOrEqual(20);
     expect(situacaoCheatSheetLines.filter((line) => line.situacao === situacao).length).toBeGreaterThanOrEqual(20);
   });
+
+  it.each(allSituationIds)("does not repeat generic Cartao sentence structures within %s", (situacao) => {
+    const cards = situacaoCheatSheetLines.filter((line) => line.situacao === situacao);
+    const patterns = [
+      /^Queria informações sobre /u,
+      /^Pode dar-me informações sobre /u,
+      /^Preciso de esclarecer uma dúvida sobre /u,
+      /^Com quem devo falar sobre /u,
+      /^Onde posso encontrar informações sobre /u,
+      /^Gostaria de saber mais sobre /u,
+      /^Quem me pode orientar sobre /u,
+      /^Tenho uma questão relacionada com /u,
+      /^Consegue ajudar-me com uma dúvida sobre /u,
+      /^A quem posso pedir esclarecimentos sobre /u,
+      /^Pode explicar-me melhor o que preciso de saber sobre /u,
+      /^Onde posso obter ajuda para questões sobre /u,
+      /^Preciso de confirmar uma informação sobre /u,
+      /^Há algum guia disponível sobre /u,
+      /^Existe algum serviço de apoio para dúvidas sobre /u
+    ];
+
+    for (const pattern of patterns) {
+      expect(cards.filter((line) => pattern.test(line.pt)).length).toBeLessThanOrEqual(1);
+    }
+
+    const structurePrefixes = cards.map((line) =>
+      line.pt
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/gu, "")
+        .toLocaleLowerCase("pt-PT")
+        .replace(/[^\p{L}\p{N}]+/gu, " ")
+        .trim()
+        .split(" ")
+        .slice(0, 5)
+        .join(" ")
+    );
+    expect(new Set(structurePrefixes).size).toBe(structurePrefixes.length);
+  });
 });
 
 describe("bureaucracy situations", () => {

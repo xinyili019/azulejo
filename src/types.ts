@@ -60,6 +60,7 @@ export interface SituacaoContentLine {
   zhHant: string;
   purpose?: string;
   note?: string;
+  audioMode?: "browser";
 }
 
 export interface ModuleQuizScope {

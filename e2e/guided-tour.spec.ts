@@ -18,6 +18,7 @@ test("keeps each Manual walkthrough target and popup visible on a phone", async 
 
   const selectors = [
     ".study-entry-back",
+    ".study-selector-pill",
     ".flip-tile",
     ".review-again",
     ".review-known",
@@ -29,7 +30,7 @@ test("keeps each Manual walkthrough target and popup visible on a phone", async 
     const popup = page.locator(".tour-popup");
     const target = page.locator(selectors[index]);
     await expect(popup).toBeVisible();
-    await expect(popup.locator(".tour-step-counter")).toHaveText(`${index + 1} / 6`);
+    await expect(popup.locator(".tour-step-counter")).toHaveText(`${index + 1} / 7`);
     await expect(target).toBeInViewport();
     await expect(popup).toBeInViewport();
     await popup.getByRole("button", { name: "Got it" }).click();

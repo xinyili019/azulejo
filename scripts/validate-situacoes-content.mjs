@@ -9,6 +9,23 @@ const dialogues = extract("situacaoDialogueLines");
 const cards = extract("situacaoCheatSheetLines");
 const situations = groups.flatMap((group) => group.items.map((item) => item.id));
 const errors = [];
+const cardStructurePatterns = [
+  /^Queria informações sobre /u,
+  /^Pode dar-me informações sobre /u,
+  /^Preciso de esclarecer uma dúvida sobre /u,
+  /^Com quem devo falar sobre /u,
+  /^Onde posso encontrar informações sobre /u,
+  /^Gostaria de saber mais sobre /u,
+  /^Quem me pode orientar sobre /u,
+  /^Tenho uma questão relacionada com /u,
+  /^Consegue ajudar-me com uma dúvida sobre /u,
+  /^A quem posso pedir esclarecimentos sobre /u,
+  /^Pode explicar-me melhor o que preciso de saber sobre /u,
+  /^Onde posso obter ajuda para questões sobre /u,
+  /^Preciso de confirmar uma informação sobre /u,
+  /^Há algum guia disponível sobre /u,
+  /^Existe algum serviço de apoio para dúvidas sobre /u
+];
 const allLines = [
   ...dialogues.map((line) => ({ ...line, section: "dialogo" })),
   ...cards.map((line) => ({ ...line, section: "cartao" }))
@@ -49,6 +66,20 @@ for (const situation of situations) {
   );
   if (overlap.size > 2) {
     errors.push(`${situation} repeats ${overlap.size} exact lines across Dialogo and Cartao: ${[...overlap].join(" | ")}`);
+  }
+  for (const pattern of cardStructurePatterns) {
+    const matches = situationCards.filter((line) => pattern.test(line.pt));
+    if (matches.length > 1) {
+      errors.push(`${situation} repeats a Cartao sentence structure: ${matches.map((line) => line.pt).join(" | ")}`);
+    }
+  }
+  const structureCounts = new Map();
+  for (const line of situationCards) {
+    const structure = normalize(line.pt).split(" ").slice(0, 5).join(" ");
+    structureCounts.set(structure, (structureCounts.get(structure) ?? 0) + 1);
+  }
+  for (const [structure, count] of structureCounts) {
+    if (count > 1) errors.push(`${situation} has ${count} Cartao lines beginning with the same structure: "${structure}"`);
   }
 }
 

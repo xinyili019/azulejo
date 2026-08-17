@@ -30,7 +30,7 @@ import {
   shuffleWithRng,
   type RetrievalReviewResult
 } from "./lib/retrievalReview";
-import { playPortugueseAudio } from "./lib/portugueseAudio";
+import { playPortugueseAudio, speakWithBrowserVoice } from "./lib/portugueseAudio";
 import { buildSessionPlan, type VocabularySession } from "./lib/sessionPlan";
 import {
   clearActiveSession,
@@ -82,6 +82,7 @@ const LANGUAGE_SETTING = "translationLanguage";
 const GUIDED_TOUR_SETTING = "guidedTour";
 const STUDY_TOUR_STEPS = [
   { targetSelector: ".study-entry-back" },
+  { targetSelector: ".study-selector-pill" },
   { targetSelector: ".flip-tile" },
   { targetSelector: ".review-again" },
   { targetSelector: ".review-known" },
@@ -91,6 +92,7 @@ const STUDY_TOUR_STEPS = [
 const STUDY_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly string[]> = {
   en: [
     "Tap ‹ to go back and switch between Manual and Situações.",
+    "Use this menu to choose the module you want to study.",
     "Tap the tile to check the meaning.",
     "Tap Again if you want to see this word again soon.",
     "Tap Known if you've got it. It'll come back later, less often.",
@@ -99,6 +101,7 @@ const STUDY_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly string[]> = {
   ],
   zhHans: [
     "点击 ‹ 返回并切换“课本”和“场景”。",
+    "使用此菜单选择想学习的单元。",
     "点击卡片查看词义。",
     "如果想很快再看到这个词，请点击“再练习”。",
     "如果已经掌握，请点击“已掌握”。之后它会降低出现频率。",
@@ -107,12 +110,18 @@ const STUDY_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly string[]> = {
   ],
   zhHant: [
     "點擊 ‹ 返回並切換「課本」和「場景」。",
+    "使用此選單選擇想學習的單元。",
     "點擊卡片查看單字意思。",
     "如果想很快再看到這個單字，請點擊「再練習」。",
     "如果已經掌握，請點擊「已掌握」。之後它會降低出現頻率。",
     "在卡片上向右滑，或點擊這裡，返回上一個單字。",
     "用小測驗檢查學過的單字。學習 40 個單字後，小測驗會自動出現。"
   ]
+};
+const SITUACAO_SELECTOR_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", string> = {
+  en: "Use this menu to choose the real-life situation you want to practise.",
+  zhHans: "使用此菜单选择想练习的真实生活场景。",
+  zhHant: "使用此選單選擇想練習的真實生活場景。"
 };
 const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
   { value: "pt-en", label: "English" },
@@ -570,7 +579,7 @@ export default function App() {
 
   function advanceGuidedTour() {
     if (!guidedTourProgress || guidedTourProgress.completed) return;
-    if (guidedTourProgress.step === 1) {
+    if (guidedTourProgress.step === 2) {
       if (appMode === "manual") setRevealed(true);
       else setSituacaoRevealed(true);
     }
@@ -604,7 +613,11 @@ export default function App() {
     return (
       <GuidedTour
         targetSelector={step.targetSelector}
-        copy={STUDY_TOUR_COPY[ui.locale][guidedTourProgress.step]}
+        copy={
+          guidedTourProgress.step === 1 && appMode === "situacoes"
+            ? SITUACAO_SELECTOR_TOUR_COPY[ui.locale]
+            : STUDY_TOUR_COPY[ui.locale][guidedTourProgress.step]
+        }
         step={guidedTourProgress.step}
         totalSteps={guidedTourTotalSteps}
         labels={getGuidedTourLabels(ui.locale)}
@@ -1588,7 +1601,11 @@ export default function App() {
               <button
                 className="icon-button situacao-listen"
                 type="button"
-                onClick={() => playPortugueseAudio(`audio/pt/situacoes/cartao/${line.id}.m4a`, line.pt)}
+                onClick={() =>
+                  line.audioMode === "browser"
+                    ? speakWithBrowserVoice(line.pt)
+                    : playPortugueseAudio(`audio/pt/situacoes/cartao/${line.id}.m4a`, line.pt)
+                }
                 aria-label={`${ui.listen}: ${line.pt}`}
                 title={ui.listen}
               >

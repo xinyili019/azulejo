@@ -1,8 +1,6 @@
 import { defineConfig, devices } from "@playwright/test";
 
-const chromiumExecutable =
-  process.env.PW_CHROMIUM_EXECUTABLE_PATH ??
-  `${process.env.HOME}/Library/Caches/ms-playwright/chromium-1228/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing`;
+const chromiumExecutable = process.env.PW_CHROMIUM_EXECUTABLE_PATH;
 
 export default defineConfig({
   testDir: "./e2e",
@@ -13,9 +11,7 @@ export default defineConfig({
   },
   use: {
     baseURL: "http://127.0.0.1:5173",
-    launchOptions: {
-      executablePath: chromiumExecutable
-    },
+    launchOptions: chromiumExecutable ? { executablePath: chromiumExecutable } : undefined,
     trace: "on-first-retry"
   },
   projects: [

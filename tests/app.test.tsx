@@ -8,6 +8,7 @@ import { getActiveSession, getProgress, getSetting, importAll } from "../src/lib
 
 const STUDY_TOUR_COPY = [
   "Tap ‹ to go back and switch between Manual and Situações.",
+  "Use this menu to choose the module you want to study.",
   "Tap the tile to check the meaning.",
   "Tap Again if you want to see this word again soon.",
   "Tap Known if you've got it. It'll come back later, less often.",
@@ -442,7 +443,7 @@ describe("App", () => {
     audioSpy.mockRestore();
   });
 
-  it("runs and persists the six-step Manual walkthrough", async () => {
+  it("runs and persists the seven-step Manual walkthrough", async () => {
     await importAll({ app: "azulejo", progress: {}, settings: { translationLanguage: "pt-en" } });
     const { unmount } = render(<App />);
 
@@ -450,15 +451,15 @@ describe("App", () => {
     fireEvent.click(screen.getByRole("button", { name: /manual work through/i }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
-    expect(screen.getByText("1 / 6")).toBeInTheDocument();
+    expect(screen.getByText("1 / 7")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Got it" }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[1])).toBeInTheDocument();
-    expect(screen.getByText("2 / 6")).toBeInTheDocument();
+    expect(screen.getByText("2 / 7")).toBeInTheDocument();
     fireEvent.click(screen.getAllByRole("button", { name: "Continue tour" })[0]);
 
     expect(await screen.findByText(STUDY_TOUR_COPY[2])).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /hide answer/i })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /reveal/i })).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Got it" }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[3])).toBeInTheDocument();
@@ -466,11 +467,13 @@ describe("App", () => {
     expect(await screen.findByText(STUDY_TOUR_COPY[4])).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Got it" }));
     expect(await screen.findByText(STUDY_TOUR_COPY[5])).toBeInTheDocument();
-    expect(screen.getByText("6 / 6")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+    expect(await screen.findByText(STUDY_TOUR_COPY[6])).toBeInTheDocument();
+    expect(screen.getByText("7 / 7")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Got it" }));
 
     await waitFor(async () => {
-      expect(await getSetting("guidedTour")).toEqual({ completed: true, step: 6 });
+      expect(await getSetting("guidedTour")).toEqual({ completed: true, step: 7 });
       expect(screen.queryByRole("dialog", { name: /tour/i })).not.toBeInTheDocument();
     });
 
@@ -480,23 +483,28 @@ describe("App", () => {
     expect(screen.queryByText(STUDY_TOUR_COPY[0])).not.toBeInTheDocument();
   });
 
-  it("skips and replays the five-step Situações walkthrough", async () => {
+  it("skips and replays the six-step Situações walkthrough", async () => {
     await importAll({ app: "azulejo", progress: {}, settings: { translationLanguage: "pt-en" } });
     render(<App />);
     fireEvent.click(screen.getByRole("button", { name: /situation learn by real-life/i }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
-    expect(screen.getByText("1 / 5")).toBeInTheDocument();
+    expect(screen.getByText("1 / 6")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+    expect(
+      await screen.findByText("Use this menu to choose the real-life situation you want to practise.")
+    ).toBeInTheDocument();
+    expect(screen.getByText("2 / 6")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Skip tour" }));
 
     await waitFor(async () => {
-      expect(await getSetting("guidedTour")).toEqual({ completed: true, step: 5 });
+      expect(await getSetting("guidedTour")).toEqual({ completed: true, step: 6 });
     });
     fireEvent.click(screen.getByRole("button", { name: /settings/i }));
     fireEvent.click(screen.getByRole("button", { name: "Replay tour" }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
-    expect(screen.getByText("1 / 5")).toBeInTheDocument();
+    expect(screen.getByText("1 / 6")).toBeInTheDocument();
   });
 
   it.each([
@@ -772,6 +780,26 @@ describe("App", () => {
 
     expect(play).toHaveBeenCalledTimes(1);
     expect(speak).not.toHaveBeenCalled();
+  });
+
+  it("speaks rewritten Cartao text instead of playing its superseded recording", () => {
+    render(<App />);
+    const play = vi.mocked(window.HTMLMediaElement.prototype.play);
+    const speak = vi.mocked(window.speechSynthesis.speak);
+
+    fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
+    fireEvent.click(screen.getByRole("button", { name: /^situation/i }));
+    fireEvent.click(screen.getByRole("tab", { name: /cheat sheet/i }));
+    play.mockClear();
+    speak.mockClear();
+    fireEvent.click(screen.getByRole("button", { name: /transferência imediata/i }));
+
+    expect(play).not.toHaveBeenCalled();
+    expect(speak).toHaveBeenCalledTimes(1);
+    expect(speak.mock.calls[0][0]).toMatchObject({
+      text: "Gostaria de saber mais sobre a transferência imediata.",
+      lang: "pt-PT"
+    });
   });
 
   it("plays the Portuguese example sentence from the example audio file", () => {
