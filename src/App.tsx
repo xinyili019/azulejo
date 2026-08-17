@@ -1283,6 +1283,8 @@ export default function App() {
           <p className="app-subtitle">your Portuguese, tile by tile</p>
         </header>
 
+        <p className="entry-guide">{entryCopy.guide}</p>
+
         <div className="entry-mode-cards" aria-label="Study mode">
           <button type="button" className="entry-mode-card" onClick={() => enterStudyMode("manual")}>
             <strong>{entryCopy.manualLabel}</strong>
@@ -2103,6 +2105,7 @@ function getEntryScreenCopy(locale: "en" | "zhHans" | "zhHant") {
       manualDescription: "按顺序学习十二个课本单元。",
       situacoesLabel: "场景",
       situacoesDescription: "在真实生活场景中学习。",
+      guide: "选择学习模式。你可以在此页面更改语言。",
       languageLabel: "语言"
     };
   }
@@ -2113,6 +2116,7 @@ function getEntryScreenCopy(locale: "en" | "zhHans" | "zhHant") {
       manualDescription: "按順序學習十二個課本單元。",
       situacoesLabel: "場景",
       situacoesDescription: "在真實生活場景中學習。",
+      guide: "選擇學習模式。你可以在此頁面更改語言。",
       languageLabel: "語言"
     };
   }
@@ -2122,6 +2126,7 @@ function getEntryScreenCopy(locale: "en" | "zhHans" | "zhHant") {
     manualDescription: "Work through the 12 textbook modules.",
     situacoesLabel: "Situation",
     situacoesDescription: "Learn by real-life situation.",
+    guide: "Select your study mode. You can change the language on this screen.",
     languageLabel: "Language"
   };
 }
