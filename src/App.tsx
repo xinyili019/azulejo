@@ -1283,8 +1283,6 @@ export default function App() {
           <p className="app-subtitle">your Portuguese, tile by tile</p>
         </header>
 
-        <p className="entry-guide">{entryCopy.guide}</p>
-
         <div className="entry-mode-cards" aria-label="Study mode">
           <button type="button" className="entry-mode-card" onClick={() => enterStudyMode("manual")}>
             <strong>{entryCopy.manualLabel}</strong>
@@ -1309,6 +1307,8 @@ export default function App() {
             ))}
           </select>
         </label>
+
+        <p className="entry-guide">{entryCopy.guide}</p>
       </section>
     );
   }

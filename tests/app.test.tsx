@@ -306,7 +306,10 @@ describe("App", () => {
     expect(screen.getByRole("button", { name: /manual work through the 12 textbook modules/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /situation learn by real-life situation/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /settings/i })).toBeInTheDocument();
-    expect(screen.getByLabelText(/language/i)).toBeInTheDocument();
+    const languageSelect = screen.getByLabelText(/language/i);
+    const entryGuide = screen.getByText("Select your study mode. You can change the language on this screen.");
+    expect(languageSelect).toBeInTheDocument();
+    expect(languageSelect.closest("label")?.nextElementSibling).toBe(entryGuide);
 
     fireEvent.click(screen.getByRole("button", { name: /manual work through/i }));
 

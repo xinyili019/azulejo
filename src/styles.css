@@ -208,6 +208,8 @@ select {
   font-size: 0.78rem;
   line-height: 1.35;
   text-align: center;
+  opacity: 0;
+  animation: entry-float-in 0.58s ease-out 0.56s forwards;
 }
 
 .entry-mode-card {
@@ -287,7 +289,8 @@ select {
   .entry-header .app-subtitle,
   .entry-header .app-header-top,
   .entry-mode-cards,
-  .entry-language-control {
+  .entry-language-control,
+  .entry-guide {
     opacity: 1;
     animation: none;
     transform: none;
