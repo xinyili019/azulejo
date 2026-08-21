@@ -486,28 +486,45 @@ describe("App", () => {
     expect(screen.queryByText(STUDY_TOUR_COPY[0])).not.toBeInTheDocument();
   });
 
-  it("skips and replays the six-step Situações walkthrough", async () => {
+  it("adds Dialogue and Cheat sheet guidance to the eight-step Situações walkthrough", async () => {
     await importAll({ app: "azulejo", progress: {}, settings: { translationLanguage: "pt-en" } });
     render(<App />);
     fireEvent.click(screen.getByRole("button", { name: /situation learn by real-life/i }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
-    expect(screen.getByText("1 / 6")).toBeInTheDocument();
+    expect(screen.getByText("1 / 8")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Got it" }));
     expect(
       await screen.findByText("Use this menu to choose the real-life situation you want to practise.")
     ).toBeInTheDocument();
-    expect(screen.getByText("2 / 6")).toBeInTheDocument();
+    expect(screen.getByText("2 / 8")).toBeInTheDocument();
+
+    for (let step = 2; step < 7; step += 1) {
+      fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+    }
+
+    expect(
+      await screen.findByText(
+        "Practise real-life conversations in Dialogue, and use Cheat sheet to review key phrases at a glance."
+      )
+    ).toBeInTheDocument();
+    expect(screen.getByText("7 / 8")).toBeInTheDocument();
+    expect(document.querySelectorAll(".situacao-conversation-tab.tour-spotlight-target")).toHaveLength(2);
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    expect(await screen.findByText("In Dialogue, tap any sentence to reveal its meaning.")).toBeInTheDocument();
+    expect(screen.getByText("8 / 8")).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "Dialogue" })).toHaveAttribute("aria-selected", "true");
     fireEvent.click(screen.getByRole("button", { name: "Skip tour" }));
 
     await waitFor(async () => {
-      expect(await getSetting("guidedTour")).toEqual({ completed: true, step: 6 });
+      expect(await getSetting("guidedTour")).toEqual({ completed: true, step: 8 });
     });
     fireEvent.click(screen.getByRole("button", { name: /settings/i }));
     fireEvent.click(screen.getByRole("button", { name: "Replay tour" }));
 
     expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
-    expect(screen.getByText("1 / 6")).toBeInTheDocument();
+    expect(screen.getByText("1 / 8")).toBeInTheDocument();
   });
 
   it.each([

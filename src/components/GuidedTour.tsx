@@ -35,20 +35,20 @@ export function GuidedTour({ targetSelector, copy, step, totalSteps, labels, onA
   const gotItRef = useRef<HTMLButtonElement | null>(null);
 
   useEffect(() => {
-    const target = document.querySelector<HTMLElement>(targetSelector);
-    if (!target) {
+    const targets = Array.from(document.querySelectorAll<HTMLElement>(targetSelector));
+    if (targets.length === 0) {
       setTargetBounds(null);
       return;
     }
-    target.classList.add("tour-spotlight-target");
+    targets.forEach((target) => target.classList.add("tour-spotlight-target"));
 
     const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
-    const initialRect = target.getBoundingClientRect();
+    const initialRect = getCombinedBounds(targets);
     const isFullyVisible = initialRect.top >= 0 && initialRect.bottom <= window.innerHeight;
-    if (!isFullyVisible) target.scrollIntoView({ block: "center", inline: "nearest", behavior: reducedMotion ? "auto" : "smooth" });
+    if (!isFullyVisible) targets[0].scrollIntoView({ block: "center", inline: "nearest", behavior: reducedMotion ? "auto" : "smooth" });
 
     const updateBounds = () => {
-      const rect = target.getBoundingClientRect();
+      const rect = getCombinedBounds(targets);
       setTargetBounds({
         top: Math.max(0, rect.top - TARGET_PADDING_PX),
         right: Math.min(window.innerWidth, rect.right + TARGET_PADDING_PX),
@@ -64,7 +64,7 @@ export function GuidedTour({ targetSelector, copy, step, totalSteps, labels, onA
     window.addEventListener("resize", updateBounds);
     window.addEventListener("scroll", updateBounds, true);
     return () => {
-      target.classList.remove("tour-spotlight-target");
+      targets.forEach((target) => target.classList.remove("tour-spotlight-target"));
       window.clearTimeout(settleTimer);
       window.removeEventListener("resize", updateBounds);
       window.removeEventListener("scroll", updateBounds, true);
@@ -153,4 +153,14 @@ export function GuidedTour({ targetSelector, copy, step, totalSteps, labels, onA
       </div>
     </div>
   );
+}
+
+function getCombinedBounds(targets: HTMLElement[]) {
+  const rects = targets.map((target) => target.getBoundingClientRect());
+  const top = Math.min(...rects.map((rect) => rect.top));
+  const right = Math.max(...rects.map((rect) => rect.right));
+  const bottom = Math.max(...rects.map((rect) => rect.bottom));
+  const left = Math.min(...rects.map((rect) => rect.left));
+
+  return { top, right, bottom, left, width: right - left, height: bottom - top };
 }

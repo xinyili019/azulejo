@@ -87,7 +87,7 @@ export function SituacaoTabs({ activeTab, locale, onChange }: SituacaoTabsProps)
           type="button"
           role="tab"
           aria-selected={activeTab === tabId}
-          className={activeTab === tabId ? "is-active" : ""}
+          className={`${activeTab === tabId ? "is-active" : ""}${tabId !== "vocabulario" ? " situacao-conversation-tab" : ""}`.trim()}
           onPointerDown={(event) => {
             event.currentTarget.setPointerCapture(event.pointerId);
             setPressed(true);

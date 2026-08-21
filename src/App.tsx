@@ -89,6 +89,12 @@ const STUDY_TOUR_STEPS = [
   { targetSelector: ".card-previous" },
   { targetSelector: ".module-quiz-start" }
 ] as const;
+const SITUACAO_TOUR_STEPS = [
+  ...STUDY_TOUR_STEPS.slice(0, -1),
+  { targetSelector: ".situacao-conversation-tab" },
+  { targetSelector: ".dialogue-turn" }
+] as const;
+const SITUACAO_DIALOGUE_TOUR_STEP = SITUACAO_TOUR_STEPS.length - 1;
 const STUDY_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly string[]> = {
   en: [
     "Tap ‹ to go back and switch between Manual and Situações.",
@@ -122,6 +128,20 @@ const SITUACAO_SELECTOR_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", string> = 
   en: "Use this menu to choose the real-life situation you want to practise.",
   zhHans: "使用此菜单选择想练习的真实生活场景。",
   zhHant: "使用此選單選擇想練習的真實生活場景。"
+};
+const SITUACAO_EXTRA_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly [string, string]> = {
+  en: [
+    "Practise real-life conversations in Dialogue, and use Cheat sheet to review key phrases at a glance.",
+    "In Dialogue, tap any sentence to reveal its meaning."
+  ],
+  zhHans: [
+    "在“对话”中练习日常生活中用得到的对话，并通过“速查卡”快速查看重点短语。",
+    "在“对话”中，点击任意句子即可查看意思。"
+  ],
+  zhHant: [
+    "在「對話」中練習日常生活中用得到的對話，並透過「速查卡」快速查看重點短語。",
+    "在「對話」中，點擊任意句子即可查看意思。"
+  ]
 };
 const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
   { value: "pt-en", label: "English" },
@@ -458,7 +478,8 @@ export default function App() {
         .filter((result): result is ModuleQuizResult => Boolean(result)),
     [moduleQuizResults, quizScopes]
   );
-  const guidedTourTotalSteps = appMode === "manual" ? STUDY_TOUR_STEPS.length : STUDY_TOUR_STEPS.length - 1;
+  const guidedTourSteps = appMode === "manual" ? STUDY_TOUR_STEPS : SITUACAO_TOUR_STEPS;
+  const guidedTourTotalSteps = guidedTourSteps.length;
   const guidedTourActive = Boolean(
     storageReady &&
       appView === "study" &&
@@ -471,8 +492,11 @@ export default function App() {
     if (!guidedTourActive) return;
     setGlobalSearchOpen(false);
     if (phase !== "study") setPhase("study");
-    if (appMode === "situacoes" && situacaoTab !== "vocabulario") setSituacaoTab("vocabulario");
-  }, [appMode, guidedTourActive, phase, situacaoTab]);
+    if (appMode === "situacoes") {
+      const guidedTab = guidedTourProgress?.step === SITUACAO_DIALOGUE_TOUR_STEP ? "dialogo" : "vocabulario";
+      if (situacaoTab !== guidedTab) setSituacaoTab(guidedTab);
+    }
+  }, [appMode, guidedTourActive, guidedTourProgress?.step, phase, situacaoTab]);
 
   useEffect(() => {
     resetFlow();
@@ -585,6 +609,7 @@ export default function App() {
     }
 
     const nextStep = guidedTourProgress.step + 1;
+    if (appMode === "situacoes" && nextStep === SITUACAO_DIALOGUE_TOUR_STEP) setSituacaoTab("dialogo");
     persistGuidedTour(
       nextStep >= guidedTourTotalSteps ? { completed: true, step: guidedTourTotalSteps } : { completed: false, step: nextStep }
     );
@@ -607,17 +632,21 @@ export default function App() {
 
   function renderGuidedTour() {
     if (!guidedTourActive || !guidedTourProgress) return null;
-    const step = STUDY_TOUR_STEPS[guidedTourProgress.step];
+    const step = guidedTourSteps[guidedTourProgress.step];
     if (!step) return null;
+
+    const situationExtraCopyIndex = guidedTourProgress.step - (SITUACAO_TOUR_STEPS.length - 2);
+    const copy =
+      appMode === "situacoes" && guidedTourProgress.step === 1
+        ? SITUACAO_SELECTOR_TOUR_COPY[ui.locale]
+        : appMode === "situacoes" && situationExtraCopyIndex >= 0
+          ? SITUACAO_EXTRA_TOUR_COPY[ui.locale][situationExtraCopyIndex]
+          : STUDY_TOUR_COPY[ui.locale][guidedTourProgress.step];
 
     return (
       <GuidedTour
         targetSelector={step.targetSelector}
-        copy={
-          guidedTourProgress.step === 1 && appMode === "situacoes"
-            ? SITUACAO_SELECTOR_TOUR_COPY[ui.locale]
-            : STUDY_TOUR_COPY[ui.locale][guidedTourProgress.step]
-        }
+        copy={copy}
         step={guidedTourProgress.step}
         totalSteps={guidedTourTotalSteps}
         labels={getGuidedTourLabels(ui.locale)}
@@ -2031,7 +2060,7 @@ function normalizeGuidedTourProgress(value: GuidedTourProgress | undefined): Gui
   if (!value || typeof value.completed !== "boolean" || !Number.isInteger(value.step) || value.step < 0) {
     return { completed: false, step: 0 };
   }
-  return { completed: value.completed, step: Math.min(value.step, STUDY_TOUR_STEPS.length) };
+  return { completed: value.completed, step: Math.min(value.step, Math.max(STUDY_TOUR_STEPS.length, SITUACAO_TOUR_STEPS.length)) };
 }
 
 function getModuleThemeLabel(modulo: string, locale: "en" | "zhHans" | "zhHant") {
