@@ -494,6 +494,86 @@ describe("App", () => {
     expect(screen.queryByText(STUDY_TOUR_COPY[0])).not.toBeInTheDocument();
   });
 
+  it("shows only steps 1, 2, 7, and 8 on the first Situation entry after Manual", async () => {
+    await importAll({ app: "azulejo", progress: {}, settings: { translationLanguage: "pt-en" } });
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: /manual work through/i }));
+    for (let step = 0; step < 7; step += 1) {
+      fireEvent.click(await screen.findByRole("button", { name: "Got it" }));
+    }
+    expect(screen.queryByRole("dialog", { name: /tour/i })).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
+    fireEvent.click(screen.getByRole("button", { name: /situation learn by real-life/i }));
+
+    expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
+    expect(screen.getByText("1 / 8")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    expect(
+      await screen.findByText("Use this menu to choose the real-life situation you want to practise.")
+    ).toBeInTheDocument();
+    expect(screen.getByText("2 / 8")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    expect(
+      await screen.findByText(
+        "Practise real-life conversations in Dialogue, and use Cheat sheet to review key phrases at a glance."
+      )
+    ).toBeInTheDocument();
+    expect(screen.getByText("7 / 8")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    expect(await screen.findByText("In Dialogue, tap any sentence to reveal its meaning.")).toBeInTheDocument();
+    expect(screen.getByText("8 / 8")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    await waitFor(async () => {
+      expect(await getSetting("situacaoTourCompleted")).toBe(true);
+      expect(screen.queryByRole("dialog", { name: /tour/i })).not.toBeInTheDocument();
+    });
+
+    fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
+    fireEvent.click(screen.getByRole("button", { name: /situation learn by real-life/i }));
+    expect(screen.queryByRole("dialog", { name: /tour/i })).not.toBeInTheDocument();
+  });
+
+  it("shows only steps 1, 2, and 7 on the first Manual entry after Situation", async () => {
+    await importAll({ app: "azulejo", progress: {}, settings: { translationLanguage: "pt-en" } });
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: /situation learn by real-life/i }));
+    for (let step = 0; step < 8; step += 1) {
+      fireEvent.click(await screen.findByRole("button", { name: "Got it" }));
+    }
+    expect(screen.queryByRole("dialog", { name: /tour/i })).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
+    fireEvent.click(screen.getByRole("button", { name: /manual work through/i }));
+
+    expect(await screen.findByText(STUDY_TOUR_COPY[0])).toBeInTheDocument();
+    expect(screen.getByText("1 / 7")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    expect(await screen.findByText(STUDY_TOUR_COPY[1])).toBeInTheDocument();
+    expect(screen.getByText("2 / 7")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    expect(await screen.findByText(STUDY_TOUR_COPY[6])).toBeInTheDocument();
+    expect(screen.getByText("7 / 7")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+
+    await waitFor(async () => {
+      expect(await getSetting("manualTourCompleted")).toBe(true);
+      expect(screen.queryByRole("dialog", { name: /tour/i })).not.toBeInTheDocument();
+    });
+
+    fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
+    fireEvent.click(screen.getByRole("button", { name: /manual work through/i }));
+    expect(screen.queryByRole("dialog", { name: /tour/i })).not.toBeInTheDocument();
+  });
+
   it("adds Dialogue and Cheat sheet guidance to the eight-step Situações walkthrough", async () => {
     await importAll({ app: "azulejo", progress: {}, settings: { translationLanguage: "pt-en" } });
     render(<App />);

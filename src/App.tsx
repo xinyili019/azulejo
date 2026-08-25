@@ -80,6 +80,8 @@ const DEFAULT_MODULO = "Módulo 1";
 const RESUME_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 const LANGUAGE_SETTING = "translationLanguage";
 const GUIDED_TOUR_SETTING = "guidedTour";
+const MANUAL_TOUR_SETTING = "manualTourCompleted";
+const SITUACAO_TOUR_SETTING = "situacaoTourCompleted";
 const STUDY_TOUR_STEPS = [
   { targetSelector: ".study-entry-back" },
   { targetSelector: ".study-selector-pill" },
@@ -95,6 +97,8 @@ const SITUACAO_TOUR_STEPS = [
   { targetSelector: ".dialogue-turn" }
 ] as const;
 const SITUACAO_DIALOGUE_TOUR_STEP = SITUACAO_TOUR_STEPS.length - 1;
+const MANUAL_FOLLOWUP_TOUR_STEPS = [0, 1, STUDY_TOUR_STEPS.length - 1] as const;
+const SITUACAO_FOLLOWUP_TOUR_STEPS = [0, 1, SITUACAO_TOUR_STEPS.length - 2, SITUACAO_DIALOGUE_TOUR_STEP] as const;
 const STUDY_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly string[]> = {
   en: [
     "Tap ‹ to go back and switch between Manual and Situações.",
@@ -270,6 +274,10 @@ export default function App() {
   const [appInstalled, setAppInstalled] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [guidedTourProgress, setGuidedTourProgress] = useState<GuidedTourProgress | null>(null);
+  const [manualTourCompleted, setManualTourCompleted] = useState(false);
+  const [situacaoTourCompleted, setSituacaoTourCompleted] = useState(false);
+  const [manualFollowupStep, setManualFollowupStep] = useState<number | null>(null);
+  const [situacaoFollowupStep, setSituacaoFollowupStep] = useState<number | null>(null);
   const [progressFileMessage, setProgressFileMessage] = useState("");
   const [importCandidate, setImportCandidate] = useState<unknown | null>(null);
   const [resumeSession, setResumeSession] = useState<ActiveSessionState | null>(null);
@@ -289,25 +297,46 @@ export default function App() {
       getActiveSession(),
       getLastLocation(),
       getSetting<Direction>(LANGUAGE_SETTING),
-      getSetting<GuidedTourProgress>(GUIDED_TOUR_SETTING)
+      getSetting<GuidedTourProgress>(GUIDED_TOUR_SETTING),
+      getSetting<boolean>(MANUAL_TOUR_SETTING),
+      getSetting<boolean>(SITUACAO_TOUR_SETTING)
     ])
-      .then(([storedProgress, storedSession, storedLocation, storedDirection, storedTour]) => {
-        if (cancelled) return;
-        setProgress((current) => (Object.keys(current).length > 0 ? current : storedProgress));
-        if (isFreshActiveSession(storedSession)) {
-          applyActiveSessionLocation(storedSession);
-          setAppView("study");
-          setResumeSession(storedSession);
-          activeSessionRef.current = storedSession;
-          prepareRestoredHistory();
-        } else if (isFreshLastLocation(storedLocation)) {
-          applyLastLocation(storedLocation);
-          setAppView("study");
-          prepareRestoredHistory();
+      .then(
+        ([
+          storedProgress,
+          storedSession,
+          storedLocation,
+          storedDirection,
+          storedTour,
+          storedManualTourCompleted,
+          storedSituacaoTourCompleted
+        ]) => {
+          if (cancelled) return;
+          setProgress((current) => (Object.keys(current).length > 0 ? current : storedProgress));
+          if (isFreshActiveSession(storedSession)) {
+            applyActiveSessionLocation(storedSession);
+            setAppView("study");
+            setResumeSession(storedSession);
+            activeSessionRef.current = storedSession;
+            prepareRestoredHistory();
+          } else if (isFreshLastLocation(storedLocation)) {
+            applyLastLocation(storedLocation);
+            setAppView("study");
+            prepareRestoredHistory();
+          }
+          if (storedDirection) setDirection(normalizeSupportedDirection(storedDirection));
+          const normalizedTour = normalizeGuidedTourProgress(storedTour);
+          setGuidedTourProgress(normalizedTour);
+          setManualTourCompleted(
+            storedManualTourCompleted === true ||
+              (normalizedTour.completed && normalizedTour.step === STUDY_TOUR_STEPS.length)
+          );
+          setSituacaoTourCompleted(
+            storedSituacaoTourCompleted === true ||
+              (normalizedTour.completed && normalizedTour.step >= SITUACAO_TOUR_STEPS.length)
+          );
         }
-        if (storedDirection) setDirection(normalizeSupportedDirection(storedDirection));
-        setGuidedTourProgress(normalizeGuidedTourProgress(storedTour));
-      })
+      )
       .catch((error) => {
         console.error("Could not load progress.", error);
       })
@@ -480,12 +509,25 @@ export default function App() {
   );
   const guidedTourSteps = appMode === "manual" ? STUDY_TOUR_STEPS : SITUACAO_TOUR_STEPS;
   const guidedTourTotalSteps = guidedTourSteps.length;
+  const manualFollowupActive =
+    appMode === "manual" &&
+    manualFollowupStep !== null &&
+    manualFollowupStep < MANUAL_FOLLOWUP_TOUR_STEPS.length;
+  const situacaoFollowupActive =
+    appMode === "situacoes" &&
+    situacaoFollowupStep !== null &&
+    situacaoFollowupStep < SITUACAO_FOLLOWUP_TOUR_STEPS.length;
+  const activeGuidedTourStep = situacaoFollowupActive
+    ? SITUACAO_FOLLOWUP_TOUR_STEPS[situacaoFollowupStep ?? 0]
+    : manualFollowupActive
+      ? MANUAL_FOLLOWUP_TOUR_STEPS[manualFollowupStep ?? 0]
+      : guidedTourProgress?.step ?? 0;
   const guidedTourActive = Boolean(
     storageReady &&
       appView === "study" &&
-      guidedTourProgress &&
-      !guidedTourProgress.completed &&
-      guidedTourProgress.step < guidedTourTotalSteps
+      (manualFollowupActive ||
+        situacaoFollowupActive ||
+        (guidedTourProgress && !guidedTourProgress.completed && guidedTourProgress.step < guidedTourTotalSteps))
   );
 
   useEffect(() => {
@@ -493,10 +535,10 @@ export default function App() {
     setGlobalSearchOpen(false);
     if (phase !== "study") setPhase("study");
     if (appMode === "situacoes") {
-      const guidedTab = guidedTourProgress?.step === SITUACAO_DIALOGUE_TOUR_STEP ? "dialogo" : "vocabulario";
+      const guidedTab = activeGuidedTourStep === SITUACAO_DIALOGUE_TOUR_STEP ? "dialogo" : "vocabulario";
       if (situacaoTab !== guidedTab) setSituacaoTab(guidedTab);
     }
-  }, [appMode, guidedTourActive, guidedTourProgress?.step, phase, situacaoTab]);
+  }, [activeGuidedTourStep, appMode, guidedTourActive, phase, situacaoTab]);
 
   useEffect(() => {
     resetFlow();
@@ -584,7 +626,19 @@ export default function App() {
     setAppMode(mode);
     setGlobalSearchOpen(false);
     setSettingsOpen(false);
-    if (guidedTourProgress && !guidedTourProgress.completed) {
+    const startsSituacaoFollowup =
+      mode === "situacoes" &&
+      guidedTourProgress?.completed === true &&
+      guidedTourProgress.step === STUDY_TOUR_STEPS.length &&
+      !situacaoTourCompleted;
+    const startsManualFollowup =
+      mode === "manual" &&
+      guidedTourProgress?.completed === true &&
+      guidedTourProgress.step >= SITUACAO_TOUR_STEPS.length &&
+      !manualTourCompleted;
+    setManualFollowupStep(startsManualFollowup ? 0 : null);
+    setSituacaoFollowupStep(startsSituacaoFollowup ? 0 : null);
+    if ((guidedTourProgress && !guidedTourProgress.completed) || startsManualFollowup || startsSituacaoFollowup) {
       setPhase("study");
       setRevealed(false);
       setSituacaoRevealed(false);
@@ -601,7 +655,46 @@ export default function App() {
     });
   }
 
+  function completeSituacaoTour() {
+    setSituacaoTourCompleted(true);
+    setSituacaoFollowupStep(null);
+    setSetting(SITUACAO_TOUR_SETTING, true).catch((error) => {
+      console.error("Could not save the Situações tour progress.", error);
+    });
+  }
+
+  function completeManualTour() {
+    setManualTourCompleted(true);
+    setManualFollowupStep(null);
+    setSetting(MANUAL_TOUR_SETTING, true).catch((error) => {
+      console.error("Could not save the Manual tour progress.", error);
+    });
+  }
+
   function advanceGuidedTour() {
+    if (manualFollowupActive) {
+      const nextFollowupStep = (manualFollowupStep ?? 0) + 1;
+      if (nextFollowupStep >= MANUAL_FOLLOWUP_TOUR_STEPS.length) {
+        completeManualTour();
+        return;
+      }
+      setManualFollowupStep(nextFollowupStep);
+      return;
+    }
+
+    if (situacaoFollowupActive) {
+      const nextFollowupStep = (situacaoFollowupStep ?? 0) + 1;
+      if (nextFollowupStep >= SITUACAO_FOLLOWUP_TOUR_STEPS.length) {
+        completeSituacaoTour();
+        return;
+      }
+      if (SITUACAO_FOLLOWUP_TOUR_STEPS[nextFollowupStep] === SITUACAO_DIALOGUE_TOUR_STEP) {
+        setSituacaoTab("dialogo");
+      }
+      setSituacaoFollowupStep(nextFollowupStep);
+      return;
+    }
+
     if (!guidedTourProgress || guidedTourProgress.completed) return;
     if (guidedTourProgress.step === 2) {
       if (appMode === "manual") setRevealed(true);
@@ -610,13 +703,27 @@ export default function App() {
 
     const nextStep = guidedTourProgress.step + 1;
     if (appMode === "situacoes" && nextStep === SITUACAO_DIALOGUE_TOUR_STEP) setSituacaoTab("dialogo");
-    persistGuidedTour(
-      nextStep >= guidedTourTotalSteps ? { completed: true, step: guidedTourTotalSteps } : { completed: false, step: nextStep }
-    );
+    if (nextStep >= guidedTourTotalSteps) {
+      persistGuidedTour({ completed: true, step: guidedTourTotalSteps });
+      if (appMode === "situacoes") completeSituacaoTour();
+      else completeManualTour();
+      return;
+    }
+    persistGuidedTour({ completed: false, step: nextStep });
   }
 
   function skipGuidedTour() {
+    if (manualFollowupActive) {
+      completeManualTour();
+      return;
+    }
+    if (situacaoFollowupActive) {
+      completeSituacaoTour();
+      return;
+    }
     persistGuidedTour({ completed: true, step: guidedTourTotalSteps });
+    if (appMode === "situacoes") completeSituacaoTour();
+    else completeManualTour();
   }
 
   function replayGuidedTour() {
@@ -625,6 +732,8 @@ export default function App() {
     setPhase("study");
     setRevealed(false);
     setSituacaoRevealed(false);
+    setManualFollowupStep(null);
+    setSituacaoFollowupStep(null);
     if (appMode === "situacoes") setSituacaoTab("vocabulario");
     persistGuidedTour({ completed: false, step: 0 });
     if (appView === "study") window.scrollTo({ top: 0 });
@@ -632,22 +741,22 @@ export default function App() {
 
   function renderGuidedTour() {
     if (!guidedTourActive || !guidedTourProgress) return null;
-    const step = guidedTourSteps[guidedTourProgress.step];
+    const step = guidedTourSteps[activeGuidedTourStep];
     if (!step) return null;
 
-    const situationExtraCopyIndex = guidedTourProgress.step - (SITUACAO_TOUR_STEPS.length - 2);
+    const situationExtraCopyIndex = activeGuidedTourStep - (SITUACAO_TOUR_STEPS.length - 2);
     const copy =
-      appMode === "situacoes" && guidedTourProgress.step === 1
+      appMode === "situacoes" && activeGuidedTourStep === 1
         ? SITUACAO_SELECTOR_TOUR_COPY[ui.locale]
         : appMode === "situacoes" && situationExtraCopyIndex >= 0
           ? SITUACAO_EXTRA_TOUR_COPY[ui.locale][situationExtraCopyIndex]
-          : STUDY_TOUR_COPY[ui.locale][guidedTourProgress.step];
+          : STUDY_TOUR_COPY[ui.locale][activeGuidedTourStep];
 
     return (
       <GuidedTour
         targetSelector={step.targetSelector}
         copy={copy}
-        step={guidedTourProgress.step}
+        step={activeGuidedTourStep}
         totalSteps={guidedTourTotalSteps}
         labels={getGuidedTourLabels(ui.locale)}
         onAdvance={advanceGuidedTour}
