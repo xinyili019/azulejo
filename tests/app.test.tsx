@@ -326,7 +326,7 @@ describe("App", () => {
     expect(screen.getByRole("heading", { name: "Azulejo" })).toBeInTheDocument();
   });
 
-  it("restores the last study mode saved within 48 hours", async () => {
+  it("restores the last study mode saved within 30 days", async () => {
     await importAll({
       app: "azulejo",
       progress: {},
@@ -334,7 +334,7 @@ describe("App", () => {
       lastLocation: {
         view: "situacoes",
         params: { situacaoId: "banco", situacaoTab: "dialogo", direction: "pt-en" },
-        updatedAt: new Date().toISOString()
+        updatedAt: new Date(Date.now() - 29 * 24 * 60 * 60 * 1000).toISOString()
       }
     });
 
@@ -383,7 +383,15 @@ describe("App", () => {
     expect(screen.getByRole("combobox", { name: "Situação" })).toBeInTheDocument();
     expect(screen.getByRole("option", { name: "Vet · Veterinário" })).toBeInTheDocument();
     expect(screen.getByRole("tab", { name: "Vocabulary" })).toHaveAttribute("aria-selected", "true");
-    expect(screen.getByText("Bank", { selector: ".module-row > span" })).toBeInTheDocument();
+    expect(screen.getByRole("progressbar", { name: "Bureaucracy readiness" })).toBeInTheDocument();
+    expect(screen.getByRole("progressbar", { name: "Practical life readiness" })).toBeInTheDocument();
+    expect(screen.getByRole("progressbar", { name: "Work readiness" })).toBeInTheDocument();
+
+    const bureaucracySection = screen.getByText("Bureaucracy").closest("details");
+    expect(bureaucracySection).not.toHaveAttribute("open");
+    fireEvent.click(screen.getByText("Bureaucracy"));
+    expect(bureaucracySection).toHaveAttribute("open");
+    expect(within(bureaucracySection!).getByText("Bank", { selector: ".module-row > span" })).toBeVisible();
     expect(screen.queryByText(/Banco 0%/)).not.toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("tab", { name: "Dialogue" }));
@@ -568,6 +576,25 @@ describe("App", () => {
     expect(screen.getByRole("button", { name: /reveal/i })).toHaveTextContent(vocabulary[0].portuguese);
   });
 
+  it("shows each new word front-side-first without animating through its translation", () => {
+    render(<App />);
+
+    const firstTile = screen.getByRole("button", { name: /reveal/i });
+    fireEvent.click(firstTile);
+    expect(firstTile).toHaveClass("is-revealed");
+
+    fireEvent.click(screen.getByRole("button", { name: /known/i }));
+
+    const nextTile = screen.getByRole("button", { name: /reveal/i });
+    expect(nextTile).not.toBe(firstTile);
+    expect(nextTile).toHaveTextContent(vocabulary[1].portuguese);
+    expect(nextTile).toHaveAttribute("aria-pressed", "false");
+    expect(nextTile).not.toHaveClass("is-revealed");
+
+    fireEvent.click(nextTile);
+    expect(nextTile).toHaveClass("is-revealed");
+  });
+
   it("places previous word below the revealed review actions", () => {
     render(<App />);
 
@@ -587,7 +614,7 @@ describe("App", () => {
     render(<App />);
     toggleAutoAudio();
 
-    const tile = screen.getByRole("button", { name: /reveal/i });
+    let tile = screen.getByRole("button", { name: /reveal/i });
     const swipe = (start: { x: number; y: number }, end: { x: number; y: number }) => {
       fireEvent.touchStart(tile, { touches: [{ clientX: start.x, clientY: start.y }] });
       fireEvent.touchMove(tile, { touches: [{ clientX: end.x, clientY: end.y }] });
@@ -599,6 +626,7 @@ describe("App", () => {
 
     fireEvent.click(tile);
     fireEvent.click(screen.getByRole("button", { name: /known/i }));
+    tile = screen.getByRole("button", { name: /reveal/i });
     expect(tile).toHaveTextContent(vocabulary[1].portuguese);
 
     await waitFor(async () => {

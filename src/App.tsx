@@ -77,7 +77,7 @@ type AppView = "entry" | "study";
 type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
 const DEFAULT_SITUACAO_ID = situacaoGroups[0]?.items[0]?.id ?? "banco";
 const DEFAULT_MODULO = "Módulo 1";
-const RESUME_MAX_AGE_MS = 48 * 60 * 60 * 1000;
+const RESUME_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 const LANGUAGE_SETTING = "translationLanguage";
 const GUIDED_TOUR_SETTING = "guidedTour";
 const STUDY_TOUR_STEPS = [
@@ -1477,6 +1477,7 @@ export default function App() {
         {renderResumePrompt()}
         <div className="situacao-session-touch-area">
               <Flashcard
+            key={`${activeSituacaoEntry.id}:${direction}`}
             entry={activeSituacaoEntry}
             direction={direction}
             revealed={situacaoRevealed}
@@ -1789,6 +1790,7 @@ export default function App() {
               {ui.goBack}
             </button>
             <Flashcard
+              key={`${activeEntry.id}:${direction}`}
               entry={activeEntry}
               direction={direction}
               revealed={revealed}
@@ -1803,6 +1805,7 @@ export default function App() {
           </div>
         ) : (
           <Flashcard
+            key={`${activeEntry.id}:${direction}`}
             entry={activeEntry}
             direction={direction}
             revealed={revealed}
@@ -1920,6 +1923,7 @@ export default function App() {
             situacaoGroups={situacaoGroups}
             getModuleThemeLabel={(moduleName) => getModuleThemeLabel(moduleName, ui.locale)}
             getSituacaoLabel={(id, portugueseLabel) => getSituacaoTargetLabel(id, portugueseLabel, ui.locale)}
+            getSituacaoGroupLabel={(portugueseLabel) => SITUACAO_GROUP_LABELS[portugueseLabel]?.[ui.locale] ?? portugueseLabel}
             onStartOver={handleStartOver}
           />
           {renderInstallControl()}
