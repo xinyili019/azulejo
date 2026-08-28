@@ -201,17 +201,6 @@ select {
   animation: entry-float-in 0.58s ease-out 0.56s forwards;
 }
 
-.entry-guide {
-  margin: 0 auto 14px;
-  max-width: 34rem;
-  color: var(--entry-copy-muted);
-  font-size: 0.78rem;
-  line-height: 1.35;
-  text-align: center;
-  opacity: 0;
-  animation: entry-float-in 0.58s ease-out 0.56s forwards;
-}
-
 .entry-mode-card {
   min-width: 0;
   min-height: 106px;
@@ -289,8 +278,7 @@ select {
   .entry-header .app-subtitle,
   .entry-header .app-header-top,
   .entry-mode-cards,
-  .entry-language-control,
-  .entry-guide {
+  .entry-language-control {
     opacity: 1;
     animation: none;
     transform: none;
