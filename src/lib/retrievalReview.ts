@@ -1,7 +1,8 @@
+import { translateLearningText } from "./learningTranslations";
 import type { Direction, VocabularyEntry } from "../types";
 import { getPortugueseBareText, getPortugueseDisplayText } from "./portugueseDisplay";
 
-export type RetrievalPromptLanguage = "english" | "zhHans" | "zhHant";
+export type RetrievalPromptLanguage = "english" | "zhHans" | "zhHant" | "fr" | "es" | "bn" | "ar" | "hi" | "ur" | "uk" | "ne" | "fa" | "ru" | "it";
 export type RetrievalReviewOutcome = "correct" | "incorrect" | "revealed-before-typed";
 export type RandomSource = () => number;
 
@@ -46,13 +47,15 @@ export interface ExpandRepeatOptions {
 function getPromptLanguage(direction: Direction): RetrievalPromptLanguage {
   if (direction.includes("zh-hans")) return "zhHans";
   if (direction.includes("zh-hant")) return "zhHant";
+  const code = direction.slice(3);
+  if (["fr", "es", "bn", "ar", "hi", "ur", "uk", "ne", "fa", "ru", "it"].includes(code)) return code as RetrievalPromptLanguage;
   return "english";
 }
 
 function getRetrievalPrompt(entry: VocabularyEntry, language: RetrievalPromptLanguage): string {
   if (language === "zhHans") return entry.zhHans;
   if (language === "zhHant") return entry.zhHant;
-  return entry.english;
+  return language === "english" ? entry.english : translateLearningText(entry.english, `pt-${language}` as Direction);
 }
 
 export function shuffleWithRng<T>(items: readonly T[], rng: RandomSource = Math.random): T[] {

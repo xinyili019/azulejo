@@ -1,3 +1,4 @@
+import { translateLearningText } from "../lib/learningTranslations";
 import { ChevronLeft, ChevronRight, RotateCcw, ThumbsUp, Volume2 } from "lucide-react";
 import {
   useEffect,
@@ -219,12 +220,12 @@ export function Flashcard({
           aria-label={revealed ? ui.hideAnswer : ui.revealAnswer}
         >
             <span className="tile-face tile-front" aria-hidden={revealed}>
-              <span className="tile-content">
+              <span className="tile-content" dir="ltr">
                 <span className="prompt">{renderTerm(prompt, portugueseIsFront, entry)}</span>
               </span>
             </span>
             <span className={`tile-face tile-back ${translationOpen ? "translation-is-open" : ""}`} aria-hidden={!revealed}>
-              <span className="tile-content tile-content-back">
+              <span className="tile-content tile-content-back" dir="ltr">
                 <span className="answer-pair">
                   <span className={`back-term-row answer-reference-row${portugueseIsFront ? " has-audio" : ""}`}>
                     {portugueseIsFront &&
@@ -237,7 +238,7 @@ export function Flashcard({
                   <span className={`back-term-row answer-row${portugueseIsBackAnswer ? " has-audio" : ""}`}>
                     {portugueseIsBackAnswer &&
                       renderBackAudioButton("word", `${ui.listen}: ${getPortugueseBareText(entry)}`, handlePronunciation)}
-                    <span className="answer" onClick={portugueseIsBackAnswer ? stopTileToggle : undefined}>
+                    <span className="answer" dir="auto" onClick={portugueseIsBackAnswer ? stopTileToggle : undefined}>
                       {renderTerm(answer, portugueseIsBackAnswer, entry)}
                     </span>
                     {portugueseIsBackAnswer && <span className="tile-audio-spacer" aria-hidden="true" />}
@@ -268,7 +269,7 @@ export function Flashcard({
                           {ui.translation}
                         </button>
                         <span id={translationId} className="example-body" aria-hidden={!translationOpen}>
-                          <span className="example muted">{exampleTranslation}</span>
+                          <span className="example muted" dir="auto">{exampleTranslation}</span>
                         </span>
                       </>
                     )}
@@ -324,7 +325,7 @@ function renderTerm(text: string, isPortuguese: boolean, entry: VocabularyEntry)
 function getExampleTranslation(entry: VocabularyEntry, direction: Direction) {
   if (direction.includes("zh-hans")) return entry.exampleZhHans;
   if (direction.includes("zh-hant")) return entry.exampleZhHant;
-  return entry.exampleEn;
+  return translateLearningText(entry.exampleEn, direction);
 }
 
 function isPortugueseFrontDirection(direction: Direction) {

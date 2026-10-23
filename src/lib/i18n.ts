@@ -1,9 +1,11 @@
+import { instructionLocale, translateCopy, type InstructionLocale } from "./instructionLanguages";
 import type { Direction } from "../types";
 
 type UiLocale = "en" | "zhHans" | "zhHant";
 
 export interface UiCopy {
   locale: UiLocale;
+  instructionLocale?: InstructionLocale;
   module: string;
   allModules: string;
   language: string;
@@ -249,7 +251,8 @@ const copy: Record<UiLocale, UiCopy> = {
 export function getUiCopy(direction: Direction) {
   if (direction.includes("zh-hans")) return copy.zhHans;
   if (direction.includes("zh-hant")) return copy.zhHant;
-  return copy.en;
+  const locale = instructionLocale(direction);
+  return { ...translateCopy(copy.en, locale), instructionLocale: locale };
 }
 
 function toChineseModulo(modulo: string, label: string) {

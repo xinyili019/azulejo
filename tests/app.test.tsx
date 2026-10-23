@@ -1,5 +1,7 @@
 import { act, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { translateLearningText } from "../src/lib/learningTranslations";
+import type { Direction } from "../src/types";
 import App from "../src/App";
 import { situacaoDialogueLines } from "../src/data/situacoes";
 import { vocabulary } from "../src/data/vocabulary";
@@ -78,6 +80,32 @@ describe("App", () => {
 
   afterEach(() => {
     vi.useRealTimers();
+  });
+
+  it.each([
+    ["pt-fr", "Langue", "Manuel", "Afficher", "fr"],
+    ["pt-es", "Idioma", "Manual", "Mostrar", "es"],
+    ["pt-bn", "ভাষা", "পাঠ্যবই", "দেখান", "bn"],
+    ["pt-ar", "اللغة", "الكتاب الدراسي", "إظهار", "ar"],
+    ["pt-hi", "भाषा", "पाठ्यपुस्तक", "दिखाएँ", "hi"],
+    ["pt-ur", "زبان", "درسی کتاب", "دکھائیں", "ur"],
+    ["pt-uk", "Мова", "Підручник", "Показати", "uk"],
+    ["pt-ne", "भाषा", "पाठ्यपुस्तक", "देखाउनुहोस्", "ne"],
+    ["pt-fa", "زبان", "کتاب درسی", "نمایش", "fa"],
+    ["pt-ru", "Язык", "Учебник", "Показать", "ru"],
+    ["pt-it", "Lingua", "Manuale", "Mostra", "it"]
+  ])("switches instructions and persists %s", async (value, label, manual, reveal, lang) => {
+    render(<App />);
+    await screen.findByRole("button", { name: /back to modes/i });
+    fireEvent.click(screen.getByRole("button", { name: /back to modes/i }));
+    fireEvent.change(screen.getByRole("combobox", { name: "Language" }), { target: { value } });
+    expect(screen.getByRole("combobox", { name: label })).toHaveValue(value);
+    expect(screen.getByRole("main")).toHaveAttribute("lang", lang);
+    expect(screen.getByRole("main")).toHaveAttribute("dir", ["ar", "ur", "fa"].includes(lang) ? "rtl" : "ltr");
+    fireEvent.click(screen.getByRole("button", { name: new RegExp(manual) }));
+    fireEvent.click(screen.getByRole("button", { name: reveal }));
+    expect(screen.getByText(translateLearningText(vocabulary[0].english, value as Direction))).toBeInTheDocument();
+    await waitFor(async () => expect(await getSetting("translationLanguage")).toBe(value));
   });
 
   it("reveals a flashcard answer and records progress", async () => {

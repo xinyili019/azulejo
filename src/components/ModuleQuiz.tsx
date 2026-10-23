@@ -1,3 +1,4 @@
+import { translateInstruction, instructionLocale } from "../lib/instructionLanguages";
 import { Check, ChevronRight, RotateCcw, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { buildModuleQuizQuestions } from "../lib/moduleQuiz";
@@ -317,7 +318,7 @@ export function ModuleQuiz({
                 {ui.translation}
               </button>
               <div className="example-body" aria-hidden={!translationOpen}>
-                <span className="example muted">{activeQuestion.translation}</span>
+                <span className="example muted" dir="auto">{activeQuestion.translation}</span>
               </div>
             </div>
           )}
@@ -325,7 +326,7 @@ export function ModuleQuiz({
           <div
             className={`module-quiz-choices choices-${activeQuestion.choices.length}${hasLongChoices ? " has-long-choices" : ""}`}
             role="list"
-            aria-label="Multiple choice answers"
+            aria-label={translateInstruction("Multiple choice answers", instructionLocale(direction))}
           >
             {activeQuestion.choices.map((choice) => {
               const isSelected = selectedChoice === choice;
@@ -390,17 +391,17 @@ function renderPortugueseTerm(entry: VocabularyEntry) {
 function getRetryMissedLabel(direction: Direction) {
   if (direction.includes("zh-hans")) return "重做错题";
   if (direction.includes("zh-hant")) return "重做錯題";
-  return "Retry missed";
+  return translateInstruction("Retry missed", instructionLocale(direction));
 }
 
 function getMissedQuizCopy(direction: Direction, count: number) {
   if (direction.includes("zh-hans")) return `请先重做 ${count} 道错题，答对后再继续。`;
   if (direction.includes("zh-hant")) return `請先重做 ${count} 道錯題，答對後再繼續。`;
-  return `Review ${count} missed ${count === 1 ? "question" : "questions"} before moving on.`;
+  return translateInstruction(`Review ${count} missed ${count === 1 ? "question" : "questions"} before moving on.`, instructionLocale(direction));
 }
 
 function getExitQuizLabel(direction: Direction, armed: boolean) {
   if (direction.includes("zh-hans")) return armed ? "再点一次退出" : "退出测验";
   if (direction.includes("zh-hant")) return armed ? "再點一次退出" : "退出測驗";
-  return armed ? "Tap again to exit" : "Exit quiz";
+  return translateInstruction(armed ? "Tap again to exit" : "Exit quiz", instructionLocale(direction));
 }

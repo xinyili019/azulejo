@@ -1,3 +1,5 @@
+import { translateLearningText } from "../lib/learningTranslations";
+import { translateInstruction } from "../lib/instructionLanguages";
 import { Check, ChevronRight, Eye, Volume2 } from "lucide-react";
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import {
@@ -46,6 +48,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
   const scoredInput = activePrompt ? buildAnswerFromCueInput(input, activePrompt.cue) : input;
   const feedback = activePrompt && submitted ? getCharacterFeedback(scoredInput, activePrompt.answer) : [];
   const outcome = activePrompt && submitted ? getRetrievalOutcome(scoredInput, activePrompt.answer, revealedBeforeTyped, activePrompt.acceptedAnswers) : null;
+  const t = (text: string) => translateInstruction(text, ui.instructionLocale ?? ui.locale);
   const targetExample = activePrompt ? getExampleTranslation(activePrompt.entry, direction) : undefined;
   const hasInput = Array.from(input).length > 0;
   const revealLabel = ui.revealAnswer;
@@ -138,7 +141,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
         </div>
 
         <div className="retrieval-prompt">
-          <p className="retrieval-prompt-text">{activePrompt.prompt}</p>
+          <p className="retrieval-prompt-text" dir="auto">{activePrompt.prompt}</p>
           <button className="icon-button retrieval-audio" type="button" onClick={speak} aria-label={ui.listen}>
             <Volume2 size={18} aria-hidden="true" />
           </button>
@@ -147,7 +150,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
         <div className="retrieval-typing-surface" onClick={() => inputRef.current?.focus()}>
           <div
             className={`retrieval-cue ${submitted ? "retrieval-cue-feedback" : "retrieval-cue-masked"}`}
-            aria-label="Portuguese answer cue"
+            lang="pt-PT" dir="ltr" aria-label={t("Portuguese answer cue")}
           >
             {renderCueSlots(activePrompt.cue, input, submitted ? feedback : undefined)}
           </div>
@@ -171,7 +174,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
             autoCapitalize="none"
             autoCorrect="off"
             spellCheck={false}
-            aria-label="Type the Portuguese word"
+            lang="pt-PT" dir="ltr" aria-label={t("Type the Portuguese word")}
           />
         </div>
 
@@ -202,10 +205,10 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
           ) : (
             <>
               <p className={`retrieval-feedback ${outcome === "correct" ? "is-correct" : "is-incorrect"}`}>
-                {outcome === "correct" ? "Correct" : "Incorrect"}
+                {outcome === "correct" ? ui.correct : ui.incorrect}
               </p>
               <button className="primary" type="button" onClick={nextPrompt}>
-                {promptIndex >= prompts.length - 1 ? "Finish" : "Next"}
+                {promptIndex >= prompts.length - 1 ? ui.finishQuiz : ui.nextQuestion}
               </button>
             </>
           )}
@@ -230,7 +233,7 @@ export function RetrievalReview({ prompts, direction, ui, title, onComplete, onG
             </button>
             <div className="example-body" aria-hidden={!exampleOpen}>
               {activePrompt.entry.examplePt && <span className="example">{activePrompt.entry.examplePt}</span>}
-              {targetExample && <span className="example muted">{targetExample}</span>}
+              {targetExample && <span className="example muted" dir="auto">{targetExample}</span>}
             </div>
           </div>
         )}
@@ -357,5 +360,5 @@ function displayCueChar(char: string) {
 function getExampleTranslation(entry: RetrievalReviewPrompt["entry"], direction: Direction) {
   if (direction.includes("zh-hans")) return entry.exampleZhHans;
   if (direction.includes("zh-hant")) return entry.exampleZhHant;
-  return entry.exampleEn;
+  return translateLearningText(entry.exampleEn, direction);
 }

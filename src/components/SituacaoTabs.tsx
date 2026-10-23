@@ -1,9 +1,11 @@
+import { translateInstruction, type InstructionLocale } from "../lib/instructionLanguages";
 import { useCallback, useLayoutEffect, useRef, useState, type CSSProperties, type PointerEvent } from "react";
 
 type SituacaoTab = "vocabulario" | "dialogo" | "cartao";
 
 interface SituacaoTabsProps {
   activeTab: SituacaoTab;
+  instructionLocale?: InstructionLocale;
   locale: "en" | "zhHans" | "zhHant";
   onChange: (tab: SituacaoTab) => void;
 }
@@ -22,7 +24,7 @@ const TABLIST_LABELS: Record<SituacaoTabsProps["locale"], string> = {
 
 const TAB_IDS: SituacaoTab[] = ["vocabulario", "dialogo", "cartao"];
 
-export function SituacaoTabs({ activeTab, locale, onChange }: SituacaoTabsProps) {
+export function SituacaoTabs({ activeTab, locale, instructionLocale = locale, onChange }: SituacaoTabsProps) {
   const trackRef = useRef<HTMLDivElement>(null);
   const buttonRefs = useRef(new Map<SituacaoTab, HTMLButtonElement>());
   const [thumb, setThumb] = useState({ x: 0, width: 0 });
@@ -73,7 +75,7 @@ export function SituacaoTabs({ activeTab, locale, onChange }: SituacaoTabsProps)
       ref={trackRef}
       className={`situacao-tabs${pressed ? " is-pressing" : ""}${thumb.width > 0 ? " is-measured" : ""}`}
       role="tablist"
-      aria-label={TABLIST_LABELS[locale]}
+      aria-label={translateInstruction(TABLIST_LABELS[locale], instructionLocale)}
       style={style}
     >
       <span className="situacao-tabs-thumb" aria-hidden="true" />
@@ -96,7 +98,7 @@ export function SituacaoTabs({ activeTab, locale, onChange }: SituacaoTabsProps)
           onPointerCancel={releasePress}
           onClick={() => onChange(tabId)}
         >
-          {TAB_LABELS[locale][tabId]}
+          {translateInstruction(TAB_LABELS[locale][tabId], instructionLocale)}
         </button>
       ))}
     </div>

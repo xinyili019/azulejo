@@ -1,3 +1,5 @@
+import { learningTranslations, translateLearningText } from "../lib/learningTranslations";
+import { translateCopy } from "../lib/instructionLanguages";
 import { Check, ChevronDown, RotateCcw, Search, Volume2 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { situacaoLabels } from "../data/situacoes";
@@ -34,7 +36,7 @@ export function GlobalSearchView({ entries, progress, direction, ui, onBack, onS
 
   const results = useMemo(() => searchEntries(entries, debouncedQuery), [entries, debouncedQuery]);
   const visibleResults = results.slice(0, visibleLimit);
-  const copy = getGlobalSearchCopy(ui.locale);
+  const copy = translateCopy(getGlobalSearchCopy(ui.locale), ui.instructionLocale ?? ui.locale);
 
   useEffect(() => {
     setVisibleLimit(SEARCH_PAGE_SIZE);
@@ -193,7 +195,7 @@ function getSearchRank(entry: VocabularyEntry, needle: string) {
   if (portuguese.startsWith(needle) || barePortuguese.startsWith(needle)) return 0;
   if (portuguese.includes(needle) || barePortuguese.includes(needle)) return 1;
 
-  const fields = [entry.english, entry.zhHans, entry.zhHant, entry.examplePt, entry.exampleEn, entry.exampleZhHans, entry.exampleZhHant];
+  const fields = [entry.english, entry.zhHans, entry.zhHant, entry.examplePt, entry.exampleEn, entry.exampleZhHans, entry.exampleZhHant, ...Object.values(learningTranslations).flatMap(dictionary => [dictionary[entry.english], entry.exampleEn ? dictionary[entry.exampleEn] : undefined])];
   return fields.some((value) => normalizeSearchText(value ?? "").includes(needle)) ? 2 : 100;
 }
 
@@ -235,13 +237,13 @@ function formatModuloBadge(modulo: string) {
 function getEntryTranslation(entry: VocabularyEntry, direction: Direction) {
   if (direction.includes("zh-hans")) return entry.zhHans;
   if (direction.includes("zh-hant")) return entry.zhHant;
-  return entry.english;
+  return translateLearningText(entry.english, direction);
 }
 
 function getExampleTranslation(entry: VocabularyEntry, direction: Direction) {
   if (direction.includes("zh-hans")) return entry.exampleZhHans;
   if (direction.includes("zh-hant")) return entry.exampleZhHant;
-  return entry.exampleEn;
+  return translateLearningText(entry.exampleEn, direction);
 }
 
 function getGlobalSearchCopy(locale: UiCopy["locale"]) {

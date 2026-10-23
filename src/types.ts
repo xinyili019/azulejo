@@ -1,4 +1,4 @@
-export type Direction = "pt-en" | "en-pt" | "pt-zh-hans" | "zh-hans-pt" | "pt-zh-hant" | "zh-hant-pt";
+export type Direction = "pt-uk" | "pt-ne" | "pt-fa" | "pt-ru" | "pt-it" | "pt-hi" | "pt-ur" | "pt-fr" | "pt-es" | "pt-bn" | "pt-ar" | "pt-en" | "en-pt" | "pt-zh-hans" | "zh-hans-pt" | "pt-zh-hant" | "zh-hant-pt";
 export type CardStatus = "new" | "again" | "known";
 export type PartOfSpeech = "noun" | "verb" | "adj" | "adv" | "expr" | "prep" | "pron" | "num" | "det" | "other";
 export type GrammaticalGender = "m" | "f" | "m-pl" | "f-pl";

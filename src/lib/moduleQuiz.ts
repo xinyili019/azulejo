@@ -1,3 +1,4 @@
+import { translateLearningText } from "./learningTranslations";
 import type { Direction, ModuleQuizQuestion, ModuleQuizScope, VocabularyEntry } from "../types";
 import { createSeededRng, shuffleWithRng, type RandomSource } from "./retrievalReview";
 
@@ -124,13 +125,13 @@ function buildQuestionDraft(entry: VocabularyEntry): ModuleQuizQuestionDraft | n
 export function getQuizTranslation(entry: VocabularyEntry, direction: Direction): string | undefined {
   if (direction.includes("zh-hans")) return entry.exampleZhHans;
   if (direction.includes("zh-hant")) return entry.exampleZhHant;
-  return entry.exampleEn;
+  return translateLearningText(entry.exampleEn, direction);
 }
 
 export function getMeaningAnswer(entry: VocabularyEntry, direction: Direction): string | undefined {
   if (direction.includes("zh-hans")) return entry.zhHans;
   if (direction.includes("zh-hant")) return entry.zhHant;
-  return entry.english;
+  return translateLearningText(entry.english, direction);
 }
 
 function getModuleQuizRanges(modulo: string, entryCount: number, chunkSize: number): Array<[number, number]> {

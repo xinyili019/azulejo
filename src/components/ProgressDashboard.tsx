@@ -1,3 +1,4 @@
+import { translateInstruction } from "../lib/instructionLanguages";
 import type { ProgressState, SituacaoGroup, VocabularyEntry } from "../types";
 import { summarizeByModulo, summarizeProgress } from "../lib/progress";
 import type { UiCopy } from "../lib/i18n";
@@ -30,7 +31,7 @@ export function ProgressDashboard({
   const readinessLabel =
     mode === "situacoes"
       ? ui.locale === "en"
-        ? "ready for your journey!"
+        ? translateInstruction("ready for your journey!", ui.instructionLocale ?? ui.locale)
         : ui.locale === "zhHans"
           ? "旅程准备度"
           : "旅程準備度"

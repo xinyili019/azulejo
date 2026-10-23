@@ -1,3 +1,5 @@
+import { translateLearningText } from "./lib/learningTranslations";
+import { translateCopy, translateInstruction } from "./lib/instructionLanguages";
 import { Brain, ChevronLeft, Download, Printer, Save, Search, Settings, Volume2 } from "lucide-react";
 import { type ChangeEvent, type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { Flashcard } from "./components/Flashcard";
@@ -149,6 +151,17 @@ const SITUACAO_EXTRA_TOUR_COPY: Record<"en" | "zhHans" | "zhHant", readonly [str
 };
 const LANGUAGE_OPTIONS: Array<{ value: Direction; label: string }> = [
   { value: "pt-en", label: "English" },
+  { value: "pt-uk", label: "Українська" },
+  { value: "pt-ne", label: "नेपाली" },
+  { value: "pt-fa", label: "فارسی" },
+  { value: "pt-ru", label: "Русский" },
+  { value: "pt-it", label: "Italiano" },
+  { value: "pt-hi", label: "हिन्दी" },
+  { value: "pt-ur", label: "اردو" },
+  { value: "pt-fr", label: "Français" },
+  { value: "pt-es", label: "Español" },
+  { value: "pt-bn", label: "বাংলা" },
+  { value: "pt-ar", label: "العربية" },
   { value: "pt-zh-hant", label: "\u7e41\u9ad4\u4e2d\u6587" },
   { value: "pt-zh-hans", label: "\u7b80\u4f53\u4e2d\u6587" }
 ];
@@ -491,6 +504,8 @@ export default function App() {
   const quizScopes = useMemo(() => buildModuleQuizScopes(selectedEntries), [selectedEntries]);
   const currentSession = sessionPlan.sessions[sessionIndex];
   const ui = getUiCopy(direction);
+  const instructionLang = ui.instructionLocale ?? ui.locale;
+  const t = (text: string) => translateInstruction(text, instructionLang);
 
   const currentStudyEntries = manualQueueOverrideIds ? entriesFromIds(manualQueueOverrideIds, wordById) : currentSession?.entries;
   const visibleEntries =
@@ -747,10 +762,10 @@ export default function App() {
     const situationExtraCopyIndex = activeGuidedTourStep - (SITUACAO_TOUR_STEPS.length - 2);
     const copy =
       appMode === "situacoes" && activeGuidedTourStep === 1
-        ? SITUACAO_SELECTOR_TOUR_COPY[ui.locale]
+        ? t(SITUACAO_SELECTOR_TOUR_COPY[ui.locale])
         : appMode === "situacoes" && situationExtraCopyIndex >= 0
-          ? SITUACAO_EXTRA_TOUR_COPY[ui.locale][situationExtraCopyIndex]
-          : STUDY_TOUR_COPY[ui.locale][activeGuidedTourStep];
+          ? t(SITUACAO_EXTRA_TOUR_COPY[ui.locale][situationExtraCopyIndex])
+          : t(STUDY_TOUR_COPY[ui.locale][activeGuidedTourStep]);
 
     return (
       <GuidedTour
@@ -758,7 +773,7 @@ export default function App() {
         copy={copy}
         step={activeGuidedTourStep}
         totalSteps={guidedTourTotalSteps}
-        labels={getGuidedTourLabels(ui.locale)}
+        labels={translateCopy(getGuidedTourLabels(ui.locale), instructionLang)}
         onAdvance={advanceGuidedTour}
         onSkip={skipGuidedTour}
       />
@@ -1124,7 +1139,7 @@ export default function App() {
   function renderResumePrompt() {
     if (!resumeSession || !isResumeSessionForCurrentLocation(resumeSession)) return null;
     const nextPosition = Math.min(resumeSession.position + 1, resumeSession.queue.length);
-    const resumeCopy = getResumeSessionCopy(ui.locale);
+    const resumeCopy = translateCopy(getResumeSessionCopy(ui.locale), instructionLang);
     return (
       <div className="resume-session-prompt" role="status">
         <span>{`${resumeCopy.title} (${nextPosition}/${resumeSession.queue.length})`}</span>
@@ -1404,11 +1419,11 @@ export default function App() {
   }
 
   function getSituacaoTranslation(line: SituacaoContentLine) {
-    return direction.includes("zh") ? getChineseText(line) : line.en;
+    return direction.includes("zh") ? getChineseText(line) : translateLearningText(line.en, direction);
   }
 
   function renderEntryScreen() {
-    const entryCopy = getEntryScreenCopy(ui.locale);
+    const entryCopy = translateCopy(getEntryScreenCopy(ui.locale), instructionLang);
 
     return (
       <section className="workspace entry-screen">
@@ -1421,7 +1436,7 @@ export default function App() {
           <p className="app-subtitle">your Portuguese, tile by tile</p>
         </header>
 
-        <div className="entry-mode-cards" aria-label="Study mode">
+        <div className="entry-mode-cards" aria-label={t("Study mode")}>
           <button type="button" className="entry-mode-card" onClick={() => enterStudyMode("manual")}>
             <strong>{entryCopy.manualLabel}</strong>
             <span>{entryCopy.manualDescription}</span>
@@ -1486,7 +1501,7 @@ export default function App() {
         >
           {modulos.map((item) => (
             <option key={item} value={item}>
-              {getModuleSelectorLabel(item, ui.moduloLabel(item), ui.locale)}
+              {getModuleSelectorLabel(item, ui.moduloLabel(item), ui.locale, t)}
             </option>
           ))}
           <option value="all">{ui.allModules}</option>
@@ -1502,10 +1517,10 @@ export default function App() {
         onChange={(event) => setSituacaoId(event.target.value)}
       >
         {situacaoGroups.map((group) => (
-          <optgroup key={group.label} label={getSituacaoGroupSelectorLabel(group.label, ui.locale)}>
+          <optgroup key={group.label} label={getSituacaoGroupSelectorLabel(group.label, ui.locale, t)}>
             {group.items.map((item) => (
               <option key={item.id} value={item.id}>
-                {getSituacaoSelectorLabel(item.id, item.label, ui.locale)}
+                {getSituacaoSelectorLabel(item.id, item.label, ui.locale, t)}
               </option>
             ))}
           </optgroup>
@@ -1515,7 +1530,7 @@ export default function App() {
   }
 
   function renderSettingsControl(className = "") {
-    const settingsLabel = getSettingsLabel(ui.locale);
+    const settingsLabel = translateCopy(getSettingsLabel(ui.locale), instructionLang);
     return (
       <div className="settings-control">
         <button
@@ -1539,7 +1554,7 @@ export default function App() {
               {ui.autoPlayPronunciation}
             </label>
             <button className="settings-replay-tour" type="button" onClick={replayGuidedTour}>
-              {getReplayTourLabel(ui.locale)}
+              {translateCopy(getReplayTourLabel(ui.locale), instructionLang)}
             </button>
           </div>
         )}
@@ -1552,7 +1567,7 @@ export default function App() {
       <section className="situacao-mode">
         <SituacaoTabs
           activeTab={situacaoTab}
-          locale={ui.locale}
+          locale={ui.locale} instructionLocale={instructionLang}
           onChange={setSituacaoTab}
         />
 
@@ -1567,11 +1582,11 @@ export default function App() {
     if (situacaoVocabularyComplete) {
       return (
         <MilestonePanel
-          title={getSituacaoVocabularyCompleteCopy(direction, selectedSituacaoEntries.length).title}
+          title={translateCopy(getSituacaoVocabularyCompleteCopy(direction, selectedSituacaoEntries.length), instructionLang).title}
           actions={[
             {
               id: "review-situacao-vocab",
-              label: getSituacaoVocabularyCompleteCopy(direction, selectedSituacaoEntries.length).actionLabel,
+              label: translateCopy(getSituacaoVocabularyCompleteCopy(direction, selectedSituacaoEntries.length), instructionLang).actionLabel,
               onClick: restartSituacaoVocabulary
             }
           ]}
@@ -1676,7 +1691,7 @@ export default function App() {
             onClick={playWholeDialogue}
           >
             <Volume2 size={16} aria-hidden="true" />
-            {getPlayDialogueLabel(ui.locale)}
+            {translateCopy(getPlayDialogueLabel(ui.locale), instructionLang)}
           </button>
         </div>
         <div className="dialogue-turns">
@@ -1709,8 +1724,8 @@ export default function App() {
                   <Volume2 size={18} aria-hidden="true" />
                 </button>
                 <div className="dialogue-turn-copy">
-                  <p className="situacao-pt">{line.pt}</p>
-                  {translationVisible && <p className="situacao-translation">{getSituacaoTranslation(line)}</p>}
+                  <p className="situacao-pt" lang="pt-PT" dir="ltr">{line.pt}</p>
+                  {translationVisible && <p className="situacao-translation" dir="auto">{getSituacaoTranslation(line)}</p>}
                   {line.note && <p className="situacao-note">{line.note}</p>}
                 </div>
               </article>
@@ -1751,8 +1766,8 @@ export default function App() {
                 <Volume2 size={18} aria-hidden="true" />
               </button>
               <div>
-                <p className="situacao-card-pt">{line.pt}</p>
-                <p className="situacao-translation">{getSituacaoTranslation(line)}</p>
+                <p className="situacao-card-pt" lang="pt-PT" dir="ltr">{line.pt}</p>
+                <p className="situacao-translation" dir="auto">{getSituacaoTranslation(line)}</p>
               </div>
             </article>
           ))}
@@ -1796,7 +1811,7 @@ export default function App() {
           prompts={retrievalState.prompts}
           direction={direction}
           ui={ui}
-          title={retrievalState.title}
+          title={t(retrievalState.title)}
           onComplete={handleRetrievalComplete}
           onGoBack={retrievalState.context === "session" ? returnToSessionReviewChoice : undefined}
         />
@@ -1806,13 +1821,13 @@ export default function App() {
     if (phase === "sessionMilestone") {
       return (
         <MilestonePanel
-          title={getSessionMilestoneCopy(direction, recognizedCount).title}
+          title={translateCopy(getSessionMilestoneCopy(direction, recognizedCount), instructionLang).title}
           actions={
             getCurrentSessionAgainEntries().length === 0
               ? [{ id: "continue", label: ui.startNextSession, onClick: continueAfterSession }]
-              : getSessionMilestoneCopy(direction, recognizedCount).actions.map((action) => ({
+              : translateCopy(getSessionMilestoneCopy(direction, recognizedCount), instructionLang).actions.map((action) => ({
                   id: action.id,
-                  label: action.label,
+                  label: t(action.label),
                   onClick:
                     action.id === REVIEW_MODE.sessionAgainFlashcards
                       ? startSessionAgainFlashcards
@@ -1825,14 +1840,14 @@ export default function App() {
 
     if (phase === "moduleMilestone") {
       const copy = currentSession
-        ? getModuleMilestoneCopy(direction, currentSession.modulo)
+        ? translateCopy(getModuleMilestoneCopy(direction, currentSession.modulo), instructionLang)
         : { title: "Module complete", actions: [] };
       const dueCount = getCurrentModuleEntries().filter((entry) => getCardProgress(progress, entry.id).everAgain).length;
       const hasNextModule =
         modulo === "all"
           ? Boolean(currentSession && sessionPlan.sessions.some((session) => session.moduleIndex > currentSession.moduleIndex))
           : Boolean(getNextStandaloneModulo());
-      const moduleContinueLabel = hasNextModule ? ui.startNewModule : "Finish";
+      const moduleContinueLabel = hasNextModule ? ui.startNewModule : ui.finishQuiz;
       return (
         <MilestonePanel
           title={copy.title}
@@ -1845,7 +1860,7 @@ export default function App() {
               : [
                   ...copy.actions.map((action) => ({
                     id: action.id,
-                    label: action.label,
+                    label: t(action.label),
                     onClick: startModuleTypedReview
                   })),
                   { id: "quiz", label: ui.startQuiz, onClick: () => startModuleQuiz("moduleMilestone", getModuleCompletionQuizScope()?.id) },
@@ -1863,7 +1878,7 @@ export default function App() {
           actions={[
             {
               id: REVIEW_MODE.sessionAgainFlashcards,
-              label: getSessionMilestoneCopy(direction, recognizedCount).actions[0].label,
+              label: translateCopy(getSessionMilestoneCopy(direction, recognizedCount), instructionLang).actions[0].label,
               onClick: startSessionAgainFlashcards
             },
             { id: "continue", label: ui.startNextSession, onClick: continueAfterSession }
@@ -1873,13 +1888,13 @@ export default function App() {
     }
 
     if (phase === "finalMilestone") {
-      const copy = getFinalMilestoneCopy(direction);
+      const copy = translateCopy(getFinalMilestoneCopy(direction), instructionLang);
       return (
         <MilestonePanel
           title={copy.title}
           actions={copy.actions.map((action) => ({
             id: action.id,
-            label: action.label,
+            label: t(action.label),
             onClick: () => startFinalTypedReview(action.id)
           }))}
         >
@@ -1966,7 +1981,7 @@ export default function App() {
     .join(" ");
 
   return (
-    <main className={appShellClassName}>
+    <main className={appShellClassName} lang={instructionLang === "zhHans" ? "zh-Hans" : instructionLang === "zhHant" ? "zh-Hant" : instructionLang} dir={["ar", "ur", "fa"].includes(instructionLang) ? "rtl" : "ltr"}>
       <span
         className="authorship-fingerprint"
         data-author={AUTHORSHIP_OWNER}
@@ -1980,8 +1995,8 @@ export default function App() {
       ) : (
         <>
           <section className="workspace study-workspace">
-            <nav className="study-page-nav" aria-label="Study navigation">
-              <button className="icon-button study-entry-back" type="button" onClick={returnToEntryScreen} aria-label="Back to modes">
+            <nav className="study-page-nav" aria-label={t("Study navigation")}>
+              <button className="icon-button study-entry-back" type="button" onClick={returnToEntryScreen} aria-label={t("Back to modes")}>
                 <ChevronLeft size={20} aria-hidden="true" />
               </button>
               {!globalSearchOpen && renderStudySelector()}
@@ -2028,9 +2043,9 @@ export default function App() {
             ui={ui}
             mode={appMode}
             situacaoGroups={situacaoGroups}
-            getModuleThemeLabel={(moduleName) => getModuleThemeLabel(moduleName, ui.locale)}
-            getSituacaoLabel={(id, portugueseLabel) => getSituacaoTargetLabel(id, portugueseLabel, ui.locale)}
-            getSituacaoGroupLabel={(portugueseLabel) => SITUACAO_GROUP_LABELS[portugueseLabel]?.[ui.locale] ?? portugueseLabel}
+            getModuleThemeLabel={(moduleName) => t(getModuleThemeLabel(moduleName, ui.locale) ?? "")}
+            getSituacaoLabel={(id, portugueseLabel) => t(getSituacaoTargetLabel(id, portugueseLabel, ui.locale))}
+            getSituacaoGroupLabel={(portugueseLabel) => t(SITUACAO_GROUP_LABELS[portugueseLabel]?.[ui.locale] ?? portugueseLabel)}
             onStartOver={handleStartOver}
           />
           {renderInstallControl()}
@@ -2178,25 +2193,25 @@ function getModuleThemeLabel(modulo: string, locale: "en" | "zhHans" | "zhHant")
   return MODULE_THEME_LABELS[modulo]?.[locale];
 }
 
-function getModuleSelectorLabel(modulo: string, moduleLabel: string, locale: "en" | "zhHans" | "zhHant") {
+function getModuleSelectorLabel(modulo: string, moduleLabel: string, locale: "en" | "zhHans" | "zhHant", t: (text: string) => string = text => text) {
   const targetTheme = MODULE_THEME_LABELS[modulo]?.[locale];
   const portugueseTheme = MODULE_THEME_LABELS_PT[modulo];
   if (!targetTheme || !portugueseTheme) return moduleLabel;
-  return `${moduleLabel} · ${targetTheme} - ${portugueseTheme}`;
+  return `${moduleLabel} · ${t(targetTheme)} - ${portugueseTheme}`;
 }
 
 function getSituacaoTargetLabel(situacaoId: string, fallback: string, locale: "en" | "zhHans" | "zhHant") {
   return localizeSituacaoTargetLabel(SITUACAO_TARGET_LABELS[situacaoId]?.[locale], locale) ?? fallback;
 }
 
-function getSituacaoSelectorLabel(situacaoId: string, portugueseLabel: string, locale: "en" | "zhHans" | "zhHant") {
-  const targetLabel = getSituacaoTargetLabel(situacaoId, portugueseLabel, locale);
-  return targetLabel === portugueseLabel ? portugueseLabel : `${targetLabel} · ${portugueseLabel}`;
+function getSituacaoSelectorLabel(situacaoId: string, portugueseLabel: string, locale: "en" | "zhHans" | "zhHant", t: (text: string) => string = text => text) {
+  const targetLabel = t(getSituacaoTargetLabel(situacaoId, portugueseLabel, locale));
+  return targetLabel === portugueseLabel ? portugueseLabel : `${t(targetLabel)} · ${portugueseLabel}`;
 }
 
-function getSituacaoGroupSelectorLabel(portugueseLabel: string, locale: "en" | "zhHans" | "zhHant") {
+function getSituacaoGroupSelectorLabel(portugueseLabel: string, locale: "en" | "zhHans" | "zhHant", t: (text: string) => string = text => text) {
   const targetLabel = SITUACAO_GROUP_LABELS[portugueseLabel]?.[locale];
-  return targetLabel ? `${targetLabel} · ${portugueseLabel}` : portugueseLabel;
+  return targetLabel ? `${t(targetLabel)} · ${portugueseLabel}` : portugueseLabel;
 }
 
 function localizeSituacaoTargetLabel(label: string | undefined, locale: "en" | "zhHans" | "zhHant") {
