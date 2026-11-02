@@ -8,7 +8,11 @@ createRoot(document.getElementById("root")!).render(
   </StrictMode>
 );
 
-if ("serviceWorker" in navigator) {
+const nativeStoreBridge = (window as Window & {
+  webkit?: { messageHandlers?: { store?: unknown } };
+}).webkit?.messageHandlers?.store;
+
+if ("serviceWorker" in navigator && !nativeStoreBridge) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => undefined);
   });

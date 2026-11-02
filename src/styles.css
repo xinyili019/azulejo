@@ -1,4 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:opsz,wght@9..144,400..700&family=Hanken+Grotesque:wght@400;500;600;700&family=Marck+Script&display=swap");
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/cormorant-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/cormorant-500.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/cormorant-600.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/cormorant-700.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hanken Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/hanken-grotesk-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hanken Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/hanken-grotesk-500.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hanken Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/hanken-grotesk-600.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hanken Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/hanken-grotesk-700.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Marck Script";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/marck-script-400.ttf") format("truetype");
+}
 
 :root {
   --ground-navy: #232d70;
