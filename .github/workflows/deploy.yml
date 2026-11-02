@@ -1,0 +1,99 @@
+name: Test and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+env:
+  # IDs are not secret; the tokens below are repository secrets.
+  VERCEL_ORG_ID: team_5OZSROlqPnEfvXuCPUbID6zy
+  VERCEL_PROJECT_ID: prj_dvJsAfWgWEZ8gpbXkc66ErYkETqJ
+  CLOUDFLARE_ACCOUNT_ID: 8314d527144266bdd394913a55d8f9e5
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx tsc -b
+      - run: npm test
+      - run: npm run validate:data
+
+  github-pages:
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # Without VERCEL set, vite builds for the /azulejo/ path.
+      - run: npx vite build
+      - name: Push build to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin gh-pages
+          git worktree add ../site origin/gh-pages --detach
+          cd ../site
+          git rm -rq .
+          cp -R "$GITHUB_WORKSPACE/dist/." .
+          touch .nojekyll
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Deploy ${GITHUB_SHA::7} to GitHub Pages"
+          git push origin HEAD:gh-pages
+
+  vercel:
+    needs: test
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npx -y vercel@65 pull --yes --environment=production --token="$VERCEL_TOKEN"
+      - run: npx -y vercel@65 build --prod --token="$VERCEL_TOKEN"
+      - run: npx -y vercel@65 deploy --prebuilt --prod --yes --token="$VERCEL_TOKEN"
+
+  cloudflare-pages:
+    needs: test
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # Cloudflare serves from the site root, like Vercel.
+      - run: npx vite build
+        env:
+          VERCEL: "1"
+      - run: >
+          npx -y wrangler@4 pages deploy dist
+          --project-name azulejo
+          --branch main
+          --commit-hash "$GITHUB_SHA"
+          --commit-message "${COMMIT_MESSAGE%%$'\n'*}"
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message || 'Manual deploy' }}
