@@ -1,4 +1,4 @@
-import { translateLearningText } from "./lib/learningTranslations";
+import { isLearningTranslationLoaded, loadLearningTranslations, translateLearningText } from "./lib/learningTranslations";
 import { translateCopy, translateInstruction } from "./lib/instructionLanguages";
 import { Brain, ChevronLeft, Download, Printer, Save, Search, Settings, Volume2 } from "lucide-react";
 import { type ChangeEvent, type ReactNode, useEffect, useMemo, useRef, useState } from "react";
@@ -271,7 +271,8 @@ export default function App() {
   const [dialoguePlaybackActive, setDialoguePlaybackActive] = useState(false);
   const [activeDialogueLineId, setActiveDialogueLineId] = useState<string | null>(null);
   const [autoPlayPronunciation, setAutoPlayPronunciation] = useState(true);
-  const [direction, setDirection] = useState<Direction>("pt-en");
+  const [direction, setDirectionState] = useState<Direction>("pt-en");
+  const requestedDirectionRef = useRef<Direction>("pt-en");
   const [sessionIndex, setSessionIndex] = useState(0);
   const [cardIndex, setCardIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -302,6 +303,22 @@ export default function App() {
   const dialoguePlaybackTokenRef = useRef(0);
   const dialoguePauseTimeoutRef = useRef<number | null>(null);
 
+  // Switch language only once its dictionary is loaded, so prompts built on the switch are never left untranslated.
+  function setDirection(nextDirection: Direction) {
+    requestedDirectionRef.current = nextDirection;
+    if (isLearningTranslationLoaded(nextDirection)) {
+      setDirectionState(nextDirection);
+      return;
+    }
+    loadLearningTranslations(nextDirection)
+      .catch((error) => {
+        console.error("Could not load translations.", error);
+      })
+      .then(() => {
+        if (requestedDirectionRef.current === nextDirection) setDirectionState(nextDirection);
+      });
+  }
+
   useEffect(() => {
     let cancelled = false;
 
@@ -314,6 +331,16 @@ export default function App() {
       getSetting<boolean>(MANUAL_TOUR_SETTING),
       getSetting<boolean>(SITUACAO_TOUR_SETTING)
     ])
+      .then(async (stored) => {
+        const [, storedSession, storedLocation, storedDirection] = stored;
+        const restoredDirections = [storedDirection, storedSession?.direction, storedLocation?.params.direction];
+        await Promise.all(
+          restoredDirections.map((value) =>
+            value ? loadLearningTranslations(normalizeSupportedDirection(value)).catch(() => undefined) : undefined
+          )
+        );
+        return stored;
+      })
       .then(
         ([
           storedProgress,

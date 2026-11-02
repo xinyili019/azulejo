@@ -1,5 +1,9 @@
 import "@testing-library/jest-dom/vitest";
-import { vi } from "vitest";
+import { beforeAll, vi } from "vitest";
+import { loadAllLearningTranslations } from "../lib/learningTranslations";
+
+// Translations are lazy-loaded in the app; tests run against every language up front.
+beforeAll(() => loadAllLearningTranslations());
 
 Object.defineProperty(window.HTMLMediaElement.prototype, "play", {
   configurable: true,
