@@ -20,10 +20,7 @@
     "validate:data": "node scripts/validate-vocabulary.mjs"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^5.0.0",
     "lucide-react": "^0.468.0",
-    "pdf-parse": "^1.1.1",
-    "vite": "^7.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -34,8 +31,11 @@
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^5.0.0",
     "jsdom": "^26.0.0",
+    "pdf-parse": "^1.1.1",
     "typescript": "^5.7.2",
+    "vite": "^7.0.0",
     "vitest": "^3.0.0"
   }
 }
