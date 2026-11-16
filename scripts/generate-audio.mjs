@@ -14,7 +14,7 @@ const cartaoOutputDir = join(situacoesOutputDir, "cartao");
 const force = process.argv.includes("--force");
 const onlyArgument = process.argv.find((argument) => argument.startsWith("--only="));
 const onlyIds = onlyArgument ? new Set(onlyArgument.slice("--only=".length).split(",").filter(Boolean)) : null;
-const voice = process.env.AZULEJO_TTS_VOICE ?? "Joana";
+const voice = process.env.AZULEJO_TTS_VOICE ?? "Joana (Enhanced)";
 
 const source = readFileSync(sourcePath, "utf8");
 const situacoesSource = readFileSync(situacoesSourcePath, "utf8");
@@ -158,7 +158,7 @@ function generateAudio(outputPath, text, label) {
 
   const encodeResult = spawnSync(
     "ffmpeg",
-    ["-y", "-v", "error", "-i", rawOutputPath, "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", encodedOutputPath],
+    ["-y", "-v", "error", "-i", rawOutputPath, "-map", "0:a:0", "-abort_on", "empty_output", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", encodedOutputPath],
     { encoding: "utf8" }
   );
 

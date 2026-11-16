@@ -44,7 +44,7 @@ Pronunciation audio is stored in `public/audio/pt/`. To generate missing files (
 npm run generate:audio
 ```
 
-Set `AZULEJO_TTS_VOICE` to choose the voice (default `Joana`). Pass `--force` to regenerate existing files or `--only=id1,id2` to limit which entries are generated.
+Set `AZULEJO_TTS_VOICE` to choose the voice (default `Joana (Enhanced)`). Pass `--force` to regenerate existing files or `--only=id1,id2` to limit which entries are generated.
 
 ## iOS
 

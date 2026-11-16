@@ -16,6 +16,10 @@ export function speakWithBrowserVoice(text: string, onComplete?: () => void) {
   const utterance = new window.SpeechSynthesisUtterance(text);
   const voices = window.speechSynthesis.getVoices();
   const voice =
+    voices.find((candidate) =>
+      /joana/i.test(candidate.name) && /enhanced/i.test(`${candidate.name} ${candidate.voiceURI}`)
+    ) ??
+    voices.find((candidate) => /joana/i.test(candidate.name)) ??
     voices.find((candidate) => candidate.lang.toLowerCase() === "pt-pt") ??
     voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt-pt")) ??
     voices.find((candidate) => candidate.lang.toLowerCase().startsWith("pt"));

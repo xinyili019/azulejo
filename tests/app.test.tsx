@@ -937,7 +937,7 @@ describe("App", () => {
     expect(speak).not.toHaveBeenCalled();
   });
 
-  it("speaks rewritten Cartao text instead of playing its superseded recording", () => {
+  it("plays the regenerated recording for rewritten Cartão text", () => {
     render(<App />);
     const play = vi.mocked(window.HTMLMediaElement.prototype.play);
     const speak = vi.mocked(window.speechSynthesis.speak);
@@ -949,12 +949,8 @@ describe("App", () => {
     speak.mockClear();
     fireEvent.click(screen.getByRole("button", { name: /transferência imediata/i }));
 
-    expect(play).not.toHaveBeenCalled();
-    expect(speak).toHaveBeenCalledTimes(1);
-    expect(speak.mock.calls[0][0]).toMatchObject({
-      text: "Gostaria de saber mais sobre a transferência imediata.",
-      lang: "pt-PT"
-    });
+    expect(play).toHaveBeenCalledTimes(1);
+    expect(speak).not.toHaveBeenCalled();
   });
 
   it("plays the Portuguese example sentence from the example audio file", () => {

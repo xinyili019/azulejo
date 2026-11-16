@@ -32,7 +32,7 @@ import {
   shuffleWithRng,
   type RetrievalReviewResult
 } from "./lib/retrievalReview";
-import { playPortugueseAudio, speakWithBrowserVoice } from "./lib/portugueseAudio";
+import { playPortugueseAudio } from "./lib/portugueseAudio";
 import { buildSessionPlan, type VocabularySession } from "./lib/sessionPlan";
 import {
   clearActiveSession,
@@ -1783,9 +1783,7 @@ export default function App() {
                 className="icon-button situacao-listen"
                 type="button"
                 onClick={() =>
-                  line.audioMode === "browser"
-                    ? speakWithBrowserVoice(line.pt)
-                    : playPortugueseAudio(`audio/pt/situacoes/cartao/${line.id}.m4a`, line.pt)
+                  playPortugueseAudio(`audio/pt/situacoes/cartao/${line.id}.m4a`, line.pt)
                 }
                 aria-label={`${ui.listen}: ${line.pt}`}
                 title={ui.listen}
