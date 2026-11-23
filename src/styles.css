@@ -2023,11 +2023,11 @@ input[type="search"] {
 }
 
 .tile-content-back .example {
-  font-size: 1.36rem;
+  font-size: clamp(1.5rem, 2vw, 1.72rem);
 }
 
 .tile-content-back .example.muted {
-  font-size: 1.14rem;
+  font-size: clamp(1.28rem, 1.65vw, 1.45rem);
 }
 
 .tile-content-back .example-body .example {
@@ -3482,7 +3482,7 @@ progress::-moz-progress-bar {
   }
 
   .flashcard {
-    --card-term-size: 36px;
+    --card-term-size: 40px;
     gap: 14px;
   }
 
@@ -3656,7 +3656,7 @@ progress::-moz-progress-bar {
   }
 
   .tile-content-back .example {
-    font-size: 21.66px;
+    font-size: clamp(24px, 6.2vw, 26px);
     line-height: 1.28;
   }
 
@@ -3675,8 +3675,8 @@ progress::-moz-progress-bar {
     -webkit-line-clamp: 3;
   }
 
-  .tile-content-back .muted {
-    font-size: 18.24px;
+  .tile-content-back .example.muted {
+    font-size: clamp(21px, 5.4vw, 23px);
   }
 
   .tile-face::before {

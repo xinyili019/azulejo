@@ -337,16 +337,16 @@ function getCardTermSize(prompt: string) {
   const words = prompt.trim().split(/\s+/).length;
 
   if (length <= 12 && words <= 2) {
-    return "clamp(2rem, 6vw, 5.5rem)";
+    return "clamp(2.25rem, 6vw, 5.5rem)";
   }
 
   if (length <= 18 && words <= 3) {
-    return "clamp(1.8rem, 5.2vw, 4.8rem)";
+    return "clamp(2.0625rem, 5.2vw, 4.8rem)";
   }
 
   if (length <= 26) {
-    return "clamp(1.55rem, 4.4vw, 4rem)";
+    return "clamp(1.8125rem, 4.4vw, 4rem)";
   }
 
-  return "clamp(1.35rem, 3.6vw, 3.2rem)";
+  return "clamp(1.5625rem, 3.6vw, 3.2rem)";
 }
