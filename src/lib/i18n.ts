@@ -39,6 +39,16 @@ export interface UiCopy {
   known: string;
   startOver: string;
   flashcard: string;
+  flashcardScreenshot: {
+    title: string;
+    preparing: string;
+    preview: string;
+    download: string;
+    share: string;
+    close: string;
+    captureError: string;
+    shareError: string;
+  };
   progressDashboard: string;
   moduleQuiz: string;
   quizScope: string;
@@ -101,6 +111,16 @@ const copy: Record<UiLocale, UiCopy> = {
     known: "Known",
     startOver: "Start over",
     flashcard: "Flashcard",
+    flashcardScreenshot: {
+      title: "Save or share flashcard",
+      preparing: "Preparing image…",
+      preview: "Flashcard screenshot preview",
+      download: "Download PNG",
+      share: "Share image",
+      close: "Close",
+      captureError: "Could not create the image. Close and try again.",
+      shareError: "Could not share the image. You can still download the PNG."
+    },
     progressDashboard: "Progress dashboard",
     moduleQuiz: "Module quiz",
     quizScope: "Quiz scope",
@@ -161,6 +181,16 @@ const copy: Record<UiLocale, UiCopy> = {
     known: "已掌握",
     startOver: "重新开始",
     flashcard: "单词卡",
+    flashcardScreenshot: {
+      title: "保存或分享单词卡",
+      preparing: "正在生成图片…",
+      preview: "单词卡截图预览",
+      download: "下载 PNG",
+      share: "分享图片",
+      close: "关闭",
+      captureError: "无法生成图片。请关闭后重试。",
+      shareError: "无法分享图片，但仍可下载 PNG。"
+    },
     progressDashboard: "学习进度",
     moduleQuiz: "模块测验",
     quizScope: "测验范围",
@@ -221,6 +251,16 @@ const copy: Record<UiLocale, UiCopy> = {
     known: "已掌握",
     startOver: "重新開始",
     flashcard: "單字卡",
+    flashcardScreenshot: {
+      title: "儲存或分享單字卡",
+      preparing: "正在產生圖片…",
+      preview: "單字卡截圖預覽",
+      download: "下載 PNG",
+      share: "分享圖片",
+      close: "關閉",
+      captureError: "無法產生圖片。請關閉後再試一次。",
+      shareError: "無法分享圖片，但仍可下載 PNG。"
+    },
     progressDashboard: "學習進度",
     moduleQuiz: "模組測驗",
     quizScope: "測驗範圍",

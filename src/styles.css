@@ -70,6 +70,69 @@
   src: url("./assets/fonts/marck-script-400.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("./assets/fonts/notoserifsc-azulejo.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Serif TC";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("./assets/fonts/notoseriftc-azulejo.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./assets/fonts/notosanssc-azulejo.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./assets/fonts/notosanstc-azulejo.woff2") format("woff2");
+}
+
+.app-shell:lang(zh-Hans) {
+  --chinese-serif: "Noto Serif SC";
+  --chinese-sans: "Noto Sans SC";
+}
+
+.app-shell:lang(zh-Hant) {
+  --chinese-serif: "Noto Serif TC";
+  --chinese-sans: "Noto Sans TC";
+}
+
+.app-shell:is(:lang(zh-Hans), :lang(zh-Hant)) {
+  font-family: "Hanken Grotesque", var(--chinese-sans), system-ui, sans-serif;
+}
+
+.flashcard :is(.prompt, .answer):is(:lang(zh-Hans), :lang(zh-Hant)) {
+  font-family: var(--chinese-serif), "Hanken Grotesque", system-ui, sans-serif;
+}
+
+.flashcard :is(.answer-reference, .example):is(:lang(zh-Hans), :lang(zh-Hant)),
+.situacao-card .situacao-translation:is(:lang(zh-Hans), :lang(zh-Hant)) {
+  font-family: "Cormorant", var(--chinese-serif), Georgia, serif;
+}
+
+.dialogue-list .situacao-translation:is(:lang(zh-Hans), :lang(zh-Hant)) {
+  font-family: Inter, var(--chinese-sans), system-ui, sans-serif;
+}
+
+.flashcard .example-toggle:is(:lang(zh-Hans), :lang(zh-Hant)) {
+  font-family: "Hanken Grotesque", var(--chinese-sans), system-ui, sans-serif;
+}
+
 :root {
   --ground-navy: #232d70;
   --surface-cream: #fbf8f1;
@@ -94,7 +157,7 @@
   --navy: var(--ink-navy);
   --navy-soft: rgba(22, 50, 122, 0.58);
   --ink-muted: #5d6e80;
-  --back-muted: #435466;
+  --back-muted: #26374b;
   --card-term-size: clamp(2rem, 5.4vw, 5.2rem);
   color: var(--ink-navy);
   background: var(--ground-navy);
@@ -1356,7 +1419,7 @@ h1 {
 
 .dialogue-turn-copy {
   min-width: 0;
-  font-size: clamp(1.05rem, 3.1vw, 1.3rem);
+  font-size: 1.5rem;
 }
 
 .dialogue-list .situacao-pt {
@@ -1370,13 +1433,13 @@ h1 {
   margin-top: 4px;
   color: #5d6e80;
   font-family: Inter, system-ui, sans-serif;
-  font-size: 78%;
+  font-size: 0.95rem;
   font-weight: 500;
   line-height: 1.3;
 }
 
 .dialogue-list .situacao-note {
-  font-size: 70%;
+  font-size: 0.875rem;
 }
 
 .dialogue-list .situacao-listen {
@@ -1805,9 +1868,19 @@ input[type="search"] {
   z-index: 1;
 }
 
+.tile-front .tile-content {
+  min-width: 0;
+  padding: 0 8px 12px;
+}
+
+.tile-front .prompt {
+  max-width: 100%;
+  font-size: calc(var(--card-term-size-adjustment, var(--card-term-size)) * var(--front-term-scale, 1.2));
+  overflow-wrap: anywhere;
+}
+
 .tile-content-back {
   --answer-reference-size: clamp(1.56rem, 2.4vw, 2.1rem);
-  --answer-size: var(--card-answer-size-adjustment, var(--card-term-size));
   height: 100%;
   width: min(760px, 100%);
   display: flex;
@@ -1867,7 +1940,9 @@ input[type="search"] {
 
 .tile-content-back .answer {
   color: var(--navy);
-  font-size: var(--answer-size);
+  font-size: calc(var(--card-answer-size-adjustment, var(--card-term-size)) * var(--card-answer-scale, 1));
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-weight: 700;
   line-height: 0.98;
   text-align: center;
@@ -2027,6 +2102,7 @@ input[type="search"] {
 }
 
 .tile-content-back .example.muted {
+  color: color-mix(in srgb, var(--back-muted) 84%, black);
   font-size: clamp(1.28rem, 1.65vw, 1.45rem);
 }
 
@@ -2707,7 +2783,7 @@ progress::-moz-progress-bar {
 }
 
 .module-quiz-start {
-  min-height: 36px;
+  min-height: var(--study-action-height, 36px);
   padding-inline: 12px;
   border-color: var(--surface-cream);
   background: transparent;
@@ -2806,7 +2882,6 @@ progress::-moz-progress-bar {
 
 .module-quiz-question-block {
   flex: 1 1 auto;
-  min-height: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -2830,7 +2905,7 @@ progress::-moz-progress-bar {
   margin: 0;
   color: var(--navy);
   font-family: "Cormorant", Georgia, serif;
-  font-size: clamp(1.65rem, 3.7vw, 3.3rem);
+  font-size: 3.5rem;
   font-weight: 500;
   line-height: 1.08;
   overflow-wrap: anywhere;
@@ -2842,7 +2917,7 @@ progress::-moz-progress-bar {
   grid-column: 1;
   color: #334766;
   font-family: "Hanken Grotesque", ui-sans-serif, system-ui, sans-serif;
-  font-size: clamp(1.2rem, 2.4vw, 1.65rem);
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -2889,11 +2964,21 @@ progress::-moz-progress-bar {
   transform: rotate(90deg);
 }
 
+.module-quiz-translation .example-toggle,
+.module-quiz-translation .example.muted {
+  color: var(--back-muted);
+}
+
 .module-quiz-translation.open .example-body {
   width: 100%;
-  max-height: 120px;
+  max-height: none;
   margin-top: 4px;
   opacity: 1;
+}
+
+.module-quiz-translation .example {
+  font-size: 1.35rem;
+  overflow-wrap: anywhere;
 }
 
 .module-quiz-choices {
@@ -2916,7 +3001,7 @@ progress::-moz-progress-bar {
   background: rgba(255, 255, 255, 0.9);
   color: var(--navy);
   cursor: pointer;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.12;
   text-align: center;
@@ -2997,9 +3082,10 @@ progress::-moz-progress-bar {
 
 .module-quiz-target-word {
   margin: 8px 0 0;
+  max-width: 100%;
   color: var(--navy);
   font-family: "Cormorant", Georgia, serif;
-  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  font-size: 3.4rem;
   font-weight: 600;
   line-height: 1;
   text-align: center;
@@ -3400,7 +3486,6 @@ progress::-moz-progress-bar {
   }
 
   .module-quiz-start {
-    min-height: 36px;
     padding-inline: 12px;
     font-size: 0.82rem;
   }
@@ -3476,12 +3561,17 @@ progress::-moz-progress-bar {
     font-size: clamp(1.4rem, 6.4vw, 2rem);
   }
 
+  .dialogue-turn-copy {
+    font-size: 1.375rem;
+  }
+
   .utility-actions {
     justify-self: center;
     padding: 4px 0 8px;
   }
 
   .flashcard {
+    --front-term-scale: 1.5;
     --card-term-size: 40px;
     gap: 14px;
   }
@@ -3635,8 +3725,11 @@ progress::-moz-progress-bar {
 
   .tile-content-back {
     --answer-reference-size: 24px;
-    --answer-size: var(--card-answer-size-adjustment, var(--card-term-size));
     padding: 44px 0 24px;
+  }
+
+  .translation-is-open .tile-content-back {
+    padding-block: 24px 16px;
   }
 
   .answer-pair {
@@ -3667,12 +3760,7 @@ progress::-moz-progress-bar {
   }
 
   .tile-content-back .answer {
-    display: -webkit-box;
     max-width: min(100%, 300px);
-    overflow: hidden;
-    overflow-wrap: break-word;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
   }
 
   .tile-content-back .example.muted {
@@ -3733,7 +3821,6 @@ progress::-moz-progress-bar {
   .module-quiz {
     width: min(100%, 390px);
     min-height: min(80vh, 430px);
-    max-height: calc(100vh - 126px);
     aspect-ratio: auto;
     gap: 6px;
     padding: 16px 14px 14px;
@@ -3791,8 +3878,7 @@ progress::-moz-progress-bar {
   }
 
   .module-quiz-prompt p {
-    font-size: 1.18rem;
-    line-height: 1.05;
+    font-size: 1.65rem;
   }
 
   .module-quiz-prompt.is-audio-meaning {
@@ -3801,7 +3887,7 @@ progress::-moz-progress-bar {
   }
 
   .module-quiz-prompt.is-audio-meaning p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   .module-quiz-prompt.is-audio-meaning .module-quiz-audio {
@@ -3821,17 +3907,16 @@ progress::-moz-progress-bar {
 
   .module-quiz-translation .example-toggle {
     min-height: 20px;
-    font-size: 0.68rem;
+    font-size: 0.75rem;
   }
 
   .module-quiz-translation.open .example-body {
-    max-height: 58px;
     margin-top: 2px;
   }
 
   .module-quiz-translation .example {
-    font-size: 0.98rem;
-    line-height: 1.12;
+    font-size: 1.3rem;
+    line-height: 1.16;
   }
 
   .module-quiz-choices {
@@ -3851,13 +3936,11 @@ progress::-moz-progress-bar {
   .module-quiz-choice {
     min-height: 40px;
     padding: 7px 24px;
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 
   .module-quiz-choices.choices-3 .module-quiz-choice {
-    min-height: 40px;
     padding: 7px 22px;
-    font-size: 1rem;
   }
 
   .module-quiz-choice span {
@@ -3872,7 +3955,7 @@ progress::-moz-progress-bar {
 
   .module-quiz-target-word {
     margin-top: 2px;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
   }
 
   .module-quiz-actions {
@@ -3887,6 +3970,7 @@ progress::-moz-progress-bar {
   }
 
   .module-quiz-complete {
+    max-height: calc(100vh - 126px);
     grid-template-rows: 1fr auto auto 1fr;
   }
 

@@ -7,6 +7,7 @@ import {
   type CSSProperties,
   type KeyboardEvent,
   type MouseEvent,
+  type ReactNode,
   type TouchEvent
 } from "react";
 import type { Direction, VocabularyEntry } from "../types";
@@ -15,6 +16,7 @@ import type { UiCopy } from "../lib/i18n";
 import { getExampleAudioPath, getWordAudioPath } from "../lib/audioPaths";
 import { playPortugueseAudio } from "../lib/portugueseAudio";
 import { getPortugueseBareText, getPortugueseTermParts } from "../lib/portugueseDisplay";
+import { FlashcardScreenshot } from "./FlashcardScreenshot";
 
 const AUTO_PLAY_DELAY_MS = 250;
 const PREVIOUS_SWIPE_DISTANCE_PX = 80;
@@ -28,6 +30,7 @@ interface FlashcardProps {
   revealed: boolean;
   autoPlayPronunciation: boolean;
   ui: UiCopy;
+  studyAction?: ReactNode;
   onToggleReveal: () => void;
   onPrevious: () => void;
   canSwipePrevious: boolean;
@@ -41,6 +44,7 @@ export function Flashcard({
   revealed,
   autoPlayPronunciation,
   ui,
+  studyAction,
   onToggleReveal,
   onPrevious,
   canSwipePrevious,
@@ -50,6 +54,7 @@ export function Flashcard({
   const [translationOpen, setTranslationOpen] = useState(false);
   const [activeAudioTarget, setActiveAudioTarget] = useState<"word" | "example" | null>(null);
   const audioRequestRef = useRef(0);
+  const tileRef = useRef<HTMLDivElement>(null);
   const tileSwipeStartRef = useRef<{ x: number; y: number } | null>(null);
   const tileSwipeLastRef = useRef<{ x: number; y: number } | null>(null);
   const suppressTileClickUntilRef = useRef(0);
@@ -202,10 +207,11 @@ export function Flashcard({
         aria-label={ui.flashcard}
         style={{
           "--card-term-size-adjustment": cardTermSize,
-          "--card-answer-size-adjustment": cardAnswerSize
+          "--card-answer-size-adjustment": cardAnswerSize,
+          "--card-answer-scale": answer.length <= 26 ? 1.25 : answer.length <= 42 ? 1.12 : 1
         } as CSSProperties}
       >
-      <div className="tile-shell">
+      <div className="tile-shell" ref={tileRef}>
         <div
           className={`flip-tile ${revealed ? "is-revealed" : ""}`}
           role="button"
@@ -304,6 +310,10 @@ export function Flashcard({
             {ui.previousWord}
           </button>
         )}
+      </div>
+      <div className="study-toggles flashcard-tools">
+        {studyAction}
+        <FlashcardScreenshot key={`${entry.id}:${direction}`} tileRef={tileRef} ui={ui} />
       </div>
     </section>
   );

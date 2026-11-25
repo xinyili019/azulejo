@@ -1491,23 +1491,6 @@ export default function App() {
     );
   }
 
-  function renderManualControls() {
-    return (
-      <>
-        {renderStudyContent()}
-
-        <div className="study-toggles">
-          {quizScopes.length > 0 && phase === "study" && (
-            <button className="secondary module-quiz-start" type="button" onClick={() => startModuleQuiz("study")}>
-              <Brain size={16} aria-hidden="true" />
-              {ui.startQuiz}
-            </button>
-          )}
-        </div>
-      </>
-    );
-  }
-
   function renderSituacaoControls() {
     return (
       <>
@@ -1958,6 +1941,12 @@ export default function App() {
             revealed={revealed}
             autoPlayPronunciation={autoPlayPronunciation && phase === "study"}
             ui={ui}
+            studyAction={quizScopes.length > 0 && phase === "study" && (
+              <button className="secondary module-quiz-start" type="button" onClick={() => startModuleQuiz("study")}>
+                <Brain size={16} aria-hidden="true" />
+                {ui.startQuiz}
+              </button>
+            )}
             onToggleReveal={() => setRevealed((current) => !current)}
             onPrevious={movePrevious}
             canSwipePrevious={cardIndex > 0}
@@ -2055,7 +2044,7 @@ export default function App() {
                   onSetStatus={handleGlobalSearchStatus}
                 />
               ) : appMode === "manual" ? (
-                renderManualControls()
+                renderStudyContent()
               ) : (
                 renderSituacaoControls()
               )}

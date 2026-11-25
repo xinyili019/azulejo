@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 for (const viewport of [
+  { name: "small phone", width: 360, height: 640 },
   { name: "phone", width: 390, height: 844 },
   { name: "desktop", width: 1280, height: 900 }
 ]) {
@@ -26,7 +27,7 @@ for (const viewport of [
     }
 
     await expect(page.locator(".flip-tile")).toContainText("empregador");
-    if (viewport.name === "phone") {
+    if (viewport.name !== "desktop") {
       const frontWord = await page.locator(".tile-front .prompt").evaluate((element) => {
         const word = element as HTMLElement;
         const tile = word.closest(".tile-front")!.getBoundingClientRect();
@@ -36,7 +37,7 @@ for (const viewport of [
           fits: rect.top >= tile.top && rect.bottom <= tile.bottom && rect.left >= tile.left && rect.right <= tile.right
         };
       });
-      expect(frontWord.fontSize).toBe(40);
+      expect(frontWord.fontSize).toBeCloseTo(49.5);
       expect(frontWord.fits).toBe(true);
     }
     await page.locator(".flip-tile").click();
@@ -45,6 +46,10 @@ for (const viewport of [
 
     const layout = await page.locator(".tile-back").evaluate((tile) => {
       const tileRect = tile.getBoundingClientRect();
+      const answer = tile.querySelector<HTMLElement>(".answer")!;
+      const answerText = document.createRange();
+      answerText.selectNodeContents(answer);
+      const answerBounds = answerText.getBoundingClientRect();
       const portuguese = tile.querySelector<HTMLElement>(".example-with-audio > span")!;
       const translation = tile.querySelector<HTMLElement>(".example-body .example")!;
       const insideTile = (element: HTMLElement) => {
@@ -53,6 +58,10 @@ for (const viewport of [
       };
 
       return {
+        answerFontSize: Number.parseFloat(getComputedStyle(answer).fontSize),
+        answerFits:
+          answerBounds.top >= tileRect.top && answerBounds.bottom <= tileRect.bottom &&
+          answerBounds.left >= tileRect.left && answerBounds.right <= tileRect.right,
         portugueseFontSize: Number.parseFloat(getComputedStyle(portuguese).fontSize),
         translationFontSize: Number.parseFloat(getComputedStyle(translation).fontSize),
         portugueseFits: portuguese.scrollHeight <= portuguese.clientHeight + 1 && insideTile(portuguese),
@@ -60,9 +69,11 @@ for (const viewport of [
       };
     });
 
+    expect(layout.answerFits).toBe(true);
+    expect(layout.answerFontSize).toBeGreaterThanOrEqual(45);
     expect(layout.portugueseFits).toBe(true);
     expect(layout.translationFits).toBe(true);
     expect(layout.portugueseFontSize).toBeGreaterThanOrEqual(24);
-    expect(layout.translationFontSize).toBeGreaterThanOrEqual(viewport.name === "phone" ? 21 : 20.48);
+    expect(layout.translationFontSize).toBeGreaterThanOrEqual(viewport.name === "desktop" ? 20.48 : 21);
   });
 }

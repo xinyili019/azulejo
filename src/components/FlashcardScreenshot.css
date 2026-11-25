@@ -1,0 +1,163 @@
+.flashcard-screenshot-trigger,
+.flashcard-screenshot-close {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid rgba(30, 43, 107, 0.24);
+  border-radius: 6px;
+  background: var(--surface-cream, #fbf8f1);
+  color: var(--ink-navy, #1e2b6b);
+  cursor: pointer;
+}
+
+.study-toggles.flashcard-tools {
+  --study-action-height: 36px;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.flashcard-screenshot-trigger {
+  height: var(--study-action-height);
+  border-color: rgba(251, 248, 241, 0.42);
+  background: rgba(251, 248, 241, 0.1);
+  color: var(--surface-cream);
+  -webkit-backdrop-filter: blur(12px) saturate(1.35);
+  backdrop-filter: blur(12px) saturate(1.35);
+  box-shadow: inset 0 1px rgba(251, 248, 241, 0.18);
+}
+
+.flashcard-screenshot-dialog {
+  box-sizing: border-box;
+  width: min(560px, calc(100% - 32px));
+  max-height: calc(100% - 32px);
+  border: 1px solid rgba(30, 43, 107, 0.24);
+  border-radius: 8px;
+  padding: 16px;
+  background: var(--surface-cream, #fbf8f1);
+  color: var(--ink-navy, #1e2b6b);
+}
+
+.flashcard-screenshot-dialog::backdrop {
+  background: rgba(18, 25, 52, 0.62);
+}
+
+.flashcard-screenshot-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.flashcard-screenshot-heading h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.flashcard-screenshot-close {
+  flex: none;
+}
+
+.flashcard-screenshot-image {
+  display: block;
+  width: 100%;
+  max-height: 62vh;
+  object-fit: contain;
+}
+
+.flashcard-screenshot-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.flashcard-screenshot-actions > :is(a, button) {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 6px 12px;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flashcard-screenshot-actions > button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.flashcard-screenshot-trigger:focus-visible,
+.flashcard-screenshot-dialog :focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.tile-shell.flashcard-screenshot-capture {
+  perspective: none;
+}
+
+.flashcard-screenshot-capture .flip-tile,
+.flashcard-screenshot-capture .flip-tile.is-revealed,
+.flashcard-screenshot-capture .tile-face {
+  transform: none;
+  transform-style: flat;
+  backface-visibility: visible;
+  outline: none;
+  will-change: auto;
+}
+
+.flashcard-screenshot-capture .tile-face::before {
+  content: none;
+  display: none;
+}
+
+.flashcard-screenshot-corners {
+  position: absolute;
+  inset: 12px;
+  pointer-events: none;
+}
+
+.translation-is-open > .flashcard-screenshot-corners {
+  opacity: 0.24;
+}
+
+.flashcard-screenshot-corners svg {
+  position: absolute;
+  width: min(152px, 30%);
+  aspect-ratio: 1;
+}
+
+.flashcard-screenshot-corners :is([data-corner="top-left"], [data-corner="top-right"]) {
+  top: 0;
+}
+
+.flashcard-screenshot-corners :is([data-corner="bottom-left"], [data-corner="bottom-right"]) {
+  bottom: 0;
+}
+
+.flashcard-screenshot-corners :is([data-corner="top-left"], [data-corner="bottom-left"]) {
+  left: 0;
+}
+
+.flashcard-screenshot-corners :is([data-corner="top-right"], [data-corner="bottom-right"]) {
+  right: 0;
+}
+
+@media (max-width: 620px) {
+  .flashcard-screenshot-corners {
+    inset: 8px;
+  }
+
+  .flashcard-screenshot-corners svg {
+    width: min(85.5px, 30%);
+  }
+}
