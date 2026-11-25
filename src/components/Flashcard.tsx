@@ -227,7 +227,9 @@ export function Flashcard({
         >
             <span className="tile-face tile-front" aria-hidden={revealed}>
               <span className="tile-content" dir="ltr">
-                <span className="prompt">{renderTerm(prompt, portugueseIsFront, entry)}</span>
+                <span className="prompt" lang={portugueseIsFront ? "pt-PT" : undefined}>
+                  {renderTerm(prompt, portugueseIsFront, entry)}
+                </span>
               </span>
             </span>
             <span className={`tile-face tile-back ${translationOpen ? "translation-is-open" : ""}`} aria-hidden={!revealed}>
@@ -236,7 +238,7 @@ export function Flashcard({
                   <span className={`back-term-row answer-reference-row${portugueseIsFront ? " has-audio" : ""}`}>
                     {portugueseIsFront &&
                       renderBackAudioButton("word", `${ui.listen}: ${getPortugueseBareText(entry)}`, handlePronunciation)}
-                    <span className="answer-reference" onClick={portugueseIsFront ? stopTileToggle : undefined}>
+                    <span className="answer-reference" lang={portugueseIsFront ? "pt-PT" : undefined} onClick={portugueseIsFront ? stopTileToggle : undefined}>
                       {renderTerm(prompt, portugueseIsFront, entry)}
                     </span>
                     {portugueseIsFront && <span className="tile-audio-spacer" aria-hidden="true" />}
@@ -244,7 +246,7 @@ export function Flashcard({
                   <span className={`back-term-row answer-row${portugueseIsBackAnswer ? " has-audio" : ""}`}>
                     {portugueseIsBackAnswer &&
                       renderBackAudioButton("word", `${ui.listen}: ${getPortugueseBareText(entry)}`, handlePronunciation)}
-                    <span className="answer" dir="auto" onClick={portugueseIsBackAnswer ? stopTileToggle : undefined}>
+                    <span className="answer" lang={portugueseIsBackAnswer ? "pt-PT" : undefined} dir="auto" onClick={portugueseIsBackAnswer ? stopTileToggle : undefined}>
                       {renderTerm(answer, portugueseIsBackAnswer, entry)}
                     </span>
                     {portugueseIsBackAnswer && <span className="tile-audio-spacer" aria-hidden="true" />}
@@ -253,7 +255,7 @@ export function Flashcard({
                 {(hasExample || hasTranslation) && (
                   <span className={`example-disclosure translation-disclosure ${translationOpen ? "open" : ""}`}>
                     {entry.examplePt && (
-                      <span className="example example-with-audio">
+                      <span className="example example-with-audio" lang="pt-PT">
                         {renderBackAudioButton("example", `${ui.listen} ${ui.example}`, handleExamplePronunciation)}
                         <span>{entry.examplePt}</span>
                       </span>

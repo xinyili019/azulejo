@@ -27,9 +27,10 @@ async function getChineseFontStyles(tile: HTMLElement) {
         import("../assets/fonts/notosanstc-azulejo.woff2?inline")
       ]));
   const script = simplified ? "SC" : "TC";
+  const hanRange = "U+3400-9FFF,U+F900-FAFF,U+20000-323AF";
   return `
-    @font-face{font-family:"Noto Serif ${script}";font-weight:200 900;src:url("${serif.default}")}
-    @font-face{font-family:"Noto Sans ${script}";font-weight:100 900;src:url("${sans.default}")}
+    @font-face{font-family:"Noto Serif ${script}";font-weight:200 900;src:url("${serif.default}");unicode-range:${hanRange}}
+    @font-face{font-family:"Noto Sans ${script}";font-weight:100 900;src:url("${sans.default}");unicode-range:${hanRange}}
   `;
 }
 
