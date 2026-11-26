@@ -1305,10 +1305,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "April",
     "zhHans": "四月",
     "zhHant": "四月",
-    "examplePt": "A data de nascimento é em abril.",
-    "exampleEn": "The date of birth is in April.",
-    "exampleZhHans": "出生日期在四月。",
-    "exampleZhHant": "出生日期在四月。",
+    "examplePt": "Casámos em abril.",
+    "exampleEn": "We got married in April.",
+    "exampleZhHans": "我们在四月结婚了。",
+    "exampleZhHant": "我們在四月結婚了。",
     "source": "pdf"
   },
   {
@@ -1322,10 +1322,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "August",
     "zhHans": "八月",
     "zhHant": "八月",
-    "examplePt": "A data é em agosto.",
-    "exampleEn": "The date is in August.",
-    "exampleZhHans": "日期在八月。",
-    "exampleZhHant": "日期在八月。",
+    "examplePt": "A loja está fechada em agosto.",
+    "exampleEn": "The shop is closed in August.",
+    "exampleZhHans": "商店在八月不营业。",
+    "exampleZhHant": "商店在八月不營業。",
     "source": "pdf"
   },
   {
@@ -1339,10 +1339,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "December",
     "zhHans": "十二月",
     "zhHant": "十二月",
-    "examplePt": "A data é em dezembro.",
-    "exampleEn": "The date is in December.",
-    "exampleZhHans": "日期在十二月。",
-    "exampleZhHant": "日期在十二月。",
+    "examplePt": "Visitamos a família em dezembro.",
+    "exampleEn": "We visit the family in December.",
+    "exampleZhHans": "我们在十二月探望家人。",
+    "exampleZhHant": "我們在十二月探望家人。",
     "source": "pdf"
   },
   {
@@ -1373,10 +1373,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "February",
     "zhHans": "二月",
     "zhHant": "二月",
-    "examplePt": "A data é em fevereiro.",
-    "exampleEn": "The date is in February.",
-    "exampleZhHans": "日期在二月。",
-    "exampleZhHant": "日期在二月。",
+    "examplePt": "Cheguei a Portugal em fevereiro.",
+    "exampleEn": "I arrived in Portugal in February.",
+    "exampleZhHans": "我在二月来到葡萄牙。",
+    "exampleZhHant": "我在二月來到葡萄牙。",
     "source": "pdf"
   },
   {
@@ -1390,10 +1390,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "January",
     "zhHans": "一月",
     "zhHant": "一月",
-    "examplePt": "A data é em janeiro.",
-    "exampleEn": "The date is in January.",
-    "exampleZhHans": "日期在一月。",
-    "exampleZhHant": "日期在一月。",
+    "examplePt": "Nasci em janeiro.",
+    "exampleEn": "I was born in January.",
+    "exampleZhHans": "我出生于一月。",
+    "exampleZhHant": "我出生於一月。",
     "source": "pdf"
   },
   {
@@ -1407,10 +1407,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "July",
     "zhHans": "七月",
     "zhHant": "七月",
-    "examplePt": "A data é em julho.",
-    "exampleEn": "The date is in July.",
-    "exampleZhHans": "日期在七月。",
-    "exampleZhHant": "日期在七月。",
+    "examplePt": "Vamos de férias em julho.",
+    "exampleEn": "We go on holiday in July.",
+    "exampleZhHans": "我们在七月去度假。",
+    "exampleZhHant": "我們在七月去度假。",
     "source": "pdf"
   },
   {
@@ -1424,10 +1424,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "June",
     "zhHans": "六月",
     "zhHant": "六月",
-    "examplePt": "A data é em junho.",
-    "exampleEn": "The date is in June.",
-    "exampleZhHans": "日期在六月。",
-    "exampleZhHant": "日期在六月。",
+    "examplePt": "As aulas acabam em junho.",
+    "exampleEn": "Classes end in June.",
+    "exampleZhHans": "课程在六月结束。",
+    "exampleZhHant": "課程在六月結束。",
     "source": "pdf"
   },
   {
@@ -1441,10 +1441,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "May",
     "zhHans": "五月",
     "zhHant": "五月",
-    "examplePt": "A data é em maio.",
-    "exampleEn": "The date is in May.",
-    "exampleZhHans": "日期在五月。",
-    "exampleZhHant": "日期在五月。",
+    "examplePt": "A nossa filha nasceu em maio.",
+    "exampleEn": "Our daughter was born in May.",
+    "exampleZhHans": "我们的女儿在五月出生。",
+    "exampleZhHant": "我們的女兒在五月出生。",
     "source": "pdf"
   },
   {
@@ -1458,10 +1458,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "March",
     "zhHans": "三月",
     "zhHant": "三月",
-    "examplePt": "A data é em março.",
-    "exampleEn": "The date is in March.",
-    "exampleZhHans": "日期在三月。",
-    "exampleZhHant": "日期在三月。",
+    "examplePt": "O nosso aniversário é em março.",
+    "exampleEn": "Our anniversary is in March.",
+    "exampleZhHans": "我们的纪念日在三月。",
+    "exampleZhHant": "我們的紀念日在三月。",
     "source": "pdf"
   },
   {
@@ -1475,10 +1475,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "November",
     "zhHans": "十一月",
     "zhHant": "十一月",
-    "examplePt": "A data é em novembro.",
-    "exampleEn": "The date is in November.",
-    "exampleZhHans": "日期在十一月。",
-    "exampleZhHant": "日期在十一月。",
+    "examplePt": "Tenho uma consulta em novembro.",
+    "exampleEn": "I have an appointment in November.",
+    "exampleZhHans": "我在十一月有个预约。",
+    "exampleZhHant": "我在十一月有個預約。",
     "source": "pdf"
   },
   {
@@ -1492,10 +1492,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "October",
     "zhHans": "十月",
     "zhHant": "十月",
-    "examplePt": "A data é em outubro.",
-    "exampleEn": "The date is in October.",
-    "exampleZhHans": "日期在十月。",
-    "exampleZhHant": "日期在十月。",
+    "examplePt": "O meu filho faz anos em outubro.",
+    "exampleEn": "My son's birthday is in October.",
+    "exampleZhHans": "我儿子的生日在十月。",
+    "exampleZhHant": "我兒子的生日在十月。",
     "source": "pdf"
   },
   {
@@ -1577,10 +1577,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "September",
     "zhHans": "九月",
     "zhHant": "九月",
-    "examplePt": "A data é em setembro.",
-    "exampleEn": "The date is in September.",
-    "exampleZhHans": "日期在九月。",
-    "exampleZhHant": "日期在九月。",
+    "examplePt": "A escola começa em setembro.",
+    "exampleEn": "School starts in September.",
+    "exampleZhHans": "学校在九月开学。",
+    "exampleZhHant": "學校在九月開學。",
     "source": "pdf"
   },
   {
