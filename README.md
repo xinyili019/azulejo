@@ -45,6 +45,7 @@ npm run generate:audio
 ```
 
 Set `AZULEJO_TTS_VOICE` to choose the voice (default `Joana (Enhanced)`). Pass `--force` to regenerate existing files or `--only=id1,id2` to limit which entries are generated.
+For revised sentences, combine `--force --examples-only` with `--only=id1,id2` or `--only-file=path/to/ids.txt` to refresh their recordings without rerecording the vocabulary words.
 
 ## iOS
 

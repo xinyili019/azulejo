@@ -8,12 +8,19 @@ const sourcePath = join(root, "src", "data", "vocabulary.ts");
 const situacoesSourcePath = join(root, "src", "data", "situacoes.ts");
 const outputDir = join(root, "public", "audio", "pt");
 const exampleOutputDir = join(outputDir, "examples");
+const contextualExampleOutputDir = join(exampleOutputDir, "situacoes");
 const situacoesOutputDir = join(outputDir, "situacoes");
 const dialogoOutputDir = join(situacoesOutputDir, "dialogo");
 const cartaoOutputDir = join(situacoesOutputDir, "cartao");
 const force = process.argv.includes("--force");
+const examplesOnly = process.argv.includes("--examples-only");
 const onlyArgument = process.argv.find((argument) => argument.startsWith("--only="));
-const onlyIds = onlyArgument ? new Set(onlyArgument.slice("--only=".length).split(",").filter(Boolean)) : null;
+const onlyFileArgument = process.argv.find((argument) => argument.startsWith("--only-file="));
+const onlyIds = onlyArgument
+  ? new Set(onlyArgument.slice("--only=".length).split(",").filter(Boolean))
+  : onlyFileArgument
+    ? new Set(readFileSync(onlyFileArgument.slice("--only-file=".length), "utf8").split(/\s+/u).filter(Boolean))
+    : null;
 const voice = process.env.AZULEJO_TTS_VOICE ?? "Joana (Enhanced)";
 
 const source = readFileSync(sourcePath, "utf8");
@@ -71,6 +78,7 @@ function exists(path) {
 
 mkdirSync(outputDir, { recursive: true });
 mkdirSync(exampleOutputDir, { recursive: true });
+mkdirSync(contextualExampleOutputDir, { recursive: true });
 mkdirSync(dialogoOutputDir, { recursive: true });
 mkdirSync(cartaoOutputDir, { recursive: true });
 
@@ -84,7 +92,9 @@ let skippedSituacaoLines = 0;
 for (const entry of entries) {
   if (onlyIds && !onlyIds.has(entry.id)) continue;
   const outputPath = join(outputDir, `${entry.audioId}.m4a`);
-  if (!force && exists(outputPath)) {
+  if (examplesOnly) {
+    // Keep the word recording when only example sentences changed.
+  } else if (!force && exists(outputPath)) {
     skippedWords += 1;
   } else {
     generateAudio(outputPath, speechText(entry.portuguese), entry.id);
@@ -103,7 +113,9 @@ for (const entry of entries) {
 for (const entry of situacaoWordEntries.values()) {
   if (onlyIds && !onlyIds.has(entry.id)) continue;
   const outputPath = join(outputDir, `${entry.audioId}.m4a`);
-  if (!force && exists(outputPath)) {
+  if (examplesOnly) {
+    // Keep the word recording when only example sentences changed.
+  } else if (!force && exists(outputPath)) {
     skippedWords += 1;
   } else {
     generateAudio(outputPath, speechText(entry.portuguese), entry.id);
@@ -118,6 +130,24 @@ for (const entry of situacaoWordEntries.values()) {
       generateAudio(exampleOutputPath, speechText(entry.examplePt), `${entry.id} example`);
       generatedExamples += 1;
     }
+  }
+}
+
+const baseExampleById = new Map(entries.map((entry) => [entry.id, entry.examplePt]));
+for (const entry of situacaoWordEntries.values()) {
+  if (!baseExampleById.has(entry.id)) baseExampleById.set(entry.id, entry.examplePt);
+}
+let generatedContextualExamples = 0;
+let skippedContextualExamples = 0;
+for (const row of situacaoVocabularyRows) {
+  if (!row.examplePt || row.examplePt === baseExampleById.get(row.id)) continue;
+  if (onlyIds && !onlyIds.has(row.id)) continue;
+  const outputPath = join(contextualExampleOutputDir, `${row.situacao}-${row.id}.m4a`);
+  if (!force && exists(outputPath)) {
+    skippedContextualExamples += 1;
+  } else {
+    generateAudio(outputPath, speechText(row.examplePt), `${row.situacao} ${row.id} example`);
+    generatedContextualExamples += 1;
   }
 }
 
@@ -210,5 +240,5 @@ function createSituacaoId(portuguese) {
 }
 
 console.log(
-  `Audio ready in public/audio/pt: words generated ${generatedWords}, skipped ${skippedWords}; examples generated ${generatedExamples}, skipped ${skippedExamples}; situacao sentences generated ${generatedSituacaoLines}, skipped ${skippedSituacaoLines}; manual total ${entries.length}, situacao words ${situacaoWordEntries.size}.`
+  `Audio ready in public/audio/pt: words generated ${generatedWords}, skipped ${skippedWords}; examples generated ${generatedExamples}, skipped ${skippedExamples}; contextual examples generated ${generatedContextualExamples}, skipped ${skippedContextualExamples}; situacao sentences generated ${generatedSituacaoLines}, skipped ${skippedSituacaoLines}; manual total ${entries.length}, situacao words ${situacaoWordEntries.size}.`
 );

@@ -7463,10 +7463,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "legacyIds": [
       "situacao-inscrever-se"
     ],
-    "examplePt": "Quero inscrever-me hoje.",
-    "exampleEn": "I want to sign up today.",
-    "exampleZhHans": "我想今天报名。",
-    "exampleZhHant": "我想今天報名。"
+    "examplePt": "Podia inscrever-me hoje?",
+    "exampleEn": "Could I sign up today?",
+    "exampleZhHans": "我今天可以报名吗？",
+    "exampleZhHant": "我今天可以報名嗎？"
   },
   {
     "situacao": "ginasio",
@@ -8819,10 +8819,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "legacyIds": [
       "situacao-o-favor"
     ],
-    "examplePt": "Preciso de um favor.",
-    "exampleEn": "I need a favor.",
-    "exampleZhHans": "我需要帮个忙。",
-    "exampleZhHant": "我需要幫個忙。"
+    "examplePt": "Podia fazer-me um favor?",
+    "exampleEn": "Could you do me a favor?",
+    "exampleZhHans": "您能帮我一个忙吗？",
+    "exampleZhHant": "您能幫我一個忙嗎？"
   },
   {
     "situacao": "vizinhos",
@@ -9118,10 +9118,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "legacyIds": [
       "situacao-marcar"
     ],
-    "examplePt": "Quero marcar para sábado.",
-    "exampleEn": "I want to make an appointment for Saturday.",
-    "exampleZhHans": "我想预约周六。",
-    "exampleZhHant": "我想預約週六。"
+    "examplePt": "Podia marcar para sábado?",
+    "exampleEn": "Could I book an appointment for Saturday?",
+    "exampleZhHans": "我可以预约星期六吗？",
+    "exampleZhHant": "我可以預約星期六嗎？"
   },
   {
     "situacao": "cabeleireiro_barbeiro",
@@ -9440,8 +9440,8 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "legacyIds": [
       "situacao-pintar"
     ],
-    "examplePt": "Quero pintar de castanho.",
-    "exampleEn": "I want to paint it brown.",
+    "examplePt": "Queria pintar o cabelo de castanho.",
+    "exampleEn": "I would like to dye my hair brown.",
     "exampleZhHans": "我想染成棕色。",
     "exampleZhHant": "我想染成棕色。"
   },
@@ -9491,8 +9491,8 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "legacyIds": [
       "situacao-o-tom"
     ],
-    "examplePt": "Quero um tom mais claro.",
-    "exampleEn": "I want a lighter tone.",
+    "examplePt": "Gostava de um tom mais claro.",
+    "exampleEn": "I would like a lighter hair colour.",
     "exampleZhHans": "我想要浅一点的色调。",
     "exampleZhHant": "我想要淺一點的色調。"
   },
@@ -10299,10 +10299,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "起司",
     "pos": "noun",
     "gender": "m",
-    "examplePt": "Quero um queijo fresco.",
-    "exampleEn": "I want a fresh cheese.",
-    "exampleZhHans": "我想要一块新鲜奶酪。",
-    "exampleZhHant": "我想要一塊新鮮起司。"
+    "examplePt": "Tem queijo fresco?",
+    "exampleEn": "Do you have fresh cheese?",
+    "exampleZhHans": "请问有新鲜奶酪吗？",
+    "exampleZhHant": "請問有新鮮芝士嗎？"
   },
   {
     "id": "az-0149",
@@ -10333,8 +10333,8 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "雞肉",
     "pos": "noun",
     "gender": "m",
-    "examplePt": "Quero frango assado.",
-    "exampleEn": "I want roast chicken.",
+    "examplePt": "Queria frango assado.",
+    "exampleEn": "I would like roast chicken.",
     "exampleZhHans": "我想要烤鸡。",
     "exampleZhHant": "我想要烤雞。"
   },
@@ -10367,10 +10367,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "糖",
     "pos": "noun",
     "gender": "m",
-    "examplePt": "Preciso de um pacote de açúcar.",
-    "exampleEn": "I need a packet of sugar.",
-    "exampleZhHans": "我需要一包糖。",
-    "exampleZhHant": "我需要一包糖。"
+    "examplePt": "Queria um pacote de açúcar.",
+    "exampleEn": "I would like a packet of sugar.",
+    "exampleZhHans": "我想要一包糖。",
+    "exampleZhHant": "我想要一包糖。"
   },
   {
     "id": "az-0139",
@@ -13000,10 +13000,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHans": "更改户名",
     "zhHant": "更改戶名",
     "pos": "verb",
-    "examplePt": "Quero mudar o titular do contrato.",
-    "exampleEn": "I want to change the account holder on the contract.",
-    "exampleZhHans": "我想更改合同户名。",
-    "exampleZhHant": "我想更改合約戶名。",
+    "examplePt": "É possível mudar o titular do contrato?",
+    "exampleEn": "Is it possible to change the account holder on the contract?",
+    "exampleZhHans": "可以更改合同上的账户持有人吗？",
+    "exampleZhHant": "可以更改合約上的帳戶持有人嗎？",
     "situacao": "agua_luz_gas"
   },
   {
@@ -13049,10 +13049,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "SIM卡",
     "pos": "noun",
     "gender": "m",
-    "examplePt": "Preciso de um cartão SIM português.",
-    "exampleEn": "I need a Portuguese SIM card.",
-    "exampleZhHans": "我需要一张葡萄牙SIM卡。",
-    "exampleZhHant": "我需要一張葡萄牙SIM卡。",
+    "examplePt": "Queria um cartão SIM português.",
+    "exampleEn": "I would like a Portuguese SIM card.",
+    "exampleZhHans": "我想要一张葡萄牙SIM卡。",
+    "exampleZhHant": "我想要一張葡萄牙SIM卡。",
     "situacao": "telemovel_internet"
   },
   {
@@ -13724,10 +13724,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "事件報告",
     "pos": "noun",
     "gender": "m",
-    "examplePt": "Preciso de uma cópia do auto da ocorrência.",
-    "exampleEn": "I need a copy of the incident report.",
-    "exampleZhHans": "我需要一份事件报告副本。",
-    "exampleZhHant": "我需要一份事件報告副本。",
+    "examplePt": "Precisava de uma cópia do auto da ocorrência.",
+    "exampleEn": "I would like a copy of the incident report.",
+    "exampleZhHans": "我想要一份事件报告副本。",
+    "exampleZhHant": "我想要一份事件報告副本。",
     "situacao": "policia_documentos"
   },
   {
@@ -14684,8 +14684,8 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to acquire",
     "zhHans": "获得",
     "zhHant": "獲得",
-    "examplePt": "Quero adquirir a nacionalidade portuguesa.",
-    "exampleEn": "I want to acquire Portuguese nationality.",
+    "examplePt": "Gostaria de adquirir a nacionalidade portuguesa.",
+    "exampleEn": "I would like to acquire Portuguese nationality.",
     "exampleZhHans": "我想取得葡萄牙国籍。",
     "exampleZhHant": "我想取得葡萄牙國籍。"
   },
@@ -16113,8 +16113,8 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to exchange a driving licence",
     "zhHans": "换领驾驶证",
     "zhHant": "換領駕駛執照",
-    "examplePt": "Quero trocar a minha carta estrangeira.",
-    "exampleEn": "I want to exchange my foreign licence.",
+    "examplePt": "Queria trocar a minha carta estrangeira.",
+    "exampleEn": "I would like to exchange my foreign licence.",
     "exampleZhHans": "我想换领外国驾驶证。",
     "exampleZhHant": "我想換領外國駕駛執照。",
     "situacao": "imt_carta_conducao"
@@ -16181,10 +16181,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "結婚證明書",
     "pos": "noun",
     "gender": "f",
-    "examplePt": "Preciso de uma certidão de casamento recente.",
-    "exampleEn": "I need a recent marriage certificate.",
-    "exampleZhHans": "我需要一份近期的结婚证明。",
-    "exampleZhHant": "我需要一份近期的結婚證明書。",
+    "examplePt": "Gostava de pedir uma certidão de casamento recente.",
+    "exampleEn": "I would like to request a recently issued marriage certificate.",
+    "exampleZhHans": "我想申请一份新近签发的结婚证明。",
+    "exampleZhHant": "我想申請一份新近簽發的結婚證明書。",
     "situacao": "conservatoria_registo_civil"
   },
   {
@@ -16507,8 +16507,8 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "id": "dialogo-financas-preciso-de-atualizar-a-minha-morada-fiscal",
     "situacao": "financas",
     "order": 14,
-    "pt": "Preciso de atualizar a minha morada fiscal.",
-    "en": "I need to update my registered tax address.",
+    "pt": "Queria atualizar a minha morada fiscal.",
+    "en": "I would like to update my registered tax address.",
     "zhHans": "我需要更新我的税务登记地址。",
     "zhHant": "我需要更新我的稅務登記地址。"
   },
@@ -17830,8 +17830,8 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "id": "dialogo-junta-de-freguesia-preciso-de-um-atestado-de-agregado-familiar-para-o-rea",
     "situacao": "junta_de_freguesia",
     "order": 161,
-    "pt": "Preciso de um atestado de agregado familiar para o reagrupamento.",
-    "en": "I need a household certificate for family reunification.",
+    "pt": "Precisava de um atestado de agregado familiar para o reagrupamento.",
+    "en": "I would like a household certificate for family reunification.",
     "zhHans": "我需要一份家庭成员证明办家庭团聚。",
     "zhHant": "我需要一份家庭成員證明辦家庭團聚。"
   },
@@ -18046,8 +18046,8 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "id": "dialogo-aima-quero-pedir-a-nacionalidade-que-documentos-preciso",
     "situacao": "aima",
     "order": 185,
-    "pt": "Quero pedir a nacionalidade. Que documentos preciso?",
-    "en": "I want to apply for citizenship. What documents do I need?",
+    "pt": "Gostava de pedir a nacionalidade. Que documentos preciso?",
+    "en": "I would like to apply for citizenship. What documents do I need?",
     "zhHans": "我想申请入籍。需要哪些文件？",
     "zhHant": "我想申請入籍。需要哪些文件？"
   },
@@ -21555,8 +21555,8 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "situacao": "camara_municipal",
     "order": 564,
     "purpose": "expanded real-world coverage",
-    "pt": "Quero ainda comunicar barulho de obras fora do horário.",
-    "en": "I also want to report building noise outside permitted hours.",
+    "pt": "Queria ainda comunicar barulho de obras fora do horário.",
+    "en": "I would also like to report noise from construction work outside permitted hours.",
     "zhHans": "我还想投诉非施工时段的装修噪音。",
     "zhHant": "我還想投訴非施工時段的裝修噪音。"
   },
@@ -22685,10 +22685,10 @@ export const situacaoDialogueLines: SituacaoContentLine[] = [
     "situacao": "telemovel_internet",
     "order": 677,
     "purpose": "expanded real-world coverage",
-    "pt": "Preciso de muitos dados e de usar o telemóvel noutros países da União Europeia.",
-    "en": "I need plenty of data and to use the phone in other EU countries.",
-    "zhHans": "我需要较多流量，并会在其他欧盟国家使用。",
-    "zhHant": "我需要較多數據，並會在其他歐盟國家使用。"
+    "pt": "Gostava de um tarifário com muitos dados para usar o telemóvel noutros países da União Europeia.",
+    "en": "I would like a plan with plenty of data for using my phone in other EU countries.",
+    "zhHans": "我想要一个流量充足、能在其他欧盟国家使用的套餐。",
+    "zhHant": "我想要一個流動數據充足、可在其他歐盟國家使用的套餐。"
   },
   {
     "id": "dialogo-telemovel_internet-este-tarifario-inclui-roaming-na-uniao-europeia-sujeito-a-politica-de-utilizacao-responsavel",
@@ -23216,10 +23216,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-financas-quero-atualizar-o-meu-domicilio-fiscal",
     "situacao": "financas",
     "order": 11,
-    "pt": "Quero atualizar o meu domicílio fiscal.",
-    "en": "I want to update my tax address.",
-    "zhHans": "我想更新我的税务登记地址。",
-    "zhHant": "我想更新我的稅務登記地址。"
+    "pt": "Podia atualizar o meu domicílio fiscal?",
+    "en": "Could I update my tax address?",
+    "zhHans": "我可以更新税务地址吗？",
+    "zhHant": "我可以更新稅務地址嗎？"
   },
   {
     "id": "cartao-correios-queria-enviar-esta-carta-registada",
@@ -23279,7 +23279,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-junta-de-freguesia-preciso-de-um-atestado-de-residencia-por-favor",
     "situacao": "junta_de_freguesia",
     "order": 18,
-    "pt": "Preciso de um atestado de residência, por favor.",
+    "pt": "Precisava de um atestado de residência, por favor.",
     "en": "I need a certificate of residence, please.",
     "zhHans": "我需要一份居住证明，麻煩您。",
     "zhHant": "我需要一份居住證明，麻煩您。"
@@ -23504,8 +23504,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-iefp-quero-pedir-o-subsidio-de-desemprego",
     "situacao": "iefp",
     "order": 43,
-    "pt": "Quero pedir o subsídio de desemprego.",
-    "en": "I want to apply for unemployment benefit.",
+    "pt": "Queria pedir o subsídio de desemprego.",
+    "en": "I would like to apply for unemployment benefit.",
     "zhHans": "我想申请失业救济金。",
     "zhHant": "我想申請失業救濟金。"
   },
@@ -23558,8 +23558,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-seguranca-social-preciso-de-uma-declaracao-de-situacao-contributiva",
     "situacao": "seguranca_social",
     "order": 49,
-    "pt": "Preciso de uma declaração de situação contributiva.",
-    "en": "I need a statement of my contributions status.",
+    "pt": "Gostava de pedir uma declaração de situação contributiva.",
+    "en": "I would like to request a statement of my contributions status.",
     "zhHans": "我需要一份供款状况声明。",
     "zhHant": "我需要一份供款狀況聲明。"
   },
@@ -23981,8 +23981,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-financas-quero-abrir-atividade-como-independente",
     "situacao": "financas",
     "order": 96,
-    "pt": "Quero abrir atividade como independente.",
-    "en": "I want to register as self-employed.",
+    "pt": "Gostava de abrir atividade como independente.",
+    "en": "I would like to register as self-employed.",
     "zhHans": "我想登记自雇开业。",
     "zhHant": "我想登記自僱開業。"
   },
@@ -24098,8 +24098,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-junta-de-freguesia-quero-ativar-a-chave-movel-digital",
     "situacao": "junta_de_freguesia",
     "order": 109,
-    "pt": "Quero ativar a Chave Móvel Digital.",
-    "en": "I want to activate the Digital Mobile Key.",
+    "pt": "Gostaria de ativar a Chave Móvel Digital.",
+    "en": "I would like to activate the Digital Mobile Key.",
     "zhHans": "我想开通数字移动密钥。",
     "zhHant": "我想開通數字移動密鑰。"
   },
@@ -24152,7 +24152,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-saude-preciso-de-um-atestado-medico-para-o-trabalho",
     "situacao": "saude",
     "order": 115,
-    "pt": "Preciso de um atestado médico para o trabalho.",
+    "pt": "Precisava de um atestado médico para o trabalho.",
     "en": "I need a medical certificate for work.",
     "zhHans": "我需要一份医生证明交给公司。",
     "zhHant": "我需要一份醫生證明交給公司。"
@@ -24197,8 +24197,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-aima-quero-atualizar-a-morada-no-processo",
     "situacao": "aima",
     "order": 120,
-    "pt": "Quero atualizar a morada no processo.",
-    "en": "I want to update the address on my case.",
+    "pt": "Queria atualizar a morada no processo.",
+    "en": "I would like to update the address on my case.",
     "zhHans": "我想更新案件中的地址。",
     "zhHant": "我想更新案件中的地址。"
   },
@@ -24287,8 +24287,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-iefp-quero-inscrever-me-no-curso-de-portugues",
     "situacao": "iefp",
     "order": 130,
-    "pt": "Quero inscrever-me no curso de português.",
-    "en": "I want to enrol in the Portuguese course.",
+    "pt": "Queria inscrever-me no curso de português.",
+    "en": "I would like to enrol in the Portuguese course.",
     "zhHans": "我想報名葡语课程。",
     "zhHant": "我想報名葡語課程。"
   },
@@ -24296,8 +24296,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-seguranca-social-quero-pedir-a-licenca-parental",
     "situacao": "seguranca_social",
     "order": 131,
-    "pt": "Quero pedir a licença parental.",
-    "en": "I want to apply for parental leave.",
+    "pt": "Gostaria de pedir a licença parental.",
+    "en": "I would like to apply for parental leave.",
     "zhHans": "我想申请育儿假。",
     "zhHant": "我想申請育兒假。"
   },
@@ -24323,8 +24323,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-seguranca-social-quero-atualizar-o-iban-para-os-pagamentos",
     "situacao": "seguranca_social",
     "order": 134,
-    "pt": "Quero atualizar o IBAN para os pagamentos.",
-    "en": "I want to update my IBAN for payments.",
+    "pt": "Queria atualizar o IBAN para os pagamentos.",
+    "en": "I would like to update my IBAN for payments.",
     "zhHans": "我想更新收款的IBAN。",
     "zhHant": "我想更新收款的IBAN。"
   },
@@ -24332,8 +24332,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-seguranca-social-como-peco-o-abono-de-familia-para-o-meu-filho",
     "situacao": "seguranca_social",
     "order": 135,
-    "pt": "Quero pedir o abono de família para o meu filho. O que tenho de fazer?",
-    "en": "I want to apply for family allowance for my child. What do I need to do?",
+    "pt": "Gostava de pedir o abono de família para o meu filho. O que tenho de fazer?",
+    "en": "I would like to apply for family allowance for my child. What do I need to do?",
     "zhHans": "我想给孩子申请家庭津贴。我需要怎么做？",
     "zhHant": "我想給孩子申請家庭津貼。我需要怎麼做？"
   },
@@ -24746,8 +24746,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-veterinario-quero-esterilizar-a-minha-gata",
     "situacao": "veterinario",
     "order": 181,
-    "pt": "Quero esterilizar a minha gata.",
-    "en": "I want to spay my cat.",
+    "pt": "Gostaria de esterilizar a minha gata.",
+    "en": "I would like to spay my cat.",
     "zhHans": "我想让母猫绝育。",
     "zhHant": "我想讓母貓絕育。"
   },
@@ -24908,8 +24908,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-ginasio-quero-falar-com-um-treinador",
     "situacao": "ginasio",
     "order": 201,
-    "pt": "Quero falar com um treinador.",
-    "en": "I want to talk to a trainer.",
+    "pt": "Queria falar com um treinador.",
+    "en": "I would like to talk to a trainer.",
     "zhHans": "我想找教练。",
     "zhHant": "我想找教練。"
   },
@@ -25277,8 +25277,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-cabeleireiro_barbeiro-quero-mudar-de-visual",
     "situacao": "cabeleireiro_barbeiro",
     "order": 242,
-    "pt": "Quero mudar de visual.",
-    "en": "I want a new look.",
+    "pt": "Gostava de mudar de visual.",
+    "en": "I would like a new look.",
     "zhHans": "我想换造型。",
     "zhHant": "我想換造型。"
   },
@@ -25403,8 +25403,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-farmacia-preciso-de-algo-para-a-dor",
     "situacao": "farmacia",
     "order": 256,
-    "pt": "Preciso de algo para a dor.",
-    "en": "I need something for pain.",
+    "pt": "Queria algo para a dor.",
+    "en": "I would like something for pain.",
     "zhHans": "我需要止痛的药。",
     "zhHant": "我需要止痛的藥。"
   },
@@ -25682,17 +25682,17 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-agua_luz_gas-quero-mudar-o-titular-do-contrato",
     "situacao": "agua_luz_gas",
     "order": 287,
-    "pt": "Quero mudar o titular do contrato.",
-    "en": "I want to change the account holder.",
-    "zhHans": "我想更改合同户名。",
-    "zhHant": "我想更改合約戶名。"
+    "pt": "É possível mudar o titular do contrato?",
+    "en": "Is it possible to change the account holder on the contract?",
+    "zhHans": "可以更改合同上的账户持有人吗？",
+    "zhHant": "可以更改合約上的帳戶持有人嗎？"
   },
   {
     "id": "cartao-agua_luz_gas-quero-comunicar-a-leitura-do-contador",
     "situacao": "agua_luz_gas",
     "order": 288,
-    "pt": "Quero comunicar a leitura do contador.",
-    "en": "I want to submit a meter reading.",
+    "pt": "Gostaria de comunicar a leitura do contador.",
+    "en": "I would like to submit a meter reading.",
     "zhHans": "我想提交抄表数值。",
     "zhHant": "我想提交抄錶數值。"
   },
@@ -25844,7 +25844,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "id": "cartao-policia_documentos-preciso-de-uma-copia-do-auto",
     "situacao": "policia_documentos",
     "order": 305,
-    "pt": "Preciso de uma cópia do auto.",
+    "pt": "Precisava de uma cópia do auto.",
     "en": "I need a copy of the report.",
     "zhHans": "我需要报告副本。",
     "zhHant": "我需要報告副本。"
@@ -25863,8 +25863,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "espaco_cidadao",
     "order": 307,
     "purpose": "other-service",
-    "pt": "Quero alterar e confirmar a morada do Cartão de Cidadão.",
-    "en": "I want to change and confirm the address on my Citizen Card.",
+    "pt": "Queria alterar e confirmar a morada do Cartão de Cidadão.",
+    "en": "I would like to change and confirm the address on my Citizen Card.",
     "zhHans": "我想更改并确认公民卡地址。",
     "zhHant": "我想更改並確認公民證地址。"
   },
@@ -26023,8 +26023,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 323,
     "purpose": "other-service",
-    "pt": "Quero pedir uma certidão de nascimento em papel.",
-    "en": "I want to request a paper birth certificate.",
+    "pt": "Gostava de pedir uma certidão de nascimento em papel.",
+    "en": "I would like to request a paper birth certificate.",
     "zhHans": "我想申请纸质出生证明。",
     "zhHant": "我想申請紙本出生證明書。"
   },
@@ -26033,7 +26033,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 324,
     "purpose": "format",
-    "pt": "Preciso de uma certidão de cópia integral.",
+    "pt": "Precisava de uma certidão de cópia integral.",
     "en": "I need a full-form certificate.",
     "zhHans": "我需要完整副本证明。",
     "zhHant": "我需要完整副本證明書。"
@@ -26093,8 +26093,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 330,
     "purpose": "tracking",
-    "pt": "Quero saber em que estado está o processo.",
-    "en": "I want to know the current status of the case.",
+    "pt": "Gostaria de saber em que estado está o processo.",
+    "en": "I would like to know the current status of the case.",
     "zhHans": "我想查询手续的当前状态。",
     "zhHant": "我想查詢手續的目前狀態。"
   },
@@ -26103,10 +26103,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "camara_municipal",
     "order": 331,
     "purpose": "parking",
-    "pt": "Quero pedir um dístico de estacionamento para residente.",
-    "en": "I want to apply for a resident parking permit.",
-    "zhHans": "我想申请居民停车证。",
-    "zhHant": "我想申請居民泊車證。"
+    "pt": "É possível pedir um dístico de estacionamento para residente?",
+    "en": "Is it possible to apply for a resident parking permit?",
+    "zhHans": "可以申请居民停车许可证吗？",
+    "zhHant": "可以申請居民停車許可證嗎？"
   },
   {
     "id": "cartao-camara_municipal-como-marco-a-recolha-de-um-sofa-e-de-um-colchao",
@@ -26263,8 +26263,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consulado_documentos",
     "order": 347,
     "purpose": "passport",
-    "pt": "Quero renovar o passaporte. Que documentos devo levar?",
-    "en": "I want to renew my passport. Which documents should I bring?",
+    "pt": "Queria renovar o passaporte. Que documentos devo levar?",
+    "en": "I would like to renew my passport. Which documents should I bring?",
     "zhHans": "我想续期护照。需要带哪些文件？",
     "zhHant": "我想續期護照。需要帶哪些文件？"
   },
@@ -26293,8 +26293,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consulado_documentos",
     "order": 350,
     "purpose": "signature",
-    "pt": "Quero reconhecer a minha assinatura neste documento.",
-    "en": "I want to have my signature certified on this document.",
+    "pt": "Gostava de reconhecer a minha assinatura neste documento.",
+    "en": "I would like to have my signature certified on this document.",
     "zhHans": "我想认证这份文件上的签名。",
     "zhHant": "我想核證這份文件上的簽名。"
   },
@@ -26303,8 +26303,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consulado_documentos",
     "order": 351,
     "purpose": "civil-record",
-    "pt": "Quero registar em Portugal o meu casamento no estrangeiro.",
-    "en": "I want to register my foreign marriage in Portugal.",
+    "pt": "Gostaria de registar em Portugal o meu casamento no estrangeiro.",
+    "en": "I would like to register my foreign marriage in Portugal.",
     "zhHans": "我想在葡萄牙登记我的境外婚姻。",
     "zhHant": "我想在葡萄牙登記我的海外婚姻。"
   },
@@ -26513,10 +26513,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "financas",
     "order": 372,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o representante fiscal.",
+    "pt": "Queria esclarecer uma dúvida sobre o representante fiscal.",
     "en": "I have a question about tax representative.",
-    "zhHans": "我需要咨询有关税务代表的问题。",
-    "zhHant": "我需要查詢有關稅務代表的問題。"
+    "zhHans": "我想咨询有关税务代表的问题。",
+    "zhHant": "我想查詢有關稅務代表的問題。"
   },
   {
     "id": "cartao-correios-onde-posso-encontrar-informacoes-sobre-o-prazo-de-entrega",
@@ -26583,10 +26583,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "correios",
     "order": 379,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o formulário aduaneiro.",
+    "pt": "Gostava de esclarecer uma dúvida sobre o formulário aduaneiro.",
     "en": "I have a question about customs form.",
-    "zhHans": "我需要咨询有关報关单的问题。",
-    "zhHant": "我需要查詢有關報關單的問題。"
+    "zhHans": "我想咨询有关報关单的问题。",
+    "zhHant": "我想查詢有關報關單的問題。"
   },
   {
     "id": "cartao-correios-preciso-de-esclarecer-uma-duvida-sobre-a-entrega-ao-domicilio",
@@ -26683,10 +26683,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "junta_de_freguesia",
     "order": 389,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o horário de atendimento.",
+    "pt": "Tenho uma dúvida sobre o horário de atendimento.",
     "en": "I have a question about office hours.",
-    "zhHans": "我需要咨询有关办公时间的问题。",
-    "zhHant": "我需要查詢有關辦公時間的問題。"
+    "zhHans": "我对办公时间有疑问。",
+    "zhHant": "我對辦公時間有疑問。"
   },
   {
     "id": "cartao-junta_de_freguesia-queria-informacoes-sobre-a-declaracao-sob-compromisso-de-honra",
@@ -26763,10 +26763,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "aima",
     "order": 397,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o comprovativo de meios de subsistência.",
+    "pt": "Gostaria de esclarecer uma dúvida sobre o comprovativo de meios de subsistência.",
     "en": "I have a question about proof of means of subsistence.",
-    "zhHans": "我需要咨询有关生活來源证明的问题。",
-    "zhHant": "我需要查詢有關生活來源證明的問題。"
+    "zhHans": "我想咨询有关生活來源证明的问题。",
+    "zhHant": "我想查詢有關生活來源證明的問題。"
   },
   {
     "id": "cartao-aima-pode-dar-me-informacoes-sobre-o-numero-de-processo",
@@ -26953,10 +26953,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "espaco_cidadao",
     "order": 416,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o horário de atendimento.",
+    "pt": "Queria esclarecer uma dúvida sobre o horário de atendimento.",
     "en": "I have a question about office hours.",
-    "zhHans": "我需要咨询有关办公时间的问题。",
-    "zhHant": "我需要查詢有關辦公時間的問題。"
+    "zhHans": "我想咨询有关办公时间的问题。",
+    "zhHant": "我想查詢有關辦公時間的問題。"
   },
   {
     "id": "cartao-espaco_cidadao-como-posso-levantar-o-documento",
@@ -27063,10 +27063,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "imt_carta_conducao",
     "order": 427,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a recolha de dados biométricos.",
+    "pt": "Gostava de esclarecer uma dúvida sobre a recolha de dados biométricos.",
     "en": "I have a question about biometric data collection.",
-    "zhHans": "我需要咨询有关採集生物识別资料（按指紋等）的问题。",
-    "zhHant": "我需要查詢有關採集生物識別資料（按指紋等）的問題。"
+    "zhHans": "我想咨询有关採集生物识別资料（按指紋等）的问题。",
+    "zhHant": "我想查詢有關採集生物識別資料（按指紋等）的問題。"
   },
   {
     "id": "cartao-imt_carta_conducao-preciso-de-esclarecer-uma-duvida-sobre-a-fotocopia-autenticada",
@@ -27193,10 +27193,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "conservatoria_registo_civil",
     "order": 440,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a tradução certificada.",
+    "pt": "Tenho uma dúvida sobre a tradução certificada.",
     "en": "I have a question about certified translation.",
-    "zhHans": "我需要咨询有关认证翻译的问题。",
-    "zhHant": "我需要查詢有關認證翻譯的問題。"
+    "zhHans": "我对认证翻译有疑问。",
+    "zhHant": "我對認證翻譯有疑問。"
   },
   {
     "id": "cartao-conservatoria_registo_civil-com-quem-devo-falar-sobre-o-comprovativo-de-pagamento",
@@ -27333,10 +27333,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "camara_municipal",
     "order": 454,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a freguesia.",
+    "pt": "Gostaria de esclarecer uma dúvida sobre a freguesia.",
     "en": "I have a question about parish (administrative area).",
-    "zhHans": "我需要咨询有关堂区（行政区）的问题。",
-    "zhHant": "我需要查詢有關堂區（行政區）的問題。"
+    "zhHans": "我想咨询有关堂区（行政区）的问题。",
+    "zhHant": "我想查詢有關堂區（行政區）的問題。"
   },
   {
     "id": "cartao-camara_municipal-queria-informacoes-sobre-a-senha-de-atendimento",
@@ -27373,7 +27373,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "camara_municipal",
     "order": 458,
     "purpose": "useful situation example",
-    "pt": "Preciso de ajuda para pagar uma taxa.",
+    "pt": "Precisava de ajuda para pagar uma taxa.",
     "en": "I need help to pay a fee.",
     "zhHans": "我需要协助缴納费用。",
     "zhHant": "我需要協助繳納費用。"
@@ -27463,10 +27463,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "reconhecimento_diplomas",
     "order": 467,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a fotocópia autenticada.",
+    "pt": "Queria esclarecer uma dúvida sobre a fotocópia autenticada.",
     "en": "I have a question about certified photocopy.",
-    "zhHans": "我需要咨询有关认证副本的问题。",
-    "zhHant": "我需要查詢有關認證副本的問題。"
+    "zhHans": "我想咨询有关认证副本的问题。",
+    "zhHant": "我想查詢有關認證副本的問題。"
   },
   {
     "id": "cartao-reconhecimento_diplomas-com-quem-devo-falar-sobre-o-reconhecimento-de-assinatura",
@@ -27613,10 +27613,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consulado_documentos",
     "order": 482,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a declaração.",
+    "pt": "Gostava de esclarecer uma dúvida sobre a declaração.",
     "en": "I have a question about declaration / statement.",
-    "zhHans": "我需要咨询有关声明书的问题。",
-    "zhHant": "我需要查詢有關聲明書的問題。"
+    "zhHans": "我想咨询有关声明书的问题。",
+    "zhHant": "我想查詢有關聲明書的問題。"
   },
   {
     "id": "cartao-saude-pode-explicar-me-o-que-devo-fazer-para-tomar-o-medicamento",
@@ -27673,10 +27673,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "saude",
     "order": 488,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o médico de família.",
+    "pt": "Tenho uma dúvida sobre o médico de família.",
     "en": "I have a question about family doctor (GP).",
-    "zhHans": "我需要咨询有关家庭医生的问题。",
-    "zhHant": "我需要查詢有關家庭醫生的問題。"
+    "zhHans": "我对家庭医生有疑问。",
+    "zhHant": "我對家庭醫生有疑問。"
   },
   {
     "id": "cartao-saude-preciso-de-esclarecer-uma-duvida-sobre-a-analise-ao-sangue",
@@ -27793,10 +27793,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "escola",
     "order": 500,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o encarregado de educação.",
+    "pt": "Gostaria de esclarecer uma dúvida sobre o encarregado de educação.",
     "en": "I have a question about legal guardian (for school purposes).",
-    "zhHans": "我需要咨询有关教育监护人的问题。",
-    "zhHant": "我需要查詢有關教育監護人的問題。"
+    "zhHans": "我想咨询有关教育监护人的问题。",
+    "zhHant": "我想查詢有關教育監護人的問題。"
   },
   {
     "id": "cartao-arrendamento-onde-posso-encontrar-informacoes-sobre-o-esquentador",
@@ -27873,10 +27873,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "arrendamento",
     "order": 508,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o contrato de arrendamento.",
+    "pt": "Queria esclarecer uma dúvida sobre o contrato de arrendamento.",
     "en": "I have a question about rental contract.",
-    "zhHans": "我需要咨询有关租赁合同的问题。",
-    "zhHant": "我需要查詢有關租賃合同的問題。"
+    "zhHans": "我想咨询有关租赁合同的问题。",
+    "zhHant": "我想查詢有關租賃合同的問題。"
   },
   {
     "id": "cartao-arrendamento-preciso-de-esclarecer-uma-duvida-sobre-a-devolucao-da-caucao",
@@ -27983,10 +27983,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "transportes",
     "order": 519,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o passe mensal.",
+    "pt": "Gostava de esclarecer uma dúvida sobre o passe mensal.",
     "en": "I have a question about monthly pass.",
-    "zhHans": "我需要咨询有关月票的问题。",
-    "zhHant": "我需要查詢有關月票的問題。"
+    "zhHans": "我想咨询有关月票的问题。",
+    "zhHant": "我想查詢有關月票的問題。"
   },
   {
     "id": "cartao-veterinario-tens-animais-de-estimacao",
@@ -28053,10 +28053,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "ginasio",
     "order": 526,
     "purpose": "useful situation example",
-    "pt": "Quero inscrever-me hoje.",
-    "en": "I want to sign up today.",
-    "zhHans": "我想今天报名。",
-    "zhHant": "我想今天報名。"
+    "pt": "Podia inscrever-me hoje?",
+    "en": "Could I sign up today?",
+    "zhHans": "我今天可以报名吗？",
+    "zhHant": "我今天可以報名嗎？"
   },
   {
     "id": "cartao-ginasio-a-taxa-de-inscricao-paga-se-uma-vez",
@@ -28153,10 +28153,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "vizinhos",
     "order": 536,
     "purpose": "useful situation example",
-    "pt": "Preciso de um favor.",
-    "en": "I need a favor.",
-    "zhHans": "我需要帮个忙。",
-    "zhHant": "我需要幫個忙。"
+    "pt": "Podia fazer-me um favor?",
+    "en": "Could you do me a favor?",
+    "zhHans": "您能帮我一个忙吗？",
+    "zhHant": "您能幫我一個忙嗎？"
   },
   {
     "id": "cartao-vizinhos-desculpe-incomodar-tao-tarde",
@@ -28183,18 +28183,18 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "cabeleireiro_barbeiro",
     "order": 539,
     "purpose": "useful situation example",
-    "pt": "Quero marcar para sábado.",
-    "en": "I want to make an appointment for Saturday.",
-    "zhHans": "我想预约周六。",
-    "zhHant": "我想預約週六。"
+    "pt": "Podia marcar para sábado?",
+    "en": "Could I book an appointment for Saturday?",
+    "zhHans": "我可以预约星期六吗？",
+    "zhHant": "我可以預約星期六嗎？"
   },
   {
     "id": "cartao-cabeleireiro_barbeiro-quero-pintar-de-castanho",
     "situacao": "cabeleireiro_barbeiro",
     "order": 540,
     "purpose": "useful situation example",
-    "pt": "Quero pintar o cabelo de castanho.",
-    "en": "I want to dye my hair brown.",
+    "pt": "Queria pintar o cabelo de castanho.",
+    "en": "I would like to dye my hair brown.",
     "zhHans": "我想把头发染成棕色。",
     "zhHant": "我想把頭髮染成啡色。"
   },
@@ -28203,8 +28203,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "cabeleireiro_barbeiro",
     "order": 541,
     "purpose": "useful situation example",
-    "pt": "Quero um tom mais claro.",
-    "en": "I want a lighter tone.",
+    "pt": "Gostava de um tom mais claro.",
+    "en": "I would like a lighter hair colour.",
     "zhHans": "我想要浅一点的色调。",
     "zhHant": "我想要淺一點的色調。"
   },
@@ -28273,10 +28273,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "supermercado_mercado",
     "order": 548,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o peso.",
+    "pt": "Tenho uma dúvida sobre o peso.",
     "en": "I have a question about weight.",
-    "zhHans": "我需要咨询有关重量的问题。",
-    "zhHant": "我需要查詢有關重量的問題。"
+    "zhHans": "我对重量有疑问。",
+    "zhHant": "我對重量有疑問。"
   },
   {
     "id": "cartao-supermercado_mercado-pode-dar-me-uma-fatura",
@@ -28303,8 +28303,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "supermercado_mercado",
     "order": 551,
     "purpose": "useful situation example",
-    "pt": "Preciso de um pacote de açúcar.",
-    "en": "I need a packet of sugar.",
+    "pt": "Queria um pacote de açúcar.",
+    "en": "I would like a packet of sugar.",
     "zhHans": "我需要一包糖。",
     "zhHant": "我需要一包糖。"
   },
@@ -28333,7 +28333,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "supermercado_mercado",
     "order": 554,
     "purpose": "useful situation example",
-    "pt": "Preciso de ajuda para pesar.",
+    "pt": "Precisava de ajuda para pesar.",
     "en": "I need help to weigh.",
     "zhHans": "我需要协助稱重。",
     "zhHant": "我需要協助稱重。"
@@ -28353,10 +28353,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "supermercado_mercado",
     "order": 556,
     "purpose": "useful situation example",
-    "pt": "Quero um queijo fresco.",
-    "en": "I want a fresh cheese.",
-    "zhHans": "我想要一块新鲜奶酪。",
-    "zhHant": "我想要一塊新鮮起司。"
+    "pt": "Tem queijo fresco?",
+    "en": "Do you have fresh cheese?",
+    "zhHans": "有新鲜奶酪吗？",
+    "zhHant": "有新鮮芝士嗎？"
   },
   {
     "id": "cartao-supermercado_mercado-a-maca-e-melhor-do-que-as-limas",
@@ -28393,8 +28393,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "supermercado_mercado",
     "order": 560,
     "purpose": "useful situation example",
-    "pt": "Quero frango assado.",
-    "en": "I want roast chicken.",
+    "pt": "Gostaria de frango assado.",
+    "en": "I would like roast chicken.",
     "zhHans": "我想要烤鸡。",
     "zhHant": "我想要烤雞。"
   },
@@ -28463,10 +28463,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "cafe_restaurante",
     "order": 567,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a sobremesa.",
+    "pt": "Gostaria de esclarecer uma dúvida sobre a sobremesa.",
     "en": "I have a question about dessert.",
-    "zhHans": "我需要咨询有关甜品的问题。",
-    "zhHant": "我需要查詢有關甜品的問題。"
+    "zhHans": "我想咨询有关甜品的问题。",
+    "zhHant": "我想查詢有關甜品的問題。"
   },
   {
     "id": "cartao-cafe_restaurante-com-quem-devo-falar-sobre-o-prato-do-dia",
@@ -28563,10 +28563,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "consultorio_medico",
     "order": 577,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a análise ao sangue.",
+    "pt": "Queria esclarecer uma dúvida sobre a análise ao sangue.",
     "en": "I have a question about blood test.",
-    "zhHans": "我需要咨询有关验血的问题。",
-    "zhHant": "我需要查詢有關驗血的問題。"
+    "zhHans": "我想咨询有关验血的问题。",
+    "zhHant": "我想查詢有關驗血的問題。"
   },
   {
     "id": "cartao-consultorio_medico-com-quem-devo-falar-sobre-o-medico-especialista",
@@ -28733,7 +28733,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "casa_reparacoes",
     "order": 594,
     "purpose": "useful situation example",
-    "pt": "Preciso de chamar um canalizador.",
+    "pt": "Precisava de chamar um canalizador.",
     "en": "I need to call a plumber.",
     "zhHans": "我需要叫水管工。",
     "zhHant": "我需要找水喉匠。"
@@ -28763,10 +28763,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "casa_reparacoes",
     "order": 597,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o contrato de arrendamento.",
+    "pt": "Gostava de esclarecer uma dúvida sobre o contrato de arrendamento.",
     "en": "I have a question about rental contract.",
-    "zhHans": "我需要咨询有关租赁合同的问题。",
-    "zhHant": "我需要查詢有關租賃合同的問題。"
+    "zhHans": "我想咨询有关租赁合同的问题。",
+    "zhHant": "我想查詢有關租賃合同的問題。"
   },
   {
     "id": "cartao-casa_reparacoes-preciso-de-esclarecer-uma-duvida-sobre-a-remodelacao",
@@ -28843,7 +28843,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "casa_reparacoes",
     "order": 605,
     "purpose": "useful situation example",
-    "pt": "Preciso de chamar um eletricista.",
+    "pt": "Precisava de chamar um eletricista.",
     "en": "I need to call an electrician.",
     "zhHans": "我需要叫电工。",
     "zhHant": "我需要找電工。"
@@ -28853,8 +28853,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "agua_luz_gas",
     "order": 606,
     "purpose": "useful situation example",
-    "pt": "Quero alterar o titular da conta.",
-    "en": "I want to change the account holder.",
+    "pt": "Queria alterar o titular da conta.",
+    "en": "I would like to change the account holder.",
     "zhHans": "我想更改账户持有人。",
     "zhHant": "我想更改帳戶持有人。"
   },
@@ -28883,10 +28883,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "agua_luz_gas",
     "order": 609,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o débito direto.",
+    "pt": "Tenho uma dúvida sobre o débito direto.",
     "en": "I have a question about direct debit.",
-    "zhHans": "我需要咨询有关自动扣款的问题。",
-    "zhHant": "我需要查詢有關自動扣款的問題。"
+    "zhHans": "我对自动扣款有疑问。",
+    "zhHant": "我對自動扣款有疑問。"
   },
   {
     "id": "cartao-agua_luz_gas-com-quem-devo-falar-sobre-as-guias-de-pagamento",
@@ -28933,8 +28933,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "agua_luz_gas",
     "order": 614,
     "purpose": "useful situation example",
-    "pt": "Preciso de um comprovativo de pagamento.",
-    "en": "I need proof of payment.",
+    "pt": "Gostava de pedir um comprovativo de pagamento.",
+    "en": "I would like to request proof of payment.",
     "zhHans": "我需要付款凭证。",
     "zhHant": "我需要付款證明。"
   },
@@ -29043,7 +29043,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "telemovel_internet",
     "order": 625,
     "purpose": "useful situation example",
-    "pt": "Preciso de ajuda para reportar uma avaria.",
+    "pt": "Precisava de ajuda para reportar uma avaria.",
     "en": "I need help to report a fault.",
     "zhHans": "我需要协助報修。",
     "zhHant": "我需要協助報修。"
@@ -29053,8 +29053,8 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "telemovel_internet",
     "order": 626,
     "purpose": "useful situation example",
-    "pt": "Preciso de um cartão SIM português.",
-    "en": "I need a Portuguese SIM card.",
+    "pt": "Queria um cartão SIM português.",
+    "en": "I would like a Portuguese SIM card.",
     "zhHans": "我需要一张葡萄牙SIM卡。",
     "zhHant": "我需要一張葡萄牙SIM卡。"
   },
@@ -29313,7 +29313,7 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "policia_documentos",
     "order": 652,
     "purpose": "useful situation example",
-    "pt": "Preciso de substituir os documentos roubados.",
+    "pt": "Precisava de substituir os documentos roubados.",
     "en": "I need to replace the stolen documents.",
     "zhHans": "我需要补办被盗的证件。",
     "zhHant": "我需要補領被盜的證件。"
@@ -29523,10 +29523,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "iefp",
     "order": 673,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a agência de trabalho temporário.",
+    "pt": "Gostaria de esclarecer uma dúvida sobre a agência de trabalho temporário.",
     "en": "I have a question about temp agency.",
-    "zhHans": "我需要咨询有关劳务派遣公司的问题。",
-    "zhHant": "我需要查詢有關勞務派遣公司的問題。"
+    "zhHans": "我想咨询有关劳务派遣公司的问题。",
+    "zhHant": "我想查詢有關勞務派遣公司的問題。"
   },
   {
     "id": "cartao-iefp-pode-dar-me-informacoes-sobre-o-sindicato",
@@ -29623,10 +29623,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_hotelaria",
     "order": 683,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a folha de tarefas.",
+    "pt": "Queria esclarecer uma dúvida sobre a folha de tarefas.",
     "en": "I have a question about task sheet.",
-    "zhHans": "我需要咨询有关工作任务单的问题。",
-    "zhHant": "我需要查詢有關工作任務單的問題。"
+    "zhHans": "我想咨询有关工作任务单的问题。",
+    "zhHant": "我想查詢有關工作任務單的問題。"
   },
   {
     "id": "cartao-trabalho_restauracao-onde-posso-encontrar-informacoes-sobre-o-turno-partido",
@@ -29703,10 +29703,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_restauracao",
     "order": 691,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a esplanada cheia.",
+    "pt": "Gostava de esclarecer uma dúvida sobre a esplanada cheia.",
     "en": "I have a question about full terrace.",
-    "zhHans": "我需要咨询有关露天座位已满的问题。",
-    "zhHant": "我需要查詢有關露天座位已滿的問題。"
+    "zhHans": "我想咨询有关露天座位已满的问题。",
+    "zhHant": "我想查詢有關露天座位已滿的問題。"
   },
   {
     "id": "cartao-trabalho_restauracao-como-posso-lavar-a-loica",
@@ -29803,10 +29803,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_limpezas",
     "order": 701,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a limpeza a fundo.",
+    "pt": "Tenho uma dúvida sobre a limpeza a fundo.",
     "en": "I have a question about deep clean.",
-    "zhHans": "我需要咨询有关深度清洁的问题。",
-    "zhHant": "我需要查詢有關深度清潔的問題。"
+    "zhHans": "我对深度清洁有疑问。",
+    "zhHant": "我對深度清潔有疑問。"
   },
   {
     "id": "cartao-trabalho_limpezas-como-posso-estender-a-roupa",
@@ -29833,10 +29833,10 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_construcao",
     "order": 704,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre o seguro de acidentes de trabalho.",
+    "pt": "Gostaria de esclarecer uma dúvida sobre o seguro de acidentes de trabalho.",
     "en": "I have a question about workplace accident insurance.",
-    "zhHans": "我需要咨询有关工伤保险的问题。",
-    "zhHant": "我需要查詢有關工傷保險的問題。"
+    "zhHans": "我想咨询有关工伤保险的问题。",
+    "zhHant": "我想查詢有關工傷保險的問題。"
   },
   {
     "id": "cartao-trabalho_construcao-pode-dar-me-informacoes-sobre-o-orcamento",
@@ -30003,9 +30003,9 @@ export const situacaoCheatSheetLines: SituacaoContentLine[] = [
     "situacao": "trabalho_entregas",
     "order": 721,
     "purpose": "useful situation example",
-    "pt": "Preciso de esclarecer uma dúvida sobre a taxa de entrega.",
+    "pt": "Queria esclarecer uma dúvida sobre a taxa de entrega.",
     "en": "I have a question about delivery fee.",
-    "zhHans": "我需要咨询有关配送费的问题。",
-    "zhHant": "我需要查詢有關配送費的問題。"
+    "zhHans": "我想咨询有关配送费的问题。",
+    "zhHant": "我想查詢有關配送費的問題。"
   }
 ];

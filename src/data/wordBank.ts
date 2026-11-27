@@ -115,7 +115,8 @@ export function getVocabularyForSituacao(situacao: string) {
         examplePt: row.examplePt,
         exampleEn: row.exampleEn,
         exampleZhHans: row.exampleZhHans,
-        exampleZhHant: row.exampleZhHant
+        exampleZhHant: row.exampleZhHant,
+        exampleAudioPath: `audio/pt/examples/situacoes/${situacao}-${entry.id}.m4a`
       };
     });
 }

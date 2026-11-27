@@ -5,10 +5,30 @@ import { fileURLToPath } from "node:url";
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const source = readFileSync(join(root, "src", "data", "situacoes.ts"), "utf8");
 const groups = extract("situacaoGroups");
+const vocabularyRows = extract("situacaoVocabularyRows");
 const dialogues = extract("situacaoDialogueLines");
 const cards = extract("situacaoCheatSheetLines");
 const situations = groups.flatMap((group) => group.items.map((item) => item.id));
 const errors = [];
+const manualSource = readFileSync(join(root, "src", "data", "vocabulary.ts"), "utf8");
+const manualVocabulary = JSON.parse(
+  manualSource.match(/export const vocabulary: VocabularyEntry\[] = ([\s\S]*?) satisfies VocabularyEntry\[];/)?.[1] ?? "[]"
+);
+const baseExampleById = new Map(manualVocabulary.map((entry) => [entry.id, entry.examplePt]));
+const manualIds = new Set(manualVocabulary.map((entry) => entry.id));
+for (const row of vocabularyRows) {
+  if (!baseExampleById.has(row.id)) baseExampleById.set(row.id, row.examplePt);
+  else if (!manualIds.has(row.id) && !baseExampleById.get(row.id) && row.examplePt) {
+    baseExampleById.set(row.id, row.examplePt);
+  }
+}
+for (const row of vocabularyRows) {
+  if (!row.examplePt || row.examplePt === baseExampleById.get(row.id)) continue;
+  const audioPath = join(root, "public", "audio", "pt", "examples", "situacoes", `${row.situacao}-${row.id}.m4a`);
+  if (!existsSync(audioPath) || statSync(audioPath).size < 1_000) {
+    errors.push(`${row.situacao}:${row.id} is missing contextual example audio: ${audioPath}`);
+  }
+}
 const cardStructurePatterns = [
   /^Queria informações sobre /u,
   /^Pode dar-me informações sobre /u,

@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { getVocabularyForSituacao, wordBank } from "../src/data/wordBank";
+import { getExampleAudioPath } from "../src/lib/audioPaths";
 import { situacaoCheatSheetLines, situacaoDialogueLines, situacaoGroups, situacaoVocabularyRows } from "../src/data/situacoes";
 
 const allSituationIds = situacaoGroups.flatMap((group) => group.items.map((item) => item.id));
@@ -66,6 +67,7 @@ describe("situation examples", () => {
     expect(recognition?.examplePt).toBe("Preencha o formulário para pedir o reconhecimento.");
     expect(consulate?.examplePt).toBe("Preencha o pedido antes de ir ao consulado.");
     expect(recognition?.exampleEn).toBe("Fill in the form to request recognition.");
+    expect(getExampleAudioPath(recognition!)).toBe("audio/pt/examples/situacoes/reconhecimento_diplomas-az-0579.m4a");
     expect(getVocabularyForSituacao("supermercado_mercado").find((entry) => entry.id === "az-0162")?.examplePt).toBe("Pode dar-me uma fatura?");
     expect(getVocabularyForSituacao("agua_luz_gas").find((entry) => entry.id === "az-0162")?.examplePt).toBe("Podia dar-me uma fatura?");
   });

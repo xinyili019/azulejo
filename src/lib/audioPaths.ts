@@ -5,7 +5,7 @@ export function getWordAudioPath(entry: VocabularyEntry): string {
 }
 
 export function getExampleAudioPath(entry: VocabularyEntry): string {
-  return `audio/pt/examples/${getAudioFileId(entry)}.m4a`;
+  return entry.exampleAudioPath ?? `audio/pt/examples/${getAudioFileId(entry)}.m4a`;
 }
 
 function getAudioFileId(entry: VocabularyEntry): string {

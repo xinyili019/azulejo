@@ -18,6 +18,7 @@ export interface VocabularyEntry {
   exampleEn?: string;
   exampleZhHans?: string;
   exampleZhHant?: string;
+  exampleAudioPath?: string;
   note?: string;
   situacao?: string;
   situacoes?: string[];
