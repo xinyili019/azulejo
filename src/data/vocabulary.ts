@@ -793,10 +793,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "one hundred",
     "zhHans": "一百",
     "zhHant": "一百",
-    "examplePt": "Cem é um número.",
-    "exampleEn": "One hundred is a number.",
-    "exampleZhHans": "一百是一个数字。",
-    "exampleZhHant": "一百是一個數字。",
+    "examplePt": "Cem pessoas estiveram no evento.",
+    "exampleEn": "A hundred people attended the event.",
+    "exampleZhHans": "一百人参加了活动。",
+    "exampleZhHant": "一百人參加了活動。",
     "source": "pdf"
   },
   {
@@ -810,10 +810,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "five",
     "zhHans": "五",
     "zhHant": "五",
-    "examplePt": "São cinco euros.",
-    "exampleEn": "It is five euros.",
-    "exampleZhHans": "是五欧元。",
-    "exampleZhHant": "是五歐元。",
+    "examplePt": "O bilhete custa cinco euros.",
+    "exampleEn": "The ticket costs five euros.",
+    "exampleZhHans": "票价是五欧元。",
+    "exampleZhHant": "票價是五歐元。",
     "source": "pdf"
   },
   {
@@ -827,10 +827,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "fifty",
     "zhHans": "五十",
     "zhHant": "五十",
-    "examplePt": "São cinquenta euros.",
-    "exampleEn": "It is fifty euros.",
-    "exampleZhHans": "是五十欧元。",
-    "exampleZhHant": "是五十歐元。",
+    "examplePt": "Pagámos cinquenta euros pelo jantar.",
+    "exampleEn": "We paid fifty euros for dinner.",
+    "exampleZhHans": "我们晚餐花了五十欧元。",
+    "exampleZhHant": "我們晚餐花了五十歐元。",
     "source": "pdf"
   },
   {
@@ -844,10 +844,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "ten",
     "zhHans": "十",
     "zhHant": "十",
-    "examplePt": "Tenho dez euros.",
-    "exampleEn": "I have ten euros.",
-    "exampleZhHans": "我有十欧元。",
-    "exampleZhHant": "我有十歐元。",
+    "examplePt": "Comprei dez maçãs.",
+    "exampleEn": "I bought ten apples.",
+    "exampleZhHans": "我买了十个苹果。",
+    "exampleZhHant": "我買了十個蘋果。",
     "source": "pdf"
   },
   {
@@ -861,10 +861,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "two",
     "zhHans": "二",
     "zhHant": "二",
-    "examplePt": "Tenho dois filhos.",
-    "exampleEn": "I have two children.",
-    "exampleZhHans": "我有两个孩子。",
-    "exampleZhHant": "我有兩個孩子。",
+    "examplePt": "Há dois bancos nesta rua.",
+    "exampleEn": "There are two banks on this street.",
+    "exampleZhHans": "这条街上有两家银行。",
+    "exampleZhHant": "這條街上有兩家銀行。",
     "source": "pdf"
   },
   {
@@ -878,10 +878,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "one thousand",
     "zhHans": "一千",
     "zhHant": "一千",
-    "examplePt": "Mil é um número.",
-    "exampleEn": "One thousand is a number.",
-    "exampleZhHans": "一千是一个数字。",
-    "exampleZhHant": "一千是一個數字。",
+    "examplePt": "Mil pessoas vivem nesta vila.",
+    "exampleEn": "A thousand people live in this town.",
+    "exampleZhHans": "这座小镇住着一千人。",
+    "exampleZhHant": "這座小鎮住著一千人。",
     "source": "pdf"
   },
   {
@@ -895,10 +895,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "nine",
     "zhHans": "九",
     "zhHant": "九",
-    "examplePt": "São nove horas.",
-    "exampleEn": "It is nine o'clock.",
-    "exampleZhHans": "现在九点。",
-    "exampleZhHant": "現在九點。",
+    "examplePt": "A aula começa às nove.",
+    "exampleEn": "The class starts at nine.",
+    "exampleZhHans": "课程九点开始。",
+    "exampleZhHant": "課程九點開始。",
     "source": "pdf"
   },
   {
@@ -912,10 +912,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "eight",
     "zhHans": "八",
     "zhHant": "八",
-    "examplePt": "Entro às oito.",
-    "exampleEn": "I go in at eight.",
-    "exampleZhHans": "我八点进去。",
-    "exampleZhHant": "我八點進去。",
+    "examplePt": "A loja abre às oito.",
+    "exampleEn": "The shop opens at eight.",
+    "exampleZhHans": "商店八点开门。",
+    "exampleZhHant": "商店八點開門。",
     "source": "pdf"
   },
   {
@@ -929,10 +929,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "forty",
     "zhHans": "四十",
     "zhHant": "四十",
-    "examplePt": "Tenho quarenta anos.",
-    "exampleEn": "I am forty years old.",
-    "exampleZhHans": "我四十岁。",
-    "exampleZhHant": "我四十歲。",
+    "examplePt": "A minha mãe tem quarenta anos.",
+    "exampleEn": "My mother is forty years old.",
+    "exampleZhHans": "我母亲四十岁。",
+    "exampleZhHant": "我母親四十歲。",
     "source": "pdf"
   },
   {
@@ -946,10 +946,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "four",
     "zhHans": "四",
     "zhHant": "四",
-    "examplePt": "Tenho quatro aulas.",
-    "exampleEn": "I have four classes.",
-    "exampleZhHans": "我有四节课。",
-    "exampleZhHant": "我有四節課。",
+    "examplePt": "Há quatro cadeiras à mesa.",
+    "exampleEn": "There are four chairs at the table.",
+    "exampleZhHans": "桌边有四把椅子。",
+    "exampleZhHant": "桌邊有四把椅子。",
     "source": "pdf"
   },
   {
@@ -980,10 +980,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "seven",
     "zhHans": "七",
     "zhHant": "七",
-    "examplePt": "São sete horas.",
-    "exampleEn": "It is seven o'clock.",
-    "exampleZhHans": "现在七点。",
-    "exampleZhHant": "現在七點。",
+    "examplePt": "O autocarro chega às sete.",
+    "exampleEn": "The bus arrives at seven.",
+    "exampleZhHans": "公交车七点到。",
+    "exampleZhHant": "巴士七點到。",
     "source": "pdf"
   },
   {
@@ -997,10 +997,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "three",
     "zhHans": "三",
     "zhHant": "三",
-    "examplePt": "Tenho três documentos.",
-    "exampleEn": "I have three documents.",
-    "exampleZhHans": "我有三份文件。",
-    "exampleZhHant": "我有三份文件。",
+    "examplePt": "Tenho três gatos.",
+    "exampleEn": "I have three cats.",
+    "exampleZhHans": "我有三只猫。",
+    "exampleZhHant": "我有三隻貓。",
     "source": "pdf"
   },
   {
@@ -1031,10 +1031,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "one",
     "zhHans": "一",
     "zhHant": "一",
-    "examplePt": "Tenho um filho.",
-    "exampleEn": "I have a son.",
-    "exampleZhHans": "我有一个儿子。",
-    "exampleZhHant": "我有一個兒子。",
+    "examplePt": "O meu irmão tem um cão.",
+    "exampleEn": "My brother has one dog.",
+    "exampleZhHans": "我哥哥有一只狗。",
+    "exampleZhHant": "我哥哥有一隻狗。",
     "source": "pdf"
   },
   {
@@ -1048,10 +1048,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "twenty",
     "zhHans": "二十",
     "zhHant": "二十",
-    "examplePt": "São vinte euros.",
-    "exampleEn": "It is twenty euros.",
-    "exampleZhHans": "是二十欧元。",
-    "exampleZhHant": "是二十歐元。",
+    "examplePt": "O livro tem vinte páginas.",
+    "exampleEn": "The book has twenty pages.",
+    "exampleZhHans": "这本书有二十页。",
+    "exampleZhHant": "這本書有二十頁。",
     "source": "pdf"
   },
   {
@@ -1356,10 +1356,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "Sunday",
     "zhHans": "星期日",
     "zhHant": "星期日",
-    "examplePt": "Hoje é domingo.",
-    "exampleEn": "Today is Sunday.",
-    "exampleZhHans": "今天是星期日。",
-    "exampleZhHant": "今天是星期日。",
+    "examplePt": "Descanso ao domingo.",
+    "exampleEn": "I rest on Sundays.",
+    "exampleZhHans": "我每周日休息。",
+    "exampleZhHant": "我每週日休息。",
     "source": "pdf"
   },
   {
@@ -1509,10 +1509,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "Wednesday",
     "zhHans": "周三",
     "zhHant": "週三",
-    "examplePt": "Hoje é quarta-feira.",
-    "exampleEn": "Today is Wednesday.",
-    "exampleZhHans": "今天是星期三。",
-    "exampleZhHant": "今天是星期三。",
+    "examplePt": "A consulta é na quarta-feira.",
+    "exampleEn": "The appointment is on Wednesday.",
+    "exampleZhHans": "预约在星期三。",
+    "exampleZhHant": "預約在星期三。",
     "source": "pdf"
   },
   {
@@ -1526,10 +1526,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "Thursday",
     "zhHans": "周四",
     "zhHant": "週四",
-    "examplePt": "Hoje é quinta-feira.",
-    "exampleEn": "Today is Thursday.",
-    "exampleZhHans": "今天是星期四。",
-    "exampleZhHant": "今天是星期四。",
+    "examplePt": "Trabalho em casa à quinta-feira.",
+    "exampleEn": "I work from home on Thursdays.",
+    "exampleZhHans": "我每周四在家工作。",
+    "exampleZhHant": "我每週四在家工作。",
     "source": "pdf"
   },
   {
@@ -1543,10 +1543,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "Saturday",
     "zhHans": "周六",
     "zhHant": "週六",
-    "examplePt": "Hoje é sábado.",
-    "exampleEn": "Today is Saturday.",
-    "exampleZhHans": "今天是星期六。",
-    "exampleZhHant": "今天是星期六。",
+    "examplePt": "Vamos ao mercado no sábado.",
+    "exampleEn": "We go to the market on Saturday.",
+    "exampleZhHans": "我们星期六去市场。",
+    "exampleZhHant": "我們星期六去市場。",
     "source": "pdf"
   },
   {
@@ -1560,10 +1560,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "Monday",
     "zhHans": "周一",
     "zhHant": "週一",
-    "examplePt": "Hoje é segunda-feira.",
-    "exampleEn": "Today is Monday.",
-    "exampleZhHans": "今天是星期一。",
-    "exampleZhHant": "今天是星期一。",
+    "examplePt": "A semana começa na segunda-feira.",
+    "exampleEn": "The week starts on Monday.",
+    "exampleZhHans": "一周从星期一开始。",
+    "exampleZhHant": "一週從星期一開始。",
     "source": "pdf"
   },
   {
@@ -1594,10 +1594,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "Friday",
     "zhHans": "星期五",
     "zhHant": "星期五",
-    "examplePt": "Hoje é sexta-feira.",
-    "exampleEn": "Today is Friday.",
-    "exampleZhHans": "今天是星期五。",
-    "exampleZhHant": "今天是星期五。",
+    "examplePt": "O meu filho joga futebol à sexta-feira.",
+    "exampleEn": "My son plays football on Fridays.",
+    "exampleZhHans": "我儿子每周五踢足球。",
+    "exampleZhHant": "我兒子每週五踢足球。",
     "source": "pdf"
   },
   {
@@ -1611,10 +1611,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "Tuesday",
     "zhHans": "周二",
     "zhHant": "週二",
-    "examplePt": "Hoje é terça-feira.",
-    "exampleEn": "Today is Tuesday.",
-    "exampleZhHans": "今天是星期二。",
-    "exampleZhHant": "今天是星期二。",
+    "examplePt": "Tenho aulas de português à terça-feira.",
+    "exampleEn": "I have Portuguese classes on Tuesdays.",
+    "exampleZhHans": "我每周二有葡萄牙语课。",
+    "exampleZhHant": "我每週二有葡萄牙語課。",
     "source": "pdf"
   },
   {
@@ -6779,10 +6779,10 @@ export const vocabulary: VocabularyEntry[] = [
     "english": "doctor",
     "zhHans": "医生",
     "zhHant": "醫生",
-    "examplePt": "A médica observa o doente.",
-    "exampleEn": "The doctor examines the patient.",
-    "exampleZhHans": "女医生观察病人。",
-    "exampleZhHant": "女醫生觀察病人。",
+    "examplePt": "A médica atende os doentes de manhã.",
+    "exampleEn": "The doctor sees patients in the morning.",
+    "exampleZhHans": "女医生上午接诊病人。",
+    "exampleZhHant": "女醫生上午接診病人。",
     "source": "pdf"
   },
   {

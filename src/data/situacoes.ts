@@ -10018,10 +10018,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "legacyIds": [
       "situacao-o-penso-rapido"
     ],
-    "examplePt": "Preciso de um penso rápido.",
-    "exampleEn": "I need a Band-Aid.",
-    "exampleZhHans": "我需要创可贴。",
-    "exampleZhHant": "我需要OK繃。"
+    "examplePt": "Tem um penso rápido?",
+    "exampleEn": "Do you have a Band-Aid?",
+    "exampleZhHans": "有创可贴吗？",
+    "exampleZhHant": "有膠布嗎？"
   },
   {
     "situacao": "farmacia",
@@ -11118,10 +11118,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "doctor",
     "zhHans": "医生",
     "zhHant": "醫生",
-    "examplePt": "A médica observa o doente.",
-    "exampleEn": "The doctor examines the patient.",
-    "exampleZhHans": "女医生观察病人。",
-    "exampleZhHant": "女醫生觀察病人。"
+    "examplePt": "A médica atende os doentes de manhã.",
+    "exampleEn": "The doctor sees patients in the morning.",
+    "exampleZhHans": "女医生上午接诊病人。",
+    "exampleZhHant": "女醫生上午接診病人。"
   },
   {
     "id": "az-0382",
@@ -11953,10 +11953,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "發票",
     "pos": "noun",
     "gender": "f",
-    "examplePt": "Pode dar-me uma fatura?",
-    "exampleEn": "Can you give me an invoice?",
-    "exampleZhHans": "可以给我一张发票吗？",
-    "exampleZhHant": "可以給我一張發票嗎？"
+    "examplePt": "Podia dar-me uma fatura?",
+    "exampleEn": "Could you give me an invoice?",
+    "exampleZhHans": "您能给我一张发票吗？",
+    "exampleZhHant": "您能給我一張發票嗎？"
   },
   {
     "id": "az-0231",
@@ -13914,10 +13914,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "票號",
     "pos": "noun",
     "gender": "f",
-    "examplePt": "Pode dar-me a sua senha?",
-    "exampleEn": "Can you give me your ticket number?",
-    "exampleZhHans": "您可以给我您的号码票吗？",
-    "exampleZhHant": "您可以給我您的號碼牌嗎？"
+    "examplePt": "Podia dar-me a sua senha?",
+    "exampleEn": "Could you give me your ticket number?",
+    "exampleZhHans": "您能把号码牌给我吗？",
+    "exampleZhHant": "您能把號碼牌給我嗎？"
   },
   {
     "id": "az-0529",
@@ -14093,10 +14093,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "zhHant": "發票",
     "pos": "noun",
     "gender": "f",
-    "examplePt": "Pode dar-me uma fatura?",
-    "exampleEn": "Can you give me an invoice?",
-    "exampleZhHans": "可以给我一张发票吗？",
-    "exampleZhHant": "可以給我一張發票嗎？"
+    "examplePt": "Podia dar-me uma fatura?",
+    "exampleEn": "Could you give me an invoice?",
+    "exampleZhHans": "您能给我一张发票吗？",
+    "exampleZhHant": "您能給我一張發票嗎？"
   },
   {
     "id": "az-0017",
@@ -15458,10 +15458,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to fill in",
     "zhHans": "填写",
     "zhHant": "填寫",
-    "examplePt": "Basta preencher o requerimento.",
-    "exampleEn": "It is enough to fill in the application form.",
-    "exampleZhHans": "只需填写申请表。",
-    "exampleZhHant": "只需填寫申請表。"
+    "examplePt": "Preencha o formulário para pedir o reconhecimento.",
+    "exampleEn": "Fill in the form to request recognition.",
+    "exampleZhHans": "请填写表格以申请学历认可。",
+    "exampleZhHant": "請填寫表格以申請學歷認可。"
   },
   {
     "situacao": "reconhecimento_diplomas",
@@ -15866,10 +15866,10 @@ export const situacaoVocabularyRows: SituacaoVocabularyRow[] = [
     "en": "to fill in",
     "zhHans": "填写",
     "zhHant": "填寫",
-    "examplePt": "Basta preencher o requerimento.",
-    "exampleEn": "It is enough to fill in the application form.",
-    "exampleZhHans": "只需填写申请表。",
-    "exampleZhHant": "只需填寫申請表。"
+    "examplePt": "Preencha o pedido antes de ir ao consulado.",
+    "exampleEn": "Fill in the application before going to the consulate.",
+    "exampleZhHans": "去领事馆前请填写申请表。",
+    "exampleZhHant": "去領事館前請填寫申請表。"
   },
   {
     "situacao": "consulado_documentos",

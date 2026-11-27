@@ -98,6 +98,24 @@ export const wordBank = buildWordBank();
 
 export const situacaoVocabulary = wordBank.filter((entry) => entry.situacoes?.length);
 
+const situationExamples = new Map(
+  situacaoVocabularyRows
+    .filter((row) => row.examplePt)
+    .map((row) => [`${row.situacao}:${row.id}`, row] as const)
+);
+
 export function getVocabularyForSituacao(situacao: string) {
-  return situacaoVocabulary.filter((entry) => entry.situacoes?.includes(situacao));
+  return situacaoVocabulary
+    .filter((entry) => entry.situacoes?.includes(situacao))
+    .map((entry) => {
+      const row = situationExamples.get(`${situacao}:${entry.id}`);
+      if (!row || row.examplePt === entry.examplePt) return entry;
+      return {
+        ...entry,
+        examplePt: row.examplePt,
+        exampleEn: row.exampleEn,
+        exampleZhHans: row.exampleZhHans,
+        exampleZhHant: row.exampleZhHant
+      };
+    });
 }

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { getVocabularyForSituacao, wordBank } from "../src/data/wordBank";
-import { situacaoCheatSheetLines, situacaoDialogueLines, situacaoGroups } from "../src/data/situacoes";
+import { situacaoCheatSheetLines, situacaoDialogueLines, situacaoGroups, situacaoVocabularyRows } from "../src/data/situacoes";
 
 const allSituationIds = situacaoGroups.flatMap((group) => group.items.map((item) => item.id));
 
@@ -55,6 +55,46 @@ describe("practical situations", () => {
     expect(getVocabularyForSituacao(situacao)).toHaveLength(30);
     expect(situacaoDialogueLines.filter((line) => line.situacao === situacao)).toHaveLength(20);
     expect(situacaoCheatSheetLines.filter((line) => line.situacao === situacao)).toHaveLength(20);
+  });
+});
+
+describe("situation examples", () => {
+  it("uses the example written for each situation while retaining the shared vocabulary ID", () => {
+    const recognition = getVocabularyForSituacao("reconhecimento_diplomas").find((entry) => entry.id === "az-0579");
+    const consulate = getVocabularyForSituacao("consulado_documentos").find((entry) => entry.id === "az-0579");
+
+    expect(recognition?.examplePt).toBe("Preencha o formulário para pedir o reconhecimento.");
+    expect(consulate?.examplePt).toBe("Preencha o pedido antes de ir ao consulado.");
+    expect(recognition?.exampleEn).toBe("Fill in the form to request recognition.");
+    expect(getVocabularyForSituacao("supermercado_mercado").find((entry) => entry.id === "az-0162")?.examplePt).toBe("Pode dar-me uma fatura?");
+    expect(getVocabularyForSituacao("agua_luz_gas").find((entry) => entry.id === "az-0162")?.examplePt).toBe("Podia dar-me uma fatura?");
+  });
+
+  it("limits repeated vocabulary examples and openings across situations", () => {
+    const counts = new Map<string, number>();
+    const openings = new Map<string, number>();
+    const seenWithinSituation = new Set<string>();
+
+    for (const row of situacaoVocabularyRows) {
+      if (!row.examplePt) continue;
+      const key = `${row.situacao}:${row.examplePt}`;
+      expect(seenWithinSituation.has(key)).toBe(false);
+      seenWithinSituation.add(key);
+      counts.set(row.examplePt, (counts.get(row.examplePt) ?? 0) + 1);
+      const opening = row.examplePt
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/gu, "")
+        .toLocaleLowerCase("pt-PT")
+        .replace(/[^\p{L}\p{N}]+/gu, " ")
+        .trim()
+        .split(" ")
+        .slice(0, 3)
+        .join(" ");
+      openings.set(opening, (openings.get(opening) ?? 0) + 1);
+    }
+
+    expect(Math.max(...counts.values())).toBeLessThanOrEqual(3);
+    expect(Math.max(...openings.values())).toBeLessThanOrEqual(3);
   });
 });
 
